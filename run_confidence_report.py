@@ -203,7 +203,7 @@ def band_sort_key(band_label: str) -> int:
 
 def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                league_id_filter: int = None, show_components: bool = False,
-               min_graded: int = 0, hidden_gems: bool = False, no_playoffs: bool = False):
+               min_graded: int = 2, hidden_gems: bool = False, no_playoffs: bool = False):
 
     pred_path = os.path.join(PREDICTIONS_DIR, f"universal_predictions_{date_str}.json")
     if not os.path.exists(pred_path):
@@ -511,8 +511,8 @@ def main():
     parser.add_argument("--tier",       choices=["elite_pro", "top_domestic", "second_division", "lower"],
                         help="Filter by league tier")
     parser.add_argument("--league_id",  type=int, help="Filter to a single league")
-    parser.add_argument("--min_graded", type=int, default=0,
-                        help="Only show games where BOTH teams have at least this many graded games in the tracking epoch")
+    parser.add_argument("--min_graded", type=int, default=2,
+                        help="Only show games where BOTH teams have at least this many graded games in the tracking epoch (default: 2)")
     parser.add_argument("--hidden_gems", action="store_true",
                         help="Only show Moderate/Low games with High Stability (Vol Score >= 15)")
     parser.add_argument("--components", action="store_true",

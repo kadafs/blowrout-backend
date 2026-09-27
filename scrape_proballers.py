@@ -425,7 +425,7 @@ if __name__ == "__main__":
                 d_obj = datetime.now(timezone.utc)
             else:
                 d_obj = datetime.strptime(args.daily, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-            args.cutoff_date = (d_obj - timedelta(days=2)).strftime("%Y-%m-%d")
+            args.cutoff_date = (d_obj - timedelta(days=14)).strftime("%Y-%m-%d")
             print(f"-> Set automatic cutoff_date to {args.cutoff_date} for daily mode.\n")
     elif args.file:
         if not os.path.exists(args.file):

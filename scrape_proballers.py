@@ -95,7 +95,10 @@ def parse_boxscore(html):
                     p_name = p_cells[0]
                     if not p_name or p_name.lower() in ["totals", "team", team_name.lower()]: continue
                     pts_str = p_cells[1]
-                    pts = int(pts_str) if pts_str.isdigit() else 0
+                    try:
+                        pts = int(pts_str)
+                    except (ValueError, TypeError):
+                        pts = 0
                     min_str = p_cells[4].upper()
                     if min_str not in ["", "DNP", "00:00", "0", "0:00"] or pts > 0:
                         active_players.append({"name": p_name, "pts": pts})
@@ -132,6 +135,14 @@ def parse_boxscore(html):
                 }
 
     # --- Legacy Layout (3 tables): [0] Quarters, [1] Home Team, [2] Away Team ---
+    def safe_int(val, default=0):
+        """Safely converts a cell value to int, returning default for '-', '', or non-numeric."""
+        v = str(val).strip().replace('%', '')
+        try:
+            return int(v)
+        except (ValueError, TypeError):
+            return default
+
     def extract_team_totals(table):
         rows = table.find_all('tr')
         if len(rows) < 2: return None
@@ -145,7 +156,7 @@ def parse_boxscore(html):
             if not name or name.lower() == "totals" or name.lower() == "team": continue
             
             pts_str = player_cells[1].text.strip()
-            pts = int(pts_str) if pts_str.isdigit() else 0
+            pts = safe_int(pts_str)
             
             min_str = player_cells[2].text.strip().upper()
             if min_str not in ["", "DNP", "00:00", "0", "0:00"] or pts > 0:
@@ -155,26 +166,27 @@ def parse_boxscore(html):
         cells = [td.text.strip() for td in totals_row.find_all('td')]
         if len(cells) < 18: return None
         
+        # FGA = made+attempted for 2s + 3s; guard against '-' cells
         twos = cells[5].split('-')
         threes = cells[6].split('-')
-        fga = int(twos[1]) + int(threes[1]) if len(twos)==2 and len(threes)==2 else 0
+        fga = (safe_int(twos[1]) + safe_int(threes[1])) if (len(twos) == 2 and len(threes) == 2) else 0
         
         fts = cells[8].split('-')
-        fta = int(fts[1]) if len(fts)==2 else 0
+        fta = safe_int(fts[1]) if len(fts) == 2 else 0
         
         return {
             "team_name": cells[0],
             "players": active_players,
-            "points": int(cells[1] or 0),
+            "points": safe_int(cells[1]),
             "FGA": fga,
             "FTA": fta,
-            "ORB": int(cells[10] or 0),
-            "DRB": int(cells[11] or 0),
-            "TRB": int(cells[12] or 0),
-            "AST": int(cells[13] or 0),
-            "TOV": int(cells[14] or 0),
-            "STL": int(cells[15] or 0),
-            "BLK": int(cells[16] or 0)
+            "ORB": safe_int(cells[10]),
+            "DRB": safe_int(cells[11]),
+            "TRB": safe_int(cells[12]),
+            "AST": safe_int(cells[13]),
+            "TOV": safe_int(cells[14]),
+            "STL": safe_int(cells[15]),
+            "BLK": safe_int(cells[16])
         }
         
     h_data = extract_team_totals(tables[1])

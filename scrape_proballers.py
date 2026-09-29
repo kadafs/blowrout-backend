@@ -544,11 +544,18 @@ if __name__ == "__main__":
     parser.add_argument("--daily", type=str, nargs="?", const="today", help="Scrape only leagues playing on this date (YYYY-MM-DD or 'today')")
     parser.add_argument("--max", type=int, default=200, help="Max games to scrape per league (prevent timeout during sync)")
     parser.add_argument("--cutoff_date", type=str, help="Do not scrape games older than this date (YYYY-MM-DD)")
+    parser.add_argument("--refresh", action="store_true", help="Launch interactive Chrome window to solve Cloudflare and refresh cf_clearance")
     parser.add_argument("--cf_clearance", type=str, help="Cloudflare clearance cookie override")
     parser.add_argument("--user_agent", type=str, help="User-Agent string override")
     
     args = parser.parse_args()
-    
+
+    if args.refresh:
+        from refresh_proballers_session import refresh_session
+        if not refresh_session():
+            print("[-] Session refresh failed or was cancelled. Exiting.")
+            sys.exit(1)
+
     session = get_proballers_session(args.cf_clearance, args.user_agent)
     
     target_urls = []

@@ -4,22 +4,42 @@ import glob
 from collections import defaultdict
 from datetime import datetime
 
-# Epoch-aware season filtering (same system used by aggregate_basketball_stats_v2.py)
-try:
-    import sys as _sys
-    _sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-    from utils.epoch_config import get_global_epoch, get_league_epochs
-    _EPOCH_AVAILABLE = True
-except Exception:
-    _EPOCH_AVAILABLE = False
+# Season cutoff logic matching generate_advanced_metrics.py (TEAM STATS)
+SUMMER_LEAGUE_IDS = {"13", "66", "76", "222", "207", "208", "209", "210", "211", "212", "213", "214", "215", "216"}
+
+def get_season_cutoff(league_id, ref_date=None):
+    """
+    Exact same season cutoff logic used by TEAM STATS in generate_advanced_metrics.py:
+    - Summer leagues (WNBA, NBL1, CEBL): runs Jan 1 - Dec 31 of current year.
+    - Global winter leagues: runs Aug 1 to May/June across year boundary.
+      If current month >= 8 (Aug-Dec), season started Aug 1 of this year.
+      If current month < 8 (Jan-Jul), season started Aug 1 of previous year.
+    """
+    if ref_date is None:
+        ref_date = datetime.now()
+    elif isinstance(ref_date, str):
+        try:
+            ref_date = datetime.strptime(ref_date[:10], "%Y-%m-%d")
+        except Exception:
+            ref_date = datetime.now()
+            
+    cur_year = ref_date.year
+    cur_month = ref_date.month
+    
+    if str(league_id) in SUMMER_LEAGUE_IDS:
+        return f"{cur_year}-01-01"
+    if cur_month >= 8:
+        return f"{cur_year}-08-01"
+    return f"{cur_year - 1}-08-01"
 
 
-def _parse_match_date(date_str):
+def _parse_match_date(date_str, ref_year=None):
     """
     Robustly parse a match date string into a comparable ISO string (YYYY-MM-DD).
     Handles:
       - ISO format:   '2026-03-21'
       - Proballers:   'Feb 6, 2026', 'Oct 7, 2025'
+      - Flashscore:   '28.09.2026 14:00', '28.09. 14:00'
     Returns the ISO string, or '' on failure.
     """
     if not date_str:
@@ -28,12 +48,22 @@ def _parse_match_date(date_str):
     # Already ISO
     if len(s) >= 10 and s[4] == '-' and s[7] == '-':
         return s[:10]
-    # Try human-readable formats used by Proballers
-    for fmt in ('%b %d, %Y', '%B %d, %Y', '%d %b %Y', '%d/%m/%Y', '%m/%d/%Y'):
+    # Try human-readable formats used by Proballers / standard
+    for fmt in ('%b %d, %Y', '%B %d, %Y', '%d %b %Y', '%d/%m/%Y', '%m/%d/%Y', '%d.%m.%Y', '%d.%m.%Y %H:%M'):
         try:
             return datetime.strptime(s, fmt).strftime('%Y-%m-%d')
         except ValueError:
             pass
+    # Flashscore 'DD.MM. HH:MM' or 'DD.MM.'
+    if '.' in s:
+        parts = s.split()[0].rstrip('.').split('.')
+        if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit():
+            day, month = int(parts[0]), int(parts[1])
+            year = ref_year or datetime.now().year
+            try:
+                return datetime(year, month, day).strftime('%Y-%m-%d')
+            except Exception:
+                pass
     return ''
 
 def _find_league_file(league_id, league_name=None):
@@ -150,65 +180,68 @@ def get_recent_form(matches, team):
                 break
     return recent
 
-def calculate_standings(matches, league_id=None):
+def calculate_standings(matches, league_id=None, ref_date=None):
     """
     Calculate a standings table based on W-L tallies.
-    Filtered to the current season epoch (same logic as TEAM STATS) so that
-    the P/W/L columns do not include previous-season games.
+    Filtered to the current season cutoff (same logic as TEAM STATS in generate_advanced_metrics.py)
+    so that the P/W/L columns do not include previous-season games.
     """
-    # Determine effective epoch cutoff for this league
-    epoch_cutoff = ''
-    if _EPOCH_AVAILABLE and league_id is not None:
-        try:
-            league_epochs = get_league_epochs()
-            global_epoch = get_global_epoch()
-            epoch_cutoff = league_epochs.get(int(league_id), global_epoch)
-        except Exception:
-            epoch_cutoff = ''
+    season_cutoff = ''
+    if league_id is not None:
+        season_cutoff = get_season_cutoff(league_id, ref_date)
 
-    standings = {}
-    for m in matches:
-        ht = m.get('home_team')
-        at = m.get('away_team')
-        hs = m.get('home_score', 0)
-        as_ = m.get('away_score', 0)
-        if not ht or not at: continue
-
-        # --- Epoch filter: skip games from previous seasons ---
-        if epoch_cutoff:
-            match_date = _parse_match_date(m.get('date', ''))
-            if match_date and match_date < epoch_cutoff:
+    def _tally(match_list):
+        standings = {}
+        for m in match_list:
+            ht = m.get('home_team')
+            at = m.get('away_team')
+            hs = m.get('home_score', 0)
+            as_ = m.get('away_score', 0)
+            if not ht or not at:
                 continue
-        
-        for t in [ht, at]:
-            if t not in standings:
-                standings[t] = {'w':0, 'l':0, 'pf':0, 'pa':0, 'form': []}
-                
-        if hs > as_:
-            standings[ht]['w'] += 1
-            standings[at]['l'] += 1
-            if len(standings[ht]['form']) < 5: standings[ht]['form'].append('W')
-            if len(standings[at]['form']) < 5: standings[at]['form'].append('L')
-        elif as_ > hs:
-            standings[at]['w'] += 1
-            standings[ht]['l'] += 1
-            if len(standings[ht]['form']) < 5: standings[ht]['form'].append('L')
-            if len(standings[at]['form']) < 5: standings[at]['form'].append('W')
             
-        standings[ht]['pf'] += hs
-        standings[ht]['pa'] += as_
-        standings[at]['pf'] += as_
-        standings[at]['pa'] += hs
-        
-    # Fallback: if epoch filtering wiped everything (off-season / new season not yet
-    # scraped), retry without the epoch so the standings tab still shows useful data.
-    if not standings and epoch_cutoff and matches:
-        return calculate_standings(matches, league_id=None)
+            for t in [ht, at]:
+                if t not in standings:
+                    standings[t] = {'w': 0, 'l': 0, 'pf': 0, 'pa': 0, 'form': []}
+                    
+            if hs > as_:
+                standings[ht]['w'] += 1
+                standings[at]['l'] += 1
+                if len(standings[ht]['form']) < 5: standings[ht]['form'].append('W')
+                if len(standings[at]['form']) < 5: standings[at]['form'].append('L')
+            elif as_ > hs:
+                standings[at]['w'] += 1
+                standings[ht]['l'] += 1
+                if len(standings[ht]['form']) < 5: standings[ht]['form'].append('L')
+                if len(standings[at]['form']) < 5: standings[at]['form'].append('W')
+                
+            standings[ht]['pf'] += hs
+            standings[ht]['pa'] += as_
+            standings[at]['pf'] += as_
+            standings[at]['pa'] += hs
+        return standings
+
+    # First attempt: filter by current season cutoff
+    if season_cutoff:
+        filtered = [
+            m for m in matches
+            if _parse_match_date(m.get('date', '')) >= season_cutoff
+        ]
+    else:
+        filtered = matches
+
+    standings = _tally(filtered)
+
+    # Fallback: if league has not tipped off yet in current season (0 games),
+    # fallback to all matches so standings tab doesn't show completely blank
+    if not standings and season_cutoff and matches:
+        standings = _tally(matches)
 
     s_list = []
     for team_name, st in standings.items():
         played = st['w'] + st['l']
-        if played == 0: continue
+        if played == 0:
+            continue
         win_pct = st['w'] / played
         s_list.append({
             "team_name": team_name,
@@ -220,8 +253,8 @@ def calculate_standings(matches, league_id=None):
             "pa": st['pa'],
             "form": "".join(st['form'])
         })
-    s_list.sort(key=lambda x: (x['win_pct'], x['w'], x['pf']-x['pa']), reverse=True)
-    
+    s_list.sort(key=lambda x: (x['win_pct'], x['w'], x['pf'] - x['pa']), reverse=True)
+
     formatted = []
     for i, st in enumerate(s_list):
         formatted.append({
@@ -240,7 +273,7 @@ def calculate_standings(matches, league_id=None):
         })
     return [formatted] if formatted else []
 
-def compile_offline_match_center(league_id, league_name, home_team, away_team):
+def compile_offline_match_center(league_id, league_name, home_team, away_team, ref_date=None):
     """ Entry point for run_basketball_daily.py to execute the zero-cost build """
     file_path = _find_league_file(league_id, league_name)
     if not file_path:
@@ -252,7 +285,7 @@ def compile_offline_match_center(league_id, league_name, home_team, away_team):
         "h2h": get_h2h(matches, home_team, away_team),
         "recentH": get_recent_form(matches, home_team),
         "recentA": get_recent_form(matches, away_team),
-        "full_standings": calculate_standings(matches, league_id=league_id),
+        "full_standings": calculate_standings(matches, league_id=league_id, ref_date=ref_date),
         "statsH": {}, 
         "statsA": {}
     }

@@ -22,6 +22,8 @@ CROSS_SOURCE_CANONICAL_MAP = {
     "Ulm":                 "Ratiopharm Ulm",
     "Utsunomiya Brex":     "Utsunomiya",
     "Vaerlose":            "Vaerlose Blue Hawks",
+    "Sopron KC":           "Soproni KC",
+    "Soproni KC":          "Sopron KC",
     # Australia NBL1 (Official Sportradar -> API Basketball)
     "Hobart":                      "Hobart Chargers",
     "Southern Districts":          "Southern District Spartans",

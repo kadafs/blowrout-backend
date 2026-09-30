@@ -1025,7 +1025,7 @@ def main():
                 league_standings_data = None
                 
                 if args.match_center:
-                    offline_data = compile_offline_match_center(lid, lname, home, away)
+                    offline_data = compile_offline_match_center(lid, lname, home, away, ref_date=date_str)
                     h2h = offline_data["h2h"]
                     recentH = offline_data["recentH"]
                     recentA = offline_data["recentA"]

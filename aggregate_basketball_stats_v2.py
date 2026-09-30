@@ -88,6 +88,25 @@ def process_file(file_path, file_date_str, stats_dict, team_stats_dict):
             if p.get("actual_result") is None:
                 continue
 
+            # Skip awarded matches and incomplete/corrupted API feeds
+            if p.get("awarded_match") or p.get("incomplete_feed"):
+                continue
+
+            h_s = p.get("actual_home_score")
+            a_s = p.get("actual_away_score")
+            m_t = p.get("model_total") or p.get("model", {}).get("total")
+            if h_s is not None and a_s is not None:
+                # 0-20 or 20-0 walkovers
+                if (h_s == 0 and a_s == 20) or (h_s == 20 and a_s == 0):
+                    continue
+                tot = int(h_s) + int(a_s)
+                # Layer 1: Absolute Floor (< 80 pts)
+                if tot < 80:
+                    continue
+                # Layer 2: Model Sanity Ratio (< 55% of model projection)
+                if m_t and m_t >= 100 and tot < (0.55 * m_t):
+                    continue
+
             orig_id = p.get("league_id")
             target_ids = LEAGUE_ID_MERGES.get(orig_id, [orig_id])
             

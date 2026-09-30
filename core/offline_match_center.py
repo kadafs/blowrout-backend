@@ -2,6 +2,39 @@ import os
 import json
 import glob
 from collections import defaultdict
+from datetime import datetime
+
+# Epoch-aware season filtering (same system used by aggregate_basketball_stats_v2.py)
+try:
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+    from utils.epoch_config import get_global_epoch, get_league_epochs
+    _EPOCH_AVAILABLE = True
+except Exception:
+    _EPOCH_AVAILABLE = False
+
+
+def _parse_match_date(date_str):
+    """
+    Robustly parse a match date string into a comparable ISO string (YYYY-MM-DD).
+    Handles:
+      - ISO format:   '2026-03-21'
+      - Proballers:   'Feb 6, 2026', 'Oct 7, 2025'
+    Returns the ISO string, or '' on failure.
+    """
+    if not date_str:
+        return ''
+    s = str(date_str).strip()
+    # Already ISO
+    if len(s) >= 10 and s[4] == '-' and s[7] == '-':
+        return s[:10]
+    # Try human-readable formats used by Proballers
+    for fmt in ('%b %d, %Y', '%B %d, %Y', '%d %b %Y', '%d/%m/%Y', '%m/%d/%Y'):
+        try:
+            return datetime.strptime(s, fmt).strftime('%Y-%m-%d')
+        except ValueError:
+            pass
+    return ''
 
 def _find_league_file(league_id, league_name=None):
     """
@@ -117,8 +150,22 @@ def get_recent_form(matches, team):
                 break
     return recent
 
-def calculate_standings(matches):
-    """ Calculate a generic standings table based on W-L tallies """
+def calculate_standings(matches, league_id=None):
+    """
+    Calculate a standings table based on W-L tallies.
+    Filtered to the current season epoch (same logic as TEAM STATS) so that
+    the P/W/L columns do not include previous-season games.
+    """
+    # Determine effective epoch cutoff for this league
+    epoch_cutoff = ''
+    if _EPOCH_AVAILABLE and league_id is not None:
+        try:
+            league_epochs = get_league_epochs()
+            global_epoch = get_global_epoch()
+            epoch_cutoff = league_epochs.get(int(league_id), global_epoch)
+        except Exception:
+            epoch_cutoff = ''
+
     standings = {}
     for m in matches:
         ht = m.get('home_team')
@@ -126,6 +173,12 @@ def calculate_standings(matches):
         hs = m.get('home_score', 0)
         as_ = m.get('away_score', 0)
         if not ht or not at: continue
+
+        # --- Epoch filter: skip games from previous seasons ---
+        if epoch_cutoff:
+            match_date = _parse_match_date(m.get('date', ''))
+            if match_date and match_date < epoch_cutoff:
+                continue
         
         for t in [ht, at]:
             if t not in standings:
@@ -147,6 +200,11 @@ def calculate_standings(matches):
         standings[at]['pf'] += as_
         standings[at]['pa'] += hs
         
+    # Fallback: if epoch filtering wiped everything (off-season / new season not yet
+    # scraped), retry without the epoch so the standings tab still shows useful data.
+    if not standings and epoch_cutoff and matches:
+        return calculate_standings(matches, league_id=None)
+
     s_list = []
     for team_name, st in standings.items():
         played = st['w'] + st['l']
@@ -194,7 +252,7 @@ def compile_offline_match_center(league_id, league_name, home_team, away_team):
         "h2h": get_h2h(matches, home_team, away_team),
         "recentH": get_recent_form(matches, home_team),
         "recentA": get_recent_form(matches, away_team),
-        "full_standings": calculate_standings(matches),
+        "full_standings": calculate_standings(matches, league_id=league_id),
         "statsH": {}, 
         "statsA": {}
     }

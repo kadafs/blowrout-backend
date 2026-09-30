@@ -79,6 +79,52 @@ def _delta_tier(delta: float) -> str:
     elif delta <= 21.0: return "MISS"
     else:               return "BUST"
 
+def is_corrupt_score(h_s, a_s, model_total=None, h_scores=None, a_scores=None) -> tuple[bool, str]:
+    """
+    Robust 3-layer anomaly guard to detect incomplete or frozen API feeds.
+    Excludes real walkovers/forfeits (0-20, 20-0).
+    
+    1. Absolute floor: Regulation 5v5 basketball games never total < 80 points.
+    2. Model sanity floor: A finished game never scores < 55% of projected total.
+    3. Quarter freeze signature: In a finished game, teams don't both score 0 in Q3 and Q4, or Q2, Q3, Q4.
+    """
+    if h_s is None or a_s is None:
+        return True, "missing scores"
+    
+    # Walkovers / Forfeits are handled separately (awarded_match)
+    if (h_s == 0 and a_s == 20) or (h_s == 20 and a_s == 0):
+        return False, ""
+    
+    total = int(h_s) + int(a_s)
+    
+    # Layer 1: Absolute Floor (< 80 pts)
+    if total < 80:
+        return True, f"total score {total} < 80 pts"
+        
+    # Layer 2: Model Sanity Ratio (< 55% of model projection)
+    if model_total and model_total >= 100:
+        if total < (0.55 * model_total):
+            return True, f"total {total} < 55% of model ({model_total:.1f})"
+            
+    # Layer 3: Quarter freeze signature (both teams 0 in later quarters)
+    if h_scores and a_scores:
+        hq2 = h_scores.get("quarter_2") or 0
+        aq2 = a_scores.get("quarter_2") or 0
+        hq3 = h_scores.get("quarter_3") or 0
+        aq3 = a_scores.get("quarter_3") or 0
+        hq4 = h_scores.get("quarter_4") or 0
+        aq4 = a_scores.get("quarter_4") or 0
+        
+        # Frozen after Q1 (Q2, Q3, Q4 are all 0)
+        if (hq2 + aq2 == 0) and (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
+            return True, "frozen feed after Q1 (Q2, Q3, Q4 are 0)"
+            
+        # Frozen at halftime (Q3 and Q4 both 0)
+        if (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
+            return True, "frozen feed at halftime (Q3, Q4 are 0)"
+            
+    return False, ""
+
 def resolve_target_date(date_arg: str | None = None) -> str:
     if date_arg:
         return date_arg
@@ -144,6 +190,27 @@ def main():
         wins_by_model  = {}
         total_by_model = {}
         for pred in predictions:
+            if pred.get("actual_result"):
+                h_s = pred.get("actual_home_score")
+                a_s = pred.get("actual_away_score")
+                m_total = pred.get("model_total") or pred.get("model", {}).get("total")
+                corrupt, reason = is_corrupt_score(h_s, a_s, model_total=m_total)
+                if corrupt:
+                    print(f"  [CLEANUP] Un-grading corrupt game in regrade: {pred.get('home_team')} vs {pred.get('away_team')} ({h_s}-{a_s}) - {reason}")
+                    p = pred.copy()
+                    p["incomplete_feed"] = True
+                    p["actual_home_score"] = None
+                    p["actual_away_score"] = None
+                    p["actual_result"] = None
+                    p["accuracy_tier"] = None
+                    p["total_delta"] = None
+                    p["signed_delta"] = None
+                    p["total_rpe"] = None
+                    for k in ["halftime_home_score", "halftime_away_score", "halftime_total", "halftime_pct_of_model"]:
+                        p.pop(k, None)
+                    graded_list.append(p)
+                    continue
+
             if pred.get("actual_result") and pred.get("accuracy_tier") is None:
                 p = pred.copy()
                 h_s = p.get("actual_home_score")
@@ -208,6 +275,10 @@ def main():
         ht_home = (h_q1 + h_q2) if (h_scores.get("quarter_1") is not None) else None
         ht_away = (a_q1 + a_q2) if (a_scores.get("quarter_1") is not None) else None
         if h_score is not None and a_score is not None:
+            corrupt, reason = is_corrupt_score(int(h_score), int(a_score), h_scores=h_scores, a_scores=a_scores)
+            if corrupt:
+                print(f"  [!] Omitting corrupt API feed: {h_name} vs {a_name} ({h_score}-{a_score}) - {reason}")
+                continue
             results_map[(lid, h_name, a_name)] = (int(h_score), int(a_score), status, ht_home, ht_away)
 
     matched = 0
@@ -217,6 +288,26 @@ def main():
 
     for pred in predictions:
         if pred.get("actual_result"):
+            # Self-healing check: if a game was previously graded with a corrupt score, un-grade it
+            h_prev = pred.get("actual_home_score")
+            a_prev = pred.get("actual_away_score")
+            m_prev = pred.get("model_total") or pred.get("model", {}).get("total")
+            corrupt, reason = is_corrupt_score(h_prev, a_prev, model_total=m_prev)
+            if corrupt:
+                print(f"  [CLEANUP] Un-grading corrupt game: {pred.get('home_team')} vs {pred.get('away_team')} ({h_prev}-{a_prev}) - {reason}")
+                p = pred.copy()
+                p["incomplete_feed"] = True
+                p["actual_home_score"] = None
+                p["actual_away_score"] = None
+                p["actual_result"] = None
+                p["accuracy_tier"] = None
+                p["total_delta"] = None
+                p["signed_delta"] = None
+                p["total_rpe"] = None
+                for k in ["halftime_home_score", "halftime_away_score", "halftime_total", "halftime_pct_of_model"]:
+                    p.pop(k, None)
+                graded_list.append(p)
+                continue
             graded_list.append(pred)
             continue
         
@@ -242,6 +333,16 @@ def main():
                 p['awarded_match'] = True
                 graded_list.append(p)
                 print(f"  Skipping awarded match: {pred.get('home_team')} vs {pred.get('away_team')} ({h_s}-{a_s}, status={status})")
+                continue
+
+            # Skip corrupt / incomplete API feeds (3-layer guard)
+            m_total = pred.get("model_total") or pred.get("model", {}).get("total")
+            corrupt, reason = is_corrupt_score(h_s, a_s, model_total=m_total)
+            if corrupt:
+                p = pred.copy()
+                p['incomplete_feed'] = True
+                graded_list.append(p)
+                print(f"  Skipping corrupt/incomplete feed: {pred.get('home_team')} vs {pred.get('away_team')} ({h_s}-{a_s}, status={status}) - {reason}")
                 continue
 
             actual = "HOME" if h_s > a_s else "AWAY"
@@ -304,14 +405,20 @@ def main():
     if not args.dry_run:
         data["predictions"] = graded_list
         data["graded_at"] = datetime.now().isoformat()
-        # Build per-model grade summary
+        # Build per-model grade summary from all valid graded predictions
         grade_summary_by_model = {}
-        for mdl, tot in total_by_model.items():
-            w = wins_by_model.get(mdl, 0)
-            grade_summary_by_model[mdl.strip()] = {
-                "wins": w, "total": tot,
-                "pct": round(100 * w / tot, 1) if tot else 0
-            }
+        for p in graded_list:
+            if p.get("actual_result") and not p.get("awarded_match") and not p.get("incomplete_feed"):
+                mdl = p.get("model_architecture", "[  SRS   ]").strip()
+                if mdl not in grade_summary_by_model:
+                    grade_summary_by_model[mdl] = {"wins": 0, "total": 0, "pct": 0}
+                grade_summary_by_model[mdl]["total"] += 1
+                if p.get("predicted_result") == p.get("actual_result"):
+                    grade_summary_by_model[mdl]["wins"] += 1
+        for mdl, stats in grade_summary_by_model.items():
+            tot = stats["total"]
+            w = stats["wins"]
+            stats["pct"] = round(100 * w / tot, 1) if tot else 0
         data["grade_summary"] = grade_summary_by_model
         save_predictions(date, data)
 

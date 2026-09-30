@@ -61,14 +61,18 @@ def _parse_match_date(date_str, ref_year=None):
             day, month = int(parts[0]), int(parts[1])
             year = ref_year or datetime.now().year
             try:
-                return datetime(year, month, day).strftime('%Y-%m-%d')
+                candidate = datetime(year, month, day)
+                now_midnight = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+                if candidate >= now_midnight:
+                    candidate = datetime(year - 1, month, day)
+                return candidate.strftime('%Y-%m-%d')
             except Exception:
                 pass
     return ''
 
-def _find_league_file(league_id, league_name=None):
+def _find_league_files(league_id, league_name=None):
     """
-    Identifies the correct localized JSON database for a league, 
+    Identifies all localized JSON databases for a league, 
     borrowing the robust slug-mapping logic from generate_advanced_metrics.py
     """
     map_file = "data/league_slug_map.json"
@@ -83,7 +87,6 @@ def _find_league_file(league_id, league_name=None):
                     target_slug = slug
                     break
                     
-    # If we didn't find a slug, we check standard filenames directly
     files_to_check = []
     if target_slug:
         files_to_check.append(f"data/historical/proballers_{target_slug}.json")
@@ -94,11 +97,17 @@ def _find_league_file(league_id, league_name=None):
     # Also check the raw API backup files
     files_to_check.append(f"data/historical/api_basketball_{league_id}.json")
     
-    for f in files_to_check:
+    existing = []
+    for f in dict.fromkeys(files_to_check):
         if os.path.exists(f):
-            return f
+            existing.append(f)
             
-    return None
+    return existing
+
+def _find_league_file(league_id, league_name=None):
+    """Backwards-compatible single file lookup."""
+    files = _find_league_files(league_id, league_name)
+    return files[0] if files else None
 
 def _load_matches(file_path):
     try:
@@ -275,12 +284,63 @@ def calculate_standings(matches, league_id=None, ref_date=None):
 
 def compile_offline_match_center(league_id, league_name, home_team, away_team, ref_date=None):
     """ Entry point for run_basketball_daily.py to execute the zero-cost build """
-    file_path = _find_league_file(league_id, league_name)
-    if not file_path:
+    file_paths = _find_league_files(league_id, league_name)
+    all_raw_matches = []
+    for fp in file_paths:
+        all_raw_matches.extend(_load_matches(fp))
+
+    # Also ingest recent completed games from daily cache files (data/api_basketball_today_*.json)
+    d_files = sorted(glob.glob("data/api_basketball_today_*.json"), reverse=True)
+    for df in d_files:
+        try:
+            with open(df, encoding="utf-8") as fp:
+                day_data = json.load(fp)
+            for entry in day_data.get("leagues_summary", []):
+                if entry.get("league_id") == league_id:
+                    for g in entry.get("games", []):
+                        hs = g.get("home_score")
+                        as_ = g.get("away_score")
+                        if hs is not None and as_ is not None and hs != "" and as_ != "":
+                            all_raw_matches.append({
+                                "date": str(g.get("time", "") or day_data.get("date", ""))[:10],
+                                "home_team": g.get("home", ""),
+                                "away_team": g.get("away", ""),
+                                "home_score": int(hs),
+                                "away_score": int(as_),
+                            })
+        except Exception:
+            pass
+
+    if not all_raw_matches:
         return {"h2h": [], "recentH": [], "recentA": [], "full_standings": [], "statsH": {}, "statsA": {}}
-        
-    matches = _load_matches(file_path)
-    
+
+    # Semantic deduplication & date parsing
+    deduped = {}
+    for m in all_raw_matches:
+        ht = m.get("home_team")
+        at = m.get("away_team")
+        hs = m.get("home_score")
+        as_ = m.get("away_score")
+        if not ht or not at or hs is None or as_ is None:
+            continue
+        try:
+            hs = int(hs)
+            as_ = int(as_)
+        except (ValueError, TypeError):
+            continue
+        iso_date = _parse_match_date(m.get("date", ""))
+        key = (iso_date or m.get("date", ""), str(ht).lower().strip(), str(at).lower().strip())
+        m_clean = dict(m)
+        m_clean["_iso_date"] = iso_date
+        m_clean["home_score"] = hs
+        m_clean["away_score"] = as_
+        if key not in deduped:
+            deduped[key] = m_clean
+
+    matches = list(deduped.values())
+    # Sort descending by date so recent form and H2H get newest matches first!
+    matches.sort(key=lambda x: str(x.get("_iso_date", "")), reverse=True)
+
     return {
         "h2h": get_h2h(matches, home_team, away_team),
         "recentH": get_recent_form(matches, home_team),

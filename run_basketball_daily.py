@@ -273,6 +273,8 @@ TEAM_NAME_OVERRIDES = {
     "Srsni Pisek": "Sršni Písek",
     "Nymburk": "ERA Nymburk",
     "USK Prague": "USK Praha",
+    "Slavia Prague ERA NBK": "Slavia Praha",
+    "Plzen": "BK Lokomotiva Plzeň",
     "Grodno GrSU": "Grodno-GrGU",
     "Gomel": "GOCOR-Soj Gomel",
     "Borisfen 2": "Borisfen Mogilev Youth",
@@ -579,7 +581,12 @@ def find_team(name, stats_dict):
     return None, None
 
 def _fuzzy_match(name, stats_dict):
+    import unicodedata
+    def _strip_accents(s):
+        return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c)).lower().strip()
+
     name_lower = name.lower().strip()
+    name_clean = _strip_accents(name)
 
     # Exact match
     if name in stats_dict:
@@ -596,11 +603,17 @@ def _fuzzy_match(name, stats_dict):
         if k_lower in name_lower or name_lower in k_lower:
             return k, stats_dict[k]
 
+    # Accent-stripped partial match (e.g. Plzen vs BK Lokomotiva Plzeň)
+    for k in stats_dict:
+        k_clean = _strip_accents(k)
+        if k_clean in name_clean or name_clean in k_clean:
+            return k, stats_dict[k]
+
     # High character overlap via difflib (Safer than single word overlaps)
     import difflib
     best_key, best_score = None, 0.0
     for k in stats_dict:
-        similarity = difflib.SequenceMatcher(None, name_lower, k.lower()).ratio()
+        similarity = difflib.SequenceMatcher(None, name_clean, _strip_accents(k)).ratio()
         if similarity > best_score:
             best_key, best_score = k, similarity
             
@@ -649,7 +662,7 @@ def calculate_win_prob(spread, std_dev=12.0):
     # Using a simple approximation if scipy is not available, but norm.cdf is better
     return norm.cdf(spread / std_dev)
 
-def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None):
+def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None, fallback_stats=None):
     """
     Run the UniversalBasketballEngine for a single matchup.
     Returns engine result dict or None if teams not found.
@@ -658,6 +671,18 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
 
     away_key, sA = find_team(away_name, team_stats)
     home_key, sH = find_team(home_name, team_stats)
+
+    # In-league SRS fallback if team is missing from stats_adv (e.g. newly promoted team without box scores)
+    if not sA and fallback_stats:
+        _, sA = find_team(away_name, fallback_stats)
+        if sA:
+            sA = dict(sA)
+            sA["source"] = "SRS"
+    if not sH and fallback_stats:
+        _, sH = find_team(home_name, fallback_stats)
+        if sH:
+            sH = dict(sH)
+            sH["source"] = "SRS"
 
     # GLOBAL FALLBACK
     if not sA:
@@ -689,6 +714,23 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     prev_h = sH.get("previous_season")
     a_prev_gp = prev_a.get("games_played", prev_a.get("games", 0)) if prev_a else 0
     h_prev_gp = prev_h.get("games_played", prev_h.get("games", 0)) if prev_h else 0
+
+    # Cross-league baseline fallback for international cups/tournaments (e.g. Besiktas in Euroleague with only 1 game)
+    if a_gp < 2 and not (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None)):
+        g_team, g_src = global_find_team(away_name)
+        if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
+            sA = dict(sA)
+            sA["previous_season"] = g_team
+            prev_a = g_team
+            a_prev_gp = g_team.get("games_played", g_team.get("games", 0))
+
+    if h_gp < 2 and not (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None)):
+        g_team, g_src = global_find_team(home_name)
+        if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
+            sH = dict(sH)
+            sH["previous_season"] = g_team
+            prev_h = g_team
+            h_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
     # STRICT GUARD: Require either 2+ current games OR a valid prior season baseline (>= 3 games or SRS rating)
     a_has_baseline = (a_gp >= 2) or (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None))
@@ -960,7 +1002,7 @@ def main():
             # PASS 1: Try ADVANCED Model first if matrix exists
             if stats_adv:
                 result_adv, err_adv = predict_game(
-                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries
+                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs
                 )
                 if not err_adv:
                     best_pass = (result_adv, "[ADVANCED]", stats_adv)
@@ -1032,7 +1074,16 @@ def main():
                     league_standings_data = offline_data["full_standings"]
                 
                 _, sA = find_team(away, active_stats)
+                if not sA and stats_srs:
+                    _, sA = find_team(away, stats_srs)
+                if not sA:
+                    sA, _ = global_find_team(away)
+
                 _, sH = find_team(home, active_stats)
+                if not sH and stats_srs:
+                    _, sH = find_team(home, stats_srs)
+                if not sH:
+                    sH, _ = global_find_team(home)
 
                 # Snapshot Confidence Score at Runtime
                 DEFAULT_MAE = 12.0

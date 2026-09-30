@@ -114,6 +114,9 @@ CROSS_SOURCE_CANONICAL_MAP = {
     "BAL Weert":                   "PrismaWorx BAL",
     "Rotterdam":                   "Rotterdam City Basketball",
     "Den Bosch":                   "Heroes Den Bosch",
+    # --- Czech NBL (32) ---
+    "Slavia Prague ERA NBK":       "Slavia Praha",
+    "Plzen":                       "BK Lokomotiva Plzeň",
 }
 
 def calculate_iterative_srs(games):
@@ -812,6 +815,16 @@ def process_leagues():
         # Write [ADVANCED] — uses GENUINE efficiency ratings, not SRS clone
         adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=pace_pivot) if advanced_eligible else []
         if adv_stats:
+            # If league is advanced_eligible, ensure all teams present in SRS (e.g. newly promoted teams without box scores)
+            # are represented in adv_stats so the whole league can run on [ADVANCED]
+            adv_team_names = {t["team_name"] for t in adv_stats}
+            for srs_t in output_stats:
+                if srs_t["team_name"] not in adv_team_names:
+                    fb_t = dict(srs_t)
+                    fb_t["source"] = "SRS"
+                    fb_t["current_season_games"] = current_season_team_counts.get(fb_t["team_name"], 0)
+                    adv_stats.append(fb_t)
+
             for t in adv_stats:
                 t["current_season_games"] = current_season_team_counts.get(t["team_name"], 0)
             payload_adv = {

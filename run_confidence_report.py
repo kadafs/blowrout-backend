@@ -124,22 +124,17 @@ def get_team_stats(name: str, league_id: int, index: dict) -> tuple:
 
 
 
-def check_clash_profile(home: str, away: str, league_id: int) -> bool:
-    """
-    Check if both teams have below-average offensive ratings
-    and above-average (worse) defensive ratings.
-    """
-    if not league_id:
-        return False
-    cfg_path = os.path.join("configs", "leagues", f"{league_id}.json")
-    if not os.path.exists(cfg_path):
-        return False
-    try:
-        with open(cfg_path, "r", encoding="utf-8") as cf:
-            cfg = json.load(cf)
-        eff_pivot = cfg.get("eff_pivot", 108.0)
-    except:
-        return False
+# ---------------------------------------------------------------------------
+# Module-level stats cache — loaded once, shared across all check_clash_profile calls
+# ---------------------------------------------------------------------------
+_STATS_CACHE: dict = {}   # league_id -> {team_name: stats_dict}
+_CFG_CACHE:   dict = {}   # league_id -> league config
+
+
+def _load_league_stats(league_id: int) -> dict:
+    """Load and cache adv/srs stats for a league. Returns {team_name: stats_dict}."""
+    if league_id in _STATS_CACHE:
+        return _STATS_CACHE[league_id]
 
     stats_map = {}
     for suffix in ["adv", "srs"]:
@@ -152,8 +147,42 @@ def check_clash_profile(home: str, away: str, league_id: int) -> bool:
                         name = t["team_name"]
                         if name not in stats_map:
                             stats_map[name] = t
-            except:
+            except Exception:
                 pass
+
+    _STATS_CACHE[league_id] = stats_map
+    return stats_map
+
+
+def _load_league_cfg(league_id: int) -> dict:
+    """Load and cache league config. Returns {} on error."""
+    if league_id in _CFG_CACHE:
+        return _CFG_CACHE[league_id]
+    cfg_path = os.path.join("configs", "leagues", f"{league_id}.json")
+    cfg = {}
+    if os.path.exists(cfg_path):
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as cf:
+                cfg = json.load(cf)
+        except Exception:
+            pass
+    _CFG_CACHE[league_id] = cfg
+    return cfg
+
+
+def check_clash_profile(home: str, away: str, league_id: int) -> bool:
+    """
+    Check if both teams have below-average offensive ratings
+    and above-average (worse) defensive ratings.
+    """
+    if not league_id:
+        return False
+    cfg = _load_league_cfg(league_id)
+    if not cfg:
+        return False
+    eff_pivot = cfg.get("eff_pivot", 108.0)
+
+    stats_map = _load_league_stats(league_id)
 
     def find_stats(team_name: str) -> dict | None:
         if not team_name:
@@ -511,8 +540,8 @@ def main():
     parser.add_argument("--tier",       choices=["elite_pro", "top_domestic", "second_division", "lower"],
                         help="Filter by league tier")
     parser.add_argument("--league_id",  type=int, help="Filter to a single league")
-    parser.add_argument("--min_graded", type=int, default=2,
-                        help="Only show games where BOTH teams have at least this many graded games in the tracking epoch (default: 2)")
+    parser.add_argument("--min_graded", type=int, default=3,
+                        help="Only show games where BOTH teams have at least this many graded games in the tracking epoch (default: 3)")
     parser.add_argument("--hidden_gems", action="store_true",
                         help="Only show Moderate/Low games with High Stability (Vol Score >= 15)")
     parser.add_argument("--components", action="store_true",

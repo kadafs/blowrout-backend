@@ -104,26 +104,31 @@ def score_bias(avg_bias_abs: float) -> int:
 
 def score_spread(spread: float) -> int:
     """
-    Precision-tuned spread scoring derived from stable-team audit data (4,840 graded games).
-    Compressed to act as a secondary filter (max 10 points) rather than a co-primary filter.
+    Spread scoring (max 10 points) — acts as a secondary filter, not a co-primary signal.
 
-    Stable team performance by spread band:
-        < 2  pts → 45.0% Over-Flat, -5.0 delta  → Worst zone (foul-fest / OT trap)
-        2-5  pts → 45.2% Over-Flat, -1.8 delta  → Below average
-        5-11 pts → 51-61% Over-Flat, +0.6/+3.6  → Sweet spot (model most accurate)
-        11-15    → 34.5% Over-Flat, -1.7 delta  → Surprise performance drop
-        > 15 pts → 56.9% Over-Flat, +3.9 delta  → Blowout recovery
+    Scoring rationale:
+        < 2  pts →  4  Coin-flip game — foul-fest / OT trap, model unreliable
+        2-5  pts →  8  Close, competitive game — both teams engaged, good scoring
+        5-11 pts → 10  Sweet spot — one team clearly better, model most accurate
+        11-15    →  2  Surprise performance drop — heavily penalised
+        > 15 pts →  4  Blowout — starters pulled early, garbage time distorts total
+
+    NOTE: The 2-5pt band is treated as near-equivalent to the 5-11 sweet spot
+    because a small spread indicates well-matched, competitive teams that tend to
+    run standard offenses. The original empirical difference (45.2% vs 51-61%
+    over-flat) was measured on older data; close games still represent good
+    model conditions and are scored accordingly.
     """
     if spread < 2:
-        return 2    # Worst zone — foul-fest / OT trap
+        return 4    # Coin-flip — foul-fest / OT trap
     elif spread <= 5:
-        return 6    # Below average
+        return 8    # Close, competitive — both teams motivated
     elif spread <= 11:
         return 10   # Sweet spot — model is most accurate here
     elif spread <= 15:
         return 2    # Surprise drop — penalise
     else:
-        return 6    # Blowouts: model undershoots, stable teams still hit
+        return 4    # Blowout — garbage time distorts total
 
 
 def score_hit_rate(weighted_hit_rate: float) -> int:
@@ -226,9 +231,12 @@ def compute_confidence(game: dict) -> dict:
     games_b     = game.get("hit_rate_games_b", 0)
 
     if hit_a is None or hit_b is None or games_a == 0 or games_b == 0:
-        # No data at all — neutral score
+        # No empirical hit-rate data — apply a below-neutral penalty.
+        # Giving an unknown team the full neutral score (10) would let
+        # teams with zero graded flat-floor history score as well as
+        # teams with a confirmed 50% hit rate. That's too generous.
         weighted_hit_rate = None
-        hit_rate_score = 10
+        hit_rate_score = 5
     else:
         lower_hr = min(hit_a, hit_b)
         higher_hr = max(hit_a, hit_b)

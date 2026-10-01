@@ -115,9 +115,10 @@ def score_spread(spread: float) -> int:
 
     NOTE: The 2-5pt band is treated as near-equivalent to the 5-11 sweet spot
     because a small spread indicates well-matched, competitive teams that tend to
-    run standard offenses. The original empirical difference (45.2% vs 51-61%
-    over-flat) was measured on older data; close games still represent good
-    model conditions and are scored accordingly.
+    run standard offenses. With ~1,000 unique graded games in the current
+    leaderboard epoch the difference between bands is not statistically robust,
+    so the scoring is intentionally conservative and will be re-audited once
+    the sample grows to 3,000+ games.
     """
     if spread < 2:
         return 4    # Coin-flip — foul-fest / OT trap

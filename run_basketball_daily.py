@@ -1107,9 +1107,11 @@ def main():
                 }
                 conf_res = compute_confidence(conf_input)
 
-                # Clash of Inefficient Detection
+                # Clash of Inefficient & Shootout Detection
                 is_clash = False
                 clash_trigger = ""
+                is_shootout = False
+                shootout_trigger = ""
                 if sH and sA:
                     eff_pivot = config.get("eff_pivot", 108.0)
                     h_off, h_def = sH.get("adj_off"), sH.get("adj_def")
@@ -1122,11 +1124,20 @@ def main():
                                 clash_trigger = "SHARP OVER"
                             else:
                                 clash_trigger = "CLASH"
+                        elif h_off > eff_pivot and a_off > eff_pivot and h_def > eff_pivot and a_def > eff_pivot:
+                            is_shootout = True
+                            mkt_val = market if (market and market not in (145.5, 230.0)) else None
+                            if mkt_val is not None and (model_total - mkt_val) >= 5.0:
+                                shootout_trigger = "SHARP SHOOTOUT"
+                            else:
+                                shootout_trigger = "SHOOTOUT"
 
                 # Build record
                 all_predictions.append({
-                    "is_clash":      is_clash,
-                    "clash_trigger": clash_trigger,
+                    "is_clash":         is_clash,
+                    "clash_trigger":    clash_trigger,
+                    "is_shootout":      is_shootout,
+                    "shootout_trigger": shootout_trigger,
                     "league_id":    lid,
                     "league":       lname,
                     "country":      country,

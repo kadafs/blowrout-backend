@@ -170,6 +170,28 @@ def _load_league_cfg(league_id: int) -> dict:
     return cfg
 
 
+def _find_team_stats(team_name: str, stats_map: dict) -> dict | None:
+    if not team_name:
+        return None
+    # 1. Exact match
+    if team_name in stats_map:
+        return stats_map[team_name]
+    # 2. Case-insensitive match
+    for name, stats in stats_map.items():
+        if name.lower() == team_name.lower():
+            return stats
+    # 3. Substring match (e.g. "Leiden" inside "ZZ Leiden")
+    for name, stats in stats_map.items():
+        if team_name.lower() in name.lower() or name.lower() in team_name.lower():
+            return stats
+    # 4. Fuzzy match
+    names = list(stats_map.keys())
+    matches = difflib.get_close_matches(team_name, names, n=1, cutoff=0.60)
+    if matches:
+        return stats_map[matches[0]]
+    return None
+
+
 def check_clash_profile(home: str, away: str, league_id: int) -> bool:
     """
     Check if both teams have below-average offensive ratings
@@ -183,35 +205,36 @@ def check_clash_profile(home: str, away: str, league_id: int) -> bool:
     eff_pivot = cfg.get("eff_pivot", 108.0)
 
     stats_map = _load_league_stats(league_id)
-
-    def find_stats(team_name: str) -> dict | None:
-        if not team_name:
-            return None
-        # 1. Exact match
-        if team_name in stats_map:
-            return stats_map[team_name]
-        # 2. Case-insensitive match
-        for name, stats in stats_map.items():
-            if name.lower() == team_name.lower():
-                return stats
-        # 3. Substring match (e.g. "Leiden" inside "ZZ Leiden")
-        for name, stats in stats_map.items():
-            if team_name.lower() in name.lower() or name.lower() in team_name.lower():
-                return stats
-        # 4. Fuzzy match
-        names = list(stats_map.keys())
-        matches = difflib.get_close_matches(team_name, names, n=1, cutoff=0.60)
-        if matches:
-            return stats_map[matches[0]]
-        return None
-
-    sh = find_stats(home)
-    sa = find_stats(away)
+    sh = _find_team_stats(home, stats_map)
+    sa = _find_team_stats(away, stats_map)
     if sh and sa:
         h_off, h_def = sh.get("adj_off"), sh.get("adj_def")
         a_off, a_def = sa.get("adj_off"), sa.get("adj_def")
         if h_off is not None and h_def is not None and a_off is not None and a_def is not None:
             return h_off < eff_pivot and a_off < eff_pivot and h_def > eff_pivot and a_def > eff_pivot
+    return False
+
+
+def check_shootout_profile(home: str, away: str, league_id: int) -> bool:
+    """
+    Check if both teams have above-average offensive ratings
+    and above-average (worse/permeable) defensive ratings (Glass Cannons).
+    """
+    if not league_id:
+        return False
+    cfg = _load_league_cfg(league_id)
+    if not cfg:
+        return False
+    eff_pivot = cfg.get("eff_pivot", 108.0)
+
+    stats_map = _load_league_stats(league_id)
+    sh = _find_team_stats(home, stats_map)
+    sa = _find_team_stats(away, stats_map)
+    if sh and sa:
+        h_off, h_def = sh.get("adj_off"), sh.get("adj_def")
+        a_off, a_def = sa.get("adj_off"), sa.get("adj_def")
+        if h_off is not None and h_def is not None and a_off is not None and a_def is not None:
+            return h_off > eff_pivot and a_off > eff_pivot and h_def > eff_pivot and a_def > eff_pivot
     return False
 
 BAND_ORDER = ["[ELITE]   ", "[HIGH]    ", "[SOLID]   ", "[MODERATE]", "[LOW]     ", "[AVOID]   "]
@@ -338,6 +361,20 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                 else:
                     clash_trigger = "CLASH"
 
+        is_shootout = check_shootout_profile(home, away, league_id)
+        if not is_shootout and p.get("is_shootout"):
+            is_shootout = True
+
+        shootout_trigger = ""
+        if is_shootout:
+            shootout_trigger = p.get("shootout_trigger") or ""
+            if not shootout_trigger:
+                mkt_tot = p.get("market_total")
+                if mkt_tot is not None and (model_total - mkt_tot) >= 5.0:
+                    shootout_trigger = "SHARP SHOOTOUT"
+                else:
+                    shootout_trigger = "SHOOTOUT"
+
         rows.append({
             "league":     league,
             "league_id":  league_id,
@@ -372,6 +409,8 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
             "using_defaults": using_defaults,
             "is_clash": is_clash,
             "clash_trigger": clash_trigger,
+            "is_shootout": is_shootout,
+            "shootout_trigger": shootout_trigger,
         })
 
     if not rows:
@@ -415,6 +454,11 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                 matchup += " [CLASH! SHARP OVER]"
             else:
                 matchup += " [CLASH]"
+        elif r.get("is_shootout"):
+            if r.get("shootout_trigger") == "SHARP SHOOTOUT":
+                matchup += " [SHOOTOUT! OVER]"
+            else:
+                matchup += " [SHOOTOUT]"
 
         if show_components:
             print(
@@ -462,6 +506,11 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                 matchup += " [CLASH! SHARP OVER]"
             else:
                 matchup += " [CLASH]"
+        elif r.get("is_shootout"):
+            if r.get("shootout_trigger") == "SHARP SHOOTOUT":
+                matchup += " [SHOOTOUT! OVER]"
+            else:
+                matchup += " [SHOOTOUT]"
         print(f"    {r['score']:>5.1f}  {r['band'].strip():<11}  "
               f"{matchup}  |  {r['league']}  "
               f"|  TrueTot:{r['bias_adjusted_total']:.1f}  (Model:{r['model_total']:.1f}  Bias:{r['avg_bias_raw']:+.1f})")
@@ -481,7 +530,7 @@ CSV_COLUMNS = [
     "vol_away", "vol_home", "mae_away", "mae_home", "bias_away", "bias_home",
     "max_vol", "max_mae", "avg_bias", "min_graded_games",
     "vol_score", "mae_score", "bias_score", "spread_score", "raw_score",
-    "is_clash", "clash_trigger"
+    "is_clash", "clash_trigger", "is_shootout", "shootout_trigger"
 ]
 
 def save_csv(rows: list, date_str: str, suffix: str = "") -> str:
@@ -528,6 +577,8 @@ def save_csv(rows: list, date_str: str, suffix: str = "") -> str:
                 "raw_score":        r["raw"],
                 "is_clash":         1 if r.get("is_clash") else 0,
                 "clash_trigger":    r.get("clash_trigger", ""),
+                "is_shootout":      1 if r.get("is_shootout") else 0,
+                "shootout_trigger": r.get("shootout_trigger", ""),
             })
 
     return path

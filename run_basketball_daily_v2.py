@@ -518,6 +518,36 @@ def get_srs_stats(league_id, season, refresh=False):
 # STEP 4: FUZZY TEAM MATCHING
 # ------------------------------------------------------------------
 
+def resolve_split_season_games(team_stats, stats_dict):
+    """
+    If a matched team profile has current_season_games == 0, search stats_dict
+    for a split alternate sponsor entry of the same club that recorded current-season games,
+    and borrow the active game count so the UI never displays 0 games.
+    """
+    if not team_stats or not stats_dict:
+        return team_stats
+    if team_stats.get("current_season_games", 0) > 0:
+        return team_stats
+    
+    import re
+    t_name = team_stats.get("team_name", "")
+    t_tokens = set(re.findall(r'[a-zA-Z]{4,}', t_name.lower())) - {
+        "basket", "basketball", "club", "team", "women", "baskets", "aviv", "milan", "bologna"
+    }
+    if not t_tokens:
+        return team_stats
+        
+    for k, v in stats_dict.items():
+        if v.get("current_season_games", 0) > 0:
+            k_tokens = set(re.findall(r'[a-zA-Z]{4,}', k.lower())) - {
+                "basket", "basketball", "club", "team", "women", "baskets", "aviv", "milan", "bologna"
+            }
+            if t_tokens & k_tokens:
+                team_stats = dict(team_stats)
+                team_stats["current_season_games"] = v["current_season_games"]
+                break
+    return team_stats
+
 def find_team(name, stats_dict):
     """
     Case-insensitive + partial fuzzy match of team name against stats dict keys.
@@ -532,11 +562,15 @@ def find_team(name, stats_dict):
     # First try with the override name
     best_key, stats = _fuzzy_match(name, stats_dict)
     if best_key:
+        stats = resolve_split_season_games(stats, stats_dict)
         return best_key, stats
 
     # Fallback to the original name if the override broke the match
     if name != original_name:
-        return _fuzzy_match(original_name, stats_dict)
+        best_key, stats = _fuzzy_match(original_name, stats_dict)
+        if best_key:
+            stats = resolve_split_season_games(stats, stats_dict)
+            return best_key, stats
         
     return None, None
 

@@ -16,7 +16,16 @@ CROSS_SOURCE_CANONICAL_MAP = {
     "Torun":               "Twarde Pierniki Toruń",
     "Gornik Walbrzych":    "Górnik Trans.eu Walbrzych",
     "Ostrow Wielkopolski": "Stal Ostrów Wielkopolski",
-    # European / International
+    # European / International Title Sponsor & Rebranding Aliases (2026-27)
+    "Maccabi Rapyd Tel Aviv":      "Maccabi Playtika Tel Aviv",
+    "Armani Olimpia Milan":        "EA7 Emporio Armani Milan",
+    "Virtus Bologna":              "Virtus Segafredo Bologna",
+    "Besiktas Istanbul":           "Besiktas S.J.",
+    "A++ Massagno":                "Spinelli Massagno",
+    "CityX Mons-Hainaut":          "Union Mons-Hainaut",
+    "ZZ Rotterdam City":           "Rotterdam City Basketball",
+    "Patrioti Levice":             "Levickí Patrioti",
+    "Sabios Baloncesto":           "Sabios de Manizales",
     "Unicaja":             "Unicaja Malaga",
     "Unics Kazan":         "UNICS Kazan",
     "Ulm":                 "Ratiopharm Ulm",

@@ -63,7 +63,10 @@ def fetch_fixtures_for_date(date: str) -> list:
     try:
         r = requests.get(url, headers=HEADERS, params=params, timeout=20)
         r.raise_for_status()
-        all_fixtures = r.json().get("response", [])
+        data = r.json()
+        if data.get("errors"):
+            print(f"  ⚠️  API-Sports Error: {data.get('errors')}")
+        all_fixtures = data.get("response", [])
         # Filter to only finished games (FT, AET, PEN)
         finished = [f for f in all_fixtures
                     if f.get("fixture", {}).get("status", {}).get("short") in ("FT", "AET", "PEN")]

@@ -55,7 +55,10 @@ def fetch_fixtures_for_date(date: str) -> list:
     try:
         r = requests.get(url, headers=HEADERS, params=params, timeout=20)
         r.raise_for_status()
-        all_fixtures = r.json().get("response", [])
+        data = r.json()
+        if data.get("errors"):
+            print(f"  [X] API-Sports Error: {data.get('errors')}")
+        all_fixtures = data.get("response", [])
         finished = [f for f in all_fixtures if f.get("status", {}).get("short") in ("FT", "AOT")]
         return finished
     except Exception as e:

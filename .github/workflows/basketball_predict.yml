@@ -74,7 +74,7 @@ jobs:
           python run_basketball_daily.py --mode full --refresh $DATE_FLAG
           
           echo "--- 4b. Running Daily Predictions (V2) ---"
-          python run_basketball_daily_v2.py --mode full --refresh $DATE_FLAG
+          python run_basketball_daily_v2.py --mode full $DATE_FLAG
 
       - name: Commit local data changes
         run: |

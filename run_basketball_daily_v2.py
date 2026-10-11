@@ -367,12 +367,22 @@ def fetch_today_fixtures(date_str, refresh=False):
             params={"date": date_str},
             timeout=15,
         )
-        all_games = r.json().get("response", [])
-        total = r.json().get("results", 0)
+        resp_json = r.json()
+        all_games = resp_json.get("response", [])
+        total = resp_json.get("results", 0)
         print(f"  Got {total} games.")
     except Exception as e:
         print(f"  ERROR fetching fixtures: {e}")
         return []
+
+    # Fallback: if API returned 0 games but a valid cache already exists
+    # (e.g. V1 fetched and cached earlier in the same pipeline run), use it.
+    if total == 0 and os.path.exists(cache_path):
+        print(f"  API returned 0 games — falling back to existing cache: {cache_path}")
+        data = load_json(cache_path)
+        cached = data.get("leagues_summary", [])
+        if cached:
+            return cached
 
     from collections import defaultdict
     by_league = defaultdict(list)

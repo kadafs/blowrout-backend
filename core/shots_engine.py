@@ -109,25 +109,25 @@ def calculate_shots_prediction(
     # In professional football, ~0.11 xG is generated per shot (i.e. ~9 shots per 1.0 xG)
     if not h_shots_for or not a_shots_for:
         if pre_xg_home is not None and pre_xg_away is not None:
-            exp_home_shots = round(max(6.0, float(pre_xg_home) * 8.5), 1)
-            exp_away_shots = round(max(5.0, float(pre_xg_away) * 8.5), 1)
+            exp_home_shots = round(min(25.0, max(6.0, float(pre_xg_home) * 8.5)), 1)
+            exp_away_shots = round(min(22.0, max(5.0, float(pre_xg_away) * 8.5)), 1)
         else:
             exp_home_shots = DEFAULT_TEAM_SHOTS_HOME
             exp_away_shots = DEFAULT_TEAM_SHOTS_AWAY
     else:
         # Expected home shots = (Home Shots For + Away Shots Allowed) / 2
         if a_shots_ag:
-            exp_home_shots = round((float(h_shots_for) + float(a_shots_ag)) / 2.0, 1)
+            exp_home_shots = round(min(25.0, max(5.0, (float(h_shots_for) + float(a_shots_ag)) / 2.0)), 1)
         else:
-            exp_home_shots = round(float(h_shots_for), 1)
+            exp_home_shots = round(min(25.0, max(5.0, float(h_shots_for))), 1)
 
         # Expected away shots = (Away Shots For + Home Shots Allowed) / 2
         if h_shots_ag:
-            exp_away_shots = round((float(a_shots_for) + float(h_shots_ag)) / 2.0, 1)
+            exp_away_shots = round(min(22.0, max(4.0, (float(a_shots_for) + float(h_shots_ag)) / 2.0)), 1)
         else:
-            exp_away_shots = round(float(a_shots_for), 1)
+            exp_away_shots = round(min(22.0, max(4.0, float(a_shots_for))), 1)
 
-    exp_total_shots = round(exp_home_shots + exp_away_shots, 1)
+    exp_total_shots = round(min(38.0, exp_home_shots + exp_away_shots), 1)
 
     # 3. Resolve Shots on Target (SoT) Accuracy Ratios
     # Accuracy ratio = SoT / Total Shots (baseline ~ 34.5%)

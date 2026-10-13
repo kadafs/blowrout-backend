@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642330,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-01T11:00:00+00:00",
+      "timestamp": 1790852400,
+      "periods": {
+        "first": 1790852400,
+        "second": 1790856000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2025,
+      "round": "Final",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19485,
+        "name": "Mombasa Elite",
+        "logo": "https://media.api-sports.io/football/teams/19485.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2468,
+        "name": "Kariobangi Sharks",
+        "logo": "https://media.api-sports.io/football/teams/2468.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1550892,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545791,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-24T12:00:00+00:00",
-      "timestamp": 1779624000,
-      "periods": {
-        "first": 1779624000,
-        "second": 1779627600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 277,
-      "name": "Super League",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/277.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2025,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19487,
-        "name": "Mwatate United",
-        "logo": "https://media.api-sports.io/football/teams/19487.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19485,
-        "name": "Mombasa Elite",
-        "logo": "https://media.api-sports.io/football/teams/19485.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

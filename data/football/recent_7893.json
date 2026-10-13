@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637308,
+      "referee": "M. Kapraly",
+      "timezone": "UTC",
+      "date": "2026-09-08T12:00:00+00:00",
+      "timestamp": 1788868800,
+      "periods": {
+        "first": 1788868800,
+        "second": 1788872400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Roeselare"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7893,
+        "name": "Club Brugge U19",
+        "logo": "https://media.api-sports.io/football/teams/7893.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24970,
+        "name": "Aston Villa U19",
+        "logo": "https://media.api-sports.io/football/teams/24970.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534934,
       "referee": "J. Kooij",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469143,
-      "referee": "J. Goncalves",
-      "timezone": "UTC",
-      "date": "2025-12-10T13:00:00+00:00",
-      "timestamp": 1765371600,
-      "periods": {
-        "first": 1765371600,
-        "second": 1765375200
-      },
-      "venue": {
-        "id": null,
-        "name": "Schiervelde Stadion",
-        "city": "Roeselare"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "League Stage - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7893,
-        "name": "Club Brugge U19",
-        "logo": "https://media.api-sports.io/football/teams/7893.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22371,
-        "name": "Arsenal U19",
-        "logo": "https://media.api-sports.io/football/teams/22371.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

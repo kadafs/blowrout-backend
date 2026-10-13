@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1584005,
-      "referee": "Jonah Samuel Njie Besong",
+      "id": 1584020,
+      "referee": "Simon Schreiner",
       "timezone": "UTC",
-      "date": "2026-09-19T12:00:00+00:00",
-      "timestamp": 1789819200,
+      "date": "2026-10-10T12:00:00+00:00",
+      "timestamp": 1791633600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 734,
+        "name": "H\u00e4nsch-Arena",
+        "city": "May Pen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1318,
+        "name": "SV Meppen",
+        "logo": "https://media.api-sports.io/football/teams/1318.png",
+        "winner": null
+      },
+      "away": {
+        "id": 12867,
+        "name": "Stuttgart II",
+        "logo": "https://media.api-sports.io/football/teams/12867.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1584005,
+      "referee": "J. Besong",
+      "timezone": "UTC",
+      "date": "2026-09-19T12:00:00+00:00",
+      "timestamp": 1789819200,
+      "periods": {
+        "first": 1789819200,
+        "second": 1789822800
+      },
+      "venue": {
         "id": 6469,
-        "name": "Dietmar-Hopp-Stadion",
+        "name": "Dietmar-Hopp Stadion",
         "city": "Sinsheim"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1584000,
-      "referee": null,
+      "referee": "M. Kluge",
       "timezone": "UTC",
       "date": "2026-09-15T17:00:00+00:00",
       "timestamp": 1789491600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789491600,
+        "second": 1789495200
       },
       "venue": {
         "id": 734,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1583991,
-      "referee": null,
+      "referee": "F. Wildfeuer",
       "timezone": "UTC",
       "date": "2026-09-12T12:00:00+00:00",
       "timestamp": 1789214400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789214400,
+        "second": 1789218000
       },
       "venue": {
         "id": 3260,
@@ -217,8 +287,8 @@
       "date": "2026-09-05T12:00:00+00:00",
       "timestamp": 1788609600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788609600,
+        "second": 1788613200
       },
       "venue": {
         "id": 734,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 6
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583964,
-      "referee": "F. Grund",
-      "timezone": "UTC",
-      "date": "2026-08-29T12:00:00+00:00",
-      "timestamp": 1788004800,
-      "periods": {
-        "first": 1788004800,
-        "second": 1788008400
-      },
-      "venue": {
-        "id": null,
-        "name": "New Tivoli",
-        "city": "Aachen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4259,
-        "name": "Alemannia Aachen",
-        "logo": "https://media.api-sports.io/football/teams/4259.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1318,
-        "name": "SV Meppen",
-        "logo": "https://media.api-sports.io/football/teams/1318.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

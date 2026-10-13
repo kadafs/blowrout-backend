@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637315,
+      "referee": "A. Culina",
+      "timezone": "UTC",
+      "date": "2026-09-09T12:00:00+00:00",
+      "timestamp": 1788955200,
+      "periods": {
+        "first": 1788955200,
+        "second": 1788958800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Giuseppe Piccolo",
+        "city": "Cercola"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7917,
+        "name": "Napoli U19",
+        "logo": "https://media.api-sports.io/football/teams/7917.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22371,
+        "name": "Arsenal U19",
+        "logo": "https://media.api-sports.io/football/teams/22371.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1469143,
       "referee": "J. Goncalves",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469077,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-01T12:00:00+00:00",
-      "timestamp": 1759320000,
-      "periods": {
-        "first": 1759320000,
-        "second": 1759323600
-      },
-      "venue": {
-        "id": null,
-        "name": "Meadow Park",
-        "city": "Borehamwood"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22371,
-        "name": "Arsenal U19",
-        "logo": "https://media.api-sports.io/football/teams/22371.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7918,
-        "name": "Olympiakos Piraeus U19",
-        "logo": "https://media.api-sports.io/football/teams/7918.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

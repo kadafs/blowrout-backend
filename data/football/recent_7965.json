@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1637323,
+      "referee": "M. Grotta",
+      "timezone": "UTC",
+      "date": "2026-09-10T12:00:00+00:00",
+      "timestamp": 1789041600,
+      "periods": {
+        "first": 1789041600,
+        "second": 1789045200
+      },
+      "venue": {
+        "id": null,
+        "name": "De Herdgang",
+        "city": "Eindhoven"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7965,
+        "name": "PSV U19",
+        "logo": "https://media.api-sports.io/football/teams/7965.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7929,
+        "name": "Shakhtar Donetsk U19",
+        "logo": "https://media.api-sports.io/football/teams/7929.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508348,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-05-30T12:30:00+00:00",
       "timestamp": 1780144200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1780144200,
+        "second": 1780147800
       },
       "venue": {
         "id": 0,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508323,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-21T13:00:00+00:00",
-      "timestamp": 1776776400,
-      "periods": {
-        "first": 1776776400,
-        "second": 1776780000
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1152,
-      "name": "U19 Divisie 1",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/1152.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2025,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7965,
-        "name": "PSV U19",
-        "logo": "https://media.api-sports.io/football/teams/7965.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26995,
-        "name": "ADO Den Haag U19",
-        "logo": "https://media.api-sports.io/football/teams/26995.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
         "away": 1
       },
       "extratime": {

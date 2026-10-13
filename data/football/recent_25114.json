@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605088,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T11:30:00+00:00",
+      "timestamp": 1791459000,
+      "periods": {
+        "first": 1791459000,
+        "second": 1791462600
+      },
+      "venue": {
+        "id": 4652,
+        "name": "Sisian Stadium",
+        "city": "Sisian"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 343,
+      "name": "First League",
+      "country": "Armenia",
+      "logo": "https://media.api-sports.io/football/leagues/343.png",
+      "flag": "https://media.api-sports.io/flags/am.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6281,
+        "name": "Lernayin Artsakh",
+        "logo": "https://media.api-sports.io/football/teams/6281.png",
+        "winner": false
+      },
+      "away": {
+        "id": 25114,
+        "name": "Araks Ararat",
+        "logo": "https://media.api-sports.io/football/teams/25114.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605080,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588810,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-24T12:00:00+00:00",
-      "timestamp": 1787572800,
-      "periods": {
-        "first": 1787572800,
-        "second": 1787576400
-      },
-      "venue": {
-        "id": null,
-        "name": "Araks Stadium",
-        "city": "Ararat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 709,
-      "name": "Cup",
-      "country": "Armenia",
-      "logo": "https://media.api-sports.io/football/leagues/709.png",
-      "flag": "https://media.api-sports.io/flags/am.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 25114,
-        "name": "Araks Ararat",
-        "logo": "https://media.api-sports.io/football/teams/25114.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22561,
-        "name": "Cilicia",
-        "logo": "https://media.api-sports.io/football/teams/22561.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637313,
+      "referee": "K. Athanassiou",
+      "timezone": "UTC",
+      "date": "2026-09-10T07:30:00+00:00",
+      "timestamp": 1789025400,
+      "periods": {
+        "first": 1789025400,
+        "second": 1789029000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadi Johan Cruyff",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7885,
+        "name": "Barcelona U19",
+        "logo": "https://media.api-sports.io/football/teams/7885.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7981,
+        "name": "Feyenoord U19",
+        "logo": "https://media.api-sports.io/football/teams/7981.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1469132,
       "referee": "W. Myc",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469078,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-01T14:00:00+00:00",
-      "timestamp": 1759327200,
-      "periods": {
-        "first": 1759327200,
-        "second": 1759330800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadi Johan Cruyff",
-        "city": "Barcelona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7885,
-        "name": "Barcelona U19",
-        "logo": "https://media.api-sports.io/football/teams/7885.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7921,
-        "name": "PSG U19",
-        "logo": "https://media.api-sports.io/football/teams/7921.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

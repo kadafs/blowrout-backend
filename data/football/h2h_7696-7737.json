@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639621,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T14:00:00+00:00",
+      "timestamp": 1790431200,
+      "periods": {
+        "first": 1790431200,
+        "second": 1790434800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7737,
+        "name": "Peterborough Sports",
+        "logo": "https://media.api-sports.io/football/teams/7737.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7696,
+        "name": "Banbury United",
+        "logo": "https://media.api-sports.io/football/teams/7696.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1059556,
       "referee": "T. Breen",
       "timezone": "UTC",
@@ -276,76 +346,6 @@
       "penalty": {
         "home": null,
         "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 640138,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2020-10-13T18:45:00+00:00",
-      "timestamp": 1602614700,
-      "periods": {
-        "first": 1602614700,
-        "second": 1602618300
-      },
-      "venue": {
-        "id": 5595,
-        "name": "Lincoln Road",
-        "city": "Peterborough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "PEN",
-        "elapsed": 120,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2020,
-      "round": "3rd Round Qualifying",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7737,
-        "name": "Peterborough Sports",
-        "logo": "https://media.api-sports.io/football/teams/7737.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7696,
-        "name": "Banbury United",
-        "logo": "https://media.api-sports.io/football/teams/7696.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": 0,
-        "away": 1
       }
     }
   }

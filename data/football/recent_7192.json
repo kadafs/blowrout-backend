@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1621032,
+      "referee": "S. Hooper",
+      "timezone": "UTC",
+      "date": "2026-09-19T14:00:00+00:00",
+      "timestamp": 1789826400,
+      "periods": {
+        "first": 1789826400,
+        "second": 1789830000
+      },
+      "venue": {
+        "id": null,
+        "name": "Cobham Training Centre",
+        "city": "Cobham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7192,
+        "name": "Chelsea U21",
+        "logo": "https://media.api-sports.io/football/teams/7192.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7194,
+        "name": "Fulham U21",
+        "logo": "https://media.api-sports.io/football/teams/7194.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1588880,
-      "referee": null,
+      "referee": "B. Atkinson",
       "timezone": "UTC",
       "date": "2026-09-15T18:00:00+00:00",
       "timestamp": 1789495200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789495200,
+        "second": 1789498800
       },
       "venue": {
         "id": 0,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548008,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-21T13:00:00+00:00",
-      "timestamp": 1784638800,
-      "periods": {
-        "first": 1784638800,
-        "second": 1784642400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7192,
-        "name": "Chelsea U21",
-        "logo": "https://media.api-sports.io/football/teams/7192.png",
-        "winner": null
-      },
-      "away": {
-        "id": 20016,
-        "name": "Cardiff City U21",
-        "logo": "https://media.api-sports.io/football/teams/20016.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

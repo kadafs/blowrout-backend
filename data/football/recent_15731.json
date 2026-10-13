@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
-      "id": 1612235,
+      "id": 1640294,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T17:00:00+00:00",
+      "timestamp": 1791478800,
+      "periods": {
+        "first": 1791478800,
+        "second": 1791482400
+      },
+      "venue": {
+        "id": null,
+        "name": "El-Gazel Stadium",
+        "city": "El Mahalla El Kubra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 895,
+      "name": "League Cup",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/895.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 13819,
+        "name": "Ghazl El Mehalla",
+        "logo": "https://media.api-sports.io/football/teams/13819.png",
+        "winner": null
+      },
+      "away": {
+        "id": 15731,
+        "name": "Abu Qair Semad",
+        "logo": "https://media.api-sports.io/football/teams/15731.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612244,
+      "referee": "M. El Ghazy",
+      "timezone": "UTC",
+      "date": "2026-09-15T17:00:00+00:00",
+      "timestamp": 1789491600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 477,
+        "name": "Cairo International Stadium",
+        "city": "Cairo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 233,
+      "name": "Premier League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/233.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1577,
+        "name": "Al Ahly",
+        "logo": "https://media.api-sports.io/football/teams/1577.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15731,
+        "name": "Abu Qair Semad",
+        "logo": "https://media.api-sports.io/football/teams/15731.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612235,
+      "referee": "M. Nagy",
       "timezone": "UTC",
       "date": "2026-09-08T17:00:00+00:00",
       "timestamp": 1788886800,
@@ -11,9 +151,9 @@
         "second": null
       },
       "venue": {
-        "id": null,
-        "name": null,
-        "city": null
+        "id": 477,
+        "name": "Cairo International Stadium",
+        "city": "Cairo"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +212,7 @@
   {
     "fixture": {
       "id": 1612227,
-      "referee": null,
+      "referee": "I. Mohamed",
       "timezone": "UTC",
       "date": "2026-09-02T17:00:00+00:00",
       "timestamp": 1788368400,
@@ -197,146 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612200,
-      "referee": "M. Kabeel",
-      "timezone": "UTC",
-      "date": "2026-08-21T17:00:00+00:00",
-      "timestamp": 1787331600,
-      "periods": {
-        "first": 1787331600,
-        "second": 1787335200
-      },
-      "venue": {
-        "id": 483,
-        "name": "Alexandria Stadium",
-        "city": "Alexandria"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15731,
-        "name": "Abu Qair Semad",
-        "logo": "https://media.api-sports.io/football/teams/15731.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15570,
-        "name": "National Bank of Egypt",
-        "logo": "https://media.api-sports.io/football/teams/15570.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1440975,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-14T13:00:00+00:00",
-      "timestamp": 1778763600,
-      "periods": {
-        "first": 1778763600,
-        "second": 1778767200
-      },
-      "venue": {
-        "id": 11135,
-        "name": "Abou Qir Fertilizers Stadium",
-        "city": "Al Mandarah"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 887,
-      "name": "Second League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/887.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2025,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15731,
-        "name": "Abu Qair Semad",
-        "logo": "https://media.api-sports.io/football/teams/15731.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21304,
-        "name": "Raya Ghazl",
-        "logo": "https://media.api-sports.io/football/teams/21304.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

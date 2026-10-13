@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1637149,
+      "referee": "A. Tom",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:00:00+00:00",
+      "timestamp": 1791648000,
+      "periods": {
+        "first": 1791648000,
+        "second": 1791651600
+      },
+      "venue": {
+        "id": 21586,
+        "name": "Moses Mabhida Stadium",
+        "city": "Durban"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 509,
+      "name": "8 Cup",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/509.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2700,
+        "name": "Orlando Pirates",
+        "logo": "https://media.api-sports.io/football/teams/2700.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2699,
+        "name": "Mamelodi Sundowns",
+        "logo": "https://media.api-sports.io/football/teams/2699.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635602,
-      "referee": "Sandro Sch\u00e4rer, Switzerland",
+      "referee": "S. Scharer",
       "timezone": "UTC",
       "date": "2026-09-19T13:00:00+00:00",
       "timestamp": 1789822800,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Loftus Versfeld Stadium",
-        "city": "Tshwane/Pretoria"
+        "name": "Lucas Masterpieces Moripe Stadium",
+        "city": "Pretoria"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1600340,
-      "referee": null,
+      "referee": "Moreki Lekwape, South Africa",
       "timezone": "UTC",
       "date": "2026-09-12T15:30:00+00:00",
       "timestamp": 1789227000,
@@ -81,9 +151,9 @@
         "second": null
       },
       "venue": {
-        "id": null,
-        "name": "Sisa Dukashe Stadium",
-        "city": "Mdantsane"
+        "id": 21587,
+        "name": "Buffalo City Stadium",
+        "city": "East London"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600372,
-      "referee": "Moses Mbhabeleli Kheswa, South Africa",
-      "timezone": "UTC",
-      "date": "2026-09-02T17:30:00+00:00",
-      "timestamp": 1788370200,
-      "periods": {
-        "first": 1788370200,
-        "second": 1788373800
-      },
-      "venue": {
-        "id": null,
-        "name": "Loftus Versfeld Stadium",
-        "city": "Tshwane/Pretoria"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 288,
-      "name": "Premier Soccer League",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/288.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2699,
-        "name": "Mamelodi Sundowns",
-        "logo": "https://media.api-sports.io/football/teams/2699.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22234,
-        "name": "Milford FC",
-        "logo": "https://media.api-sports.io/football/teams/22234.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

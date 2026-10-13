@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1642940,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T11:00:00+00:00",
+      "timestamp": 1791025200,
+      "periods": {
+        "first": 1791025200,
+        "second": 1791028800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6697,
+        "name": "Sandviken",
+        "logo": "https://media.api-sports.io/football/teams/6697.png",
+        "winner": true
+      },
+      "away": {
+        "id": 373,
+        "name": "GIF Sundsvall",
+        "logo": "https://media.api-sports.io/football/teams/373.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1497711,
-      "referee": "Karlsson, Henric",
+      "referee": "Henric Karlsson, Sweden",
       "timezone": "UTC",
       "date": "2026-09-20T11:00:00+00:00",
       "timestamp": 1789902000,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1497698,
-      "referee": null,
+      "referee": "Fredrik Alknas, Sweden",
       "timezone": "UTC",
       "date": "2026-09-15T17:00:00+00:00",
       "timestamp": 1789491600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1497695,
-      "referee": null,
+      "referee": "Per Martin Melin, Sweden",
       "timezone": "UTC",
       "date": "2026-09-10T17:00:00+00:00",
       "timestamp": 1789059600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1497679,
-      "referee": "Farouk Nehdi, Sweden",
-      "timezone": "UTC",
-      "date": "2026-08-31T17:00:00+00:00",
-      "timestamp": 1788195600,
-      "periods": {
-        "first": 1788195600,
-        "second": 1788199200
-      },
-      "venue": {
-        "id": 1510,
-        "name": "NP3 Arena",
-        "city": "Sundsvall"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 114,
-      "name": "Superettan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/114.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 373,
-        "name": "GIF Sundsvall",
-        "logo": "https://media.api-sports.io/football/teams/373.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2173,
-        "name": "Norrby IF",
-        "logo": "https://media.api-sports.io/football/teams/2173.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1584013,
-      "referee": "Cengiz Kabalakli",
+      "id": 1584015,
+      "referee": "Leonidas Exuzidis",
       "timezone": "UTC",
-      "date": "2026-09-20T17:30:00+00:00",
-      "timestamp": 1789925400,
+      "date": "2026-10-10T14:30:00+00:00",
+      "timestamp": 1791642600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 730,
+        "name": "MSV-Arena",
+        "city": "Duisburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 187,
+        "name": "MSV Duisburg",
+        "logo": "https://media.api-sports.io/football/teams/187.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9364,
+        "name": "Hoffenheim II",
+        "logo": "https://media.api-sports.io/football/teams/9364.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1584013,
+      "referee": "C. Kabalakli",
+      "timezone": "UTC",
+      "date": "2026-09-20T17:30:00+00:00",
+      "timestamp": 1789925400,
+      "periods": {
+        "first": 1789925400,
+        "second": 1789929000
+      },
+      "venue": {
         "id": 753,
-        "name": "Brita Arena",
+        "name": "BRITA-Arena",
         "city": "Wiesbaden"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1583994,
-      "referee": null,
+      "referee": "D. Lutz",
       "timezone": "UTC",
       "date": "2026-09-15T17:00:00+00:00",
       "timestamp": 1789491600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789491600,
+        "second": 1789495200
       },
       "venue": {
         "id": 730,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1583985,
-      "referee": null,
+      "referee": "P. Schwengers",
       "timezone": "UTC",
       "date": "2026-09-12T12:00:00+00:00",
       "timestamp": 1789214400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789214400,
+        "second": 1789218000
       },
       "venue": {
         "id": null,
@@ -217,8 +287,8 @@
       "date": "2026-09-05T12:00:00+00:00",
       "timestamp": 1788609600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788609600,
+        "second": 1788613200
       },
       "venue": {
         "id": 10490,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583965,
-      "referee": "N. Rose",
-      "timezone": "UTC",
-      "date": "2026-08-29T12:00:00+00:00",
-      "timestamp": 1788004800,
-      "periods": {
-        "first": 1788004800,
-        "second": 1788008400
-      },
-      "venue": {
-        "id": 730,
-        "name": "Schauinsland-Reisen-Arena",
-        "city": "Duisburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 187,
-        "name": "MSV Duisburg",
-        "logo": "https://media.api-sports.io/football/teams/187.png",
-        "winner": true
-      },
-      "away": {
-        "id": 784,
-        "name": "W\u00fcrzburger Kickers",
-        "logo": "https://media.api-sports.io/football/teams/784.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

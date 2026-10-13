@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1584007,
-      "referee": "Lukas Benen",
+      "id": 1584023,
+      "referee": "Wolfgang Haslberger",
       "timezone": "UTC",
-      "date": "2026-09-20T11:30:00+00:00",
-      "timestamp": 1789903800,
+      "date": "2026-10-10T12:00:00+00:00",
+      "timestamp": 1791633600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": null,
+        "name": "Flyeralarm Arena",
+        "city": "Wuerzburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 784,
+        "name": "W\u00fcrzburger Kickers",
+        "logo": "https://media.api-sports.io/football/teams/784.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1584007,
+      "referee": "L. Benen",
+      "timezone": "UTC",
+      "date": "2026-09-20T11:30:00+00:00",
+      "timestamp": 1789903800,
+      "periods": {
+        "first": 1789903800,
+        "second": 1789907400
+      },
+      "venue": {
         "id": 19943,
-        "name": "Stadion Essen",
+        "name": "Stadion an der Hafenstrasse",
         "city": "Essen"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1583997,
-      "referee": null,
+      "referee": "L. Exuzidis",
       "timezone": "UTC",
       "date": "2026-09-16T17:00:00+00:00",
       "timestamp": 1789578000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789578000,
+        "second": 1789581600
       },
       "venue": {
         "id": 722,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1583992,
-      "referee": null,
+      "referee": "S. Hilsberg",
       "timezone": "UTC",
       "date": "2026-09-11T17:00:00+00:00",
       "timestamp": 1789146000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789146000,
+        "second": 1789149600
       },
       "venue": {
         "id": null,
@@ -217,8 +287,8 @@
       "date": "2026-09-05T12:00:00+00:00",
       "timestamp": 1788609600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788609600,
+        "second": 1788613200
       },
       "venue": {
         "id": 722,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583969,
-      "referee": "M. Bacher",
-      "timezone": "UTC",
-      "date": "2026-08-30T11:30:00+00:00",
-      "timestamp": 1788089400,
-      "periods": {
-        "first": 1788089400,
-        "second": 1788093000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ludwigspark Stadion",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1639,
-        "name": "FC Saarbr\u00fccken",
-        "logo": "https://media.api-sports.io/football/teams/1639.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1321,
-        "name": "Hansa Rostock",
-        "logo": "https://media.api-sports.io/football/teams/1321.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

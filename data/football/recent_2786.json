@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602683,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T11:00:00+00:00",
+      "timestamp": 1791630000,
+      "periods": {
+        "first": 1791630000,
+        "second": 1791633600
+      },
+      "venue": {
+        "id": null,
+        "name": "Nakhon Pathom Municipality Stadium",
+        "city": "Nakhon Pathom"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 297,
+      "name": "Thai League 2",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/297.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6578,
+        "name": "Nakhon Pathom",
+        "logo": "https://media.api-sports.io/football/teams/6578.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2786,
+        "name": "Muangthong United",
+        "logo": "https://media.api-sports.io/football/teams/2786.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602675,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491311,
-      "referee": "W. Sassadee",
-      "timezone": "UTC",
-      "date": "2026-05-10T11:00:00+00:00",
-      "timestamp": 1778410800,
-      "periods": {
-        "first": 1778410800,
-        "second": 1778414400
-      },
-      "venue": {
-        "id": null,
-        "name": "Thalay Luang Stadium",
-        "city": "Sukhothai"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 296,
-      "name": "Thai League 1",
-      "country": "Thailand",
-      "logo": "https://media.api-sports.io/football/leagues/296.png",
-      "flag": "https://media.api-sports.io/flags/th.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2783,
-        "name": "Sukhothai FC",
-        "logo": "https://media.api-sports.io/football/teams/2783.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2786,
-        "name": "Muangthong United",
-        "logo": "https://media.api-sports.io/football/teams/2786.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

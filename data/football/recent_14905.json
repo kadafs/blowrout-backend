@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1607853,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T12:00:00+00:00",
+      "timestamp": 1791633600,
+      "periods": {
+        "first": 1791633600,
+        "second": 1791637200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 675,
+      "name": "U21 Divisie 1",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/675.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Fall Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14905,
+        "name": "Groningen U21",
+        "logo": "https://media.api-sports.io/football/teams/14905.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14904,
+        "name": "Feyenoord U21",
+        "logo": "https://media.api-sports.io/football/teams/14904.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607852,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-09-19T13:15:00+00:00",
       "timestamp": 1789823700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789823700,
+        "second": 1789827300
       },
       "venue": {
         "id": null,
@@ -77,8 +147,8 @@
       "date": "2026-09-12T12:00:00+00:00",
       "timestamp": 1789214400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789214400,
+        "second": 1789218000
       },
       "venue": {
         "id": null,
@@ -147,8 +217,8 @@
       "date": "2026-09-05T12:00:00+00:00",
       "timestamp": 1788609600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788609600,
+        "second": 1788613200
       },
       "venue": {
         "id": null,
@@ -217,8 +287,8 @@
       "date": "2026-08-29T10:30:00+00:00",
       "timestamp": 1787999400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1787999400,
+        "second": 1788003000
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550468,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-10T16:30:00+00:00",
-      "timestamp": 1781109000,
-      "periods": {
-        "first": 1781109000,
-        "second": 1781112600
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportpark Nieuw Terbregge",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 492,
-      "name": "Tweede Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/492.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2025,
-      "round": "Relegation - Final",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10320,
-        "name": "Sparta Rotterdam II",
-        "logo": "https://media.api-sports.io/football/teams/10320.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14905,
-        "name": "Groningen U21",
-        "logo": "https://media.api-sports.io/football/teams/14905.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

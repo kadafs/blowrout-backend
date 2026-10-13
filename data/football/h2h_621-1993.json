@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563654,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-01T15:00:00+00:00",
+      "timestamp": 1788274800,
+      "periods": {
+        "first": 1788274800,
+        "second": 1788278400
+      },
+      "venue": {
+        "id": null,
+        "name": "Fakel Stadium",
+        "city": "Voronezh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1993,
+        "name": "Fakel",
+        "logo": "https://media.api-sports.io/football/teams/1993.png",
+        "winner": false
+      },
+      "away": {
+        "id": 621,
+        "name": "FC Krasnodar",
+        "logo": "https://media.api-sports.io/football/teams/621.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561344,
       "referee": "Stanislav Matveev, Russia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1042060,
-      "referee": "A. Amelin",
-      "timezone": "UTC",
-      "date": "2023-08-25T17:00:00+00:00",
-      "timestamp": 1692982800,
-      "periods": {
-        "first": 1692982800,
-        "second": 1692986400
-      },
-      "venue": {
-        "id": 1336,
-        "name": "Central'nyi Stadion Profsoyuzov",
-        "city": "Voronezh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2023,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1993,
-        "name": "Fakel Voronezh",
-        "logo": "https://media.api-sports.io/football/teams/1993.png",
-        "winner": null
-      },
-      "away": {
-        "id": 621,
-        "name": "Krasnodar",
-        "logo": "https://media.api-sports.io/football/teams/621.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

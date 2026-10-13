@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1612246,
+      "id": 1640293,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T14:00:00+00:00",
+      "timestamp": 1791468000,
+      "periods": {
+        "first": 1791468000,
+        "second": 1791471600
+      },
+      "venue": {
+        "id": null,
+        "name": "Arab Contractors Stadium",
+        "city": "Cairo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 895,
+      "name": "League Cup",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/895.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1575,
+        "name": "El Mokawloon",
+        "logo": "https://media.api-sports.io/football/teams/1575.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1574,
+        "name": "El Gouna FC",
+        "logo": "https://media.api-sports.io/football/teams/1574.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612246,
+      "referee": "M. Maarouf",
       "timezone": "UTC",
       "date": "2026-09-16T14:00:00+00:00",
       "timestamp": 1789567200,
@@ -11,9 +81,9 @@
         "second": null
       },
       "venue": {
-        "id": null,
-        "name": null,
-        "city": null
+        "id": 482,
+        "name": "Khaled Bichara Stadium",
+        "city": "El Gouna"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1612233,
-      "referee": null,
+      "referee": "S. El Amrawy",
       "timezone": "UTC",
       "date": "2026-09-09T14:00:00+00:00",
       "timestamp": 1788962400,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1612226,
-      "referee": null,
+      "referee": "A. El Ghandour",
       "timezone": "UTC",
       "date": "2026-09-02T14:00:00+00:00",
       "timestamp": 1788357600,
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612206,
-      "referee": "M. El Atabani",
-      "timezone": "UTC",
-      "date": "2026-08-23T14:00:00+00:00",
-      "timestamp": 1787493600,
-      "periods": {
-        "first": 1787493600,
-        "second": 1787497200
-      },
-      "venue": {
-        "id": 482,
-        "name": "Khaled Bichara Stadium",
-        "city": "El Gouna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1574,
-        "name": "El Gouna FC",
-        "logo": "https://media.api-sports.io/football/teams/1574.png",
-        "winner": null
-      },
-      "away": {
-        "id": 16431,
-        "name": "Future FC",
-        "logo": "https://media.api-sports.io/football/teams/16431.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

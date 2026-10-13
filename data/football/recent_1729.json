@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638583,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T01:00:00+00:00",
+      "timestamp": 1791594000,
+      "periods": {
+        "first": 1791594000,
+        "second": 1791597600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Victoria",
+        "city": "Aguascalientes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 666,
+      "name": "Friendlies Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/666.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Friendly International Women",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1729,
+        "name": "Mexico W",
+        "logo": "https://media.api-sports.io/football/teams/1729.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1785,
+        "name": "Jamaica W",
+        "logo": "https://media.api-sports.io/football/teams/1785.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607552,
       "referee": null,
       "timezone": "UTC",
@@ -211,7 +281,7 @@
   },
   {
     "fixture": {
-      "id": 1544316,
+      "id": 1544317,
       "referee": "S. Pearson",
       "timezone": "UTC",
       "date": "2026-06-09T09:00:00+00:00",
@@ -229,7 +299,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 4
+        "extra": 5
       }
     },
     "league": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544317,
-      "referee": "S. Pearson",
-      "timezone": "UTC",
-      "date": "2026-06-06T09:15:00+00:00",
-      "timestamp": 1780737300,
-      "periods": {
-        "first": 1780737300,
-        "second": 1780740900
-      },
-      "venue": {
-        "id": null,
-        "name": "McDonald Jones Stadium",
-        "city": "Newcastle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 666,
-      "name": "Friendlies Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/666.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International Women",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1722,
-        "name": "Australia W",
-        "logo": "https://media.api-sports.io/football/teams/1722.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1729,
-        "name": "Mexico W",
-        "logo": "https://media.api-sports.io/football/teams/1729.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

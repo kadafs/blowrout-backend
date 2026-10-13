@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1637149,
+      "referee": "A. Tom",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:00:00+00:00",
+      "timestamp": 1791648000,
+      "periods": {
+        "first": 1791648000,
+        "second": 1791651600
+      },
+      "venue": {
+        "id": 21586,
+        "name": "Moses Mabhida Stadium",
+        "city": "Durban"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 509,
+      "name": "8 Cup",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/509.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2700,
+        "name": "Orlando Pirates",
+        "logo": "https://media.api-sports.io/football/teams/2700.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2699,
+        "name": "Mamelodi Sundowns",
+        "logo": "https://media.api-sports.io/football/teams/2699.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600351,
-      "referee": "Abongile Tom",
+      "referee": "Abongile Tom, South Africa",
       "timezone": "UTC",
       "date": "2026-09-20T13:00:00+00:00",
       "timestamp": 1789909200,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1600344,
-      "referee": "Christopher Kistoor",
+      "referee": "Christopher Kistoor, South Africa",
       "timezone": "UTC",
       "date": "2026-09-17T17:30:00+00:00",
       "timestamp": 1789666200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600333,
-      "referee": "Moreki Lekwape, South Africa",
-      "timezone": "UTC",
-      "date": "2026-09-01T17:30:00+00:00",
-      "timestamp": 1788283800,
-      "periods": {
-        "first": 1788283800,
-        "second": 1788287400
-      },
-      "venue": {
-        "id": 12715,
-        "name": "Mbombela Stadium",
-        "city": "Nelspruit"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 288,
-      "name": "Premier Soccer League",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/288.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24759,
-        "name": "Kruger United",
-        "logo": "https://media.api-sports.io/football/teams/24759.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2700,
-        "name": "Orlando Pirates",
-        "logo": "https://media.api-sports.io/football/teams/2700.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

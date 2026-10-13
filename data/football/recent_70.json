@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1563183,
+      "referee": "Farai Hallam, England",
+      "timezone": "UTC",
+      "date": "2026-10-10T14:00:00+00:00",
+      "timestamp": 1791640800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 558,
+        "name": "Riverside Stadium",
+        "city": "Middlesbrough"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 70,
+        "name": "Middlesbrough",
+        "logo": "https://media.api-sports.io/football/teams/70.png",
+        "winner": true
+      },
+      "away": {
+        "id": 39,
+        "name": "Wolves",
+        "logo": "https://media.api-sports.io/football/teams/39.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563167,
-      "referee": "David Webb",
+      "referee": "David Webb, England",
       "timezone": "UTC",
       "date": "2026-09-19T14:00:00+00:00",
       "timestamp": 1789826400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563137,
-      "referee": "Andy Madley, England",
-      "timezone": "UTC",
-      "date": "2026-09-05T14:00:00+00:00",
-      "timestamp": 1788616800,
-      "periods": {
-        "first": 1788616800,
-        "second": 1788620400
-      },
-      "venue": {
-        "id": null,
-        "name": "Loftus Road Stadium",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 72,
-        "name": "QPR",
-        "logo": "https://media.api-sports.io/football/teams/72.png",
-        "winner": false
-      },
-      "away": {
-        "id": 70,
-        "name": "Middlesbrough",
-        "logo": "https://media.api-sports.io/football/teams/70.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

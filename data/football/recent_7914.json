@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637310,
+      "referee": "L. Dzivjak",
+      "timezone": "UTC",
+      "date": "2026-09-08T11:00:00+00:00",
+      "timestamp": 1788865200,
+      "periods": {
+        "first": 1788865200,
+        "second": 1788868800
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Luis Filipe Menezes",
+        "city": "Vila Nova de Gaia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7922,
+        "name": "Porto U19",
+        "logo": "https://media.api-sports.io/football/teams/7922.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7914,
+        "name": "Manchester City U19",
+        "logo": "https://media.api-sports.io/football/teams/7914.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1469139,
       "referee": "J. Jaanovits",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469082,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-01T13:00:00+00:00",
-      "timestamp": 1759323600,
-      "periods": {
-        "first": 1759323600,
-        "second": 1759327200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade de formation AS Monaco 1",
-        "city": "La Turbie"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7963,
-        "name": "Monaco  U19",
-        "logo": "https://media.api-sports.io/football/teams/7963.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7914,
-        "name": "Manchester City U19",
-        "logo": "https://media.api-sports.io/football/teams/7914.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 5
       },
       "extratime": {
         "home": null,

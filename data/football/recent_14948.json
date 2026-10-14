@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630279,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-02T14:30:00+00:00",
+      "timestamp": 1788359400,
+      "periods": {
+        "first": 1788359400,
+        "second": 1788363000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 680,
+      "name": "Cup",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/680.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14948,
+        "name": "Boler\u00e1z",
+        "logo": "https://media.api-sports.io/football/teams/14948.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15094,
+        "name": "\u0160opor\u0148a",
+        "logo": "https://media.api-sports.io/football/teams/15094.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584723,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1102713,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-08-22T15:00:00+00:00",
-      "timestamp": 1692716400,
-      "periods": {
-        "first": 1692716400,
-        "second": 1692720000
-      },
-      "venue": {
-        "id": 20007,
-        "name": "\u0160tadi\u00f3n Slavoj Boler\u00e1z",
-        "city": "Boler\u00e1z"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 680,
-      "name": "Cup",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/680.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2023,
-      "round": "2nd Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14948,
-        "name": "Boler\u00e1z",
-        "logo": "https://media.api-sports.io/football/teams/14948.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10540,
-        "name": "P\u00fachov",
-        "logo": "https://media.api-sports.io/football/teams/10540.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

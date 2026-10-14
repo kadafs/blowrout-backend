@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636623,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-13T19:30:00+00:00",
+      "timestamp": 1789327800,
+      "periods": {
+        "first": 1789327800,
+        "second": 1789331400
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Cachamay",
+        "city": "Ciudad Guayana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 300,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/300.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Regular Season - 22",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2824,
+        "name": "Mineros de Guyana",
+        "logo": "https://media.api-sports.io/football/teams/2824.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21231,
+        "name": "Bol\u00edvar",
+        "logo": "https://media.api-sports.io/football/teams/21231.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599175,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1441173,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-08-31T19:00:00+00:00",
-      "timestamp": 1756666800,
-      "periods": {
-        "first": 1756666800,
-        "second": 1756670400
-      },
-      "venue": {
-        "id": 21731,
-        "name": "Estadio Decanato UDO Bol\u00edvar",
-        "city": "Bol\u00edvar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 300,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/300.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2025,
-      "round": "Apertura - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21231,
-        "name": "Bol\u00edvar",
-        "logo": "https://media.api-sports.io/football/teams/21231.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2824,
-        "name": "Mineros de Guyana",
-        "logo": "https://media.api-sports.io/football/teams/2824.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

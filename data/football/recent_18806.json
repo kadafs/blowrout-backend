@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638777,
+      "referee": "J. Valenzuela",
+      "timezone": "UTC",
+      "date": "2026-10-11T20:00:00+00:00",
+      "timestamp": 1791748800,
+      "periods": {
+        "first": 1791748800,
+        "second": 1791752400
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": "Puerto La Cruz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 299,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/299.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18806,
+        "name": "Anzo\u00e1tegui FC",
+        "logo": "https://media.api-sports.io/football/teams/18806.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2810,
+        "name": "Carabobo FC",
+        "logo": "https://media.api-sports.io/football/teams/2810.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638770,
-      "referee": null,
+      "referee": "C. Marabay",
       "timezone": "UTC",
       "date": "2026-09-20T20:00:00+00:00",
       "timestamp": 1789934400,
@@ -13,7 +83,7 @@
       "venue": {
         "id": 0,
         "name": null,
-        "city": null
+        "city": "Puerto La Cruz"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1638764,
-      "referee": null,
+      "referee": "J. Uzcategui",
       "timezone": "UTC",
       "date": "2026-09-15T23:30:00+00:00",
       "timestamp": 1789515000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638140,
-      "referee": "A. Arteaga",
-      "timezone": "UTC",
-      "date": "2026-09-06T23:00:00+00:00",
-      "timestamp": 1788735600,
-      "periods": {
-        "first": 1788735600,
-        "second": 1788739200
-      },
-      "venue": {
-        "id": 1653,
-        "name": "Estadio Brigido Iriarte",
-        "city": "Caracas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 299,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/299.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2026,
-      "round": "Clausura - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2813,
-        "name": "Deportivo La Guaira",
-        "logo": "https://media.api-sports.io/football/teams/2813.png",
-        "winner": true
-      },
-      "away": {
-        "id": 18806,
-        "name": "Anzo\u00e1tegui FC",
-        "logo": "https://media.api-sports.io/football/teams/18806.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

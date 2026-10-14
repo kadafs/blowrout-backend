@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637313,
+      "referee": "K. Athanassiou",
+      "timezone": "UTC",
+      "date": "2026-09-10T07:30:00+00:00",
+      "timestamp": 1789025400,
+      "periods": {
+        "first": 1789025400,
+        "second": 1789029000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadi Johan Cruyff",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7885,
+        "name": "Barcelona U19",
+        "logo": "https://media.api-sports.io/football/teams/7885.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7981,
+        "name": "Feyenoord U19",
+        "logo": "https://media.api-sports.io/football/teams/7981.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556615,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "fulltime": {
         "home": 1,
@@ -77,8 +147,8 @@
       "date": "2026-05-30T10:00:00+00:00",
       "timestamp": 1780135200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1780135200,
+        "second": 1780138800
       },
       "venue": {
         "id": 0,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508337,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T10:20:00+00:00",
-      "timestamp": 1778322000,
-      "periods": {
-        "first": 1778322000,
-        "second": 1778325600
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1152,
-      "name": "U19 Divisie 1",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/1152.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2025,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7981,
-        "name": "Feyenoord U19",
-        "logo": "https://media.api-sports.io/football/teams/7981.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7965,
-        "name": "PSV U19",
-        "logo": "https://media.api-sports.io/football/teams/7965.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 3
       },
       "extratime": {

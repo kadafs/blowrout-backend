@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1507076,
+      "referee": "Kim Dae-Yong",
+      "timezone": "UTC",
+      "date": "2026-10-09T05:00:00+00:00",
+      "timestamp": 1791522000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1008,
+        "name": "Daejeon World Cup Stadium",
+        "city": "Daejeon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 292,
+      "name": "K League 1",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/292.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2750,
+        "name": "Daejeon Citizen",
+        "logo": "https://media.api-sports.io/football/teams/2750.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2762,
+        "name": "Jeonbuk Motors",
+        "logo": "https://media.api-sports.io/football/teams/2762.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1507073,
-      "referee": "Park Byung-Jin",
+      "referee": "Byungjin Park, South Korea",
       "timezone": "UTC",
       "date": "2026-09-20T07:30:00+00:00",
       "timestamp": 1789889400,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1507065,
-      "referee": null,
+      "referee": "Dong Jun Lee, South Korea",
       "timezone": "UTC",
       "date": "2026-09-12T07:30:00+00:00",
       "timestamp": 1789198200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1507054,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T10:00:00+00:00",
-      "timestamp": 1788602400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1015,
-        "name": "Jeonju World Cup Stadium",
-        "city": "Jeonju"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 292,
-      "name": "K League 1",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/292.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2762,
-        "name": "Jeonbuk Motors",
-        "logo": "https://media.api-sports.io/football/teams/2762.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2764,
-        "name": "Pohang Steelers",
-        "logo": "https://media.api-sports.io/football/teams/2764.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1563652,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-02T17:45:00+00:00",
+      "timestamp": 1788371100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20188,
+        "name": "Rostec Arena",
+        "city": "Kaliningrad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2006,
+        "name": "Baltika",
+        "logo": "https://media.api-sports.io/football/teams/2006.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1079,
+        "name": "Krylia Sovetov",
+        "logo": "https://media.api-sports.io/football/teams/1079.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561350,
-      "referee": "A. Chistyakov",
+      "referee": "Artem Chistyakov, Russia",
       "timezone": "UTC",
       "date": "2026-08-08T12:30:00+00:00",
       "timestamp": 1786192200,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1042212,
-      "referee": "S. Cheban",
-      "timezone": "UTC",
-      "date": "2024-04-20T13:30:00+00:00",
-      "timestamp": 1713619800,
-      "periods": {
-        "first": 1713619800,
-        "second": 1713623400
-      },
-      "venue": {
-        "id": 20188,
-        "name": "Rostec Arena",
-        "city": "Kaliningrad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2023,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2006,
-        "name": "Baltika",
-        "logo": "https://media.api-sports.io/football/teams/2006.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1079,
-        "name": "Krylya Sovetov",
-        "logo": "https://media.api-sports.io/football/teams/1079.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

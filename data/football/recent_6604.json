@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602689,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T11:30:00+00:00",
+      "timestamp": 1791718200,
+      "periods": {
+        "first": 1791718200,
+        "second": 1791721800
+      },
+      "venue": {
+        "id": null,
+        "name": "Chai Nat Provincial Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 297,
+      "name": "Thai League 2",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/297.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2781,
+        "name": "Chainat",
+        "logo": "https://media.api-sports.io/football/teams/2781.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6604,
+        "name": "Songkhla",
+        "logo": "https://media.api-sports.io/football/teams/6604.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602679,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491133,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-25T11:00:00+00:00",
-      "timestamp": 1777114800,
-      "periods": {
-        "first": 1777114800,
-        "second": 1777118400
-      },
-      "venue": {
-        "id": null,
-        "name": "Sri Nakhon Lamduan Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 297,
-      "name": "Thai League 2",
-      "country": "Thailand",
-      "logo": "https://media.api-sports.io/football/leagues/297.png",
-      "flag": "https://media.api-sports.io/flags/th.svg",
-      "season": 2025,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18395,
-        "name": "Sisaket United",
-        "logo": "https://media.api-sports.io/football/teams/18395.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6604,
-        "name": "Songkhla",
-        "logo": "https://media.api-sports.io/football/teams/6604.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

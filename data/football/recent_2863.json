@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602686,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T12:30:00+00:00",
+      "timestamp": 1791635400,
+      "periods": {
+        "first": 1791635400,
+        "second": 1791639000
+      },
+      "venue": {
+        "id": 8353,
+        "name": "700th Anniversary Stadium",
+        "city": "Chiang Mai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 297,
+      "name": "Thai League 2",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/297.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2863,
+        "name": "Chiangmai United",
+        "logo": "https://media.api-sports.io/football/teams/2863.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2800,
+        "name": "Kasetsart FC",
+        "logo": "https://media.api-sports.io/football/teams/2800.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602675,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491128,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-25T11:00:00+00:00",
-      "timestamp": 1777114800,
-      "periods": {
-        "first": 1777114800,
-        "second": 1777118400
-      },
-      "venue": {
-        "id": null,
-        "name": "Insee Chantarasatit Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 297,
-      "name": "Thai League 2",
-      "country": "Thailand",
-      "logo": "https://media.api-sports.io/football/leagues/297.png",
-      "flag": "https://media.api-sports.io/flags/th.svg",
-      "season": 2025,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2800,
-        "name": "Kasetsart FC",
-        "logo": "https://media.api-sports.io/football/teams/2800.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2863,
-        "name": "Chiangmai United",
-        "logo": "https://media.api-sports.io/football/teams/2863.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

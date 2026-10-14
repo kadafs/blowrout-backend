@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1511933,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-01T20:00:00+00:00",
+      "timestamp": 1775073600,
+      "periods": {
+        "first": 1775073600,
+        "second": 1775077200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Metropolitano de Techo",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Apertura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1458,
+        "name": "Bogota FC",
+        "logo": "https://media.api-sports.io/football/teams/1458.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22099,
+        "name": "Real Cundinamarca",
+        "logo": "https://media.api-sports.io/football/teams/22099.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1479446,
       "referee": null,
       "timezone": "UTC",
@@ -41,7 +111,7 @@
       },
       "away": {
         "id": 22099,
-        "name": "Real Soacha",
+        "name": "Real Cundinamarca",
         "logo": "https://media.api-sports.io/football/teams/22099.png",
         "winner": true
       }
@@ -105,7 +175,7 @@
     "teams": {
       "home": {
         "id": 22099,
-        "name": "Real Soacha",
+        "name": "Real Cundinamarca",
         "logo": "https://media.api-sports.io/football/teams/22099.png",
         "winner": false
       },
@@ -181,7 +251,7 @@
       },
       "away": {
         "id": 22099,
-        "name": "Real Soacha",
+        "name": "Real Cundinamarca",
         "logo": "https://media.api-sports.io/football/teams/22099.png",
         "winner": null
       }
@@ -245,7 +315,7 @@
     "teams": {
       "home": {
         "id": 22099,
-        "name": "Real Soacha",
+        "name": "Real Cundinamarca",
         "logo": "https://media.api-sports.io/football/teams/22099.png",
         "winner": null
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1028098,
-      "referee": "G. Cortes",
-      "timezone": "UTC",
-      "date": "2023-09-21T19:00:00+00:00",
-      "timestamp": 1695322800,
-      "periods": {
-        "first": 1695322800,
-        "second": 1695326400
-      },
-      "venue": {
-        "id": 371,
-        "name": "Estadio Metropolitano de Techo",
-        "city": "Bogot\u00e1, D.C."
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 240,
-      "name": "Primera B",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/240.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2023,
-      "round": "Clausura - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1458,
-        "name": "Bogota FC",
-        "logo": "https://media.api-sports.io/football/teams/1458.png",
-        "winner": null
-      },
-      "away": {
-        "id": 22099,
-        "name": "Real Soacha",
-        "logo": "https://media.api-sports.io/football/teams/22099.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

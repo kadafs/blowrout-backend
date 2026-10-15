@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551352,
+      "referee": "J. Bogelund",
+      "timezone": "UTC",
+      "date": "2026-10-11T12:00:00+00:00",
+      "timestamp": 1791720000,
+      "periods": {
+        "first": 1791720000,
+        "second": 1791723600
+      },
+      "venue": {
+        "id": 448,
+        "name": "Nord Energi Arena",
+        "city": "Hjorring"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 399,
+        "name": "Vendsyssel FF",
+        "logo": "https://media.api-sports.io/football/teams/399.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2063,
+        "name": "HB Koge",
+        "logo": "https://media.api-sports.io/football/teams/2063.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551345,
       "referee": "B. H. Svedborg",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551322,
-      "referee": "N. Dommerudveksling",
-      "timezone": "UTC",
-      "date": "2026-08-23T11:00:00+00:00",
-      "timestamp": 1787482800,
-      "periods": {
-        "first": 1787482800,
-        "second": 1787486400
-      },
-      "venue": {
-        "id": 11892,
-        "name": "Capelli Sport Stadion",
-        "city": "Koge"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2063,
-        "name": "HB Koge",
-        "logo": "https://media.api-sports.io/football/teams/2063.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4676,
-        "name": "Kolding IF",
-        "logo": "https://media.api-sports.io/football/teams/4676.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

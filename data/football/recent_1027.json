@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567919,
+      "referee": "D. Divkovic",
+      "timezone": "UTC",
+      "date": "2026-10-09T18:30:00+00:00",
+      "timestamp": 1791570600,
+      "periods": {
+        "first": 1791570600,
+        "second": 1791574200
+      },
+      "venue": {
+        "id": null,
+        "name": "Hohe Warte Stadium",
+        "city": "Vienna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4990,
+        "name": "First Vienna",
+        "logo": "https://media.api-sports.io/football/teams/4990.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1027,
+        "name": "SKN ST. Polten",
+        "logo": "https://media.api-sports.io/football/teams/1027.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567914,
       "referee": "S. Sampl",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1567905,
-      "referee": "Stefan Macanovic, Austria",
+      "referee": "S. Macanovic",
       "timezone": "UTC",
       "date": "2026-09-13T08:30:00+00:00",
       "timestamp": 1789288200,
@@ -253,76 +323,6 @@
         "id": 5000,
         "name": "Austria Salzburg",
         "logo": "https://media.api-sports.io/football/teams/5000.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567891,
-      "referee": "M. Gachter",
-      "timezone": "UTC",
-      "date": "2026-08-21T16:30:00+00:00",
-      "timestamp": 1787329800,
-      "periods": {
-        "first": 1787329800,
-        "second": 1787333400
-      },
-      "venue": {
-        "id": 152,
-        "name": "Stadion Tivoli NEU",
-        "city": "Innsbruck"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1073,
-        "name": "Wacker Innsbruck",
-        "logo": "https://media.api-sports.io/football/teams/1073.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1027,
-        "name": "SKN ST. Polten",
-        "logo": "https://media.api-sports.io/football/teams/1027.png",
         "winner": false
       }
     },

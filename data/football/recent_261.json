@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558652,
+      "referee": "B. Van Driessche",
+      "timezone": "UTC",
+      "date": "2026-10-11T16:30:00+00:00",
+      "timestamp": 1791736200,
+      "periods": {
+        "first": 1791736200,
+        "second": 1791739800
+      },
+      "venue": {
+        "id": 195,
+        "name": "Het Kuipje",
+        "city": "Westerlo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 261,
+        "name": "KVC Westerlo",
+        "logo": "https://media.api-sports.io/football/teams/261.png",
+        "winner": true
+      },
+      "away": {
+        "id": 740,
+        "name": "Antwerp",
+        "logo": "https://media.api-sports.io/football/teams/740.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558641,
-      "referee": "Massimiliano Ledda",
+      "referee": "M. Ledda",
       "timezone": "UTC",
       "date": "2026-09-20T14:00:00+00:00",
       "timestamp": 1789912800,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": 19611,
-        "name": "Stayen",
-        "city": "Saint Redon"
+        "name": "Daio Wasabi Stayen",
+        "city": "Sint-Truiden"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1558628,
-      "referee": "Bert Put, Belgium",
+      "referee": "B. Put",
       "timezone": "UTC",
       "date": "2026-09-12T16:15:00+00:00",
       "timestamp": 1789229700,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Veoliastadion Achter De Kazerne",
+        "name": "Achter de Kazerne",
         "city": "Mechelen"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558605,
-      "referee": "Bert Verbeke, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-08-23T14:00:00+00:00",
-      "timestamp": 1787493600,
-      "periods": {
-        "first": 1787493600,
-        "second": 1787497200
-      },
-      "venue": {
-        "id": null,
-        "name": "Soevereinstadion",
-        "city": "Lommel"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 259,
-        "name": "Lommel United",
-        "logo": "https://media.api-sports.io/football/teams/259.png",
-        "winner": true
-      },
-      "away": {
-        "id": 261,
-        "name": "KVC Westerlo",
-        "logo": "https://media.api-sports.io/football/teams/261.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

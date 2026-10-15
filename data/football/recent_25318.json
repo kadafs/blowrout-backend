@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601906,
+      "referee": "A. Aliyev",
+      "timezone": "UTC",
+      "date": "2026-10-11T14:30:00+00:00",
+      "timestamp": 1791729000,
+      "periods": {
+        "first": 1791729000,
+        "second": 1791732600
+      },
+      "venue": {
+        "id": 155,
+        "name": "ASK Arena",
+        "city": "Baku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 419,
+      "name": "Premyer Liqa",
+      "country": "Azerbaijan",
+      "logo": "https://media.api-sports.io/football/leagues/419.png",
+      "flag": "https://media.api-sports.io/flags/az.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25318,
+        "name": "Safa Baku",
+        "logo": "https://media.api-sports.io/football/teams/25318.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5499,
+        "name": "Turan",
+        "logo": "https://media.api-sports.io/football/teams/5499.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601899,
       "referee": "V. Hasanli",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 5570,
         "name": "Imisli FK",
         "logo": "https://media.api-sports.io/football/teams/5570.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601873,
-      "referee": "I. Mammadov",
-      "timezone": "UTC",
-      "date": "2026-08-22T14:30:00+00:00",
-      "timestamp": 1787409000,
-      "periods": {
-        "first": 1787409000,
-        "second": 1787412600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Gabala"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 419,
-      "name": "Premyer Liqa",
-      "country": "Azerbaijan",
-      "logo": "https://media.api-sports.io/football/leagues/419.png",
-      "flag": "https://media.api-sports.io/flags/az.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 627,
-        "name": "Qabala",
-        "logo": "https://media.api-sports.io/football/teams/627.png",
-        "winner": false
-      },
-      "away": {
-        "id": 25318,
-        "name": "Safa Baku",
-        "logo": "https://media.api-sports.io/football/teams/25318.png",
         "winner": true
       }
     },

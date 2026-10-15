@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1565267,
+      "referee": "Szabolcs Kovacs",
+      "timezone": "UTC",
+      "date": "2026-10-10T14:15:00+00:00",
+      "timestamp": 1791641700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12593,
+        "name": "Stadionul Municipal",
+        "city": "Sf\u00e2ntu Gheorghe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 283,
+      "name": "Liga I",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/283.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2581,
+        "name": "FC Botosani",
+        "logo": "https://media.api-sports.io/football/teams/2581.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2589,
+        "name": "Uta Arad",
+        "logo": "https://media.api-sports.io/football/teams/2589.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565255,
-      "referee": "Iulian Calin",
+      "referee": "Iulian Calin, Romania",
       "timezone": "UTC",
       "date": "2026-09-19T14:30:00+00:00",
       "timestamp": 1789828200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565233,
-      "referee": "Andrei Florin Chivulete, Romania",
-      "timezone": "UTC",
-      "date": "2026-08-30T13:00:00+00:00",
-      "timestamp": 1788094800,
-      "periods": {
-        "first": 1788094800,
-        "second": 1788098400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Central-Academia Gheorghe Hagi",
-        "city": "Ovidiu"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2596,
-        "name": "Farul Constanta",
-        "logo": "https://media.api-sports.io/football/teams/2596.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2581,
-        "name": "FC Botosani",
-        "logo": "https://media.api-sports.io/football/teams/2581.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

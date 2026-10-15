@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1603469,
+      "referee": "O. Rosayro",
+      "timezone": "UTC",
+      "date": "2026-10-11T11:30:00+00:00",
+      "timestamp": 1791718200,
+      "periods": {
+        "first": 1791718200,
+        "second": 1791721800
+      },
+      "venue": {
+        "id": null,
+        "name": "Jurong East Stadium",
+        "city": "Jurong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 368,
+      "name": "Premier League",
+      "country": "Singapore",
+      "logo": "https://media.api-sports.io/football/leagues/368.png",
+      "flag": "https://media.api-sports.io/flags/sg.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10077,
+        "name": "Tanjong Pagar",
+        "logo": "https://media.api-sports.io/football/teams/10077.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4206,
+        "name": "Tampines Rovers",
+        "logo": "https://media.api-sports.io/football/teams/4206.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603464,
-      "referee": null,
+      "referee": "M. Pagira",
       "timezone": "UTC",
       "date": "2026-09-19T11:30:00+00:00",
       "timestamp": 1789817400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1421872,
-      "referee": "S. Buhari",
-      "timezone": "UTC",
-      "date": "2026-05-05T12:00:00+00:00",
-      "timestamp": 1777982400,
-      "periods": {
-        "first": 1777982400,
-        "second": 1777986000
-      },
-      "venue": {
-        "id": null,
-        "name": "Jurong East Stadium",
-        "city": "Jurong"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 368,
-      "name": "Premier League",
-      "country": "Singapore",
-      "logo": "https://media.api-sports.io/football/leagues/368.png",
-      "flag": "https://media.api-sports.io/flags/sg.svg",
-      "season": 2025,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10077,
-        "name": "Tanjong Pagar",
-        "logo": "https://media.api-sports.io/football/teams/10077.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4205,
-        "name": "Hougang United",
-        "logo": "https://media.api-sports.io/football/teams/4205.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

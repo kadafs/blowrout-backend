@@ -1,18 +1,228 @@
 [
   {
     "fixture": {
-      "id": 1576186,
-      "referee": "Christian Dingert",
+      "id": 1576192,
+      "referee": "Tobias Stieler",
       "timezone": "UTC",
-      "date": "2026-09-19T18:30:00+00:00",
-      "timestamp": 1789842600,
+      "date": "2026-10-11T11:30:00+00:00",
+      "timestamp": 1791718200,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 694,
+        "name": "Olympiastadion",
+        "city": "Berlin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": true
+      },
+      "away": {
+        "id": 178,
+        "name": "SpVgg Greuther F\u00fcrth",
+        "logo": "https://media.api-sports.io/football/teams/178.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1642911,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-02T11:00:00+00:00",
+      "timestamp": 1790938800,
+      "periods": {
+        "first": 1790938800,
+        "second": 1790942400
+      },
+      "venue": {
+        "id": 698,
+        "name": "WWK Arena",
+        "city": "Augsburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png",
+        "winner": null
+      },
+      "away": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1640046,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-29T16:00:00+00:00",
+      "timestamp": 1790697600,
+      "periods": {
+        "first": 1790697600,
+        "second": 1790701200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12786,
+        "name": "Hertha Zehlendorf",
+        "logo": "https://media.api-sports.io/football/teams/12786.png",
+        "winner": false
+      },
+      "away": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1576186,
+      "referee": "Christian Dingert, Germany",
+      "timezone": "UTC",
+      "date": "2026-09-19T18:30:00+00:00",
+      "timestamp": 1789842600,
+      "periods": {
+        "first": 1789842600,
+        "second": 1789846200
+      },
+      "venue": {
         "id": 707,
-        "name": "Rudolf-Harbig Stadion",
+        "name": "Rudolf-Harbig-Stadion",
         "city": "Dresden"
       },
       "status": {
@@ -77,8 +287,8 @@
       "date": "2026-09-13T11:30:00+00:00",
       "timestamp": 1789299000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789299000,
+        "second": 1789302600
       },
       "venue": {
         "id": 735,
@@ -128,216 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576164,
-      "referee": "Florian Exner, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-06T11:30:00+00:00",
-      "timestamp": 1788694200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Olympiastadion",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 159,
-        "name": "Hertha BSC",
-        "logo": "https://media.api-sports.io/football/teams/159.png",
-        "winner": true
-      },
-      "away": {
-        "id": 179,
-        "name": "1. FC Magdeburg",
-        "logo": "https://media.api-sports.io/football/teams/179.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576153,
-      "referee": "Richard Hempel, Germany",
-      "timezone": "UTC",
-      "date": "2026-08-28T16:30:00+00:00",
-      "timestamp": 1787934600,
-      "periods": {
-        "first": 1787934600,
-        "second": 1787938200
-      },
-      "venue": {
-        "id": 708,
-        "name": "Eintracht-Stadion",
-        "city": "Braunschweig"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 744,
-        "name": "Eintracht Braunschweig",
-        "logo": "https://media.api-sports.io/football/teams/744.png",
-        "winner": false
-      },
-      "away": {
-        "id": 159,
-        "name": "Hertha BSC",
-        "logo": "https://media.api-sports.io/football/teams/159.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576147,
-      "referee": "Lukas Benen, Germany",
-      "timezone": "UTC",
-      "date": "2026-08-15T11:00:00+00:00",
-      "timestamp": 1786791600,
-      "periods": {
-        "first": 1786791600,
-        "second": 1786795200
-      },
-      "venue": {
-        "id": null,
-        "name": "Olympiastadion",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 159,
-        "name": "Hertha BSC",
-        "logo": "https://media.api-sports.io/football/teams/159.png",
-        "winner": true
-      },
-      "away": {
-        "id": 180,
-        "name": "1. FC Heidenheim",
-        "logo": "https://media.api-sports.io/football/teams/180.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

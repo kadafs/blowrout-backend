@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639254,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T13:00:00+00:00",
+      "timestamp": 1791896400,
+      "periods": {
+        "first": 1791896400,
+        "second": 1791900000
+      },
+      "venue": {
+        "id": 10790,
+        "name": "Stadion SK Svaty Jur",
+        "city": "Svaty Jur"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 680,
+      "name": "Cup",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/680.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15063,
+        "name": "Sv\u00e4t\u00fd Jur",
+        "logo": "https://media.api-sports.io/football/teams/15063.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14061,
+        "name": "Nov\u00e9 Z\u00e1mky",
+        "logo": "https://media.api-sports.io/football/teams/14061.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1566113,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "fulltime": {
         "home": 2,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1566085,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 644,
-      "name": "3. liga - West",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/644.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "West - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14064,
-        "name": "Ve\u013ek\u00e9 Ludince",
-        "logo": "https://media.api-sports.io/football/teams/14064.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14061,
-        "name": "Nov\u00e9 Z\u00e1mky",
-        "logo": "https://media.api-sports.io/football/teams/14061.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

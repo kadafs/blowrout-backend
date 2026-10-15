@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1638966,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T21:00:00+00:00",
+      "timestamp": 1791752400,
+      "periods": {
+        "first": 1791752400,
+        "second": 1791756000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 396,
+      "name": "Primera Division",
+      "country": "Nicaragua",
+      "logo": "https://media.api-sports.io/football/leagues/396.png",
+      "flag": "https://media.api-sports.io/flags/ni.svg",
+      "season": 2026,
+      "round": "Apertura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10160,
+        "name": "Jalapa",
+        "logo": "https://media.api-sports.io/football/teams/10160.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4644,
+        "name": "Managua",
+        "logo": "https://media.api-sports.io/football/teams/4644.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638959,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-20T00:15:00+00:00",
-      "timestamp": 1789863300,
+      "date": "2026-10-04T00:00:00+00:00",
+      "timestamp": 1791072000,
       "periods": {
-        "first": 1789863300,
-        "second": 1789866900
+        "first": 1791072000,
+        "second": 1791075600
       },
       "venue": {
         "id": null,
@@ -19,7 +89,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": null
+        "extra": 15
       }
     },
     "league": {
@@ -37,27 +107,27 @@
         "id": 4648,
         "name": "Walter Ferretti",
         "logo": "https://media.api-sports.io/football/teams/4648.png",
-        "winner": false
+        "winner": null
       },
       "away": {
         "id": 10160,
         "name": "Jalapa",
         "logo": "https://media.api-sports.io/football/teams/10160.png",
-        "winner": true
+        "winner": null
       }
     },
     "goals": {
-      "home": 0,
-      "away": 1
+      "home": 2,
+      "away": 2
     },
     "score": {
       "halftime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "fulltime": {
-        "home": 0,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "extratime": {
         "home": null,
@@ -144,11 +214,11 @@
       "id": 1636626,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-02T22:20:00+00:00",
-      "timestamp": 1788387600,
+      "date": "2026-09-02T22:00:00+00:00",
+      "timestamp": 1788386400,
       "periods": {
-        "first": 1788387600,
-        "second": 1788391200
+        "first": 1788386400,
+        "second": 1788390000
       },
       "venue": {
         "id": 12039,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586105,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T21:00:00+00:00",
-      "timestamp": 1787518800,
-      "periods": {
-        "first": 1787518800,
-        "second": 1787522400
-      },
-      "venue": {
-        "id": 12039,
-        "name": "Estadio Alejandro Ramos",
-        "city": "Jalapa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 396,
-      "name": "Primera Division",
-      "country": "Nicaragua",
-      "logo": "https://media.api-sports.io/football/leagues/396.png",
-      "flag": "https://media.api-sports.io/flags/ni.svg",
-      "season": 2026,
-      "round": "Apertura - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10160,
-        "name": "Jalapa",
-        "logo": "https://media.api-sports.io/football/teams/10160.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19159,
-        "name": "Matagalpa",
-        "logo": "https://media.api-sports.io/football/teams/19159.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575940,
+      "referee": "N. Pratt",
+      "timezone": "UTC",
+      "date": "2026-09-11T18:45:00+00:00",
+      "timestamp": 1789152300,
+      "periods": {
+        "first": 1789152300,
+        "second": 1789155900
+      },
+      "venue": {
+        "id": null,
+        "name": "The Airfield",
+        "city": "Broughton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4909,
+        "name": "Airbus UK",
+        "logo": "https://media.api-sports.io/football/teams/4909.png",
+        "winner": false
+      },
+      "away": {
+        "id": 354,
+        "name": "The New Saints",
+        "logo": "https://media.api-sports.io/football/teams/354.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1395326,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 8
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 882399,
-      "referee": "A. Jones",
-      "timezone": "UTC",
-      "date": "2022-12-26T14:30:00+00:00",
-      "timestamp": 1672065000,
-      "periods": {
-        "first": 1672065000,
-        "second": 1672068600
-      },
-      "venue": {
-        "id": 1684,
-        "name": "Park Hall Stadium",
-        "city": "Oswestry / Croesoswallt, Shropshire"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2022,
-      "round": "1st Phase - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 354,
-        "name": "The New Saints",
-        "logo": "https://media.api-sports.io/football/teams/354.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4909,
-        "name": "Airbus UK",
-        "logo": "https://media.api-sports.io/football/teams/4909.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 7,
-        "away": 0
       },
       "extratime": {
         "home": null,

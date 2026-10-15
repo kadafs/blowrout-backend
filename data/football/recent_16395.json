@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639324,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T13:00:00+00:00",
+      "timestamp": 1791464400,
+      "periods": {
+        "first": 1791464400,
+        "second": 1791468000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 823,
+      "name": "Nasjonal U19 Champions League",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/823.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16395,
+        "name": "Rosenborg U19",
+        "logo": "https://media.api-sports.io/football/teams/16395.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16559,
+        "name": "Lillestr\u00f8m U19",
+        "logo": "https://media.api-sports.io/football/teams/16559.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627536,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1515207,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-03-14T14:00:00+00:00",
-      "timestamp": 1773496800,
-      "periods": {
-        "first": 1773496800,
-        "second": 1773500400
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 823,
-      "name": "Nasjonal U19 Champions League",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/823.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Group Stage - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27418,
-        "name": "Moss U19",
-        "logo": "https://media.api-sports.io/football/teams/27418.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16395,
-        "name": "Rosenborg U19",
-        "logo": "https://media.api-sports.io/football/teams/16395.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 8
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 8
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1553189,
+      "referee": "Patryk Gryckiewicz, Poland",
+      "timezone": "UTC",
+      "date": "2026-10-10T15:30:00+00:00",
+      "timestamp": 1791646200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18628,
+        "name": "Stadion \u015al\u0105ska  Wroc\u0142aw",
+        "city": "Wroclaw"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 337,
+        "name": "Slask Wroclaw",
+        "logo": "https://media.api-sports.io/football/teams/337.png",
+        "winner": false
+      },
+      "away": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1643228,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T11:30:00+00:00",
+      "timestamp": 1791027000,
+      "periods": {
+        "first": 1791027000,
+        "second": 1791030600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1320,
+        "name": "Energie Cottbus",
+        "logo": "https://media.api-sports.io/football/teams/1320.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553176,
-      "referee": "J. Przybyl",
+      "referee": "Jaroslaw Przybyl, Poland",
       "timezone": "UTC",
       "date": "2026-09-20T18:15:00+00:00",
       "timestamp": 1789928100,
@@ -142,7 +282,7 @@
   {
     "fixture": {
       "id": 1553164,
-      "referee": "W. Myc",
+      "referee": "Wojciech Myc, Poland",
       "timezone": "UTC",
       "date": "2026-09-12T15:30:00+00:00",
       "timestamp": 1789227000,
@@ -193,146 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553158,
-      "referee": "D. Kos",
-      "timezone": "UTC",
-      "date": "2026-09-06T15:30:00+00:00",
-      "timestamp": 1788708600,
-      "periods": {
-        "first": 1788708600,
-        "second": 1788712200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Poznan",
-        "city": "Poznan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 347,
-        "name": "Lech Poznan",
-        "logo": "https://media.api-sports.io/football/teams/347.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3491,
-        "name": "Rak\u00f3w Cz\u0119stochowa",
-        "logo": "https://media.api-sports.io/football/teams/3491.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553140,
-      "referee": "S. Marciniak",
-      "timezone": "UTC",
-      "date": "2026-09-03T18:30:00+00:00",
-      "timestamp": 1788460200,
-      "periods": {
-        "first": 1788460200,
-        "second": 1788463800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Poznan",
-        "city": "Poznan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 347,
-        "name": "Lech Poznan",
-        "logo": "https://media.api-sports.io/football/teams/347.png",
-        "winner": true
-      },
-      "away": {
-        "id": 336,
-        "name": "Jagiellonia",
-        "logo": "https://media.api-sports.io/football/teams/336.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 1
       },
       "fulltime": {

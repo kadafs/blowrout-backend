@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1560038,
+      "referee": "J. Benes",
+      "timezone": "UTC",
+      "date": "2026-10-11T16:00:00+00:00",
+      "timestamp": 1791734400,
+      "periods": {
+        "first": 1791734400,
+        "second": 1791738000
+      },
+      "venue": {
+        "id": null,
+        "name": "epet ARENA",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3724,
+        "name": "Pardubice",
+        "logo": "https://media.api-sports.io/football/teams/3724.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1642909,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-02T10:00:00+00:00",
+      "timestamp": 1790935200,
+      "periods": {
+        "first": 1790935200,
+        "second": 1790938800
+      },
+      "venue": {
+        "id": 19513,
+        "name": "TCM Strahov",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3731,
+        "name": "Vyso\u010dina Jihlava",
+        "logo": "https://media.api-sports.io/football/teams/3731.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560030,
-      "referee": "Karel Roucek, Czechia",
+      "referee": "K. Roucek",
       "timezone": "UTC",
       "date": "2026-09-20T13:00:00+00:00",
       "timestamp": 1789909200,
@@ -12,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Andruv Stadion",
+        "name": "Andruv stadion",
         "city": "Olomouc"
       },
       "status": {
@@ -142,7 +282,7 @@
   {
     "fixture": {
       "id": 1560022,
-      "referee": "Stanislav Volek, Czechia",
+      "referee": "S. Volek",
       "timezone": "UTC",
       "date": "2026-09-12T16:00:00+00:00",
       "timestamp": 1789228800,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636717,
-      "referee": "J. Wulkan",
-      "timezone": "UTC",
-      "date": "2026-09-09T17:00:00+00:00",
-      "timestamp": 1788973200,
-      "periods": {
-        "first": 1788973200,
-        "second": 1788976800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadium Viktoria Zizkov",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 347,
-      "name": "Cup",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/347.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3729,
-        "name": "Viktoria \u017di\u017ekov",
-        "logo": "https://media.api-sports.io/football/teams/3729.png",
-        "winner": false
-      },
-      "away": {
-        "id": 628,
-        "name": "Sparta Praha",
-        "logo": "https://media.api-sports.io/football/teams/628.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560009,
-      "referee": "Marek Radina, Czechia",
-      "timezone": "UTC",
-      "date": "2026-09-06T16:00:00+00:00",
-      "timestamp": 1788710400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20749,
-        "name": "FINEP Arena",
-        "city": "Hradec Kralove"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3723,
-        "name": "Hradec Kr\u00e1lov\u00e9",
-        "logo": "https://media.api-sports.io/football/teams/3723.png",
-        "winner": true
-      },
-      "away": {
-        "id": 628,
-        "name": "Sparta Praha",
-        "logo": "https://media.api-sports.io/football/teams/628.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

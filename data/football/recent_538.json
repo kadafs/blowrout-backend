@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570406,
+      "referee": "J. Alberola",
+      "timezone": "UTC",
+      "date": "2026-10-11T12:00:00+00:00",
+      "timestamp": 1791720000,
+      "periods": {
+        "first": 1791720000,
+        "second": 1791723600
+      },
+      "venue": {
+        "id": 6782,
+        "name": "Estadio Manuel Mart\u00ednez Valero",
+        "city": "Elche"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 797,
+        "name": "Elche",
+        "logo": "https://media.api-sports.io/football/teams/797.png",
+        "winner": null
+      },
+      "away": {
+        "id": 538,
+        "name": "Celta Vigo",
+        "logo": "https://media.api-sports.io/football/teams/538.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570395,
       "referee": "R. De Burgos",
       "timezone": "UTC",
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 22784,
-        "name": "Estadio Abanca Bala\u00eddos",
+        "name": "Municipal de Bala\u00eddos",
         "city": "Vigo"
       },
       "status": {
@@ -221,7 +291,7 @@
         "second": 1788804000
       },
       "venue": {
-        "id": null,
+        "id": 20422,
         "name": "Coliseum",
         "city": "Getafe"
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570392,
-      "referee": "V. Garcia",
-      "timezone": "UTC",
-      "date": "2026-09-03T19:00:00+00:00",
-      "timestamp": 1788462000,
-      "periods": {
-        "first": 1788462000,
-        "second": 1788465600
-      },
-      "venue": {
-        "id": null,
-        "name": "Anoeta",
-        "city": "San Sebastian"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 548,
-        "name": "Real Sociedad",
-        "logo": "https://media.api-sports.io/football/teams/548.png",
-        "winner": null
-      },
-      "away": {
-        "id": 538,
-        "name": "Celta Vigo",
-        "logo": "https://media.api-sports.io/football/teams/538.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

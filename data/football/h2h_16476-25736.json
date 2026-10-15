@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636695,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-17T20:30:00+00:00",
+      "timestamp": 1789677000,
+      "periods": {
+        "first": 1789677000,
+        "second": 1789680600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 243,
+      "name": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/243.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Relegation Group - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25736,
+        "name": "22 de Julio",
+        "logo": "https://media.api-sports.io/football/teams/25736.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16476,
+        "name": "Cumbay\u00e1",
+        "logo": "https://media.api-sports.io/football/teams/16476.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 5
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1526561,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1354652,
-      "referee": "Kevin Tilson Poveda Montanero",
-      "timezone": "UTC",
-      "date": "2025-06-10T18:00:00+00:00",
-      "timestamp": 1749578400,
-      "periods": {
-        "first": 1749578400,
-        "second": 1749582000
-      },
-      "venue": {
-        "id": 21649,
-        "name": "Estadio Folke Anderson",
-        "city": "Esmeraldas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 243,
-      "name": "Liga Pro Serie B",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/243.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2025,
-      "round": "Regular Season - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25736,
-        "name": "22 de Julio",
-        "logo": "https://media.api-sports.io/football/teams/25736.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16476,
-        "name": "Cumbay\u00e1",
-        "logo": "https://media.api-sports.io/football/teams/16476.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

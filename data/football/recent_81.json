@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552782,
+      "referee": "Guillaume Paradis",
+      "timezone": "UTC",
+      "date": "2026-10-11T18:45:00+00:00",
+      "timestamp": 1791744300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 684,
+        "name": "Stade de l'Aube",
+        "city": "Troyes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": false
+      },
+      "away": {
+        "id": 81,
+        "name": "Marseille",
+        "logo": "https://media.api-sports.io/football/teams/81.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552773,
-      "referee": "Francois Letexier",
+      "referee": "Fran\u00e7ois Letexier, France",
       "timezone": "UTC",
       "date": "2026-09-20T18:45:00+00:00",
       "timestamp": 1789929900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552742,
-      "referee": "Willy Delajod, France",
-      "timezone": "UTC",
-      "date": "2026-08-30T18:45:00+00:00",
-      "timestamp": 1788115500,
-      "periods": {
-        "first": 1788115500,
-        "second": 1788119100
-      },
-      "venue": {
-        "id": 20470,
-        "name": "Stade Louis II",
-        "city": "Monaco"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 91,
-        "name": "Monaco",
-        "logo": "https://media.api-sports.io/football/teams/91.png",
-        "winner": true
-      },
-      "away": {
-        "id": 81,
-        "name": "Marseille",
-        "logo": "https://media.api-sports.io/football/teams/81.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

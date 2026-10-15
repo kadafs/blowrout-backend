@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
-      "id": 1630354,
+      "id": 1607323,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T08:00:00+00:00",
+      "timestamp": 1791619200,
+      "periods": {
+        "first": 1791619200,
+        "second": 1791622800
+      },
+      "venue": {
+        "id": null,
+        "name": "Tai Po Sports Ground",
+        "city": "Hongkong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 380,
+      "name": "Premier League",
+      "country": "Hong-Kong",
+      "logo": "https://media.api-sports.io/football/leagues/380.png",
+      "flag": "https://media.api-sports.io/flags/hk.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4457,
+        "name": "Wofoo Tai Po",
+        "logo": "https://media.api-sports.io/football/teams/4457.png",
+        "winner": null
+      },
+      "away": {
+        "id": 20392,
+        "name": "Kowloon City",
+        "logo": "https://media.api-sports.io/football/teams/20392.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1637964,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-04T08:00:00+00:00",
+      "timestamp": 1791100800,
+      "periods": {
+        "first": 1791100800,
+        "second": 1791104400
+      },
+      "venue": {
+        "id": null,
+        "name": "Tuen Mun tang Shiu Kin Sports Ground",
+        "city": "Hongkong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1199,
+      "name": "League Cup",
+      "country": "Hong-Kong",
+      "logo": "https://media.api-sports.io/football/leagues/1199.png",
+      "flag": "https://media.api-sports.io/flags/hk.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 26471,
+        "name": "BC Rangers",
+        "logo": "https://media.api-sports.io/football/teams/26471.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4457,
+        "name": "Wofoo Tai Po",
+        "logo": "https://media.api-sports.io/football/teams/4457.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1630354,
+      "referee": "E. H. Mahfoodh A.",
       "timezone": "UTC",
       "date": "2026-09-17T10:00:00+00:00",
       "timestamp": 1789639200,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607309,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T08:00:00+00:00",
-      "timestamp": 1788076800,
-      "periods": {
-        "first": 1788076800,
-        "second": 1788080400
-      },
-      "venue": {
-        "id": null,
-        "name": "Tai Po Sports Ground",
-        "city": "Hongkong"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 380,
-      "name": "Premier League",
-      "country": "Hong-Kong",
-      "logo": "https://media.api-sports.io/football/leagues/380.png",
-      "flag": "https://media.api-sports.io/flags/hk.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4457,
-        "name": "Wofoo Tai Po",
-        "logo": "https://media.api-sports.io/football/teams/4457.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4451,
-        "name": "Eastern",
-        "logo": "https://media.api-sports.io/football/teams/4451.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607304,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T08:00:00+00:00",
-      "timestamp": 1787472000,
-      "periods": {
-        "first": 1787472000,
-        "second": 1787475600
-      },
-      "venue": {
-        "id": null,
-        "name": "North District Sports Ground",
-        "city": "Hongkong"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 380,
-      "name": "Premier League",
-      "country": "Hong-Kong",
-      "logo": "https://media.api-sports.io/football/leagues/380.png",
-      "flag": "https://media.api-sports.io/flags/hk.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6401,
-        "name": "North District",
-        "logo": "https://media.api-sports.io/football/teams/6401.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4457,
-        "name": "Wofoo Tai Po",
-        "logo": "https://media.api-sports.io/football/teams/4457.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1561410,
+      "referee": "Ivan Abrosimov",
+      "timezone": "UTC",
+      "date": "2026-10-11T16:30:00+00:00",
+      "timestamp": 1791736200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19911,
+        "name": "Ak Bars Arena",
+        "city": "Kazan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 235,
+      "name": "Premier League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/235.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1083,
+        "name": "Rubin",
+        "logo": "https://media.api-sports.io/football/teams/1083.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1088,
+        "name": "Dynamo",
+        "logo": "https://media.api-sports.io/football/teams/1088.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561401,
-      "referee": null,
+      "referee": "Rafael Shafeev, Russia",
       "timezone": "UTC",
       "date": "2026-09-16T15:30:00+00:00",
       "timestamp": 1789572600,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561365,
-      "referee": "Aleksei Suchkov, Russia",
-      "timezone": "UTC",
-      "date": "2026-08-24T17:30:00+00:00",
-      "timestamp": 1787592600,
-      "periods": {
-        "first": 1787592600,
-        "second": 1787596200
-      },
-      "venue": {
-        "id": 20188,
-        "name": "Rostec Arena",
-        "city": "Kaliningrad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2006,
-        "name": "Baltika",
-        "logo": "https://media.api-sports.io/football/teams/2006.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1083,
-        "name": "Rubin",
-        "logo": "https://media.api-sports.io/football/teams/1083.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

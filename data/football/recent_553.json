@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
-      "id": 1593320,
-      "referee": "Stavros Tsimenteridis",
+      "id": 1593329,
+      "referee": "Alejandro Hernandez",
       "timezone": "UTC",
-      "date": "2026-09-20T14:00:00+00:00",
-      "timestamp": 1789912800,
+      "date": "2026-10-11T18:00:00+00:00",
+      "timestamp": 1791741600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 775,
+        "name": "Karaiskakis Stadium",
+        "city": "Piraeus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 197,
+      "name": "Super League 1",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/197.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 553,
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png",
+        "winner": true
+      },
+      "away": {
+        "id": 617,
+        "name": "Panathinaikos",
+        "logo": "https://media.api-sports.io/football/teams/617.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1593320,
+      "referee": "Stavros Tsimenteridis, Greece",
+      "timezone": "UTC",
+      "date": "2026-09-20T14:00:00+00:00",
+      "timestamp": 1789912800,
+      "periods": {
+        "first": 1789912800,
+        "second": 1789916400
+      },
+      "venue": {
         "id": 773,
-        "name": "Levadia Municipal Stadium",
-        "city": "Levaja"
+        "name": "Levadia Stadium",
+        "city": "Levadia"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1593314,
-      "referee": "Vassilis Fotias",
+      "referee": "Vassilis Fotias, Greece",
       "timezone": "UTC",
       "date": "2026-09-12T16:00:00+00:00",
       "timestamp": 1789228800,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Karaiskakis Stadium",
+        "name": "Georgios Karaiskakis Stadium",
         "city": "Piraeus"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593309,
-      "referee": "Athanasios Tzilos",
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": 1918,
-        "name": "Panthessaliko Stadium",
-        "city": "Volos"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 197,
-      "name": "Super League 1",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/197.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2110,
-        "name": "Volos NFC",
-        "logo": "https://media.api-sports.io/football/teams/2110.png",
-        "winner": null
-      },
-      "away": {
-        "id": 553,
-        "name": "Olympiakos Piraeus",
-        "logo": "https://media.api-sports.io/football/teams/553.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

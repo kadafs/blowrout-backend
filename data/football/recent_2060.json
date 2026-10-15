@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551347,
+      "referee": "S. Aagerup",
+      "timezone": "UTC",
+      "date": "2026-10-09T17:00:00+00:00",
+      "timestamp": 1791565200,
+      "periods": {
+        "first": 1791565200,
+        "second": 1791568800
+      },
+      "venue": {
+        "id": null,
+        "name": "Gladsaxe Stadium",
+        "city": "Copenhagen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2060,
+        "name": "AB Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/2060.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6004,
+        "name": "Aarhus Fremad",
+        "logo": "https://media.api-sports.io/football/teams/6004.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551343,
       "referee": "N. Dommerudveksling",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551324,
-      "referee": "J. Bogelund",
-      "timezone": "UTC",
-      "date": "2026-08-29T11:00:00+00:00",
-      "timestamp": 1788001200,
-      "periods": {
-        "first": 1788001200,
-        "second": 1788004800
-      },
-      "venue": {
-        "id": 3525,
-        "name": "Autocentralen Park",
-        "city": "Kolding"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4676,
-        "name": "Kolding IF",
-        "logo": "https://media.api-sports.io/football/teams/4676.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2060,
-        "name": "AB Copenhagen",
-        "logo": "https://media.api-sports.io/football/teams/2060.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

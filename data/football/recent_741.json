@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558645,
+      "referee": "K. van Damme",
+      "timezone": "UTC",
+      "date": "2026-10-10T14:00:00+00:00",
+      "timestamp": 1791640800,
+      "periods": {
+        "first": 1791640800,
+        "second": 1791644400
+      },
+      "venue": {
+        "id": null,
+        "name": "Jan Breydel Stadion",
+        "city": "Brugge"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 741,
+        "name": "Cercle Brugge",
+        "logo": "https://media.api-sports.io/football/teams/741.png",
+        "winner": false
+      },
+      "away": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558637,
-      "referee": "Letellier Anthony",
+      "referee": "A. Letellier",
       "timezone": "UTC",
       "date": "2026-09-19T16:15:00+00:00",
       "timestamp": 1789834500,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1558629,
-      "referee": "Bram Van Driessche, Belgium",
+      "referee": "B. Van Driessche",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "The King Power AT Den Dreef Stadium",
+        "name": "Den Dreef",
         "city": "Heverlee"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1558622,
-      "referee": "Yusuke Araki, Japan",
+      "referee": "Y. Araki",
       "timezone": "UTC",
       "date": "2026-09-06T11:30:00+00:00",
       "timestamp": 1788694200,
@@ -152,8 +222,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Jan Breydel Stadium",
-        "city": "Bruges"
+        "name": "Jan Breydel Stadion",
+        "city": "Brugge"
       },
       "status": {
         "long": "Match Finished",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1558611,
-      "referee": "Massimiliano Ledda, Belgium",
+      "referee": "M. Ledda",
       "timezone": "UTC",
       "date": "2026-08-29T18:45:00+00:00",
       "timestamp": 1788029100,
@@ -222,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Jan Breydel Stadium",
-        "city": "Bruges"
+        "name": "Jan Breydel Stadion",
+        "city": "Brugge"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558606,
-      "referee": "Nicolas Laforge, Belgium",
-      "timezone": "UTC",
-      "date": "2026-08-23T16:30:00+00:00",
-      "timestamp": 1787502600,
-      "periods": {
-        "first": 1787502600,
-        "second": 1787506200
-      },
-      "venue": {
-        "id": null,
-        "name": "Jan Breydel Stadium",
-        "city": "Bruges"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 569,
-        "name": "Club Brugge KV",
-        "logo": "https://media.api-sports.io/football/teams/569.png",
-        "winner": true
-      },
-      "away": {
-        "id": 741,
-        "name": "Cercle Brugge",
-        "logo": "https://media.api-sports.io/football/teams/741.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1477368,
+      "referee": "D. Vokoun",
+      "timezone": "UTC",
+      "date": "2026-03-21T15:00:00+00:00",
+      "timestamp": 1774105200,
+      "periods": {
+        "first": 1774105200,
+        "second": 1774108800
+      },
+      "venue": {
+        "id": null,
+        "name": "Simply Arena",
+        "city": "Opava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 346,
+      "name": "FNL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/346.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2025,
+      "round": "Regular Season - 20",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3717,
+        "name": "Opava",
+        "logo": "https://media.api-sports.io/football/teams/3717.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3731,
+        "name": "Vyso\u010dina Jihlava",
+        "logo": "https://media.api-sports.io/football/teams/3731.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1384452,
-      "referee": "Adam Tr\u0161ka",
+      "referee": "A. Trska",
       "timezone": "UTC",
       "date": "2025-08-16T15:00:00+00:00",
       "timestamp": 1755356400,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1041312,
-      "referee": "A. Trska",
-      "timezone": "UTC",
-      "date": "2023-07-21T16:00:00+00:00",
-      "timestamp": 1689955200,
-      "periods": {
-        "first": 1689955200,
-        "second": 1689958800
-      },
-      "venue": {
-        "id": 2513,
-        "name": "Stadion v Jir\u00e1skov\u011b ulici",
-        "city": "Jihlava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 346,
-      "name": "FNL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/346.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2023,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3731,
-        "name": "Vyso\u010dina Jihlava",
-        "logo": "https://media.api-sports.io/football/teams/3731.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3717,
-        "name": "Opava",
-        "logo": "https://media.api-sports.io/football/teams/3717.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

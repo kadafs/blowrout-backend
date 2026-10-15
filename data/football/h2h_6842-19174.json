@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1474054,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-20T13:00:00+00:00",
+      "timestamp": 1774011600,
+      "periods": {
+        "first": 1774011600,
+        "second": 1774015200
+      },
+      "venue": {
+        "id": 11392,
+        "name": "Stadionul Comunal 2",
+        "city": "Clinceni"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 788,
+      "name": "Liga III - Serie 5",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/788.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2025,
+      "round": "Group 5 - 21",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6842,
+        "name": "Alexandria",
+        "logo": "https://media.api-sports.io/football/teams/6842.png",
+        "winner": null
+      },
+      "away": {
+        "id": 19174,
+        "name": "Cetatea",
+        "logo": "https://media.api-sports.io/football/teams/19174.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1473992,
       "referee": null,
       "timezone": "UTC",
       "date": "2025-10-24T13:30:00+00:00",
       "timestamp": 1761312600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1761312600,
+        "second": 1761316200
       },
       "venue": {
         "id": 4610,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1033946,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2022-10-02T12:00:00+00:00",
-      "timestamp": 1664712000,
-      "periods": {
-        "first": 1664712000,
-        "second": 1664715600
-      },
-      "venue": {
-        "id": 4995,
-        "name": "Stadionul Peco",
-        "city": "Alexandria"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 789,
-      "name": "Liga III - Serie 6",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/789.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2022,
-      "round": "Group 6 - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6842,
-        "name": "Alexandria",
-        "logo": "https://media.api-sports.io/football/teams/6842.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19174,
-        "name": "Cetatea",
-        "logo": "https://media.api-sports.io/football/teams/19174.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 7,
         "away": 1
       },
       "extratime": {

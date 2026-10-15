@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629939,
+      "referee": "Yusuke Araki",
+      "timezone": "UTC",
+      "date": "2026-10-13T16:00:00+00:00",
+      "timestamp": 1791907200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1303,
+        "name": "Jassim Bin Hamad Stadium",
+        "city": "Doha"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 17,
+      "name": "AFC Champions League Elite",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/17.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2895,
+        "name": "Al Sadd",
+        "logo": "https://media.api-sports.io/football/teams/2895.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2932,
+        "name": "Al-Hilal Saudi FC",
+        "logo": "https://media.api-sports.io/football/teams/2932.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597933,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635604,
-      "referee": "J. Abdulrahman",
-      "timezone": "UTC",
-      "date": "2026-09-01T14:00:00+00:00",
-      "timestamp": 1788271200,
-      "periods": {
-        "first": 1788271200,
-        "second": 1788274800
-      },
-      "venue": {
-        "id": null,
-        "name": "Khalifa International Stadium",
-        "city": "Al Rayyan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 825,
-      "name": "Qatar Cup",
-      "country": "Qatar",
-      "logo": "https://media.api-sports.io/football/leagues/825.png",
-      "flag": "https://media.api-sports.io/flags/qa.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2895,
-        "name": "Al Sadd",
-        "logo": "https://media.api-sports.io/football/teams/2895.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2903,
-        "name": "Al-Gharafa",
-        "logo": "https://media.api-sports.io/football/teams/2903.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

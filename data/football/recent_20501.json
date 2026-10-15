@@ -1,14 +1,154 @@
 [
   {
     "fixture": {
+      "id": 1593146,
+      "referee": "S. Menzel",
+      "timezone": "UTC",
+      "date": "2026-10-03T12:00:00+00:00",
+      "timestamp": 1791028800,
+      "periods": {
+        "first": 1791028800,
+        "second": 1791032400
+      },
+      "venue": {
+        "id": 21035,
+        "name": "Red Bull Arena",
+        "city": "Leipzig"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20501,
+        "name": "RB Leipzig W",
+        "logo": "https://media.api-sports.io/football/teams/20501.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21564,
+        "name": "Mainz 05 W",
+        "logo": "https://media.api-sports.io/football/teams/21564.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1629368,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-27T11:00:00+00:00",
+      "timestamp": 1790506800,
+      "periods": {
+        "first": 1790506800,
+        "second": 1790510400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 947,
+      "name": "DFB Pokal - Women",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/947.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27894,
+        "name": "Blau-Gelb Marburg W",
+        "logo": "https://media.api-sports.io/football/teams/27894.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20501,
+        "name": "RB Leipzig W",
+        "logo": "https://media.api-sports.io/football/teams/20501.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593140,
-      "referee": "Levke Scholz",
+      "referee": "L. Scholz",
       "timezone": "UTC",
       "date": "2026-09-20T16:30:00+00:00",
       "timestamp": 1789921800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789921800,
+        "second": 1789925400
       },
       "venue": {
         "id": 748,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593120,
-      "referee": "D. Kottmann",
-      "timezone": "UTC",
-      "date": "2026-08-30T16:30:00+00:00",
-      "timestamp": 1788107400,
-      "periods": {
-        "first": 1788107400,
-        "second": 1788111000
-      },
-      "venue": {
-        "id": 2727,
-        "name": "Weserstadion Platz 11",
-        "city": "Bremen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1870,
-        "name": "Werder Bremen W",
-        "logo": "https://media.api-sports.io/football/teams/1870.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20501,
-        "name": "RB Leipzig W",
-        "logo": "https://media.api-sports.io/football/teams/20501.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593113,
-      "referee": "A. Soder",
-      "timezone": "UTC",
-      "date": "2026-08-23T14:00:00+00:00",
-      "timestamp": 1787493600,
-      "periods": {
-        "first": 1787493600,
-        "second": 1787497200
-      },
-      "venue": {
-        "id": 738,
-        "name": "Red Bull Arena",
-        "city": "Leipzig"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20501,
-        "name": "RB Leipzig W",
-        "logo": "https://media.api-sports.io/football/teams/20501.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1859,
-        "name": "Bayer Leverkusen W",
-        "logo": "https://media.api-sports.io/football/teams/1859.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

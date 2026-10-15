@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586258,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T17:00:00+00:00",
+      "timestamp": 1791910800,
+      "periods": {
+        "first": 1791910800,
+        "second": 1791914400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 83,
+      "name": "Regionalliga - Bayern",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/83.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Bayern - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9326,
+        "name": "Buchbach",
+        "logo": "https://media.api-sports.io/football/teams/9326.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9324,
+        "name": "Augsburg II",
+        "logo": "https://media.api-sports.io/football/teams/9324.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586256,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586224,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T17:00:00+00:00",
-      "timestamp": 1789750800,
-      "periods": {
-        "first": 1789750800,
-        "second": 1789754400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 83,
-      "name": "Regionalliga - Bayern",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/83.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Bayern - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9326,
-        "name": "Buchbach",
-        "logo": "https://media.api-sports.io/football/teams/9326.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1635,
-        "name": "FC Schweinfurt 05",
-        "logo": "https://media.api-sports.io/football/teams/1635.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

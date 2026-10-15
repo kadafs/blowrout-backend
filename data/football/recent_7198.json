@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621034,
+      "referee": "L. Smith",
+      "timezone": "UTC",
+      "date": "2026-09-18T18:00:00+00:00",
+      "timestamp": 1789754400,
+      "periods": {
+        "first": 1789754400,
+        "second": 1789758000
+      },
+      "venue": {
+        "id": null,
+        "name": "Leigh Sports Village",
+        "city": "Leigh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7198,
+        "name": "Manchester United U21",
+        "logo": "https://media.api-sports.io/football/teams/7198.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20079,
+        "name": "Brentford U21",
+        "logo": "https://media.api-sports.io/football/teams/20079.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621010,
       "referee": "A. Bannister",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544377,
-      "referee": "O. Mackey",
-      "timezone": "UTC",
-      "date": "2026-05-08T18:00:00+00:00",
-      "timestamp": 1778263200,
-      "periods": {
-        "first": 1778263200,
-        "second": 1778266800
-      },
-      "venue": {
-        "id": 11118,
-        "name": "Academy Stadium",
-        "city": "Manchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7197,
-        "name": "Manchester City U21",
-        "logo": "https://media.api-sports.io/football/teams/7197.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7198,
-        "name": "Manchester United U21",
-        "logo": "https://media.api-sports.io/football/teams/7198.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

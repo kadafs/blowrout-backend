@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1567923,
+      "referee": "C. Demir",
+      "timezone": "UTC",
+      "date": "2026-10-10T13:30:00+00:00",
+      "timestamp": 1791639000,
+      "periods": {
+        "first": 1791639000,
+        "second": 1791642600
+      },
+      "venue": {
+        "id": null,
+        "name": "Allianz Stadion",
+        "city": "Vienna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8247,
+        "name": "Rapid Wien II",
+        "logo": "https://media.api-sports.io/football/teams/8247.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1073,
+        "name": "Wacker Innsbruck",
+        "logo": "https://media.api-sports.io/football/teams/1073.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567909,
-      "referee": "Florian Jager, Austria",
+      "referee": "F. Jager",
       "timezone": "UTC",
       "date": "2026-09-20T08:30:00+00:00",
       "timestamp": 1789893000,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1567906,
-      "referee": "Daniel Pfister, Austria",
+      "referee": "D. Pfister",
       "timezone": "UTC",
       "date": "2026-09-11T16:30:00+00:00",
       "timestamp": 1789144200,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1567890,
-      "referee": "Isa Simsek, Austria",
+      "referee": "I. Simsek",
       "timezone": "UTC",
       "date": "2026-08-22T13:30:00+00:00",
       "timestamp": 1787405400,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567880,
-      "referee": "A. Harkam",
-      "timezone": "UTC",
-      "date": "2026-08-14T16:30:00+00:00",
-      "timestamp": 1786725000,
-      "periods": {
-        "first": 1786725000,
-        "second": 1786728600
-      },
-      "venue": {
-        "id": 5842,
-        "name": "Huber-Arena",
-        "city": "Wels"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22213,
-        "name": "WSPG Wels",
-        "logo": "https://media.api-sports.io/football/teams/22213.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8247,
-        "name": "Rapid Wien II",
-        "logo": "https://media.api-sports.io/football/teams/8247.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

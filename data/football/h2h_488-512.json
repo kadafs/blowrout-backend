@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629059,
+      "referee": "A. Calzavara",
+      "timezone": "UTC",
+      "date": "2026-09-02T13:00:00+00:00",
+      "timestamp": 1788354000,
+      "periods": {
+        "first": 1788354000,
+        "second": 1788357600
+      },
+      "venue": {
+        "id": null,
+        "name": "Mapei Stadium",
+        "city": "Reggio Emilia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 137,
+      "name": "Coppa Italia",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/137.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 488,
+        "name": "Sassuolo",
+        "logo": "https://media.api-sports.io/football/teams/488.png",
+        "winner": true
+      },
+      "away": {
+        "id": 512,
+        "name": "Frosinone",
+        "logo": "https://media.api-sports.io/football/teams/512.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": 4,
+        "away": 3
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1234967,
       "referee": "I. Pezzuto",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 29338,
-      "referee": "Antonio Giua, Italy",
-      "timezone": "UTC",
-      "date": "2019-05-05T13:00:00+00:00",
-      "timestamp": 1557061200,
-      "periods": {
-        "first": 1557061200,
-        "second": 1557064800
-      },
-      "venue": {
-        "id": 935,
-        "name": "Mapei Stadium \u2013 Citt\u00e0 del Tricolore",
-        "city": "Reggio Emilia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2018,
-      "round": "Regular Season - 35",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 488,
-        "name": "Sassuolo",
-        "logo": "https://media.api-sports.io/football/teams/488.png",
-        "winner": null
-      },
-      "away": {
-        "id": 512,
-        "name": "Frosinone",
-        "logo": "https://media.api-sports.io/football/teams/512.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1523269,
+      "referee": "Kim Hee-gon, South Korea",
+      "timezone": "UTC",
+      "date": "2026-10-10T11:35:00+00:00",
+      "timestamp": 1791632100,
+      "periods": {
+        "first": 1791632100,
+        "second": 1791635700
+      },
+      "venue": {
+        "id": null,
+        "name": "Chengdu Phoenix Hill Football Stadium",
+        "city": "Sichuan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 169,
+      "name": "Super League",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/169.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5648,
+        "name": "Chengdu Better City",
+        "logo": "https://media.api-sports.io/football/teams/5648.png",
+        "winner": false
+      },
+      "away": {
+        "id": 837,
+        "name": "Tianjin Teda",
+        "logo": "https://media.api-sports.io/football/teams/837.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1523201,
       "referee": "Di Wang, China",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1523239,
-      "referee": "Ilgiz Tantashev, Uzbekistan",
-      "timezone": "UTC",
-      "date": "2026-08-15T11:35:00+00:00",
-      "timestamp": 1786793700,
-      "periods": {
-        "first": 1786793700,
-        "second": 1786797300
-      },
-      "venue": {
-        "id": null,
-        "name": "TEDA Football Stadium",
-        "city": "Tianjin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 169,
-      "name": "Super League",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/169.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 837,
-        "name": "Tianjin Teda",
-        "logo": "https://media.api-sports.io/football/teams/837.png",
-        "winner": false
-      },
-      "away": {
-        "id": 830,
-        "name": "Beijing Guoan",
-        "logo": "https://media.api-sports.io/football/teams/830.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

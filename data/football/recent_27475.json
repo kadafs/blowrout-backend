@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1634310,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-09T12:40:00+00:00",
+      "timestamp": 1791549600,
+      "periods": {
+        "first": 1791549600,
+        "second": 1791553200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 309,
+      "name": "Division 2",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/309.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27475,
+        "name": "Al Gottah",
+        "logo": "https://media.api-sports.io/football/teams/27475.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27479,
+        "name": "Al Rayan",
+        "logo": "https://media.api-sports.io/football/teams/27479.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1520150,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1520101,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-03-06T19:00:00+00:00",
-      "timestamp": 1772823600,
-      "periods": {
-        "first": 1772823600,
-        "second": 1772827200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 309,
-      "name": "Division 2",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/309.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2025,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27475,
-        "name": "Al Gottah",
-        "logo": "https://media.api-sports.io/football/teams/27475.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27482,
-        "name": "Mudhar Club",
-        "logo": "https://media.api-sports.io/football/teams/27482.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

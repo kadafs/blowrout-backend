@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577547,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T14:00:00+00:00",
+      "timestamp": 1791727200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2834,
+        "name": "Fisht Olympic Stadium",
+        "city": "Sochi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2012,
+        "name": "FC Sochi",
+        "logo": "https://media.api-sports.io/football/teams/2012.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1078,
+        "name": "FC UFA",
+        "logo": "https://media.api-sports.io/football/teams/1078.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577535,
       "referee": "Aleksei Lapatukhin",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577510,
-      "referee": "O. Gusakov",
-      "timezone": "UTC",
-      "date": "2026-08-30T15:00:00+00:00",
-      "timestamp": 1788102000,
-      "periods": {
-        "first": 1788102000,
-        "second": 1788105600
-      },
-      "venue": {
-        "id": null,
-        "name": "Fisht Olympic Stadium",
-        "city": "Sochi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2012,
-        "name": "FC Sochi",
-        "logo": "https://media.api-sports.io/football/teams/2012.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6790,
-        "name": "Chelyabinsk",
-        "logo": "https://media.api-sports.io/football/teams/6790.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

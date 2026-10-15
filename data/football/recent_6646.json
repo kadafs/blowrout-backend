@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555065,
+      "referee": "M. Londino",
+      "timezone": "UTC",
+      "date": "2026-10-09T18:15:00+00:00",
+      "timestamp": 1791569700,
+      "periods": {
+        "first": 1791569700,
+        "second": 1791573300
+      },
+      "venue": {
+        "id": null,
+        "name": "Colovray Sports Centre",
+        "city": "Nyon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 208,
+      "name": "Challenge League",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/208.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6646,
+        "name": "Stade Nyonnais",
+        "logo": "https://media.api-sports.io/football/teams/6646.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2177,
+        "name": "FC Aarau",
+        "logo": "https://media.api-sports.io/football/teams/2177.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555058,
       "referee": "M. Drmic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555037,
-      "referee": "Z. Prskalo",
-      "timezone": "UTC",
-      "date": "2026-08-28T17:30:00+00:00",
-      "timestamp": 1787938200,
-      "periods": {
-        "first": 1787938200,
-        "second": 1787941800
-      },
-      "venue": {
-        "id": 1534,
-        "name": "Stadion Kleinfeld",
-        "city": "Kriens"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 208,
-      "name": "Challenge League",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/208.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2186,
-        "name": "SC Kriens",
-        "logo": "https://media.api-sports.io/football/teams/2186.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6646,
-        "name": "Stade Nyonnais",
-        "logo": "https://media.api-sports.io/football/teams/6646.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

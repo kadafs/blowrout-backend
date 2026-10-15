@@ -1,25 +1,25 @@
 [
   {
     "fixture": {
-      "id": 1505509,
-      "referee": "N. Gamboa",
+      "id": 1505532,
+      "referee": "Jose Cabero",
       "timezone": "UTC",
-      "date": "2026-09-16T21:00:00+00:00",
-      "timestamp": 1789592400,
+      "date": "2026-10-11T18:00:00+00:00",
+      "timestamp": 1791741600,
       "periods": {
-        "first": 1789592400,
-        "second": 1789596000
+        "first": 1791741600,
+        "second": 1791745200
       },
       "venue": {
-        "id": 338,
-        "name": "Estadio Municipal de La Cisterna",
-        "city": "Santiago de Chile"
+        "id": 324,
+        "name": "Francisco S\u00e1nchez Rumoroso",
+        "city": "Coquimbo"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 10
+        "extra": null
       }
     },
     "league": {
@@ -29,7 +29,7 @@
       "logo": "https://media.api-sports.io/football/leagues/265.png",
       "flag": "https://media.api-sports.io/flags/cl.svg",
       "season": 2026,
-      "round": "Regular Season - 21",
+      "round": "Regular Season - 24",
       "standings": true
     },
     "teams": {
@@ -37,26 +37,96 @@
         "id": 2330,
         "name": "Coquimbo Unido",
         "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": false
+        "winner": true
       },
       "away": {
-        "id": 2328,
-        "name": "Huachipato",
-        "logo": "https://media.api-sports.io/football/teams/2328.png",
-        "winner": true
+        "id": 2315,
+        "name": "Colo Colo",
+        "logo": "https://media.api-sports.io/football/teams/2315.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 0,
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1638395,
+      "referee": "G. Philippe",
+      "timezone": "UTC",
+      "date": "2026-10-07T22:00:00+00:00",
+      "timestamp": 1791410400,
+      "periods": {
+        "first": 1791410400,
+        "second": 1791414000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Coquimbo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2330,
+        "name": "Coquimbo Unido",
+        "logo": "https://media.api-sports.io/football/teams/2330.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2332,
+        "name": "Cobreloa",
+        "logo": "https://media.api-sports.io/football/teams/2332.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
       "away": 1
     },
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "fulltime": {
-        "home": 0,
+        "home": 2,
         "away": 1
       },
       "extratime": {
@@ -71,8 +141,78 @@
   },
   {
     "fixture": {
+      "id": 1638382,
+      "referee": "N. Millas",
+      "timezone": "UTC",
+      "date": "2026-09-22T23:30:00+00:00",
+      "timestamp": 1790119800,
+      "periods": {
+        "first": 1790119800,
+        "second": 1790123400
+      },
+      "venue": {
+        "id": 322,
+        "name": "Estadio Zorros del Desierto",
+        "city": "Calama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2332,
+        "name": "Cobreloa",
+        "logo": "https://media.api-sports.io/football/teams/2332.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2330,
+        "name": "Coquimbo Unido",
+        "logo": "https://media.api-sports.io/football/teams/2330.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505524,
-      "referee": "J. Cabero",
+      "referee": "Jose Cabero",
       "timezone": "UTC",
       "date": "2026-09-12T18:00:00+00:00",
       "timestamp": 1789236000,
@@ -81,8 +221,8 @@
         "second": 1789239600
       },
       "venue": {
-        "id": null,
-        "name": "Estadio El Cobre de El Salvador",
+        "id": 323,
+        "name": "Estadio El Cobre",
         "city": "El Salvador"
       },
       "status": {
@@ -142,7 +282,7 @@
   {
     "fixture": {
       "id": 1505522,
-      "referee": "C. Garay",
+      "referee": "Cristian Garay",
       "timezone": "UTC",
       "date": "2026-09-06T00:00:00+00:00",
       "timestamp": 1788652800,
@@ -152,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": null,
-        "city": "Santiago de Chile"
+        "name": "Estadio Nacional Julio Mart\u00ednez Pr\u00e1danos",
+        "city": "Santiago"
       },
       "status": {
         "long": "Match Finished",
@@ -197,146 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505469,
-      "referee": "M. Salvo",
-      "timezone": "UTC",
-      "date": "2026-09-02T22:00:00+00:00",
-      "timestamp": 1788386400,
-      "periods": {
-        "first": 1788386400,
-        "second": 1788390000
-      },
-      "venue": {
-        "id": null,
-        "name": "Francisco S\u00e1nchez Rumoroso",
-        "city": "Coquimbo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2330,
-        "name": "Coquimbo Unido",
-        "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2324,
-        "name": "Universidad de Concepcion",
-        "logo": "https://media.api-sports.io/football/teams/2324.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505493,
-      "referee": "C. Garay",
-      "timezone": "UTC",
-      "date": "2026-08-26T22:00:00+00:00",
-      "timestamp": 1787781600,
-      "periods": {
-        "first": 1787781600,
-        "second": 1787785200
-      },
-      "venue": {
-        "id": null,
-        "name": "Francisco S\u00e1nchez Rumoroso",
-        "city": "Coquimbo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2330,
-        "name": "Coquimbo Unido",
-        "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2994,
-        "name": "U. Catolica",
-        "logo": "https://media.api-sports.io/football/teams/2994.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

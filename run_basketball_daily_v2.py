@@ -1165,7 +1165,7 @@ def main():
                     "confidence_score_band": conf_res["band"]["label"].strip(),
                     "confidence_score": conf_res["confidence_score"],
                     "buffer_score": conf_res.get("hit_rate_score", 0),
-                    "buffer_tier": "[ELITE BUFFER]" if conf_res.get("hit_rate_score", 0) >= 25 else ("[STRONG BUFFER]" if conf_res.get("hit_rate_score", 0) >= 18 else ("[NEUTRAL]" if conf_res.get("hit_rate_score", 0) >= 10 else ("[MARGINAL]" if conf_res.get("hit_rate_score", 0) > 0 else "[AVOID]"))),
+                    "buffer_tier": "[ELITE BUFFER]" if conf_res.get("hit_rate_score", 0) >= 40 else ("[STRONG BUFFER]" if conf_res.get("hit_rate_score", 0) >= 28 else ("[NEUTRAL]" if conf_res.get("hit_rate_score", 0) >= 16 else ("[MARGINAL]" if conf_res.get("hit_rate_score", 0) > 0 else "[AVOID]"))),
                     "weighted_hit_rate": conf_res.get("weighted_hit_rate"),
                     "mae_h": mae_h,
                     "mae_a": mae_a,

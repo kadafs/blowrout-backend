@@ -6,20 +6,20 @@ Evaluates basketball fixtures exclusively using the Historical Buffer Hit Rate (
 The Historical Buffer Hit Rate assesses how reliably both teams hit their projected scoring floor:
     Floor Target = model_total - 5.0 pts
 
-Scoring Engine (0 - 32 points, matching core/confidence_score.py):
+Scoring Engine (0 - 50 points, matching core/confidence_score.py):
     Weighted Hit Rate = (0.6 * lower_team_hit_rate) + (0.4 * higher_team_hit_rate)
     Base Score:
-        >= 80%  -> 32 pts (Elite buffer reliability)
-        >= 65%  -> 21 pts (Solid reliability)
-        >= 50%  -> 10 pts (Neutral / Marginal)
+        >= 80%  -> 50 pts (Elite buffer reliability)
+        >= 65%  -> 33 pts (Solid reliability)
+        >= 50%  -> 16 pts (Neutral / Marginal)
         <  50%  ->  0 pts (Unreliable / Under-shoots buffer)
 
     Sample Size Guard:
         min_games >= 5 -> 100% of base score
-        min_games == 4 -> 80% of base score (max 25)
-        min_games == 3 -> 60% of base score (max 19)
-        min_games <= 2 -> 30% of base score (capped at 10)
-        0 games / no data -> 5 pts (below-neutral penalty)
+        min_games == 4 -> 80% of base score (max 40)
+        min_games == 3 -> 60% of base score (max 30)
+        min_games <= 2 -> 30% of base score (capped at 15)
+        0 games / no data -> 8 pts (below-neutral penalty)
 
 Usage:
     python run_buffer_hit_rate.py                      # Today's fixtures (min_graded=3)
@@ -118,13 +118,13 @@ def get_team_hit_rate(name: str, league_id: int, index: dict) -> tuple:
 # ---------------------------------------------------------------------------
 
 def score_hit_rate_value(weighted_hit_rate: float) -> int:
-    """Base score from weighted hit rate (Max 32)."""
+    """Base score from weighted hit rate (Max 50)."""
     if weighted_hit_rate >= 0.80:
-        return 32
+        return 50
     elif weighted_hit_rate >= 0.65:
-        return 21
+        return 33
     elif weighted_hit_rate >= 0.50:
-        return 10
+        return 16
     else:
         return 0
 
@@ -132,7 +132,7 @@ def score_hit_rate_value(weighted_hit_rate: float) -> int:
 def compute_buffer_hit_rate(hr_a: float | None, games_a: int,
                             hr_h: float | None, games_h: int) -> dict:
     """
-    Computes the weighted buffer hit rate, hit rate score (0-32),
+    Computes the weighted buffer hit rate, hit rate score (0-50),
     and sample size tier.
     """
     if hr_a is None or hr_h is None or games_a == 0 or games_h == 0:
@@ -140,7 +140,7 @@ def compute_buffer_hit_rate(hr_a: float | None, games_a: int,
             "weighted_hit_rate": None,
             "base_score": 0,
             "sample_penalty": "No History (Penalty Applied)",
-            "hit_rate_score": 5,  # Below-neutral penalty
+            "hit_rate_score": 8,  # Below-neutral penalty
             "tier_label": "[UNTRACKED]",
             "min_games": 0,
         }
@@ -162,14 +162,14 @@ def compute_buffer_hit_rate(hr_a: float | None, games_a: int,
         score = int(base_score * 0.6)
         penalty_desc = "60% (Sample = 3)"
     else:
-        score = min(10, int(base_score * 0.3))
+        score = min(15, int(base_score * 0.3))
         penalty_desc = "30% Cap (Sample <= 2)"
 
-    if score >= 25:
+    if score >= 40:
         tier_label = "[ELITE BUFFER]"
-    elif score >= 18:
+    elif score >= 28:
         tier_label = "[STRONG BUFFER]"
-    elif score >= 10:
+    elif score >= 16:
         tier_label = "[NEUTRAL]"
     elif score > 0:
         tier_label = "[MARGINAL]"
@@ -336,7 +336,7 @@ def run_buffer_report(date_str: str, min_hit_rate: float = 0.0,
         matchup = f"{r['away'][:20]} @ {r['home'][:20]}"
 
         base_line = (
-            f"  {r['hit_rate_score']:>2}/32  {r['tier_label']:<16}  {whr_str:>6}  "
+            f"  {r['hit_rate_score']:>2}/50  {r['tier_label']:<16}  {whr_str:>6}  "
             f"{hr_a_str:<16}  {hr_h_str:<16}  {r['model_total']:>6.1f}  {r['buffer_line']:>6.1f}  "
         )
 
@@ -437,7 +437,7 @@ def main():
     parser.add_argument("--min_hit_rate", type=float, default=0.0,
                         help="Minimum weighted hit rate (0.0 to 1.0, e.g. 0.65)")
     parser.add_argument("--min_score", type=int, default=0,
-                        help="Minimum hit rate score (0 to 32)")
+                        help="Minimum hit rate score (0 to 50)")
     parser.add_argument("--min_graded", type=int, default=3,
                         help="Minimum graded games required for BOTH teams (default: 3)")
     parser.add_argument("--tier", choices=["elite_pro", "top_domestic", "second_division", "lower"],

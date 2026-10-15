@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558649,
+      "referee": "N. Verboomen",
+      "timezone": "UTC",
+      "date": "2026-10-11T14:00:00+00:00",
+      "timestamp": 1791727200,
+      "periods": {
+        "first": 1791727200,
+        "second": 1791730800
+      },
+      "venue": {
+        "id": 194,
+        "name": "Stade Joseph Marien",
+        "city": "Brussels"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1393,
+        "name": "Union St. Gilloise",
+        "logo": "https://media.api-sports.io/football/teams/1393.png",
+        "winner": null
+      },
+      "away": {
+        "id": 260,
+        "name": "OH Leuven",
+        "logo": "https://media.api-sports.io/football/teams/260.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558640,
-      "referee": "Jan Boterberg",
+      "referee": "J. Boterberg",
       "timezone": "UTC",
       "date": "2026-09-20T11:30:00+00:00",
       "timestamp": 1789903800,
@@ -13,7 +83,7 @@
       "venue": {
         "id": 175,
         "name": "Bosuilstadion",
-        "city": "Antwerp"
+        "city": "Deurne"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1558630,
-      "referee": "Yusuke Araki, Japan",
+      "referee": "Y. Araki",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1558618,
-      "referee": "Nicolas Laforge, Belgium",
+      "referee": "N. Laforge",
       "timezone": "UTC",
       "date": "2026-09-05T14:00:00+00:00",
       "timestamp": 1788616800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558607,
-      "referee": "Nathan Verboomen, Belgium",
-      "timezone": "UTC",
-      "date": "2026-09-02T18:30:00+00:00",
-      "timestamp": 1788373800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stayen",
-        "city": "Sint- Truiden"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 735,
-        "name": "St. Truiden",
-        "logo": "https://media.api-sports.io/football/teams/735.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1393,
-        "name": "Union St. Gilloise",
-        "logo": "https://media.api-sports.io/football/teams/1393.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 3
       },
       "extratime": {

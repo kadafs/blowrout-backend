@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1549025,
-      "referee": "Aydin Uslu",
+      "id": 1549030,
+      "referee": "Jacob Karlsen",
       "timezone": "UTC",
-      "date": "2026-09-19T16:00:00+00:00",
-      "timestamp": 1789833600,
+      "date": "2026-10-11T16:00:00+00:00",
+      "timestamp": 1791734400,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 453,
+        "name": "MCH Arena",
+        "city": "Herning"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 119,
+      "name": "Superliga",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/119.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 397,
+        "name": "FC Midtjylland",
+        "logo": "https://media.api-sports.io/football/teams/397.png",
+        "winner": true
+      },
+      "away": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1549025,
+      "referee": "A. Uslu",
+      "timezone": "UTC",
+      "date": "2026-09-19T16:00:00+00:00",
+      "timestamp": 1789833600,
+      "periods": {
+        "first": 1789833600,
+        "second": 1789837200
+      },
+      "venue": {
         "id": 456,
-        "name": "Odense Stadium",
+        "name": "Nature Energy Park",
         "city": "Odense"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1549018,
-      "referee": null,
+      "referee": "M. Krogh",
       "timezone": "UTC",
       "date": "2026-09-14T17:00:00+00:00",
       "timestamp": 1789405200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789405200,
+        "second": 1789408800
       },
       "venue": {
         "id": 453,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1549015,
-      "referee": "Jakob Kehlet, Denmark",
+      "referee": "J. Kehlet",
       "timezone": "UTC",
       "date": "2026-09-07T17:00:00+00:00",
       "timestamp": 1788800400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788800400,
+        "second": 1788804000
       },
       "venue": {
         "id": 453,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549008,
-      "referee": "Jacob A. Sundberg, Denmark",
-      "timezone": "UTC",
-      "date": "2026-09-02T18:00:00+00:00",
-      "timestamp": 1788372000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Vejlby Stadion",
-        "city": "Aarhus"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 119,
-      "name": "Superliga",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/119.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 406,
-        "name": "Aarhus",
-        "logo": "https://media.api-sports.io/football/teams/406.png",
-        "winner": false
-      },
-      "away": {
-        "id": 397,
-        "name": "FC Midtjylland",
-        "logo": "https://media.api-sports.io/football/teams/397.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606540,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-07T16:15:00+00:00",
+      "timestamp": 1788797700,
+      "periods": {
+        "first": 1788797700,
+        "second": 1788801300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 306,
+      "name": "Second Division",
+      "country": "Qatar",
+      "logo": "https://media.api-sports.io/football/leagues/306.png",
+      "flag": "https://media.api-sports.io/flags/qa.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2911,
+        "name": "Al-Gharafa B",
+        "logo": "https://media.api-sports.io/football/teams/2911.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2902,
+        "name": "Muaither SC",
+        "logo": "https://media.api-sports.io/football/teams/2902.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606532,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 10,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 109923,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2017-03-05T16:05:00+00:00",
-      "timestamp": 1488729900,
-      "periods": {
-        "first": 1488729900,
-        "second": 1488733500
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 306,
-      "name": "Second Division",
-      "country": "Qatar",
-      "logo": "https://media.api-sports.io/football/leagues/306.png",
-      "flag": "https://media.api-sports.io/flags/qa.svg",
-      "season": 2016,
-      "round": "Regular Season - 15",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2911,
-        "name": "Al-Gharafa B",
-        "logo": "https://media.api-sports.io/football/teams/2911.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2923,
-        "name": "El Jaish SC B",
-        "logo": "https://media.api-sports.io/football/teams/2923.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

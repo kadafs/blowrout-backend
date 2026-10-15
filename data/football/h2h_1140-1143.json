@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1511934,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-01T21:00:00+00:00",
+      "timestamp": 1775077200,
+      "periods": {
+        "first": 1775077200,
+        "second": 1775080800
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio La Independencia",
+        "city": "Tunja"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Apertura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1140,
+        "name": "Patriotas",
+        "logo": "https://media.api-sports.io/football/teams/1140.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1143,
+        "name": "Leones FC",
+        "logo": "https://media.api-sports.io/football/teams/1143.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1457493,
       "referee": "Kevin Enrique Rosero Quinto",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 41463,
-      "referee": "Lisandro Enrique Castillo Forero, Colombia",
-      "timezone": "UTC",
-      "date": "2018-11-04T19:00:00+00:00",
-      "timestamp": 1541358000,
-      "periods": {
-        "first": 1541358000,
-        "second": 1541361600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio La Independencia",
-        "city": "Tunja"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 239,
-      "name": "Primera A",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/239.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2018,
-      "round": "Clausura - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1140,
-        "name": "Patriotas",
-        "logo": "https://media.api-sports.io/football/teams/1140.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1143,
-        "name": "Leones FC",
-        "logo": "https://media.api-sports.io/football/teams/1143.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

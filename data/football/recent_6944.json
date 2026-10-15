@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561686,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T16:00:00+00:00",
+      "timestamp": 1791648000,
+      "periods": {
+        "first": 1791648000,
+        "second": 1791651600
+      },
+      "venue": {
+        "id": null,
+        "name": "MOSiR",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 109,
+      "name": "II Liga - East",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/109.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14143,
+        "name": "Lechia Zielona G\u00f3ra",
+        "logo": "https://media.api-sports.io/football/teams/14143.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6944,
+        "name": "Legia Warszawa II",
+        "logo": "https://media.api-sports.io/football/teams/6944.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561663,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561627,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T10:00:00+00:00",
-      "timestamp": 1787479200,
-      "periods": {
-        "first": 1787479200,
-        "second": 1787482800
-      },
-      "venue": {
-        "id": null,
-        "name": "Legia Training Center",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6944,
-        "name": "Legia Warszawa II",
-        "logo": "https://media.api-sports.io/football/teams/6944.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16255,
-        "name": "Sok\u00f3\u0142 Kleczew",
-        "logo": "https://media.api-sports.io/football/teams/16255.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
         "away": 1
       },
       "extratime": {

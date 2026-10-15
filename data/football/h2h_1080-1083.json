@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1563656,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-02T13:15:00+00:00",
+      "timestamp": 1788354900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Gazovik Stadium",
+        "city": "Orenburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1080,
+        "name": "FC Orenburg",
+        "logo": "https://media.api-sports.io/football/teams/1080.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1083,
+        "name": "Rubin",
+        "logo": "https://media.api-sports.io/football/teams/1083.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 2,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561352,
-      "referee": "P. Kukuyan",
+      "referee": "Pavel Kukuyan, Russia",
       "timezone": "UTC",
       "date": "2026-08-09T17:30:00+00:00",
       "timestamp": 1786296600,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Ak Bars Arena",
+        "name": "Kazan Arena",
         "city": "Kazan"
       },
       "status": {
@@ -276,76 +346,6 @@
       "penalty": {
         "home": null,
         "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1402747,
-      "referee": "P. Shadyhanov",
-      "timezone": "UTC",
-      "date": "2025-09-16T13:30:00+00:00",
-      "timestamp": 1758029400,
-      "periods": {
-        "first": 1758029400,
-        "second": 1758033000
-      },
-      "venue": {
-        "id": null,
-        "name": "Luzhniki Stadium",
-        "city": "Moscow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "PEN",
-        "elapsed": 120,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 237,
-      "name": "Cup",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/237.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2025,
-      "round": "Group Stage - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1080,
-        "name": "FC Orenburg",
-        "logo": "https://media.api-sports.io/football/teams/1080.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1083,
-        "name": "Rubin",
-        "logo": "https://media.api-sports.io/football/teams/1083.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": 4,
-        "away": 2
       }
     }
   }

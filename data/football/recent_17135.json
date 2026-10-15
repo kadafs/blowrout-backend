@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638967,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T23:00:00+00:00",
+      "timestamp": 1791759600,
+      "periods": {
+        "first": 1791759600,
+        "second": 1791763200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 396,
+      "name": "Primera Division",
+      "country": "Nicaragua",
+      "logo": "https://media.api-sports.io/football/leagues/396.png",
+      "flag": "https://media.api-sports.io/flags/ni.svg",
+      "season": 2026,
+      "round": "Apertura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23311,
+        "name": "San Marcos",
+        "logo": "https://media.api-sports.io/football/teams/23311.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17135,
+        "name": "H&H Export",
+        "logo": "https://media.api-sports.io/football/teams/17135.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638738,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586103,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T23:00:00+00:00",
-      "timestamp": 1787439600,
-      "periods": {
-        "first": 1787439600,
-        "second": 1787443200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Olimpico del IND Managua",
-        "city": "Managua"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 396,
-      "name": "Primera Division",
-      "country": "Nicaragua",
-      "logo": "https://media.api-sports.io/football/leagues/396.png",
-      "flag": "https://media.api-sports.io/flags/ni.svg",
-      "season": 2026,
-      "round": "Apertura - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4644,
-        "name": "Managua",
-        "logo": "https://media.api-sports.io/football/teams/4644.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17135,
-        "name": "H&H Export",
-        "logo": "https://media.api-sports.io/football/teams/17135.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 1
       },
       "extratime": {
         "home": null,

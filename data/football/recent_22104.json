@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1608699,
+      "referee": "S. Palmieri",
+      "timezone": "UTC",
+      "date": "2026-10-11T10:30:00+00:00",
+      "timestamp": 1791714600,
+      "periods": {
+        "first": 1791714600,
+        "second": 1791718200
+      },
+      "venue": {
+        "id": null,
+        "name": "Vanni Sanna",
+        "city": "Sassari"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 942,
+      "name": "Serie C - Girone B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/942.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone B - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9534,
+        "name": "Torres",
+        "logo": "https://media.api-sports.io/football/teams/9534.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22104,
+        "name": "Atalanta II",
+        "logo": "https://media.api-sports.io/football/teams/22104.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608661,
-      "referee": null,
+      "referee": "G. Rossini",
       "timezone": "UTC",
       "date": "2026-09-20T10:30:00+00:00",
       "timestamp": 1789900200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608621,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T16:00:00+00:00",
-      "timestamp": 1788105600,
-      "periods": {
-        "first": 1788105600,
-        "second": 1788109200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Comunale",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 942,
-      "name": "Serie C - Girone B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/942.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone B - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22104,
-        "name": "Atalanta II",
-        "logo": "https://media.api-sports.io/football/teams/22104.png",
-        "winner": true
-      },
-      "away": {
-        "id": 882,
-        "name": "Guidonia Montecelio 1937",
-        "logo": "https://media.api-sports.io/football/teams/882.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

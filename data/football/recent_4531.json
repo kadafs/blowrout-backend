@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643360,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T16:30:00+00:00",
+      "timestamp": 1791649800,
+      "periods": {
+        "first": 1791649800,
+        "second": 1791653400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 387,
+      "name": "League",
+      "country": "Jordan",
+      "logo": "https://media.api-sports.io/football/leagues/387.png",
+      "flag": "https://media.api-sports.io/flags/jo.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4535,
+        "name": "Al Salt",
+        "logo": "https://media.api-sports.io/football/teams/4535.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4531,
+        "name": "Al Faisaly",
+        "logo": "https://media.api-sports.io/football/teams/4531.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636837,
       "referee": null,
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1630352,
-      "referee": null,
+      "referee": "Y. Al Mulla",
       "timezone": "UTC",
       "date": "2026-09-16T18:15:00+00:00",
       "timestamp": 1789582500,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635862,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-28T17:00:00+00:00",
-      "timestamp": 1787936400,
-      "periods": {
-        "first": 1787936400,
-        "second": 1787940000
-      },
-      "venue": {
-        "id": 988,
-        "name": "Amman International Stadium",
-        "city": "Amman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 838,
-      "name": "Super Cup",
-      "country": "Jordan",
-      "logo": "https://media.api-sports.io/football/leagues/838.png",
-      "flag": "https://media.api-sports.io/flags/jo.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4531,
-        "name": "Al Faisaly",
-        "logo": "https://media.api-sports.io/football/teams/4531.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4532,
-        "name": "Al Hussein",
-        "logo": "https://media.api-sports.io/football/teams/4532.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

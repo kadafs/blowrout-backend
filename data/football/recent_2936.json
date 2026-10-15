@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1603043,
+      "referee": "Khalid Al-Ahmari",
+      "timezone": "UTC",
+      "date": "2026-10-11T18:00:00+00:00",
+      "timestamp": 1791741600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1374,
+        "name": "SHG Arena",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 307,
+      "name": "Pro League",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/307.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2940,
+        "name": "Al Shabab",
+        "logo": "https://media.api-sports.io/football/teams/2940.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2936,
+        "name": "Al Taawon",
+        "logo": "https://media.api-sports.io/football/teams/2936.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630350,
-      "referee": null,
+      "referee": "C. Daypuyat",
       "timezone": "UTC",
       "date": "2026-09-16T16:00:00+00:00",
       "timestamp": 1789574400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603001,
-      "referee": "Abdullah Dhafer Al-Shehri, Saudi Arabia",
-      "timezone": "UTC",
-      "date": "2026-08-28T18:00:00+00:00",
-      "timestamp": 1787940000,
-      "periods": {
-        "first": 1787940000,
-        "second": 1787943600
-      },
-      "venue": {
-        "id": null,
-        "name": "Al-Awwal Park",
-        "city": "Riyadh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 307,
-      "name": "Pro League",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/307.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2939,
-        "name": "Al-Nassr",
-        "logo": "https://media.api-sports.io/football/teams/2939.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2936,
-        "name": "Al Taawon",
-        "logo": "https://media.api-sports.io/football/teams/2936.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

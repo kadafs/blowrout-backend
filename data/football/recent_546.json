@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1570404,
+      "referee": "J. Manzano",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:30:00+00:00",
+      "timestamp": 1791649800,
+      "periods": {
+        "first": 1791649800,
+        "second": 1791653400
+      },
+      "venue": {
+        "id": 19939,
+        "name": "Camp Nou",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 546,
+        "name": "Getafe",
+        "logo": "https://media.api-sports.io/football/teams/546.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570398,
-      "referee": "Javier Alberola Rojas",
+      "referee": "J. Alberola",
       "timezone": "UTC",
       "date": "2026-09-20T12:00:00+00:00",
       "timestamp": 1789905600,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": 20422,
-        "name": "Coliseum Alfonso P\u00e9rez",
+        "name": "Coliseum",
         "city": "Getafe"
       },
       "status": {
@@ -151,7 +221,7 @@
         "second": 1789320600
       },
       "venue": {
-        "id": null,
+        "id": 20422,
         "name": "Coliseum",
         "city": "Getafe"
       },
@@ -221,7 +291,7 @@
         "second": 1788804000
       },
       "venue": {
-        "id": null,
+        "id": 20422,
         "name": "Coliseum",
         "city": "Getafe"
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570358,
-      "referee": "J. A. Gonzalez Esteban",
-      "timezone": "UTC",
-      "date": "2026-08-31T17:30:00+00:00",
-      "timestamp": 1788197400,
-      "periods": {
-        "first": 1788197400,
-        "second": 1788201000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio El Sadar",
-        "city": "Pamplona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 727,
-        "name": "Osasuna",
-        "logo": "https://media.api-sports.io/football/teams/727.png",
-        "winner": true
-      },
-      "away": {
-        "id": 546,
-        "name": "Getafe",
-        "logo": "https://media.api-sports.io/football/teams/546.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

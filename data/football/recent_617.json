@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1593319,
-      "referee": "Anastasios Papapetrou",
+      "id": 1593329,
+      "referee": "Alejandro Hernandez",
       "timezone": "UTC",
-      "date": "2026-09-20T16:30:00+00:00",
-      "timestamp": 1789921800,
+      "date": "2026-10-11T18:00:00+00:00",
+      "timestamp": 1791741600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 775,
+        "name": "Karaiskakis Stadium",
+        "city": "Piraeus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 197,
+      "name": "Super League 1",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/197.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 553,
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png",
+        "winner": true
+      },
+      "away": {
+        "id": 617,
+        "name": "Panathinaikos",
+        "logo": "https://media.api-sports.io/football/teams/617.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1593319,
+      "referee": "Anastasios Papapetrou, Greece",
+      "timezone": "UTC",
+      "date": "2026-09-20T16:30:00+00:00",
+      "timestamp": 1789921800,
+      "periods": {
+        "first": 1789921800,
+        "second": 1789925400
+      },
+      "venue": {
         "id": 3817,
-        "name": "Dimotiko Stadio Paralias",
+        "name": "Kalamata Metropolitan Stadium",
         "city": "Kalamata"
       },
       "status": {
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Dimotiko Gipedo Neapolis",
+        "name": "Apostolos Nikolaidis Stadium",
         "city": "Athens"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1593315,
-      "referee": "Stavros Tsimenteridis",
+      "referee": "Stavros Tsimenteridis, Greece",
       "timezone": "UTC",
       "date": "2026-09-13T18:30:00+00:00",
       "timestamp": 1789324200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Athens Olympic Stadium",
+        "name": "Spiros Louis Olympic Stadium",
         "city": "Athens"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1593293,
-      "referee": "Matsoukas, Michalis",
+      "referee": "Michalis Matsoukas, Greece",
       "timezone": "UTC",
       "date": "2026-09-10T18:15:00+00:00",
       "timestamp": 1789064100,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Athens Olympic Stadium",
+        "name": "Spiros Louis Olympic Stadium",
         "city": "Athens"
       },
       "status": {
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593308,
-      "referee": "Felix Zwayer",
-      "timezone": "UTC",
-      "date": "2026-09-06T18:30:00+00:00",
-      "timestamp": 1788719400,
-      "periods": {
-        "first": 1788719400,
-        "second": 1788723000
-      },
-      "venue": {
-        "id": null,
-        "name": "Athens Olympic Stadium",
-        "city": "Athens"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 197,
-      "name": "Super League 1",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/197.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 617,
-        "name": "Panathinaikos",
-        "logo": "https://media.api-sports.io/football/teams/617.png",
-        "winner": true
-      },
-      "away": {
-        "id": 619,
-        "name": "PAOK",
-        "logo": "https://media.api-sports.io/football/teams/619.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
         "away": 0
       },
       "fulltime": {

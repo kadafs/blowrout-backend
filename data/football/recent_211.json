@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1575511,
+      "referee": "Luis Miguel Branco Godinho",
+      "timezone": "UTC",
+      "date": "2026-10-11T17:00:00+00:00",
+      "timestamp": 1791738000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1265,
+        "name": "Est\u00e1dio da Luz",
+        "city": "Lisbon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 94,
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/94.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 224,
+        "name": "Vit\u00f3ria SC",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575503,
-      "referee": "Miguel Bertolo Nogueira",
+      "referee": "Miguel Nogueira, Portugal",
       "timezone": "UTC",
       "date": "2026-09-20T19:30:00+00:00",
       "timestamp": 1789932600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575487,
-      "referee": "Sergio Guelho, Portugal",
-      "timezone": "UTC",
-      "date": "2026-09-05T17:00:00+00:00",
-      "timestamp": 1788627600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio do Maritimo",
-        "city": "Funchal"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 94,
-      "name": "Primeira Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/94.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 214,
-        "name": "Maritimo",
-        "logo": "https://media.api-sports.io/football/teams/214.png",
-        "winner": false
-      },
-      "away": {
-        "id": 211,
-        "name": "Benfica",
-        "logo": "https://media.api-sports.io/football/teams/211.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

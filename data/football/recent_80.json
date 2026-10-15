@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552775,
+      "referee": "Jeremy Stinat, France",
+      "timezone": "UTC",
+      "date": "2026-10-09T18:45:00+00:00",
+      "timestamp": 1791571500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 654,
+        "name": "Stade Bollaert-Delelis",
+        "city": "Lens"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png",
+        "winner": true
+      },
+      "away": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552768,
-      "referee": "Mathieu Vernice",
+      "referee": "Mathieu Vernice, France",
       "timezone": "UTC",
       "date": "2026-09-19T18:45:00+00:00",
       "timestamp": 1789843500,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552741,
-      "referee": "Fran\u00e7ois Letexier, France",
-      "timezone": "UTC",
-      "date": "2026-08-29T18:45:00+00:00",
-      "timestamp": 1788029100,
-      "periods": {
-        "first": 1788029100,
-        "second": 1788032700
-      },
-      "venue": {
-        "id": null,
-        "name": "Groupama Stadium",
-        "city": "Lyon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 80,
-        "name": "Lyon",
-        "logo": "https://media.api-sports.io/football/teams/80.png",
-        "winner": null
-      },
-      "away": {
-        "id": 111,
-        "name": "Le Havre",
-        "logo": "https://media.api-sports.io/football/teams/111.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

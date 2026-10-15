@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1593324,
+      "referee": "Georgios Kokkinos, Greece",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:30:00+00:00",
+      "timestamp": 1791649800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19785,
+        "name": "Allwyn Arena",
+        "city": "Nea Filadelfeia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 197,
+      "name": "Super League 1",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/197.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 575,
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1124,
+        "name": "OFI",
+        "logo": "https://media.api-sports.io/football/teams/1124.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593323,
-      "referee": "Fotios Polychronis",
+      "referee": "Fotios Polychronis, Greece",
       "timezone": "UTC",
       "date": "2026-09-20T15:00:00+00:00",
       "timestamp": 1789916400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789916400,
+        "second": 1789920000
       },
       "venue": {
         "id": 1918,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1635495,
-      "referee": null,
+      "referee": "S. Zampalas",
       "timezone": "UTC",
       "date": "2026-09-17T14:45:00+00:00",
       "timestamp": 1789656300,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1593310,
-      "referee": "Anastasios Papapetrou",
+      "referee": "Anastasios Papapetrou, Greece",
       "timezone": "UTC",
       "date": "2026-09-13T16:00:00+00:00",
       "timestamp": 1789315200,
@@ -153,7 +223,7 @@
       "venue": {
         "id": null,
         "name": "Theodoros Kolokotronis Stadium",
-        "city": "Tripolis"
+        "city": "Tripoli"
       },
       "status": {
         "long": "Match Finished",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593303,
-      "referee": "Alexandros Tsakalidis",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:00:00+00:00",
-      "timestamp": 1788631200,
-      "periods": {
-        "first": 1788631200,
-        "second": 1788634800
-      },
-      "venue": {
-        "id": null,
-        "name": "Allwyn Arena",
-        "city": "Nea Filadelfeia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 197,
-      "name": "Super League 1",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/197.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 575,
-        "name": "AEK Athens FC",
-        "logo": "https://media.api-sports.io/football/teams/575.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1123,
-        "name": "Aris Thessalonikis",
-        "logo": "https://media.api-sports.io/football/teams/1123.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 0
       },
       "extratime": {

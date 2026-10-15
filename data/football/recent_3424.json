@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1603576,
+      "referee": "Konstantinos Fotiou",
+      "timezone": "UTC",
+      "date": "2026-10-10T15:00:00+00:00",
+      "timestamp": 1791644400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20190,
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3424,
+        "name": "Krasava Ypsonas",
+        "logo": "https://media.api-sports.io/football/teams/3424.png",
+        "winner": false
+      },
+      "away": {
+        "id": 602,
+        "name": "Apollon Limassol",
+        "logo": "https://media.api-sports.io/football/teams/602.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603567,
-      "referee": "Christou Konstantinos",
+      "referee": "C. Konstantinos",
       "timezone": "UTC",
       "date": "2026-09-20T16:00:00+00:00",
       "timestamp": 1789920000,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1603555,
-      "referee": "A. Konstantinidis",
+      "referee": "Antonis Konstantinidis, Cyprus",
       "timezone": "UTC",
       "date": "2026-09-05T17:00:00+00:00",
       "timestamp": 1788627600,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Antonis Papadopoulos Stadium",
+        "name": "AEK Arena",
         "city": "Larnaca"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1603547,
-      "referee": "P. Chatzigeorgiou",
+      "referee": "Panagiotis Chatzigeorgiou, Cyprus",
       "timezone": "UTC",
       "date": "2026-08-28T16:00:00+00:00",
       "timestamp": 1787932800,
@@ -222,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Ammochostos Stadium",
-        "city": "Larnaca"
+        "name": "Stelios Chari Stadium",
+        "city": "Ypsonas"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544595,
-      "referee": "A. Georgiou",
-      "timezone": "UTC",
-      "date": "2026-05-17T14:00:00+00:00",
-      "timestamp": 1779026400,
-      "periods": {
-        "first": 1779026400,
-        "second": 1779030000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ammochostos Stadium",
-        "city": "Larnaca"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2025,
-      "round": "Relegation Group - 33",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3424,
-        "name": "Krasava Ypsonas",
-        "logo": "https://media.api-sports.io/football/teams/3424.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3399,
-        "name": "Enosis",
-        "logo": "https://media.api-sports.io/football/teams/3399.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

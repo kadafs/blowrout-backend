@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602689,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T11:30:00+00:00",
+      "timestamp": 1791718200,
+      "periods": {
+        "first": 1791718200,
+        "second": 1791721800
+      },
+      "venue": {
+        "id": null,
+        "name": "Chai Nat Provincial Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 297,
+      "name": "Thai League 2",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/297.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2781,
+        "name": "Chainat",
+        "logo": "https://media.api-sports.io/football/teams/2781.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6604,
+        "name": "Songkhla",
+        "logo": "https://media.api-sports.io/football/teams/6604.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602676,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1542907,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T11:00:00+00:00",
-      "timestamp": 1778324400,
-      "periods": {
-        "first": 1778324400,
-        "second": 1778328000
-      },
-      "venue": {
-        "id": null,
-        "name": "Rainbow Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 297,
-      "name": "Thai League 2",
-      "country": "Thailand",
-      "logo": "https://media.api-sports.io/football/leagues/297.png",
-      "flag": "https://media.api-sports.io/flags/th.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6582,
-        "name": "Pattani",
-        "logo": "https://media.api-sports.io/football/teams/6582.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2781,
-        "name": "Chainat",
-        "logo": "https://media.api-sports.io/football/teams/2781.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

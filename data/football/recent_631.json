@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558651,
+      "referee": "N. Laforge",
+      "timezone": "UTC",
+      "date": "2026-10-10T18:45:00+00:00",
+      "timestamp": 1791657900,
+      "periods": {
+        "first": 1791657900,
+        "second": 1791661500
+      },
+      "venue": {
+        "id": 11891,
+        "name": "Elindus Arena",
+        "city": "Waregem"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 600,
+        "name": "Zulte Waregem",
+        "logo": "https://media.api-sports.io/football/teams/600.png",
+        "winner": false
+      },
+      "away": {
+        "id": 631,
+        "name": "Gent",
+        "logo": "https://media.api-sports.io/football/teams/631.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558635,
-      "referee": "Lothar D'Hondt",
+      "referee": "Lothar D'hondt, Belgium",
       "timezone": "UTC",
       "date": "2026-09-18T18:45:00+00:00",
       "timestamp": 1789757100,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": 20727,
-        "name": "Ghelamco Arena",
-        "city": "Ghent"
+        "name": "Planet Group Arena",
+        "city": "Gent"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1558632,
-      "referee": "Nathan Verboomen, Belgium",
+      "referee": "N. Verboomen",
       "timezone": "UTC",
       "date": "2026-09-13T14:00:00+00:00",
       "timestamp": 1789308000,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1558622,
-      "referee": "Yusuke Araki, Japan",
+      "referee": "Y. Araki",
       "timezone": "UTC",
       "date": "2026-09-06T11:30:00+00:00",
       "timestamp": 1788694200,
@@ -152,8 +222,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Jan Breydel Stadium",
-        "city": "Bruges"
+        "name": "Jan Breydel Stadion",
+        "city": "Brugge"
       },
       "status": {
         "long": "Match Finished",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1558603,
-      "referee": "Michiel Allaerts, Belgium",
+      "referee": "M. Allaerts",
       "timezone": "UTC",
       "date": "2026-09-03T18:30:00+00:00",
       "timestamp": 1788460200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558613,
-      "referee": "Eric Lambrechts, Belgium",
-      "timezone": "UTC",
-      "date": "2026-08-30T11:30:00+00:00",
-      "timestamp": 1788089400,
-      "periods": {
-        "first": 1788089400,
-        "second": 1788093000
-      },
-      "venue": {
-        "id": 20727,
-        "name": "Planet Group Arena",
-        "city": "Gent"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 631,
-        "name": "Gent",
-        "logo": "https://media.api-sports.io/football/teams/631.png",
-        "winner": true
-      },
-      "away": {
-        "id": 569,
-        "name": "Club Brugge KV",
-        "logo": "https://media.api-sports.io/football/teams/569.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

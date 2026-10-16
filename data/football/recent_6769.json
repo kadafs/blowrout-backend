@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593641,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T18:45:00+00:00",
+      "timestamp": 1791917100,
+      "periods": {
+        "first": 1791917100,
+        "second": 1791920700
+      },
+      "venue": {
+        "id": 4949,
+        "name": "Bellslea Park",
+        "city": "Fraserburgh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Group Stage - 6",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6769,
+        "name": "Fraserburgh",
+        "logo": "https://media.api-sports.io/football/teams/6769.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16851,
+        "name": "Dundee II",
+        "logo": "https://media.api-sports.io/football/teams/16851.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1547013,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593603,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:45:00+00:00",
-      "timestamp": 1790102700,
-      "periods": {
-        "first": 1790102700,
-        "second": 1790106300
-      },
-      "venue": {
-        "id": 4949,
-        "name": "Bellslea Park",
-        "city": "Fraserburgh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6769,
-        "name": "Fraserburgh",
-        "logo": "https://media.api-sports.io/football/teams/6769.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6763,
-        "name": "Cove Rangers",
-        "logo": "https://media.api-sports.io/football/teams/6763.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

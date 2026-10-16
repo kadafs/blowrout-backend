@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1565269,
+      "referee": "Viorel Nicusor Flueran",
+      "timezone": "UTC",
+      "date": "2026-10-09T18:00:00+00:00",
+      "timestamp": 1791568800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12593,
+        "name": "Stadionul Municipal",
+        "city": "Sf\u00e2ntu Gheorghe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 283,
+      "name": "Liga I",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/283.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2585,
+        "name": "Sepsi OSK Sfantu Gheorghe",
+        "logo": "https://media.api-sports.io/football/teams/2585.png",
+        "winner": false
+      },
+      "away": {
+        "id": 635,
+        "name": "Dinamo Bucuresti",
+        "logo": "https://media.api-sports.io/football/teams/635.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1642850,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T08:00:00+00:00",
+      "timestamp": 1790409600,
+      "periods": {
+        "first": 1790409600,
+        "second": 1790413200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendly",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2585,
+        "name": "Sepsi OSK Sfantu Gheorghe",
+        "logo": "https://media.api-sports.io/football/teams/2585.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22824,
+        "name": "Gloria Bistri\u0163a",
+        "logo": "https://media.api-sports.io/football/teams/22824.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565262,
-      "referee": "Radu Marian Petrescu",
+      "referee": "Radu Marian Petrescu, Romania",
       "timezone": "UTC",
       "date": "2026-09-18T15:00:00+00:00",
       "timestamp": 1789743600,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632264,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-01T15:00:00+00:00",
-      "timestamp": 1788274800,
-      "periods": {
-        "first": 1788274800,
-        "second": 1788278400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Sepsi",
-        "city": "Sfantu Gheorghe"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 285,
-      "name": "Cupa Rom\u00e2niei",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/285.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2585,
-        "name": "Sepsi OSK Sfantu Gheorghe",
-        "logo": "https://media.api-sports.io/football/teams/2585.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2246,
-        "name": "CFR 1907 Cluj",
-        "logo": "https://media.api-sports.io/football/teams/2246.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565234,
-      "referee": "George Catalin Roman, Romania",
-      "timezone": "UTC",
-      "date": "2026-08-29T15:30:00+00:00",
-      "timestamp": 1788017400,
-      "periods": {
-        "first": 1788017400,
-        "second": 1788021000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Orasenesc",
-        "city": "Mioveni"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2592,
-        "name": "Arges Pitesti",
-        "logo": "https://media.api-sports.io/football/teams/2592.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2585,
-        "name": "Sepsi OSK Sfantu Gheorghe",
-        "logo": "https://media.api-sports.io/football/teams/2585.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

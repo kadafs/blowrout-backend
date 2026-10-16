@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642040,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T12:00:00+00:00",
+      "timestamp": 1791892800,
+      "periods": {
+        "first": 1791892800,
+        "second": 1791896400
+      },
+      "venue": {
+        "id": null,
+        "name": "Tripoli Municipal Stadium",
+        "city": "Tripoli"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 15
+      }
+    },
+    "league": {
+      "id": 390,
+      "name": "Premier League",
+      "country": "Lebanon",
+      "logo": "https://media.api-sports.io/football/leagues/390.png",
+      "flag": "https://media.api-sports.io/flags/lb.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4578,
+        "name": "Tripoli SC",
+        "logo": "https://media.api-sports.io/football/teams/4578.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4568,
+        "name": "Al Akhaa Al Ahli",
+        "logo": "https://media.api-sports.io/football/teams/4568.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642032,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1003585,
-      "referee": "Hussein Abo Yehia",
-      "timezone": "UTC",
-      "date": "2023-02-24T12:15:00+00:00",
-      "timestamp": 1677240900,
-      "periods": {
-        "first": 1677240900,
-        "second": 1677244500
-      },
-      "venue": {
-        "id": 3458,
-        "name": "Fouad Shehab Stadium",
-        "city": "Jounie"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 390,
-      "name": "Premier League",
-      "country": "Lebanon",
-      "logo": "https://media.api-sports.io/football/leagues/390.png",
-      "flag": "https://media.api-sports.io/flags/lb.svg",
-      "season": 2022,
-      "round": "Relegation Round - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4568,
-        "name": "Al Akhaa Al Ahli",
-        "logo": "https://media.api-sports.io/football/teams/4568.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4573,
-        "name": "Safa",
-        "logo": "https://media.api-sports.io/football/teams/4573.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

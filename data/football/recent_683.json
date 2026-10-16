@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
+      "id": 1551123,
+      "referee": "Todor Kirov",
+      "timezone": "UTC",
+      "date": "2026-10-11T12:00:00+00:00",
+      "timestamp": 1791720000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 304,
+        "name": "Dragalevtsi Stadium,",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 856,
+        "name": "Septemvri Sofia",
+        "logo": "https://media.api-sports.io/football/teams/856.png",
+        "winner": false
+      },
+      "away": {
+        "id": 683,
+        "name": "Dunav Ruse",
+        "logo": "https://media.api-sports.io/football/teams/683.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1643504,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T10:00:00+00:00",
+      "timestamp": 1791021600,
+      "periods": {
+        "first": 1791021600,
+        "second": 1791025200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1409,
+        "name": "Ludogorets II",
+        "logo": "https://media.api-sports.io/football/teams/1409.png",
+        "winner": null
+      },
+      "away": {
+        "id": 683,
+        "name": "Dunav Ruse",
+        "logo": "https://media.api-sports.io/football/teams/683.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1642853,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T10:00:00+00:00",
+      "timestamp": 1790416800,
+      "periods": {
+        "first": 1790416800,
+        "second": 1790420400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendly",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 851,
+        "name": "Cherno More Varna",
+        "logo": "https://media.api-sports.io/football/teams/851.png",
+        "winner": true
+      },
+      "away": {
+        "id": 683,
+        "name": "Dunav Ruse",
+        "logo": "https://media.api-sports.io/football/teams/683.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551111,
-      "referee": "Lyuboslav Lyubomirov",
+      "referee": "Lyuboslav Lyubomirov, Bulgaria",
       "timezone": "UTC",
       "date": "2026-09-19T11:00:00+00:00",
       "timestamp": 1789815600,
@@ -83,7 +293,7 @@
       "venue": {
         "id": null,
         "name": "Bistritsa Stadium",
-        "city": "Sofia"
+        "city": "Bistritsa"
       },
       "status": {
         "long": "Match Finished",
@@ -127,216 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551097,
-      "referee": "G. Stoyanov",
-      "timezone": "UTC",
-      "date": "2026-09-07T17:30:00+00:00",
-      "timestamp": 1788802200,
-      "periods": {
-        "first": 1788802200,
-        "second": 1788805800
-      },
-      "venue": {
-        "id": null,
-        "name": "Gradski stadion",
-        "city": "Ruse"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 683,
-        "name": "Dunav Ruse",
-        "logo": "https://media.api-sports.io/football/teams/683.png",
-        "winner": false
-      },
-      "away": {
-        "id": 854,
-        "name": "Slavia Sofia",
-        "logo": "https://media.api-sports.io/football/teams/854.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551093,
-      "referee": "V. Mitrev",
-      "timezone": "UTC",
-      "date": "2026-08-31T16:00:00+00:00",
-      "timestamp": 1788192000,
-      "periods": {
-        "first": 1788192000,
-        "second": 1788195600
-      },
-      "venue": {
-        "id": null,
-        "name": "Gradski stadion",
-        "city": "Ruse"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 683,
-        "name": "Dunav Ruse",
-        "logo": "https://media.api-sports.io/football/teams/683.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1416,
-        "name": "Lokomotiv Sofia",
-        "logo": "https://media.api-sports.io/football/teams/1416.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551083,
-      "referee": "D. Stalev",
-      "timezone": "UTC",
-      "date": "2026-08-21T18:15:00+00:00",
-      "timestamp": 1787336100,
-      "periods": {
-        "first": 1787336100,
-        "second": 1787339700
-      },
-      "venue": {
-        "id": null,
-        "name": "Ticha",
-        "city": "Varna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 851,
-        "name": "Cherno More Varna",
-        "logo": "https://media.api-sports.io/football/teams/851.png",
-        "winner": true
-      },
-      "away": {
-        "id": 683,
-        "name": "Dunav Ruse",
-        "logo": "https://media.api-sports.io/football/teams/683.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

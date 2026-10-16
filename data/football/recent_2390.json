@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560252,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T17:30:00+00:00",
+      "timestamp": 1791653400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 809,
+        "name": "Feh\u00e9rv\u00e1ri \u00fati stadion",
+        "city": "Paks"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2390,
+        "name": "Paks",
+        "logo": "https://media.api-sports.io/football/teams/2390.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2396,
+        "name": "MTK Budapest",
+        "logo": "https://media.api-sports.io/football/teams/2396.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560244,
       "referee": "Mario Zimmermann",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560229,
-      "referee": "M. Derdak",
-      "timezone": "UTC",
-      "date": "2026-08-21T15:30:00+00:00",
-      "timestamp": 1787326200,
-      "periods": {
-        "first": 1787326200,
-        "second": 1787329800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Paks"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2390,
-        "name": "Paks",
-        "logo": "https://media.api-sports.io/football/teams/2390.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2255,
-        "name": "Ujpest",
-        "logo": "https://media.api-sports.io/football/teams/2255.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

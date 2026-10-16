@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584026,
+      "referee": "Felix Prigan",
+      "timezone": "UTC",
+      "date": "2026-10-14T17:00:00+00:00",
+      "timestamp": 1791997200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 737,
+        "name": "LVM-Preu\u00dfenstadion",
+        "city": "Muenster"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1313,
+        "name": "Preu\u00dfen M\u00fcnster",
+        "logo": "https://media.api-sports.io/football/teams/1313.png",
+        "winner": false
+      },
+      "away": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584021,
       "referee": "Felix Bickel",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583980,
-      "referee": "M. Wilke",
-      "timezone": "UTC",
-      "date": "2026-09-05T12:00:00+00:00",
-      "timestamp": 1788609600,
-      "periods": {
-        "first": 1788609600,
-        "second": 1788613200
-      },
-      "venue": {
-        "id": null,
-        "name": "Preussenstadion",
-        "city": "Munster"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1313,
-        "name": "Preu\u00dfen M\u00fcnster",
-        "logo": "https://media.api-sports.io/football/teams/1313.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9342,
-        "name": "Havelse",
-        "logo": "https://media.api-sports.io/football/teams/9342.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599500,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T16:00:00+00:00",
+      "timestamp": 1791043200,
+      "periods": {
+        "first": 1791043200,
+        "second": 1791046800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 67,
+      "name": "National 2 - Group A",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/67.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group A - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13583,
+        "name": "Colmar",
+        "logo": "https://media.api-sports.io/football/teams/13583.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3218,
+        "name": "Racing Colombes 92",
+        "logo": "https://media.api-sports.io/football/teams/3218.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599496,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599466,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T17:00:00+00:00",
-      "timestamp": 1787418000,
-      "periods": {
-        "first": 1787418000,
-        "second": 1787421600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 67,
-      "name": "National 2 - Group A",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/67.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group A - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20601,
-        "name": "Le Pays du Valois",
-        "logo": "https://media.api-sports.io/football/teams/20601.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3218,
-        "name": "Racing Colombes 92",
-        "logo": "https://media.api-sports.io/football/teams/3218.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584027,
+      "referee": "Niclas Rose",
+      "timezone": "UTC",
+      "date": "2026-10-13T17:00:00+00:00",
+      "timestamp": 1791910800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19943,
+        "name": "Stadion Essen",
+        "city": "Essen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1621,
+        "name": "Rot-Wei\u00df Essen",
+        "logo": "https://media.api-sports.io/football/teams/1621.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1326,
+        "name": "Fortuna K\u00f6ln",
+        "logo": "https://media.api-sports.io/football/teams/1326.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584021,
       "referee": "Felix Bickel",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583987,
-      "referee": "M. Lotz",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion an der Hafenstrasse",
-        "city": "Essen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1621,
-        "name": "Rot-Wei\u00df Essen",
-        "logo": "https://media.api-sports.io/football/teams/1621.png",
-        "winner": true
-      },
-      "away": {
-        "id": 784,
-        "name": "W\u00fcrzburger Kickers",
-        "logo": "https://media.api-sports.io/football/teams/784.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
         "away": 2
       },
       "extratime": {

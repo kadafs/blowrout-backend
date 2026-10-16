@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599503,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T16:00:00+00:00",
+      "timestamp": 1791043200,
+      "periods": {
+        "first": 1791043200,
+        "second": 1791046800
+      },
+      "venue": {
+        "id": null,
+        "name": "Complexe Sportif Didier Eloy",
+        "city": "Feignies"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 67,
+      "name": "National 2 - Group A",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/67.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group A - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3176,
+        "name": "Feignies-Aulnoye",
+        "logo": "https://media.api-sports.io/football/teams/3176.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1291,
+        "name": "Chambly Thelle FC",
+        "logo": "https://media.api-sports.io/football/teams/1291.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599498,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599463,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T16:00:00+00:00",
-      "timestamp": 1787414400,
-      "periods": {
-        "first": 1787414400,
-        "second": 1787418000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 67,
-      "name": "National 2 - Group A",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/67.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group A - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3181,
-        "name": "Furiani-Agliani",
-        "logo": "https://media.api-sports.io/football/teams/3181.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3176,
-        "name": "Feignies-Aulnoye",
-        "logo": "https://media.api-sports.io/football/teams/3176.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

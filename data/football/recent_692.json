@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528110,
+      "referee": "B. Sariev",
+      "timezone": "UTC",
+      "date": "2026-10-11T14:00:00+00:00",
+      "timestamp": 1791727200,
+      "periods": {
+        "first": 1791727200,
+        "second": 1791730800
+      },
+      "venue": {
+        "id": null,
+        "name": "Kaysar Arena",
+        "city": "Kyzylorda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 389,
+      "name": "Premier League",
+      "country": "Kazakhstan",
+      "logo": "https://media.api-sports.io/football/leagues/389.png",
+      "flag": "https://media.api-sports.io/flags/kz.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4562,
+        "name": "Kaisar",
+        "logo": "https://media.api-sports.io/football/teams/4562.png",
+        "winner": false
+      },
+      "away": {
+        "id": 692,
+        "name": "Ordabasy",
+        "logo": "https://media.api-sports.io/football/teams/692.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528102,
       "referee": "S. Karabaev",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545179,
-      "referee": "R. Sultangaliev",
-      "timezone": "UTC",
-      "date": "2026-08-19T13:00:00+00:00",
-      "timestamp": 1787144400,
-      "periods": {
-        "first": 1787144400,
-        "second": 1787148000
-      },
-      "venue": {
-        "id": null,
-        "name": "Vostok Stadium",
-        "city": "Oskemen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 498,
-      "name": "Cup",
-      "country": "Kazakhstan",
-      "logo": "https://media.api-sports.io/football/leagues/498.png",
-      "flag": "https://media.api-sports.io/flags/kz.svg",
-      "season": 2026,
-      "round": "Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4544,
-        "name": "Altay",
-        "logo": "https://media.api-sports.io/football/teams/4544.png",
-        "winner": false
-      },
-      "away": {
-        "id": 692,
-        "name": "Ordabasy",
-        "logo": "https://media.api-sports.io/football/teams/692.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

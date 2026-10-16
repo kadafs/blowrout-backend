@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593633,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T18:45:00+00:00",
+      "timestamp": 1791917100,
+      "periods": {
+        "first": 1791917100,
+        "second": 1791920700
+      },
+      "venue": {
+        "id": null,
+        "name": "New Douglas Park",
+        "city": "Hamilton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Group Stage - 6",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6762,
+        "name": "Clyde",
+        "logo": "https://media.api-sports.io/football/teams/6762.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7435,
+        "name": "Clachnacuddin",
+        "logo": "https://media.api-sports.io/football/teams/7435.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557795,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557788,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 3520,
-        "name": "Forthbank Stadium",
-        "city": "Stirling"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 184,
-      "name": "League Two",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/184.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4669,
-        "name": "Stirling Albion",
-        "logo": "https://media.api-sports.io/football/teams/4669.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6762,
-        "name": "Clyde",
-        "logo": "https://media.api-sports.io/football/teams/6762.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

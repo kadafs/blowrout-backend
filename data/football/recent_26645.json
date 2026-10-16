@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1622784,
+      "referee": "S. Y. Poli",
+      "timezone": "UTC",
+      "date": "2026-10-10T08:30:00+00:00",
+      "timestamp": 1791621000,
+      "periods": {
+        "first": 1791621000,
+        "second": 1791624600
+      },
+      "venue": {
+        "id": null,
+        "name": "Utama Sport Center Kelapa Dua",
+        "city": "Tangerang"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 274,
+      "name": "Liga 1",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/274.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4244,
+        "name": "Persita",
+        "logo": "https://media.api-sports.io/football/teams/4244.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26645,
+        "name": "Garudayaksa",
+        "logo": "https://media.api-sports.io/football/teams/26645.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622774,
-      "referee": null,
+      "referee": "S. Lawita",
       "timezone": "UTC",
       "date": "2026-09-19T08:30:00+00:00",
       "timestamp": 1789806600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1518969,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-25T08:30:00+00:00",
-      "timestamp": 1777105800,
-      "periods": {
-        "first": 1777105800,
-        "second": 1777109400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gelora Sriwijaya Jakabaring",
-        "city": "Palembang"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 275,
-      "name": "Liga 2",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/275.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2025,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2454,
-        "name": "Sriwijaya FC",
-        "logo": "https://media.api-sports.io/football/teams/2454.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26645,
-        "name": "Garudayaksa",
-        "logo": "https://media.api-sports.io/football/teams/26645.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

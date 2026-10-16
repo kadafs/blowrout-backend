@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1468001,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-02T09:30:00+00:00",
+      "timestamp": 1775122200,
+      "periods": {
+        "first": 1775122200,
+        "second": 1775125800
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Group B - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15674,
+        "name": "Pisa U19",
+        "logo": "https://media.api-sports.io/football/teams/15674.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15654,
+        "name": "Ascoli U19",
+        "logo": "https://media.api-sports.io/football/teams/15654.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1467749,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1131442,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-04T10:30:00+00:00",
-      "timestamp": 1699093800,
-      "periods": {
-        "first": 1699093800,
-        "second": 1699097400
-      },
-      "venue": {
-        "id": 20912,
-        "name": "Centro Sportivo Citt\u00e0 di Ascoli",
-        "city": "Ascoli Piceno"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2023,
-      "round": "Group B - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15654,
-        "name": "Ascoli U19",
-        "logo": "https://media.api-sports.io/football/teams/15654.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15674,
-        "name": "Pisa U19",
-        "logo": "https://media.api-sports.io/football/teams/15674.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

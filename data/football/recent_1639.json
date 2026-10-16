@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584028,
+      "referee": "Felix Weller",
+      "timezone": "UTC",
+      "date": "2026-10-13T17:00:00+00:00",
+      "timestamp": 1791910800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11930,
+        "name": "Ludwigspark-Stadion",
+        "city": "Saarbr\u00fccken"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1639,
+        "name": "FC Saarbr\u00fccken",
+        "logo": "https://media.api-sports.io/football/teams/1639.png",
+        "winner": false
+      },
+      "away": {
+        "id": 187,
+        "name": "MSV Duisburg",
+        "logo": "https://media.api-sports.io/football/teams/187.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584017,
-      "referee": "Felix Grund",
+      "referee": "Felix Grund, Germany",
       "timezone": "UTC",
       "date": "2026-10-10T12:00:00+00:00",
       "timestamp": 1791633600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583988,
-      "referee": "M. Nather",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ludwigspark Stadion",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1639,
-        "name": "FC Saarbr\u00fccken",
-        "logo": "https://media.api-sports.io/football/teams/1639.png",
-        "winner": false
-      },
-      "away": {
-        "id": 184,
-        "name": "FC Ingolstadt 04",
-        "logo": "https://media.api-sports.io/football/teams/184.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

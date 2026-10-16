@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1379272,
+      "referee": "S. Barrott",
+      "timezone": "UTC",
+      "date": "2026-03-21T17:30:00+00:00",
+      "timestamp": 1774114200,
+      "periods": {
+        "first": 1774114200,
+        "second": 1774117800
+      },
+      "venue": {
+        "id": 22033,
+        "name": "Hill Dickinson Stadium",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/39.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png",
+        "winner": true
+      },
+      "away": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1379122,
-      "referee": "Thomas Bramall, England",
+      "referee": "T. Bramall",
       "timezone": "UTC",
       "date": "2025-12-13T15:00:00+00:00",
       "timestamp": 1765638000,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1035327,
-      "referee": "M. Oliver",
-      "timezone": "UTC",
-      "date": "2023-12-10T14:00:00+00:00",
-      "timestamp": 1702216800,
-      "periods": {
-        "first": 1702216800,
-        "second": 1702220400
-      },
-      "venue": {
-        "id": 8560,
-        "name": "Goodison Park",
-        "city": "Liverpool"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2023,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 45,
-        "name": "Everton",
-        "logo": "https://media.api-sports.io/football/teams/45.png",
-        "winner": true
-      },
-      "away": {
-        "id": 49,
-        "name": "Chelsea",
-        "logo": "https://media.api-sports.io/football/teams/49.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1529632,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T10:00:00+00:00",
+      "timestamp": 1791626400,
+      "periods": {
+        "first": 1791626400,
+        "second": 1791630000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 364,
+      "name": "1. Liga",
+      "country": "Latvia",
+      "logo": "https://media.api-sports.io/football/leagues/364.png",
+      "flag": "https://media.api-sports.io/flags/lv.svg",
+      "season": 2026,
+      "round": "Regular Season - 22",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4159,
+        "name": "Metta / LU",
+        "logo": "https://media.api-sports.io/football/teams/4159.png",
+        "winner": true
+      },
+      "away": {
+        "id": 25785,
+        "name": "Riga Mariners",
+        "logo": "https://media.api-sports.io/football/teams/25785.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1529624,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1529602,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-24T16:00:00+00:00",
-      "timestamp": 1787587200,
-      "periods": {
-        "first": 1787587200,
-        "second": 1787590800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 364,
-      "name": "1. Liga",
-      "country": "Latvia",
-      "logo": "https://media.api-sports.io/football/leagues/364.png",
-      "flag": "https://media.api-sports.io/flags/lv.svg",
-      "season": 2026,
-      "round": "Regular Season - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18835,
-        "name": "Riga FC II",
-        "logo": "https://media.api-sports.io/football/teams/18835.png",
-        "winner": false
-      },
-      "away": {
-        "id": 25785,
-        "name": "Riga Mariners",
-        "logo": "https://media.api-sports.io/football/teams/25785.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

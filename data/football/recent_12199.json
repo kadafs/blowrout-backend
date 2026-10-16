@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600780,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T11:00:00+00:00",
+      "timestamp": 1791457200,
+      "periods": {
+        "first": 1791457200,
+        "second": 1791460800
+      },
+      "venue": {
+        "id": 21150,
+        "name": "Lake Tanganyika Stadium",
+        "city": "Kigoma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 567,
+      "name": "Ligi kuu Bara",
+      "country": "Tanzania",
+      "logo": "https://media.api-sports.io/football/leagues/567.png",
+      "flag": "https://media.api-sports.io/flags/tz.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22176,
+        "name": "Mashujaa",
+        "logo": "https://media.api-sports.io/football/teams/22176.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12199,
+        "name": "Polisi Tanzania",
+        "logo": "https://media.api-sports.io/football/teams/12199.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600776,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600745,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-20T13:00:00+00:00",
-      "timestamp": 1787230800,
-      "periods": {
-        "first": 1787230800,
-        "second": 1787234400
-      },
-      "venue": {
-        "id": null,
-        "name": "Sheikh Amri Abeid Memorial Stadium",
-        "city": "Arusha"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 567,
-      "name": "Ligi kuu Bara",
-      "country": "Tanzania",
-      "logo": "https://media.api-sports.io/football/leagues/567.png",
-      "flag": "https://media.api-sports.io/flags/tz.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12199,
-        "name": "Polisi Tanzania",
-        "logo": "https://media.api-sports.io/football/teams/12199.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12190,
-        "name": "JKT Tanzania",
-        "logo": "https://media.api-sports.io/football/teams/12190.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

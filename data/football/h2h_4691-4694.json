@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1429031,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-25T14:00:00+00:00",
+      "timestamp": 1777125600,
+      "periods": {
+        "first": 1777125600,
+        "second": 1777129200
+      },
+      "venue": {
+        "id": 21317,
+        "name": "Project Solar UK Stadium",
+        "city": "Hyde, Cheshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 59,
+      "name": "Non League Premier - Northern",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/59.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 42",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4694,
+        "name": "Hyde United",
+        "logo": "https://media.api-sports.io/football/teams/4694.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4691,
+        "name": "Gainsborough Trinity",
+        "logo": "https://media.api-sports.io/football/teams/4691.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1428811,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1078015,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-28T19:45:00+00:00",
-      "timestamp": 1701200700,
-      "periods": {
-        "first": 1701200700,
-        "second": 1701204300
-      },
-      "venue": {
-        "id": 3543,
-        "name": "Ewen Fields",
-        "city": "Hyde, Cheshire"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 59,
-      "name": "Non League Premier - Northern",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/59.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2023,
-      "round": "Northern - 15",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4694,
-        "name": "Hyde United",
-        "logo": "https://media.api-sports.io/football/teams/4694.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4691,
-        "name": "Gainsborough Trinity",
-        "logo": "https://media.api-sports.io/football/teams/4691.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

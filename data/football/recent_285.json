@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1556083,
+      "referee": "Yusuke Ohashi",
+      "timezone": "UTC",
+      "date": "2026-10-11T05:00:00+00:00",
+      "timestamp": 1791694800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 962,
+        "name": "Fukuda Denshi Arena",
+        "city": "Chiba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 301,
+        "name": "JEF United Chiba",
+        "logo": "https://media.api-sports.io/football/teams/301.png",
+        "winner": null
+      },
+      "away": {
+        "id": 285,
+        "name": "V-varen Nagasaki",
+        "logo": "https://media.api-sports.io/football/teams/285.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1639004,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-29T10:00:00+00:00",
+      "timestamp": 1790676000,
+      "periods": {
+        "first": 1790676000,
+        "second": 1790679600
+      },
+      "venue": {
+        "id": 11577,
+        "name": "Axis Bird Stadium",
+        "city": "Tottori"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 101,
+      "name": "J-League Cup",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/101.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4319,
+        "name": "Gainare Tottori",
+        "logo": "https://media.api-sports.io/football/teams/4319.png",
+        "winner": true
+      },
+      "away": {
+        "id": 285,
+        "name": "V-varen Nagasaki",
+        "logo": "https://media.api-sports.io/football/teams/285.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556079,
-      "referee": "Atsushi Kamimura",
+      "referee": "Atsushi Uemura, Japan",
       "timezone": "UTC",
       "date": "2026-09-19T09:30:00+00:00",
       "timestamp": 1789810200,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556059,
-      "referee": "Koei Koya, Japan",
-      "timezone": "UTC",
-      "date": "2026-09-06T10:00:00+00:00",
-      "timestamp": 1788688800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 984,
-        "name": "Noevir Stadium Kobe",
-        "city": "Kobe"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2027,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 289,
-        "name": "Vissel Kobe",
-        "logo": "https://media.api-sports.io/football/teams/289.png",
-        "winner": true
-      },
-      "away": {
-        "id": 285,
-        "name": "V-varen Nagasaki",
-        "logo": "https://media.api-sports.io/football/teams/285.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556049,
-      "referee": "Yoshimi Yamashita, Japan",
-      "timezone": "UTC",
-      "date": "2026-09-02T10:00:00+00:00",
-      "timestamp": 1788343200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Peace Stadium",
-        "city": "Nagasaki"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2027,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 285,
-        "name": "V-varen Nagasaki",
-        "logo": "https://media.api-sports.io/football/teams/285.png",
-        "winner": null
-      },
-      "away": {
-        "id": 293,
-        "name": "Gamba Osaka",
-        "logo": "https://media.api-sports.io/football/teams/293.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

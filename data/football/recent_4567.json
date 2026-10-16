@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642043,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T18:00:00+00:00",
+      "timestamp": 1791914400,
+      "periods": {
+        "first": 1791914400,
+        "second": 1791918000
+      },
+      "venue": {
+        "id": null,
+        "name": "Beirut Municipal Stadium",
+        "city": "Beirut"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 390,
+      "name": "Premier League",
+      "country": "Lebanon",
+      "logo": "https://media.api-sports.io/football/leagues/390.png",
+      "flag": "https://media.api-sports.io/flags/lb.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4567,
+        "name": "Al Ahed",
+        "logo": "https://media.api-sports.io/football/teams/4567.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11880,
+        "name": "Al Mabarrah",
+        "logo": "https://media.api-sports.io/football/teams/11880.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642036,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593669,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-20T14:30:00+00:00",
-      "timestamp": 1784557800,
-      "periods": {
-        "first": 1784557800,
-        "second": 1784561400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 390,
-      "name": "Premier League",
-      "country": "Lebanon",
-      "logo": "https://media.api-sports.io/football/leagues/390.png",
-      "flag": "https://media.api-sports.io/flags/lb.svg",
-      "season": 2025,
-      "round": "Championship Round - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26399,
-        "name": "Jwaaya FC",
-        "logo": "https://media.api-sports.io/football/teams/26399.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4567,
-        "name": "Al Ahed",
-        "logo": "https://media.api-sports.io/football/teams/4567.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

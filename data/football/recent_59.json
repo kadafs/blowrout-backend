@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1563191,
+      "referee": "Sam Allison",
+      "timezone": "UTC",
+      "date": "2026-10-13T19:00:00+00:00",
+      "timestamp": 1791918000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12596,
+        "name": "St. Andrew's Stadium",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 54,
+        "name": "Birmingham",
+        "logo": "https://media.api-sports.io/football/teams/54.png",
+        "winner": true
+      },
+      "away": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563184,
-      "referee": "Ben Speedie",
+      "referee": "Benjamin Speedie, England",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563136,
-      "referee": "Anthony Backhouse, England",
-      "timezone": "UTC",
-      "date": "2026-09-05T11:30:00+00:00",
-      "timestamp": 1788607800,
-      "periods": {
-        "first": 1788607800,
-        "second": 1788611400
-      },
-      "venue": {
-        "id": 574,
-        "name": "Deepdale",
-        "city": "Preston"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 59,
-        "name": "Preston",
-        "logo": "https://media.api-sports.io/football/teams/59.png",
-        "winner": true
-      },
-      "away": {
-        "id": 67,
-        "name": "Blackburn",
-        "logo": "https://media.api-sports.io/football/teams/67.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
       },
       "fulltime": {
         "home": 2,

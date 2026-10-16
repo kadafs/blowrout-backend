@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623584,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T09:00:00+00:00",
+      "timestamp": 1791622800,
+      "periods": {
+        "first": 1791622800,
+        "second": 1791626400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15662,
+        "name": "Cremonese U19",
+        "logo": "https://media.api-sports.io/football/teams/15662.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15684,
+        "name": "Udinese U19",
+        "logo": "https://media.api-sports.io/football/teams/15684.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623571,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1131386,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-05-04T13:00:00+00:00",
-      "timestamp": 1714827600,
-      "periods": {
-        "first": 1714827600,
-        "second": 1714831200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Comunale",
-        "city": "Casalgrande"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2023,
-      "round": "Group A - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15676,
-        "name": "Reggiana U19",
-        "logo": "https://media.api-sports.io/football/teams/15676.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15662,
-        "name": "Cremonese U19",
-        "logo": "https://media.api-sports.io/football/teams/15662.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

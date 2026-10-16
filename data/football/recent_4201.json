@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1603464,
+      "id": 1603470,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T11:30:00+00:00",
+      "timestamp": 1791804600,
+      "periods": {
+        "first": 1791804600,
+        "second": 1791808200
+      },
+      "venue": {
+        "id": 3208,
+        "name": "Jalan Besar Stadium",
+        "city": "Singapore"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 368,
+      "name": "Premier League",
+      "country": "Singapore",
+      "logo": "https://media.api-sports.io/football/leagues/368.png",
+      "flag": "https://media.api-sports.io/flags/sg.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4205,
+        "name": "Hougang United",
+        "logo": "https://media.api-sports.io/football/teams/4205.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4201,
+        "name": "Balestier Khalsa",
+        "logo": "https://media.api-sports.io/football/teams/4201.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1603464,
+      "referee": "M. Pagira",
       "timezone": "UTC",
       "date": "2026-09-19T11:30:00+00:00",
       "timestamp": 1789817400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1421870,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-02T11:30:00+00:00",
-      "timestamp": 1777721400,
-      "periods": {
-        "first": 1777721400,
-        "second": 1777725000
-      },
-      "venue": {
-        "id": null,
-        "name": "Tampines Stadium",
-        "city": "Tampines"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 13
-      }
-    },
-    "league": {
-      "id": 368,
-      "name": "Premier League",
-      "country": "Singapore",
-      "logo": "https://media.api-sports.io/football/leagues/368.png",
-      "flag": "https://media.api-sports.io/flags/sg.svg",
-      "season": 2025,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4203,
-        "name": "Geylang International",
-        "logo": "https://media.api-sports.io/football/teams/4203.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4201,
-        "name": "Balestier Khalsa",
-        "logo": "https://media.api-sports.io/football/teams/4201.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

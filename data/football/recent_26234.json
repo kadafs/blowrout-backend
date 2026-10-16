@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585112,
+      "referee": "Daupeux, Elisa",
+      "timezone": "UTC",
+      "date": "2026-10-03T19:00:00+00:00",
+      "timestamp": 1791054000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12585,
+        "name": "Stade Jean Bouin",
+        "city": "Isilemulino"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1676,
+        "name": "Paris FC W",
+        "logo": "https://media.api-sports.io/football/teams/1676.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26234,
+        "name": "Lens W",
+        "logo": "https://media.api-sports.io/football/teams/26234.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585111,
       "referee": "S. Benmahammed",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1421649,
-      "referee": "R. Fournier",
-      "timezone": "UTC",
-      "date": "2026-04-25T19:00:00+00:00",
-      "timestamp": 1777143600,
-      "periods": {
-        "first": 1777143600,
-        "second": 1777147200
-      },
-      "venue": {
-        "id": null,
-        "name": "Degouve-Brabant Stadium",
-        "city": "Arras"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2025,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26234,
-        "name": "Lens W",
-        "logo": "https://media.api-sports.io/football/teams/26234.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1673,
-        "name": "Marseille W",
-        "logo": "https://media.api-sports.io/football/teams/1673.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

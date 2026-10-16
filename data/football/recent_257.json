@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1556675,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T14:00:00+00:00",
+      "timestamp": 1791640800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": true
+      },
+      "away": {
+        "id": 250,
+        "name": "Kilmarnock",
+        "logo": "https://media.api-sports.io/football/teams/250.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556669,
-      "referee": "John Beaton",
+      "referee": "John Beaton, Scotland",
       "timezone": "UTC",
       "date": "2026-09-20T11:00:00+00:00",
       "timestamp": 1789902000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556654,
-      "referee": "S. McLean",
-      "timezone": "UTC",
-      "date": "2026-09-02T19:00:00+00:00",
-      "timestamp": 1788375600,
-      "periods": {
-        "first": 1788375600,
-        "second": 1788379200
-      },
-      "venue": {
-        "id": null,
-        "name": "Falkirk Stadium",
-        "city": "Falkirk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1389,
-        "name": "Falkirk",
-        "logo": "https://media.api-sports.io/football/teams/1389.png",
-        "winner": false
-      },
-      "away": {
-        "id": 257,
-        "name": "Rangers",
-        "logo": "https://media.api-sports.io/football/teams/257.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

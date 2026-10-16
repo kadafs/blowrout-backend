@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1588859,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-06T18:00:00+00:00",
+      "timestamp": 1791309600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12676,
+        "name": "Keepmoat Stadium",
+        "city": "Doncaster"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group North - 8",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1354,
+        "name": "Doncaster",
+        "logo": "https://media.api-sports.io/football/teams/1354.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7196,
+        "name": "Liverpool U21",
+        "logo": "https://media.api-sports.io/football/teams/7196.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621039,
       "referee": "D. Watson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548932,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-01T13:30:00+00:00",
-      "timestamp": 1785591000,
-      "periods": {
-        "first": 1785591000,
-        "second": 1785594600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7196,
-        "name": "Liverpool U21",
-        "logo": "https://media.api-sports.io/football/teams/7196.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20016,
-        "name": "Cardiff City U21",
-        "logo": "https://media.api-sports.io/football/teams/20016.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

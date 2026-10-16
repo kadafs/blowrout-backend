@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643965,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T14:00:00+00:00",
+      "timestamp": 1791900000,
+      "periods": {
+        "first": 1791900000,
+        "second": 1791903600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 187,
+      "name": "Ligue 2",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/187.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 928,
+        "name": "WA Tlemcen",
+        "logo": "https://media.api-sports.io/football/teams/928.png",
+        "winner": false
+      },
+      "away": {
+        "id": 912,
+        "name": "Blida",
+        "logo": "https://media.api-sports.io/football/teams/912.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643951,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1157569,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-02-03T12:45:00+00:00",
-      "timestamp": 1706964300,
-      "periods": {
-        "first": 1706964300,
-        "second": 1706967900
-      },
-      "venue": {
-        "id": 29,
-        "name": "Stade Akit Lotfi",
-        "city": "Tlemcen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 514,
-      "name": "Coupe Nationale",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/514.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2023,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 928,
-        "name": "WA Tlemcen",
-        "logo": "https://media.api-sports.io/football/teams/928.png",
-        "winner": true
-      },
-      "away": {
-        "id": 912,
-        "name": "Blida",
-        "logo": "https://media.api-sports.io/football/teams/912.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

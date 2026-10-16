@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1592020,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T14:00:00+00:00",
+      "timestamp": 1791640800,
+      "periods": {
+        "first": 1791640800,
+        "second": 1791644400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 1041,
+      "name": "J\u00faniores U19",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/1041.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24442,
+        "name": "Casa Pia U19",
+        "logo": "https://media.api-sports.io/football/teams/24442.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22518,
+        "name": "SC Farense U19",
+        "logo": "https://media.api-sports.io/football/teams/22518.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592008,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591980,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-15T10:00:00+00:00",
-      "timestamp": 1786788000,
-      "periods": {
-        "first": 1786788000,
-        "second": 1786791600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 1041,
-      "name": "J\u00faniores U19",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/1041.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24442,
-        "name": "Casa Pia U19",
-        "logo": "https://media.api-sports.io/football/teams/24442.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26301,
-        "name": "Santa Clara U19",
-        "logo": "https://media.api-sports.io/football/teams/26301.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

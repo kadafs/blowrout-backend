@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1387566,
+      "referee": "R. Ricardo",
+      "timezone": "UTC",
+      "date": "2026-03-21T15:00:00+00:00",
+      "timestamp": 1774105200,
+      "periods": {
+        "first": 1774105200,
+        "second": 1774108800
+      },
+      "venue": {
+        "id": 571,
+        "name": "Home Park",
+        "city": "Plymouth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 39",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1357,
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png",
+        "winner": true
+      },
+      "away": {
+        "id": 37,
+        "name": "Huddersfield",
+        "logo": "https://media.api-sports.io/football/teams/37.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1387275,
       "referee": "Sebastian Stockbridge, England",
       "timezone": "UTC",
@@ -11,7 +81,7 @@
         "second": 1762617600
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "John Smit",
         "city": "Huddersfield"
       },

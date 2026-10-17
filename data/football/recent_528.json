@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1601534,
-      "referee": "Matteo Marchetti",
+      "id": 1601544,
+      "referee": "Juan Luca Sacchi, Italy",
       "timezone": "UTC",
-      "date": "2026-09-19T17:30:00+00:00",
-      "timestamp": 1789839000,
+      "date": "2026-10-09T18:30:00+00:00",
+      "timestamp": 1791570600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 2756,
+        "name": "Partenio-Adriano Lombardi",
+        "city": "Avellino"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 136,
+      "name": "Serie B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/136.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 528,
+        "name": "Avellino",
+        "logo": "https://media.api-sports.io/football/teams/528.png",
+        "winner": true
+      },
+      "away": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1601534,
+      "referee": "Matteo Marchetti, Italy",
+      "timezone": "UTC",
+      "date": "2026-09-19T17:30:00+00:00",
+      "timestamp": 1789839000,
+      "periods": {
+        "first": 1789839000,
+        "second": 1789842600
+      },
+      "venue": {
         "id": 876,
-        "name": "Cino e Lillo Del Duca",
+        "name": "Stadio Cino e Lillo Del Duca",
         "city": "Ascoli Piceno"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1601523,
-      "referee": null,
+      "referee": "Daniele Doveri, Italy",
       "timezone": "UTC",
       "date": "2026-09-13T15:15:00+00:00",
       "timestamp": 1789312500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789312500,
+        "second": 1789316100
       },
       "venue": {
         "id": 2756,
@@ -147,8 +217,8 @@
       "date": "2026-09-06T13:00:00+00:00",
       "timestamp": 1788699600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788699600,
+        "second": 1788703200
       },
       "venue": {
         "id": 2771,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601493,
-      "referee": "Mattia Drigo, Italy",
-      "timezone": "UTC",
-      "date": "2026-08-22T19:00:00+00:00",
-      "timestamp": 1787425200,
-      "periods": {
-        "first": 1787425200,
-        "second": 1787428800
-      },
-      "venue": {
-        "id": 2756,
-        "name": "Stadio Partenio-Adriano Lombardi",
-        "city": "Avellino"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 136,
-      "name": "Serie B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/136.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 528,
-        "name": "Avellino",
-        "logo": "https://media.api-sports.io/football/teams/528.png",
-        "winner": false
-      },
-      "away": {
-        "id": 876,
-        "name": "Arezzo",
-        "logo": "https://media.api-sports.io/football/teams/876.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558020,
+      "referee": "Z. Jazbec",
+      "timezone": "UTC",
+      "date": "2026-10-11T15:30:00+00:00",
+      "timestamp": 1791732600,
+      "periods": {
+        "first": 1791732600,
+        "second": 1791736200
+      },
+      "venue": {
+        "id": null,
+        "name": "Nogometni park Brinje",
+        "city": "Grosuplje"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 373,
+      "name": "1. SNL",
+      "country": "Slovenia",
+      "logo": "https://media.api-sports.io/football/leagues/373.png",
+      "flag": "https://media.api-sports.io/flags/si.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12744,
+        "name": "Brinje-Grosuplje",
+        "logo": "https://media.api-sports.io/football/teams/12744.png",
+        "winner": false
+      },
+      "away": {
+        "id": 552,
+        "name": "Maribor",
+        "logo": "https://media.api-sports.io/football/teams/552.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558015,
       "referee": "A. Begic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557994,
-      "referee": "A. Jeric",
-      "timezone": "UTC",
-      "date": "2026-08-21T15:30:00+00:00",
-      "timestamp": 1787326200,
-      "periods": {
-        "first": 1787326200,
-        "second": 1787329800
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportni park Aluminij",
-        "city": "Kidricevo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 373,
-      "name": "1. SNL",
-      "country": "Slovenia",
-      "logo": "https://media.api-sports.io/football/leagues/373.png",
-      "flag": "https://media.api-sports.io/flags/si.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4358,
-        "name": "Aluminij",
-        "logo": "https://media.api-sports.io/football/teams/4358.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12744,
-        "name": "Brinje-Grosuplje",
-        "logo": "https://media.api-sports.io/football/teams/12744.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

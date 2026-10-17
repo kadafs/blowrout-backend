@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528030,
+      "referee": "A. Kuchma",
+      "timezone": "UTC",
+      "date": "2026-10-14T10:00:00+00:00",
+      "timestamp": 1791972000,
+      "periods": {
+        "first": 1791972000,
+        "second": 1791975600
+      },
+      "venue": {
+        "id": null,
+        "name": "Centralnyj Stadion",
+        "city": "Pavlodar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 389,
+      "name": "Premier League",
+      "country": "Kazakhstan",
+      "logo": "https://media.api-sports.io/football/leagues/389.png",
+      "flag": "https://media.api-sports.io/flags/kz.svg",
+      "season": 2026,
+      "round": "Regular Season - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4565,
+        "name": "Irtysh",
+        "logo": "https://media.api-sports.io/football/teams/4565.png",
+        "winner": false
+      },
+      "away": {
+        "id": 562,
+        "name": "FC Astana",
+        "logo": "https://media.api-sports.io/football/teams/562.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528112,
       "referee": "A. Zatula",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1528076,
-      "referee": "S. Nozhenko",
-      "timezone": "UTC",
-      "date": "2026-08-30T15:00:00+00:00",
-      "timestamp": 1788102000,
-      "periods": {
-        "first": 1788102000,
-        "second": 1788105600
-      },
-      "venue": {
-        "id": null,
-        "name": "Turkestan Arena",
-        "city": "Turkestan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 389,
-      "name": "Premier League",
-      "country": "Kazakhstan",
-      "logo": "https://media.api-sports.io/football/leagues/389.png",
-      "flag": "https://media.api-sports.io/flags/kz.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4564,
-        "name": "Atyrau",
-        "logo": "https://media.api-sports.io/football/teams/4564.png",
-        "winner": false
-      },
-      "away": {
-        "id": 562,
-        "name": "FC Astana",
-        "logo": "https://media.api-sports.io/football/teams/562.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

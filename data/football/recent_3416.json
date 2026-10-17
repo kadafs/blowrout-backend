@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1603571,
+      "referee": "Theodoros Sofokleous",
+      "timezone": "UTC",
+      "date": "2026-10-12T16:00:00+00:00",
+      "timestamp": 1791820800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22732,
+        "name": "AEK Arena",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 614,
+        "name": "AEK Larnaca",
+        "logo": "https://media.api-sports.io/football/teams/614.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3416,
+        "name": "Omonia Aradippou",
+        "logo": "https://media.api-sports.io/football/teams/3416.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603569,
-      "referee": "Dimitris Solomou",
+      "referee": "D. Solomou",
       "timezone": "UTC",
       "date": "2026-09-20T17:00:00+00:00",
       "timestamp": 1789923600,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": 2215,
-        "name": "Aradippou Stadium",
-        "city": "Aradippou"
+        "name": "Antonis Papadopoulos Stadium",
+        "city": "Larnaca"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1603555,
-      "referee": "A. Konstantinidis",
+      "referee": "Antonis Konstantinidis, Cyprus",
       "timezone": "UTC",
       "date": "2026-09-05T17:00:00+00:00",
       "timestamp": 1788627600,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Antonis Papadopoulos Stadium",
+        "name": "AEK Arena",
         "city": "Larnaca"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1603549,
-      "referee": "C. Theouli",
+      "referee": "Chrysovalantis Theouli, Cyprus",
       "timezone": "UTC",
       "date": "2026-08-31T17:00:00+00:00",
       "timestamp": 1788195600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618878,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-08T16:00:00+00:00",
-      "timestamp": 1786204800,
-      "periods": {
-        "first": 1786204800,
-        "second": 1786208400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 614,
-        "name": "AEK Larnaca",
-        "logo": "https://media.api-sports.io/football/teams/614.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3416,
-        "name": "Omonia Aradippou",
-        "logo": "https://media.api-sports.io/football/teams/3416.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

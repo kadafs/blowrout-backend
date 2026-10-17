@@ -1,14 +1,154 @@
 [
   {
     "fixture": {
+      "id": 1593147,
+      "referee": "Franziska Wildfeuer",
+      "timezone": "UTC",
+      "date": "2026-10-04T14:00:00+00:00",
+      "timestamp": 1791122400,
+      "periods": {
+        "first": 1791122400,
+        "second": 1791126000
+      },
+      "venue": {
+        "id": 8211,
+        "name": "Gazi-Stadion a. d. Waldau",
+        "city": "Stuttgart"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24130,
+        "name": "Stuttgart W",
+        "logo": "https://media.api-sports.io/football/teams/24130.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24133,
+        "name": "Union Berlin W",
+        "logo": "https://media.api-sports.io/football/teams/24133.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1629377,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-27T12:00:00+00:00",
+      "timestamp": 1790510400,
+      "periods": {
+        "first": 1790510400,
+        "second": 1790514000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 947,
+      "name": "DFB Pokal - Women",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/947.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 24127,
+        "name": "Magdeburg W",
+        "logo": "https://media.api-sports.io/football/teams/24127.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24133,
+        "name": "Union Berlin W",
+        "logo": "https://media.api-sports.io/football/teams/24133.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593140,
-      "referee": "Levke Scholz",
+      "referee": "L. Scholz",
       "timezone": "UTC",
       "date": "2026-09-20T16:30:00+00:00",
       "timestamp": 1789921800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789921800,
+        "second": 1789925400
       },
       "venue": {
         "id": 748,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593117,
-      "referee": "D. Lutz",
-      "timezone": "UTC",
-      "date": "2026-08-29T10:00:00+00:00",
-      "timestamp": 1787997600,
-      "periods": {
-        "first": 1787997600,
-        "second": 1788001200
-      },
-      "venue": {
-        "id": null,
-        "name": "Dreisamstadion",
-        "city": "Freiburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1867,
-        "name": "SC Freiburg W",
-        "logo": "https://media.api-sports.io/football/teams/1867.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24133,
-        "name": "Union Berlin W",
-        "logo": "https://media.api-sports.io/football/teams/24133.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593107,
-      "referee": "M. Schwermer",
-      "timezone": "UTC",
-      "date": "2026-08-21T16:20:00+00:00",
-      "timestamp": 1787329200,
-      "periods": {
-        "first": 1787329200,
-        "second": 1787332800
-      },
-      "venue": {
-        "id": null,
-        "name": "An der alten F\u00f6rsterei",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24133,
-        "name": "Union Berlin W",
-        "logo": "https://media.api-sports.io/football/teams/24133.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1860,
-        "name": "Bayern Munich W",
-        "logo": "https://media.api-sports.io/football/teams/1860.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

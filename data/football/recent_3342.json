@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636453,
+      "referee": "Menelaos Antoniou, Cyprus",
+      "timezone": "UTC",
+      "date": "2026-10-15T16:45:00+00:00",
+      "timestamp": 1792082700,
+      "periods": {
+        "first": 1792082700,
+        "second": 1792086300
+      },
+      "venue": {
+        "id": null,
+        "name": "Olympia",
+        "city": "Helsingborg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2240,
+        "name": "Mjallby AIF",
+        "logo": "https://media.api-sports.io/football/teams/2240.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3342,
+        "name": "Inter Club d'Escaldes",
+        "logo": "https://media.api-sports.io/football/teams/3342.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623140,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635901,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T17:30:00+00:00",
-      "timestamp": 1788975000,
-      "periods": {
-        "first": 1788975000,
-        "second": 1788978600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadi de la FAF",
-        "city": "Encamp"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 809,
-      "name": "Super Cup",
-      "country": "Andorra",
-      "logo": "https://media.api-sports.io/football/leagues/809.png",
-      "flag": "https://media.api-sports.io/flags/ad.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3342,
-        "name": "Inter Club d'Escaldes",
-        "logo": "https://media.api-sports.io/football/teams/3342.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3345,
-        "name": "Atl\u00e8tic Club d'Escaldes",
-        "logo": "https://media.api-sports.io/football/teams/3345.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

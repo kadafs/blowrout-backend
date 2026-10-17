@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495982,
+      "referee": "H. Sletner",
+      "timezone": "UTC",
+      "date": "2026-10-14T17:00:00+00:00",
+      "timestamp": 1791997200,
+      "periods": {
+        "first": 1791997200,
+        "second": 1792000800
+      },
+      "venue": {
+        "id": 1199,
+        "name": "Marienlyst Stadion",
+        "city": "Drammen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 324,
+        "name": "Stromsgodset",
+        "logo": "https://media.api-sports.io/football/teams/324.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2144,
+        "name": "Kongsvinger",
+        "logo": "https://media.api-sports.io/football/teams/2144.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495969,
       "referee": "O. Valen",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495944,
-      "referee": "M. Tennoy",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": null,
-        "name": "XL-BYGG Sorvest Arena",
-        "city": "Egersund"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6976,
-        "name": "Egersund",
-        "logo": "https://media.api-sports.io/football/teams/6976.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2144,
-        "name": "Kongsvinger",
-        "logo": "https://media.api-sports.io/football/teams/2144.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

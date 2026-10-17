@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622647,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-09T14:50:00+00:00",
+      "timestamp": 1791557400,
+      "periods": {
+        "first": 1791557400,
+        "second": 1791561000
+      },
+      "venue": {
+        "id": null,
+        "name": "Ali Al-Salem Al-Sabah Stadium",
+        "city": "Kuwait"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 330,
+      "name": "Premier League",
+      "country": "Kuwait",
+      "logo": "https://media.api-sports.io/football/leagues/330.png",
+      "flag": "https://media.api-sports.io/flags/kw.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3536,
+        "name": "Al Nasar",
+        "logo": "https://media.api-sports.io/football/teams/3536.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3535,
+        "name": "Al Kuwait",
+        "logo": "https://media.api-sports.io/football/teams/3535.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622645,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553790,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-21T17:45:00+00:00",
-      "timestamp": 1782063900,
-      "periods": {
-        "first": 1782063900,
-        "second": 1782067500
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 330,
-      "name": "Premier League",
-      "country": "Kuwait",
-      "logo": "https://media.api-sports.io/football/leagues/330.png",
-      "flag": "https://media.api-sports.io/flags/kw.svg",
-      "season": 2025,
-      "round": "Relegation Play-Off - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3539,
-        "name": "Al Tadhamon",
-        "logo": "https://media.api-sports.io/football/teams/3539.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3536,
-        "name": "Al Nasar",
-        "logo": "https://media.api-sports.io/football/teams/3536.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

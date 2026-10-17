@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601416,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-08-28T21:00:00+00:00",
+      "timestamp": 1787950800,
+      "periods": {
+        "first": 1787950800,
+        "second": 1787954400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 163,
+      "name": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/163.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 814,
+        "name": "AD Carmelita",
+        "logo": "https://media.api-sports.io/football/teams/814.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2056,
+        "name": "Aserri FC",
+        "logo": "https://media.api-sports.io/football/teams/2056.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1476924,
       "referee": null,
       "timezone": "UTC",
@@ -272,76 +342,6 @@
       "extratime": {
         "home": null,
         "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 857428,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2022-04-26T01:00:00+00:00",
-      "timestamp": 1650934800,
-      "periods": {
-        "first": 1650934800,
-        "second": 1650938400
-      },
-      "venue": {
-        "id": 409,
-        "name": "Estadio Jorge Hern\u00e1n Cuty Monge",
-        "city": "San Jos\u00e9"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "AET",
-        "elapsed": 120,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 163,
-      "name": "Liga de Ascenso",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/163.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2021,
-      "round": "Clausura - Quarter-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2056,
-        "name": "Aserri FC",
-        "logo": "https://media.api-sports.io/football/teams/2056.png",
-        "winner": false
-      },
-      "away": {
-        "id": 814,
-        "name": "AD Carmelita",
-        "logo": "https://media.api-sports.io/football/teams/814.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": 0,
-        "away": 0
       },
       "penalty": {
         "home": null,

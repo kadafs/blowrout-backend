@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619919,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T13:00:00+00:00",
+      "timestamp": 1791637200,
+      "periods": {
+        "first": 1791637200,
+        "second": 1791640800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 576,
+      "name": "Gamma Ethniki - Group 1",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/576.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Group 1 - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2104,
+        "name": "Doxa Dramas",
+        "logo": "https://media.api-sports.io/football/teams/2104.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5030,
+        "name": "Apollon Paralimniou",
+        "logo": "https://media.api-sports.io/football/teams/5030.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1302791,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1302757,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-03-30T13:00:00+00:00",
-      "timestamp": 1743339600,
-      "periods": {
-        "first": 1743339600,
-        "second": 1743343200
-      },
-      "venue": {
-        "id": 10926,
-        "name": "Gipedo Thermis",
-        "city": "Thermis"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 576,
-      "name": "Gamma Ethniki - Group 1",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/576.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2024,
-      "round": "Group 1 - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6323,
-        "name": "Thermaikos Thermis",
-        "logo": "https://media.api-sports.io/football/teams/6323.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5030,
-        "name": "Apollon Paralimniou",
-        "logo": "https://media.api-sports.io/football/teams/5030.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

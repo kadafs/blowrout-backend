@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571854,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T17:45:00+00:00",
+      "timestamp": 1791827100,
+      "periods": {
+        "first": 1791827100,
+        "second": 1791830700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 272,
+      "name": "NB II",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/272.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5071,
+        "name": "BVSC",
+        "logo": "https://media.api-sports.io/football/teams/5071.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2404,
+        "name": "Soroksar",
+        "logo": "https://media.api-sports.io/football/teams/2404.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571852,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571827,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T15:30:00+00:00",
-      "timestamp": 1787499000,
-      "periods": {
-        "first": 1787499000,
-        "second": 1787502600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 272,
-      "name": "NB II",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/272.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2404,
-        "name": "Soroksar",
-        "logo": "https://media.api-sports.io/football/teams/2404.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5139,
-        "name": "Szentl\u0151rinc SE",
-        "logo": "https://media.api-sports.io/football/teams/5139.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

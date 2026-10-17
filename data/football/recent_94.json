@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1636326,
+      "referee": "Andrea Colombo",
+      "timezone": "UTC",
+      "date": "2026-10-15T19:00:00+00:00",
+      "timestamp": 1792090800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 680,
+        "name": "Roazhon Park",
+        "city": "Rennes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1124,
+        "name": "OFI",
+        "logo": "https://media.api-sports.io/football/teams/1124.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552781,
       "referee": "Willy Delajod",
       "timezone": "UTC",
       "date": "2026-10-11T15:15:00+00:00",
       "timestamp": 1791731700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791731700,
+        "second": 1791735300
       },
       "venue": {
         "id": 680,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1552768,
-      "referee": "Mathieu Vernice, France",
+      "referee": "Mathieu Vernice",
       "timezone": "UTC",
       "date": "2026-09-19T18:45:00+00:00",
       "timestamp": 1789843500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789843500,
+        "second": 1789847100
       },
       "venue": {
         "id": 666,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552763,
-      "referee": "Jeremy Stinat, France",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:45:00+00:00",
-      "timestamp": 1789152300,
-      "periods": {
-        "first": 1789152300,
-        "second": 1789155900
-      },
-      "venue": {
-        "id": 680,
-        "name": "Roazhon Park",
-        "city": "Rennes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 94,
-        "name": "Rennes",
-        "logo": "https://media.api-sports.io/football/teams/94.png",
-        "winner": true
-      },
-      "away": {
-        "id": 81,
-        "name": "Marseille",
-        "logo": "https://media.api-sports.io/football/teams/81.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

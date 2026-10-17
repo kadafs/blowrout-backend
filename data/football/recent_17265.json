@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1523272,
+      "referee": "Yinhao Shen, China",
+      "timezone": "UTC",
+      "date": "2026-10-11T10:00:00+00:00",
+      "timestamp": 1791712800,
+      "periods": {
+        "first": 1791712800,
+        "second": 1791716400
+      },
+      "venue": {
+        "id": null,
+        "name": "Guzhenkou University Sports Center",
+        "city": "Qingdao"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 169,
+      "name": "Super League",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/169.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17265,
+        "name": "Qingdao Youth Island",
+        "logo": "https://media.api-sports.io/football/teams/17265.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21263,
+        "name": "Dalian Zhixing",
+        "logo": "https://media.api-sports.io/football/teams/21263.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1523259,
       "referee": "Di Wang, China",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 21262,
         "name": "Chongqing Tongliang Long",
         "logo": "https://media.api-sports.io/football/teams/21262.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1523232,
-      "referee": "Kai He, China",
-      "timezone": "UTC",
-      "date": "2026-08-09T11:00:00+00:00",
-      "timestamp": 1786273200,
-      "periods": {
-        "first": 1786273200,
-        "second": 1786276800
-      },
-      "venue": {
-        "id": 355,
-        "name": "Zhengzhou Hanghai Stadium",
-        "city": "Zhengzhou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 169,
-      "name": "Super League",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/169.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 840,
-        "name": "Henan Jianye",
-        "logo": "https://media.api-sports.io/football/teams/840.png",
-        "winner": null
-      },
-      "away": {
-        "id": 17265,
-        "name": "Qingdao Youth Island",
-        "logo": "https://media.api-sports.io/football/teams/17265.png",
         "winner": null
       }
     },

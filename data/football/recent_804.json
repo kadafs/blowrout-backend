@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608671,
+      "referee": "G. Decimo",
+      "timezone": "UTC",
+      "date": "2026-10-14T13:00:00+00:00",
+      "timestamp": 1791982800,
+      "periods": {
+        "first": 1791982800,
+        "second": 1791986400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Domenico Francioni",
+        "city": "Latina"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 942,
+      "name": "Serie C - Girone B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/942.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone B - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 804,
+        "name": "Latina",
+        "logo": "https://media.api-sports.io/football/teams/804.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22104,
+        "name": "Atalanta II",
+        "logo": "https://media.api-sports.io/football/teams/22104.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608697,
       "referee": "F. Colaninno",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608643,
-      "referee": "A. Bortolussi",
-      "timezone": "UTC",
-      "date": "2026-09-12T19:00:00+00:00",
-      "timestamp": 1789239600,
-      "periods": {
-        "first": 1789239600,
-        "second": 1789243200
-      },
-      "venue": {
-        "id": 906,
-        "name": "Stadio Pietro Barbetti",
-        "city": "Gubbio"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 942,
-      "name": "Serie C - Girone B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/942.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone B - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 866,
-        "name": "Gubbio",
-        "logo": "https://media.api-sports.io/football/teams/866.png",
-        "winner": true
-      },
-      "away": {
-        "id": 804,
-        "name": "Latina",
-        "logo": "https://media.api-sports.io/football/teams/804.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

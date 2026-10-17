@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495976,
+      "referee": "A. Bodding",
+      "timezone": "UTC",
+      "date": "2026-10-14T17:00:00+00:00",
+      "timestamp": 1791997200,
+      "periods": {
+        "first": 1791997200,
+        "second": 1792000800
+      },
+      "venue": {
+        "id": null,
+        "name": "Haugesund Stadion",
+        "city": "Haugesund"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 328,
+        "name": "Haugesund",
+        "logo": "https://media.api-sports.io/football/teams/328.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7006,
+        "name": "Lyn",
+        "logo": "https://media.api-sports.io/football/teams/7006.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495973,
       "referee": "M. Koloy",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637856,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-08T16:00:00+00:00",
-      "timestamp": 1788883200,
-      "periods": {
-        "first": 1788883200,
-        "second": 1788886800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 105,
-      "name": "NM Cupen",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/105.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2027,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16216,
-        "name": "Djerv",
-        "logo": "https://media.api-sports.io/football/teams/16216.png",
-        "winner": false
-      },
-      "away": {
-        "id": 328,
-        "name": "Haugesund",
-        "logo": "https://media.api-sports.io/football/teams/328.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
         "away": 4
       },
       "extratime": {

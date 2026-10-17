@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636260,
+      "referee": "Damian Sylwestrzak",
+      "timezone": "UTC",
+      "date": "2026-10-15T19:00:00+00:00",
+      "timestamp": 1792090800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 799,
+        "name": "Groupama Ar\u00e9na",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": true
+      },
+      "away": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560249,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560237,
-      "referee": "F. Karako",
-      "timezone": "UTC",
-      "date": "2026-09-06T15:45:00+00:00",
-      "timestamp": 1788709500,
-      "periods": {
-        "first": 1788709500,
-        "second": 1788713100
-      },
-      "venue": {
-        "id": 799,
-        "name": "Groupama Arena",
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 651,
-        "name": "Ferencvarosi TC",
-        "logo": "https://media.api-sports.io/football/teams/651.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2255,
-        "name": "Ujpest",
-        "logo": "https://media.api-sports.io/football/teams/2255.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

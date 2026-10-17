@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635711,
+      "referee": "Nick Walsh",
+      "timezone": "UTC",
+      "date": "2026-10-13T19:00:00+00:00",
+      "timestamp": 1791918000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 738,
+        "name": "Leipzig Red Bull Arena",
+        "city": "Leipzig"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 173,
+        "name": "RB Leipzig",
+        "logo": "https://media.api-sports.io/football/teams/173.png",
+        "winner": true
+      },
+      "away": {
+        "id": 197,
+        "name": "PSV Eindhoven",
+        "logo": "https://media.api-sports.io/football/teams/197.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575177,
       "referee": "Daniel Siebert, Germany",
       "timezone": "UTC",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1635648,
-      "referee": "Serdar Gozubuyuk",
+      "referee": "Serdar Gozubuyuk, Netherlands",
       "timezone": "UTC",
       "date": "2026-09-10T19:00:00+00:00",
       "timestamp": 1789066800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575155,
-      "referee": "Benjamin Brand, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-05T13:30:00+00:00",
-      "timestamp": 1788615000,
-      "periods": {
-        "first": 1788615000,
-        "second": 1788618600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Weserstadion",
-        "city": "Bremen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 162,
-        "name": "Werder Bremen",
-        "logo": "https://media.api-sports.io/football/teams/162.png",
-        "winner": true
-      },
-      "away": {
-        "id": 173,
-        "name": "RB Leipzig",
-        "logo": "https://media.api-sports.io/football/teams/173.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

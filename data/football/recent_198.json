@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552186,
+      "referee": "Erwin Blank",
+      "timezone": "UTC",
+      "date": "2026-10-11T12:30:00+00:00",
+      "timestamp": 1791721800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20187,
+        "name": "Sportpark Schoonenberg",
+        "city": "Felsen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 427,
+        "name": "Telstar",
+        "logo": "https://media.api-sports.io/football/teams/427.png",
+        "winner": null
+      },
+      "away": {
+        "id": 198,
+        "name": "ADO Den Haag",
+        "logo": "https://media.api-sports.io/football/teams/198.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552172,
-      "referee": "Allard Lindhout",
+      "referee": "Allard Lindhout, Netherlands",
       "timezone": "UTC",
       "date": "2026-09-19T14:30:00+00:00",
       "timestamp": 1789828200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552139,
-      "referee": "Sander van der Eijk, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-08-23T10:15:00+00:00",
-      "timestamp": 1787480100,
-      "periods": {
-        "first": 1787480100,
-        "second": 1787483700
-      },
-      "venue": {
-        "id": 1130,
-        "name": "De Adelaarshorst",
-        "city": "Deventer"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 410,
-        "name": "GO Ahead Eagles",
-        "logo": "https://media.api-sports.io/football/teams/410.png",
-        "winner": true
-      },
-      "away": {
-        "id": 198,
-        "name": "ADO Den Haag",
-        "logo": "https://media.api-sports.io/football/teams/198.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490437,
+      "referee": "Jon Freemon, USA",
+      "timezone": "UTC",
+      "date": "2026-09-05T23:30:00+00:00",
+      "timestamp": 1788651000,
+      "periods": {
+        "first": 1788651000,
+        "second": 1788654600
+      },
+      "venue": {
+        "id": null,
+        "name": "Nu Stadium",
+        "city": "Miami"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9568,
+        "name": "Inter Miami",
+        "logo": "https://media.api-sports.io/football/teams/9568.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1608,
+        "name": "Atlanta United FC",
+        "logo": "https://media.api-sports.io/football/teams/1608.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1326496,
       "referee": "Tim Ford, USA",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1312865,
-      "referee": "A. Chapman",
-      "timezone": "UTC",
-      "date": "2024-10-26T00:30:00+00:00",
-      "timestamp": 1729902600,
-      "periods": {
-        "first": 1729902600,
-        "second": 1729906200
-      },
-      "venue": {
-        "id": 20764,
-        "name": "Chase Stadium",
-        "city": "Fort Lauderdale, Florida"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2024,
-      "round": "MLS Cup - Round 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9568,
-        "name": "Inter Miami",
-        "logo": "https://media.api-sports.io/football/teams/9568.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1608,
-        "name": "Atlanta United FC",
-        "logo": "https://media.api-sports.io/football/teams/1608.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 1
       },
       "fulltime": {

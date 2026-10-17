@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1387578,
+      "referee": "S. Copeland",
+      "timezone": "UTC",
+      "date": "2026-03-28T15:00:00+00:00",
+      "timestamp": 1774710000,
+      "periods": {
+        "first": 1774710000,
+        "second": 1774713600
+      },
+      "venue": {
+        "id": null,
+        "name": "Select Car Leasing Stadium",
+        "city": "Reading"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 40",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": true
+      },
+      "away": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1387293,
       "referee": "L. Swabey",
       "timezone": "UTC",
@@ -11,7 +81,7 @@
         "second": 1770756300
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "The Brick Community Stadium",
         "city": "Wigan"
       },
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1039546,
-      "referee": "M. Woods",
-      "timezone": "UTC",
-      "date": "2023-12-23T15:00:00+00:00",
-      "timestamp": 1703343600,
-      "periods": {
-        "first": 1703343600,
-        "second": 1703347200
-      },
-      "venue": {
-        "id": 12052,
-        "name": "Select Car Leasing Stadium",
-        "city": "Reading, Berkshire"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2023,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 53,
-        "name": "Reading",
-        "logo": "https://media.api-sports.io/football/teams/53.png",
-        "winner": true
-      },
-      "away": {
-        "id": 61,
-        "name": "Wigan",
-        "logo": "https://media.api-sports.io/football/teams/61.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

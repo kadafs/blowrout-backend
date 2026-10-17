@@ -1,6 +1,216 @@
 [
   {
     "fixture": {
+      "id": 1562091,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-09T18:45:00+00:00",
+      "timestamp": 1791571500,
+      "periods": {
+        "first": 1791571500,
+        "second": 1791575100
+      },
+      "venue": {
+        "id": 4040,
+        "name": "Shamrock Park",
+        "city": "Portadown"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5348,
+        "name": "Portadown",
+        "logo": "https://media.api-sports.io/football/teams/5348.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5352,
+        "name": "Glentoran",
+        "logo": "https://media.api-sports.io/football/teams/5352.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1562083,
+      "referee": "T. Marshall",
+      "timezone": "UTC",
+      "date": "2026-10-03T14:00:00+00:00",
+      "timestamp": 1791036000,
+      "periods": {
+        "first": 1791036000,
+        "second": 1791039600
+      },
+      "venue": {
+        "id": 18636,
+        "name": "The Oval",
+        "city": "Belfast"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5352,
+        "name": "Glentoran",
+        "logo": "https://media.api-sports.io/football/teams/5352.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5351,
+        "name": "Dungannon Swifts",
+        "logo": "https://media.api-sports.io/football/teams/5351.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1562077,
+      "referee": "T. Clarke",
+      "timezone": "UTC",
+      "date": "2026-09-26T14:00:00+00:00",
+      "timestamp": 1790431200,
+      "periods": {
+        "first": 1790431200,
+        "second": 1790434800
+      },
+      "venue": {
+        "id": 18636,
+        "name": "The Oval",
+        "city": "Belfast"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5352,
+        "name": "Glentoran",
+        "logo": "https://media.api-sports.io/football/teams/5352.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562070,
       "referee": "E. Boyce",
       "timezone": "UTC",
@@ -81,8 +291,8 @@
         "second": 1789501500
       },
       "venue": {
-        "id": null,
-        "name": "The BetMcLean Oval",
+        "id": 18636,
+        "name": "The Oval",
         "city": "Belfast"
       },
       "status": {
@@ -124,216 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562060,
-      "referee": "S. Andrews",
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": 1789221600,
-        "second": 1789225200
-      },
-      "venue": {
-        "id": null,
-        "name": "The BetMcLean Oval",
-        "city": "Belfast"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5352,
-        "name": "Glentoran",
-        "logo": "https://media.api-sports.io/football/teams/5352.png",
-        "winner": null
-      },
-      "away": {
-        "id": 11112,
-        "name": "Bangor",
-        "logo": "https://media.api-sports.io/football/teams/11112.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562053,
-      "referee": "T. Clarke",
-      "timezone": "UTC",
-      "date": "2026-09-04T18:45:00+00:00",
-      "timestamp": 1788547500,
-      "periods": {
-        "first": 1788547500,
-        "second": 1788551100
-      },
-      "venue": {
-        "id": 4045,
-        "name": "Inver Park",
-        "city": "Larne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5354,
-        "name": "Larne",
-        "logo": "https://media.api-sports.io/football/teams/5354.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5352,
-        "name": "Glentoran",
-        "logo": "https://media.api-sports.io/football/teams/5352.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562047,
-      "referee": "T. Marshall",
-      "timezone": "UTC",
-      "date": "2026-08-29T14:00:00+00:00",
-      "timestamp": 1788012000,
-      "periods": {
-        "first": 1788012000,
-        "second": 1788015600
-      },
-      "venue": {
-        "id": null,
-        "name": "The BetMcLean Oval",
-        "city": "Belfast"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5352,
-        "name": "Glentoran",
-        "logo": "https://media.api-sports.io/football/teams/5352.png",
-        "winner": false
-      },
-      "away": {
-        "id": 697,
-        "name": "Crusaders FC",
-        "logo": "https://media.api-sports.io/football/teams/697.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 1,

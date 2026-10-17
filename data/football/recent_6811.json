@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639258,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-14T12:00:00+00:00",
+      "timestamp": 1791979200,
+      "periods": {
+        "first": 1791979200,
+        "second": 1791982800
+      },
+      "venue": {
+        "id": null,
+        "name": "Roshchino Arena",
+        "city": "Roschino"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regions Path - Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6811,
+        "name": "Leningradets",
+        "logo": "https://media.api-sports.io/football/teams/6811.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6812,
+        "name": "Luki-Energiya",
+        "logo": "https://media.api-sports.io/football/teams/6812.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577541,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577524,
-      "referee": "V. Shamara",
-      "timezone": "UTC",
-      "date": "2026-09-13T12:00:00+00:00",
-      "timestamp": 1789300800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20188,
-        "name": "Roshchino Arena",
-        "city": "Roshchino"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6811,
-        "name": "Leningradets",
-        "logo": "https://media.api-sports.io/football/teams/6811.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3984,
-        "name": "Tekstilshchik",
-        "logo": "https://media.api-sports.io/football/teams/3984.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

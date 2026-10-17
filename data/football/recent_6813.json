@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563661,
+      "referee": "S. Cheban",
+      "timezone": "UTC",
+      "date": "2026-10-14T15:30:00+00:00",
+      "timestamp": 1791991800,
+      "periods": {
+        "first": 1791991800,
+        "second": 1791995400
+      },
+      "venue": {
+        "id": 1328,
+        "name": "Anzhi Arena",
+        "city": "Makhachkala"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group Stage - 4",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6813,
+        "name": "Dinamo Makhachkala",
+        "logo": "https://media.api-sports.io/football/teams/6813.png",
+        "winner": false
+      },
+      "away": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561409,
       "referee": "Stanislav Matveev, Russia",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561380,
-      "referee": "Yan Bobrovskiy, Russia",
-      "timezone": "UTC",
-      "date": "2026-09-06T13:15:00+00:00",
-      "timestamp": 1788700500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Anzhi-Arena",
-        "city": "Makhachkala"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6813,
-        "name": "Dinamo Makhachkala",
-        "logo": "https://media.api-sports.io/football/teams/6813.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6822,
-        "name": "Rodina Moskva",
-        "logo": "https://media.api-sports.io/football/teams/6822.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

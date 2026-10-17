@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556670,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T13:00:00+00:00",
+      "timestamp": 1791723600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1383,
+        "name": "Pittodrie Stadium",
+        "city": "Aberdeen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 252,
+        "name": "Aberdeen",
+        "logo": "https://media.api-sports.io/football/teams/252.png",
+        "winner": false
+      },
+      "away": {
+        "id": 258,
+        "name": "ST Johnstone",
+        "logo": "https://media.api-sports.io/football/teams/258.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556667,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556649,
-      "referee": "R. Lee",
-      "timezone": "UTC",
-      "date": "2026-08-29T14:00:00+00:00",
-      "timestamp": 1788012000,
-      "periods": {
-        "first": 1788012000,
-        "second": 1788015600
-      },
-      "venue": {
-        "id": 1393,
-        "name": "Tynecastle Park",
-        "city": "Edinburgh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 254,
-        "name": "Heart Of Midlothian",
-        "logo": "https://media.api-sports.io/football/teams/254.png",
-        "winner": true
-      },
-      "away": {
-        "id": 258,
-        "name": "ST Johnstone",
-        "logo": "https://media.api-sports.io/football/teams/258.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

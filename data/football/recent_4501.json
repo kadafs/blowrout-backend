@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555519,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T16:15:00+00:00",
+      "timestamp": 1791648900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3420,
+        "name": "Kiryat Shmona Municipal Stadium",
+        "city": "Kiryat Shmona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 383,
+      "name": "Ligat Ha'al",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/383.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4510,
+        "name": "Ironi Kiryat Shmona",
+        "logo": "https://media.api-sports.io/football/teams/4510.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4501,
+        "name": "Hapoel Tel Aviv",
+        "logo": "https://media.api-sports.io/football/teams/4501.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555508,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555487,
-      "referee": "A. Klein",
-      "timezone": "UTC",
-      "date": "2026-08-30T17:15:00+00:00",
-      "timestamp": 1788110100,
-      "periods": {
-        "first": 1788110100,
-        "second": 1788113700
-      },
-      "venue": {
-        "id": 868,
-        "name": "Sammy Ofer Stadium",
-        "city": "Haifa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 383,
-      "name": "Ligat Ha'al",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/383.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2253,
-        "name": "Hapoel Haifa",
-        "logo": "https://media.api-sports.io/football/teams/2253.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4501,
-        "name": "Hapoel Tel Aviv",
-        "logo": "https://media.api-sports.io/football/teams/4501.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

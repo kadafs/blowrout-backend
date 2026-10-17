@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
-      "id": 1606663,
+      "id": 1606694,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T06:00:00+00:00",
+      "timestamp": 1791698400,
+      "periods": {
+        "first": 1791698400,
+        "second": 1791702000
+      },
+      "venue": {
+        "id": 0,
+        "name": "Iwaki Greenfield",
+        "city": "Iwaki"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7127,
+        "name": "Iwaki",
+        "logo": "https://media.api-sports.io/football/teams/7127.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4315,
+        "name": "Blaublitz Akita",
+        "logo": "https://media.api-sports.io/football/teams/4315.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1606683,
+      "referee": "T. Yoshida",
+      "timezone": "UTC",
+      "date": "2026-10-04T05:00:00+00:00",
+      "timestamp": 1791090000,
+      "periods": {
+        "first": 1791090000,
+        "second": 1791093600
+      },
+      "venue": {
+        "id": 0,
+        "name": "Soyu Stadium",
+        "city": "Akita"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4315,
+        "name": "Blaublitz Akita",
+        "logo": "https://media.api-sports.io/football/teams/4315.png",
+        "winner": true
+      },
+      "away": {
+        "id": 295,
+        "name": "Sagan Tosu",
+        "logo": "https://media.api-sports.io/football/teams/295.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1606669,
+      "referee": "S. Kawamata",
+      "timezone": "UTC",
+      "date": "2026-09-26T08:00:00+00:00",
+      "timestamp": 1790409600,
+      "periods": {
+        "first": 1790409600,
+        "second": 1790413200
+      },
+      "venue": {
+        "id": 0,
+        "name": "Soyu Stadium",
+        "city": "Akita"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4315,
+        "name": "Blaublitz Akita",
+        "logo": "https://media.api-sports.io/football/teams/4315.png",
+        "winner": null
+      },
+      "away": {
+        "id": 311,
+        "name": "Albirex Niigata",
+        "logo": "https://media.api-sports.io/football/teams/311.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1606663,
+      "referee": "G. Tawara",
       "timezone": "UTC",
       "date": "2026-09-19T10:00:00+00:00",
       "timestamp": 1789812000,
@@ -12,8 +222,8 @@
       },
       "venue": {
         "id": 0,
-        "name": "Lemon Gas Stadium Hiratsuka",
-        "city": "Kanagawa"
+        "name": "Lemon Gas Stadium",
+        "city": "Hiratsuka"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +282,7 @@
   {
     "fixture": {
       "id": 1606646,
-      "referee": null,
+      "referee": "N. Uehara",
       "timezone": "UTC",
       "date": "2026-09-12T09:00:00+00:00",
       "timestamp": 1789203600,
@@ -82,8 +292,8 @@
       },
       "venue": {
         "id": 0,
-        "name": null,
-        "city": null
+        "name": "Soyu Stadium",
+        "city": "Akita"
       },
       "status": {
         "long": "Match Finished",
@@ -128,216 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606642,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T09:00:00+00:00",
-      "timestamp": 1788685200,
-      "periods": {
-        "first": 1788685200,
-        "second": 1788688800
-      },
-      "venue": {
-        "id": 0,
-        "name": "Soyu Stadium",
-        "city": "Akita"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4315,
-        "name": "Blaublitz Akita",
-        "logo": "https://media.api-sports.io/football/teams/4315.png",
-        "winner": null
-      },
-      "away": {
-        "id": 313,
-        "name": "Omiya Ardija",
-        "logo": "https://media.api-sports.io/football/teams/313.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567426,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-02T10:00:00+00:00",
-      "timestamp": 1788343200,
-      "periods": {
-        "first": 1788343200,
-        "second": 1788346800
-      },
-      "venue": {
-        "id": 956,
-        "name": "Ningineer Stadium",
-        "city": "Matsuyama"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 128",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 318,
-        "name": "Ehime FC",
-        "logo": "https://media.api-sports.io/football/teams/318.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4315,
-        "name": "Blaublitz Akita",
-        "logo": "https://media.api-sports.io/football/teams/4315.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606628,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T09:30:00+00:00",
-      "timestamp": 1787995800,
-      "periods": {
-        "first": 1787995800,
-        "second": 1787999400
-      },
-      "venue": {
-        "id": 0,
-        "name": "Prifoods Stadium",
-        "city": "Hachinohe"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4326,
-        "name": "Vanraure Hachinohe",
-        "logo": "https://media.api-sports.io/football/teams/4326.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4315,
-        "name": "Blaublitz Akita",
-        "logo": "https://media.api-sports.io/football/teams/4315.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

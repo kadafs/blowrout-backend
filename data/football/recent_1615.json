@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490531,
+      "referee": "Guido Gonzales Jr",
+      "timezone": "UTC",
+      "date": "2026-10-14T23:30:00+00:00",
+      "timestamp": 1792020600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1613,
+        "name": "Audi Field",
+        "city": "Washington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1615,
+        "name": "DC United",
+        "logo": "https://media.api-sports.io/football/teams/1615.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1602,
+        "name": "New York Red Bulls",
+        "logo": "https://media.api-sports.io/football/teams/1602.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490513,
       "referee": "Lukasz Szpala, USA",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490470,
-      "referee": "Malik Badawi, USA",
-      "timezone": "UTC",
-      "date": "2026-09-12T23:30:00+00:00",
-      "timestamp": 1789255800,
-      "periods": {
-        "first": 1789255800,
-        "second": 1789259400
-      },
-      "venue": {
-        "id": null,
-        "name": "Audi Field",
-        "city": "Washington"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1615,
-        "name": "DC United",
-        "logo": "https://media.api-sports.io/football/teams/1615.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1608,
-        "name": "Atlanta United FC",
-        "logo": "https://media.api-sports.io/football/teams/1608.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

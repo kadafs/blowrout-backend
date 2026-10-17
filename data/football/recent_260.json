@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558649,
+      "referee": "N. Verboomen",
+      "timezone": "UTC",
+      "date": "2026-10-11T14:00:00+00:00",
+      "timestamp": 1791727200,
+      "periods": {
+        "first": 1791727200,
+        "second": 1791730800
+      },
+      "venue": {
+        "id": 194,
+        "name": "Stade Joseph Marien",
+        "city": "Brussels"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1393,
+        "name": "Union St. Gilloise",
+        "logo": "https://media.api-sports.io/football/teams/1393.png",
+        "winner": null
+      },
+      "away": {
+        "id": 260,
+        "name": "OH Leuven",
+        "logo": "https://media.api-sports.io/football/teams/260.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558636,
-      "referee": "Jasper Vergoote",
+      "referee": "J. Vergoote",
       "timezone": "UTC",
       "date": "2026-09-19T14:00:00+00:00",
       "timestamp": 1789826400,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": 186,
-        "name": "Den Dreef Stadium",
-        "city": "Heverley"
+        "name": "Den Dreef",
+        "city": "Heverlee"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1558629,
-      "referee": "Bram Van Driessche, Belgium",
+      "referee": "B. Van Driessche",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "The King Power AT Den Dreef Stadium",
+        "name": "Den Dreef",
         "city": "Heverlee"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1558625,
-      "referee": "Wim Smet, Belgium",
+      "referee": "W. Smet",
       "timezone": "UTC",
       "date": "2026-09-06T17:15:00+00:00",
       "timestamp": 1788714900,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 189,
-        "name": "Freethielstadion",
+        "name": "Freethiel Stadion",
         "city": "Beveren"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1558603,
-      "referee": "Michiel Allaerts, Belgium",
+      "referee": "M. Allaerts",
       "timezone": "UTC",
       "date": "2026-09-03T18:30:00+00:00",
       "timestamp": 1788460200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558612,
-      "referee": "Kevin van Damme, Belgium",
-      "timezone": "UTC",
-      "date": "2026-08-29T18:45:00+00:00",
-      "timestamp": 1788029100,
-      "periods": {
-        "first": 1788029100,
-        "second": 1788032700
-      },
-      "venue": {
-        "id": null,
-        "name": "The King Power AT Den Dreef Stadium",
-        "city": "Heverlee"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 260,
-        "name": "OH Leuven",
-        "logo": "https://media.api-sports.io/football/teams/260.png",
-        "winner": false
-      },
-      "away": {
-        "id": 733,
-        "name": "Standard Liege",
-        "logo": "https://media.api-sports.io/football/teams/733.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

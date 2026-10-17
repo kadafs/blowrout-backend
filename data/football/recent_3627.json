@@ -1,6 +1,146 @@
 [
   {
     "fixture": {
+      "id": 1565492,
+      "referee": "Denys Reznikov",
+      "timezone": "UTC",
+      "date": "2026-10-10T10:00:00+00:00",
+      "timestamp": 1791626400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20120,
+        "name": "Kolos Stadium",
+        "city": "Kovalivka"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3627,
+        "name": "Kolos Kovalivka",
+        "logo": "https://media.api-sports.io/football/teams/3627.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14434,
+        "name": "Epitsentr Dunayivtsi",
+        "logo": "https://media.api-sports.io/football/teams/14434.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1644425,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-04T10:00:00+00:00",
+      "timestamp": 1791108000,
+      "periods": {
+        "first": 1791108000,
+        "second": 1791111600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendly",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3627,
+        "name": "Kolos Kovalivka",
+        "logo": "https://media.api-sports.io/football/teams/3627.png",
+        "winner": false
+      },
+      "away": {
+        "id": 599,
+        "name": "Zorya Luhansk",
+        "logo": "https://media.api-sports.io/football/teams/599.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565486,
       "referee": "Klim Zabroda, Ukraine",
       "timezone": "UTC",
@@ -11,15 +151,15 @@
         "second": 1789902000
       },
       "venue": {
-        "id": 20822,
-        "name": "Stadion Avanhard",
-        "city": "Luhansk"
+        "id": 8330,
+        "name": "Avangard",
+        "city": "Rivne"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 2
+        "extra": null
       }
     },
     "league": {
@@ -151,7 +291,7 @@
         "second": 1789124400
       },
       "venue": {
-        "id": null,
+        "id": 20120,
         "name": "Kolos Stadium",
         "city": "Kovalivka"
       },
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565470,
-      "referee": "Artem Mihaylyuk, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-05T10:00:00+00:00",
-      "timestamp": 1788602400,
-      "periods": {
-        "first": 1788602400,
-        "second": 1788606000
-      },
-      "venue": {
-        "id": null,
-        "name": "Hirnyk Stadium",
-        "city": "Kryvyi Rih"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6489,
-        "name": "Kryvbas KR",
-        "logo": "https://media.api-sports.io/football/teams/6489.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3627,
-        "name": "Kolos Kovalivka",
-        "logo": "https://media.api-sports.io/football/teams/3627.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565460,
-      "referee": "Denys Reznikov, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-08-28T12:30:00+00:00",
-      "timestamp": 1787920200,
-      "periods": {
-        "first": 1787920200,
-        "second": 1787923800
-      },
-      "venue": {
-        "id": null,
-        "name": "Kolos Stadium",
-        "city": "Kovalivka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3627,
-        "name": "Kolos Kovalivka",
-        "logo": "https://media.api-sports.io/football/teams/3627.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3630,
-        "name": "Obolon'-Brovar",
-        "logo": "https://media.api-sports.io/football/teams/3630.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

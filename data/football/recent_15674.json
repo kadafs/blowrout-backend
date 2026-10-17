@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623587,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T09:30:00+00:00",
+      "timestamp": 1791624600,
+      "periods": {
+        "first": 1791624600,
+        "second": 1791628200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7917,
+        "name": "Napoli U19",
+        "logo": "https://media.api-sports.io/football/teams/7917.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15674,
+        "name": "Pisa U19",
+        "logo": "https://media.api-sports.io/football/teams/15674.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623575,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1468907,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-02T13:00:00+00:00",
-      "timestamp": 1777726800,
-      "periods": {
-        "first": 1777726800,
-        "second": 1777730400
-      },
-      "venue": {
-        "id": null,
-        "name": "Centro Sportivo di Petroio",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2025,
-      "round": "Group B - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15664,
-        "name": "Empoli U19",
-        "logo": "https://media.api-sports.io/football/teams/15664.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15674,
-        "name": "Pisa U19",
-        "logo": "https://media.api-sports.io/football/teams/15674.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

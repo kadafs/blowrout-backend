@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628954,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-08-26T22:00:00+00:00",
+      "timestamp": 1787781600,
+      "periods": {
+        "first": 1787781600,
+        "second": 1787785200
+      },
+      "venue": {
+        "id": 471,
+        "name": "Estadio Rodrigo Paz Delgado",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 917,
+      "name": "Copa Ecuador",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/917.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2025,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1158,
+        "name": "LDU de Quito",
+        "logo": "https://media.api-sports.io/football/teams/1158.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1156,
+        "name": "Aucas",
+        "logo": "https://media.api-sports.io/football/teams/1156.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519448,
       "referee": "Juan Carlos Andrade Arreaga, Ecuador",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1167555,
-      "referee": "A. Arag\u00f3n",
-      "timezone": "UTC",
-      "date": "2024-08-17T21:30:00+00:00",
-      "timestamp": 1723930200,
-      "periods": {
-        "first": 1723930200,
-        "second": 1723933800
-      },
-      "venue": {
-        "id": 19380,
-        "name": "Estadio Cooprogreso Gonzalo Pozo Ripalda",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2024,
-      "round": "2nd Round - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1156,
-        "name": "Aucas",
-        "logo": "https://media.api-sports.io/football/teams/1156.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1158,
-        "name": "LDU de Quito",
-        "logo": "https://media.api-sports.io/football/teams/1158.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

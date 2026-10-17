@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627649,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T12:00:00+00:00",
+      "timestamp": 1790424000,
+      "periods": {
+        "first": 1790424000,
+        "second": 1790427600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 669,
+      "name": "1. Liga Women",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/669.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10923,
+        "name": "Slavia Praha W",
+        "logo": "https://media.api-sports.io/football/teams/10923.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28234,
+        "name": "Prague Raptors W",
+        "logo": "https://media.api-sports.io/football/teams/28234.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627645,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 9,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627629,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T11:00:00+00:00",
-      "timestamp": 1787396400,
-      "periods": {
-        "first": 1787396400,
-        "second": 1787400000
-      },
-      "venue": {
-        "id": null,
-        "name": "Bazaly",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 669,
-      "name": "1. Liga Women",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/669.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19197,
-        "name": "Ban\u00edk Ostrava W",
-        "logo": "https://media.api-sports.io/football/teams/19197.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10923,
-        "name": "Slavia Praha W",
-        "logo": "https://media.api-sports.io/football/teams/10923.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 6
       },
       "extratime": {
         "home": null,

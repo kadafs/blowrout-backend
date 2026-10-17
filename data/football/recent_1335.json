@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563193,
+      "referee": "Anthony Backhouse",
+      "timezone": "UTC",
+      "date": "2026-10-13T18:45:00+00:00",
+      "timestamp": 1791917100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 512,
+        "name": "Turf Moor",
+        "city": "Burnley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 44,
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1335,
+        "name": "Charlton",
+        "logo": "https://media.api-sports.io/football/teams/1335.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563181,
       "referee": "Tom Reeves, England",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563139,
-      "referee": "Robert Madley, England",
-      "timezone": "UTC",
-      "date": "2026-09-05T11:30:00+00:00",
-      "timestamp": 1788607800,
-      "periods": {
-        "first": 1788607800,
-        "second": 1788611400
-      },
-      "venue": {
-        "id": null,
-        "name": "bet365 Stadium",
-        "city": "Stoke"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 75,
-        "name": "Stoke City",
-        "logo": "https://media.api-sports.io/football/teams/75.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1335,
-        "name": "Charlton",
-        "logo": "https://media.api-sports.io/football/teams/1335.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

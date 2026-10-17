@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1424807,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-28T15:00:00+00:00",
+      "timestamp": 1774710000,
+      "periods": {
+        "first": 1774710000,
+        "second": 1774713600
+      },
+      "venue": {
+        "id": 5228,
+        "name": "The Stadium Cheshunt",
+        "city": "Cheshunt, Hertfordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 58,
+      "name": "Non League Premier - Isthmian",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/58.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 37",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7708,
+        "name": "Cheshunt",
+        "logo": "https://media.api-sports.io/football/teams/7708.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4713,
+        "name": "Whitehawk",
+        "logo": "https://media.api-sports.io/football/teams/4713.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1424686,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 7708,
         "name": "Cheshunt",
         "logo": "https://media.api-sports.io/football/teams/7708.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1078608,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-01-27T15:00:00+00:00",
-      "timestamp": 1706367600,
-      "periods": {
-        "first": 1706367600,
-        "second": 1706371200
-      },
-      "venue": {
-        "id": 5228,
-        "name": "The Stadium Cheshunt",
-        "city": "Cheshunt, Hertfordshire"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 58,
-      "name": "Non League Premier - Isthmian",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/58.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2023,
-      "round": "Isthmian - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7708,
-        "name": "Cheshunt",
-        "logo": "https://media.api-sports.io/football/teams/7708.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4713,
-        "name": "Whitehawk",
-        "logo": "https://media.api-sports.io/football/teams/4713.png",
         "winner": false
       }
     },

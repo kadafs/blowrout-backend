@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1551123,
+      "referee": "Todor Kirov",
+      "timezone": "UTC",
+      "date": "2026-10-11T12:00:00+00:00",
+      "timestamp": 1791720000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 304,
+        "name": "Dragalevtsi Stadium,",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 856,
+        "name": "Septemvri Sofia",
+        "logo": "https://media.api-sports.io/football/teams/856.png",
+        "winner": false
+      },
+      "away": {
+        "id": 683,
+        "name": "Dunav Ruse",
+        "logo": "https://media.api-sports.io/football/teams/683.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551114,
-      "referee": "Piskov\u00b7Gero",
+      "referee": "Gero Piskov, Bulgaria",
       "timezone": "UTC",
       "date": "2026-09-19T13:30:00+00:00",
       "timestamp": 1789824600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1551101,
-      "referee": "S. Trenchev",
+      "referee": "Stanimir Trenchev, Bulgaria",
       "timezone": "UTC",
       "date": "2026-09-04T16:00:00+00:00",
       "timestamp": 1788537600,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1551094,
-      "referee": "M. Pavlov",
+      "referee": "Mihael Pavlov, Bulgaria",
       "timezone": "UTC",
       "date": "2026-08-28T16:00:00+00:00",
       "timestamp": 1787932800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551088,
-      "referee": "R. Gidzhenov",
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": null,
-        "name": "National Stadium Vasil Levski",
-        "city": "Sofia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 856,
-        "name": "Septemvri Sofia",
-        "logo": "https://media.api-sports.io/football/teams/856.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1426,
-        "name": "CSKA 1948",
-        "logo": "https://media.api-sports.io/football/teams/1426.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

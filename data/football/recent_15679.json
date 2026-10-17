@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623592,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T10:00:00+00:00",
+      "timestamp": 1791626400,
+      "periods": {
+        "first": 1791626400,
+        "second": 1791630000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15679,
+        "name": "Salernitana U19",
+        "logo": "https://media.api-sports.io/football/teams/15679.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15655,
+        "name": "Benevento U19",
+        "logo": "https://media.api-sports.io/football/teams/15655.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623577,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1468076,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T13:00:00+00:00",
-      "timestamp": 1778331600,
-      "periods": {
-        "first": 1778331600,
-        "second": 1778335200
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2025,
-      "round": "Group B - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15679,
-        "name": "Salernitana U19",
-        "logo": "https://media.api-sports.io/football/teams/15679.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24356,
-        "name": "Avellino U19",
-        "logo": "https://media.api-sports.io/football/teams/24356.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

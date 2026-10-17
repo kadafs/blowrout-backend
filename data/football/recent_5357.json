@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619080,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-12T13:00:00+00:00",
+      "timestamp": 1789218000,
+      "periods": {
+        "first": 1789218000,
+        "second": 1789221600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 14
+      }
+    },
+    "league": {
+      "id": 12,
+      "name": "CAF Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/12.png",
+      "flag": null,
+      "season": 2026,
+      "round": "1st Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5357,
+        "name": "African Stars",
+        "logo": "https://media.api-sports.io/football/teams/5357.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8089,
+        "name": "Mangasport",
+        "logo": "https://media.api-sports.io/football/teams/8089.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619067,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1239828,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-08-17T13:00:00+00:00",
-      "timestamp": 1723899600,
-      "periods": {
-        "first": 1723899600,
-        "second": 1723903200
-      },
-      "venue": {
-        "id": 203,
-        "name": "Botswana National Stadium",
-        "city": "Gaborone"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2024,
-      "round": "1st Preliminary Round",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5357,
-        "name": "African Stars",
-        "logo": "https://media.api-sports.io/football/teams/5357.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5422,
-        "name": "Galaxy",
-        "logo": "https://media.api-sports.io/football/teams/5422.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1510463,
+      "referee": "P. Jeong-Ho",
+      "timezone": "UTC",
+      "date": "2026-10-10T05:00:00+00:00",
+      "timestamp": 1791608400,
+      "periods": {
+        "first": 1791608400,
+        "second": 1791612000
+      },
+      "venue": {
+        "id": null,
+        "name": "Paju Stadium",
+        "city": "Paju"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7098,
+        "name": "Paju Citizen",
+        "logo": "https://media.api-sports.io/football/teams/7098.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2752,
+        "name": "Busan I Park",
+        "logo": "https://media.api-sports.io/football/teams/2752.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510457,
-      "referee": null,
+      "referee": "K. Choi",
       "timezone": "UTC",
       "date": "2026-09-20T10:00:00+00:00",
       "timestamp": 1789898400,
@@ -13,7 +83,7 @@
       "venue": {
         "id": null,
         "name": "Gimhae Sports Complex",
-        "city": null
+        "city": "Gimhae"
       },
       "status": {
         "long": "Match Finished",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510417,
-      "referee": "K. Choi",
-      "timezone": "UTC",
-      "date": "2026-08-16T10:30:00+00:00",
-      "timestamp": 1786876200,
-      "periods": {
-        "first": 1786876200,
-        "second": 1786879800
-      },
-      "venue": {
-        "id": null,
-        "name": "Paju Stadium",
-        "city": "Paju"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7098,
-        "name": "Paju Citizen",
-        "logo": "https://media.api-sports.io/football/teams/7098.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2757,
-        "name": "Seongnam FC",
-        "logo": "https://media.api-sports.io/football/teams/2757.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

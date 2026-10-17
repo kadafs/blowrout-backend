@@ -1,17 +1,87 @@
 [
   {
     "fixture": {
+      "id": 1484575,
+      "referee": "M. Ryan",
+      "timezone": "UTC",
+      "date": "2026-03-29T03:00:00+00:00",
+      "timestamp": 1774753200,
+      "periods": {
+        "first": 1774753200,
+        "second": 1774756800
+      },
+      "venue": {
+        "id": null,
+        "name": "Sky Stadium",
+        "city": "Wellington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2025,
+      "round": "Regular Season - 21",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17905,
+        "name": "Wellington Phoenix W",
+        "logo": "https://media.api-sports.io/football/teams/17905.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1974,
+        "name": "Western Sydney Wanderers W",
+        "logo": "https://media.api-sports.io/football/teams/1974.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1484571,
       "referee": "I. Cooper",
       "timezone": "UTC",
       "date": "2026-03-22T05:00:00+00:00",
       "timestamp": 1774155600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1774155600,
+        "second": 1774159200
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "Wanderers Football Park",
         "city": "Sydney"
       },
@@ -77,11 +147,11 @@
       "date": "2026-03-14T07:00:00+00:00",
       "timestamp": 1773471600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1773471600,
+        "second": 1773475200
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "The Home of the Matildas",
         "city": "Melbourne"
       },
@@ -147,11 +217,11 @@
       "date": "2026-02-21T05:30:00+00:00",
       "timestamp": 1771651800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1771651800,
+        "second": 1771655400
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "McKellar Park",
         "city": "Canberra"
       },
@@ -217,11 +287,11 @@
       "date": "2026-02-13T05:50:00+00:00",
       "timestamp": 1770961800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1770961800,
+        "second": 1770965400
       },
       "venue": {
-        "id": 0,
+        "id": 18601,
         "name": "CommBank Stadium",
         "city": "Sydney"
       },
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484548,
-      "referee": "R. Mitchenson",
-      "timezone": "UTC",
-      "date": "2026-02-08T08:00:00+00:00",
-      "timestamp": 1770537600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 0,
-        "name": "CommBank Stadium",
-        "city": "Sydney"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1974,
-        "name": "Western Sydney Wanderers W",
-        "logo": "https://media.api-sports.io/football/teams/1974.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1972,
-        "name": "Adelaide United W",
-        "logo": "https://media.api-sports.io/football/teams/1972.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

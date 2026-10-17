@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557020,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-15T18:45:00+00:00",
+      "timestamp": 1789497900,
+      "periods": {
+        "first": 1789497900,
+        "second": 1789501500
+      },
+      "venue": {
+        "id": 1402,
+        "name": "Global Energy Stadium",
+        "city": "Dingwall"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 183,
+      "name": "League One",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/183.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 902,
+        "name": "Ross County",
+        "logo": "https://media.api-sports.io/football/teams/902.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1384,
+        "name": "Queen of the South",
+        "logo": "https://media.api-sports.io/football/teams/1384.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 8,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 8,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1377268,
       "referee": "Peter Stuart",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 50744,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2018-09-15T14:00:00+00:00",
-      "timestamp": 1537020000,
-      "periods": {
-        "first": 1537020000,
-        "second": 1537023600
-      },
-      "venue": {
-        "id": null,
-        "name": "Palmerston Park (Dumfries)",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2018,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1384,
-        "name": "Queen of the South",
-        "logo": "https://media.api-sports.io/football/teams/1384.png",
-        "winner": null
-      },
-      "away": {
-        "id": 902,
-        "name": "Ross County",
-        "logo": "https://media.api-sports.io/football/teams/902.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

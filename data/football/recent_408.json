@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551350,
+      "referee": "M. Thomsen",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:30:00+00:00",
+      "timestamp": 1791649800,
+      "periods": {
+        "first": 1791649800,
+        "second": 1791653400
+      },
+      "venue": {
+        "id": 449,
+        "name": "DS Arena",
+        "city": "Hobro"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 408,
+        "name": "Hobro",
+        "logo": "https://media.api-sports.io/football/teams/408.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4676,
+        "name": "Kolding IF",
+        "logo": "https://media.api-sports.io/football/teams/4676.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551345,
       "referee": "B. H. Svedborg",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551318,
-      "referee": "J. Bogelund",
-      "timezone": "UTC",
-      "date": "2026-08-21T16:00:00+00:00",
-      "timestamp": 1787328000,
-      "periods": {
-        "first": 1787328000,
-        "second": 1787331600
-      },
-      "venue": {
-        "id": 449,
-        "name": "DS Arena",
-        "city": "Hobro"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 408,
-        "name": "Hobro",
-        "logo": "https://media.api-sports.io/football/teams/408.png",
-        "winner": true
-      },
-      "away": {
-        "id": 402,
-        "name": "Aalborg",
-        "logo": "https://media.api-sports.io/football/teams/402.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

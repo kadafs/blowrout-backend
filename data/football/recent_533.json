@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1635748,
+      "referee": "Daniel Siebert",
+      "timezone": "UTC",
+      "date": "2026-10-13T19:00:00+00:00",
+      "timestamp": 1791918000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1498,
+        "name": "Estadio de la Cer\u00e1mica",
+        "city": "Villarreal"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png",
+        "winner": true
+      },
+      "away": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570411,
-      "referee": "Isidro Diaz de Mera Escuderos, Spain",
+      "referee": "I. Diaz",
       "timezone": "UTC",
       "date": "2026-10-10T19:00:00+00:00",
       "timestamp": 1791658800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791658800,
+        "second": 1791662400
       },
       "venue": {
         "id": 1456,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1570402,
-      "referee": "Mateo Busquets Ferrer, Spain",
+      "referee": "M. Busquets",
       "timezone": "UTC",
       "date": "2026-09-20T16:30:00+00:00",
       "timestamp": 1789921800,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": 1498,
-        "name": "Estadio de la Cer\u00e1mica",
+        "name": "Estadio de la Ceramica",
         "city": "Villarreal"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1570390,
-      "referee": "Miguel Angel Ortiz Arias, Spain",
+      "referee": "M. Ortiz",
       "timezone": "UTC",
       "date": "2026-09-17T19:30:00+00:00",
       "timestamp": 1789673400,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 1483,
-        "name": "La Rosaleda",
+        "name": "Estadio La Rosaleda",
         "city": "Malaga"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1570382,
-      "referee": "Francisco Hernandez Maeso, Spain",
+      "referee": "F. Maeso",
       "timezone": "UTC",
       "date": "2026-09-14T19:00:00+00:00",
       "timestamp": 1789412400,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": 1498,
-        "name": "Estadio de la Cer\u00e1mica",
+        "name": "Estadio de la Ceramica",
         "city": "Villarreal"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635652,
-      "referee": "Simone Sozza, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-08T19:00:00+00:00",
-      "timestamp": 1788894000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Signal Iduna Park",
-        "city": "Dortmund"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 2,
-      "name": "UEFA Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/2.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 165,
-        "name": "Borussia Dortmund",
-        "logo": "https://media.api-sports.io/football/teams/165.png",
-        "winner": true
-      },
-      "away": {
-        "id": 533,
-        "name": "Villarreal",
-        "logo": "https://media.api-sports.io/football/teams/533.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565490,
+      "referee": "Andrey Kovalenko",
+      "timezone": "UTC",
+      "date": "2026-10-10T10:00:00+00:00",
+      "timestamp": 1791626400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2418,
+        "name": "Chornomorets Stadium",
+        "city": "Odessa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3615,
+        "name": "Chornomorets",
+        "logo": "https://media.api-sports.io/football/teams/3615.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3628,
+        "name": "FC Kharkiv",
+        "logo": "https://media.api-sports.io/football/teams/3628.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565481,
       "referee": "Jevgeny Tsybulko, Ukraine",
       "timezone": "UTC",
@@ -19,7 +89,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 4
+        "extra": null
       }
     },
     "league": {
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611337,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T13:00:00+00:00",
-      "timestamp": 1787490000,
-      "periods": {
-        "first": 1787490000,
-        "second": 1787493600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 335,
-      "name": "Cup",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/335.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 24570,
-        "name": "Vilkhivtsi",
-        "logo": "https://media.api-sports.io/football/teams/24570.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3615,
-        "name": "Chornomorets",
-        "logo": "https://media.api-sports.io/football/teams/3615.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

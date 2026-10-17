@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642848,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T05:00:00+00:00",
+      "timestamp": 1790398800,
+      "periods": {
+        "first": 1790398800,
+        "second": 1790402400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendly",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 939,
+        "name": "Western Sydney Wanderers",
+        "logo": "https://media.api-sports.io/football/teams/939.png",
+        "winner": true
+      },
+      "away": {
+        "id": 941,
+        "name": "Central Coast Mariners",
+        "logo": "https://media.api-sports.io/football/teams/941.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637819,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469694,
-      "referee": "N. Shakespear",
-      "timezone": "UTC",
-      "date": "2026-04-10T09:35:00+00:00",
-      "timestamp": 1775813700,
-      "periods": {
-        "first": 1775813700,
-        "second": 1775817300
-      },
-      "venue": {
-        "id": null,
-        "name": "Central Coast Stadium",
-        "city": "Gosford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 188,
-      "name": "A-League",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/188.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 941,
-        "name": "Central Coast Mariners",
-        "logo": "https://media.api-sports.io/football/teams/941.png",
-        "winner": null
-      },
-      "away": {
-        "id": 947,
-        "name": "Brisbane Roar",
-        "logo": "https://media.api-sports.io/football/teams/947.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

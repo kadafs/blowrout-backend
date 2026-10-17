@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577546,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T07:00:00+00:00",
+      "timestamp": 1791615600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1335,
+        "name": "Lenin Stadium",
+        "city": "Khabarovsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1087,
+        "name": "Ska-khabarovsk",
+        "logo": "https://media.api-sports.io/football/teams/1087.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6801,
+        "name": "KAMAZ",
+        "logo": "https://media.api-sports.io/football/teams/6801.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577534,
       "referee": "Vera Opeikina",
       "timezone": "UTC",
@@ -147,12 +217,12 @@
       "date": "2026-09-09T14:00:00+00:00",
       "timestamp": 1788962400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788962400,
+        "second": 1788966000
       },
       "venue": {
         "id": null,
-        "name": null,
+        "name": "VyatSShOR",
         "city": null
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577505,
-      "referee": "N. Voloshin",
-      "timezone": "UTC",
-      "date": "2026-08-29T13:00:00+00:00",
-      "timestamp": 1788008400,
-      "periods": {
-        "first": 1788008400,
-        "second": 1788012000
-      },
-      "venue": {
-        "id": 20188,
-        "name": "Roshchino Arena",
-        "city": "Roshchino"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6811,
-        "name": "Leningradets",
-        "logo": "https://media.api-sports.io/football/teams/6811.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6801,
-        "name": "KAMAZ",
-        "logo": "https://media.api-sports.io/football/teams/6801.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

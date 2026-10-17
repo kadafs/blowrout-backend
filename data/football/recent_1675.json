@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580938,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T16:30:00+00:00",
+      "timestamp": 1791045000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6392,
+        "name": "Stade Marcel Saupin",
+        "city": "Nantes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24513,
+        "name": "Nantes W",
+        "logo": "https://media.api-sports.io/football/teams/24513.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1675,
+        "name": "Montpellier W",
+        "logo": "https://media.api-sports.io/football/teams/1675.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580934,
       "referee": "A. Collin",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1421650,
-      "referee": "E. Rochebiliere",
-      "timezone": "UTC",
-      "date": "2026-04-25T19:00:00+00:00",
-      "timestamp": 1777143600,
-      "periods": {
-        "first": 1777143600,
-        "second": 1777147200
-      },
-      "venue": {
-        "id": 6391,
-        "name": "Stade Bernard Gasset Terrain n\u00b07",
-        "city": "Montpellier"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2025,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1675,
-        "name": "Montpellier W",
-        "logo": "https://media.api-sports.io/football/teams/1675.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17376,
-        "name": "Saint-\u00c9tienne W",
-        "logo": "https://media.api-sports.io/football/teams/17376.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

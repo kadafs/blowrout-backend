@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627649,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T12:00:00+00:00",
+      "timestamp": 1790424000,
+      "periods": {
+        "first": 1790424000,
+        "second": 1790427600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 669,
+      "name": "1. Liga Women",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/669.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10923,
+        "name": "Slavia Praha W",
+        "logo": "https://media.api-sports.io/football/teams/10923.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28234,
+        "name": "Prague Raptors W",
+        "logo": "https://media.api-sports.io/football/teams/28234.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627644,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627623,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-15T09:00:00+00:00",
-      "timestamp": 1786784400,
-      "periods": {
-        "first": 1786784400,
-        "second": 1786788000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadium Prosek",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 669,
-      "name": "1. Liga Women",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/669.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10925,
-        "name": "Sparta Praha W",
-        "logo": "https://media.api-sports.io/football/teams/10925.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28234,
-        "name": "Prague Raptors W",
-        "logo": "https://media.api-sports.io/football/teams/28234.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

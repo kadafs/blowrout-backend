@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556672,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T14:00:00+00:00",
+      "timestamp": 1791640800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1390,
+        "name": "Falkirk Stadium",
+        "city": "Falkirk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1389,
+        "name": "Falkirk",
+        "logo": "https://media.api-sports.io/football/teams/1389.png",
+        "winner": false
+      },
+      "away": {
+        "id": 253,
+        "name": "Dundee",
+        "logo": "https://media.api-sports.io/football/teams/253.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556664,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556640,
-      "referee": "David Dickinson, Scotland",
-      "timezone": "UTC",
-      "date": "2026-08-22T16:45:00+00:00",
-      "timestamp": 1787417100,
-      "periods": {
-        "first": 1787417100,
-        "second": 1787420700
-      },
-      "venue": {
-        "id": 1388,
-        "name": "Tannadice Park",
-        "city": "Dundee"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1386,
-        "name": "Dundee Utd",
-        "logo": "https://media.api-sports.io/football/teams/1386.png",
-        "winner": false
-      },
-      "away": {
-        "id": 253,
-        "name": "Dundee",
-        "logo": "https://media.api-sports.io/football/teams/253.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

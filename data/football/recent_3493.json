@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558238,
+      "referee": "P. Pazdecki",
+      "timezone": "UTC",
+      "date": "2026-10-11T10:00:00+00:00",
+      "timestamp": 1791712800,
+      "periods": {
+        "first": 1791712800,
+        "second": 1791716400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Miejski przy Solskiego 1 w Mielcu",
+        "city": "Mielec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 107,
+      "name": "I Liga",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/107.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3493,
+        "name": "Stal Mielec",
+        "logo": "https://media.api-sports.io/football/teams/3493.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3496,
+        "name": "Warta Pozna\u0144",
+        "logo": "https://media.api-sports.io/football/teams/3496.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558222,
       "referee": "M. Jenda",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558187,
-      "referee": "M. Jenda",
-      "timezone": "UTC",
-      "date": "2026-08-23T17:00:00+00:00",
-      "timestamp": 1787504400,
-      "periods": {
-        "first": 1787504400,
-        "second": 1787508000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Lodz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 107,
-      "name": "I Liga",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/107.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3498,
-        "name": "\u0141KS \u0141\u00f3d\u017a",
-        "logo": "https://media.api-sports.io/football/teams/3498.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3493,
-        "name": "Stal Mielec",
-        "logo": "https://media.api-sports.io/football/teams/3493.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

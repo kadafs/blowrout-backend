@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584024,
+      "referee": "Martin Wilke",
+      "timezone": "UTC",
+      "date": "2026-10-13T17:00:00+00:00",
+      "timestamp": 1791910800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 722,
+        "name": "Ostseestadion",
+        "city": "Rostock"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1318,
+        "name": "SV Meppen",
+        "logo": "https://media.api-sports.io/football/teams/1318.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584020,
-      "referee": "Simon Schreiner",
+      "referee": "Simon Schreiner, Germany",
       "timezone": "UTC",
       "date": "2026-10-10T12:00:00+00:00",
       "timestamp": 1791633600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583979,
-      "referee": "K. Takasaki",
-      "timezone": "UTC",
-      "date": "2026-09-05T12:00:00+00:00",
-      "timestamp": 1788609600,
-      "periods": {
-        "first": 1788609600,
-        "second": 1788613200
-      },
-      "venue": {
-        "id": 734,
-        "name": "Hansch-Arena",
-        "city": "Meppen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1318,
-        "name": "SV Meppen",
-        "logo": "https://media.api-sports.io/football/teams/1318.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1639,
-        "name": "FC Saarbr\u00fccken",
-        "logo": "https://media.api-sports.io/football/teams/1639.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 6
       },
       "extratime": {
         "home": null,

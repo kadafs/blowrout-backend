@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1607024,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-04T12:00:00+00:00",
+      "timestamp": 1791115200,
+      "periods": {
+        "first": 1791115200,
+        "second": 1791118800
+      },
+      "venue": {
+        "id": 6473,
+        "name": "Grenzlandstadion",
+        "city": "Monchengladbach"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1034,
+      "name": "2. Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/1034.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1864,
+        "name": "Borussia Monchengladbach W",
+        "logo": "https://media.api-sports.io/football/teams/1864.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20504,
+        "name": "Viktoria Berlin W",
+        "logo": "https://media.api-sports.io/football/teams/20504.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607017,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-09-19T12:00:00+00:00",
       "timestamp": 1789819200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789819200,
+        "second": 1789822800
       },
       "venue": {
         "id": null,
@@ -77,8 +147,8 @@
       "date": "2026-09-13T12:00:00+00:00",
       "timestamp": 1789300800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789300800,
+        "second": 1789304400
       },
       "venue": {
         "id": null,
@@ -147,8 +217,8 @@
       "date": "2026-09-06T12:00:00+00:00",
       "timestamp": 1788696000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788696000,
+        "second": 1788699600
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606998,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T12:00:00+00:00",
-      "timestamp": 1787486400,
-      "periods": {
-        "first": 1787486400,
-        "second": 1787490000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ostpreussendamm 3-17",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1034,
-      "name": "2. Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/1034.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20504,
-        "name": "Viktoria Berlin W",
-        "logo": "https://media.api-sports.io/football/teams/20504.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20495,
-        "name": "Andernach W",
-        "logo": "https://media.api-sports.io/football/teams/20495.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

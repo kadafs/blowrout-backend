@@ -1,14 +1,154 @@
 [
   {
     "fixture": {
+      "id": 1593146,
+      "referee": "S. Menzel",
+      "timezone": "UTC",
+      "date": "2026-10-03T12:00:00+00:00",
+      "timestamp": 1791028800,
+      "periods": {
+        "first": 1791028800,
+        "second": 1791032400
+      },
+      "venue": {
+        "id": 21035,
+        "name": "Red Bull Arena",
+        "city": "Leipzig"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20501,
+        "name": "RB Leipzig W",
+        "logo": "https://media.api-sports.io/football/teams/20501.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21564,
+        "name": "Mainz 05 W",
+        "logo": "https://media.api-sports.io/football/teams/21564.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1629375,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T12:00:00+00:00",
+      "timestamp": 1790424000,
+      "periods": {
+        "first": 1790424000,
+        "second": 1790427600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 947,
+      "name": "DFB Pokal - Women",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/947.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20483,
+        "name": "Ingolstadt W",
+        "logo": "https://media.api-sports.io/football/teams/20483.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21564,
+        "name": "Mainz 05 W",
+        "logo": "https://media.api-sports.io/football/teams/21564.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593139,
-      "referee": "Miriam Schwermer",
+      "referee": "M. Schwermer",
       "timezone": "UTC",
       "date": "2026-09-18T16:30:00+00:00",
       "timestamp": 1789749000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789749000,
+        "second": 1789752600
       },
       "venue": {
         "id": 11899,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593115,
-      "referee": "A. Soder",
-      "timezone": "UTC",
-      "date": "2026-08-31T16:00:00+00:00",
-      "timestamp": 1788192000,
-      "periods": {
-        "first": 1788192000,
-        "second": 1788195600
-      },
-      "venue": {
-        "id": null,
-        "name": "FC Bayern Campus",
-        "city": "Munich"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1860,
-        "name": "Bayern Munich W",
-        "logo": "https://media.api-sports.io/football/teams/1860.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21564,
-        "name": "Mainz 05 W",
-        "logo": "https://media.api-sports.io/football/teams/21564.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593112,
-      "referee": "N. Breier",
-      "timezone": "UTC",
-      "date": "2026-08-24T16:00:00+00:00",
-      "timestamp": 1787587200,
-      "periods": {
-        "first": 1787587200,
-        "second": 1787590800
-      },
-      "venue": {
-        "id": null,
-        "name": "Bruchwegstadion",
-        "city": "Mainz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21564,
-        "name": "Mainz 05 W",
-        "logo": "https://media.api-sports.io/football/teams/21564.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1870,
-        "name": "Werder Bremen W",
-        "logo": "https://media.api-sports.io/football/teams/1870.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

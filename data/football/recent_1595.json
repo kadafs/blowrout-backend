@@ -1,25 +1,25 @@
 [
   {
     "fixture": {
-      "id": 1490491,
-      "referee": "E. Arreguin",
+      "id": 1490532,
+      "referee": "Jon Freemon",
       "timezone": "UTC",
-      "date": "2026-09-20T01:30:00+00:00",
-      "timestamp": 1789867800,
+      "date": "2026-10-15T00:30:00+00:00",
+      "timestamp": 1792024200,
       "periods": {
-        "first": 1789867800,
-        "second": 1789871400
+        "first": null,
+        "second": null
       },
       "venue": {
-        "id": 0,
-        "name": "Dick's Sporting Goods Park",
-        "city": "Trade City"
+        "id": 1612,
+        "name": "Toyota Stadium(Texas)",
+        "city": "Frisco"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 8
+        "extra": null
       }
     },
     "league": {
@@ -29,34 +29,104 @@
       "logo": "https://media.api-sports.io/football/leagues/253.png",
       "flag": "https://media.api-sports.io/flags/us.svg",
       "season": 2026,
-      "round": "Regular Season - 26",
+      "round": "Regular Season - 29",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 1610,
-        "name": "Colorado Rapids",
-        "logo": "https://media.api-sports.io/football/teams/1610.png",
-        "winner": null
+        "id": 1597,
+        "name": "FC Dallas",
+        "logo": "https://media.api-sports.io/football/teams/1597.png",
+        "winner": true
       },
       "away": {
         "id": 1595,
         "name": "Seattle Sounders",
         "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": null
+        "winner": false
       }
     },
     "goals": {
-      "home": 3,
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1490516,
+      "referee": "Tori Penso, USA",
+      "timezone": "UTC",
+      "date": "2026-10-10T23:30:00+00:00",
+      "timestamp": 1791675000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1618,
+        "name": "Boston Stadium",
+        "city": "Boston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1609,
+        "name": "New England Revolution",
+        "logo": "https://media.api-sports.io/football/teams/1609.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1595,
+        "name": "Seattle Sounders",
+        "logo": "https://media.api-sports.io/football/teams/1595.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
       "away": 3
     },
     "score": {
       "halftime": {
-        "home": 1,
-        "away": 0
+        "home": 0,
+        "away": 1
       },
       "fulltime": {
-        "home": 3,
+        "home": 0,
         "away": 3
       },
       "extratime": {
@@ -71,87 +141,17 @@
   },
   {
     "fixture": {
-      "id": 1490476,
-      "referee": "M. De Oliveira",
+      "id": 1490463,
+      "referee": "Jair Antonio Maruffo, USA",
       "timezone": "UTC",
-      "date": "2026-09-13T02:30:00+00:00",
-      "timestamp": 1789266600,
+      "date": "2026-10-02T01:30:00+00:00",
+      "timestamp": 1790904600,
       "periods": {
-        "first": 1789266600,
-        "second": 1789270200
+        "first": null,
+        "second": null
       },
       "venue": {
-        "id": null,
-        "name": "Dignity Health Sports Park",
-        "city": "Carson"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1605,
-        "name": "Los Angeles Galaxy",
-        "logo": "https://media.api-sports.io/football/teams/1605.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1595,
-        "name": "Seattle Sounders",
-        "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490444,
-      "referee": "R. Fierro",
-      "timezone": "UTC",
-      "date": "2026-09-06T00:30:00+00:00",
-      "timestamp": 1788654600,
-      "periods": {
-        "first": 1788654600,
-        "second": 1788658200
-      },
-      "venue": {
-        "id": null,
+        "id": 11534,
         "name": "Lumen Field",
         "city": "Seattle"
       },
@@ -169,7 +169,7 @@
       "logo": "https://media.api-sports.io/football/leagues/253.png",
       "flag": "https://media.api-sports.io/flags/us.svg",
       "season": 2026,
-      "round": "Regular Season - 23",
+      "round": "Regular Season - 24",
       "standings": true
     },
     "teams": {
@@ -177,17 +177,157 @@
         "id": 1595,
         "name": "Seattle Sounders",
         "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": null
+        "winner": true
       },
       "away": {
-        "id": 1602,
-        "name": "New York Red Bulls",
-        "logo": "https://media.api-sports.io/football/teams/1602.png",
-        "winner": null
+        "id": 1611,
+        "name": "Sporting Kansas City",
+        "logo": "https://media.api-sports.io/football/teams/1611.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 0,
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1490502,
+      "referee": "Bensalah, Nabil",
+      "timezone": "UTC",
+      "date": "2026-09-27T00:30:00+00:00",
+      "timestamp": 1790469000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1595,
+        "name": "Seattle Sounders",
+        "logo": "https://media.api-sports.io/football/teams/1595.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1612,
+        "name": "Minnesota United FC",
+        "logo": "https://media.api-sports.io/football/teams/1612.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1490209,
+      "referee": "Joseph Dickerson, USA",
+      "timezone": "UTC",
+      "date": "2026-09-24T01:30:00+00:00",
+      "timestamp": 1790213400,
+      "periods": {
+        "first": 1790213400,
+        "second": 1790217000
+      },
+      "venue": {
+        "id": 11534,
+        "name": "Lumen Field",
+        "city": "Seattle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1595,
+        "name": "Seattle Sounders",
+        "logo": "https://media.api-sports.io/football/teams/1595.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1606,
+        "name": "Real Salt Lake",
+        "logo": "https://media.api-sports.io/football/teams/1606.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
       "away": 0
     },
     "score": {
@@ -196,148 +336,8 @@
         "away": 0
       },
       "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490421,
-      "referee": "I. Elfath",
-      "timezone": "UTC",
-      "date": "2026-08-29T20:30:00+00:00",
-      "timestamp": 1788035400,
-      "periods": {
-        "first": 1788035400,
-        "second": 1788039000
-      },
-      "venue": {
-        "id": null,
-        "name": "Lumen Field",
-        "city": "Seattle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1595,
-        "name": "Seattle Sounders",
-        "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1607,
-        "name": "Chicago Fire",
-        "logo": "https://media.api-sports.io/football/teams/1607.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490407,
-      "referee": "D. Fischer",
-      "timezone": "UTC",
-      "date": "2026-08-22T23:30:00+00:00",
-      "timestamp": 1787441400,
-      "periods": {
-        "first": 1787441400,
-        "second": 1787445000
-      },
-      "venue": {
-        "id": null,
-        "name": "TQL Stadium",
-        "city": "Cincinnati"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2242,
-        "name": "FC Cincinnati",
-        "logo": "https://media.api-sports.io/football/teams/2242.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1595,
-        "name": "Seattle Sounders",
-        "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

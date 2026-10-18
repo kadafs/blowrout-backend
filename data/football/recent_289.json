@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629942,
+      "referee": "Omar Al-Ali",
+      "timezone": "UTC",
+      "date": "2026-10-14T10:00:00+00:00",
+      "timestamp": 1791972000,
+      "periods": {
+        "first": 1791972000,
+        "second": 1791975600
+      },
+      "venue": {
+        "id": 984,
+        "name": "Noevir Stadium Kobe",
+        "city": "Kobe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 17,
+      "name": "AFC Champions League Elite",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/17.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 289,
+        "name": "Vissel Kobe",
+        "logo": "https://media.api-sports.io/football/teams/289.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2762,
+        "name": "Jeonbuk Motors",
+        "logo": "https://media.api-sports.io/football/teams/2762.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556086,
       "referee": "Koichiro Fukushima",
       "timezone": "UTC",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1629926,
-      "referee": null,
+      "referee": "Hyun Jae Choi, South Korea",
       "timezone": "UTC",
       "date": "2026-09-16T12:15:00+00:00",
       "timestamp": 1789560900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556069,
-      "referee": "Hiroyuki Kimura, Japan",
-      "timezone": "UTC",
-      "date": "2026-09-11T10:00:00+00:00",
-      "timestamp": 1789120800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 984,
-        "name": "Noevir Stadium Kobe",
-        "city": "Kobe"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2027,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 289,
-        "name": "Vissel Kobe",
-        "logo": "https://media.api-sports.io/football/teams/289.png",
-        "winner": true
-      },
-      "away": {
-        "id": 290,
-        "name": "Kashima",
-        "logo": "https://media.api-sports.io/football/teams/290.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

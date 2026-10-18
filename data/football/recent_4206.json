@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630374,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-15T12:15:00+00:00",
+      "timestamp": 1792066500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Jalan Besar Stadium",
+        "city": "Kallang"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 18,
+      "name": "AFC Champions League Two",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/18.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4206,
+        "name": "Tampines Rovers",
+        "logo": "https://media.api-sports.io/football/teams/4206.png",
+        "winner": false
+      },
+      "away": {
+        "id": 303,
+        "name": "Machida Zelvia",
+        "logo": "https://media.api-sports.io/football/teams/303.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603469,
       "referee": "O. Rosayro",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602962,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-31T12:30:00+00:00",
-      "timestamp": 1785501000,
-      "periods": {
-        "first": 1785501000,
-        "second": 1785504600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Gelora Bandung Lautan Api Stadium",
-        "city": "Bandung"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 924,
-      "name": "Piala Presiden",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/924.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2445,
-        "name": "Persib Bandung",
-        "logo": "https://media.api-sports.io/football/teams/2445.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4206,
-        "name": "Tampines Rovers",
-        "logo": "https://media.api-sports.io/football/teams/4206.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

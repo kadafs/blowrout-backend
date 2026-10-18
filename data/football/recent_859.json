@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645841,
+      "referee": "V. Chinkov",
+      "timezone": "UTC",
+      "date": "2026-10-14T16:00:00+00:00",
+      "timestamp": 1791993600,
+      "periods": {
+        "first": 1791993600,
+        "second": 1791997200
+      },
+      "venue": {
+        "id": 19922,
+        "name": "Stadion Hristo Botev",
+        "city": "Plovdiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1249,
+      "name": "Pro Cup",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/1249.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 634,
+        "name": "Botev Plovdiv",
+        "logo": "https://media.api-sports.io/football/teams/634.png",
+        "winner": true
+      },
+      "away": {
+        "id": 859,
+        "name": "Botev Vratsa",
+        "logo": "https://media.api-sports.io/football/teams/859.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551118,
       "referee": "Stoyanov\u00b7Georgi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551101,
-      "referee": "Stanimir Trenchev, Bulgaria",
-      "timezone": "UTC",
-      "date": "2026-09-04T16:00:00+00:00",
-      "timestamp": 1788537600,
-      "periods": {
-        "first": 1788537600,
-        "second": 1788541200
-      },
-      "venue": {
-        "id": 1883,
-        "name": "Stadion Lokomotiv",
-        "city": "Sofia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 856,
-        "name": "Septemvri Sofia",
-        "logo": "https://media.api-sports.io/football/teams/856.png",
-        "winner": false
-      },
-      "away": {
-        "id": 859,
-        "name": "Botev Vratsa",
-        "logo": "https://media.api-sports.io/football/teams/859.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

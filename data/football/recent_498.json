@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1601541,
-      "referee": "Giovanni Ayroldi",
+      "id": 1601544,
+      "referee": "Juan Luca Sacchi, Italy",
       "timezone": "UTC",
-      "date": "2026-09-19T15:15:00+00:00",
-      "timestamp": 1789830900,
+      "date": "2026-10-09T18:30:00+00:00",
+      "timestamp": 1791570600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 2756,
+        "name": "Partenio-Adriano Lombardi",
+        "city": "Avellino"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 136,
+      "name": "Serie B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/136.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 528,
+        "name": "Avellino",
+        "logo": "https://media.api-sports.io/football/teams/528.png",
+        "winner": true
+      },
+      "away": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1601541,
+      "referee": "Giovanni Ayroldi, Italy",
+      "timezone": "UTC",
+      "date": "2026-09-19T15:15:00+00:00",
+      "timestamp": 1789830900,
+      "periods": {
+        "first": 1789830900,
+        "second": 1789834500
+      },
+      "venue": {
         "id": 905,
-        "name": "Luigi Ferraris",
+        "name": "Stadio Luigi Ferraris",
         "city": "Genoa"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1601529,
-      "referee": null,
+      "referee": "D. Chiffi",
       "timezone": "UTC",
       "date": "2026-09-13T15:15:00+00:00",
       "timestamp": 1789312500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789312500,
+        "second": 1789316100
       },
       "venue": {
         "id": 4185,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1601520,
-      "referee": "M. Marchetti",
+      "referee": "Matteo Marchetti, Italy",
       "timezone": "UTC",
       "date": "2026-09-07T18:30:00+00:00",
       "timestamp": 1788805800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788805800,
+        "second": 1788809400
       },
       "venue": {
         "id": 920,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601496,
-      "referee": "Juan Luca Sacchi, Italy",
-      "timezone": "UTC",
-      "date": "2026-08-23T19:00:00+00:00",
-      "timestamp": 1787511600,
-      "periods": {
-        "first": 1787511600,
-        "second": 1787515200
-      },
-      "venue": {
-        "id": 2758,
-        "name": "Stadio Dino Manuzzi",
-        "city": "Cesena"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 136,
-      "name": "Serie B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/136.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 509,
-        "name": "Cesena",
-        "logo": "https://media.api-sports.io/football/teams/509.png",
-        "winner": null
-      },
-      "away": {
-        "id": 498,
-        "name": "Sampdoria",
-        "logo": "https://media.api-sports.io/football/teams/498.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1398861,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-21T17:00:00+00:00",
+      "timestamp": 1776790800,
+      "periods": {
+        "first": 1776790800,
+        "second": 1776794400
+      },
+      "venue": {
+        "id": null,
+        "name": "VELLY Arena Imst Tirol",
+        "city": "Imst"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 223,
+      "name": "Regionalliga - West",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/223.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2025,
+      "round": "West - 21",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14709,
+        "name": "Imst",
+        "logo": "https://media.api-sports.io/football/teams/14709.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8256,
+        "name": "Rheindorf Altach II",
+        "logo": "https://media.api-sports.io/football/teams/8256.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1398720,
       "referee": "Stefan Macanovic",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1053933,
-      "referee": "A. Gruber",
-      "timezone": "UTC",
-      "date": "2023-10-29T13:00:00+00:00",
-      "timestamp": 1698584400,
-      "periods": {
-        "first": 1698584400,
-        "second": 1698588000
-      },
-      "venue": {
-        "id": 146,
-        "name": "CASHPOINT Arena Nebenplatz 1",
-        "city": "Altach"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 223,
-      "name": "Regionalliga - West",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/223.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2023,
-      "round": "West - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8256,
-        "name": "Rheindorf Altach II",
-        "logo": "https://media.api-sports.io/football/teams/8256.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14709,
-        "name": "Imst",
-        "logo": "https://media.api-sports.io/football/teams/14709.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

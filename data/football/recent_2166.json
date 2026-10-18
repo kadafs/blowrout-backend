@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1494293,
+      "referee": "Kristoffer Karlsson",
+      "timezone": "UTC",
+      "date": "2026-10-11T14:30:00+00:00",
+      "timestamp": 1791729000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1511,
+        "name": "Nordic Wellness Arena",
+        "city": "Gothenburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 367,
+        "name": "BK Hacken",
+        "logo": "https://media.api-sports.io/football/teams/367.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2166,
+        "name": "Orgryte IS",
+        "logo": "https://media.api-sports.io/football/teams/2166.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494287,
-      "referee": "Erik Mattsson",
+      "referee": "Erik Mattsson, Sweden",
       "timezone": "UTC",
       "date": "2026-09-19T15:30:00+00:00",
       "timestamp": 1789831800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494254,
-      "referee": "Richard Sundell, Sweden",
-      "timezone": "UTC",
-      "date": "2026-08-22T13:00:00+00:00",
-      "timestamp": 1787403600,
-      "periods": {
-        "first": 1787403600,
-        "second": 1787407200
-      },
-      "venue": {
-        "id": null,
-        "name": "Gamla Ullevi",
-        "city": "Gothenburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2166,
-        "name": "Orgryte IS",
-        "logo": "https://media.api-sports.io/football/teams/2166.png",
-        "winner": null
-      },
-      "away": {
-        "id": 766,
-        "name": "Halmstad",
-        "logo": "https://media.api-sports.io/football/teams/766.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

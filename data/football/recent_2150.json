@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495977,
+      "referee": "A. Medic",
+      "timezone": "UTC",
+      "date": "2026-10-14T17:00:00+00:00",
+      "timestamp": 1791997200,
+      "periods": {
+        "first": 1791997200,
+        "second": 1792000800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Ulsteinvik"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2150,
+        "name": "hodd",
+        "logo": "https://media.api-sports.io/football/teams/2150.png",
+        "winner": null
+      },
+      "away": {
+        "id": 322,
+        "name": "Ranheim",
+        "logo": "https://media.api-sports.io/football/teams/322.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495968,
       "referee": "E. Wisted-Thu",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495945,
-      "referee": "H. Nervik",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Ulsteinvik"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2150,
-        "name": "hodd",
-        "logo": "https://media.api-sports.io/football/teams/2150.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7006,
-        "name": "Lyn",
-        "logo": "https://media.api-sports.io/football/teams/7006.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570405,
+      "referee": "C. Muniz",
+      "timezone": "UTC",
+      "date": "2026-10-11T16:30:00+00:00",
+      "timestamp": 1791736200,
+      "periods": {
+        "first": 1791736200,
+        "second": 1791739800
+      },
+      "venue": {
+        "id": 22785,
+        "name": "Estadio de La Cartuja",
+        "city": "Sevilla"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 543,
+        "name": "Real Betis",
+        "logo": "https://media.api-sports.io/football/teams/543.png",
+        "winner": true
+      },
+      "away": {
+        "id": 727,
+        "name": "Osasuna",
+        "logo": "https://media.api-sports.io/football/teams/727.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570399,
       "referee": "M. Orellana",
       "timezone": "UTC",
@@ -81,7 +151,7 @@
         "second": 1789581600
       },
       "venue": {
-        "id": null,
+        "id": 19217,
         "name": "Metropolitano Stadium",
         "city": "Madrid"
       },
@@ -151,7 +221,7 @@
         "second": 1789226100
       },
       "venue": {
-        "id": null,
+        "id": 1486,
         "name": "Estadio El Sadar",
         "city": "Pamplona"
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570358,
-      "referee": "J. A. Gonzalez Esteban",
-      "timezone": "UTC",
-      "date": "2026-08-31T17:30:00+00:00",
-      "timestamp": 1788197400,
-      "periods": {
-        "first": 1788197400,
-        "second": 1788201000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio El Sadar",
-        "city": "Pamplona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 727,
-        "name": "Osasuna",
-        "logo": "https://media.api-sports.io/football/teams/727.png",
-        "winner": true
-      },
-      "away": {
-        "id": 546,
-        "name": "Getafe",
-        "logo": "https://media.api-sports.io/football/teams/546.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

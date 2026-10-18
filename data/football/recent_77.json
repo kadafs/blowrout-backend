@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1552774,
+      "referee": "Eric Wattellier",
+      "timezone": "UTC",
+      "date": "2026-10-10T18:45:00+00:00",
+      "timestamp": 1791657900,
+      "periods": {
+        "first": 1791657900,
+        "second": 1791661500
+      },
+      "venue": {
+        "id": 641,
+        "name": "Stade Francis-Le-Bl\u00e9",
+        "city": "Brest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 106,
+        "name": "Stade Brestois 29",
+        "logo": "https://media.api-sports.io/football/teams/106.png",
+        "winner": true
+      },
+      "away": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552765,
       "referee": "Azzedine Souifi",
       "timezone": "UTC",
       "date": "2026-09-19T18:45:00+00:00",
       "timestamp": 1789843500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789843500,
+        "second": 1789847100
       },
       "venue": {
         "id": 634,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552758,
-      "referee": "Ruddy Buquet, France",
+      "referee": "Ruddy Buquet",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1552747,
-      "referee": "Geoffrey Kubler, French Guiana",
+      "referee": "Geoffrey Kubler",
       "timezone": "UTC",
       "date": "2026-09-06T15:15:00+00:00",
       "timestamp": 1788707700,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552738,
-      "referee": "Hakim Ben el Salem Hadj, France",
+      "referee": "Hakim Ben el Hadj",
       "timezone": "UTC",
       "date": "2026-08-29T18:45:00+00:00",
       "timestamp": 1788029100,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552729,
-      "referee": "Jeremy Stinat, France",
-      "timezone": "UTC",
-      "date": "2026-08-23T13:00:00+00:00",
-      "timestamp": 1787490000,
-      "periods": {
-        "first": 1787490000,
-        "second": 1787493600
-      },
-      "venue": {
-        "id": 634,
-        "name": "Stade Raymond Kopa",
-        "city": "Angers"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 77,
-        "name": "Angers",
-        "logo": "https://media.api-sports.io/football/teams/77.png",
-        "winner": false
-      },
-      "away": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

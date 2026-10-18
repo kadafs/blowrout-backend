@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639650,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-08T13:15:00+00:00",
+      "timestamp": 1791465300,
+      "periods": {
+        "first": 1791465300,
+        "second": 1791468900
+      },
+      "venue": {
+        "id": 11524,
+        "name": "Gol Gohar Sport Complex",
+        "city": "Sirjan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 290,
+      "name": "Persian Gulf Pro League",
+      "country": "Iran",
+      "logo": "https://media.api-sports.io/football/leagues/290.png",
+      "flag": "https://media.api-sports.io/flags/ir.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2714,
+        "name": "Gol Gohar",
+        "logo": "https://media.api-sports.io/football/teams/2714.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2739,
+        "name": "Esteghlal Khuzestan",
+        "logo": "https://media.api-sports.io/football/teams/2739.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1631589,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618231,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": null,
-        "name": "Ghadir Stadium",
-        "city": "Ahvaz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 290,
-      "name": "Persian Gulf Pro League",
-      "country": "Iran",
-      "logo": "https://media.api-sports.io/football/leagues/290.png",
-      "flag": "https://media.api-sports.io/flags/ir.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2739,
-        "name": "Esteghlal Khuzestan",
-        "logo": "https://media.api-sports.io/football/teams/2739.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2719,
-        "name": "Nassaji Mazandaran",
-        "logo": "https://media.api-sports.io/football/teams/2719.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

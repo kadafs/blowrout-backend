@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585786,
+      "referee": "Copur Muhammet Alperen",
+      "timezone": "UTC",
+      "date": "2026-10-13T17:00:00+00:00",
+      "timestamp": 1791910800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19225,
+        "name": "Pendik Stadium",
+        "city": "Istanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 204,
+      "name": "1. Lig",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/204.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3601,
+        "name": "Pendikspor",
+        "logo": "https://media.api-sports.io/football/teams/3601.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6342,
+        "name": "Vanspor FK",
+        "logo": "https://media.api-sports.io/football/teams/6342.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585778,
       "referee": "Yigit Arslan",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585738,
-      "referee": "I. Avci",
-      "timezone": "UTC",
-      "date": "2026-09-02T14:00:00+00:00",
-      "timestamp": 1788357600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Ataturk City Stadium",
-        "city": "Van"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 204,
-      "name": "1. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/204.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6342,
-        "name": "Vanspor FK",
-        "logo": "https://media.api-sports.io/football/teams/6342.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7395,
-        "name": "Batman Petrolspor",
-        "logo": "https://media.api-sports.io/football/teams/7395.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

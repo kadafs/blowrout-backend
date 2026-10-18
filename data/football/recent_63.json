@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1557417,
+      "referee": "Paul Tierney, England",
+      "timezone": "UTC",
+      "date": "2026-10-10T11:30:00+00:00",
+      "timestamp": 1791631800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 494,
+        "name": "Emirates Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/39.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 42,
+        "name": "Arsenal",
+        "logo": "https://media.api-sports.io/football/teams/42.png",
+        "winner": true
+      },
+      "away": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media.api-sports.io/football/teams/63.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557412,
-      "referee": "Adam Herczeg",
+      "referee": "Adam Herczeg, England",
       "timezone": "UTC",
       "date": "2026-09-20T13:00:00+00:00",
       "timestamp": 1789909200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789909200,
+        "second": 1789912800
       },
       "venue": {
         "id": 546,
@@ -77,8 +147,8 @@
       "date": "2026-09-14T19:00:00+00:00",
       "timestamp": 1789412400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789412400,
+        "second": 1789416000
       },
       "venue": {
         "id": null,
@@ -217,8 +287,8 @@
       "date": "2026-09-05T14:00:00+00:00",
       "timestamp": 1788616800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788616800,
+        "second": 1788620400
       },
       "venue": {
         "id": null,
@@ -253,76 +323,6 @@
         "id": 63,
         "name": "Leeds",
         "logo": "https://media.api-sports.io/football/teams/63.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557382,
-      "referee": "Tony Harrington, England",
-      "timezone": "UTC",
-      "date": "2026-08-30T13:00:00+00:00",
-      "timestamp": 1788094800,
-      "periods": {
-        "first": 1788094800,
-        "second": 1788098400
-      },
-      "venue": {
-        "id": null,
-        "name": "Elland Road",
-        "city": "Leeds"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 63,
-        "name": "Leeds",
-        "logo": "https://media.api-sports.io/football/teams/63.png",
-        "winner": null
-      },
-      "away": {
-        "id": 55,
-        "name": "Brentford",
-        "logo": "https://media.api-sports.io/football/teams/55.png",
         "winner": null
       }
     },

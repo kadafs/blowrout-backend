@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643388,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-15T19:00:00+00:00",
+      "timestamp": 1792090800,
+      "periods": {
+        "first": 1792090800,
+        "second": 1792094400
+      },
+      "venue": {
+        "id": 1627,
+        "name": "Parque Palermo",
+        "city": "Montevideo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 930,
+      "name": "Copa Uruguay",
+      "country": "Uruguay",
+      "logo": "https://media.api-sports.io/football/leagues/930.png",
+      "flag": "https://media.api-sports.io/flags/uy.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2368,
+        "name": "Central Espanol",
+        "logo": "https://media.api-sports.io/football/teams/2368.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2352,
+        "name": "Danubio",
+        "logo": "https://media.api-sports.io/football/teams/2352.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1537236,
       "referee": "P. Silveira",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 500537,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2012-11-10T19:30:00+00:00",
-      "timestamp": 1352575800,
-      "periods": {
-        "first": 1352575800,
-        "second": 1352579400
-      },
-      "venue": {
-        "id": null,
-        "name": "Parque Palermo",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 268,
-      "name": "Primera Divisi\u00f3n - Apertura",
-      "country": "Uruguay",
-      "logo": "https://media.api-sports.io/football/leagues/268.png",
-      "flag": "https://media.api-sports.io/flags/uy.svg",
-      "season": 2012,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2368,
-        "name": "Central Espanol",
-        "logo": "https://media.api-sports.io/football/teams/2368.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2352,
-        "name": "Danubio",
-        "logo": "https://media.api-sports.io/football/teams/2352.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

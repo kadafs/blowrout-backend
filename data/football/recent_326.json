@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1494776,
+      "referee": "Marius Lien",
+      "timezone": "UTC",
+      "date": "2026-10-12T17:00:00+00:00",
+      "timestamp": 1791824400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1179,
+        "name": "KFUM Arena",
+        "city": "Oslo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2143,
+        "name": "KFUM Oslo",
+        "logo": "https://media.api-sports.io/football/teams/2143.png",
+        "winner": true
+      },
+      "away": {
+        "id": 326,
+        "name": "Valerenga",
+        "logo": "https://media.api-sports.io/football/teams/326.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494770,
-      "referee": "Sigurd Smehus Kringstad",
+      "referee": "Sigurd Smehus Kringstad, Norway",
       "timezone": "UTC",
       "date": "2026-09-20T12:30:00+00:00",
       "timestamp": 1789907400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494746,
-      "referee": "Christian Moen, Norway",
-      "timezone": "UTC",
-      "date": "2026-08-30T15:00:00+00:00",
-      "timestamp": 1788102000,
-      "periods": {
-        "first": 1788102000,
-        "second": 1788105600
-      },
-      "venue": {
-        "id": 1203,
-        "name": "Intility Arena",
-        "city": "Oslo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 326,
-        "name": "Valerenga",
-        "logo": "https://media.api-sports.io/football/teams/326.png",
-        "winner": false
-      },
-      "away": {
-        "id": 329,
-        "name": "Molde",
-        "logo": "https://media.api-sports.io/football/teams/329.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

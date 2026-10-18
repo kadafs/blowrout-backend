@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1631591,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T12:30:00+00:00",
+      "timestamp": 1791894600,
+      "periods": {
+        "first": 1791894600,
+        "second": 1791898200
+      },
+      "venue": {
+        "id": 21439,
+        "name": "Foolad Shahr Stadium",
+        "city": "Isfahan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 290,
+      "name": "Persian Gulf Pro League",
+      "country": "Iran",
+      "logo": "https://media.api-sports.io/football/leagues/290.png",
+      "flag": "https://media.api-sports.io/flags/ir.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2738,
+        "name": "ZOB Ahan",
+        "logo": "https://media.api-sports.io/football/teams/2738.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2744,
+        "name": "Sepahan FC",
+        "logo": "https://media.api-sports.io/football/teams/2744.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639647,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 2714,
         "name": "Gol Gohar",
         "logo": "https://media.api-sports.io/football/teams/2714.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618229,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": 22428,
-        "name": "Azadi Stadium",
-        "city": "Tehran"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 290,
-      "name": "Persian Gulf Pro League",
-      "country": "Iran",
-      "logo": "https://media.api-sports.io/football/leagues/290.png",
-      "flag": "https://media.api-sports.io/flags/ir.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2733,
-        "name": "Esteghlal FC",
-        "logo": "https://media.api-sports.io/football/teams/2733.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2744,
-        "name": "Sepahan FC",
-        "logo": "https://media.api-sports.io/football/teams/2744.png",
         "winner": false
       }
     },

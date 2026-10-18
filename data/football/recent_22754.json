@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639093,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-04T09:45:00+00:00",
+      "timestamp": 1791107100,
+      "periods": {
+        "first": 1791107100,
+        "second": 1791110700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 765,
+      "name": "PFL",
+      "country": "Philippines",
+      "logo": "https://media.api-sports.io/football/leagues/765.png",
+      "flag": "https://media.api-sports.io/flags/ph.svg",
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22754,
+        "name": "Davao Aguilas",
+        "logo": "https://media.api-sports.io/football/teams/22754.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21580,
+        "name": "Tuloy",
+        "logo": "https://media.api-sports.io/football/teams/21580.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636618,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544094,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-16T10:15:00+00:00",
-      "timestamp": 1778926500,
-      "periods": {
-        "first": 1778926500,
-        "second": 1778930100
-      },
-      "venue": {
-        "id": 1244,
-        "name": "Rizal Memorial Stadium",
-        "city": "Manila"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 765,
-      "name": "PFL",
-      "country": "Philippines",
-      "logo": "https://media.api-sports.io/football/leagues/765.png",
-      "flag": "https://media.api-sports.io/flags/ph.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8030,
-        "name": "Kaya",
-        "logo": "https://media.api-sports.io/football/teams/8030.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22754,
-        "name": "Davao Aguilas",
-        "logo": "https://media.api-sports.io/football/teams/22754.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

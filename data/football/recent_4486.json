@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555515,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T17:30:00+00:00",
+      "timestamp": 1791826200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 866,
+        "name": "Taddi Malcha",
+        "city": "Jerusalem"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 383,
+      "name": "Ligat Ha'al",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/383.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4486,
+        "name": "Hapoel Katamon",
+        "logo": "https://media.api-sports.io/football/teams/4486.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4195,
+        "name": "Maccabi Haifa",
+        "logo": "https://media.api-sports.io/football/teams/4195.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555511,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555479,
-      "referee": "G. Levi",
-      "timezone": "UTC",
-      "date": "2026-08-23T17:15:00+00:00",
-      "timestamp": 1787505300,
-      "periods": {
-        "first": 1787505300,
-        "second": 1787508900
-      },
-      "venue": {
-        "id": null,
-        "name": "Teddy Stadium",
-        "city": "Jerusalem"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 383,
-      "name": "Ligat Ha'al",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/383.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4486,
-        "name": "Hapoel Katamon",
-        "logo": "https://media.api-sports.io/football/teams/4486.png",
-        "winner": false
-      },
-      "away": {
-        "id": 604,
-        "name": "Maccabi Tel Aviv",
-        "logo": "https://media.api-sports.io/football/teams/604.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

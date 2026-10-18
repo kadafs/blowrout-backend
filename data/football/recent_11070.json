@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645599,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-14T16:00:00+00:00",
+      "timestamp": 1791993600,
+      "periods": {
+        "first": 1791993600,
+        "second": 1791997200
+      },
+      "venue": {
+        "id": null,
+        "name": "Ajman Stadium",
+        "city": "Ajman"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 1162,
+      "name": "AGCFF Gulf Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1162.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2879,
+        "name": "Ajman",
+        "logo": "https://media.api-sports.io/football/teams/2879.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11070,
+        "name": "Erbil",
+        "logo": "https://media.api-sports.io/football/teams/11070.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627997,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627952,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T18:00:00+00:00",
-      "timestamp": 1788544800,
-      "periods": {
-        "first": 1788544800,
-        "second": 1788548400
-      },
-      "venue": {
-        "id": null,
-        "name": "Al-Shorta Stadium",
-        "city": "Baghdad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 542,
-      "name": "Iraqi League",
-      "country": "Iraq",
-      "logo": "https://media.api-sports.io/football/leagues/542.png",
-      "flag": "https://media.api-sports.io/flags/iq.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5242,
-        "name": "Al Shorta",
-        "logo": "https://media.api-sports.io/football/teams/5242.png",
-        "winner": null
-      },
-      "away": {
-        "id": 11070,
-        "name": "Erbil",
-        "logo": "https://media.api-sports.io/football/teams/11070.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

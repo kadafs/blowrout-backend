@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1397243,
+      "referee": "M. Planes",
+      "timezone": "UTC",
+      "date": "2026-03-28T17:00:00+00:00",
+      "timestamp": 1774717200,
+      "periods": {
+        "first": 1774717200,
+        "second": 1774720800
+      },
+      "venue": {
+        "id": 22054,
+        "name": "Estadio Municipal de Riazor",
+        "city": "A Coru\u00f1a (La Coru\u00f1a)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 142,
+      "name": "Primera Divisi\u00f3n Femenina",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/142.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2025,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6376,
+        "name": "Deportivo de La Coru\u00f1a W",
+        "logo": "https://media.api-sports.io/football/teams/6376.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15225,
+        "name": "Eibar W",
+        "logo": "https://media.api-sports.io/football/teams/15225.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1397123,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 629367,
-      "referee": "Ylenia S\u00e1nchez Miguel",
-      "timezone": "UTC",
-      "date": "2020-12-05T11:00:00+00:00",
-      "timestamp": 1607166000,
-      "periods": {
-        "first": 1607166000,
-        "second": 1607169600
-      },
-      "venue": {
-        "id": 21079,
-        "name": "Instalaciones de Unbe",
-        "city": "Eibar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 142,
-      "name": "Primera Divisi\u00f3n Femenina",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/142.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2020,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15225,
-        "name": "Eibar W",
-        "logo": "https://media.api-sports.io/football/teams/15225.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6376,
-        "name": "Deportivo de La Coru\u00f1a W",
-        "logo": "https://media.api-sports.io/football/teams/6376.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

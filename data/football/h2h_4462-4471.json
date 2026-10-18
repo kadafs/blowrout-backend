@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637963,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-01T11:00:00+00:00",
+      "timestamp": 1790852400,
+      "periods": {
+        "first": 1790852400,
+        "second": 1790856000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1199,
+      "name": "League Cup",
+      "country": "Hong-Kong",
+      "logo": "https://media.api-sports.io/football/leagues/1199.png",
+      "flag": "https://media.api-sports.io/flags/hk.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4471,
+        "name": "Shatin",
+        "logo": "https://media.api-sports.io/football/teams/4471.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4462,
+        "name": "Hong Kong FC",
+        "logo": "https://media.api-sports.io/football/teams/4462.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": 4,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 686451,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 434314,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2016-03-06T07:30:00+00:00",
-      "timestamp": 1457249400,
-      "periods": {
-        "first": 1457249400,
-        "second": 1457253000
-      },
-      "venue": {
-        "id": 3396,
-        "name": "Ma On Shan Recreation Ground",
-        "city": "Hong Kong"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 381,
-      "name": "HKFA 1st Division",
-      "country": "Hong-Kong",
-      "logo": "https://media.api-sports.io/football/leagues/381.png",
-      "flag": "https://media.api-sports.io/flags/hk.svg",
-      "season": 2015,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4471,
-        "name": "Shatin",
-        "logo": "https://media.api-sports.io/football/teams/4471.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4462,
-        "name": "Hong Kong FC",
-        "logo": "https://media.api-sports.io/football/teams/4462.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638778,
+      "referee": "Y. Madrid",
+      "timezone": "UTC",
+      "date": "2026-10-10T21:00:00+00:00",
+      "timestamp": 1791666000,
+      "periods": {
+        "first": 1791666000,
+        "second": 1791669600
+      },
+      "venue": {
+        "id": 0,
+        "name": "Estadio General Jose Antonio Paez",
+        "city": "Araure"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 299,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/299.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2814,
+        "name": "Portuguesa FC",
+        "logo": "https://media.api-sports.io/football/teams/2814.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2813,
+        "name": "Deportivo La Guaira",
+        "logo": "https://media.api-sports.io/football/teams/2813.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638771,
-      "referee": null,
+      "referee": "A. Arteaga",
       "timezone": "UTC",
       "date": "2026-09-19T22:00:00+00:00",
       "timestamp": 1789855200,
@@ -13,7 +83,7 @@
       "venue": {
         "id": 1848,
         "name": "Complejo Deportivo Socialista",
-        "city": "Puerto Cabello"
+        "city": "Carabobo"
       },
       "status": {
         "long": "Match Finished",
@@ -77,13 +147,13 @@
       "date": "2026-09-16T21:00:00+00:00",
       "timestamp": 1789592400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789592400,
+        "second": 1789596000
       },
       "venue": {
         "id": 0,
-        "name": null,
-        "city": null
+        "name": "Estadio General Jose Antonio Paez",
+        "city": "Araure"
       },
       "status": {
         "long": "Match Finished",
@@ -223,7 +293,7 @@
       "venue": {
         "id": null,
         "name": "Estadio General Jose Antonio Paez",
-        "city": "Acarigua"
+        "city": "Araure"
       },
       "status": {
         "long": "Match Finished",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638060,
-      "referee": "Y. Herrera",
-      "timezone": "UTC",
-      "date": "2026-09-02T23:00:00+00:00",
-      "timestamp": 1788390000,
-      "periods": {
-        "first": 1788390000,
-        "second": 1788393600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Estadio Olimpico de la UCV",
-        "city": "Caracas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 299,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/299.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2026,
-      "round": "Clausura - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2808,
-        "name": "Caracas FC",
-        "logo": "https://media.api-sports.io/football/teams/2808.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2814,
-        "name": "Portuguesa FC",
-        "logo": "https://media.api-sports.io/football/teams/2814.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

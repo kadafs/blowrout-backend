@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552489,
+      "referee": "Pierre Retail, France",
+      "timezone": "UTC",
+      "date": "2026-10-09T18:00:00+00:00",
+      "timestamp": 1791568800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20107,
+        "name": "Stade de la Mosson",
+        "city": "Montpellier"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png",
+        "winner": true
+      },
+      "away": {
+        "id": 101,
+        "name": "Grenoble",
+        "logo": "https://media.api-sports.io/football/teams/101.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552484,
-      "referee": "Remi Landry",
+      "referee": "Remi Landry, France",
       "timezone": "UTC",
       "date": "2026-09-18T18:00:00+00:00",
       "timestamp": 1789754400,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552472,
-      "referee": null,
+      "referee": "Antoine Valnet, France",
       "timezone": "UTC",
       "date": "2026-09-11T18:00:00+00:00",
       "timestamp": 1789149600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552443,
-      "referee": "Eddy Rosier, France",
-      "timezone": "UTC",
-      "date": "2026-08-21T18:00:00+00:00",
-      "timestamp": 1787335200,
-      "periods": {
-        "first": 1787335200,
-        "second": 1787338800
-      },
-      "venue": {
-        "id": 646,
-        "name": "Stade Marcel Tribut",
-        "city": "Dunkerque"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1304,
-        "name": "Dunkerque",
-        "logo": "https://media.api-sports.io/football/teams/1304.png",
-        "winner": false
-      },
-      "away": {
-        "id": 82,
-        "name": "Montpellier",
-        "logo": "https://media.api-sports.io/football/teams/82.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

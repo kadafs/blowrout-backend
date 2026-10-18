@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638629,
+      "referee": "I. O. Kristjansson",
+      "timezone": "UTC",
+      "date": "2026-10-10T19:15:00+00:00",
+      "timestamp": 1791659700,
+      "periods": {
+        "first": 1791659700,
+        "second": 1791663300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 164,
+      "name": "\u00darvalsdeild",
+      "country": "Iceland",
+      "logo": "https://media.api-sports.io/football/leagues/164.png",
+      "flag": "https://media.api-sports.io/flags/is.svg",
+      "season": 2026,
+      "round": "Championship Group - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2117,
+        "name": "Fram Reykjavik",
+        "logo": "https://media.api-sports.io/football/teams/2117.png",
+        "winner": false
+      },
+      "away": {
+        "id": 271,
+        "name": "KR Reykjavik",
+        "logo": "https://media.api-sports.io/football/teams/271.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638626,
-      "referee": null,
+      "referee": "E. I. Arnason",
       "timezone": "UTC",
       "date": "2026-09-20T16:00:00+00:00",
       "timestamp": 1789920000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508843,
-      "referee": "J. I. Jonsson",
-      "timezone": "UTC",
-      "date": "2026-08-24T19:15:00+00:00",
-      "timestamp": 1787598900,
-      "periods": {
-        "first": 1787598900,
-        "second": 1787602500
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 164,
-      "name": "\u00darvalsdeild",
-      "country": "Iceland",
-      "logo": "https://media.api-sports.io/football/leagues/164.png",
-      "flag": "https://media.api-sports.io/flags/is.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 276,
-        "name": "Breidablik",
-        "logo": "https://media.api-sports.io/football/teams/276.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2117,
-        "name": "Fram Reykjavik",
-        "logo": "https://media.api-sports.io/football/teams/2117.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

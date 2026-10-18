@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1604023,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T15:15:00+00:00",
+      "timestamp": 1791904500,
+      "periods": {
+        "first": 1791904500,
+        "second": 1791908100
+      },
+      "venue": {
+        "id": null,
+        "name": "King Abdullah Sports City Stadium",
+        "city": "Buraidah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 308,
+      "name": "Division 1",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/308.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27480,
+        "name": "Al Saqer",
+        "logo": "https://media.api-sports.io/football/teams/27480.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2958,
+        "name": "Al Jabalain",
+        "logo": "https://media.api-sports.io/football/teams/2958.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604010,
       "referee": "M. Al Meshari",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603978,
-      "referee": "A. Al-Zubaidi",
-      "timezone": "UTC",
-      "date": "2026-08-27T17:50:00+00:00",
-      "timestamp": 1787853000,
-      "periods": {
-        "first": 1787853000,
-        "second": 1787856600
-      },
-      "venue": {
-        "id": null,
-        "name": "Al-Jouf University Stadium",
-        "city": "Sakakah"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 308,
-      "name": "Division 1",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/308.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10507,
-        "name": "Al Jandal",
-        "logo": "https://media.api-sports.io/football/teams/10507.png",
-        "winner": null
-      },
-      "away": {
-        "id": 27480,
-        "name": "Al Saqer",
-        "logo": "https://media.api-sports.io/football/teams/27480.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

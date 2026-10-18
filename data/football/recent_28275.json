@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630097,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T13:00:00+00:00",
+      "timestamp": 1791896400,
+      "periods": {
+        "first": 1791896400,
+        "second": 1791900000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1241,
+      "name": "U19 league",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/1241.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23030,
+        "name": "Crvena Zvezda U18",
+        "logo": "https://media.api-sports.io/football/teams/23030.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28275,
+        "name": "Novi Pazar U19",
+        "logo": "https://media.api-sports.io/football/teams/28275.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630092,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630065,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T15:30:00+00:00",
-      "timestamp": 1788103800,
-      "periods": {
-        "first": 1788103800,
-        "second": 1788107400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 1241,
-      "name": "U19 league",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/1241.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28275,
-        "name": "Novi Pazar U19",
-        "logo": "https://media.api-sports.io/football/teams/28275.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28273,
-        "name": "Sp. Subotica U19",
-        "logo": "https://media.api-sports.io/football/teams/28273.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

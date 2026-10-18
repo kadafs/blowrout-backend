@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630368,
+      "referee": "Thori Alkatiri",
+      "timezone": "UTC",
+      "date": "2026-10-14T16:00:00+00:00",
+      "timestamp": 1791993600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2349,
+        "name": "Al Sulaibikhat Stadium",
+        "city": "Kuwait City"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 18,
+      "name": "AFC Champions League Two",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/18.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3535,
+        "name": "Al Kuwait",
+        "logo": "https://media.api-sports.io/football/teams/3535.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17666,
+        "name": "Khalidiya",
+        "logo": "https://media.api-sports.io/football/teams/17666.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622647,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1622635,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-25T15:45:00+00:00",
-      "timestamp": 1787672700,
-      "periods": {
-        "first": 1787672700,
-        "second": 1787676300
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Kuwait Sports Club Stadium",
-        "city": "Kuwait"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 330,
-      "name": "Premier League",
-      "country": "Kuwait",
-      "logo": "https://media.api-sports.io/football/leagues/330.png",
-      "flag": "https://media.api-sports.io/flags/kw.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3535,
-        "name": "Al Kuwait",
-        "logo": "https://media.api-sports.io/football/teams/3535.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3532,
-        "name": "Al Arabi",
-        "logo": "https://media.api-sports.io/football/teams/3532.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1552494,
+      "referee": "Pierre Gaillouste, France",
+      "timezone": "UTC",
+      "date": "2026-10-10T18:00:00+00:00",
+      "timestamp": 1791655200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 676,
+        "name": "Stade Geoffroy-Guichard",
+        "city": "Saint Etienne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1642952,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T13:00:00+00:00",
+      "timestamp": 1791032400,
+      "periods": {
+        "first": 1791032400,
+        "second": 1791036000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Club Friendlies",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3342,
+        "name": "Inter Club d'Escaldes",
+        "logo": "https://media.api-sports.io/football/teams/3342.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552485,
-      "referee": "Gael Angoula",
+      "referee": "Gael Angoula, France",
       "timezone": "UTC",
       "date": "2026-09-18T18:00:00+00:00",
       "timestamp": 1789754400,
@@ -72,7 +212,7 @@
   {
     "fixture": {
       "id": 1552475,
-      "referee": null,
+      "referee": "Gabriel Henry, France",
       "timezone": "UTC",
       "date": "2026-09-11T18:00:00+00:00",
       "timestamp": 1789149600,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552458,
-      "referee": "Faouzi Benchabane, France",
-      "timezone": "UTC",
-      "date": "2026-08-28T18:00:00+00:00",
-      "timestamp": 1787940000,
-      "periods": {
-        "first": 1787940000,
-        "second": 1787943600
-      },
-      "venue": {
-        "id": 675,
-        "name": "Stade Paul-Lignon",
-        "city": "Rodez"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1301,
-        "name": "Rodez",
-        "logo": "https://media.api-sports.io/football/teams/1301.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1297,
-        "name": "PAU",
-        "logo": "https://media.api-sports.io/football/teams/1297.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552445,
-      "referee": "Ahmed Taleb, France",
-      "timezone": "UTC",
-      "date": "2026-08-22T12:00:00+00:00",
-      "timestamp": 1787400000,
-      "periods": {
-        "first": 1787400000,
-        "second": 1787403600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade de la Beaujoire",
-        "city": "Nantes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 83,
-        "name": "Nantes",
-        "logo": "https://media.api-sports.io/football/teams/83.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1301,
-        "name": "Rodez",
-        "logo": "https://media.api-sports.io/football/teams/1301.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1519658,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-14T16:00:00+00:00",
+      "timestamp": 1791993600,
+      "periods": {
+        "first": 1791993600,
+        "second": 1791997200
+      },
+      "venue": {
+        "id": 2327,
+        "name": "Maarjamae staadion",
+        "city": "Tallinn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 328,
+      "name": "Esiliiga A",
+      "country": "Estonia",
+      "logo": "https://media.api-sports.io/football/leagues/328.png",
+      "flag": "https://media.api-sports.io/flags/ee.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3517,
+        "name": "FCI Levadia II",
+        "logo": "https://media.api-sports.io/football/teams/3517.png",
+        "winner": true
+      },
+      "away": {
+        "id": 13826,
+        "name": "N\u00f5mme Kalju II",
+        "logo": "https://media.api-sports.io/football/teams/13826.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519656,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519629,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T09:30:00+00:00",
-      "timestamp": 1787995800,
-      "periods": {
-        "first": 1787995800,
-        "second": 1787999400
-      },
-      "venue": {
-        "id": null,
-        "name": "Maardu linnastaadion",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 328,
-      "name": "Esiliiga A",
-      "country": "Estonia",
-      "logo": "https://media.api-sports.io/football/leagues/328.png",
-      "flag": "https://media.api-sports.io/flags/ee.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3527,
-        "name": "Maardu",
-        "logo": "https://media.api-sports.io/football/teams/3527.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3517,
-        "name": "FCI Levadia II",
-        "logo": "https://media.api-sports.io/football/teams/3517.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
         "away": 2
       },
       "extratime": {

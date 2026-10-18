@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1636440,
+      "referee": "I. Barbara",
+      "timezone": "UTC",
+      "date": "2026-10-15T16:45:00+00:00",
+      "timestamp": 1792082700,
+      "periods": {
+        "first": 1792082700,
+        "second": 1792086300
+      },
+      "venue": {
+        "id": null,
+        "name": "Tammelan Stadion",
+        "city": "Tampere"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1165,
+        "name": "KuPS",
+        "logo": "https://media.api-sports.io/football/teams/1165.png",
+        "winner": false
+      },
+      "away": {
+        "id": 998,
+        "name": "Trabzonspor",
+        "logo": "https://media.api-sports.io/football/teams/998.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584429,
-      "referee": "O. Cakir",
+      "referee": "Oguzhan Cakir, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1584420,
-      "referee": "B. Kolak",
+      "referee": "Batuhan Kolak, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-09-19T17:00:00+00:00",
       "timestamp": 1789837200,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1584410,
-      "referee": "R. Coskunses",
+      "referee": "Resat Onur Coskunses, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-09-12T17:00:00+00:00",
       "timestamp": 1789232400,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Konya Buyuksehir Belediye Stadium",
+        "name": "Medas Konya B\u00fcy\u00fcksehir Belediyesi Stadium",
         "city": "Konya"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584402,
-      "referee": "C. Altay",
-      "timezone": "UTC",
-      "date": "2026-09-06T17:00:00+00:00",
-      "timestamp": 1788714000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20189,
-        "name": "Papara Park",
-        "city": "Trabzon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 203,
-      "name": "S\u00fcper Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/203.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 998,
-        "name": "Trabzonspor",
-        "logo": "https://media.api-sports.io/football/teams/998.png",
-        "winner": true
-      },
-      "away": {
-        "id": 997,
-        "name": "Gen\u00e7lerbirli\u011fi S.K.",
-        "logo": "https://media.api-sports.io/football/teams/997.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 0
       },
       "extratime": {

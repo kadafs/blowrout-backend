@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559442,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T10:00:00+00:00",
+      "timestamp": 1792144800,
+      "periods": {
+        "first": 1792144800,
+        "second": 1792148400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 886,
+      "name": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/886.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17941,
+        "name": "Belarus U17",
+        "logo": "https://media.api-sports.io/football/teams/17941.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17979,
+        "name": "Slovenia U17",
+        "logo": "https://media.api-sports.io/football/teams/17979.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1502264,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1479815,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-08T12:00:00+00:00",
-      "timestamp": 1759924800,
-      "periods": {
-        "first": 1759924800,
-        "second": 1759928400
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 886,
-      "name": "UEFA U17 Championship - Qualification",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/886.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17941,
-        "name": "Belarus U17",
-        "logo": "https://media.api-sports.io/football/teams/17941.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17969,
-        "name": "Norway U17",
-        "logo": "https://media.api-sports.io/football/teams/17969.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

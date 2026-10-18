@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492784,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T19:00:00+00:00",
+      "timestamp": 1792177200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2628,
+        "name": "Richmond Park",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 357,
+      "name": "Premier Division",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/357.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3843,
+        "name": "St Patrick's Athl.",
+        "logo": "https://media.api-sports.io/football/teams/3843.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3854,
+        "name": "Shelbourne",
+        "logo": "https://media.api-sports.io/football/teams/3854.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492775,
       "referee": "A. Hunter",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492752,
-      "referee": "M. Lynch",
-      "timezone": "UTC",
-      "date": "2026-08-21T18:45:00+00:00",
-      "timestamp": 1787337900,
-      "periods": {
-        "first": 1787337900,
-        "second": 1787341500
-      },
-      "venue": {
-        "id": null,
-        "name": "Weavers Park",
-        "city": "Drogheda"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 357,
-      "name": "Premier Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/357.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3850,
-        "name": "Drogheda United",
-        "logo": "https://media.api-sports.io/football/teams/3850.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3843,
-        "name": "St Patrick's Athl.",
-        "logo": "https://media.api-sports.io/football/teams/3843.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 0,

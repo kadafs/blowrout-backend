@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1609058,
+      "referee": "A. Migliorini",
+      "timezone": "UTC",
+      "date": "2026-10-13T13:00:00+00:00",
+      "timestamp": 1791896400,
+      "periods": {
+        "first": 1791896400,
+        "second": 1791900000
+      },
+      "venue": {
+        "id": 12435,
+        "name": "Stadio Alberto De Cristofaro",
+        "city": "Giugliano"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 943,
+      "name": "Serie C - Girone C",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/943.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone C - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9556,
+        "name": "Giugliano",
+        "logo": "https://media.api-sports.io/football/teams/9556.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26355,
+        "name": "Inter U23",
+        "logo": "https://media.api-sports.io/football/teams/26355.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1609072,
       "referee": "M. Pasculli",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609022,
-      "referee": "C. Aldi",
-      "timezone": "UTC",
-      "date": "2026-09-11T19:00:00+00:00",
-      "timestamp": 1789153200,
-      "periods": {
-        "first": 1789153200,
-        "second": 1789156800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Domenico Monterisi",
-        "city": "Cerignola"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 943,
-      "name": "Serie C - Girone C",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/943.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone C - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9539,
-        "name": "Audace Cerignola",
-        "logo": "https://media.api-sports.io/football/teams/9539.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9556,
-        "name": "Giugliano",
-        "logo": "https://media.api-sports.io/football/teams/9556.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

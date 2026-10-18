@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1612239,
+      "id": 1612254,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T17:00:00+00:00",
+      "timestamp": 1791824400,
+      "periods": {
+        "first": 1791824400,
+        "second": 1791828000
+      },
+      "venue": {
+        "id": 483,
+        "name": "Alexandria Stadium",
+        "city": "Alexandria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 233,
+      "name": "Premier League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/233.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1044,
+        "name": "Smouha SC",
+        "logo": "https://media.api-sports.io/football/teams/1044.png",
+        "winner": true
+      },
+      "away": {
+        "id": 13819,
+        "name": "Ghazl El Mehalla",
+        "logo": "https://media.api-sports.io/football/teams/13819.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612239,
+      "referee": "W. Farhan",
       "timezone": "UTC",
       "date": "2026-09-14T14:00:00+00:00",
       "timestamp": 1789394400,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1612234,
-      "referee": null,
+      "referee": "M. El Atabani",
       "timezone": "UTC",
       "date": "2026-09-08T17:00:00+00:00",
       "timestamp": 1788886800,
@@ -82,8 +152,8 @@
       },
       "venue": {
         "id": null,
-        "name": null,
-        "city": null
+        "name": "Borg El Arab Stadium",
+        "city": "Alexandria"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1612224,
-      "referee": null,
+      "referee": "A. Omar",
       "timezone": "UTC",
       "date": "2026-09-03T17:00:00+00:00",
       "timestamp": 1788454800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612204,
-      "referee": "M. El Zenary",
-      "timezone": "UTC",
-      "date": "2026-08-22T17:00:00+00:00",
-      "timestamp": 1787418000,
-      "periods": {
-        "first": 1787418000,
-        "second": 1787421600
-      },
-      "venue": {
-        "id": null,
-        "name": "Borg El Arab Stadium",
-        "city": "Alexandria"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1031,
-        "name": "AL Masry",
-        "logo": "https://media.api-sports.io/football/teams/1031.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1044,
-        "name": "Smouha SC",
-        "logo": "https://media.api-sports.io/football/teams/1044.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

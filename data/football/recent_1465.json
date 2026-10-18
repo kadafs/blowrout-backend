@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549666,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-15T22:00:00+00:00",
+      "timestamp": 1792101600,
+      "periods": {
+        "first": 1792101600,
+        "second": 1792105200
+      },
+      "venue": {
+        "id": 387,
+        "name": "Estadio Sierra Nevada",
+        "city": "Santa Marta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1465,
+        "name": "Union Magdalena",
+        "logo": "https://media.api-sports.io/football/teams/1465.png",
+        "winner": null
+      },
+      "away": {
+        "id": 27411,
+        "name": "Ind. Yumbo",
+        "logo": "https://media.api-sports.io/football/teams/27411.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549602,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545519,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T23:00:00+00:00",
-      "timestamp": 1790377200,
-      "periods": {
-        "first": 1790377200,
-        "second": 1790380800
-      },
-      "venue": {
-        "id": 387,
-        "name": "Estadio Sierra Nevada",
-        "city": "Santa Marta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 241,
-      "name": "Copa Colombia",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/241.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Play-offs",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1465,
-        "name": "Union Magdalena",
-        "logo": "https://media.api-sports.io/football/teams/1465.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1139,
-        "name": "Santa Fe",
-        "logo": "https://media.api-sports.io/football/teams/1139.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

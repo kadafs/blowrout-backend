@@ -179,18 +179,29 @@ def compute_shots_confidence(
     # If betting UNDER, target rate is (100 - over_rate)
     target_league_rate = l_rate if is_over else (100.0 - l_rate)
 
-    # Blend team rates if they have at least 3 games
+    # Blend team rates if they have at least 2 games
     team_rates = []
-    if h_stats.get("actual_shots_games", 0) >= 3:
-        h_ov = h_stats.get("shots_over_24_5_pct", l_rate)
-        team_rates.append(h_ov if is_over else (100.0 - h_ov))
-    if a_stats.get("actual_shots_games", 0) >= 3:
-        a_ov = a_stats.get("shots_over_24_5_pct", l_rate)
-        team_rates.append(a_ov if is_over else (100.0 - a_ov))
+    for t_stats in (h_stats, a_stats):
+        if t_stats.get("actual_shots_games", 0) >= 2:
+            if line_val >= 26.0:
+                t_ov = t_stats.get("shots_over_26_5_pct")
+            elif line_val >= 24.0:
+                t_ov = t_stats.get("shots_over_24_5_pct")
+            else:
+                t_ov = t_stats.get("shots_over_22_5_pct")
 
-    if team_rates:
-        team_avg = sum(team_rates) / len(team_rates)
+            if t_ov is None:
+                t_ov = t_stats.get("shots_over_24_5_pct", l_rate)
+
+            if t_ov is not None:
+                team_rates.append(t_ov if is_over else (100.0 - t_ov))
+
+    if len(team_rates) == 2:
+        team_avg = sum(team_rates) / 2.0
         blended_floor_rate = round(0.60 * team_avg + 0.40 * target_league_rate, 1)
+    elif len(team_rates) == 1:
+        team_avg = team_rates[0]
+        blended_floor_rate = round(0.40 * team_avg + 0.60 * target_league_rate, 1)
     else:
         # Shrinkage to global prior
         l_games = l_stats.get("actual_shots_games", 0)
@@ -286,7 +297,44 @@ def compute_shots_confidence(
         elif not is_over and bias < -2.0:
             cal_pts = max(0.0, cal_pts - 4.0)  # Model tends to project too low
 
+    # Team-level volatility / MAE penalty
+    team_maes = [
+        t.get("shots_mae") for t in (h_stats, a_stats)
+        if t.get("shots_mae") is not None and t.get("actual_shots_games", 0) >= 2
+    ]
+    if team_maes:
+        worst_team_mae = max(team_maes)
+        if worst_team_mae >= 7.0:
+            cal_pts = max(0.0, cal_pts - 5.0)  # Severe erratic shot volume penalty
+        elif worst_team_mae >= 5.5:
+            cal_pts = max(0.0, cal_pts - 2.5)
+
     total_score = round(floor_rate_pts + margin_pts + pace_pts + cal_pts, 1)
+
+    # -------------------------------------------------------------
+    # 5. Team Quality & Empirical Guardrail Caps
+    # -------------------------------------------------------------
+    # An [ELITE SHOTS] pick requires consistency. It CANNOT have:
+    # 1. A participating team with <= 50% hit rate (with >= 2 games).
+    # 2. Severe team volatility (MAE >= 7.0).
+    # 3. Low conversion risk (speculative shots, sub-27% accuracy on target).
+    cap_elite = False
+    for t_stats in (h_stats, a_stats):
+        if t_stats.get("actual_shots_games", 0) >= 2:
+            t_hr = t_stats.get("shots_hit_rate")
+            t_mae = t_stats.get("shots_mae")
+            if t_hr is not None and t_hr <= 50.0 and is_over:
+                cap_elite = True
+                break
+            if t_mae is not None and t_mae >= 7.0:
+                cap_elite = True
+                break
+
+    if is_over and conversion_rating == "LOW_CONVERSION_RISK":
+        cap_elite = True
+
+    if cap_elite and total_score >= 80.0:
+        total_score = min(total_score, 74.0)
 
     # Determine Confidence Band
     if total_score >= 80.0:

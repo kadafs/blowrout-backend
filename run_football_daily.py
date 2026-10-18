@@ -1043,6 +1043,11 @@ def main():
         print(f"  [xGOT] Warning: Could not build adjustments: {_e}")
         _XGOT_ADJ = {}
 
+    # Load historical Shots & SoT leaderboards once for confidence scoring
+    from core.shots_confidence import load_shots_leaderboards
+    shots_league_idx, shots_team_idx = load_shots_leaderboards()
+    print(f"  [SHOTS] Historical leaderboards loaded: {len(shots_league_idx)} leagues, {len(shots_team_idx)} teams")
+
     print("\n" + "=" * 70)
     print(f"  UNIVERSAL FOOTBALL PREDICTIONS | {date_str} | {args.mode.upper()}")
     print("=" * 70)
@@ -1237,14 +1242,23 @@ def main():
             shots_block = calculate_shots_prediction(
                 home_profile, away_profile,
                 pre_xg_home=xg_h, pre_xg_away=xg_a,
-                country=country, league=lname
+                country=country, league=lname,
+                home_team=home_s.get("name", ""),
+                away_team=away_s.get("name", ""),
+                league_id=league_id,
+                league_index=shots_league_idx,
+                team_index=shots_team_idx
             )
             if shots_block:
                 sh_call = shots_block.get("shots_call")
                 sot_call = shots_block.get("sot_call")
                 if sh_call != "PASS" or sot_call != "PASS":
+                    sh_tier = shots_block.get("shots_confidence_tier", "")
+                    sh_sc = shots_block.get("shots_confidence_score", 0)
+                    sot_tier = shots_block.get("sot_confidence_tier", "")
+                    sot_sc = shots_block.get("sot_confidence_score", 0)
                     print(f"      Shots: Exp {shots_block['exp_total_shots']} (SoT: {shots_block['exp_total_sot']}) -> "
-                          f"Shots: {sh_call} | SoT: {sot_call} [{shots_block['conversion_rating']}]")
+                          f"Shots: {sh_call} {sh_tier} ({sh_sc}pts) | SoT: {sot_call} {sot_tier} ({sot_sc}pts) [{shots_block['conversion_rating']}]")
                 if shots_block.get("conversion_rating") == "LOW_CONVERSION_RISK" and (calc_over_prob(xg_h + xg_a, 2.5) * 100) >= 70.0:
                     print(f"      ⚠️  CAUTION: Low shot accuracy ({shots_block['sot_accuracy_pct']}%) — Over 2.5 conversion risk.")
 

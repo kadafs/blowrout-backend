@@ -24,10 +24,69 @@ def _blank_stats():
         "bullseyes": 0, "excellents": 0, "solids": 0,
         "misses": 0, "busts": 0,
         "sum_delta": 0.0, "count_delta": 0,
-        "sum_signed_delta": 0.0, "count_signed_delta": 0
+        "sum_signed_delta": 0.0, "count_signed_delta": 0,
+        # Shots & SoT
+        "shots_w": 0, "shots_l": 0,
+        "sot_w": 0, "sot_l": 0,
+        "actual_shots_games": 0,
+        "sum_actual_shots": 0,
+        "sum_actual_sot": 0,
+        "shots_ge_22_5": 0,
+        "shots_ge_24_5": 0,
+        "shots_ge_26_5": 0,
+        "sot_ge_7_5": 0,
+        "sot_ge_8_5": 0,
+        "sot_ge_9_5": 0,
+        "shots_sum_delta": 0.0,
+        "shots_sum_signed_delta": 0.0,
+        "shots_count_delta": 0,
+        # Team-specific shot totals
+        "team_shots_for": 0,
+        "team_shots_ag": 0,
+        "team_sot_for": 0,
+        "team_sot_ag": 0,
+        "team_shot_games": 0
     }
 
-def _tally(bucket, pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, delta, signed_delta):
+def _shots_grade(pred: dict) -> str | None:
+    shots = pred.get("shots") or {}
+    call = shots.get("shots_call")
+    if not call or call == "PASS":
+        return None
+    actual_total = pred.get("actual_shots_total")
+    if actual_total is None:
+        return None
+    line_str = shots.get("shots_call_line", "")
+    try:
+        line_val = float(line_str.split()[-1])
+    except (ValueError, IndexError):
+        return None
+    if "OVER" in line_str:
+        return "WIN" if actual_total > line_val else "LOSS"
+    elif "UNDER" in line_str:
+        return "WIN" if actual_total < line_val else "LOSS"
+    return None
+
+def _sot_grade(pred: dict) -> str | None:
+    shots = pred.get("shots") or {}
+    call = shots.get("sot_call")
+    if not call or call == "PASS":
+        return None
+    actual_total = pred.get("actual_sot_total")
+    if actual_total is None:
+        return None
+    line_str = shots.get("sot_call_line", "")
+    try:
+        line_val = float(line_str.split()[-1])
+    except (ValueError, IndexError):
+        return None
+    if "OVER" in line_str:
+        return "WIN" if actual_total > line_val else "LOSS"
+    elif "UNDER" in line_str:
+        return "WIN" if actual_total < line_val else "LOSS"
+    return None
+
+def _tally(bucket, pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, delta, signed_delta, p=None, is_team=False, is_home=False):
     """Add one prediction's data into a stats bucket."""
     if actual_1x2 is not None:
         bucket["actual_games"] += 1
@@ -62,6 +121,58 @@ def _tally(bucket, pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_d
     if signed_delta is not None:
         bucket["sum_signed_delta"] += signed_delta
         bucket["count_signed_delta"] += 1
+
+    # --- Shots & SoT Tally ---
+    if p:
+        sh_gr = _shots_grade(p)
+        if sh_gr == "WIN": bucket["shots_w"] += 1
+        elif sh_gr == "LOSS": bucket["shots_l"] += 1
+
+        sot_gr = _sot_grade(p)
+        if sot_gr == "WIN": bucket["sot_w"] += 1
+        elif sot_gr == "LOSS": bucket["sot_l"] += 1
+
+        act_sh = p.get("actual_shots_total")
+        act_sot = p.get("actual_sot_total")
+        if act_sh is not None:
+            bucket["actual_shots_games"] += 1
+            bucket["sum_actual_shots"] += act_sh
+            if act_sh >= 23: bucket["shots_ge_22_5"] += 1
+            if act_sh >= 25: bucket["shots_ge_24_5"] += 1
+            if act_sh >= 27: bucket["shots_ge_26_5"] += 1
+            if act_sot is not None:
+                bucket["sum_actual_sot"] += act_sot
+                if act_sot >= 8: bucket["sot_ge_7_5"] += 1
+                if act_sot >= 9: bucket["sot_ge_8_5"] += 1
+                if act_sot >= 10: bucket["sot_ge_9_5"] += 1
+
+            exp_sh = (p.get("shots") or {}).get("exp_total_shots")
+            if exp_sh is not None:
+                bucket["shots_sum_delta"] += abs(exp_sh - act_sh)
+                bucket["shots_sum_signed_delta"] += (exp_sh - act_sh)
+                bucket["shots_count_delta"] += 1
+
+        if is_team:
+            if is_home:
+                t_sh_f = p.get("actual_shots_home")
+                t_sh_a = p.get("actual_shots_away")
+                t_sot_f = p.get("actual_sot_home")
+                t_sot_a = p.get("actual_sot_away")
+            else:
+                t_sh_f = p.get("actual_shots_away")
+                t_sh_a = p.get("actual_shots_home")
+                t_sot_f = p.get("actual_sot_away")
+                t_sot_a = p.get("actual_sot_home")
+
+            if t_sh_f is not None:
+                bucket["team_shots_for"] += t_sh_f
+                bucket["team_shot_games"] += 1
+            if t_sh_a is not None:
+                bucket["team_shots_ag"] += t_sh_a
+            if t_sot_f is not None:
+                bucket["team_sot_for"] += t_sot_f
+            if t_sot_a is not None:
+                bucket["team_sot_ag"] += t_sot_a
 
 def process_file(file_path, stats_dict, team_stats_dict):
     try:
@@ -115,10 +226,10 @@ def process_file(file_path, stats_dict, team_stats_dict):
                         "stats": _blank_stats()
                     }
 
-            _tally(stats_dict[key]["stats"], pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, total_delta, signed_delta)
+            _tally(stats_dict[key]["stats"], pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, total_delta, signed_delta, p=p, is_team=False)
             
-            for t_name in [home_team, away_team]:
-                _tally(team_stats_dict[t_name]["stats"], pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, total_delta, signed_delta)
+            _tally(team_stats_dict[home_team]["stats"], pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, total_delta, signed_delta, p=p, is_team=True, is_home=True)
+            _tally(team_stats_dict[away_team]["stats"], pred_1x2, actual_1x2, decision, actual_btts, d_flag, actual_draw, tier, total_delta, signed_delta, p=p, is_team=True, is_home=False)
 
     except Exception as e:
         print(f"Error processing {os.path.basename(file_path)}: {e}")
@@ -170,6 +281,54 @@ def _compile_metrics(s, base_info):
         draw_tier = "LOW"
     else:
         draw_tier = "STANDARD"
+
+    # --- Shots & SoT Metrics ---
+    sh_w = s.get("shots_w", 0)
+    sh_l = s.get("shots_l", 0)
+    sh_total = sh_w + sh_l
+    sh_hit_rate = round((sh_w / sh_total * 100), 1) if sh_total > 0 else 0.0
+
+    sot_w = s.get("sot_w", 0)
+    sot_l = s.get("sot_l", 0)
+    sot_total = sot_w + sot_l
+    sot_hit_rate = round((sot_w / sot_total * 100), 1) if sot_total > 0 else 0.0
+
+    sh_games = s.get("actual_shots_games", 0)
+    sum_sh = s.get("sum_actual_shots", 0)
+    sum_sot = s.get("sum_actual_sot", 0)
+    avg_match_shots = round(sum_sh / sh_games, 1) if sh_games > 0 else None
+    avg_match_sot = round(sum_sot / sh_games, 1) if sh_games > 0 else None
+    sot_conv_pct = round((sum_sot / sum_sh * 100), 1) if sum_sh > 0 else None
+
+    over_22_5_pct = round((s.get("shots_ge_22_5", 0) / sh_games * 100), 1) if sh_games > 0 else None
+    over_24_5_pct = round((s.get("shots_ge_24_5", 0) / sh_games * 100), 1) if sh_games > 0 else None
+    over_26_5_pct = round((s.get("shots_ge_26_5", 0) / sh_games * 100), 1) if sh_games > 0 else None
+    sot_over_8_5_pct = round((s.get("sot_ge_8_5", 0) / sh_games * 100), 1) if sh_games > 0 else None
+
+    sh_count_d = s.get("shots_count_delta", 0)
+    shots_mae = round(s.get("shots_sum_delta", 0.0) / sh_count_d, 2) if sh_count_d > 0 else None
+    shots_bias = round(s.get("shots_sum_signed_delta", 0.0) / sh_count_d, 2) if sh_count_d > 0 else None
+
+    # Shots Pace Tier
+    if sh_games >= 5:
+        if avg_match_shots and avg_match_shots >= 26.5 and (over_24_5_pct or 0) >= 60.0:
+            shots_tier = "ELITE_PACE"
+        elif avg_match_shots and avg_match_shots >= 24.5 and (over_24_5_pct or 0) >= 50.0:
+            shots_tier = "HIGH_PACE"
+        elif avg_match_shots and (avg_match_shots <= 21.5 or (over_24_5_pct or 0) <= 35.0):
+            shots_tier = "LOW_EVENT"
+        else:
+            shots_tier = "BALANCED"
+    else:
+        shots_tier = "UNVERIFIED"
+
+    # Team-specific metrics
+    t_games = s.get("team_shot_games", 0)
+    t_sh_for = round(s.get("team_shots_for", 0) / t_games, 1) if t_games > 0 else None
+    t_sh_ag  = round(s.get("team_shots_ag", 0) / t_games, 1) if t_games > 0 else None
+    t_sot_for = round(s.get("team_sot_for", 0) / t_games, 1) if t_games > 0 else None
+    t_sot_ag  = round(s.get("team_sot_ag", 0) / t_games, 1) if t_games > 0 else None
+    t_sot_acc = round((s.get("team_sot_for", 0) / s.get("team_shots_for", 1) * 100), 1) if s.get("team_shots_for", 0) > 0 else None
     
     metrics = {
         "btts_plays": b_total,
@@ -194,7 +353,30 @@ def _compile_metrics(s, base_info):
         "solids": s["solids"],
         "misses": s["misses"],
         "busts": s["busts"],
-        "graded_totals": count_d
+        "graded_totals": count_d,
+        # Shots & SoT
+        "shots_plays": sh_total,
+        "shots_w": sh_w, "shots_l": sh_l,
+        "shots_hit_rate": sh_hit_rate,
+        "sot_plays": sot_total,
+        "sot_w": sot_w, "sot_l": sot_l,
+        "sot_hit_rate": sot_hit_rate,
+        "actual_shots_games": sh_games,
+        "avg_match_shots": avg_match_shots,
+        "avg_match_sot": avg_match_sot,
+        "sot_conversion_rate": sot_conv_pct,
+        "shots_over_22_5_pct": over_22_5_pct,
+        "shots_over_24_5_pct": over_24_5_pct,
+        "shots_over_26_5_pct": over_26_5_pct,
+        "sot_over_8_5_pct": sot_over_8_5_pct,
+        "shots_mae": shots_mae,
+        "shots_bias": shots_bias,
+        "shots_tier": shots_tier,
+        "team_shots_for": t_sh_for,
+        "team_shots_ag": t_sh_ag,
+        "team_sot_for": t_sot_for,
+        "team_sot_ag": t_sot_ag,
+        "team_sot_accuracy": t_sot_acc
     }
     metrics.update(base_info)
     return metrics

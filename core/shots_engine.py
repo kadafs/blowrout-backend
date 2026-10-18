@@ -72,17 +72,30 @@ def _is_womens_league(league: str, country: str = "") -> bool:
     return any(kw in combined for kw in WOMENS_LEAGUE_KEYWORDS)
 
 
+from core.shots_confidence import (
+    compute_shots_confidence,
+    compute_sot_confidence,
+    lookup_league_stats,
+    lookup_team_stats
+)
+
+
 def calculate_shots_prediction(
     home_profile: Optional[Dict[str, Any]],
     away_profile: Optional[Dict[str, Any]],
     pre_xg_home: Optional[float] = None,
     pre_xg_away: Optional[float] = None,
     country: str = "",
-    league: str = ""
+    league: str = "",
+    home_team: str = "",
+    away_team: str = "",
+    league_id: Optional[int] = None,
+    league_index: Optional[Dict[str, Any]] = None,
+    team_index: Optional[Dict[str, Any]] = None
 ) -> Optional[Dict[str, Any]]:
     """
-    Generate match-level Total Shots and Shots on Target (SoT) projections
-    and betting signals from team profiles and pre-match context.
+    Generate match-level Total Shots and Shots on Target (SoT) projections,
+    confidence levels, and betting signals from team profiles and pre-match context.
     """
     h_prof = home_profile or {}
     a_prof = away_profile or {}
@@ -95,6 +108,13 @@ def calculate_shots_prediction(
     # Check if teams are quarantined
     if h_prof.get("quarantined") or a_prof.get("quarantined"):
         return None
+
+    # Look up league empirical stats if available
+    l_stats = lookup_league_stats(league_id, league, country, league_index or {}) or {}
+    if l_stats.get("sot_conversion_rate"):
+        league_sot_ratio = min(0.48, max(0.20, l_stats["sot_conversion_rate"] / 100.0))
+    else:
+        league_sot_ratio = DEFAULT_SOT_RATIO
 
     # 1. Resolve Home Team Expected Shots
     # Blend home team shots generated with away team shots conceded
@@ -130,14 +150,19 @@ def calculate_shots_prediction(
     exp_total_shots = round(min(38.0, exp_home_shots + exp_away_shots), 1)
 
     # 3. Resolve Shots on Target (SoT) Accuracy Ratios
-    # Accuracy ratio = SoT / Total Shots (baseline ~ 34.5%)
+    # Accuracy ratio = SoT / Total Shots (baseline ~ 34.5% or league empirical)
     h_sot_ratio = h_prof.get("sot_accuracy_ratio")
     if not h_sot_ratio:
         h_sot_for = h_prof.get("home_sot_for") or h_prof.get("avg_sot_for")
         if h_sot_for and h_shots_for and h_shots_for > 0:
             h_sot_ratio = min(0.50, max(0.20, float(h_sot_for) / float(h_shots_for)))
         else:
-            h_sot_ratio = DEFAULT_SOT_RATIO
+            # Check team leaderboard empirical accuracy
+            h_team_stats = lookup_team_stats(home_team, league_id, team_index or {}) or {}
+            if h_team_stats.get("team_sot_accuracy"):
+                h_sot_ratio = min(0.50, max(0.20, h_team_stats["team_sot_accuracy"] / 100.0))
+            else:
+                h_sot_ratio = league_sot_ratio
     else:
         h_sot_ratio = min(0.50, max(0.20, float(h_sot_ratio)))
 
@@ -147,7 +172,12 @@ def calculate_shots_prediction(
         if a_sot_for and a_shots_for and a_shots_for > 0:
             a_sot_ratio = min(0.50, max(0.20, float(a_sot_for) / float(a_shots_for)))
         else:
-            a_sot_ratio = DEFAULT_SOT_RATIO
+            # Check team leaderboard empirical accuracy
+            a_team_stats = lookup_team_stats(away_team, league_id, team_index or {}) or {}
+            if a_team_stats.get("team_sot_accuracy"):
+                a_sot_ratio = min(0.50, max(0.20, a_team_stats["team_sot_accuracy"] / 100.0))
+            else:
+                a_sot_ratio = league_sot_ratio
     else:
         a_sot_ratio = min(0.50, max(0.20, float(a_sot_ratio)))
 
@@ -181,8 +211,6 @@ def calculate_shots_prediction(
 
     # 6. Actionable Market Calls
     # Guard: suppress all calls when exp_total_shots is suspiciously low.
-    # Values below 18 indicate missing/bad historical data (e.g. Belarus, low-tier leagues
-    # with no API shot stats) — the Poisson model has no reliable signal in this range.
     DATA_QUALITY_FLOOR = 18.0
 
     # Shots Call
@@ -213,6 +241,37 @@ def calculate_shots_prediction(
             sot_call = "UNDER 7.5"
             sot_call_line = "UNDER 7.5"
 
+    # 7. Compute Confidence Scores
+    shots_conf = compute_shots_confidence(
+        exp_total_shots=exp_total_shots,
+        shots_call=shots_call,
+        shots_call_line=shots_call_line,
+        home_team=home_team,
+        away_team=away_team,
+        league_id=league_id,
+        league_name=league,
+        country=country,
+        pre_xg_total=(pre_xg_home or 0.0) + (pre_xg_away or 0.0),
+        conversion_rating=conversion_rating,
+        league_index=league_index,
+        team_index=team_index
+    )
+
+    sot_conf = compute_sot_confidence(
+        exp_total_sot=exp_total_sot,
+        sot_call=sot_call,
+        sot_call_line=sot_call_line,
+        shots_confidence_score=shots_conf.get("score", 0.0),
+        conversion_rating=conversion_rating,
+        home_team=home_team,
+        away_team=away_team,
+        league_id=league_id,
+        league_name=league,
+        country=country,
+        league_index=league_index,
+        team_index=team_index
+    )
+
     return {
         "exp_home_shots": exp_home_shots,
         "exp_away_shots": exp_away_shots,
@@ -230,6 +289,14 @@ def calculate_shots_prediction(
         "over_9_5_sot_prob": prob_over_9_5_sot,
         "shots_call": shots_call,
         "shots_call_line": shots_call_line,
+        "shots_confidence_score": shots_conf.get("score", 0.0),
+        "shots_confidence_tier": shots_conf.get("tier", "[PASS]"),
+        "shots_margin": shots_conf.get("margin", 0.0),
+        "shots_pace_tier": shots_conf.get("shots_tier", "UNVERIFIED"),
         "sot_call": sot_call,
-        "sot_call_line": sot_call_line
+        "sot_call_line": sot_call_line,
+        "sot_confidence_score": sot_conf.get("score", 0.0),
+        "sot_confidence_tier": sot_conf.get("tier", "[PASS]"),
+        "sot_margin": sot_conf.get("margin", 0.0)
     }
+

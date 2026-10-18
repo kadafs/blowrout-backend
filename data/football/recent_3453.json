@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644213,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-14T20:00:00+00:00",
+      "timestamp": 1792008000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1106,
+        "name": "Grand Stade de Tanger",
+        "city": "Tangier"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 974,
+        "name": "Ittihad Tanger",
+        "logo": "https://media.api-sports.io/football/teams/974.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3453,
+        "name": "Maghreb F\u00e8s",
+        "logo": "https://media.api-sports.io/football/teams/3453.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644205,
       "referee": "M. El Houidri",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619066,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T19:00:00+00:00",
-      "timestamp": 1788721200,
-      "periods": {
-        "first": 1788721200,
-        "second": 1788724800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3453,
-        "name": "Maghreb F\u00e8s",
-        "logo": "https://media.api-sports.io/football/teams/3453.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6430,
-        "name": "Rahimo",
-        "logo": "https://media.api-sports.io/football/teams/6430.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

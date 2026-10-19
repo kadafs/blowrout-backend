@@ -96,18 +96,19 @@ def copy_sport_data(sport: str, date_filter: str | None = None):
             shutil.copy2(src_file, dest_file)
         copied.append(src_file.name)
 
-    # Also copy leaderboard files if they exist
-    for lb_file in src_dir.glob("*leaderboard*.json"):
-        dest_lb = dest_dir / lb_file.name
-        try:
-            import json
-            with open(lb_file, "r", encoding="utf-8") as rf:
-                lb_payload = json.load(rf)
-            with open(dest_lb, "w", encoding="utf-8") as wf:
-                json.dump(lb_payload, wf, separators=(",", ":"))
-        except Exception:
-            shutil.copy2(lb_file, dest_lb)
-        print(f"  📄 Copying (minified): {lb_file.name}")
+    # Also copy leaderboard and signal stats files if they exist
+    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json"):
+        for aux_file in src_dir.glob(aux_pattern):
+            dest_aux = dest_dir / aux_file.name
+            try:
+                import json
+                with open(aux_file, "r", encoding="utf-8") as rf:
+                    aux_payload = json.load(rf)
+                with open(dest_aux, "w", encoding="utf-8") as wf:
+                    json.dump(aux_payload, wf, separators=(",", ":"))
+            except Exception:
+                shutil.copy2(aux_file, dest_aux)
+            print(f"  📄 Copying (minified): {aux_file.name}")
 
     print(f"  ✅ Copied {len(copied)} file(s) for {sport}.")
     return copied
@@ -124,7 +125,15 @@ def cleanup_old_files(sport: str, keep_days: int = 7):
     if not dest_dir.exists():
         return
 
-    allowed_prefixes = ("universal_predictions_", "dates_index", "league_leaderboard", "basketball_leaderboard", "football_leaderboard")
+    allowed_prefixes = (
+        "universal_predictions_",
+        "dates_index",
+        "league_leaderboard",
+        "basketball_leaderboard",
+        "football_leaderboard",
+        "basketball_signal_stats",
+        "signal_stats"
+    )
     removed = []
 
     # 1. Purge stray/unused files (e.g. recent_*, standings_*, scrap logs)

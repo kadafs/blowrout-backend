@@ -424,5 +424,13 @@ def main():
         data["grade_summary"] = grade_summary_by_model
         save_predictions(date, data)
 
+        # Update live Clash & Shootout signal performance benchmarks
+        try:
+            from build_basketball_signal_stats import build_signal_stats
+            print("\n🔄 Updating live Basketball Clash & Shootout signal benchmarks...")
+            build_signal_stats(save_to_dashboard=True)
+        except Exception as e:
+            print(f"  [WARN] Could not update signal benchmarks: {e}")
+
 if __name__ == "__main__":
     main()

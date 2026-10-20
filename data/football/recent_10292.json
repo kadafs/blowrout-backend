@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645774,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T19:00:00+00:00",
+      "timestamp": 1792350000,
+      "periods": {
+        "first": 1792350000,
+        "second": 1792353600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Mamadou Konate",
+        "city": "Bamako"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 538,
+      "name": "Africa Cup of Nations U20",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/538.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Qualification - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10292,
+        "name": "Mali U20",
+        "logo": "https://media.api-sports.io/football/teams/10292.png",
+        "winner": false
+      },
+      "away": {
+        "id": 11031,
+        "name": "Gambia U20",
+        "logo": "https://media.api-sports.io/football/teams/11031.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645768,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 330597,
-      "referee": "S. Mart\u00ednez",
-      "timezone": "UTC",
-      "date": "2019-05-31T16:00:00+00:00",
-      "timestamp": 1559318400,
-      "periods": {
-        "first": 1559318400,
-        "second": 1559322000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Miejski (Gdynia)",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 490,
-      "name": "World Cup - U20",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/490.png",
-      "flag": null,
-      "season": 2019,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10292,
-        "name": "Mali U20",
-        "logo": "https://media.api-sports.io/football/teams/10292.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10287,
-        "name": "France U20",
-        "logo": "https://media.api-sports.io/football/teams/10287.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

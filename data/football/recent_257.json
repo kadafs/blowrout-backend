@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556678,
+      "referee": "Duncan Nicolson",
+      "timezone": "UTC",
+      "date": "2026-10-17T19:00:00+00:00",
+      "timestamp": 1792263600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20420,
+        "name": "Dens Park",
+        "city": "Dundee"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 253,
+        "name": "Dundee",
+        "logo": "https://media.api-sports.io/football/teams/253.png",
+        "winner": null
+      },
+      "away": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556675,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556661,
-      "referee": "D. Nicolson",
-      "timezone": "UTC",
-      "date": "2026-09-05T14:00:00+00:00",
-      "timestamp": 1788616800,
-      "periods": {
-        "first": 1788616800,
-        "second": 1788620400
-      },
-      "venue": {
-        "id": 1401,
-        "name": "Ibrox Stadium",
-        "city": "Glasgow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 257,
-        "name": "Rangers",
-        "logo": "https://media.api-sports.io/football/teams/257.png",
-        "winner": true
-      },
-      "away": {
-        "id": 256,
-        "name": "Motherwell",
-        "logo": "https://media.api-sports.io/football/teams/256.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

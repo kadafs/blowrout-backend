@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552192,
+      "referee": "Jeroen Manschot",
+      "timezone": "UTC",
+      "date": "2026-10-17T18:00:00+00:00",
+      "timestamp": 1792260000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20187,
+        "name": "Sportpark Schoonenberg",
+        "city": "Felsen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 427,
+        "name": "Telstar",
+        "logo": "https://media.api-sports.io/football/teams/427.png",
+        "winner": false
+      },
+      "away": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635665,
       "referee": "Donatas Rumsas",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635628,
-      "referee": "Sven Jablonski, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-09T16:45:00+00:00",
-      "timestamp": 1788972300,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Spotify Camp Nou",
-        "city": "Barcelona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 2,
-      "name": "UEFA Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/2.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 529,
-        "name": "Barcelona",
-        "logo": "https://media.api-sports.io/football/teams/529.png",
-        "winner": true
-      },
-      "away": {
-        "id": 209,
-        "name": "Feyenoord",
-        "logo": "https://media.api-sports.io/football/teams/209.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 1
       },
       "extratime": {
         "home": null,

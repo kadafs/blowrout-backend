@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619334,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T21:15:00+00:00",
+      "timestamp": 1792358100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 198,
+        "name": "Estadio Hernando Siles",
+        "city": "La Paz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 344,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/344.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Apertura - 22",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3711,
+        "name": "The Strongest",
+        "logo": "https://media.api-sports.io/football/teams/3711.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3700,
+        "name": "Always Ready",
+        "logo": "https://media.api-sports.io/football/teams/3700.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619327,
       "referee": "I. N. Mendez Chavez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619685,
-      "referee": "L. Villarroel",
-      "timezone": "UTC",
-      "date": "2026-09-25T23:30:00+00:00",
-      "timestamp": 1790379000,
-      "periods": {
-        "first": 1790379000,
-        "second": 1790382600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 964,
-      "name": "Copa de la Divisi\u00f3n Profesional",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/964.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Group Stage - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3706,
-        "name": "Nacional Potos\u00ed",
-        "logo": "https://media.api-sports.io/football/teams/3706.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3700,
-        "name": "Always Ready",
-        "logo": "https://media.api-sports.io/football/teams/3700.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 9,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 9,
-        "away": 0
       },
       "extratime": {
         "home": null,

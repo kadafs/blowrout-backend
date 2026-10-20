@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637334,
+      "referee": "K. Umudlu",
+      "timezone": "UTC",
+      "date": "2026-10-14T12:00:00+00:00",
+      "timestamp": 1791979200,
+      "periods": {
+        "first": 1791979200,
+        "second": 1791982800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Tre Fontane",
+        "city": "Rome"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7966,
+        "name": "Roma U19",
+        "logo": "https://media.api-sports.io/football/teams/7966.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7926,
+        "name": "Real Madrid U19",
+        "logo": "https://media.api-sports.io/football/teams/7926.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640833,
       "referee": "D. Sylwestrzak",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491680,
-      "referee": "S. Barrott",
-      "timezone": "UTC",
-      "date": "2026-02-03T15:00:00+00:00",
-      "timestamp": 1770130800,
-      "periods": {
-        "first": 1770130800,
-        "second": 1770134400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Madrid"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "Round of 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7926,
-        "name": "Real Madrid U19",
-        "logo": "https://media.api-sports.io/football/teams/7926.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16394,
-        "name": "Olympique Marseille U19",
-        "logo": "https://media.api-sports.io/football/teams/16394.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

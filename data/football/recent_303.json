@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556095,
+      "referee": "Jumpei Iida",
+      "timezone": "UTC",
+      "date": "2026-10-18T07:00:00+00:00",
+      "timestamp": 1792306800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 968,
+        "name": "Machida GION Stadium",
+        "city": "Tokyo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 303,
+        "name": "Machida Zelvia",
+        "logo": "https://media.api-sports.io/football/teams/303.png",
+        "winner": true
+      },
+      "away": {
+        "id": 316,
+        "name": "Avispa Fukuoka",
+        "logo": "https://media.api-sports.io/football/teams/316.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630374,
       "referee": null,
       "timezone": "UTC",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1556075,
-      "referee": "Takafumi Mikuriya",
+      "referee": "Takafumi Mikuriya, Japan",
       "timezone": "UTC",
       "date": "2026-09-20T08:00:00+00:00",
       "timestamp": 1789891200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630356,
-      "referee": "A. Abo Alo",
-      "timezone": "UTC",
-      "date": "2026-09-17T10:00:00+00:00",
-      "timestamp": 1789639200,
-      "periods": {
-        "first": 1789639200,
-        "second": 1789642800
-      },
-      "venue": {
-        "id": null,
-        "name": "Machida GION Stadium",
-        "city": "Machida"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 18,
-      "name": "AFC Champions League Two",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/18.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 303,
-        "name": "Machida Zelvia",
-        "logo": "https://media.api-sports.io/football/teams/303.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5396,
-        "name": "Svay Rieng",
-        "logo": "https://media.api-sports.io/football/teams/5396.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

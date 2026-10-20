@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563806,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:30:00+00:00",
+      "timestamp": 1792236600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 533,
+        "name": "Highbury Stadium",
+        "city": "Fleetwood"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1336,
+        "name": "Fleetwood Town",
+        "logo": "https://media.api-sports.io/football/teams/1336.png",
+        "winner": true
+      },
+      "away": {
+        "id": 73,
+        "name": "Rotherham",
+        "logo": "https://media.api-sports.io/football/teams/73.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563794,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588854,
-      "referee": "M. Barlow",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 568,
-        "name": "Boundary Park",
-        "city": "Oldham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group North - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1349,
-        "name": "Oldham",
-        "logo": "https://media.api-sports.io/football/teams/1349.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1336,
-        "name": "Fleetwood Town",
-        "logo": "https://media.api-sports.io/football/teams/1336.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

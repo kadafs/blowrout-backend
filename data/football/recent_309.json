@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555749,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T05:00:00+00:00",
+      "timestamp": 1792299600,
+      "periods": {
+        "first": 1792299600,
+        "second": 1792303200
+      },
+      "venue": {
+        "id": 1697,
+        "name": "Ishin Me-Life Stadium",
+        "city": "Yamaguchi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 309,
+        "name": "Renofa Yamaguchi",
+        "logo": "https://media.api-sports.io/football/teams/309.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7129,
+        "name": "Kochi United",
+        "logo": "https://media.api-sports.io/football/teams/7129.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555739,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555698,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T10:00:00+00:00",
-      "timestamp": 1789207200,
-      "periods": {
-        "first": 1789207200,
-        "second": 1789210800
-      },
-      "venue": {
-        "id": 1697,
-        "name": "Ishin Me-Life Stadium",
-        "city": "Yamaguchi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 309,
-        "name": "Renofa Yamaguchi",
-        "logo": "https://media.api-sports.io/football/teams/309.png",
-        "winner": true
-      },
-      "away": {
-        "id": 756,
-        "name": "Thespakusatsu Gunma",
-        "logo": "https://media.api-sports.io/football/teams/756.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

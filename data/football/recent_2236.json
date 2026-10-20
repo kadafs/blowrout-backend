@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555744,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T09:00:00+00:00",
+      "timestamp": 1792227600,
+      "periods": {
+        "first": 1792227600,
+        "second": 1792231200
+      },
+      "venue": {
+        "id": 11575,
+        "name": "Shiranami Stadium",
+        "city": "Kagoshima"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2236,
+        "name": "Kagoshima United",
+        "logo": "https://media.api-sports.io/football/teams/2236.png",
+        "winner": true
+      },
+      "away": {
+        "id": 318,
+        "name": "Ehime FC",
+        "logo": "https://media.api-sports.io/football/teams/318.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555740,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555703,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T10:00:00+00:00",
-      "timestamp": 1789812000,
-      "periods": {
-        "first": 1789812000,
-        "second": 1789815600
-      },
-      "venue": {
-        "id": 11575,
-        "name": "Shiranami Stadium",
-        "city": "Kagoshima"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2236,
-        "name": "Kagoshima United",
-        "logo": "https://media.api-sports.io/football/teams/2236.png",
-        "winner": true
-      },
-      "away": {
-        "id": 315,
-        "name": "Tochigi SC",
-        "logo": "https://media.api-sports.io/football/teams/315.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

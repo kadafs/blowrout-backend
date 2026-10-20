@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622794,
+      "referee": "A. Aranda",
+      "timezone": "UTC",
+      "date": "2026-10-16T12:00:00+00:00",
+      "timestamp": 1792152000,
+      "periods": {
+        "first": 1792152000,
+        "second": 1792155600
+      },
+      "venue": {
+        "id": null,
+        "name": "Gelora Bumi Kartini Stadium",
+        "city": "Jepara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 274,
+      "name": "Liga 1",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/274.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11132,
+        "name": "Persijap",
+        "logo": "https://media.api-sports.io/football/teams/11132.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24993,
+        "name": "Isenmulang Kalteng",
+        "logo": "https://media.api-sports.io/football/teams/24993.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622782,
       "referee": "A. F. Sinaga",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544115,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-08T08:00:00+00:00",
-      "timestamp": 1778227200,
-      "periods": {
-        "first": 1778227200,
-        "second": 1778230800
-      },
-      "venue": {
-        "id": null,
-        "name": "Mandala Stadium",
-        "city": "Jayapura"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 12
-      }
-    },
-    "league": {
-      "id": 275,
-      "name": "Liga 2",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/275.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2025,
-      "round": "Promotion Round - Final",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2440,
-        "name": "Persipura Jayapura",
-        "logo": "https://media.api-sports.io/football/teams/2440.png",
-        "winner": false
-      },
-      "away": {
-        "id": 24993,
-        "name": "Isenmulang Kalteng",
-        "logo": "https://media.api-sports.io/football/teams/24993.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

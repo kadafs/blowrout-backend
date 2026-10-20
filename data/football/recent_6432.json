@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600791,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T16:00:00+00:00",
+      "timestamp": 1791907200,
+      "periods": {
+        "first": 1791907200,
+        "second": 1791910800
+      },
+      "venue": {
+        "id": 22568,
+        "name": "Isamuhyo Stadium",
+        "city": "Dar es Salaam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 567,
+      "name": "Ligi kuu Bara",
+      "country": "Tanzania",
+      "logo": "https://media.api-sports.io/football/leagues/567.png",
+      "flag": "https://media.api-sports.io/flags/tz.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6432,
+        "name": "Simba",
+        "logo": "https://media.api-sports.io/football/teams/6432.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22176,
+        "name": "Mashujaa",
+        "logo": "https://media.api-sports.io/football/teams/22176.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600787,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600764,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-31T15:30:00+00:00",
-      "timestamp": 1788190200,
-      "periods": {
-        "first": 1788190200,
-        "second": 1788193800
-      },
-      "venue": {
-        "id": 22568,
-        "name": "Isamuhyo Stadium",
-        "city": "Dar es Salaam"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 567,
-      "name": "Ligi kuu Bara",
-      "country": "Tanzania",
-      "logo": "https://media.api-sports.io/football/leagues/567.png",
-      "flag": "https://media.api-sports.io/flags/tz.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6432,
-        "name": "Simba",
-        "logo": "https://media.api-sports.io/football/teams/6432.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17752,
-        "name": "Geita Gold",
-        "logo": "https://media.api-sports.io/football/teams/17752.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

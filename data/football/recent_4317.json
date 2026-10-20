@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606697,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T05:00:00+00:00",
+      "timestamp": 1792213200,
+      "periods": {
+        "first": 1792213200,
+        "second": 1792216800
+      },
+      "venue": {
+        "id": 0,
+        "name": "Fujieda soccer stadium",
+        "city": "Fujieda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4317,
+        "name": "Fujieda MYFC",
+        "logo": "https://media.api-sports.io/football/teams/4317.png",
+        "winner": null
+      },
+      "away": {
+        "id": 312,
+        "name": "Montedio Yamagata",
+        "logo": "https://media.api-sports.io/football/teams/312.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606689,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635586,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T08:00:00+00:00",
-      "timestamp": 1790150400,
-      "periods": {
-        "first": 1790150400,
-        "second": 1790154000
-      },
-      "venue": {
-        "id": 967,
-        "name": "Sanga Stadium by Kyocera",
-        "city": "Kameoka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 102,
-      "name": "Emperor Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/102.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 302,
-        "name": "Kyoto Sanga",
-        "logo": "https://media.api-sports.io/football/teams/302.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4317,
-        "name": "Fujieda MYFC",
-        "logo": "https://media.api-sports.io/football/teams/4317.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

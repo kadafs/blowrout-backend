@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636709,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T20:30:00+00:00",
+      "timestamp": 1792269000,
+      "periods": {
+        "first": 1792269000,
+        "second": 1792272600
+      },
+      "venue": {
+        "id": 473,
+        "name": "Estadio Reales Tamarindos",
+        "city": "Portoviejo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 243,
+      "name": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/243.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Relegation Group - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1988,
+        "name": "LDU Portoviejo",
+        "logo": "https://media.api-sports.io/football/teams/1988.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1986,
+        "name": "Gualaceo SC",
+        "logo": "https://media.api-sports.io/football/teams/1986.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636705,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634300,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-17T00:00:00+00:00",
-      "timestamp": 1789603200,
-      "periods": {
-        "first": 1789603200,
-        "second": 1789606800
-      },
-      "venue": {
-        "id": 473,
-        "name": "Estadio Reales Tamarindos",
-        "city": "Portoviejo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 917,
-      "name": "Copa Ecuador",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/917.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2025,
-      "round": "Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1988,
-        "name": "LDU Portoviejo",
-        "logo": "https://media.api-sports.io/football/teams/1988.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1149,
-        "name": "Delfin SC",
-        "logo": "https://media.api-sports.io/football/teams/1149.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

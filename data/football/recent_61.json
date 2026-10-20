@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564365,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 599,
+        "name": "DW Stadium",
+        "city": "Wigan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": true
+      },
+      "away": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564352,
       "referee": "Abigail Byrne",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564293,
-      "referee": "T. Parsons",
-      "timezone": "UTC",
-      "date": "2026-09-05T11:30:00+00:00",
-      "timestamp": 1788607800,
-      "periods": {
-        "first": 1788607800,
-        "second": 1788611400
-      },
-      "venue": {
-        "id": 599,
-        "name": "The Brick Community Stadium",
-        "city": "Wigan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 61,
-        "name": "Wigan",
-        "logo": "https://media.api-sports.io/football/teams/61.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4686,
-        "name": "Stockport County",
-        "logo": "https://media.api-sports.io/football/teams/4686.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

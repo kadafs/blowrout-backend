@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552786,
+      "referee": "Clement Turpin, France",
+      "timezone": "UTC",
+      "date": "2026-10-17T18:45:00+00:00",
+      "timestamp": 1792262700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22783,
+        "name": "Stade Pierre-Mauroy",
+        "city": "Lille"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png",
+        "winner": null
+      },
+      "away": {
+        "id": 106,
+        "name": "Stade Brestois 29",
+        "logo": "https://media.api-sports.io/football/teams/106.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635612,
       "referee": "Felix Zwayer",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1552776,
-      "referee": "Bastein Dechepy",
+      "referee": "Bastien Dechepy, France",
       "timezone": "UTC",
       "date": "2026-10-10T15:15:00+00:00",
       "timestamp": 1791645300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791645300,
+        "second": 1791648900
       },
       "venue": {
         "id": 22783,
@@ -217,8 +287,8 @@
       "date": "2026-09-20T15:15:00+00:00",
       "timestamp": 1789917300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789917300,
+        "second": 1789920900
       },
       "venue": {
         "id": 663,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552760,
-      "referee": "Romain Lissorgue, France",
-      "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
-      "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": null,
-        "name": "Decathlon Arena - Stade Pierre Mauroy",
-        "city": "Lille"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
-        "winner": true
-      },
-      "away": {
-        "id": 110,
-        "name": "Estac Troyes",
-        "logo": "https://media.api-sports.io/football/teams/110.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

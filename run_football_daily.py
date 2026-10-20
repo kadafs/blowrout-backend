@@ -1245,7 +1245,7 @@ def main():
                 country=country, league=lname,
                 home_team=home_s.get("name", ""),
                 away_team=away_s.get("name", ""),
-                league_id=league_id,
+                league_id=lid,
                 league_index=shots_league_idx,
                 team_index=shots_team_idx
             )

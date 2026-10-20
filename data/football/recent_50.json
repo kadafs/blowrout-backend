@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557433,
+      "referee": "Farai Hallam, England",
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 555,
+        "name": "Etihad Stadium",
+        "city": "Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/39.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      },
+      "away": {
+        "id": 57,
+        "name": "Ipswich",
+        "logo": "https://media.api-sports.io/football/teams/57.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635690,
       "referee": "Sven Jablonski",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1557424,
-      "referee": "Chris Kavanagh",
+      "referee": "Chris Kavanagh, England",
       "timezone": "UTC",
       "date": "2026-10-11T15:30:00+00:00",
       "timestamp": 1791732600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557404,
-      "referee": "Michael Oliver, England",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:30:00+00:00",
-      "timestamp": 1789313400,
-      "periods": {
-        "first": 1789313400,
-        "second": 1789317000
-      },
-      "venue": {
-        "id": 556,
-        "name": "Old Trafford",
-        "city": "Manchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 33,
-        "name": "Manchester United",
-        "logo": "https://media.api-sports.io/football/teams/33.png",
-        "winner": false
-      },
-      "away": {
-        "id": 50,
-        "name": "Manchester City",
-        "logo": "https://media.api-sports.io/football/teams/50.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

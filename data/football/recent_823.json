@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
-      "id": 1551689,
+      "id": 1551705,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T00:00:00+00:00",
+      "timestamp": 1792454400,
+      "periods": {
+        "first": 1792454400,
+        "second": 1792458000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Puente de Piedra",
+        "city": "Grecia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 162,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/162.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Apertura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2047,
+        "name": "Sporting San Jose",
+        "logo": "https://media.api-sports.io/football/teams/2047.png",
+        "winner": null
+      },
+      "away": {
+        "id": 823,
+        "name": "San Carlos",
+        "logo": "https://media.api-sports.io/football/teams/823.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1551699,
+      "referee": "S. Madrigal",
+      "timezone": "UTC",
+      "date": "2026-10-14T02:00:00+00:00",
+      "timestamp": 1791943200,
+      "periods": {
+        "first": 1791943200,
+        "second": 1791946800
+      },
+      "venue": {
+        "id": 406,
+        "name": "Estadio Carlos Ugalde Alvarez",
+        "city": "Ciudad Quesada"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 162,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/162.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Apertura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 823,
+        "name": "San Carlos",
+        "logo": "https://media.api-sports.io/football/teams/823.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24391,
+        "name": "Inter San Carlos",
+        "logo": "https://media.api-sports.io/football/teams/24391.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1551692,
+      "referee": "K. Herrera",
+      "timezone": "UTC",
+      "date": "2026-10-11T02:00:00+00:00",
+      "timestamp": 1791684000,
+      "periods": {
+        "first": 1791684000,
+        "second": 1791687600
+      },
+      "venue": {
+        "id": 402,
+        "name": "Estadio Carlos Alvarado",
+        "city": "Heredia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 162,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/162.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Apertura - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 815,
+        "name": "CS Herediano",
+        "logo": "https://media.api-sports.io/football/teams/815.png",
+        "winner": false
+      },
+      "away": {
+        "id": 823,
+        "name": "San Carlos",
+        "logo": "https://media.api-sports.io/football/teams/823.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1551689,
+      "referee": "W. Matus",
       "timezone": "UTC",
       "date": "2026-09-21T01:00:00+00:00",
       "timestamp": 1789952400,
@@ -128,216 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551681,
-      "referee": "R. Vindas",
-      "timezone": "UTC",
-      "date": "2026-09-07T01:00:00+00:00",
-      "timestamp": 1788742800,
-      "periods": {
-        "first": 1788742800,
-        "second": 1788746400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Ciudad Quesada"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 162,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/162.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2026,
-      "round": "Apertura - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 823,
-        "name": "San Carlos",
-        "logo": "https://media.api-sports.io/football/teams/823.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2047,
-        "name": "Sporting San Jose",
-        "logo": "https://media.api-sports.io/football/teams/2047.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551673,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T22:00:00+00:00",
-      "timestamp": 1788127200,
-      "periods": {
-        "first": 1788127200,
-        "second": 1788130800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Ciudad Quesada"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 13
-      }
-    },
-    "league": {
-      "id": 162,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/162.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2026,
-      "round": "Apertura - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 823,
-        "name": "San Carlos",
-        "logo": "https://media.api-sports.io/football/teams/823.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2045,
-        "name": "Puntarenas FC",
-        "logo": "https://media.api-sports.io/football/teams/2045.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551667,
-      "referee": "J. Leiton",
-      "timezone": "UTC",
-      "date": "2026-08-24T00:00:00+00:00",
-      "timestamp": 1787529600,
-      "periods": {
-        "first": 1787529600,
-        "second": 1787533200
-      },
-      "venue": {
-        "id": 393,
-        "name": "Estadio Alejandro Morera Soto",
-        "city": "Alajuela"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 162,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/162.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2026,
-      "round": "Apertura - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 822,
-        "name": "LD Alajuelense",
-        "logo": "https://media.api-sports.io/football/teams/822.png",
-        "winner": false
-      },
-      "away": {
-        "id": 823,
-        "name": "San Carlos",
-        "logo": "https://media.api-sports.io/football/teams/823.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

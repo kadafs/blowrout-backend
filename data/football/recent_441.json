@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
+      "id": 1493187,
+      "referee": "Pablo Echavarria",
+      "timezone": "UTC",
+      "date": "2026-10-20T00:15:00+00:00",
+      "timestamp": 1792455300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 66,
+        "name": "Estadio Guillermo Laza",
+        "city": "Flores"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 476,
+        "name": "Deportivo Riestra",
+        "logo": "https://media.api-sports.io/football/teams/476.png",
+        "winner": null
+      },
+      "away": {
+        "id": 441,
+        "name": "Union Santa Fe",
+        "logo": "https://media.api-sports.io/football/teams/441.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1493181,
+      "referee": "Dario Herrera, Argentina",
+      "timezone": "UTC",
+      "date": "2026-10-10T00:45:00+00:00",
+      "timestamp": 1791593100,
+      "periods": {
+        "first": 1791593100,
+        "second": 1791596700
+      },
+      "venue": {
+        "id": 1933,
+        "name": "Estadio 15 de Abril",
+        "city": "Santa Fe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 441,
+        "name": "Union Santa Fe",
+        "logo": "https://media.api-sports.io/football/teams/441.png",
+        "winner": false
+      },
+      "away": {
+        "id": 442,
+        "name": "Defensa Y Justicia",
+        "logo": "https://media.api-sports.io/football/teams/442.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1493155,
+      "referee": "S. Martinez",
+      "timezone": "UTC",
+      "date": "2026-10-03T00:30:00+00:00",
+      "timestamp": 1790987400,
+      "periods": {
+        "first": 1790987400,
+        "second": 1790991000
+      },
+      "venue": {
+        "id": 46,
+        "name": "Estadio Alberto J. Armando",
+        "city": "Buenos Aires"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 451,
+        "name": "Boca Juniors",
+        "logo": "https://media.api-sports.io/football/teams/451.png",
+        "winner": true
+      },
+      "away": {
+        "id": 441,
+        "name": "Union Santa Fe",
+        "logo": "https://media.api-sports.io/football/teams/441.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493150,
-      "referee": "L. Lobo Medina",
+      "referee": "Luis Lobo Medina, Argentina",
       "timezone": "UTC",
       "date": "2026-09-19T19:45:00+00:00",
       "timestamp": 1789847100,
@@ -13,13 +223,13 @@
       "venue": {
         "id": null,
         "name": "Estadio 15 de Abril",
-        "city": "Santa Fe"
+        "city": "Santa Fe de la Vera Cruz"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 6
+        "extra": null
       }
     },
     "league": {
@@ -72,7 +282,7 @@
   {
     "fixture": {
       "id": 1493135,
-      "referee": "N. Arasa",
+      "referee": "Nazareno Arasa, Argentina",
       "timezone": "UTC",
       "date": "2026-09-12T23:00:00+00:00",
       "timestamp": 1789254000,
@@ -82,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Estadio Mario Alberto Kempes",
+        "name": "Mario Alberto Kempes",
         "city": "Cordoba"
       },
       "status": {
@@ -128,216 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493120,
-      "referee": "Nicolas Lamolina, Argentina",
-      "timezone": "UTC",
-      "date": "2026-09-08T00:15:00+00:00",
-      "timestamp": 1788826500,
-      "periods": {
-        "first": 1788826500,
-        "second": 1788830100
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio 15 de Abril",
-        "city": "Santa Fe de la Vera Cruz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 441,
-        "name": "Union Santa Fe",
-        "logo": "https://media.api-sports.io/football/teams/441.png",
-        "winner": true
-      },
-      "away": {
-        "id": 478,
-        "name": "Instituto Cordoba",
-        "logo": "https://media.api-sports.io/football/teams/478.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493106,
-      "referee": "Pablo Echavarria, Argentina",
-      "timezone": "UTC",
-      "date": "2026-08-28T22:00:00+00:00",
-      "timestamp": 1787954400,
-      "periods": {
-        "first": 1787954400,
-        "second": 1787958000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio 15 de Abril",
-        "city": "Santa Fe de la Vera Cruz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 441,
-        "name": "Union Santa Fe",
-        "logo": "https://media.api-sports.io/football/teams/441.png",
-        "winner": true
-      },
-      "away": {
-        "id": 474,
-        "name": "Sarmiento Junin",
-        "logo": "https://media.api-sports.io/football/teams/474.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493077,
-      "referee": "Bruno Amiconi, Argentina",
-      "timezone": "UTC",
-      "date": "2026-08-21T17:30:00+00:00",
-      "timestamp": 1787333400,
-      "periods": {
-        "first": 1787333400,
-        "second": 1787337000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Jose Maria Minella",
-        "city": "Mar del Plata"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 463,
-        "name": "Aldosivi",
-        "logo": "https://media.api-sports.io/football/teams/463.png",
-        "winner": false
-      },
-      "away": {
-        "id": 441,
-        "name": "Union Santa Fe",
-        "logo": "https://media.api-sports.io/football/teams/441.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

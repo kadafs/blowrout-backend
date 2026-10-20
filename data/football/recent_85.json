@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552790,
+      "referee": "Willy Delajod, France",
+      "timezone": "UTC",
+      "date": "2026-10-17T15:15:00+00:00",
+      "timestamp": 1792250100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 681,
+        "name": "Stade de la Meinau",
+        "city": "Strasbourg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 95,
+        "name": "Strasbourg",
+        "logo": "https://media.api-sports.io/football/teams/95.png",
+        "winner": false
+      },
+      "away": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635690,
       "referee": "Sven Jablonski",
       "timezone": "UTC",
@@ -77,8 +147,8 @@
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791657900,
+        "second": 1791661500
       },
       "venue": {
         "id": 671,
@@ -147,8 +217,8 @@
       "date": "2026-09-20T18:45:00+00:00",
       "timestamp": 1789929900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789929900,
+        "second": 1789933500
       },
       "venue": {
         "id": 12678,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635705,
-      "referee": "Mykola Balakin, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-09T19:00:00+00:00",
-      "timestamp": 1788980400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Parc des Princes",
-        "city": "Paris"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 2,
-      "name": "UEFA Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/2.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 85,
-        "name": "Paris Saint Germain",
-        "logo": "https://media.api-sports.io/football/teams/85.png",
-        "winner": true
-      },
-      "away": {
-        "id": 656,
-        "name": "Slovan Bratislava",
-        "logo": "https://media.api-sports.io/football/teams/656.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563810,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 572,
+        "name": "Vale Park",
+        "city": "Stoke-On-Trent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1351,
+        "name": "Port Vale",
+        "logo": "https://media.api-sports.io/football/teams/1351.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1345,
+        "name": "Chesterfield",
+        "logo": "https://media.api-sports.io/football/teams/1345.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563797,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1364,
         "name": "Exeter City",
         "logo": "https://media.api-sports.io/football/teams/1364.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563740,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T11:30:00+00:00",
-      "timestamp": 1788607800,
-      "periods": {
-        "first": 1788607800,
-        "second": 1788611400
-      },
-      "venue": {
-        "id": null,
-        "name": "Moor Lane",
-        "city": "Salford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1844,
-        "name": "Salford City",
-        "logo": "https://media.api-sports.io/football/teams/1844.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1351,
-        "name": "Port Vale",
-        "logo": "https://media.api-sports.io/football/teams/1351.png",
         "winner": false
       }
     },

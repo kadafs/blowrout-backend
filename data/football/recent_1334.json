@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563812,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:30:00+00:00",
+      "timestamp": 1792236600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19925,
+        "name": "New Meadow",
+        "city": "Shrewsbury"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1352,
+        "name": "Shrewsbury",
+        "logo": "https://media.api-sports.io/football/teams/1352.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1334,
+        "name": "Bristol Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1334.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563791,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563761,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 537,
-        "name": "Priestfield Stadium",
-        "city": "Gillingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1347,
-        "name": "Gillingham",
-        "logo": "https://media.api-sports.io/football/teams/1347.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1334,
-        "name": "Bristol Rovers",
-        "logo": "https://media.api-sports.io/football/teams/1334.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
-      "id": 1612247,
+      "id": 1639533,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T13:00:00+00:00",
+      "timestamp": 1792155600,
+      "periods": {
+        "first": 1792155600,
+        "second": 1792159200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 12,
+      "name": "CAF Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/12.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 24352,
+        "name": "EL Merriekh Bentiu",
+        "logo": "https://media.api-sports.io/football/teams/24352.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1036,
+        "name": "Pyramids FC",
+        "logo": "https://media.api-sports.io/football/teams/1036.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612253,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T17:00:00+00:00",
+      "timestamp": 1791824400,
+      "periods": {
+        "first": 1791824400,
+        "second": 1791828000
+      },
+      "venue": {
+        "id": 22699,
+        "name": "30 June Stadium",
+        "city": "Cairo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 233,
+      "name": "Premier League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/233.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1036,
+        "name": "Pyramids FC",
+        "logo": "https://media.api-sports.io/football/teams/1036.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14651,
+        "name": "Ceramica Cleopatra",
+        "logo": "https://media.api-sports.io/football/teams/14651.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1640289,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-07T14:00:00+00:00",
+      "timestamp": 1791381600,
+      "periods": {
+        "first": 1791381600,
+        "second": 1791385200
+      },
+      "venue": {
+        "id": null,
+        "name": "30 June Stadium",
+        "city": "Cairo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 895,
+      "name": "League Cup",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/895.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1036,
+        "name": "Pyramids FC",
+        "logo": "https://media.api-sports.io/football/teams/1036.png",
+        "winner": true
+      },
+      "away": {
+        "id": 13822,
+        "name": "Olympic El Qanah",
+        "logo": "https://media.api-sports.io/football/teams/13822.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612247,
+      "referee": "I. Mohamed",
       "timezone": "UTC",
       "date": "2026-09-17T17:00:00+00:00",
       "timestamp": 1789664400,
@@ -12,7 +222,7 @@
       },
       "venue": {
         "id": 485,
-        "name": "Petro Sport Stadium",
+        "name": "Petrosport Stadium",
         "city": "Cairo"
       },
       "status": {
@@ -127,216 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612233,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T14:00:00+00:00",
-      "timestamp": 1788962400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "30 June Stadium",
-        "city": "Cairo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1036,
-        "name": "Pyramids FC",
-        "logo": "https://media.api-sports.io/football/teams/1036.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1574,
-        "name": "El Gouna FC",
-        "logo": "https://media.api-sports.io/football/teams/1574.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619064,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T12:00:00+00:00",
-      "timestamp": 1788696000,
-      "periods": {
-        "first": 1788696000,
-        "second": 1788699600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2467,
-        "name": "GOR Mahia",
-        "logo": "https://media.api-sports.io/football/teams/2467.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1036,
-        "name": "Pyramids FC",
-        "logo": "https://media.api-sports.io/football/teams/1036.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612220,
-      "referee": "M. Nagy",
-      "timezone": "UTC",
-      "date": "2026-08-31T17:00:00+00:00",
-      "timestamp": 1788195600,
-      "periods": {
-        "first": 1788195600,
-        "second": 1788199200
-      },
-      "venue": {
-        "id": null,
-        "name": "Borg El Arab Stadium",
-        "city": "Alexandria"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1031,
-        "name": "AL Masry",
-        "logo": "https://media.api-sports.io/football/teams/1031.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1036,
-        "name": "Pyramids FC",
-        "logo": "https://media.api-sports.io/football/teams/1036.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

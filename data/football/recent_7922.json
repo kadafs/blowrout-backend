@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1592028,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 1041,
+      "name": "J\u00faniores U19",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/1041.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7922,
+        "name": "Porto U19",
+        "logo": "https://media.api-sports.io/football/teams/7922.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22512,
+        "name": "Gil Vicente U19",
+        "logo": "https://media.api-sports.io/football/teams/22512.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637336,
       "referee": "M. Marcenaro",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637310,
-      "referee": "L. Dzivjak",
-      "timezone": "UTC",
-      "date": "2026-09-08T11:00:00+00:00",
-      "timestamp": 1788865200,
-      "periods": {
-        "first": 1788865200,
-        "second": 1788868800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Luis Filipe Menezes",
-        "city": "Vila Nova de Gaia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Phase - 1",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7922,
-        "name": "Porto U19",
-        "logo": "https://media.api-sports.io/football/teams/7922.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7914,
-        "name": "Manchester City U19",
-        "logo": "https://media.api-sports.io/football/teams/7914.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

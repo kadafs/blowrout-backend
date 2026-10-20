@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637326,
+      "referee": "C. Aydin",
+      "timezone": "UTC",
+      "date": "2026-10-13T14:00:00+00:00",
+      "timestamp": 1791900000,
+      "periods": {
+        "first": 1791900000,
+        "second": 1791903600
+      },
+      "venue": {
+        "id": null,
+        "name": "Centro Deportivo Alcala de Henares",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7884,
+        "name": "Atl\u00e9tico Madrid U19",
+        "logo": "https://media.api-sports.io/football/teams/7884.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7960,
+        "name": "Manchester United U19",
+        "logo": "https://media.api-sports.io/football/teams/7960.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637314,
       "referee": "F. Polychronis",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469123,
-      "referee": "K. Szabolcs",
-      "timezone": "UTC",
-      "date": "2025-11-26T15:00:00+00:00",
-      "timestamp": 1764169200,
-      "periods": {
-        "first": 1764169200,
-        "second": 1764172800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Madrid"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "League Stage - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7884,
-        "name": "Atl\u00e9tico Madrid U19",
-        "logo": "https://media.api-sports.io/football/teams/7884.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7903,
-        "name": "Internazionale U19",
-        "logo": "https://media.api-sports.io/football/teams/7903.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

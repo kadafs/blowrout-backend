@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639353,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T17:00:00+00:00",
+      "timestamp": 1792170000,
+      "periods": {
+        "first": 1792170000,
+        "second": 1792173600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 20,
+      "name": "CAF Confederation Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/20.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7520,
+        "name": "Masr",
+        "logo": "https://media.api-sports.io/football/teams/7520.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8057,
+        "name": "Azam",
+        "logo": "https://media.api-sports.io/football/teams/8057.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1612251,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612238,
-      "referee": "A. Omar",
-      "timezone": "UTC",
-      "date": "2026-09-09T17:00:00+00:00",
-      "timestamp": 1788973200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 485,
-        "name": "Petrosport Stadium",
-        "city": "Cairo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1037,
-        "name": "Enppi",
-        "logo": "https://media.api-sports.io/football/teams/1037.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7520,
-        "name": "Masr",
-        "logo": "https://media.api-sports.io/football/teams/7520.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

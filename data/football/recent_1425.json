@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644464,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T12:00:00+00:00",
+      "timestamp": 1792152000,
+      "periods": {
+        "first": 1792152000,
+        "second": 1792155600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 174,
+      "name": "Cup",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/174.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1425,
+        "name": "Neftochimic Burgas",
+        "logo": "https://media.api-sports.io/football/teams/1425.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1426,
+        "name": "CSKA 1948",
+        "logo": "https://media.api-sports.io/football/teams/1426.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606182,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606147,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 177,
-      "name": "Third League - Southeast",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/177.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Southeast - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1412,
-        "name": "Sozopol",
-        "logo": "https://media.api-sports.io/football/teams/1412.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1425,
-        "name": "Neftochimic Burgas",
-        "logo": "https://media.api-sports.io/football/teams/1425.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

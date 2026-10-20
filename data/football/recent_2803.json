@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1598044,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T12:00:00+00:00",
+      "timestamp": 1792152000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1908,
+        "name": "Ayutthaya Province Stadium",
+        "city": "Ayutthaya"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 296,
+      "name": "Thai League 1",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/296.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2803,
+        "name": "Ayutthaya FC",
+        "logo": "https://media.api-sports.io/football/teams/2803.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6572,
+        "name": "Lamphun Warrior",
+        "logo": "https://media.api-sports.io/football/teams/6572.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1598036,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1542165,
-      "referee": "S. Pu Udom",
-      "timezone": "UTC",
-      "date": "2026-05-17T12:00:00+00:00",
-      "timestamp": 1779019200,
-      "periods": {
-        "first": 1779019200,
-        "second": 1779022800
-      },
-      "venue": {
-        "id": 1559,
-        "name": "Chang Arena",
-        "city": "Buriram"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 298,
-      "name": "FA Cup",
-      "country": "Thailand",
-      "logo": "https://media.api-sports.io/football/leagues/298.png",
-      "flag": "https://media.api-sports.io/flags/th.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2780,
-        "name": "Buriram United",
-        "logo": "https://media.api-sports.io/football/teams/2780.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2803,
-        "name": "Ayutthaya FC",
-        "logo": "https://media.api-sports.io/football/teams/2803.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

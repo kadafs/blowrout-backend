@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639337,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 12,
+      "name": "CAF Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/12.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 17447,
+        "name": "CFFA",
+        "logo": "https://media.api-sports.io/football/teams/17447.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5370,
+        "name": "Young Africans",
+        "logo": "https://media.api-sports.io/football/teams/5370.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600787,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600766,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-31T13:00:00+00:00",
-      "timestamp": 1788181200,
-      "periods": {
-        "first": 1788181200,
-        "second": 1788184800
-      },
-      "venue": {
-        "id": null,
-        "name": "Kwaraa Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 567,
-      "name": "Ligi kuu Bara",
-      "country": "Tanzania",
-      "logo": "https://media.api-sports.io/football/leagues/567.png",
-      "flag": "https://media.api-sports.io/flags/tz.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19838,
-        "name": "Fountain Gate",
-        "logo": "https://media.api-sports.io/football/teams/19838.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5370,
-        "name": "Young Africans",
-        "logo": "https://media.api-sports.io/football/teams/5370.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

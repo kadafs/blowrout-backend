@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552791,
+      "referee": "Hakim Ben el Salem Hadj, France",
+      "timezone": "UTC",
+      "date": "2026-10-17T18:45:00+00:00",
+      "timestamp": 1792262700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 684,
+        "name": "Stade de l'Aube",
+        "city": "Troyes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": false
+      },
+      "away": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635679,
       "referee": "Igor Pajac",
       "timezone": "UTC",
@@ -77,8 +147,8 @@
       "date": "2026-10-09T18:45:00+00:00",
       "timestamp": 1791571500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791571500,
+        "second": 1791575100
       },
       "venue": {
         "id": 654,
@@ -217,8 +287,8 @@
       "date": "2026-09-18T18:45:00+00:00",
       "timestamp": 1789757100,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789757100,
+        "second": 1789760700
       },
       "venue": {
         "id": 20470,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552759,
-      "referee": "Hakim Ben el Salem Hadj, France",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:15:00+00:00",
-      "timestamp": 1789312500,
-      "periods": {
-        "first": 1789312500,
-        "second": 1789316100
-      },
-      "venue": {
-        "id": 19206,
-        "name": "MMArena",
-        "city": "Le Mans"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1298,
-        "name": "Le Mans",
-        "logo": "https://media.api-sports.io/football/teams/1298.png",
-        "winner": null
-      },
-      "away": {
-        "id": 116,
-        "name": "Lens",
-        "logo": "https://media.api-sports.io/football/teams/116.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

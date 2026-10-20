@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632433,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-24T20:30:00+00:00",
+      "timestamp": 1790281800,
+      "periods": {
+        "first": 1790281800,
+        "second": 1790285400
+      },
+      "venue": {
+        "id": 8538,
+        "name": "Estadio La Cocha",
+        "city": "Latacunga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 243,
+      "name": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/243.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Promotion Group - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2238,
+        "name": "Ind. Juniors",
+        "logo": "https://media.api-sports.io/football/teams/2238.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21103,
+        "name": "Cuniburo",
+        "logo": "https://media.api-sports.io/football/teams/21103.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1526579,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1181240,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-06-13T00:00:00+00:00",
-      "timestamp": 1718236800,
-      "periods": {
-        "first": 1718236800,
-        "second": 1718240400
-      },
-      "venue": {
-        "id": 465,
-        "name": "Estadio Ol\u00edmpico Atahualpa",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 243,
-      "name": "Liga Pro Serie B",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/243.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2024,
-      "round": "Regular Season - 15",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21103,
-        "name": "Cuniburo",
-        "logo": "https://media.api-sports.io/football/teams/21103.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2238,
-        "name": "Ind. Juniors",
-        "logo": "https://media.api-sports.io/football/teams/2238.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

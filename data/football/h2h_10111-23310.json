@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632434,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T18:00:00+00:00",
+      "timestamp": 1790445600,
+      "periods": {
+        "first": 1790445600,
+        "second": 1790449200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Modelo Alberto Spencer",
+        "city": "Guayaquil"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 243,
+      "name": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/243.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Promotion Group - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10111,
+        "name": "9 de Octubre",
+        "logo": "https://media.api-sports.io/football/teams/10111.png",
+        "winner": true
+      },
+      "away": {
+        "id": 23310,
+        "name": "San Antonio",
+        "logo": "https://media.api-sports.io/football/teams/23310.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1526605,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1354685,
-      "referee": "Gorky Araujo Zambrano",
-      "timezone": "UTC",
-      "date": "2025-07-25T00:00:00+00:00",
-      "timestamp": 1753401600,
-      "periods": {
-        "first": 1753401600,
-        "second": 1753405200
-      },
-      "venue": {
-        "id": 19550,
-        "name": "Estadio Modelo Alberto Spencer",
-        "city": "Guayaquil"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 243,
-      "name": "Liga Pro Serie B",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/243.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2025,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10111,
-        "name": "9 de Octubre",
-        "logo": "https://media.api-sports.io/football/teams/10111.png",
-        "winner": true
-      },
-      "away": {
-        "id": 23310,
-        "name": "San Antonio",
-        "logo": "https://media.api-sports.io/football/teams/23310.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

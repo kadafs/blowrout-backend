@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606702,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T05:00:00+00:00",
+      "timestamp": 1792213200,
+      "periods": {
+        "first": 1792213200,
+        "second": 1792216800
+      },
+      "venue": {
+        "id": 0,
+        "name": "City Football Station",
+        "city": "Tochigi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7145,
+        "name": "Tochigi City",
+        "logo": "https://media.api-sports.io/football/teams/7145.png",
+        "winner": null
+      },
+      "away": {
+        "id": 307,
+        "name": "Yokohama FC",
+        "logo": "https://media.api-sports.io/football/teams/307.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606690,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635587,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T08:00:00+00:00",
-      "timestamp": 1790150400,
-      "periods": {
-        "first": 1790150400,
-        "second": 1790154000
-      },
-      "venue": {
-        "id": null,
-        "name": "Machida GION Stadium",
-        "city": "Machida"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 102,
-      "name": "Emperor Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/102.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 303,
-        "name": "Machida Zelvia",
-        "logo": "https://media.api-sports.io/football/teams/303.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7145,
-        "name": "Tochigi City",
-        "logo": "https://media.api-sports.io/football/teams/7145.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

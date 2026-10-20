@@ -33,6 +33,67 @@ def calc_outcome_probs(xg_home, xg_away, max_goals=8):
     }
 
 
+_LEAGUE_LEADERBOARD_CACHE = None
+
+def _get_league_draw_tier(league_id=None, country=None, league_name=None):
+    """
+    Look up the empirical draw tier for a league from data/football/league_leaderboard.json.
+    Returns 'ELITE', 'HIGH', 'STANDARD', or 'LOW'.
+    """
+    global _LEAGUE_LEADERBOARD_CACHE
+    if _LEAGUE_LEADERBOARD_CACHE is None:
+        _LEAGUE_LEADERBOARD_CACHE = {}
+        possible_paths = [
+            os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "football", "league_leaderboard.json"),
+            os.path.join("data", "football", "league_leaderboard.json")
+        ]
+        for lb_path in possible_paths:
+            if os.path.exists(lb_path):
+                try:
+                    with open(lb_path, "r", encoding="utf-8") as f:
+                        lb_data = json.load(f)
+                        for entry in lb_data.get("leaderboard", []):
+                            lid = entry.get("league_id")
+                            if lid:
+                                _LEAGUE_LEADERBOARD_CACHE[str(lid)] = entry
+                            lname = entry.get("name", "")
+                            if lname:
+                                _LEAGUE_LEADERBOARD_CACHE[lname.lower()] = entry
+                    break
+                except Exception:
+                    pass
+
+    if not _LEAGUE_LEADERBOARD_CACHE:
+        return "STANDARD"
+
+    entry = None
+    if league_id is not None:
+        entry = _LEAGUE_LEADERBOARD_CACHE.get(str(league_id))
+    if not entry and country and league_name:
+        key = f"{country.upper()} — {league_name.upper()}".lower()
+        entry = _LEAGUE_LEADERBOARD_CACHE.get(key)
+    if not entry and league_name:
+        for k, v in _LEAGUE_LEADERBOARD_CACHE.items():
+            if league_name.lower() in k:
+                entry = v
+                break
+
+    if entry:
+        tier = entry.get("draw_tier")
+        if tier:
+            return tier.upper()
+        reg_dr = entry.get("regressed_draw_rate", 0) or 0
+        raw_dr = entry.get("raw_draw_rate", 0) or 0
+        if reg_dr >= 30.0 or raw_dr >= 32.0:
+            return "ELITE"
+        if reg_dr >= 27.0 or raw_dr >= 28.5:
+            return "HIGH"
+        if reg_dr <= 15.0 or raw_dr <= 15.0:
+            return "LOW"
+
+    return "STANDARD"
+
+
 class FootballEngine:
     """
     Poisson-based BTTS + Draw prediction engine for football (soccer).
@@ -71,11 +132,31 @@ class FootballEngine:
         xg_home   = game_data.get("xg_home", 1.2)
         xg_away   = game_data.get("xg_away", 1.0)
 
+        # Determine if the match belongs to an ELITE or HIGH draw league
+        draw_tier = game_data.get("draw_tier") or c.get("draw_tier")
+        if not draw_tier:
+            lid = game_data.get("league_id") or c.get("league_id")
+            country = game_data.get("country", "")
+            league = game_data.get("league", "")
+            draw_tier = _get_league_draw_tier(lid, country, league)
+
+        is_high_draw = (
+            game_data.get("is_high_draw_league") is True or
+            c.get("is_high_draw_league") is True or
+            draw_tier in ("ELITE", "HIGH")
+        )
+
         # -------------------------------------------------------
         # PHASE 1 — Base Probabilities (from Poisson, already computed)
         # -------------------------------------------------------
         btts_prob_base = game_data.get("btts_prob", 0.50)
         draw_prob_base = game_data.get("draw_prob", 0.25)
+
+        # Cap raw Poisson draw probability at 33% unless in an ELITE or HIGH draw league
+        # Eliminates artificial 45%+ draw spikes on low-xG matches in standard/low-draw leagues
+        if not is_high_draw and draw_prob_base > 0.33:
+            self._log(f"Phase 1: Raw Poisson draw {draw_prob_base*100:.1f}% capped at 33.0% (Non-High Draw League [{draw_tier}])")
+            draw_prob_base = 0.33
 
         self._log(f"Phase 1: xG {xg_home:.3f} (H) / {xg_away:.3f} (A)")
         self._log(f"Phase 1: BTTS base = {btts_prob_base*100:.1f}% | Draw base = {draw_prob_base*100:.1f}%")
@@ -144,6 +225,8 @@ class FootballEngine:
         # -------------------------------------------------------
         btts_prob_final = round(max(0.01, min(0.99, btts_prob_base + btts_adj)), 4)
         draw_prob_final = round(max(0.01, min(0.99, draw_prob_base + draw_adj)), 4)
+        if not is_high_draw and draw_prob_final > 0.33:
+            draw_prob_final = 0.33
 
         # Market implied probability — use real bookmaker odds if available, else hardcoded default
         btts_market_prob = game_data.get("btts_market_prob") or c.get("btts_market_avg", 0.52)
@@ -183,6 +266,19 @@ class FootballEngine:
         hw = outcome["home_win"]
         dw = outcome["draw"]
         aw = outcome["away_win"]
+
+        # Cap raw Poisson 1X2 draw probability at 33% unless in an ELITE or HIGH draw league
+        if not is_high_draw and dw > 0.33:
+            excess = dw - 0.33
+            dw = 0.33
+            hw_aw = hw + aw
+            if hw_aw > 0:
+                hw += excess * (hw / hw_aw)
+                aw += excess * (aw / hw_aw)
+            else:
+                hw += excess / 2.0
+                aw += excess / 2.0
+            self._log(f"Phase 4: Raw 1X2 draw prob {outcome['draw']*100:.1f}% capped at 33.0% (Non-High Draw League [{draw_tier}])")
 
         # Phase 4 adjustments (full mode only)
         hw_adj = 0.0
@@ -256,6 +352,19 @@ class FootballEngine:
             hw = max(0.01, hw + hw_adj)
             dw = max(0.01, dw + dw_adj)
             aw = max(0.01, aw + aw_adj)
+
+            # Cap draw probability at 33% unless in an ELITE or HIGH draw league
+            if not is_high_draw and dw > 0.33:
+                excess = dw - 0.33
+                dw = 0.33
+                hw_aw = hw + aw
+                if hw_aw > 0:
+                    hw += excess * (hw / hw_aw)
+                    aw += excess * (aw / hw_aw)
+                else:
+                    hw += excess / 2.0
+                    aw += excess / 2.0
+
             total_1x2 = hw + dw + aw
             hw = round(hw / total_1x2, 4)
             dw = round(dw / total_1x2, 4)
@@ -303,6 +412,8 @@ class FootballEngine:
             "draw_prob_final": draw_prob_final,
             "draw_fair_odds":  draw_fair_odds,
             "draw_value_flag": draw_value_flag,
+            "draw_tier":       draw_tier,
+            "is_high_draw_league": is_high_draw,
 
             # 1X2
             "home_win_prob":   round(hw * 100, 1),

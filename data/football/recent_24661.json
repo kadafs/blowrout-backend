@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557218,
+      "referee": "S. Perri",
+      "timezone": "UTC",
+      "date": "2026-10-16T23:30:00+00:00",
+      "timestamp": 1792193400,
+      "periods": {
+        "first": 1792193400,
+        "second": 1792197000
+      },
+      "venue": {
+        "id": null,
+        "name": "Hodges Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1130,
+      "name": "USL Super League",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/1130.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25855,
+        "name": "Sporting JAX W",
+        "logo": "https://media.api-sports.io/football/teams/25855.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24661,
+        "name": "Fort Lauderdale United W",
+        "logo": "https://media.api-sports.io/football/teams/24661.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557216,
       "referee": "J. Tamayo",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557201,
-      "referee": "I. Petrunok",
-      "timezone": "UTC",
-      "date": "2026-09-12T22:00:00+00:00",
-      "timestamp": 1789250400,
-      "periods": {
-        "first": 1789250400,
-        "second": 1789254000
-      },
-      "venue": {
-        "id": null,
-        "name": "Riverfront Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1130,
-      "name": "USL Super League",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/1130.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24663,
-        "name": "Tampa Bay Sun W",
-        "logo": "https://media.api-sports.io/football/teams/24663.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24661,
-        "name": "Fort Lauderdale United W",
-        "logo": "https://media.api-sports.io/football/teams/24661.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

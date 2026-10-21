@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594869,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-15T12:30:00+00:00",
+      "timestamp": 1792067400,
+      "periods": {
+        "first": 1792067400,
+        "second": 1792071000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 887,
+      "name": "Second League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/887.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16432,
+        "name": "El Mansura",
+        "logo": "https://media.api-sports.io/football/teams/16432.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2617,
+        "name": "AL Nasr SC",
+        "logo": "https://media.api-sports.io/football/teams/2617.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594859,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594823,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-10T13:30:00+00:00",
-      "timestamp": 1789047000,
-      "periods": {
-        "first": 1789047000,
-        "second": 1789050600
-      },
-      "venue": {
-        "id": 477,
-        "name": "Cairo International Stadium",
-        "city": "Cairo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 887,
-      "name": "Second League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/887.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2617,
-        "name": "AL Nasr SC",
-        "logo": "https://media.api-sports.io/football/teams/2617.png",
-        "winner": true
-      },
-      "away": {
-        "id": 18022,
-        "name": "Dayrout",
-        "logo": "https://media.api-sports.io/football/teams/18022.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552787,
+      "referee": "Marc Bollengier",
+      "timezone": "UTC",
+      "date": "2026-10-18T15:15:00+00:00",
+      "timestamp": 1792336500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21430,
+        "name": "Stade du Moustoir",
+        "city": "Lorient"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 97,
+        "name": "Lorient",
+        "logo": "https://media.api-sports.io/football/teams/97.png",
+        "winner": true
+      },
+      "away": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636401,
-      "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+      "referee": "J. Goncalves",
       "timezone": "UTC",
       "date": "2026-10-15T16:45:00+00:00",
       "timestamp": 1792082700,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Vasil Levski National Sports Academy",
+        "name": "National Stadium Vasil Levski",
         "city": "Sofia"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552778,
-      "referee": "Ruddy Buquet",
+      "referee": "Ruddy Buquet, France",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552769,
-      "referee": "Clement Turpin",
+      "referee": "Clement Turpin, France",
       "timezone": "UTC",
       "date": "2026-09-18T18:45:00+00:00",
       "timestamp": 1789757100,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552764,
-      "referee": "Eric Wattellier",
-      "timezone": "UTC",
-      "date": "2026-09-12T15:15:00+00:00",
-      "timestamp": 1789226100,
-      "periods": {
-        "first": 1789226100,
-        "second": 1789229700
-      },
-      "venue": {
-        "id": 681,
-        "name": "Stade de la Meinau",
-        "city": "Strasbourg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 95,
-        "name": "Strasbourg",
-        "logo": "https://media.api-sports.io/football/teams/95.png",
-        "winner": null
-      },
-      "away": {
-        "id": 91,
-        "name": "Monaco",
-        "logo": "https://media.api-sports.io/football/teams/91.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

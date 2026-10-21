@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623146,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T18:00:00+00:00",
+      "timestamp": 1792346400,
+      "periods": {
+        "first": 1792346400,
+        "second": 1792350000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadi Comunal",
+        "city": "Andorra la Vella"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 312,
+      "name": "1a Divisi\u00f3",
+      "country": "Andorra",
+      "logo": "https://media.api-sports.io/football/leagues/312.png",
+      "flag": "https://media.api-sports.io/flags/ad.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3342,
+        "name": "Inter Club d'Escaldes",
+        "logo": "https://media.api-sports.io/football/teams/3342.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3345,
+        "name": "Atl\u00e8tic Club d'Escaldes",
+        "logo": "https://media.api-sports.io/football/teams/3345.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636453,
       "referee": "A. Menelaos",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623132,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T12:00:00+00:00",
-      "timestamp": 1789300800,
-      "periods": {
-        "first": 1789300800,
-        "second": 1789304400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadi Comunal",
-        "city": "Andorra la Vella"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 312,
-      "name": "1a Divisi\u00f3",
-      "country": "Andorra",
-      "logo": "https://media.api-sports.io/football/leagues/312.png",
-      "flag": "https://media.api-sports.io/flags/ad.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3342,
-        "name": "Inter Club d'Escaldes",
-        "logo": "https://media.api-sports.io/football/teams/3342.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3346,
-        "name": "Carroi",
-        "logo": "https://media.api-sports.io/football/teams/3346.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
         "away": 0
       },
       "fulltime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490555,
+      "referee": "Drew Fischer",
+      "timezone": "UTC",
+      "date": "2026-10-18T21:00:00+00:00",
+      "timestamp": 1792357200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19229,
+        "name": "TQL Stadium",
+        "city": "Cincinnati"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2242,
+        "name": "FC Cincinnati",
+        "logo": "https://media.api-sports.io/football/teams/2242.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1613,
+        "name": "Columbus Crew",
+        "logo": "https://media.api-sports.io/football/teams/1613.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490527,
       "referee": "Tim Ford",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545812,
-      "referee": "A. Da Silva",
-      "timezone": "UTC",
-      "date": "2026-09-16T23:00:00+00:00",
-      "timestamp": 1789599600,
-      "periods": {
-        "first": 1789599600,
-        "second": 1789603200
-      },
-      "venue": {
-        "id": null,
-        "name": "ScottsMiracle-Gro Field",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 257,
-      "name": "US Open Cup",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/257.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1613,
-        "name": "Columbus Crew",
-        "logo": "https://media.api-sports.io/football/teams/1613.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1598,
-        "name": "Orlando City SC",
-        "logo": "https://media.api-sports.io/football/teams/1598.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

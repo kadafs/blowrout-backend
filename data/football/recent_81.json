@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552783,
+      "referee": "Jeremie Pignard",
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 634,
+        "name": "Stade Raymond Kopa",
+        "city": "Angers"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png",
+        "winner": false
+      },
+      "away": {
+        "id": 81,
+        "name": "Marseille",
+        "logo": "https://media.api-sports.io/football/teams/81.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636295,
       "referee": "Michael Oliver",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552782,
-      "referee": "Guillaume Paradis",
+      "referee": "Guillaume Paradis, France",
       "timezone": "UTC",
       "date": "2026-10-11T18:45:00+00:00",
       "timestamp": 1791744300,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1552773,
-      "referee": "Francois Letexier",
+      "referee": "Fran\u00e7ois Letexier, France",
       "timezone": "UTC",
       "date": "2026-09-20T18:45:00+00:00",
       "timestamp": 1789929900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552763,
-      "referee": "Jeremy Stinat",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:45:00+00:00",
-      "timestamp": 1789152300,
-      "periods": {
-        "first": 1789152300,
-        "second": 1789155900
-      },
-      "venue": {
-        "id": 680,
-        "name": "Roazhon Park",
-        "city": "Rennes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 94,
-        "name": "Rennes",
-        "logo": "https://media.api-sports.io/football/teams/94.png",
-        "winner": true
-      },
-      "away": {
-        "id": 81,
-        "name": "Marseille",
-        "logo": "https://media.api-sports.io/football/teams/81.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

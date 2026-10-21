@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555756,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": 1934,
+        "name": "Egao Kenko Stadium",
+        "city": "Kumamoto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 314,
+        "name": "Roasso Kumamoto",
+        "logo": "https://media.api-sports.io/football/teams/314.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4319,
+        "name": "Gainare Tottori",
+        "logo": "https://media.api-sports.io/football/teams/4319.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623326,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 683084,
-      "referee": "T. Sakai",
-      "timezone": "UTC",
-      "date": "2021-06-20T10:30:00+00:00",
-      "timestamp": 1624185000,
-      "periods": {
-        "first": 1624185000,
-        "second": 1624188600
-      },
-      "venue": {
-        "id": 1934,
-        "name": "Egao Kenko Stadium",
-        "city": "Kumamoto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2021,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 314,
-        "name": "Roasso Kumamoto",
-        "logo": "https://media.api-sports.io/football/teams/314.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4319,
-        "name": "Gainare Tottori",
-        "logo": "https://media.api-sports.io/football/teams/4319.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

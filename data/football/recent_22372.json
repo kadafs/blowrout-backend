@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637329,
+      "referee": "T. Owen",
+      "timezone": "UTC",
+      "date": "2026-10-13T11:00:00+00:00",
+      "timestamp": 1791889200,
+      "periods": {
+        "first": 1791889200,
+        "second": 1791892800
+      },
+      "venue": {
+        "id": 654,
+        "name": "CTS La Gaillette",
+        "city": "Avion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22372,
+        "name": "Lens U19",
+        "logo": "https://media.api-sports.io/football/teams/22372.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7997,
+        "name": "Sporting CP U19",
+        "logo": "https://media.api-sports.io/football/teams/7997.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637324,
       "referee": "J. Karlsen",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1126700,
-      "referee": "M. Al Emara",
-      "timezone": "UTC",
-      "date": "2023-10-24T12:00:00+00:00",
-      "timestamp": 1698148800,
-      "periods": {
-        "first": 1698148800,
-        "second": 1698152400
-      },
-      "venue": {
-        "id": 1990,
-        "name": "Stade Fran\u00e7ois Blin",
-        "city": "Avion"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2023,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 22372,
-        "name": "Lens U19",
-        "logo": "https://media.api-sports.io/football/teams/22372.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7965,
-        "name": "PSV U19",
-        "logo": "https://media.api-sports.io/football/teams/7965.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

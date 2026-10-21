@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611783,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Second Half",
+        "short": "2H",
+        "elapsed": 83,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1065,
+      "name": "U19 League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/1065.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23082,
+        "name": "Veres Rivne U19",
+        "logo": "https://media.api-sports.io/football/teams/23082.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7898,
+        "name": "Dynamo Kyiv U19",
+        "logo": "https://media.api-sports.io/football/teams/7898.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1416350,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1176358,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-03-06T11:00:00+00:00",
-      "timestamp": 1709722800,
-      "periods": {
-        "first": 1709722800,
-        "second": 1709726400
-      },
-      "venue": {
-        "id": 22049,
-        "name": "NTB Veres",
-        "city": "Rivne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1065,
-      "name": "U19 League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/1065.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2023,
-      "round": "Regular Season - 20",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 23082,
-        "name": "Veres Rivne U19",
-        "logo": "https://media.api-sports.io/football/teams/23082.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7898,
-        "name": "Dynamo Kyiv U19",
-        "logo": "https://media.api-sports.io/football/teams/7898.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

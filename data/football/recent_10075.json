@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606712,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": 0,
+        "name": "Yurtec Stadium Sendai",
+        "city": "Sendai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 286,
+        "name": "Vegalta Sendai",
+        "logo": "https://media.api-sports.io/football/teams/286.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10075,
+        "name": "Imabari",
+        "logo": "https://media.api-sports.io/football/teams/10075.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606699,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635584,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T08:00:00+00:00",
-      "timestamp": 1790150400,
-      "periods": {
-        "first": 1790150400,
-        "second": 1790154000
-      },
-      "venue": {
-        "id": 965,
-        "name": "Sankyo Frontier Kashiwa Stadium",
-        "city": "Kashiwa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 102,
-      "name": "Emperor Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/102.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 281,
-        "name": "Kashiwa Reysol",
-        "logo": "https://media.api-sports.io/football/teams/281.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10075,
-        "name": "Imabari",
-        "logo": "https://media.api-sports.io/football/teams/10075.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

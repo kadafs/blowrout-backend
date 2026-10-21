@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555753,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": null,
+        "name": "Gifu Memorial Center Nagaragawa Ball Field",
+        "city": "Gifu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 297,
+        "name": "FC Gifu",
+        "logo": "https://media.api-sports.io/football/teams/297.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4324,
+        "name": "Sagamihara",
+        "logo": "https://media.api-sports.io/football/teams/4324.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555742,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555713,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T08:00:00+00:00",
-      "timestamp": 1790409600,
-      "periods": {
-        "first": 1790409600,
-        "second": 1790413200
-      },
-      "venue": {
-        "id": null,
-        "name": "Pikara",
-        "city": "Marugame"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 317,
-        "name": "Kamatamare Sanuki",
-        "logo": "https://media.api-sports.io/football/teams/317.png",
-        "winner": false
-      },
-      "away": {
-        "id": 297,
-        "name": "FC Gifu",
-        "logo": "https://media.api-sports.io/football/teams/297.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606711,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": 0,
+        "name": "NACK5 Stadium Omiya",
+        "city": "Saitama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 313,
+        "name": "Omiya Ardija",
+        "logo": "https://media.api-sports.io/football/teams/313.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4322,
+        "name": "Kataller Toyama",
+        "logo": "https://media.api-sports.io/football/teams/4322.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606701,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606671,
-      "referee": "R. Tanaka",
-      "timezone": "UTC",
-      "date": "2026-09-26T08:00:00+00:00",
-      "timestamp": 1790409600,
-      "periods": {
-        "first": 1790409600,
-        "second": 1790413200
-      },
-      "venue": {
-        "id": 0,
-        "name": "NACK5 Stadium Omiya",
-        "city": "Saitama"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 313,
-        "name": "Omiya Ardija",
-        "logo": "https://media.api-sports.io/football/teams/313.png",
-        "winner": true
-      },
-      "away": {
-        "id": 308,
-        "name": "Ventforet Kofu",
-        "logo": "https://media.api-sports.io/football/teams/308.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

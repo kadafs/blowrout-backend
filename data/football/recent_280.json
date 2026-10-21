@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606710,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": 0,
+        "name": "Yamaha Stadium",
+        "city": "Iwata"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 280,
+        "name": "Jubilo Iwata",
+        "logo": "https://media.api-sports.io/football/teams/280.png",
+        "winner": null
+      },
+      "away": {
+        "id": 298,
+        "name": "Oita Trinita",
+        "logo": "https://media.api-sports.io/football/teams/298.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606704,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639001,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T10:00:00+00:00",
-      "timestamp": 1790676000,
-      "periods": {
-        "first": 1790676000,
-        "second": 1790679600
-      },
-      "venue": {
-        "id": 963,
-        "name": "Yamaha Stadium",
-        "city": "Iwata"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 280,
-        "name": "Jubilo Iwata",
-        "logo": "https://media.api-sports.io/football/teams/280.png",
-        "winner": true
-      },
-      "away": {
-        "id": 301,
-        "name": "JEF United Chiba",
-        "logo": "https://media.api-sports.io/football/teams/301.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

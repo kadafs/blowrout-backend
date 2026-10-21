@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637332,
+      "referee": "M. Radina",
+      "timezone": "UTC",
+      "date": "2026-10-13T11:00:00+00:00",
+      "timestamp": 1791889200,
+      "periods": {
+        "first": 1791889200,
+        "second": 1791892800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Sandnes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16567,
+        "name": "Viking U19",
+        "logo": "https://media.api-sports.io/football/teams/16567.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7887,
+        "name": "Bayern M\u00fcnchen U19",
+        "logo": "https://media.api-sports.io/football/teams/7887.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628460,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1515224,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-15T12:00:00+00:00",
-      "timestamp": 1776254400,
-      "periods": {
-        "first": 1776254400,
-        "second": 1776258000
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 823,
-      "name": "Nasjonal U19 Champions League",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/823.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Group Stage - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16556,
-        "name": "Haugesund U19",
-        "logo": "https://media.api-sports.io/football/teams/16556.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16567,
-        "name": "Viking U19",
-        "logo": "https://media.api-sports.io/football/teams/16567.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

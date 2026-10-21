@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606706,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T04:00:00+00:00",
+      "timestamp": 1792555200,
+      "periods": {
+        "first": 1792555200,
+        "second": 1792558800
+      },
+      "venue": {
+        "id": 0,
+        "name": "ND Soft Stadium Yamagata",
+        "city": "Tendo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 312,
+        "name": "Montedio Yamagata",
+        "logo": "https://media.api-sports.io/football/teams/312.png",
+        "winner": false
+      },
+      "away": {
+        "id": 279,
+        "name": "Consadole Sapporo",
+        "logo": "https://media.api-sports.io/football/teams/279.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1324822,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 22814,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2016-04-17T05:00:00+00:00",
-      "timestamp": 1460869200,
-      "periods": {
-        "first": 1460869200,
-        "second": 1460872800
-      },
-      "venue": {
-        "id": null,
-        "name": "ND Soft Stadium Yamagata (Tend\u014d (Tendo))",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2016,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 312,
-        "name": "Montedio Yamagata",
-        "logo": "https://media.api-sports.io/football/teams/312.png",
-        "winner": null
-      },
-      "away": {
-        "id": 279,
-        "name": "Consadole Sapporo",
-        "logo": "https://media.api-sports.io/football/teams/279.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

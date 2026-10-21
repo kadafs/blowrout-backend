@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556105,
+      "referee": "Ryo Tanimoto",
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 972,
+        "name": "Toyota Stadium",
+        "city": "Toyota"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 288,
+        "name": "Nagoya Grampus",
+        "logo": "https://media.api-sports.io/football/teams/288.png",
+        "winner": null
+      },
+      "away": {
+        "id": 291,
+        "name": "Cerezo Osaka",
+        "logo": "https://media.api-sports.io/football/teams/291.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556091,
       "referee": "Masuya Ueda, Japan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638187,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T10:00:00+00:00",
-      "timestamp": 1790676000,
-      "periods": {
-        "first": 1790676000,
-        "second": 1790679600
-      },
-      "venue": {
-        "id": 3300,
-        "name": "Fujieda soccer stadium",
-        "city": "Fujieda"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4317,
-        "name": "Fujieda MYFC",
-        "logo": "https://media.api-sports.io/football/teams/4317.png",
-        "winner": false
-      },
-      "away": {
-        "id": 291,
-        "name": "Cerezo Osaka",
-        "logo": "https://media.api-sports.io/football/teams/291.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

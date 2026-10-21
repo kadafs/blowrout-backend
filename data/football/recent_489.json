@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1550147,
+      "referee": "Daniele Chiffi",
+      "timezone": "UTC",
+      "date": "2026-10-18T16:00:00+00:00",
+      "timestamp": 1792339200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 907,
+        "name": "San Siro/Giuseppe Meazza",
+        "city": "Milan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 489,
+        "name": "AC Milan",
+        "logo": "https://media.api-sports.io/football/teams/489.png",
+        "winner": true
+      },
+      "away": {
+        "id": 499,
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636332,
       "referee": "Horatiu Fesnic",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1550145,
-      "referee": "Francesco Fourneau",
+      "referee": "Francesco Fourneau, Italy",
       "timezone": "UTC",
       "date": "2026-10-11T16:00:00+00:00",
       "timestamp": 1791734400,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550121,
-      "referee": "Matteo Marcenaro, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
-      "periods": {
-        "first": 1789228800,
-        "second": 1789232400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Olimpico",
-        "city": "Rome"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 487,
-        "name": "Lazio",
-        "logo": "https://media.api-sports.io/football/teams/487.png",
-        "winner": null
-      },
-      "away": {
-        "id": 489,
-        "name": "AC Milan",
-        "logo": "https://media.api-sports.io/football/teams/489.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582291,
+      "referee": "D. Portelli",
+      "timezone": "UTC",
+      "date": "2026-10-18T13:30:00+00:00",
+      "timestamp": 1792330200,
+      "periods": {
+        "first": 1792330200,
+        "second": 1792333800
+      },
+      "venue": {
+        "id": 12090,
+        "name": "Tony Bezzina Stadium",
+        "city": "Paola"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 393,
+      "name": "Premier League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/393.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3884,
+        "name": "Hibernians",
+        "logo": "https://media.api-sports.io/football/teams/3884.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16533,
+        "name": "Birzebbuga",
+        "logo": "https://media.api-sports.io/football/teams/16533.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582284,
       "referee": "F. Zammit",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582262,
-      "referee": "D. Portelli",
-      "timezone": "UTC",
-      "date": "2026-08-28T16:30:00+00:00",
-      "timestamp": 1787934600,
-      "periods": {
-        "first": 1787934600,
-        "second": 1787938200
-      },
-      "venue": {
-        "id": null,
-        "name": "Centenary Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 393,
-      "name": "Premier League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/393.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3884,
-        "name": "Hibernians",
-        "logo": "https://media.api-sports.io/football/teams/3884.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4622,
-        "name": "Zabbar St. Patrick",
-        "logo": "https://media.api-sports.io/football/teams/4622.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1551700,
+      "id": 1551702,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T17:00:00+00:00",
+      "timestamp": 1792342800,
+      "periods": {
+        "first": 1792342800,
+        "second": 1792346400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Cartago"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 162,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/162.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Apertura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 820,
+        "name": "CS Cartagines",
+        "logo": "https://media.api-sports.io/football/teams/820.png",
+        "winner": true
+      },
+      "away": {
+        "id": 816,
+        "name": "Deportivo Saprissa",
+        "logo": "https://media.api-sports.io/football/teams/816.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1551700,
+      "referee": "W. Matus",
       "timezone": "UTC",
       "date": "2026-10-16T02:00:00+00:00",
       "timestamp": 1792116000,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551685,
-      "referee": "S. Madrigal",
-      "timezone": "UTC",
-      "date": "2026-09-13T22:00:00+00:00",
-      "timestamp": 1789336800,
-      "periods": {
-        "first": 1789336800,
-        "second": 1789340400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Puente de Piedra",
-        "city": "Grecia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 162,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/162.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2026,
-      "round": "Apertura - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2047,
-        "name": "Sporting San Jose",
-        "logo": "https://media.api-sports.io/football/teams/2047.png",
-        "winner": true
-      },
-      "away": {
-        "id": 816,
-        "name": "Deportivo Saprissa",
-        "logo": "https://media.api-sports.io/football/teams/816.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492410,
+      "referee": "Paulo Cesar Zanovelli da Silva",
+      "timezone": "UTC",
+      "date": "2026-10-17T22:30:00+00:00",
+      "timestamp": 1792276200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10493,
+        "name": "Arena da Baixada",
+        "city": "Curitiba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 134,
+        "name": "Atletico Paranaense",
+        "logo": "https://media.api-sports.io/football/teams/134.png",
+        "winner": false
+      },
+      "away": {
+        "id": 121,
+        "name": "Palmeiras",
+        "logo": "https://media.api-sports.io/football/teams/121.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640020,
       "referee": "Facundo Tello",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492378,
-      "referee": "Rafael Rodrigo Klein, Brazil",
-      "timezone": "UTC",
-      "date": "2026-09-12T21:30:00+00:00",
-      "timestamp": 1789248600,
-      "periods": {
-        "first": 1789248600,
-        "second": 1789252200
-      },
-      "venue": {
-        "id": null,
-        "name": "Nubank Parque",
-        "city": "Sao Paulo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 121,
-        "name": "Palmeiras",
-        "logo": "https://media.api-sports.io/football/teams/121.png",
-        "winner": true
-      },
-      "away": {
-        "id": 126,
-        "name": "Sao Paulo",
-        "logo": "https://media.api-sports.io/football/teams/126.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

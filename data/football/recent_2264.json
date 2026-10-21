@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582290,
+      "referee": "I. Barbara",
+      "timezone": "UTC",
+      "date": "2026-10-18T09:00:00+00:00",
+      "timestamp": 1792314000,
+      "periods": {
+        "first": 1792314000,
+        "second": 1792317600
+      },
+      "venue": {
+        "id": 1065,
+        "name": "Victor Tedesco Stadium",
+        "city": "Hamrun"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 393,
+      "name": "Premier League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/393.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2264,
+        "name": "Gzira United",
+        "logo": "https://media.api-sports.io/football/teams/2264.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4626,
+        "name": "Hamrun Spartans",
+        "logo": "https://media.api-sports.io/football/teams/4626.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582279,
       "referee": "A. Johnson",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582257,
-      "referee": "J. Scerri",
-      "timezone": "UTC",
-      "date": "2026-08-29T19:00:00+00:00",
-      "timestamp": 1788030000,
-      "periods": {
-        "first": 1788030000,
-        "second": 1788033600
-      },
-      "venue": {
-        "id": 12090,
-        "name": "Tony Bezzina Stadium",
-        "city": "Paola"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 393,
-      "name": "Premier League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/393.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 696,
-        "name": "Balzan FC",
-        "logo": "https://media.api-sports.io/football/teams/696.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2264,
-        "name": "Gzira United",
-        "logo": "https://media.api-sports.io/football/teams/2264.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

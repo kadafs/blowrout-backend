@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1619747,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T14:30:00+00:00",
+      "timestamp": 1792333800,
+      "periods": {
+        "first": 1792333800,
+        "second": 1792337400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 758,
+      "name": "Premier Division",
+      "country": "Gibraltar",
+      "logo": "https://media.api-sports.io/football/leagues/758.png",
+      "flag": "https://media.api-sports.io/flags/gi.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16134,
+        "name": "Lynx",
+        "logo": "https://media.api-sports.io/football/teams/16134.png",
+        "winner": false
+      },
+      "away": {
+        "id": 667,
+        "name": "Lincoln Red Imps FC",
+        "logo": "https://media.api-sports.io/football/teams/667.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636392,
-      "referee": "Dalibor Cerny, Czechia",
+      "referee": "D. Cerny",
       "timezone": "UTC",
       "date": "2026-10-15T19:00:00+00:00",
       "timestamp": 1792090800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619725,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T19:00:00+00:00",
-      "timestamp": 1788116400,
-      "periods": {
-        "first": 1788116400,
-        "second": 1788120000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 758,
-      "name": "Premier Division",
-      "country": "Gibraltar",
-      "logo": "https://media.api-sports.io/football/leagues/758.png",
-      "flag": "https://media.api-sports.io/flags/gi.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16132,
-        "name": "Glacis United",
-        "logo": "https://media.api-sports.io/football/teams/16132.png",
-        "winner": false
-      },
-      "away": {
-        "id": 667,
-        "name": "Lincoln Red Imps FC",
-        "logo": "https://media.api-sports.io/football/teams/667.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

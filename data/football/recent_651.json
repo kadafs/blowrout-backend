@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560256,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T16:00:00+00:00",
+      "timestamp": 1792339200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10569,
+        "name": "V\u00e1rkert Sportp\u00e1lya",
+        "city": "Kisvarda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2394,
+        "name": "Kisvarda FC",
+        "logo": "https://media.api-sports.io/football/teams/2394.png",
+        "winner": null
+      },
+      "away": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636260,
       "referee": "Damian Sylwestrzak",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634940,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": 3843,
-        "name": "Debreceni Egyetemi AC Stadion",
-        "city": "Debrecen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5082,
-        "name": "DEAC",
-        "logo": "https://media.api-sports.io/football/teams/5082.png",
-        "winner": false
-      },
-      "away": {
-        "id": 651,
-        "name": "Ferencvarosi TC",
-        "logo": "https://media.api-sports.io/football/teams/651.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 7
       },
       "extratime": {
         "home": null,

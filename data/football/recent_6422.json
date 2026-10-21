@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635282,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-13T13:00:00+00:00",
+      "timestamp": 1791896400,
+      "periods": {
+        "first": 1791896400,
+        "second": 1791900000
+      },
+      "venue": {
+        "id": null,
+        "name": "Kiira Road Police Arena",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 585,
+      "name": "Premier League",
+      "country": "Uganda",
+      "logo": "https://media.api-sports.io/football/leagues/585.png",
+      "flag": "https://media.api-sports.io/flags/ug.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28318,
+        "name": "Ntugasaze",
+        "logo": "https://media.api-sports.io/football/teams/28318.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6422,
+        "name": "KCCA",
+        "logo": "https://media.api-sports.io/football/teams/6422.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635277,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632454,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T13:00:00+00:00",
-      "timestamp": 1788008400,
-      "periods": {
-        "first": 1788008400,
-        "second": 1788012000
-      },
-      "venue": {
-        "id": null,
-        "name": "MTN Omondi Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 585,
-      "name": "Premier League",
-      "country": "Uganda",
-      "logo": "https://media.api-sports.io/football/leagues/585.png",
-      "flag": "https://media.api-sports.io/flags/ug.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6422,
-        "name": "KCCA",
-        "logo": "https://media.api-sports.io/football/teams/6422.png",
-        "winner": false
-      },
-      "away": {
-        "id": 22699,
-        "name": "NEC",
-        "logo": "https://media.api-sports.io/football/teams/22699.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

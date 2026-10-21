@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644465,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 174,
+      "name": "Cup",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/174.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1410,
+        "name": "Nesebar",
+        "logo": "https://media.api-sports.io/football/teams/1410.png",
+        "winner": false
+      },
+      "away": {
+        "id": 853,
+        "name": "CSKA Sofia",
+        "logo": "https://media.api-sports.io/football/teams/853.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636401,
       "referee": "J. Goncalves",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551107,
-      "referee": "M. Pavlov",
-      "timezone": "UTC",
-      "date": "2026-09-12T18:15:00+00:00",
-      "timestamp": 1789236900,
-      "periods": {
-        "first": 1789236900,
-        "second": 1789240500
-      },
-      "venue": {
-        "id": null,
-        "name": "Vasil Levski National Stadium",
-        "city": "Sofia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 853,
-        "name": "CSKA Sofia",
-        "logo": "https://media.api-sports.io/football/teams/853.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1430,
-        "name": "Arda Kardzhali",
-        "logo": "https://media.api-sports.io/football/teams/1430.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581542,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T15:00:00+00:00",
+      "timestamp": 1792162800,
+      "periods": {
+        "first": 1792162800,
+        "second": 1792166400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Gandzasar",
+        "city": "Kapan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 342,
+      "name": "Premier League",
+      "country": "Armenia",
+      "logo": "https://media.api-sports.io/football/leagues/342.png",
+      "flag": "https://media.api-sports.io/flags/am.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 688,
+        "name": "Gandzasar",
+        "logo": "https://media.api-sports.io/football/teams/688.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26198,
+        "name": "Sardarapat",
+        "logo": "https://media.api-sports.io/football/teams/26198.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581535,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581519,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T15:00:00+00:00",
-      "timestamp": 1788706800,
-      "periods": {
-        "first": 1788706800,
-        "second": 1788710400
-      },
-      "venue": {
-        "id": 2479,
-        "name": "Gyumri City Stadium",
-        "city": "Gyumri"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 342,
-      "name": "Premier League",
-      "country": "Armenia",
-      "logo": "https://media.api-sports.io/football/leagues/342.png",
-      "flag": "https://media.api-sports.io/flags/am.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3686,
-        "name": "Shirak",
-        "logo": "https://media.api-sports.io/football/teams/3686.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26198,
-        "name": "Sardarapat",
-        "logo": "https://media.api-sports.io/football/teams/26198.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

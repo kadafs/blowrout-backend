@@ -474,12 +474,20 @@ def _build_from_raw(raw_new, league_id, season, existing_teams):
         s.pop("_raw_goals", None)
         ph = s["pgf_home"]; pa = s["pgf_away"]
         dh = s["pga_home"]; da = s["pga_away"]
-        s["attack_rating_home"]  = round(ph / avg_home, 4) if avg_home else 1.0
-        s["attack_rating_away"]  = round(pa / avg_away, 4) if avg_away else 1.0
-        s["attack_rating_all"]   = round((s["attack_rating_home"] + s["attack_rating_away"]) / 2, 4)
-        s["defense_rating_home"] = round(dh / avg_home, 4) if avg_home else 1.0
-        s["defense_rating_away"] = round(da / avg_away, 4) if avg_away else 1.0
-        s["defense_rating_all"]  = round((s["defense_rating_home"] + s["defense_rating_away"]) / 2, 4)
+        if s.get("played_all", 0) == 0:
+            s["attack_rating_home"]  = 1.0
+            s["attack_rating_away"]  = 1.0
+            s["attack_rating_all"]   = 1.0
+            s["defense_rating_home"] = 1.0
+            s["defense_rating_away"] = 1.0
+            s["defense_rating_all"]  = 1.0
+        else:
+            s["attack_rating_home"]  = round(ph / avg_home, 4) if (avg_home and ph) else 1.0
+            s["attack_rating_away"]  = round(pa / avg_away, 4) if (avg_away and pa) else 1.0
+            s["attack_rating_all"]   = round((s["attack_rating_home"] + s["attack_rating_away"]) / 2, 4)
+            s["defense_rating_home"] = round(dh / avg_away, 4) if (avg_away and dh) else 1.0
+            s["defense_rating_away"] = round(da / avg_home, 4) if (avg_home and da) else 1.0
+            s["defense_rating_all"]  = round((s["defense_rating_home"] + s["defense_rating_away"]) / 2, 4)
         s["league_avg_home_goals"] = avg_home
         s["league_avg_away_goals"] = avg_away
         teams_dict[s["name"]] = s
@@ -586,6 +594,31 @@ def sync_team_stats_from_standings(team_s, standings_row):
             team_s["form_wins"] = form_str.upper().count("W")
             team_s["form_draws"] = form_str.upper().count("D")
 
+        # Recalculate attack & defense ratings from current standing stats
+        ah_base = 1.50
+        aa_base = 1.20
+        if st_played > 0:
+            pgf_all = team_s.get("pgf_all", 1.35)
+            pga_all = team_s.get("pga_all", 1.35)
+            team_s["attack_rating_all"] = round(pgf_all / 1.35, 3)
+            team_s["defense_rating_all"] = round(pga_all / 1.35, 3)
+
+            # Home ratings
+            if team_s.get("played_home", 0) > 0:
+                team_s["attack_rating_home"] = round(team_s["pgf_home"] / ah_base, 3)
+                team_s["defense_rating_home"] = round(team_s["pga_home"] / aa_base, 3)
+            else:
+                team_s["attack_rating_home"] = team_s["attack_rating_all"]
+                team_s["defense_rating_home"] = team_s["defense_rating_all"]
+
+            # Away ratings
+            if team_s.get("played_away", 0) > 0:
+                team_s["attack_rating_away"] = round(team_s["pgf_away"] / aa_base, 3)
+                team_s["defense_rating_away"] = round(team_s["pga_away"] / ah_base, 3)
+            else:
+                team_s["attack_rating_away"] = team_s["attack_rating_all"]
+                team_s["defense_rating_away"] = team_s["defense_rating_all"]
+
 def fetch_team_recent_fixtures(team_id, last=5, refresh=False):
     """Fetch last N completed fixtures for a team."""
     cache_file = f"data/football/recent_{team_id}.json"
@@ -688,16 +721,31 @@ def calc_xg(home_s, away_s, avg_home, avg_away):
     def get_blended_rating(team_s, rating_key):
         curr_played = team_s.get("played_all", 0)
         curr_rating = team_s.get(rating_key, 1.0)
-        if curr_played == 0:
-            curr_rating = 1.0
+        if curr_played == 0 or not curr_rating or curr_rating <= 0.05:
+            # Recompute on the fly from current season stats if available, else 1.0
+            if "attack_rating_home" in rating_key:
+                val = team_s.get("pgf_home") if team_s.get("pgf_home") is not None else team_s.get("pgf_all")
+                curr_rating = val / max(0.5, avg_home) if val is not None else 1.0
+            elif "attack_rating_away" in rating_key:
+                val = team_s.get("pgf_away") if team_s.get("pgf_away") is not None else team_s.get("pgf_all")
+                curr_rating = val / max(0.5, avg_away) if val is not None else 1.0
+            elif "defense_rating_home" in rating_key:
+                val = team_s.get("pga_home") if team_s.get("pga_home") is not None else team_s.get("pga_all")
+                curr_rating = val / max(0.5, avg_away) if val is not None else 1.0
+            elif "defense_rating_away" in rating_key:
+                val = team_s.get("pga_away") if team_s.get("pga_away") is not None else team_s.get("pga_all")
+                curr_rating = val / max(0.5, avg_home) if val is not None else 1.0
+            else:
+                curr_rating = 1.0
+            if curr_rating <= 0.05:
+                curr_rating = 1.0
             
         prev_s = team_s.get("previous_season")
         
         if prev_s and curr_played < 10 and prev_s.get("played_all", 0) > 0:
             # We have prior season data, and current season is early.
-            if rating_key in prev_s:
-                prev_rating = prev_s[rating_key]
-            else:
+            prev_rating = prev_s.get(rating_key, 0.0)
+            if not prev_rating or prev_rating <= 0.05:
                 # Calculate rating on the fly using global baseline
                 if "attack_rating_home" in rating_key: prev_rating = prev_s.get("pgf_home", 1.5) / 1.50
                 elif "attack_rating_away" in rating_key: prev_rating = prev_s.get("pgf_away", 1.2) / 1.20
@@ -706,6 +754,8 @@ def calc_xg(home_s, away_s, avg_home, avg_away):
                 elif "attack_rating_all" in rating_key: prev_rating = prev_s.get("pgf_all", 1.35) / 1.35
                 elif "defense_rating_all" in rating_key: prev_rating = prev_s.get("pga_all", 1.35) / 1.35
                 else: prev_rating = 1.0
+            if prev_rating <= 0.05:
+                prev_rating = 1.0
             
             # Linearly shift from prior to current over 10 games
             w_curr = max(0.0, min(1.0, curr_played / 10.0))

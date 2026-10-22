@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567930,
+      "referee": "F. Jager",
+      "timezone": "UTC",
+      "date": "2026-10-18T08:30:00+00:00",
+      "timestamp": 1792312200,
+      "periods": {
+        "first": 1792312200,
+        "second": 1792315800
+      },
+      "venue": {
+        "id": null,
+        "name": "Solarstadion Gleisdorf",
+        "city": "Gleisdorf"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8251,
+        "name": "Sturm Graz II",
+        "logo": "https://media.api-sports.io/football/teams/8251.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1401,
+        "name": "SV Kapfenberg",
+        "logo": "https://media.api-sports.io/football/teams/1401.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567922,
       "referee": "S. Bosnjak",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567887,
-      "referee": "S. Sampl",
-      "timezone": "UTC",
-      "date": "2026-08-22T15:30:00+00:00",
-      "timestamp": 1787412600,
-      "periods": {
-        "first": 1787412600,
-        "second": 1787416200
-      },
-      "venue": {
-        "id": null,
-        "name": "ImmoAgentur Stadion",
-        "city": "Bregenz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8259,
-        "name": "Schwarz-Wei\u00df Bregenz",
-        "logo": "https://media.api-sports.io/football/teams/8259.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8251,
-        "name": "Sturm Graz II",
-        "logo": "https://media.api-sports.io/football/teams/8251.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

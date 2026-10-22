@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621643,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T15:45:00+00:00",
+      "timestamp": 1792424700,
+      "periods": {
+        "first": 1792424700,
+        "second": 1792428300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 7",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6200,
+        "name": "Maccabi Yavne",
+        "logo": "https://media.api-sports.io/football/teams/6200.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6171,
+        "name": "Holon Yermiyahu",
+        "logo": "https://media.api-sports.io/football/teams/6171.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621636,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621599,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T16:40:00+00:00",
-      "timestamp": 1788972000,
-      "periods": {
-        "first": 1788972000,
-        "second": 1788975600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6171,
-        "name": "Holon Yermiyahu",
-        "logo": "https://media.api-sports.io/football/teams/6171.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4498,
-        "name": "Hapoel Marmorek",
-        "logo": "https://media.api-sports.io/football/teams/4498.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

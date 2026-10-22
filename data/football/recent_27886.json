@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574137,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T17:30:00+00:00",
+      "timestamp": 1792171800,
+      "periods": {
+        "first": 1792171800,
+        "second": 1792175400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 221,
+      "name": "Regionalliga - Ost",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/221.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Ost - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27886,
+        "name": "Mattersburg SV 2020",
+        "logo": "https://media.api-sports.io/football/teams/27886.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1397,
+        "name": "SV Horn",
+        "logo": "https://media.api-sports.io/football/teams/1397.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574122,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574096,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:30:00+00:00",
-      "timestamp": 1789223400,
-      "periods": {
-        "first": 1789223400,
-        "second": 1789227000
-      },
-      "venue": {
-        "id": null,
-        "name": "Franz Haas Stadion",
-        "city": "Leobendorf"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 221,
-      "name": "Regionalliga - Ost",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/221.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Ost - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4951,
-        "name": "Leobendorf",
-        "logo": "https://media.api-sports.io/football/teams/4951.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27886,
-        "name": "Mattersburg SV 2020",
-        "logo": "https://media.api-sports.io/football/teams/27886.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

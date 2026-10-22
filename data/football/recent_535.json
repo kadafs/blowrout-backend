@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1570418,
+      "referee": "Luis Bestard Servera",
+      "timezone": "UTC",
+      "date": "2026-10-18T16:30:00+00:00",
+      "timestamp": 1792341000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1483,
+        "name": "La Rosaleda",
+        "city": "Malaga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 535,
+        "name": "Malaga",
+        "logo": "https://media.api-sports.io/football/teams/535.png",
+        "winner": false
+      },
+      "away": {
+        "id": 548,
+        "name": "Real Sociedad",
+        "logo": "https://media.api-sports.io/football/teams/548.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570408,
-      "referee": "F. Maeso",
+      "referee": "Francisco Hernandez Maeso, Spain",
       "timezone": "UTC",
       "date": "2026-10-09T19:00:00+00:00",
       "timestamp": 1791572400,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1570398,
-      "referee": "J. Alberola",
+      "referee": "Javier Alberola Rojas, Spain",
       "timezone": "UTC",
       "date": "2026-09-20T12:00:00+00:00",
       "timestamp": 1789905600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1570390,
-      "referee": "M. Ortiz",
+      "referee": "Miguel Angel Ortiz Arias, Spain",
       "timezone": "UTC",
       "date": "2026-09-17T19:30:00+00:00",
       "timestamp": 1789673400,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1570374,
-      "referee": "C. Muniz",
+      "referee": "Carlos Muniz Munoz, Spain",
       "timezone": "UTC",
       "date": "2026-09-13T12:00:00+00:00",
       "timestamp": 1789300800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570369,
-      "referee": "L. Bestard Servera",
-      "timezone": "UTC",
-      "date": "2026-09-06T16:30:00+00:00",
-      "timestamp": 1788712200,
-      "periods": {
-        "first": 1788712200,
-        "second": 1788715800
-      },
-      "venue": {
-        "id": 1483,
-        "name": "Estadio La Rosaleda",
-        "city": "Malaga"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 535,
-        "name": "Malaga",
-        "logo": "https://media.api-sports.io/football/teams/535.png",
-        "winner": null
-      },
-      "away": {
-        "id": 539,
-        "name": "Levante",
-        "logo": "https://media.api-sports.io/football/teams/539.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

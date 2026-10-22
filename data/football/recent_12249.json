@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602164,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T15:00:00+00:00",
+      "timestamp": 1792249200,
+      "periods": {
+        "first": 1792249200,
+        "second": 1792252800
+      },
+      "venue": {
+        "id": 21453,
+        "name": "Nii Adjei Kraku II Sports Complex",
+        "city": "Tema"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 570,
+      "name": "Premier League",
+      "country": "Ghana",
+      "logo": "https://media.api-sports.io/football/leagues/570.png",
+      "flag": "https://media.api-sports.io/flags/gh.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22782,
+        "name": "Vision",
+        "logo": "https://media.api-sports.io/football/teams/22782.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12249,
+        "name": "Hearts of Oak",
+        "logo": "https://media.api-sports.io/football/teams/12249.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602151,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602115,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Bibiani"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 570,
-      "name": "Premier League",
-      "country": "Ghana",
-      "logo": "https://media.api-sports.io/football/leagues/570.png",
-      "flag": "https://media.api-sports.io/flags/gh.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17993,
-        "name": "Bibiani Gold Stars",
-        "logo": "https://media.api-sports.io/football/teams/17993.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12249,
-        "name": "Hearts of Oak",
-        "logo": "https://media.api-sports.io/football/teams/12249.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

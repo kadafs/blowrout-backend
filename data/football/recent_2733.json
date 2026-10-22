@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639656,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T14:15:00+00:00",
+      "timestamp": 1792419300,
+      "periods": {
+        "first": 1792419300,
+        "second": 1792422900
+      },
+      "venue": {
+        "id": 22428,
+        "name": "Azadi Stadium",
+        "city": "Tehran"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 290,
+      "name": "Persian Gulf Pro League",
+      "country": "Iran",
+      "logo": "https://media.api-sports.io/football/leagues/290.png",
+      "flag": "https://media.api-sports.io/flags/ir.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2733,
+        "name": "Esteghlal FC",
+        "logo": "https://media.api-sports.io/football/teams/2733.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2714,
+        "name": "Gol Gohar",
+        "logo": "https://media.api-sports.io/football/teams/2714.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629930,
       "referee": "Alexander George King, Australia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1631581,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T15:30:00+00:00",
-      "timestamp": 1788708600,
-      "periods": {
-        "first": 1788708600,
-        "second": 1788712200
-      },
-      "venue": {
-        "id": null,
-        "name": "Imam Khomeini",
-        "city": "Arak"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 290,
-      "name": "Persian Gulf Pro League",
-      "country": "Iran",
-      "logo": "https://media.api-sports.io/football/leagues/290.png",
-      "flag": "https://media.api-sports.io/flags/ir.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2703,
-        "name": "Aluminium Arak",
-        "logo": "https://media.api-sports.io/football/teams/2703.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2733,
-        "name": "Esteghlal FC",
-        "logo": "https://media.api-sports.io/football/teams/2733.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

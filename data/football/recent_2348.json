@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644704,
+      "referee": "E. Ostojich",
+      "timezone": "UTC",
+      "date": "2026-10-18T21:30:00+00:00",
+      "timestamp": 1792359000,
+      "periods": {
+        "first": 1792359000,
+        "second": 1792362600
+      },
+      "venue": {
+        "id": 1638,
+        "name": "Estadio Belvedere",
+        "city": "Montevideo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 268,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Uruguay",
+      "logo": "https://media.api-sports.io/football/leagues/268.png",
+      "flag": "https://media.api-sports.io/flags/uy.svg",
+      "season": 2026,
+      "round": "Clausura - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2358,
+        "name": "Liverpool Montevideo",
+        "logo": "https://media.api-sports.io/football/teams/2358.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2348,
+        "name": "Penarol",
+        "logo": "https://media.api-sports.io/football/teams/2348.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643171,
       "referee": "M. De Armas",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638264,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T18:30:00+00:00",
-      "timestamp": 1790274600,
-      "periods": {
-        "first": 1790274600,
-        "second": 1790278200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 930,
-      "name": "Copa Uruguay",
-      "country": "Uruguay",
-      "logo": "https://media.api-sports.io/football/leagues/930.png",
-      "flag": "https://media.api-sports.io/flags/uy.svg",
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2352,
-        "name": "Danubio",
-        "logo": "https://media.api-sports.io/football/teams/2352.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2348,
-        "name": "Penarol",
-        "logo": "https://media.api-sports.io/football/teams/2348.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

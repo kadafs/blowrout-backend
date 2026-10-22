@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586115,
+      "referee": "A. Alvarez",
+      "timezone": "UTC",
+      "date": "2026-10-20T18:00:00+00:00",
+      "timestamp": 1792519200,
+      "periods": {
+        "first": 1792519200,
+        "second": 1792522800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 950,
+      "name": "World Cup - U17 - Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/950.png",
+      "flag": null,
+      "season": 2026,
+      "round": "World Cup Women U17 - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25231,
+        "name": "Nigeria U17 W",
+        "logo": "https://media.api-sports.io/football/teams/25231.png",
+        "winner": true
+      },
+      "away": {
+        "id": 18951,
+        "name": "Puerto Rico W U17",
+        "logo": "https://media.api-sports.io/football/teams/18951.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586113,
       "referee": "F. Dong",
       "timezone": "UTC",
@@ -30,7 +100,7 @@
       "flag": null,
       "season": 2026,
       "round": "World Cup Women U17 - 1",
-      "standings": false
+      "standings": true
     },
     "teams": {
       "home": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1479931,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-19T19:00:00+00:00",
-      "timestamp": 1760900400,
-      "periods": {
-        "first": 1760900400,
-        "second": 1760904000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 950,
-      "name": "World Cup - U17 - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/950.png",
-      "flag": null,
-      "season": 2025,
-      "round": "World Cup Women U17 - 1",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 25231,
-        "name": "Nigeria U17 W",
-        "logo": "https://media.api-sports.io/football/teams/25231.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12504,
-        "name": "Canada W U17",
-        "logo": "https://media.api-sports.io/football/teams/12504.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

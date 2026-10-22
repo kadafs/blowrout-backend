@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1546130,
+      "referee": "L. Lee",
+      "timezone": "UTC",
+      "date": "2026-10-20T18:00:00+00:00",
+      "timestamp": 1792519200,
+      "periods": {
+        "first": 1792519200,
+        "second": 1792522800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 950,
+      "name": "World Cup - U17 - Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/950.png",
+      "flag": null,
+      "season": 2026,
+      "round": "World Cup Women U17 - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20529,
+        "name": "Morocco U17 W",
+        "logo": "https://media.api-sports.io/football/teams/20529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27115,
+        "name": "Germany U17 W",
+        "logo": "https://media.api-sports.io/football/teams/27115.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1546120,
       "referee": "V. Diaz",
       "timezone": "UTC",
@@ -30,7 +100,7 @@
       "flag": null,
       "season": 2026,
       "round": "World Cup Women U17 - 1",
-      "standings": false
+      "standings": true
     },
     "teams": {
       "home": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1543326,
-      "referee": "K. Kozorog",
-      "timezone": "UTC",
-      "date": "2026-05-10T14:00:00+00:00",
-      "timestamp": 1778421600,
-      "periods": {
-        "first": 1778421600,
-        "second": 1778425200
-      },
-      "venue": {
-        "id": null,
-        "name": "Inver Park",
-        "city": "Larne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1102,
-      "name": "UEFA U17 Championship - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1102.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 27115,
-        "name": "Germany U17 W",
-        "logo": "https://media.api-sports.io/football/teams/27115.png",
-        "winner": false
-      },
-      "away": {
-        "id": 27724,
-        "name": "Northern Ireland U17 W",
-        "logo": "https://media.api-sports.io/football/teams/27724.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567924,
+      "referee": "J. Spurny",
+      "timezone": "UTC",
+      "date": "2026-10-16T16:30:00+00:00",
+      "timestamp": 1792168200,
+      "periods": {
+        "first": 1792168200,
+        "second": 1792171800
+      },
+      "venue": {
+        "id": 19961,
+        "name": "Munzer Bioindustrie Sportpark Voitsberg",
+        "city": "Voitsberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8332,
+        "name": "Voitsberg",
+        "logo": "https://media.api-sports.io/football/teams/8332.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4990,
+        "name": "First Vienna",
+        "logo": "https://media.api-sports.io/football/teams/4990.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567919,
       "referee": "D. Divkovic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607212,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T14:30:00+00:00",
-      "timestamp": 1788618600,
-      "periods": {
-        "first": 1788618600,
-        "second": 1788622200
-      },
-      "venue": {
-        "id": 3792,
-        "name": "Max-Aicher-Stadion",
-        "city": "Salzburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 220,
-      "name": "Cup",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/220.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5000,
-        "name": "Austria Salzburg",
-        "logo": "https://media.api-sports.io/football/teams/5000.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4990,
-        "name": "First Vienna",
-        "logo": "https://media.api-sports.io/football/teams/4990.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

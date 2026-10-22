@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552499,
+      "referee": "Gael Angoula",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 658,
+        "name": "Stade Saint-Symphorien",
+        "city": "Metz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png",
+        "winner": true
+      },
+      "away": {
+        "id": 115,
+        "name": "Sochaux",
+        "logo": "https://media.api-sports.io/football/teams/115.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552487,
-      "referee": "Marc Bollengier",
+      "referee": "Marc Bollengier, France",
       "timezone": "UTC",
       "date": "2026-10-12T18:45:00+00:00",
       "timestamp": 1791830700,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552450,
-      "referee": "Antoine Valnet, France",
-      "timezone": "UTC",
-      "date": "2026-08-29T12:00:00+00:00",
-      "timestamp": 1788004800,
-      "periods": {
-        "first": 1788004800,
-        "second": 1788008400
-      },
-      "venue": {
-        "id": 1979,
-        "name": "Parc des Sports",
-        "city": "Annecy"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3012,
-        "name": "Annecy",
-        "logo": "https://media.api-sports.io/football/teams/3012.png",
-        "winner": null
-      },
-      "away": {
-        "id": 112,
-        "name": "Metz",
-        "logo": "https://media.api-sports.io/football/teams/112.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

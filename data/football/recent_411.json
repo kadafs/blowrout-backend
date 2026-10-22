@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551845,
+      "referee": "Stan Smit",
+      "timezone": "UTC",
+      "date": "2026-10-19T18:00:00+00:00",
+      "timestamp": 1792432800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12681,
+        "name": "De Herdgang",
+        "city": "Eindhoven"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 89,
+      "name": "Eerste Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/89.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 411,
+        "name": "Jong PSV U21",
+        "logo": "https://media.api-sports.io/football/teams/411.png",
+        "winner": false
+      },
+      "away": {
+        "id": 409,
+        "name": "Dordrecht",
+        "logo": "https://media.api-sports.io/football/teams/409.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551836,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551785,
-      "referee": "A. Wolff",
-      "timezone": "UTC",
-      "date": "2026-09-07T18:00:00+00:00",
-      "timestamp": 1788804000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "De Herdgang",
-        "city": "Eindhoven"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 89,
-      "name": "Eerste Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/89.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 411,
-        "name": "Jong PSV U21",
-        "logo": "https://media.api-sports.io/football/teams/411.png",
-        "winner": true
-      },
-      "away": {
-        "id": 421,
-        "name": "Den Bosch",
-        "logo": "https://media.api-sports.io/football/teams/421.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 3,

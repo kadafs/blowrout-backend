@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607939,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-04T17:00:00+00:00",
+      "timestamp": 1788541200,
+      "periods": {
+        "first": 1788541200,
+        "second": 1788544800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1238,
+      "name": "Regionalliga - South",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/1238.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "South - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4934,
+        "name": "Allerheiligen",
+        "logo": "https://media.api-sports.io/football/teams/4934.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21533,
+        "name": "Tillmitsch",
+        "logo": "https://media.api-sports.io/football/teams/21533.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1465129,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1174764,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-02-19T18:00:00+00:00",
-      "timestamp": 1708365600,
-      "periods": {
-        "first": 1708365600,
-        "second": 1708369200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2024,
-      "round": "Club Friendlies 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 21533,
-        "name": "Tillmitsch",
-        "logo": "https://media.api-sports.io/football/teams/21533.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4934,
-        "name": "Allerheiligen",
-        "logo": "https://media.api-sports.io/football/teams/4934.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

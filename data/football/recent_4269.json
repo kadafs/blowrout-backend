@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629033,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T17:00:00+00:00",
+      "timestamp": 1792170000,
+      "periods": {
+        "first": 1792170000,
+        "second": 1792173600
+      },
+      "venue": {
+        "id": 1535,
+        "name": "Stade Olympique de la Pontaise",
+        "city": "Lausanne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 209,
+      "name": "Schweizer Cup",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/209.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4269,
+        "name": "Stade Lausanne-Ouchy",
+        "logo": "https://media.api-sports.io/football/teams/4269.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6654,
+        "name": "\u00c9toile Carouge",
+        "logo": "https://media.api-sports.io/football/teams/6654.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555064,
       "referee": "U. Schnyder",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555052,
-      "referee": "L. Mauricio",
-      "timezone": "UTC",
-      "date": "2026-09-11T17:30:00+00:00",
-      "timestamp": 1789147800,
-      "periods": {
-        "first": 1789147800,
-        "second": 1789151400
-      },
-      "venue": {
-        "id": 1535,
-        "name": "Stade Olympique de la Pontaise",
-        "city": "Lausanne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 208,
-      "name": "Challenge League",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/208.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4269,
-        "name": "Stade Lausanne-Ouchy",
-        "logo": "https://media.api-sports.io/football/teams/4269.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2179,
-        "name": "FC WIL 1900",
-        "logo": "https://media.api-sports.io/football/teams/2179.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

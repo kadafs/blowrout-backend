@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621049,
+      "referee": "D. Baines",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": "Burnley FC Training Centre",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20081,
+        "name": "Burnley U21",
+        "logo": "https://media.api-sports.io/football/teams/20081.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7190,
+        "name": "Aston Villa U21",
+        "logo": "https://media.api-sports.io/football/teams/7190.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627087,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621000,
-      "referee": "M. McQuillan",
-      "timezone": "UTC",
-      "date": "2026-08-28T18:00:00+00:00",
-      "timestamp": 1787940000,
-      "periods": {
-        "first": 1787940000,
-        "second": 1787943600
-      },
-      "venue": {
-        "id": null,
-        "name": "Lancashire County Ground",
-        "city": "Leyland"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20081,
-        "name": "Burnley U21",
-        "logo": "https://media.api-sports.io/football/teams/20081.png",
-        "winner": false
-      },
-      "away": {
-        "id": 11914,
-        "name": "Reading U21",
-        "logo": "https://media.api-sports.io/football/teams/11914.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

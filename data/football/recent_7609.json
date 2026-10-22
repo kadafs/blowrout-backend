@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621647,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T17:00:00+00:00",
+      "timestamp": 1792429200,
+      "periods": {
+        "first": 1792429200,
+        "second": 1792432800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 7",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7609,
+        "name": "Tzeirey Tira",
+        "logo": "https://media.api-sports.io/football/teams/7609.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4500,
+        "name": "Hapoel Hadera",
+        "logo": "https://media.api-sports.io/football/teams/4500.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628901,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621595,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T14:00:00+00:00",
-      "timestamp": 1788962400,
-      "periods": {
-        "first": 1788962400,
-        "second": 1788966000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6146,
-        "name": "Hapoel Azor",
-        "logo": "https://media.api-sports.io/football/teams/6146.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7609,
-        "name": "Tzeirey Tira",
-        "logo": "https://media.api-sports.io/football/teams/7609.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

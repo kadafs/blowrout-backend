@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565502,
+      "referee": "Oleksandr Omelchenko, Ukraine",
+      "timezone": "UTC",
+      "date": "2026-10-16T10:00:00+00:00",
+      "timestamp": 1792144800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 8330,
+        "name": "Obolon Arena",
+        "city": "Kyiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3630,
+        "name": "Obolon'-Brovar",
+        "logo": "https://media.api-sports.io/football/teams/3630.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6501,
+        "name": "Veres Rivne",
+        "logo": "https://media.api-sports.io/football/teams/6501.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565481,
       "referee": "Jevgeny Tsybulko, Ukraine",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611341,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T15:00:00+00:00",
-      "timestamp": 1787410800,
-      "periods": {
-        "first": 1787410800,
-        "second": 1787414400
-      },
-      "venue": {
-        "id": null,
-        "name": "Ukraina Stadium",
-        "city": "Lviv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 335,
-      "name": "Cup",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/335.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3617,
-        "name": "Karpaty",
-        "logo": "https://media.api-sports.io/football/teams/3617.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3630,
-        "name": "Obolon'-Brovar",
-        "logo": "https://media.api-sports.io/football/teams/3630.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

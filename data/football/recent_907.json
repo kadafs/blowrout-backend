@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611424,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T18:00:00+00:00",
+      "timestamp": 1792260000,
+      "periods": {
+        "first": 1792260000,
+        "second": 1792263600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 186,
+      "name": "Ligue 1",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/186.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 907,
+        "name": "MC Oran",
+        "logo": "https://media.api-sports.io/football/teams/907.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10752,
+        "name": "Khenchela",
+        "logo": "https://media.api-sports.io/football/teams/10752.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1611412,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604643,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-28T14:00:00+00:00",
-      "timestamp": 1785247200,
-      "periods": {
-        "first": 1785247200,
-        "second": 1785250800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 907,
-        "name": "MC Oran",
-        "logo": "https://media.api-sports.io/football/teams/907.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2902,
-        "name": "Muaither SC",
-        "logo": "https://media.api-sports.io/football/teams/2902.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

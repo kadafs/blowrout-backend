@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645489,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 187,
+      "name": "Ligue 2",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/187.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10743,
+        "name": "El Bayadh",
+        "logo": "https://media.api-sports.io/football/teams/10743.png",
+        "winner": false
+      },
+      "away": {
+        "id": 934,
+        "name": "MC Saida",
+        "logo": "https://media.api-sports.io/football/teams/934.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643962,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1539163,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-08T15:00:00+00:00",
-      "timestamp": 1778252400,
-      "periods": {
-        "first": 1778252400,
-        "second": 1778256000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 187,
-      "name": "Ligue 2",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/187.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 934,
-        "name": "MC Saida",
-        "logo": "https://media.api-sports.io/football/teams/934.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26607,
-        "name": "JS Tixeraine",
-        "logo": "https://media.api-sports.io/football/teams/26607.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

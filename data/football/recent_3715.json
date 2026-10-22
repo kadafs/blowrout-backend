@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559801,
+      "referee": "K. Roucek",
+      "timezone": "UTC",
+      "date": "2026-10-16T15:30:00+00:00",
+      "timestamp": 1792164600,
+      "periods": {
+        "first": 1792164600,
+        "second": 1792168200
+      },
+      "venue": {
+        "id": null,
+        "name": "Town Stadium Karvina",
+        "city": "Karvina"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 346,
+      "name": "FNL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/346.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3716,
+        "name": "Karvin\u00e1",
+        "logo": "https://media.api-sports.io/football/teams/3716.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3715,
+        "name": "Dukla Praha",
+        "logo": "https://media.api-sports.io/football/teams/3715.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559793,
       "referee": "A. Mach",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1559771,
-      "referee": "L. Nehasil",
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": null,
-        "name": "Simply Arena",
-        "city": "Opava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 346,
-      "name": "FNL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/346.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3717,
-        "name": "Opava",
-        "logo": "https://media.api-sports.io/football/teams/3717.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3715,
-        "name": "Dukla Praha",
-        "logo": "https://media.api-sports.io/football/teams/3715.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

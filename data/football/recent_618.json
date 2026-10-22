@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561944,
+      "referee": "Alain Sadikovski",
+      "timezone": "UTC",
+      "date": "2026-10-18T12:30:00+00:00",
+      "timestamp": 1792326600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 148,
+        "name": "Red Bull Arena",
+        "city": "Salzburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 218,
+      "name": "Bundesliga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/218.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 571,
+        "name": "Red Bull Salzburg",
+        "logo": "https://media.api-sports.io/football/teams/571.png",
+        "winner": true
+      },
+      "away": {
+        "id": 618,
+        "name": "SCR Altach",
+        "logo": "https://media.api-sports.io/football/teams/618.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561936,
       "referee": "Jakob Semler",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607214,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T16:30:00+00:00",
-      "timestamp": 1788539400,
-      "periods": {
-        "first": 1788539400,
-        "second": 1788543000
-      },
-      "venue": {
-        "id": 146,
-        "name": "Cashpoint-Arena",
-        "city": "Altach"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 220,
-      "name": "Cup",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/220.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 618,
-        "name": "SCR Altach",
-        "logo": "https://media.api-sports.io/football/teams/618.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8260,
-        "name": "Bischofshofen",
-        "logo": "https://media.api-sports.io/football/teams/8260.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 7,
-        "away": 0
       },
       "extratime": {
         "home": null,

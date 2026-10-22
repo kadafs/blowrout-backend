@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646137,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T15:30:00+00:00",
+      "timestamp": 1792337400,
+      "periods": {
+        "first": 1792337400,
+        "second": 1792341000
+      },
+      "venue": {
+        "id": 306,
+        "name": "Stade du 4 Aout",
+        "city": "Ouagadougou"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8072,
+        "name": "Salitas",
+        "logo": "https://media.api-sports.io/football/teams/8072.png",
+        "winner": false
+      },
+      "away": {
+        "id": 13978,
+        "name": "Douanes",
+        "logo": "https://media.api-sports.io/football/teams/13978.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644714,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469500,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-10T16:00:00+00:00",
-      "timestamp": 1778428800,
-      "periods": {
-        "first": 1778428800,
-        "second": 1778432400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Demba Diop",
-        "city": "Dakar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13978,
-        "name": "Douanes",
-        "logo": "https://media.api-sports.io/football/teams/13978.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26633,
-        "name": "CFFEB",
-        "logo": "https://media.api-sports.io/football/teams/26633.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

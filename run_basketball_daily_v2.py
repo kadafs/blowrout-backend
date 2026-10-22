@@ -36,6 +36,7 @@ from scipy.stats import norm
 from core.offline_match_center import compile_offline_match_center
 from core.confidence_score import compute_confidence
 from run_confidence_report import load_leaderboard, get_team_stats
+from core.sdi_lookup import load_sdi_index, get_sdi_record
 
 if sys.platform == "win32":
     try:
@@ -915,6 +916,9 @@ def main():
     # Step 1.5: get yesterday's teams for Back-to-Back fatigue check
     yesterday_fatigued_teams = get_yesterday_teams(date_str, refresh=False)
 
+    # Step 1.6: load Star Dependency Index (SDI)
+    sdi_index = load_sdi_index()
+
     # Filter — always exclude dedicated-model leagues
     leagues = [
         l for l in leagues
@@ -1136,6 +1140,10 @@ def main():
                             else:
                                 shootout_trigger = "SHOOTOUT"
 
+                # Star Dependency Index (SDI) lookup
+                sdi_h = get_sdi_record(home, sdi_index) if sdi_index else None
+                sdi_a = get_sdi_record(away, sdi_index) if sdi_index else None
+
                 # Build record
                 all_predictions.append({
                     "is_clash":         is_clash,
@@ -1206,7 +1214,21 @@ def main():
                             "conceded": sA.get("adj_def", 0) if sA else 0,
                             "rank": sA.get("rank") if sA else None,
                             "prior_blended": bool(sA.get("prior_blended")) if sA else False,
-                        }
+                        },
+                        "sdiH": {
+                            "avg_sdi": sdi_h.get("avg_sdi"),
+                            "top1_pct": sdi_h.get("avg_top1_pct"),
+                            "risk": sdi_h.get("risk"),
+                            "risk_label": sdi_h.get("risk_label"),
+                            "top_players": sdi_h.get("top_players", []),
+                        } if sdi_h else None,
+                        "sdiA": {
+                            "avg_sdi": sdi_a.get("avg_sdi"),
+                            "top1_pct": sdi_a.get("avg_top1_pct"),
+                            "risk": sdi_a.get("risk"),
+                            "risk_label": sdi_a.get("risk_label"),
+                            "top_players": sdi_a.get("top_players", []),
+                        } if sdi_a else None
                     }
                 })
             total_predicted += 1

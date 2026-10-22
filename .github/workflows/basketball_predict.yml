@@ -51,6 +51,9 @@ jobs:
           echo "--- 1. Fetching recent results ---"
           python auto_update_historical.py $DATE_FLAG
           
+          echo "--- 1b. Calculating Star Dependency Index (SDI) ---"
+          python calculate_sdi.py
+          
           DAY_OF_MONTH=$(date +%d)
           FORCE_CALIBRATE="${{ github.event.inputs.force_calibrate }}"
           
@@ -101,9 +104,10 @@ jobs:
           # Copy up to 14 latest prediction files
           ls -t data/basketball/universal_predictions_*.json 2>/dev/null | head -14 | xargs -I {} cp {} sports-analytics/public/data/basketball/ || true
           
-          # Copy leaderboards
+          # Copy leaderboards and SDI index
           cp data/basketball/*leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp *leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
+          cp data/basketball/team_sdi.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           
           # Commit and push
           cd sports-analytics

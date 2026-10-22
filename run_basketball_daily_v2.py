@@ -181,7 +181,6 @@ TEAM_NAME_OVERRIDES = {
     "Las Vegas Aces W": "Las Vegas Aces",
     "Phoenix Mercury W": "Phoenix Mercury",
     # --- Lithuania NKL (61) ---
-    "Neptunas 2": "Klaipėdos Neptūnas-Akvaservis",
     "Zalgiris Kaunas 2": "Zalgiris Kaunas II",
     # --- Romania Divizia A (78) ---
     "Municipal Galati": "CSM Galati",
@@ -567,6 +566,10 @@ def find_team(name, stats_dict):
         return None, None
 
     original_name = name
+    if original_name in stats_dict and stats_dict[original_name].get("current_season_games", 0) > 0:
+        stats = resolve_split_season_games(stats_dict[original_name], stats_dict)
+        return original_name, stats
+
     name = TEAM_NAME_OVERRIDES.get(name, name)
 
     # First try with the override name

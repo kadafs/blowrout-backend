@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555760,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": null,
+        "name": "Sunpro Alwin",
+        "city": "Matsumoto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 304,
+        "name": "Matsumoto Yamaga",
+        "logo": "https://media.api-sports.io/football/teams/304.png",
+        "winner": true
+      },
+      "away": {
+        "id": 756,
+        "name": "Thespakusatsu Gunma",
+        "logo": "https://media.api-sports.io/football/teams/756.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555747,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639005,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T10:00:00+00:00",
-      "timestamp": 1790676000,
-      "periods": {
-        "first": 1790676000,
-        "second": 1790679600
-      },
-      "venue": {
-        "id": 969,
-        "name": "Sunpro Alwin",
-        "city": "Matsumoto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 304,
-        "name": "Matsumoto Yamaga",
-        "logo": "https://media.api-sports.io/football/teams/304.png",
-        "winner": true
-      },
-      "away": {
-        "id": 311,
-        "name": "Albirex Niigata",
-        "logo": "https://media.api-sports.io/football/teams/311.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

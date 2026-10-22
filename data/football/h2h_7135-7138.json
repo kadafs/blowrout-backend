@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555758,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": 20561,
+        "name": "Hanazono Rugby Stadium",
+        "city": "Higashiosaka"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7138,
+        "name": "Osaka",
+        "logo": "https://media.api-sports.io/football/teams/7138.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7135,
+        "name": "Nara Club",
+        "logo": "https://media.api-sports.io/football/teams/7135.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623331,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1325067,
-      "referee": "Hiromichi Oka",
-      "timezone": "UTC",
-      "date": "2025-06-30T10:00:00+00:00",
-      "timestamp": 1751277600,
-      "periods": {
-        "first": 1751277600,
-        "second": 1751281200
-      },
-      "venue": {
-        "id": 20561,
-        "name": "Hanazono Rugby Stadium",
-        "city": "Higashiosaka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 12
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2025,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7138,
-        "name": "Osaka",
-        "logo": "https://media.api-sports.io/football/teams/7138.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7135,
-        "name": "Nara Club",
-        "logo": "https://media.api-sports.io/football/teams/7135.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 1,

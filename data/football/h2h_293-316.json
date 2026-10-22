@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556101,
+      "referee": "Masuya Ueda",
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20417,
+        "name": "Best Denki Stadium",
+        "city": "Fukuoka"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 316,
+        "name": "Avispa Fukuoka",
+        "logo": "https://media.api-sports.io/football/teams/316.png",
+        "winner": false
+      },
+      "away": {
+        "id": 293,
+        "name": "Gamba Osaka",
+        "logo": "https://media.api-sports.io/football/teams/293.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1504817,
       "referee": "H. Shimizu",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1166403,
-      "referee": "K. Fukushima",
-      "timezone": "UTC",
-      "date": "2024-08-24T09:30:00+00:00",
-      "timestamp": 1724491800,
-      "periods": {
-        "first": 1724491800,
-        "second": 1724495400
-      },
-      "venue": {
-        "id": 18623,
-        "name": "Panasonic Stadium Suita",
-        "city": "Suita"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2024,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 293,
-        "name": "Gamba Osaka",
-        "logo": "https://media.api-sports.io/football/teams/293.png",
-        "winner": null
-      },
-      "away": {
-        "id": 316,
-        "name": "Avispa Fukuoka",
-        "logo": "https://media.api-sports.io/football/teams/316.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

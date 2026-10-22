@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1626239,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": null,
+        "name": "Nicola Tubaldi",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 431,
+      "name": "Serie D - Girone F",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/431.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group F - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9517,
+        "name": "Recanatese",
+        "logo": "https://media.api-sports.io/football/teams/9517.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22312,
+        "name": "L'Aquila",
+        "logo": "https://media.api-sports.io/football/teams/22312.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1626230,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1626195,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T13:00:00+00:00",
-      "timestamp": 1789563600,
-      "periods": {
-        "first": 1789563600,
-        "second": 1789567200
-      },
-      "venue": {
-        "id": null,
-        "name": "Nicola Tubaldi",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 431,
-      "name": "Serie D - Girone F",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/431.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group F - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9517,
-        "name": "Recanatese",
-        "logo": "https://media.api-sports.io/football/teams/9517.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9496,
-        "name": "Foligno Calcio",
-        "logo": "https://media.api-sports.io/football/teams/9496.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

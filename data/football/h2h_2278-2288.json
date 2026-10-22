@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551004,
+      "referee": "Vicente Jassiel Reynoso Arce",
+      "timezone": "UTC",
+      "date": "2026-10-21T00:07:00+00:00",
+      "timestamp": 1792541220,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1076,
+        "name": "Estadio Akron",
+        "city": "Guadalajara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2026,
+      "round": "Apertura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2278,
+        "name": "Guadalajara Chivas",
+        "logo": "https://media.api-sports.io/football/teams/2278.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2288,
+        "name": "Necaxa",
+        "logo": "https://media.api-sports.io/football/teams/2288.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492606,
       "referee": "J. Armenta",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1150285,
-      "referee": "B. Gonz\u00e1lez",
-      "timezone": "UTC",
-      "date": "2024-02-21T03:00:00+00:00",
-      "timestamp": 1708484400,
-      "periods": {
-        "first": 1708484400,
-        "second": 1708488000
-      },
-      "venue": {
-        "id": 20474,
-        "name": "Estadio Victoria",
-        "city": "Aguascalientes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 262,
-      "name": "Liga MX",
-      "country": "Mexico",
-      "logo": "https://media.api-sports.io/football/leagues/262.png",
-      "flag": "https://media.api-sports.io/flags/mx.svg",
-      "season": 2023,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2288,
-        "name": "Necaxa",
-        "logo": "https://media.api-sports.io/football/teams/2288.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2278,
-        "name": "Guadalajara Chivas",
-        "logo": "https://media.api-sports.io/football/teams/2278.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

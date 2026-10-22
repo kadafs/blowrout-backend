@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645671,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T12:00:00+00:00",
+      "timestamp": 1792152000,
+      "periods": {
+        "first": 1792152000,
+        "second": 1792155600
+      },
+      "venue": {
+        "id": 6308,
+        "name": "Khaled bin Walid Stadium",
+        "city": "Homs"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 425,
+      "name": "Premier League",
+      "country": "Syria",
+      "logo": "https://media.api-sports.io/football/leagues/425.png",
+      "flag": "https://media.api-sports.io/flags/sy.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9111,
+        "name": "Al Karama",
+        "logo": "https://media.api-sports.io/football/teams/9111.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9112,
+        "name": "Al Nawaeir",
+        "logo": "https://media.api-sports.io/football/teams/9112.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645238,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "fulltime": {
         "home": 0,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550055,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-19T14:00:00+00:00",
-      "timestamp": 1781877600,
-      "periods": {
-        "first": 1781877600,
-        "second": 1781881200
-      },
-      "venue": {
-        "id": 6308,
-        "name": "Khaled bin Walid Stadium",
-        "city": "Homs"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 425,
-      "name": "Premier League",
-      "country": "Syria",
-      "logo": "https://media.api-sports.io/football/leagues/425.png",
-      "flag": "https://media.api-sports.io/flags/sy.svg",
-      "season": 2025,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9111,
-        "name": "Al Karama",
-        "logo": "https://media.api-sports.io/football/teams/9111.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9123,
-        "name": "Shorta",
-        "logo": "https://media.api-sports.io/football/teams/9123.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

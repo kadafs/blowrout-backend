@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621057,
+      "referee": "J. Durkin",
+      "timezone": "UTC",
+      "date": "2026-10-19T18:00:00+00:00",
+      "timestamp": 1792432800,
+      "periods": {
+        "first": 1792432800,
+        "second": 1792436400
+      },
+      "venue": {
+        "id": null,
+        "name": "Damson Park",
+        "city": "Solihull"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20078,
+        "name": "Birmingham City U21",
+        "logo": "https://media.api-sports.io/football/teams/20078.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19745,
+        "name": "Derby County U21",
+        "logo": "https://media.api-sports.io/football/teams/19745.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619510,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621016,
-      "referee": "T. Sangowawa",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": 1789149600,
-        "second": 1789153200
-      },
-      "venue": {
-        "id": null,
-        "name": "Avant Training Centre",
-        "city": "Norwich"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7200,
-        "name": "Norwich City U21",
-        "logo": "https://media.api-sports.io/football/teams/7200.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20078,
-        "name": "Birmingham City U21",
-        "logo": "https://media.api-sports.io/football/teams/20078.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1408892,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-21T13:00:00+00:00",
+      "timestamp": 1774098000,
+      "periods": {
+        "first": 1774098000,
+        "second": 1774101600
+      },
+      "venue": {
+        "id": 8193,
+        "name": "Wasen-Stadion",
+        "city": "Freiberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 86,
+      "name": "Regionalliga - SudWest",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/86.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "S\u00fcdwest - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12846,
+        "name": "SGV Freiberg",
+        "logo": "https://media.api-sports.io/football/teams/12846.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1628,
+        "name": "Kickers Offenbach",
+        "logo": "https://media.api-sports.io/football/teams/1628.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1408740,
       "referee": "Tobias Ewerhardy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1085937,
-      "referee": "F. Reuter",
-      "timezone": "UTC",
-      "date": "2023-10-03T12:00:00+00:00",
-      "timestamp": 1696334400,
-      "periods": {
-        "first": 1696334400,
-        "second": 1696338000
-      },
-      "venue": {
-        "id": 2710,
-        "name": "Sparda-Bank-Hessen-Stadion",
-        "city": "Offenbach"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 86,
-      "name": "Regionalliga - SudWest",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/86.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2023,
-      "round": "S\u00fcdwest - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1628,
-        "name": "Kickers Offenbach",
-        "logo": "https://media.api-sports.io/football/teams/1628.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12846,
-        "name": "SGV Freiberg",
-        "logo": "https://media.api-sports.io/football/teams/12846.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1567930,
+      "referee": "F. Jager",
+      "timezone": "UTC",
+      "date": "2026-10-18T08:30:00+00:00",
+      "timestamp": 1792312200,
+      "periods": {
+        "first": 1792312200,
+        "second": 1792315800
+      },
+      "venue": {
+        "id": null,
+        "name": "Solarstadion Gleisdorf",
+        "city": "Gleisdorf"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8251,
+        "name": "Sturm Graz II",
+        "logo": "https://media.api-sports.io/football/teams/8251.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1401,
+        "name": "SV Kapfenberg",
+        "logo": "https://media.api-sports.io/football/teams/1401.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567921,
-      "referee": "Achim Untergasser, Austria",
+      "referee": "A. Untergasser",
       "timezone": "UTC",
       "date": "2026-10-09T16:30:00+00:00",
       "timestamp": 1791563400,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1567900,
-      "referee": "Julian Weinberger, Austria",
+      "referee": "J. Weinberger",
       "timezone": "UTC",
       "date": "2026-09-11T16:30:00+00:00",
       "timestamp": 1789144200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607218,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T16:30:00+00:00",
-      "timestamp": 1788539400,
-      "periods": {
-        "first": 1788539400,
-        "second": 1788543000
-      },
-      "venue": {
-        "id": null,
-        "name": "Alpenstadion",
-        "city": "Kapfenberg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 220,
-      "name": "Cup",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/220.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1401,
-        "name": "SV Kapfenberg",
-        "logo": "https://media.api-sports.io/football/teams/1401.png",
-        "winner": false
-      },
-      "away": {
-        "id": 22213,
-        "name": "WSPG Wels",
-        "logo": "https://media.api-sports.io/football/teams/22213.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

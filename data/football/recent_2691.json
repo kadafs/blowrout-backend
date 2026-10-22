@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1639522,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": 1792242000,
+        "second": 1792245600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 20,
+      "name": "CAF Confederation Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/20.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5213,
+        "name": "Red Arrows",
+        "logo": "https://media.api-sports.io/football/teams/5213.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2691,
+        "name": "Kaizer Chiefs",
+        "logo": "https://media.api-sports.io/football/teams/2691.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600356,
-      "referee": "Sikhumbuzo Gasa",
+      "referee": "Sikhumbuzo Gasa, South Africa",
       "timezone": "UTC",
       "date": "2026-10-13T17:30:00+00:00",
       "timestamp": 1791912600,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600328,
-      "referee": "Cedrick Muvhali, South Africa",
-      "timezone": "UTC",
-      "date": "2026-08-26T17:30:00+00:00",
-      "timestamp": 1787765400,
-      "periods": {
-        "first": 1787765400,
-        "second": 1787769000
-      },
-      "venue": {
-        "id": null,
-        "name": "Umhlathuze Sports Stadium",
-        "city": "Richards Bay"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 288,
-      "name": "Premier Soccer League",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/288.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10567,
-        "name": "Richards Bay",
-        "logo": "https://media.api-sports.io/football/teams/10567.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2691,
-        "name": "Kaizer Chiefs",
-        "logo": "https://media.api-sports.io/football/teams/2691.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

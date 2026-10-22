@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1519176,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T08:00:00+00:00",
+      "timestamp": 1792137600,
+      "periods": {
+        "first": 1792137600,
+        "second": 1792141200
+      },
+      "venue": {
+        "id": 8228,
+        "name": "Central Stadium(Yekaterinburg)",
+        "city": "Yekaterinburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 238,
+      "name": "Youth Championship",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/238.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9231,
+        "name": "Ural U20",
+        "logo": "https://media.api-sports.io/football/teams/9231.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7910,
+        "name": "Lokomotiv Moskva U19",
+        "logo": "https://media.api-sports.io/football/teams/7910.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519169,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519141,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-28T08:00:00+00:00",
-      "timestamp": 1787904000,
-      "periods": {
-        "first": 1787904000,
-        "second": 1787907600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 238,
-      "name": "Youth Championship",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/238.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9231,
-        "name": "Ural U20",
-        "logo": "https://media.api-sports.io/football/teams/9231.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7941,
-        "name": "Zenit U19",
-        "logo": "https://media.api-sports.io/football/teams/7941.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 6
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623275,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T18:00:00+00:00",
+      "timestamp": 1792519200,
+      "periods": {
+        "first": 1792519200,
+        "second": 1792522800
+      },
+      "venue": {
+        "id": null,
+        "name": "Walton Hall Park",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1039,
+      "name": "Premier League International Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1039.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7193,
+        "name": "Everton U21",
+        "logo": "https://media.api-sports.io/football/teams/7193.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9368,
+        "name": "Borussia M'gladbach II",
+        "logo": "https://media.api-sports.io/football/teams/9368.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621045,
       "referee": "K. Hurn",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619486,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-08T18:00:00+00:00",
-      "timestamp": 1788890400,
-      "periods": {
-        "first": 1788890400,
-        "second": 1788894000
-      },
-      "venue": {
-        "id": null,
-        "name": "Victoria Park",
-        "city": "Hartlepool"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 1156,
-      "name": "National League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/1156.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1366,
-        "name": "Hartlepool",
-        "logo": "https://media.api-sports.io/football/teams/1366.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7193,
-        "name": "Everton U21",
-        "logo": "https://media.api-sports.io/football/teams/7193.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

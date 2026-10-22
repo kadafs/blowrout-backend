@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558540,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T16:00:00+00:00",
+      "timestamp": 1792425600,
+      "periods": {
+        "first": 1792425600,
+        "second": 1792429200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Gradski",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 355,
+      "name": "First League",
+      "country": "Montenegro",
+      "logo": "https://media.api-sports.io/football/leagues/355.png",
+      "flag": "https://media.api-sports.io/flags/me.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 673,
+        "name": "Sutjeska",
+        "logo": "https://media.api-sports.io/football/teams/673.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3744,
+        "name": "Bokelj",
+        "logo": "https://media.api-sports.io/football/teams/3744.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558527,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558507,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T18:00:00+00:00",
-      "timestamp": 1788112800,
-      "periods": {
-        "first": 1788112800,
-        "second": 1788116400
-      },
-      "venue": {
-        "id": null,
-        "name": "Podgorica City Stadium",
-        "city": "Podgorica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 355,
-      "name": "First League",
-      "country": "Montenegro",
-      "logo": "https://media.api-sports.io/football/leagues/355.png",
-      "flag": "https://media.api-sports.io/flags/me.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 579,
-        "name": "Buducnost Podgorica",
-        "logo": "https://media.api-sports.io/football/teams/579.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3744,
-        "name": "Bokelj",
-        "logo": "https://media.api-sports.io/football/teams/3744.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553889,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T15:00:00+00:00",
+      "timestamp": 1792162800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19382,
+        "name": "Stadion FK Radnik",
+        "city": "Sudulika"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2657,
+        "name": "Radnik Surdulica",
+        "logo": "https://media.api-sports.io/football/teams/2657.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2254,
+        "name": "Radnicki NIS",
+        "logo": "https://media.api-sports.io/football/teams/2254.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553883,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553859,
-      "referee": "P. Ilic",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:00:00+00:00",
-      "timestamp": 1788631200,
-      "periods": {
-        "first": 1788631200,
-        "second": 1788634800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 699,
-        "name": "Mladost Lucani",
-        "logo": "https://media.api-sports.io/football/teams/699.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2254,
-        "name": "Radnicki NIS",
-        "logo": "https://media.api-sports.io/football/teams/2254.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

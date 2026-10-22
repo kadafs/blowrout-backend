@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608702,
+      "referee": "A. Palmieri",
+      "timezone": "UTC",
+      "date": "2026-10-18T12:30:00+00:00",
+      "timestamp": 1792326600,
+      "periods": {
+        "first": 1792326600,
+        "second": 1792330200
+      },
+      "venue": {
+        "id": 906,
+        "name": "Stadio Pietro Barbetti",
+        "city": "Gubbio"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 942,
+      "name": "Serie C - Girone B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/942.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone B - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 866,
+        "name": "Gubbio",
+        "logo": "https://media.api-sports.io/football/teams/866.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22104,
+        "name": "Atalanta II",
+        "logo": "https://media.api-sports.io/football/teams/22104.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608698,
       "referee": "S. Gauzolino",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608656,
-      "referee": "G. Vingo",
-      "timezone": "UTC",
-      "date": "2026-09-16T19:00:00+00:00",
-      "timestamp": 1789585200,
-      "periods": {
-        "first": 1789585200,
-        "second": 1789588800
-      },
-      "venue": {
-        "id": 923,
-        "name": "Stadio Adriatico - Giovanni Cornacchia",
-        "city": "Pescara"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 942,
-      "name": "Serie C - Girone B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/942.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone B - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 525,
-        "name": "Pescara",
-        "logo": "https://media.api-sports.io/football/teams/525.png",
-        "winner": null
-      },
-      "away": {
-        "id": 866,
-        "name": "Gubbio",
-        "logo": "https://media.api-sports.io/football/teams/866.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632222,
+      "referee": "M. Javiz",
+      "timezone": "UTC",
+      "date": "2026-10-20T13:25:00+00:00",
+      "timestamp": 1792502700,
+      "periods": {
+        "first": 1792502700,
+        "second": 1792506300
+      },
+      "venue": {
+        "id": null,
+        "name": "Mohammed Al Hamad Stadium",
+        "city": "Kuwait"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 1132,
+      "name": "AFC Challenge League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1132.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20780,
+        "name": "Fortis",
+        "logo": "https://media.api-sports.io/football/teams/20780.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3475,
+        "name": "Goa",
+        "logo": "https://media.api-sports.io/football/teams/3475.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632216,
       "referee": "M. Kamaruzaman",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640098,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T09:00:00+00:00",
-      "timestamp": 1789722000,
-      "periods": {
-        "first": 1789722000,
-        "second": 1789725600
-      },
-      "venue": {
-        "id": null,
-        "name": "Muktijuddho Sriti Stadium",
-        "city": "Rajshahi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 398,
-      "name": "Premier League",
-      "country": "Bangladesh",
-      "logo": "https://media.api-sports.io/football/leagues/398.png",
-      "flag": "https://media.api-sports.io/flags/bd.svg",
-      "season": 2027,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20780,
-        "name": "Fortis",
-        "logo": "https://media.api-sports.io/football/teams/20780.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28428,
-        "name": "Chattogram",
-        "logo": "https://media.api-sports.io/football/teams/28428.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

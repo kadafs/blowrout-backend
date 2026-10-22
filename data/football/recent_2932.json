@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1603058,
+      "referee": "Kirill Levnikov",
+      "timezone": "UTC",
+      "date": "2026-10-19T18:00:00+00:00",
+      "timestamp": 1792432800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20744,
+        "name": "Kingdom Arena",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 307,
+      "name": "Pro League",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/307.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2932,
+        "name": "Al-Hilal Saudi FC",
+        "logo": "https://media.api-sports.io/football/teams/2932.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2945,
+        "name": "Al-Hazm",
+        "logo": "https://media.api-sports.io/football/teams/2945.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629939,
       "referee": "Yusuke Araki",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 6
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603018,
-      "referee": "Sascha Stegemann, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-07T18:00:00+00:00",
-      "timestamp": 1788804000,
-      "periods": {
-        "first": 1788804000,
-        "second": 1788807600
-      },
-      "venue": {
-        "id": 20744,
-        "name": "Kingdom Arena",
-        "city": "Riyadh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 307,
-      "name": "Pro League",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/307.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2932,
-        "name": "Al-Hilal Saudi FC",
-        "logo": "https://media.api-sports.io/football/teams/2932.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10513,
-        "name": "NEOM",
-        "logo": "https://media.api-sports.io/football/teams/10513.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

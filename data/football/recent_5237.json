@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639537,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 12,
+      "name": "CAF Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/12.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4123,
+        "name": "Sidama Bunna",
+        "logo": "https://media.api-sports.io/football/teams/4123.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5237,
+        "name": "Al Hilal Omdurman",
+        "logo": "https://media.api-sports.io/football/teams/5237.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632484,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601081,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-01T17:00:00+00:00",
-      "timestamp": 1785603600,
-      "periods": {
-        "first": 1785603600,
-        "second": 1785607200
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 869,
-      "name": "CECAFA Club Cup",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/869.png",
-      "flag": null,
-      "season": 2027,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5237,
-        "name": "Al Hilal Omdurman",
-        "logo": "https://media.api-sports.io/football/teams/5237.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5323,
-        "name": "Rayon Sports",
-        "logo": "https://media.api-sports.io/football/teams/5323.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

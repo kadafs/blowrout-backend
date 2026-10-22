@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640115,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T08:45:00+00:00",
+      "timestamp": 1792226700,
+      "periods": {
+        "first": 1792226700,
+        "second": 1792230300
+      },
+      "venue": {
+        "id": 3801,
+        "name": "Sheikh Fazlul Haque Mani Stadium",
+        "city": "Gopalganj"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 398,
+      "name": "Premier League",
+      "country": "Bangladesh",
+      "logo": "https://media.api-sports.io/football/leagues/398.png",
+      "flag": "https://media.api-sports.io/flags/bd.svg",
+      "season": 2027,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5009,
+        "name": "Abahani",
+        "logo": "https://media.api-sports.io/football/teams/5009.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28428,
+        "name": "Chattogram",
+        "logo": "https://media.api-sports.io/football/teams/28428.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640104,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1528427,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-15T09:45:00+00:00",
-      "timestamp": 1778838300,
-      "periods": {
-        "first": 1778838300,
-        "second": 1778841900
-      },
-      "venue": {
-        "id": 3801,
-        "name": "Sheikh Fazlul Haque Mani Stadium",
-        "city": "Gopalganj"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 398,
-      "name": "Premier League",
-      "country": "Bangladesh",
-      "logo": "https://media.api-sports.io/football/leagues/398.png",
-      "flag": "https://media.api-sports.io/flags/bd.svg",
-      "season": 2026,
-      "round": "Regular Season - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5009,
-        "name": "Abahani",
-        "logo": "https://media.api-sports.io/football/teams/5009.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5012,
-        "name": "Bashundhara Kings",
-        "logo": "https://media.api-sports.io/football/teams/5012.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

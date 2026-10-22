@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1590187,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T16:00:00+00:00",
+      "timestamp": 1792252800,
+      "periods": {
+        "first": 1792252800,
+        "second": 1792256400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion HNK Cibalia",
+        "city": "Vinkovci"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 211,
+      "name": "First NL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/211.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1021,
+        "name": "HNK Cibalia",
+        "logo": "https://media.api-sports.io/football/teams/1021.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5722,
+        "name": "Segesta Sisak",
+        "logo": "https://media.api-sports.io/football/teams/5722.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590181,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635894,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T14:30:00+00:00",
-      "timestamp": 1788964200,
-      "periods": {
-        "first": 1788964200,
-        "second": 1788967800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 212,
-      "name": "Cup",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/212.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5730,
-        "name": "Vukovar",
-        "logo": "https://media.api-sports.io/football/teams/5730.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1021,
-        "name": "HNK Cibalia",
-        "logo": "https://media.api-sports.io/football/teams/1021.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

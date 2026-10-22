@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594870,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-15T12:30:00+00:00",
+      "timestamp": 1792067400,
+      "periods": {
+        "first": 1792067400,
+        "second": 1792071000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 887,
+      "name": "Second League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/887.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20458,
+        "name": "Kahraba Ismailia",
+        "logo": "https://media.api-sports.io/football/teams/20458.png",
+        "winner": false
+      },
+      "away": {
+        "id": 25472,
+        "name": "Team",
+        "logo": "https://media.api-sports.io/football/teams/25472.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594866,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594829,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-11T13:30:00+00:00",
-      "timestamp": 1789133400,
-      "periods": {
-        "first": 1789133400,
-        "second": 1789137000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 887,
-      "name": "Second League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/887.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25472,
-        "name": "Team",
-        "logo": "https://media.api-sports.io/football/teams/25472.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20461,
-        "name": "Proxy",
-        "logo": "https://media.api-sports.io/football/teams/20461.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

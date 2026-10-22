@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643364,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 387,
+      "name": "League",
+      "country": "Jordan",
+      "logo": "https://media.api-sports.io/football/leagues/387.png",
+      "flag": "https://media.api-sports.io/flags/jo.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4531,
+        "name": "Al Faisaly",
+        "logo": "https://media.api-sports.io/football/teams/4531.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4534,
+        "name": "Al Ramtha",
+        "logo": "https://media.api-sports.io/football/teams/4534.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643359,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635861,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T17:00:00+00:00",
-      "timestamp": 1787418000,
-      "periods": {
-        "first": 1787418000,
-        "second": 1787421600
-      },
-      "venue": {
-        "id": 988,
-        "name": "Amman International Stadium",
-        "city": "Amman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 838,
-      "name": "Super Cup",
-      "country": "Jordan",
-      "logo": "https://media.api-sports.io/football/leagues/838.png",
-      "flag": "https://media.api-sports.io/flags/jo.svg",
-      "season": 2026,
-      "round": "Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4534,
-        "name": "Al Ramtha",
-        "logo": "https://media.api-sports.io/football/teams/4534.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4532,
-        "name": "Al Hussein",
-        "logo": "https://media.api-sports.io/football/teams/4532.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

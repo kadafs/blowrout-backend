@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645647,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": 1792323000,
+        "second": 1792326600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 847,
+      "name": "Premier League",
+      "country": "Eswatini",
+      "logo": "https://media.api-sports.io/football/leagues/847.png",
+      "flag": "https://media.api-sports.io/flags/sz.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20371,
+        "name": "Madlenya",
+        "logo": "https://media.api-sports.io/football/teams/20371.png",
+        "winner": null
+      },
+      "away": {
+        "id": 18314,
+        "name": "Rangers FC",
+        "logo": "https://media.api-sports.io/football/teams/18314.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645157,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550040,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-10T13:00:00+00:00",
-      "timestamp": 1781096400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 847,
-      "name": "Premier League",
-      "country": "Eswatini",
-      "logo": "https://media.api-sports.io/football/leagues/847.png",
-      "flag": "https://media.api-sports.io/flags/sz.svg",
-      "season": 2025,
-      "round": "Relegation - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26847,
-        "name": "Amawele",
-        "logo": "https://media.api-sports.io/football/teams/26847.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20371,
-        "name": "Madlenya",
-        "logo": "https://media.api-sports.io/football/teams/20371.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

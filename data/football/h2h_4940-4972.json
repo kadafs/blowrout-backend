@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607937,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-01T17:00:00+00:00",
+      "timestamp": 1788282000,
+      "periods": {
+        "first": 1788282000,
+        "second": 1788285600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1238,
+      "name": "Regionalliga - South",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/1238.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "South - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4972,
+        "name": "Deutschlandsberger SC",
+        "logo": "https://media.api-sports.io/football/teams/4972.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4940,
+        "name": "Gleisdorf 09",
+        "logo": "https://media.api-sports.io/football/teams/4940.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1397885,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1053530,
-      "referee": "M. Lamb",
-      "timezone": "UTC",
-      "date": "2024-04-26T17:00:00+00:00",
-      "timestamp": 1714150800,
-      "periods": {
-        "first": 1714150800,
-        "second": 1714154400
-      },
-      "venue": {
-        "id": 3733,
-        "name": "Solarstadion der Stadt Gleisdorf",
-        "city": "Gleisdorf"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 222,
-      "name": "Regionalliga - Mitte",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/222.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2023,
-      "round": "Mitte - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4940,
-        "name": "Gleisdorf 09",
-        "logo": "https://media.api-sports.io/football/teams/4940.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4972,
-        "name": "Deutschlandsberger SC",
-        "logo": "https://media.api-sports.io/football/teams/4972.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

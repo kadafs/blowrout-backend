@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642117,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T13:00:00+00:00",
+      "timestamp": 1792414800,
+      "periods": {
+        "first": 1792414800,
+        "second": 1792418400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 406,
+      "name": "Professional League",
+      "country": "Oman",
+      "logo": "https://media.api-sports.io/football/leagues/406.png",
+      "flag": "https://media.api-sports.io/flags/om.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5327,
+        "name": "Al-Nahda",
+        "logo": "https://media.api-sports.io/football/teams/5327.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5337,
+        "name": "Sur",
+        "logo": "https://media.api-sports.io/football/teams/5337.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630367,
       "referee": "Venkatesh Ramachandran",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630350,
-      "referee": "C. Daypuyat",
-      "timezone": "UTC",
-      "date": "2026-09-16T16:00:00+00:00",
-      "timestamp": 1789574400,
-      "periods": {
-        "first": 1789574400,
-        "second": 1789578000
-      },
-      "venue": {
-        "id": null,
-        "name": "Sultan Qaboos Sports Complex",
-        "city": "Muscat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 18,
-      "name": "AFC Champions League Two",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/18.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5327,
-        "name": "Al-Nahda",
-        "logo": "https://media.api-sports.io/football/teams/5327.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2936,
-        "name": "Al Taawon",
-        "logo": "https://media.api-sports.io/football/teams/2936.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

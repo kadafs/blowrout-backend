@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611642,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T18:30:00+00:00",
+      "timestamp": 1792175400,
+      "periods": {
+        "first": 1792175400,
+        "second": 1792179000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 518,
+      "name": "Reserve Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/518.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24650,
+        "name": "RAAL La Louviere U21",
+        "logo": "https://media.api-sports.io/football/teams/24650.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19587,
+        "name": "Westerlo U21",
+        "logo": "https://media.api-sports.io/football/teams/19587.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1611638,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1440764,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-15T18:00:00+00:00",
-      "timestamp": 1778868000,
-      "periods": {
-        "first": 1778868000,
-        "second": 1778871600
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 518,
-      "name": "Reserve Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/518.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2025,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22200,
-        "name": "RFC de Liege U21",
-        "logo": "https://media.api-sports.io/football/teams/22200.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19587,
-        "name": "Westerlo U21",
-        "logo": "https://media.api-sports.io/football/teams/19587.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 7
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1621042,
+      "referee": "R. Watkins",
+      "timezone": "UTC",
+      "date": "2026-09-19T12:00:00+00:00",
+      "timestamp": 1789819200,
+      "periods": {
+        "first": 1789819200,
+        "second": 1789822800
+      },
+      "venue": {
+        "id": null,
+        "name": "SPORTA Arena",
+        "city": "Stevenage"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7202,
+        "name": "Tottenham Hotspur U21",
+        "logo": "https://media.api-sports.io/football/teams/7202.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7197,
+        "name": "Manchester City U21",
+        "logo": "https://media.api-sports.io/football/teams/7197.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1588835,
-      "referee": null,
+      "referee": "A. Bannister",
       "timezone": "UTC",
       "date": "2026-09-15T18:00:00+00:00",
       "timestamp": 1789495200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789495200,
+        "second": 1789498800
       },
       "venue": {
         "id": 0,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544377,
-      "referee": "O. Mackey",
-      "timezone": "UTC",
-      "date": "2026-05-08T18:00:00+00:00",
-      "timestamp": 1778263200,
-      "periods": {
-        "first": 1778263200,
-        "second": 1778266800
-      },
-      "venue": {
-        "id": 11118,
-        "name": "Academy Stadium",
-        "city": "Manchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7197,
-        "name": "Manchester City U21",
-        "logo": "https://media.api-sports.io/football/teams/7197.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7198,
-        "name": "Manchester United U21",
-        "logo": "https://media.api-sports.io/football/teams/7198.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
         "away": 4
       },
       "extratime": {

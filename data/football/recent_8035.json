@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645673,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T12:00:00+00:00",
+      "timestamp": 1792411200,
+      "periods": {
+        "first": 1792411200,
+        "second": 1792414800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 425,
+      "name": "Premier League",
+      "country": "Syria",
+      "logo": "https://media.api-sports.io/football/leagues/425.png",
+      "flag": "https://media.api-sports.io/flags/sy.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9114,
+        "name": "Foutoua",
+        "logo": "https://media.api-sports.io/football/teams/9114.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8035,
+        "name": "Al Wahda",
+        "logo": "https://media.api-sports.io/football/teams/8035.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645235,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550057,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-19T14:00:00+00:00",
-      "timestamp": 1781877600,
-      "periods": {
-        "first": 1781877600,
-        "second": 1781881200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 425,
-      "name": "Premier League",
-      "country": "Syria",
-      "logo": "https://media.api-sports.io/football/leagues/425.png",
-      "flag": "https://media.api-sports.io/flags/sy.svg",
-      "season": 2025,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8035,
-        "name": "Al Wahda",
-        "logo": "https://media.api-sports.io/football/teams/8035.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8019,
-        "name": "Al Ittihad",
-        "logo": "https://media.api-sports.io/football/teams/8019.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

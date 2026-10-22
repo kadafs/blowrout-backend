@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492776,
+      "referee": "Aaron O'Dowd",
+      "timezone": "UTC",
+      "date": "2026-10-19T19:00:00+00:00",
+      "timestamp": 1792436400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1172,
+        "name": "Brandywell Stadium",
+        "city": "Delhi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 357,
+      "name": "Premier Division",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/357.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 670,
+        "name": "Derry City",
+        "logo": "https://media.api-sports.io/football/teams/670.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3843,
+        "name": "St Patrick's Athl.",
+        "logo": "https://media.api-sports.io/football/teams/3843.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492784,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492760,
-      "referee": "D. Toland",
-      "timezone": "UTC",
-      "date": "2026-08-28T18:45:00+00:00",
-      "timestamp": 1787942700,
-      "periods": {
-        "first": 1787942700,
-        "second": 1787946300
-      },
-      "venue": {
-        "id": 2628,
-        "name": "Richmond Park",
-        "city": "Dublin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 357,
-      "name": "Premier Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/357.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3843,
-        "name": "St Patrick's Athl.",
-        "logo": "https://media.api-sports.io/football/teams/3843.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3845,
-        "name": "Waterford",
-        "logo": "https://media.api-sports.io/football/teams/3845.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584039,
+      "referee": "Assad Nouhoum",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6469,
+        "name": "Dietmar-Hopp-Stadion",
+        "city": "Sinsheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9364,
+        "name": "Hoffenheim II",
+        "logo": "https://media.api-sports.io/football/teams/9364.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4265,
+        "name": "Verl",
+        "logo": "https://media.api-sports.io/football/teams/4265.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584031,
-      "referee": "Jonah Samuel Njie Besong",
+      "referee": "Jonah Samuel Njie Besong, Germany",
       "timezone": "UTC",
       "date": "2026-10-14T17:00:00+00:00",
       "timestamp": 1791997200,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1584016,
-      "referee": "Sebastian Hilsberg",
+      "referee": "Sebastian Hilsberg, Germany",
       "timezone": "UTC",
       "date": "2026-10-11T17:30:00+00:00",
       "timestamp": 1791739800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583996,
-      "referee": "F. Grund",
-      "timezone": "UTC",
-      "date": "2026-09-15T17:00:00+00:00",
-      "timestamp": 1789491600,
-      "periods": {
-        "first": 1789491600,
-        "second": 1789495200
-      },
-      "venue": {
-        "id": 10640,
-        "name": "WIRmachenDRUCK Arena",
-        "city": "Aspach"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1317,
-        "name": "SG Sonnenhof Grossaspach",
-        "logo": "https://media.api-sports.io/football/teams/1317.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4265,
-        "name": "Verl",
-        "logo": "https://media.api-sports.io/football/teams/4265.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

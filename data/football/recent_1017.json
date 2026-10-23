@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1548543,
+      "referee": "Antonio Melnjak",
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 412,
+        "name": "Stadion Kranj\u010devi\u0107eva",
+        "city": "Zagreb"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 210,
+      "name": "HNL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/210.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1017,
+        "name": "NK Lokomotiva Zagreb",
+        "logo": "https://media.api-sports.io/football/teams/1017.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1016,
+        "name": "Istra 1961",
+        "logo": "https://media.api-sports.io/football/teams/1016.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1548539,
       "referee": "Patrik Pavlesic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548525,
-      "referee": "Dario Bel, Croatia",
-      "timezone": "UTC",
-      "date": "2026-09-06T19:00:00+00:00",
-      "timestamp": 1788721200,
-      "periods": {
-        "first": 1788721200,
-        "second": 1788724800
-      },
-      "venue": {
-        "id": null,
-        "name": "Gradski stadion Ivan Ku\u0161ek Apa\u0161",
-        "city": "Koprivnica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 210,
-      "name": "HNL",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/210.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1018,
-        "name": "NK Slaven Belupo",
-        "logo": "https://media.api-sports.io/football/teams/1018.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1017,
-        "name": "NK Lokomotiva Zagreb",
-        "logo": "https://media.api-sports.io/football/teams/1017.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639895,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-09T19:15:00+00:00",
+      "timestamp": 1791573300,
+      "periods": {
+        "first": 1791573300,
+        "second": 1791576900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 404,
+      "name": "Campionato",
+      "country": "San-Marino",
+      "logo": "https://media.api-sports.io/football/leagues/404.png",
+      "flag": "https://media.api-sports.io/flags/sm.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5297,
+        "name": "Cailungo",
+        "logo": "https://media.api-sports.io/football/teams/5297.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5303,
+        "name": "Libertas",
+        "logo": "https://media.api-sports.io/football/teams/5303.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619856,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619826,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-28T19:15:00+00:00",
-      "timestamp": 1787944500,
-      "periods": {
-        "first": 1787944500,
-        "second": 1787948100
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 404,
-      "name": "Campionato",
-      "country": "San-Marino",
-      "logo": "https://media.api-sports.io/football/leagues/404.png",
-      "flag": "https://media.api-sports.io/flags/sm.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5297,
-        "name": "Cailungo",
-        "logo": "https://media.api-sports.io/football/teams/5297.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5299,
-        "name": "Domagnano",
-        "logo": "https://media.api-sports.io/football/teams/5299.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

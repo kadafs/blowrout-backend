@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644177,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T09:00:00+00:00",
+      "timestamp": 1792227600,
+      "periods": {
+        "first": 1792227600,
+        "second": 1792231200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 174,
+      "name": "Cup",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/174.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5025,
+        "name": "Vihren",
+        "logo": "https://media.api-sports.io/football/teams/5025.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1416,
+        "name": "Lokomotiv Sofia",
+        "logo": "https://media.api-sports.io/football/teams/1416.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551121,
       "referee": "Piskov\u00b7Gero",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551105,
-      "referee": "Kristiyan Kolev, Bulgaria",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": 1789149600,
-        "second": 1789153200
-      },
-      "venue": {
-        "id": null,
-        "name": "Ticha Stadium",
-        "city": "Varna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 851,
-        "name": "Cherno More Varna",
-        "logo": "https://media.api-sports.io/football/teams/851.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1416,
-        "name": "Lokomotiv Sofia",
-        "logo": "https://media.api-sports.io/football/teams/1416.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

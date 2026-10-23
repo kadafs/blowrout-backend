@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1576204,
+      "referee": "Robin Braun",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 707,
+        "name": "Rudolf-Harbig Stadion",
+        "city": "Dresden"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "logo": "https://media.api-sports.io/football/teams/183.png",
+        "winner": true
+      },
+      "away": {
+        "id": 179,
+        "name": "1. FC Magdeburg",
+        "logo": "https://media.api-sports.io/football/teams/179.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576193,
       "referee": "Sascha Stegemann, Germany",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576158,
-      "referee": "Jarno Wienefeld, Germany",
-      "timezone": "UTC",
-      "date": "2026-08-30T11:30:00+00:00",
-      "timestamp": 1788089400,
-      "periods": {
-        "first": 1788089400,
-        "second": 1788093000
-      },
-      "venue": {
-        "id": null,
-        "name": "Avnet Arena",
-        "city": "Magdeburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 179,
-        "name": "1. FC Magdeburg",
-        "logo": "https://media.api-sports.io/football/teams/179.png",
-        "winner": true
-      },
-      "away": {
-        "id": 191,
-        "name": "Holstein Kiel",
-        "logo": "https://media.api-sports.io/football/teams/191.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

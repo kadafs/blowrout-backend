@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1570415,
+      "referee": "Manuel Jesus Orellana Cid, Spain",
+      "timezone": "UTC",
+      "date": "2026-10-16T19:00:00+00:00",
+      "timestamp": 1792177200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1471,
+        "name": "Estadio de Riazor",
+        "city": "La Coruna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 544,
+        "name": "Deportivo La Coruna",
+        "logo": "https://media.api-sports.io/football/teams/544.png",
+        "winner": null
+      },
+      "away": {
+        "id": 539,
+        "name": "Levante",
+        "logo": "https://media.api-sports.io/football/teams/539.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570412,
-      "referee": "M. Sesma",
+      "referee": "Miguel Sesma Espinosa, Spain",
       "timezone": "UTC",
       "date": "2026-10-11T14:15:00+00:00",
       "timestamp": 1791728100,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1570396,
-      "referee": "C. Soto Grado",
+      "referee": "C\u00e9sar Soto Grado, Spain",
       "timezone": "UTC",
       "date": "2026-09-20T16:30:00+00:00",
       "timestamp": 1789921800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570387,
-      "referee": "A. Hernandez",
-      "timezone": "UTC",
-      "date": "2026-09-16T17:00:00+00:00",
-      "timestamp": 1789578000,
-      "periods": {
-        "first": 1789578000,
-        "second": 1789581600
-      },
-      "venue": {
-        "id": 1471,
-        "name": "Estadio Municipal de Riazor",
-        "city": "La Coruna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 544,
-        "name": "Deportivo La Coruna",
-        "logo": "https://media.api-sports.io/football/teams/544.png",
-        "winner": false
-      },
-      "away": {
-        "id": 536,
-        "name": "Sevilla",
-        "logo": "https://media.api-sports.io/football/teams/536.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

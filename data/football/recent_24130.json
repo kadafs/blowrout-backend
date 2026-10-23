@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593150,
+      "referee": "Nadine Westerhoff",
+      "timezone": "UTC",
+      "date": "2026-10-19T16:00:00+00:00",
+      "timestamp": 1792425600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "FC Bayern Campus",
+        "city": "Munich"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1860,
+        "name": "Bayern Munich W",
+        "logo": "https://media.api-sports.io/football/teams/1860.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24130,
+        "name": "Stuttgart W",
+        "logo": "https://media.api-sports.io/football/teams/24130.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593147,
       "referee": "Franziska Wildfeuer",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593119,
-      "referee": "A. Heidenreich",
-      "timezone": "UTC",
-      "date": "2026-08-29T12:00:00+00:00",
-      "timestamp": 1788004800,
-      "periods": {
-        "first": 1788004800,
-        "second": 1788008400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gazi-Stadion auf der Waldau",
-        "city": "Stuttgart"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24130,
-        "name": "Stuttgart W",
-        "logo": "https://media.api-sports.io/football/teams/24130.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20498,
-        "name": "Hamburger SV W",
-        "logo": "https://media.api-sports.io/football/teams/20498.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

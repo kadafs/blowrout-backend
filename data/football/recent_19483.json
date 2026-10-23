@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629073,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T11:00:00+00:00",
+      "timestamp": 1792407600,
+      "periods": {
+        "first": 1792407600,
+        "second": 1792411200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19483,
+        "name": "Mara Sugar",
+        "logo": "https://media.api-sports.io/football/teams/19483.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19485,
+        "name": "Mombasa Elite",
+        "logo": "https://media.api-sports.io/football/teams/19485.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629060,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1470795,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-13T11:00:00+00:00",
-      "timestamp": 1778670000,
-      "periods": {
-        "first": 1778670000,
-        "second": 1778673600
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 276,
-      "name": "FKF Premier League",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/276.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2025,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19483,
-        "name": "Mara Sugar",
-        "logo": "https://media.api-sports.io/football/teams/19483.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19489,
-        "name": "Shabana",
-        "logo": "https://media.api-sports.io/football/teams/19489.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

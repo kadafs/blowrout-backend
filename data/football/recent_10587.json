@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574384,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T17:30:00+00:00",
+      "timestamp": 1792603800,
+      "periods": {
+        "first": 1792603800,
+        "second": 1792607400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6616,
+        "name": "Bellinzona",
+        "logo": "https://media.api-sports.io/football/teams/6616.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10587,
+        "name": "Br\u00fchl",
+        "logo": "https://media.api-sports.io/football/teams/10587.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629031,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574354,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10587,
-        "name": "Br\u00fchl",
-        "logo": "https://media.api-sports.io/football/teams/10587.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12717,
-        "name": "Paradiso",
-        "logo": "https://media.api-sports.io/football/teams/12717.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

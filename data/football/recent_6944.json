@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561689,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T10:00:00+00:00",
+      "timestamp": 1792231200,
+      "periods": {
+        "first": 1792231200,
+        "second": 1792234800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 109,
+      "name": "II Liga - East",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/109.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6944,
+        "name": "Legia Warszawa II",
+        "logo": "https://media.api-sports.io/football/teams/6944.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3495,
+        "name": "Tychy 71",
+        "logo": "https://media.api-sports.io/football/teams/3495.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561676,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561644,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T10:00:00+00:00",
-      "timestamp": 1788688800,
-      "periods": {
-        "first": 1788688800,
-        "second": 1788692400
-      },
-      "venue": {
-        "id": null,
-        "name": "Legia Training Center",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6944,
-        "name": "Legia Warszawa II",
-        "logo": "https://media.api-sports.io/football/teams/6944.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6950,
-        "name": "Rekord Bielsko-Bia\u0142a",
-        "logo": "https://media.api-sports.io/football/teams/6950.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

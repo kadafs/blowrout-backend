@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490439,
+      "referee": "Tim Ford",
+      "timezone": "UTC",
+      "date": "2026-10-21T23:00:00+00:00",
+      "timestamp": 1792623600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19229,
+        "name": "TQL Stadium",
+        "city": "Cincinnati"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2242,
+        "name": "FC Cincinnati",
+        "logo": "https://media.api-sports.io/football/teams/2242.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1615,
+        "name": "DC United",
+        "logo": "https://media.api-sports.io/football/teams/1615.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490546,
       "referee": "Pierre Luce Lauziere",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490508,
-      "referee": "Fotis Bazakos",
-      "timezone": "UTC",
-      "date": "2026-09-27T02:30:00+00:00",
-      "timestamp": 1790476200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19445,
-        "name": "BC Place",
-        "city": "Vancouver"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1603,
-        "name": "Vancouver Whitecaps",
-        "logo": "https://media.api-sports.io/football/teams/1603.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1615,
-        "name": "DC United",
-        "logo": "https://media.api-sports.io/football/teams/1615.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

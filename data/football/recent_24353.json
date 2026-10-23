@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639523,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 20,
+      "name": "CAF Confederation Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/20.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2475,
+        "name": "Tusker",
+        "logo": "https://media.api-sports.io/football/teams/2475.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24353,
+        "name": "Singida Black Stars",
+        "logo": "https://media.api-sports.io/football/teams/24353.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600788,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1620119,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T13:30:00+00:00",
-      "timestamp": 1788701400,
-      "periods": {
-        "first": 1788701400,
-        "second": 1788705000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 20,
-      "name": "CAF Confederation Cup",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/20.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 28144,
-        "name": "Al-Ghazal",
-        "logo": "https://media.api-sports.io/football/teams/28144.png",
-        "winner": false
-      },
-      "away": {
-        "id": 24353,
-        "name": "Singida Black Stars",
-        "logo": "https://media.api-sports.io/football/teams/24353.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 7
       },
       "extratime": {
         "home": null,

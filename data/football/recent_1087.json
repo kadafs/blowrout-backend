@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577551,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T05:00:00+00:00",
+      "timestamp": 1792299600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1335,
+        "name": "Lenin Stadium",
+        "city": "Khabarovsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1087,
+        "name": "Ska-khabarovsk",
+        "logo": "https://media.api-sports.io/football/teams/1087.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6834,
+        "name": "Volga Ulyanovsk",
+        "logo": "https://media.api-sports.io/football/teams/6834.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639260,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577522,
-      "referee": "A. Sagdiev",
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1329,
-        "name": "Stadion Arsenal",
-        "city": "Tula"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1077,
-        "name": "Arsenal Tula",
-        "logo": "https://media.api-sports.io/football/teams/1077.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1087,
-        "name": "Ska-khabarovsk",
-        "logo": "https://media.api-sports.io/football/teams/1087.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

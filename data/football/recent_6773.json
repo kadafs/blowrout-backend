@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557802,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": 4950,
+        "name": "New Central Park",
+        "city": "Kelty"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 184,
+      "name": "League Two",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/184.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6773,
+        "name": "Kelty Hearts",
+        "logo": "https://media.api-sports.io/football/teams/6773.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4250,
+        "name": "Forfar Athletic",
+        "logo": "https://media.api-sports.io/football/teams/4250.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593638,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593605,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:45:00+00:00",
-      "timestamp": 1790102700,
-      "periods": {
-        "first": 1790102700,
-        "second": 1790106300
-      },
-      "venue": {
-        "id": 4950,
-        "name": "New Central Park",
-        "city": "Kelty"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6773,
-        "name": "Kelty Hearts",
-        "logo": "https://media.api-sports.io/football/teams/6773.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6771,
-        "name": "Hearts U21",
-        "logo": "https://media.api-sports.io/football/teams/6771.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 5
       },
       "extratime": {
         "home": null,

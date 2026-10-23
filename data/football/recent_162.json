@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575191,
+      "referee": "Robert Schr\u00f6der, Germany",
+      "timezone": "UTC",
+      "date": "2026-10-17T13:30:00+00:00",
+      "timestamp": 1792243800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22796,
+        "name": "Weser-Stadion",
+        "city": "Bremen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 78,
+      "name": "Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/78.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 162,
+        "name": "Werder Bremen",
+        "logo": "https://media.api-sports.io/football/teams/162.png",
+        "winner": null
+      },
+      "away": {
+        "id": 185,
+        "name": "SC Paderborn 07",
+        "logo": "https://media.api-sports.io/football/teams/185.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575176,
       "referee": "Christian Dingert, Germany",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575155,
-      "referee": "Benjamin Brand, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-05T13:30:00+00:00",
-      "timestamp": 1788615000,
-      "periods": {
-        "first": 1788615000,
-        "second": 1788618600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Weserstadion",
-        "city": "Bremen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 162,
-        "name": "Werder Bremen",
-        "logo": "https://media.api-sports.io/football/teams/162.png",
-        "winner": true
-      },
-      "away": {
-        "id": 173,
-        "name": "RB Leipzig",
-        "logo": "https://media.api-sports.io/football/teams/173.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

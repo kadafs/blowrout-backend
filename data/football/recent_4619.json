@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629712,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T17:30:00+00:00",
+      "timestamp": 1792344600,
+      "periods": {
+        "first": 1792344600,
+        "second": 1792348200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 392,
+      "name": "Challenge League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/392.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4612,
+        "name": "Swieqi United",
+        "logo": "https://media.api-sports.io/football/teams/4612.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4619,
+        "name": "Sirens",
+        "logo": "https://media.api-sports.io/football/teams/4619.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629700,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1524321,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-12T12:00:00+00:00",
-      "timestamp": 1775995200,
-      "periods": {
-        "first": 1775995200,
-        "second": 1775998800
-      },
-      "venue": {
-        "id": 1065,
-        "name": "Victor Tedesco Stadium",
-        "city": "Hamrun"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 392,
-      "name": "Challenge League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/392.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2025,
-      "round": "Promotion Group - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4619,
-        "name": "Sirens",
-        "logo": "https://media.api-sports.io/football/teams/4619.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4607,
-        "name": "Piet\u00e0 Hotspurs",
-        "logo": "https://media.api-sports.io/football/teams/4607.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

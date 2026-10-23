@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557056,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T16:30:00+00:00",
+      "timestamp": 1792254600,
+      "periods": {
+        "first": 1792254600,
+        "second": 1792258200
+      },
+      "venue": {
+        "id": 22541,
+        "name": "Albert Bartlett Stadium",
+        "city": "Airdrie"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 183,
+      "name": "League One",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/183.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4668,
+        "name": "Airdrie United",
+        "logo": "https://media.api-sports.io/football/teams/4668.png",
+        "winner": false
+      },
+      "away": {
+        "id": 248,
+        "name": "Hamilton Academical",
+        "logo": "https://media.api-sports.io/football/teams/248.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593642,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593608,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:45:00+00:00",
-      "timestamp": 1790189100,
-      "periods": {
-        "first": 1790189100,
-        "second": 1790192700
-      },
-      "venue": {
-        "id": 19937,
-        "name": "ZLX Stadium",
-        "city": "Hamilton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 248,
-        "name": "Hamilton Academical",
-        "logo": "https://media.api-sports.io/football/teams/248.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4667,
-        "name": "Cowdenbeath",
-        "logo": "https://media.api-sports.io/football/teams/4667.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

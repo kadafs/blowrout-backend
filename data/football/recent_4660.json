@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644174,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T16:00:00+00:00",
+      "timestamp": 1792425600,
+      "periods": {
+        "first": 1792425600,
+        "second": 1792429200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 174,
+      "name": "Cup",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/174.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 855,
+        "name": "Etar Veliko Tarnovo",
+        "logo": "https://media.api-sports.io/football/teams/855.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4660,
+        "name": "Spartak Varna",
+        "logo": "https://media.api-sports.io/football/teams/4660.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551118,
       "referee": "Stoyanov\u00b7Georgi",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551095,
-      "referee": "Nikola Popov, Bulgaria",
-      "timezone": "UTC",
-      "date": "2026-08-30T16:00:00+00:00",
-      "timestamp": 1788105600,
-      "periods": {
-        "first": 1788105600,
-        "second": 1788109200
-      },
-      "venue": {
-        "id": 3512,
-        "name": "Stadion Spartak",
-        "city": "Varna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4660,
-        "name": "Spartak Varna",
-        "logo": "https://media.api-sports.io/football/teams/4660.png",
-        "winner": null
-      },
-      "away": {
-        "id": 566,
-        "name": "Ludogorets",
-        "logo": "https://media.api-sports.io/football/teams/566.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

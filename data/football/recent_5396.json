@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610643,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T11:00:00+00:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": 1792321200,
+        "second": 1792324800
+      },
+      "venue": {
+        "id": null,
+        "name": "Svay Rieng Stadium",
+        "city": "Svay Rieng"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 410,
+      "name": "C-League",
+      "country": "Cambodia",
+      "logo": "https://media.api-sports.io/football/leagues/410.png",
+      "flag": "https://media.api-sports.io/flags/kh.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5396,
+        "name": "Svay Rieng",
+        "logo": "https://media.api-sports.io/football/teams/5396.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5387,
+        "name": "Boeung Ket",
+        "logo": "https://media.api-sports.io/football/teams/5387.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630373,
       "referee": "Ali Al-Achkar",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610634,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": null,
-        "name": "Svay Rieng Stadium",
-        "city": "Svay Rieng"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 410,
-      "name": "C-League",
-      "country": "Cambodia",
-      "logo": "https://media.api-sports.io/football/leagues/410.png",
-      "flag": "https://media.api-sports.io/flags/kh.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5396,
-        "name": "Svay Rieng",
-        "logo": "https://media.api-sports.io/football/teams/5396.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5391,
-        "name": "National Defense",
-        "logo": "https://media.api-sports.io/football/teams/5391.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

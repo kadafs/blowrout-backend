@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553192,
+      "referee": "Szymon Marciniak",
+      "timezone": "UTC",
+      "date": "2026-10-17T15:30:00+00:00",
+      "timestamp": 1792251000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22596,
+        "name": "Arena Katowice",
+        "city": "Katowice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3484,
+        "name": "GKS Katowice",
+        "logo": "https://media.api-sports.io/football/teams/3484.png",
+        "winner": false
+      },
+      "away": {
+        "id": 348,
+        "name": "Pogon Szczecin",
+        "logo": "https://media.api-sports.io/football/teams/348.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553119,
       "referee": "Marcin Kochanek",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553172,
-      "referee": "Tomasz Kwiatkowski, Poland",
-      "timezone": "UTC",
-      "date": "2026-09-12T18:15:00+00:00",
-      "timestamp": 1789236900,
-      "periods": {
-        "first": 1789236900,
-        "second": 1789240500
-      },
-      "venue": {
-        "id": 21908,
-        "name": "KGHM Zaglebie Arena",
-        "city": "Lubin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 345,
-        "name": "Zaglebie Lubin",
-        "logo": "https://media.api-sports.io/football/teams/345.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3484,
-        "name": "GKS Katowice",
-        "logo": "https://media.api-sports.io/football/teams/3484.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

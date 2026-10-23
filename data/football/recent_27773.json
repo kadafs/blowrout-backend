@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1640464,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-26T20:15:00+00:00",
+      "timestamp": 1790453700,
+      "periods": {
+        "first": 1790453700,
+        "second": 1790457300
+      },
+      "venue": {
+        "id": 1232,
+        "name": "Estadio Mansiche",
+        "city": "Trujillo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1229,
+      "name": "Liga Women",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/1229.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 11",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27773,
+        "name": "Carlos Mannucci W",
+        "logo": "https://media.api-sports.io/football/teams/27773.png",
+        "winner": true
+      },
+      "away": {
+        "id": 27781,
+        "name": "Yanapuma W",
+        "logo": "https://media.api-sports.io/football/teams/27781.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634301,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-09-18T18:00:00+00:00",
       "timestamp": 1789754400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789754400,
+        "second": 1789758000
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607661,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-16T18:00:00+00:00",
-      "timestamp": 1786903200,
-      "periods": {
-        "first": 1786903200,
-        "second": 1786906800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1229,
-      "name": "Liga Women",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/1229.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 27772,
-        "name": "Atl. Andahuaylas W",
-        "logo": "https://media.api-sports.io/football/teams/27772.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27773,
-        "name": "Carlos Mannucci W",
-        "logo": "https://media.api-sports.io/football/teams/27773.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

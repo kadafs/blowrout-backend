@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601427,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-05T20:00:00+00:00",
+      "timestamp": 1788638400,
+      "periods": {
+        "first": 1788638400,
+        "second": 1788642000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 163,
+      "name": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "logo": "https://media.api-sports.io/football/leagues/163.png",
+      "flag": "https://media.api-sports.io/flags/cr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2054,
+        "name": "Futbol Consultants Moravia",
+        "logo": "https://media.api-sports.io/football/teams/2054.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2057,
+        "name": "Santa Ana",
+        "logo": "https://media.api-sports.io/football/teams/2057.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1476911,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1175825,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-03-31T17:00:00+00:00",
-      "timestamp": 1711904400,
-      "periods": {
-        "first": 1711904400,
-        "second": 1711908000
-      },
-      "venue": {
-        "id": 2675,
-        "name": "Estadio CDI Jos\u00e9 Joaqu\u00edn Colleya Fonseca",
-        "city": "San Jos\u00e9"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 163,
-      "name": "Liga de Ascenso",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/163.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2023,
-      "round": "Clausura - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2054,
-        "name": "Futbol Consultants Moravia",
-        "logo": "https://media.api-sports.io/football/teams/2054.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2057,
-        "name": "Santa Ana",
-        "logo": "https://media.api-sports.io/football/teams/2057.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

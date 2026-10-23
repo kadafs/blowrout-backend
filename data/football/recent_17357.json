@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627739,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:30:00+00:00",
+      "timestamp": 1792243800,
+      "periods": {
+        "first": 1792243800,
+        "second": 1792247400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 289,
+      "name": "1st Division",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/289.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17357,
+        "name": "Venda FC",
+        "logo": "https://media.api-sports.io/football/teams/17357.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19999,
+        "name": "Magesi",
+        "logo": "https://media.api-sports.io/football/teams/19999.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627733,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627697,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T13:00:00+00:00",
-      "timestamp": 1788008400,
-      "periods": {
-        "first": 1788008400,
-        "second": 1788012000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 289,
-      "name": "1st Division",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/289.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26396,
-        "name": "Gomora United FC",
-        "logo": "https://media.api-sports.io/football/teams/26396.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17357,
-        "name": "Venda FC",
-        "logo": "https://media.api-sports.io/football/teams/17357.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

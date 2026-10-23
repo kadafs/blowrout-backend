@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490545,
+      "referee": "Marcos De Oliveira",
+      "timezone": "UTC",
+      "date": "2026-10-17T23:30:00+00:00",
+      "timestamp": 1792279800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21544,
+        "name": "Sports Illustrated Stadium",
+        "city": "Harrison"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1602,
+        "name": "New York Red Bulls",
+        "logo": "https://media.api-sports.io/football/teams/1602.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1601,
+        "name": "Toronto FC",
+        "logo": "https://media.api-sports.io/football/teams/1601.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490529,
       "referee": "Armando Villarreal",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490469,
-      "referee": "Jon Freemon, USA",
-      "timezone": "UTC",
-      "date": "2026-09-12T23:30:00+00:00",
-      "timestamp": 1789255800,
-      "periods": {
-        "first": 1789255800,
-        "second": 1789259400
-      },
-      "venue": {
-        "id": 0,
-        "name": "Exploria Stadium",
-        "city": "Orlando"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1598,
-        "name": "Orlando City SC",
-        "logo": "https://media.api-sports.io/football/teams/1598.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1601,
-        "name": "Toronto FC",
-        "logo": "https://media.api-sports.io/football/teams/1601.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584036,
+      "referee": "Leonidas Exuzidis",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20735,
+        "name": "Merkur Spielarena",
+        "city": "Dusseldorf"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1639,
+        "name": "FC Saarbr\u00fccken",
+        "logo": "https://media.api-sports.io/football/teams/1639.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584026,
-      "referee": "Felix Prigan",
+      "referee": "Felix Prigan, Germany",
       "timezone": "UTC",
       "date": "2026-10-14T17:00:00+00:00",
       "timestamp": 1791997200,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1584016,
-      "referee": "Sebastian Hilsberg",
+      "referee": "Sebastian Hilsberg, Germany",
       "timezone": "UTC",
       "date": "2026-10-11T17:30:00+00:00",
       "timestamp": 1791739800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583985,
-      "referee": "P. Schwengers",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Merkur Spiel-Arena",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 158,
-        "name": "Fortuna D\u00fcsseldorf",
-        "logo": "https://media.api-sports.io/football/teams/158.png",
-        "winner": true
-      },
-      "away": {
-        "id": 187,
-        "name": "MSV Duisburg",
-        "logo": "https://media.api-sports.io/football/teams/187.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

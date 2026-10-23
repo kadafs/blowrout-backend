@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490439,
+      "referee": "Tim Ford",
+      "timezone": "UTC",
+      "date": "2026-10-21T23:00:00+00:00",
+      "timestamp": 1792623600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19229,
+        "name": "TQL Stadium",
+        "city": "Cincinnati"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2242,
+        "name": "FC Cincinnati",
+        "logo": "https://media.api-sports.io/football/teams/2242.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1615,
+        "name": "DC United",
+        "logo": "https://media.api-sports.io/football/teams/1615.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1326455,
       "referee": "Alexis Da Silva, USA",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 981044,
-      "referee": "S. Boiko",
-      "timezone": "UTC",
-      "date": "2023-06-24T23:30:00+00:00",
-      "timestamp": 1687649400,
-      "periods": {
-        "first": 1687649400,
-        "second": 1687653000
-      },
-      "venue": {
-        "id": 1613,
-        "name": "Audi Field",
-        "city": "Washington, District of Columbia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2023,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1615,
-        "name": "DC United",
-        "logo": "https://media.api-sports.io/football/teams/1615.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2242,
-        "name": "FC Cincinnati",
-        "logo": "https://media.api-sports.io/football/teams/2242.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

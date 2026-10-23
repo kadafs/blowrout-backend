@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623604,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:30:00+00:00",
+      "timestamp": 1792240200,
+      "periods": {
+        "first": 1792240200,
+        "second": 1792243800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19855,
+        "name": "Monopoli U19",
+        "logo": "https://media.api-sports.io/football/teams/19855.png",
+        "winner": null
+      },
+      "away": {
+        "id": 15655,
+        "name": "Benevento U19",
+        "logo": "https://media.api-sports.io/football/teams/15655.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623593,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1590022,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T09:00:00+00:00",
-      "timestamp": 1787389200,
-      "periods": {
-        "first": 1787389200,
-        "second": 1787392800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 704,
-      "name": "Coppa Italia Primavera",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/704.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "1/128-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 19855,
-        "name": "Monopoli U19",
-        "logo": "https://media.api-sports.io/football/teams/19855.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15657,
-        "name": "Brescia U19",
-        "logo": "https://media.api-sports.io/football/teams/15657.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

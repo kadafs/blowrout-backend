@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562672,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T08:30:00+00:00",
+      "timestamp": 1792312200,
+      "periods": {
+        "first": 1792312200,
+        "second": 1792315800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Lucni",
+        "city": "Plzen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 11",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8620,
+        "name": "Viktoria Plze\u0148 II",
+        "logo": "https://media.api-sports.io/football/teams/8620.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7269,
+        "name": "Aritma Praha",
+        "logo": "https://media.api-sports.io/football/teams/7269.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562664,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562619,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T08:15:00+00:00",
-      "timestamp": 1788682500,
-      "periods": {
-        "first": 1788682500,
-        "second": 1788686100
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadium Admira Prague",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7268,
-        "name": "Admira Praha",
-        "logo": "https://media.api-sports.io/football/teams/7268.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8620,
-        "name": "Viktoria Plze\u0148 II",
-        "logo": "https://media.api-sports.io/football/teams/8620.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

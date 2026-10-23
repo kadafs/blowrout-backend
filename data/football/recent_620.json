@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636258,
+      "referee": "Manfredas Lukjancukas",
+      "timezone": "UTC",
+      "date": "2026-10-22T16:45:00+00:00",
+      "timestamp": 1792687500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22430,
+        "name": "Stadion Maksimir",
+        "city": "Zagreb"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 620,
+        "name": "Dinamo Zagreb",
+        "logo": "https://media.api-sports.io/football/teams/620.png",
+        "winner": false
+      },
+      "away": {
+        "id": 413,
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1548546,
       "referee": "Duje Strukan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548532,
-      "referee": "Patrik Kolari\u0107, Croatia",
-      "timezone": "UTC",
-      "date": "2026-09-20T18:00:00+00:00",
-      "timestamp": 1789927200,
-      "periods": {
-        "first": 1789927200,
-        "second": 1789930800
-      },
-      "venue": {
-        "id": 412,
-        "name": "Stadion Maksimir",
-        "city": "Zagreb"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 210,
-      "name": "HNL",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/210.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 620,
-        "name": "Dinamo Zagreb",
-        "logo": "https://media.api-sports.io/football/teams/620.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1017,
-        "name": "NK Lokomotiva Zagreb",
-        "logo": "https://media.api-sports.io/football/teams/1017.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

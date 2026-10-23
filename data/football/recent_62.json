@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563204,
+      "referee": "Benjamin Speedie, England",
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20106,
+        "name": "Ashton Gate Stadium",
+        "city": "Bristol"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 56,
+        "name": "Bristol City",
+        "logo": "https://media.api-sports.io/football/teams/56.png",
+        "winner": false
+      },
+      "away": {
+        "id": 62,
+        "name": "Sheffield Utd",
+        "logo": "https://media.api-sports.io/football/teams/62.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563201,
       "referee": "Oliver Langford",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563161,
-      "referee": "R. Jones",
-      "timezone": "UTC",
-      "date": "2026-09-13T11:00:00+00:00",
-      "timestamp": 1789297200,
-      "periods": {
-        "first": 1789297200,
-        "second": 1789300800
-      },
-      "venue": {
-        "id": 581,
-        "name": "Bramall Lane",
-        "city": "Sheffield"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 62,
-        "name": "Sheffield Utd",
-        "logo": "https://media.api-sports.io/football/teams/62.png",
-        "winner": false
-      },
-      "away": {
-        "id": 39,
-        "name": "Wolves",
-        "logo": "https://media.api-sports.io/football/teams/39.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637345,
+      "referee": "J. Sars",
+      "timezone": "UTC",
+      "date": "2026-10-20T11:00:00+00:00",
+      "timestamp": 1792494000,
+      "periods": {
+        "first": 1792494000,
+        "second": 1792497600
+      },
+      "venue": {
+        "id": null,
+        "name": "Pendik Stadyumu",
+        "city": "Istanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 28245,
+        "name": "Fenerbahce U19",
+        "logo": "https://media.api-sports.io/football/teams/28245.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7933,
+        "name": "Slavia Praha U19",
+        "logo": "https://media.api-sports.io/football/teams/7933.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565127,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565168,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T09:00:00+00:00",
-      "timestamp": 1789549200,
-      "periods": {
-        "first": 1789549200,
-        "second": 1789552800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 668,
-      "name": "1. Liga U19",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/668.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 27891,
-        "name": "Teplice U19",
-        "logo": "https://media.api-sports.io/football/teams/27891.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7933,
-        "name": "Slavia Praha U19",
-        "logo": "https://media.api-sports.io/football/teams/7933.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

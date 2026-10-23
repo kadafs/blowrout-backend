@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552500,
+      "referee": "Beno\u00eet Millot, France",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 662,
+        "name": "Stade de la Beaujoire",
+        "city": "Nantes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552491,
       "referee": "Faouzi Benchabane, France",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552453,
-      "referee": "Mickael Leleu, France",
-      "timezone": "UTC",
-      "date": "2026-08-29T18:00:00+00:00",
-      "timestamp": 1788026400,
-      "periods": {
-        "first": 1788026400,
-        "second": 1788030000
-      },
-      "venue": {
-        "id": 650,
-        "name": "Stade de Roudourou",
-        "city": "Guingamp"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 90,
-        "name": "Guingamp",
-        "logo": "https://media.api-sports.io/football/teams/90.png",
-        "winner": null
-      },
-      "away": {
-        "id": 83,
-        "name": "Nantes",
-        "logo": "https://media.api-sports.io/football/teams/83.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

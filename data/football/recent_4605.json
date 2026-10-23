@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629709,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 392,
+      "name": "Challenge League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/392.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4605,
+        "name": "Naxxar Lions",
+        "logo": "https://media.api-sports.io/football/teams/4605.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16541,
+        "name": "Victoria Hotspurs",
+        "logo": "https://media.api-sports.io/football/teams/16541.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629700,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1534161,
-      "referee": "P. Farrugia",
-      "timezone": "UTC",
-      "date": "2026-05-02T14:00:00+00:00",
-      "timestamp": 1777730400,
-      "periods": {
-        "first": 1777730400,
-        "second": 1777734000
-      },
-      "venue": {
-        "id": 12090,
-        "name": "Tony Bezzina Stadium",
-        "city": "Paola"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 393,
-      "name": "Premier League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/393.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2025,
-      "round": "Second Stage - Top 6 - 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14507,
-        "name": "Marsaxlokk",
-        "logo": "https://media.api-sports.io/football/teams/14507.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4605,
-        "name": "Naxxar Lions",
-        "logo": "https://media.api-sports.io/football/teams/4605.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1632034,
+      "referee": "B. Romero",
+      "timezone": "UTC",
+      "date": "2026-10-17T22:20:00+00:00",
+      "timestamp": 1792275600,
+      "periods": {
+        "first": 1792275600,
+        "second": 1792279200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Osvaldo Dominguez Dibb",
+        "city": "Asunci\u00f3n"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1182,
+        "name": "Olimpia",
+        "logo": "https://media.api-sports.io/football/teams/1182.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2140,
+        "name": "2 de Mayo",
+        "logo": "https://media.api-sports.io/football/teams/2140.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632026,
-      "referee": "Alipio Colman",
+      "referee": "A. Colman",
       "timezone": "UTC",
       "date": "2026-10-12T20:00:00+00:00",
       "timestamp": 1791835200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791835200,
+        "second": 1791838800
       },
       "venue": {
         "id": 1212,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1632021,
-      "referee": "Mario Diaz De Vivar, Paraguay",
+      "referee": "M. D. de Vivar",
       "timezone": "UTC",
       "date": "2026-10-05T22:15:00+00:00",
       "timestamp": 1791238500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791238500,
+        "second": 1791242100
       },
       "venue": {
         "id": 22161,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632010,
-      "referee": "David Ojeda, Paraguay",
-      "timezone": "UTC",
-      "date": "2026-09-18T21:30:00+00:00",
-      "timestamp": 1789767000,
-      "periods": {
-        "first": 1789767000,
-        "second": 1789770600
-      },
-      "venue": {
-        "id": 1220,
-        "name": "Estadio Arsenio Erico",
-        "city": "Asunci\u00f3n"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 252,
-      "name": "Division Profesional - Clausura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/252.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Clausura - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1175,
-        "name": "Nacional Asuncion",
-        "logo": "https://media.api-sports.io/football/teams/1175.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2140,
-        "name": "2 de Mayo",
-        "logo": "https://media.api-sports.io/football/teams/2140.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

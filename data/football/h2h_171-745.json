@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1388854,
+      "referee": "F. Wagner",
+      "timezone": "UTC",
+      "date": "2026-03-21T12:00:00+00:00",
+      "timestamp": 1774094400,
+      "periods": {
+        "first": 1774094400,
+        "second": 1774098000
+      },
+      "venue": {
+        "id": null,
+        "name": "Max-Morlock-Stadion",
+        "city": "Nuremberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 171,
+        "name": "1. FC N\u00fcrnberg",
+        "logo": "https://media.api-sports.io/football/teams/171.png",
+        "winner": true
+      },
+      "away": {
+        "id": 745,
+        "name": "1. FC Kaiserslautern",
+        "logo": "https://media.api-sports.io/football/teams/745.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1388700,
       "referee": "S\u00f6ren Storks, Germany",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1141480,
-      "referee": "P. Ittrich",
-      "timezone": "UTC",
-      "date": "2023-12-05T17:00:00+00:00",
-      "timestamp": 1701795600,
-      "periods": {
-        "first": 1701795600,
-        "second": 1701799200
-      },
-      "venue": {
-        "id": 728,
-        "name": "Fritz-Walter-Stadion",
-        "city": "Kaiserslautern"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 81,
-      "name": "DFB Pokal",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/81.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2023,
-      "round": "Round of 16",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 745,
-        "name": "FC Kaiserslautern",
-        "logo": "https://media.api-sports.io/football/teams/745.png",
-        "winner": true
-      },
-      "away": {
-        "id": 171,
-        "name": "FC Nurnberg",
-        "logo": "https://media.api-sports.io/football/teams/171.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

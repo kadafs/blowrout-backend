@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584034,
+      "referee": "Eric-Dominic Weisbach",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3254,
+        "name": "Tivoli",
+        "city": "Aachen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4259,
+        "name": "Alemannia Aachen",
+        "logo": "https://media.api-sports.io/football/teams/4259.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584024,
-      "referee": "Martin Wilke",
+      "referee": "Martin Wilke, Germany",
       "timezone": "UTC",
       "date": "2026-10-13T17:00:00+00:00",
       "timestamp": 1791910800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583992,
-      "referee": "S. Hilsberg",
-      "timezone": "UTC",
-      "date": "2026-09-11T17:00:00+00:00",
-      "timestamp": 1789146000,
-      "periods": {
-        "first": 1789146000,
-        "second": 1789149600
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportpark Hohenberg",
-        "city": "Cologne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1620,
-        "name": "FC Viktoria K\u00f6ln",
-        "logo": "https://media.api-sports.io/football/teams/1620.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1321,
-        "name": "Hansa Rostock",
-        "logo": "https://media.api-sports.io/football/teams/1321.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

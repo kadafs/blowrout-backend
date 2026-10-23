@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645505,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1052,
+      "name": "Kakkonen - Play-offs",
+      "country": "Finland",
+      "logo": "https://media.api-sports.io/football/leagues/1052.png",
+      "flag": "https://media.api-sports.io/flags/fi.svg",
+      "season": 2026,
+      "round": "Promotion Round - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22980,
+        "name": "Huima / Urho",
+        "logo": "https://media.api-sports.io/football/teams/22980.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9191,
+        "name": "GBK",
+        "logo": "https://media.api-sports.io/football/teams/9191.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645357,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635463,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-02T15:30:00+00:00",
-      "timestamp": 1788363000,
-      "periods": {
-        "first": 1788363000,
-        "second": 1788366600
-      },
-      "venue": {
-        "id": 19205,
-        "name": "Lemonsoft Stadion",
-        "city": "Vaasa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 249,
-      "name": "Kakkonen - Lohko C",
-      "country": "Finland",
-      "logo": "https://media.api-sports.io/football/leagues/249.png",
-      "flag": "https://media.api-sports.io/flags/fi.svg",
-      "season": 2026,
-      "round": "Group C",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9200,
-        "name": "VPS II",
-        "logo": "https://media.api-sports.io/football/teams/9200.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9191,
-        "name": "GBK",
-        "logo": "https://media.api-sports.io/football/teams/9191.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 4
       },
       "extratime": {
         "home": null,

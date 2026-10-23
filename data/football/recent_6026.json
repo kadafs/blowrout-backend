@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551356,
+      "referee": "F. Klarlund",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:00:00+00:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": 1792321200,
+        "second": 1792324800
+      },
+      "venue": {
+        "id": null,
+        "name": "Hvidovre Stadium",
+        "city": "Hvidovre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2072,
+        "name": "Hvidovre",
+        "logo": "https://media.api-sports.io/football/teams/2072.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6026,
+        "name": "Hiller\u00f8d",
+        "logo": "https://media.api-sports.io/football/teams/6026.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551349,
       "referee": "P. Gammelholm",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551326,
-      "referee": "F. Iriskic",
-      "timezone": "UTC",
-      "date": "2026-08-30T11:00:00+00:00",
-      "timestamp": 1788087600,
-      "periods": {
-        "first": 1788087600,
-        "second": 1788091200
-      },
-      "venue": {
-        "id": null,
-        "name": "Helsingor Stadion",
-        "city": "Helsingor"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6026,
-        "name": "Hiller\u00f8d",
-        "logo": "https://media.api-sports.io/football/teams/6026.png",
-        "winner": true
-      },
-      "away": {
-        "id": 408,
-        "name": "Hobro",
-        "logo": "https://media.api-sports.io/football/teams/408.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

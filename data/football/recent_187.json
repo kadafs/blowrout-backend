@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584035,
+      "referee": "Cristian Ballweg",
+      "timezone": "UTC",
+      "date": "2026-10-18T14:30:00+00:00",
+      "timestamp": 1792333800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 730,
+        "name": "MSV-Arena",
+        "city": "Duisburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 187,
+        "name": "MSV Duisburg",
+        "logo": "https://media.api-sports.io/football/teams/187.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1620,
+        "name": "FC Viktoria K\u00f6ln",
+        "logo": "https://media.api-sports.io/football/teams/1620.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584028,
-      "referee": "Felix Weller",
+      "referee": "Felix Weller, Germany",
       "timezone": "UTC",
       "date": "2026-10-13T17:00:00+00:00",
       "timestamp": 1791910800,
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583985,
-      "referee": "P. Schwengers",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Merkur Spiel-Arena",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 158,
-        "name": "Fortuna D\u00fcsseldorf",
-        "logo": "https://media.api-sports.io/football/teams/158.png",
-        "winner": true
-      },
-      "away": {
-        "id": 187,
-        "name": "MSV Duisburg",
-        "logo": "https://media.api-sports.io/football/teams/187.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 2,

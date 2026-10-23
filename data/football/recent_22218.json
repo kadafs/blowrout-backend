@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1644214,
+      "referee": "A. El Maataoui",
+      "timezone": "UTC",
+      "date": "2026-10-17T16:00:00+00:00",
+      "timestamp": 1792252800,
+      "periods": {
+        "first": 1792252800,
+        "second": 1792256400
+      },
+      "venue": {
+        "id": 20212,
+        "name": "Stade d'Honneur",
+        "city": "Meknes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22218,
+        "name": "CODM Mekn\u00e8s",
+        "logo": "https://media.api-sports.io/football/teams/22218.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14806,
+        "name": "UTS Rabat",
+        "logo": "https://media.api-sports.io/football/teams/14806.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644209,
-      "referee": null,
+      "referee": "A. Boulfaid",
       "timezone": "UTC",
       "date": "2026-10-11T20:00:00+00:00",
       "timestamp": 1791748800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571480,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-05T17:00:00+00:00",
-      "timestamp": 1783270800,
-      "periods": {
-        "first": 1783270800,
-        "second": 1783274400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Ibn Batouta",
-        "city": "Tanger"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 974,
-        "name": "Ittihad Tanger",
-        "logo": "https://media.api-sports.io/football/teams/974.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22218,
-        "name": "CODM Mekn\u00e8s",
-        "logo": "https://media.api-sports.io/football/teams/22218.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

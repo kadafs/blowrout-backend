@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599403,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:30:00+00:00",
+      "timestamp": 1792326600,
+      "periods": {
+        "first": 1792326600,
+        "second": 1792330200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 676,
+      "name": "Central Youth League",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/676.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28017,
+        "name": "Talent Warszawa U19",
+        "logo": "https://media.api-sports.io/football/teams/28017.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7905,
+        "name": "Korona Kielce U19",
+        "logo": "https://media.api-sports.io/football/teams/7905.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599402,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599398,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:45:00+00:00",
-      "timestamp": 1789224300,
-      "periods": {
-        "first": 1789224300,
-        "second": 1789227900
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 676,
-      "name": "Central Youth League",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/676.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20596,
-        "name": "\u015al\u0105sk Wroc\u0142aw U19",
-        "logo": "https://media.api-sports.io/football/teams/20596.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28017,
-        "name": "Talent Warszawa U19",
-        "logo": "https://media.api-sports.io/football/teams/28017.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

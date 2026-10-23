@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558240,
+      "referee": "B. Frankowski",
+      "timezone": "UTC",
+      "date": "2026-10-18T18:30:00+00:00",
+      "timestamp": 1792348200,
+      "periods": {
+        "first": 1792348200,
+        "second": 1792351800
+      },
+      "venue": {
+        "id": null,
+        "name": "Polsat Plus Arena",
+        "city": "Gdansk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 107,
+      "name": "I Liga",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/107.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 343,
+        "name": "Lechia Gdansk",
+        "logo": "https://media.api-sports.io/football/teams/343.png",
+        "winner": true
+      },
+      "away": {
+        "id": 344,
+        "name": "Arka Gdynia",
+        "logo": "https://media.api-sports.io/football/teams/344.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558237,
       "referee": "P. Pskit",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558211,
-      "referee": "M. Myszka",
-      "timezone": "UTC",
-      "date": "2026-09-04T19:00:00+00:00",
-      "timestamp": 1788548400,
-      "periods": {
-        "first": 1788548400,
-        "second": 1788552000
-      },
-      "venue": {
-        "id": null,
-        "name": "Termalica Bruk-Bet Nieciecza",
-        "city": "Nieciecza"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 107,
-      "name": "I Liga",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/107.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3487,
-        "name": "Nieciecza",
-        "logo": "https://media.api-sports.io/football/teams/3487.png",
-        "winner": true
-      },
-      "away": {
-        "id": 343,
-        "name": "Lechia Gdansk",
-        "logo": "https://media.api-sports.io/football/teams/343.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

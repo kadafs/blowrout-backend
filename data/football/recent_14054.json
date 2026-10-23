@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561168,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:30:00+00:00",
+      "timestamp": 1792240200,
+      "periods": {
+        "first": 1792240200,
+        "second": 1792243800
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky futbalovy stadion Galanta",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14054,
+        "name": "Galanta",
+        "logo": "https://media.api-sports.io/football/teams/14054.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15006,
+        "name": "MFK Byt\u010da",
+        "logo": "https://media.api-sports.io/football/teams/15006.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561164,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 10544,
         "name": "Slovan Bratislava II",
         "logo": "https://media.api-sports.io/football/teams/10544.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630289,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T15:30:00+00:00",
-      "timestamp": 1789486200,
-      "periods": {
-        "first": 1789486200,
-        "second": 1789489800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 680,
-      "name": "Cup",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/680.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 12859,
-        "name": "Spartak Myjava",
-        "logo": "https://media.api-sports.io/football/teams/12859.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14054,
-        "name": "Galanta",
-        "logo": "https://media.api-sports.io/football/teams/14054.png",
         "winner": false
       }
     },

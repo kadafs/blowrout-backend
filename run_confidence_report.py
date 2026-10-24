@@ -15,6 +15,8 @@ Usage:
     python run_confidence_report.py --league_id 72
 """
 
+from __future__ import annotations
+
 import json
 import os
 import sys
@@ -255,7 +257,8 @@ def band_sort_key(band_label: str) -> int:
 
 def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                league_id_filter: int = None, show_components: bool = False,
-               min_graded: int = 2, hidden_gems: bool = False, no_playoffs: bool = False):
+               min_graded: int = 2, hidden_gems: bool = False, no_playoffs: bool = False,
+               min_floor_rate: float = None, floor_ok: bool = False):
 
     pred_path = os.path.join(PREDICTIONS_DIR, f"universal_predictions_{date_str}.json")
     if not os.path.exists(pred_path):
@@ -341,9 +344,21 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
         if score < min_score:
             continue
 
+        whr = result.get("weighted_hit_rate")
+        floor_status = result.get("floor_status", "N/A")
+
+        # Optional Flat Floor Filters
+        if min_floor_rate is not None:
+            if whr is None or whr < min_floor_rate:
+                continue
+
+        if floor_ok:
+            if floor_status not in ("ELITE", "OK"):
+                continue
+
         if hidden_gems:
-            # Hidden gems are Moderate/Low games (< 60.0 score) that have High Stability (vol_score >= 15)
-            if score >= 60.0 or result["vol_score"] < 15:
+            # Hidden gems are Moderate/Low games (< 60.0 score) that have High Stability (vol_score >= 20)
+            if score >= 60.0 or result["vol_score"] < 20:
                 continue
 
         is_clash = check_clash_profile(home, away, league_id)
@@ -405,7 +420,8 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
             "bias_score": result["bias_score"],
             "sprd_score": result["spread_score"],
             "hr_score":   result["hit_rate_score"],
-            "weighted_hit_rate": result["weighted_hit_rate"],
+            "weighted_hit_rate": whr,
+            "floor_status": floor_status,
             "using_defaults": using_defaults,
             "is_clash": is_clash,
             "clash_trigger": clash_trigger,
@@ -423,18 +439,22 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
     # ---------------------------------------------------------------------------
     # Print report
     # ---------------------------------------------------------------------------
-    print(f"\n{'=' * 120}")
+    print(f"\n{'=' * 125}")
     print(f"  MODEL CONFIDENCE REPORT  |  {date_str}  |  {len(rows)} games")
-    print(f"{'=' * 120}")
+    if floor_ok:
+        print(f"  [FILTER ACTIVE] Floor Status: ELITE / OK only")
+    elif min_floor_rate is not None:
+        print(f"  [FILTER ACTIVE] Min Floor Hit Rate: {min_floor_rate*100:.0f}%")
+    print(f"{'=' * 125}")
 
     if show_components:
-        print(f"  {'Score':>6}  {'Band':<11}  {'D':<2}  {'Vol':>5}  {'MAE':>5}  {'Bias':>5}  {'Sprd':>5}  "
-              f"{'V':>3}  {'M':>3}  {'B':>3}  {'S':>3}  {'HR':>3}  {'wHR%':>5}  {'xH':>6}  {'xA':>6}  {'Model':>7}  {'TrueTot':>7}  Matchup")
-        print(f"  {'-' * 135}")
+        print(f"  {'Score':>6}  {'Band':<11}  {'Floor':<8}  {'D':<2}  {'Vol':>5}  {'MAE':>5}  {'Bias':>5}  {'Sprd':>5}  "
+              f"{'V':>3}  {'M':>3}  {'B':>3}  {'S':>3}  {'wHR%':>5}  {'xH':>6}  {'xA':>6}  {'Model':>7}  {'TrueTot':>7}  Matchup")
+        print(f"  {'-' * 145}")
     else:
-        print(f"  {'Score':>6}  {'Band':<11}  {'D':<2}  {'Vol':>5}  {'MAE':>5}  {'Bias':>5}  {'Sprd':>5}  "
+        print(f"  {'Score':>6}  {'Band':<11}  {'Floor':<8}  {'D':<2}  {'Vol':>5}  {'MAE':>5}  {'Bias':>5}  {'Sprd':>5}  "
               f"{'xH':>6}  {'xA':>6}  {'Model':>7}  {'TrueTot':>7}  Matchup")
-        print(f"  {'-' * 110}")
+        print(f"  {'-' * 125}")
 
     defaults_count = sum(1 for r in rows if r.get("using_defaults"))
 
@@ -447,6 +467,7 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
         band_str = r["band"].strip()
         d_flag   = "~" if r.get("using_defaults") else " "
         whr_str  = f"{r['weighted_hit_rate']*100:.1f}" if r.get("weighted_hit_rate") is not None else "N/A"
+        floor_str = r.get("floor_status", "N/A")
 
         matchup = f"{r['away'][:22]} @ {r['home'][:22]}"
         if r.get("is_clash"):
@@ -462,22 +483,22 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
 
         if show_components:
             print(
-                f"  {r['score']:>6.1f}  {band_str:<11}  {d_flag:<2}  "
+                f"  {r['score']:>6.1f}  {band_str:<11}  {floor_str:<8}  {d_flag:<2}  "
                 f"{r['max_vol']:>5.1f}  {r['max_mae']:>5.1f}  {r['avg_bias_raw']:>5.1f}  {r['spread']:>5.1f}  "
                 f"{r['vol_score']:>3}  {r['mae_score']:>3}  {r['bias_score']:>3}  {r['sprd_score']:>3}  "
-                f"{r['hr_score']:>3}  {whr_str:>5}  "
+                f"{whr_str:>5}  "
                 f"{r['xpts_h']:>6.1f}  {r['xpts_a']:>6.1f}  {r['model_total']:>7.1f}  {r['bias_adjusted_total']:>7.1f}  "
                 f"{matchup}"
             )
         else:
             print(
-                f"  {r['score']:>6.1f}  {band_str:<11}  {d_flag:<2}  "
+                f"  {r['score']:>6.1f}  {band_str:<11}  {floor_str:<8}  {d_flag:<2}  "
                 f"{r['max_vol']:>5.1f}  {r['max_mae']:>5.1f}  {r['avg_bias_raw']:>5.1f}  {r['spread']:>5.1f}  "
                 f"{r['xpts_h']:>6.1f}  {r['xpts_a']:>6.1f}  {r['model_total']:>7.1f}  {r['bias_adjusted_total']:>7.1f}  "
                 f"{matchup}"
             )
 
-    print(f"\n{'=' * 120}")
+    print(f"\n{'=' * 125}")
 
     # Summary breakdown by band
     from collections import Counter
@@ -511,7 +532,7 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
                 matchup += " [SHOOTOUT! OVER]"
             else:
                 matchup += " [SHOOTOUT]"
-        print(f"    {r['score']:>5.1f}  {r['band'].strip():<11}  "
+        print(f"    {r['score']:>5.1f}  {r['band'].strip():<11}  [Floor: {r.get('floor_status', 'N/A')}]  "
               f"{matchup}  |  {r['league']}  "
               f"|  TrueTot:{r['bias_adjusted_total']:.1f}  (Model:{r['model_total']:.1f}  Bias:{r['avg_bias_raw']:+.1f})")
     print()
@@ -524,7 +545,7 @@ def run_report(date_str: str, min_score: float = 0.0, tier_filter: str = None,
 # ---------------------------------------------------------------------------
 
 CSV_COLUMNS = [
-    "date", "confidence_score", "band", "league", "tier", "league_id",
+    "date", "confidence_score", "band", "floor_status", "weighted_hit_rate", "league", "tier", "league_id",
     "away_team", "home_team",
     "model_total", "bias_adjusted_total", "xpts_away", "xpts_home", "spread",
     "vol_away", "vol_home", "mae_away", "mae_home", "bias_away", "bias_home",
@@ -550,6 +571,8 @@ def save_csv(rows: list, date_str: str, suffix: str = "") -> str:
                 "date":             date_str,
                 "confidence_score": r["score"],
                 "band":             r["band"].strip(),
+                "floor_status":     r.get("floor_status", "N/A"),
+                "weighted_hit_rate": r.get("weighted_hit_rate"),
                 "league":           r["league"],
                 "tier":             r["tier"],
                 "league_id":        r["league_id"],
@@ -594,13 +617,17 @@ def main():
     parser.add_argument("--min_graded", type=int, default=3,
                         help="Only show games where BOTH teams have at least this many graded games in the tracking epoch (default: 3)")
     parser.add_argument("--hidden_gems", action="store_true",
-                        help="Only show Moderate/Low games with High Stability (Vol Score >= 15)")
+                        help="Only show Moderate/Low games with High Stability (Vol Score >= 20)")
     parser.add_argument("--components", action="store_true",
                         help="Show individual score components (vol/mae/bias/spread pts)")
     parser.add_argument("--no_csv",     action="store_true",
                         help="Skip CSV export (console output only)")
     parser.add_argument("--no_playoffs", action="store_true",
                         help="Exclude playoff/post-season games")
+    parser.add_argument("--floor_ok", action="store_true",
+                        help="Optional floor filter: only show games with solid floor reliability (ELITE or OK)")
+    parser.add_argument("--min_floor_rate", type=float, default=None,
+                        help="Optional floor filter: only show games with weighted floor hit rate >= threshold (e.g. 0.70)")
     args = parser.parse_args()
 
     date_str = args.date or datetime.now().strftime("%Y-%m-%d")
@@ -614,6 +641,8 @@ def main():
         min_graded       = args.min_graded,
         hidden_gems      = args.hidden_gems,
         no_playoffs      = args.no_playoffs,
+        min_floor_rate   = args.min_floor_rate,
+        floor_ok         = args.floor_ok,
     )
 
     if rows and not args.no_csv:
@@ -625,6 +654,8 @@ def main():
         if args.min_graded: suffix_parts.append(f"graded{args.min_graded}")
         if args.hidden_gems: suffix_parts.append("hidden_gems")
         if args.no_playoffs: suffix_parts.append("no_playoffs")
+        if args.floor_ok:   suffix_parts.append("floor_ok")
+        if args.min_floor_rate is not None: suffix_parts.append(f"flr{int(args.min_floor_rate*100)}")
         suffix = ("_" + "_".join(suffix_parts)) if suffix_parts else ""
 
         csv_path = save_csv(rows, date_str, suffix=suffix)

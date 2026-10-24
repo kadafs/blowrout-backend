@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632110,
+      "referee": "C. Williams",
+      "timezone": "UTC",
+      "date": "2026-10-24T06:00:00+00:00",
+      "timestamp": 1792821600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "ServiceFM Stadium",
+        "city": "Adelaide"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1972,
+        "name": "Adelaide United W",
+        "logo": "https://media.api-sports.io/football/teams/1972.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1969,
+        "name": "Perth Glory FC W",
+        "logo": "https://media.api-sports.io/football/teams/1969.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1484562,
       "referee": "M. Ryan",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1123469,
-      "referee": "I. Mossin",
-      "timezone": "UTC",
-      "date": "2024-01-27T06:30:00+00:00",
-      "timestamp": 1706337000,
-      "periods": {
-        "first": 1706337000,
-        "second": 1706340600
-      },
-      "venue": {
-        "id": 2558,
-        "name": "Marden Sports Complex",
-        "city": "Adelaide"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2023,
-      "round": "Regular Season - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1972,
-        "name": "Adelaide United W",
-        "logo": "https://media.api-sports.io/football/teams/1972.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1969,
-        "name": "Perth Glory FC W",
-        "logo": "https://media.api-sports.io/football/teams/1969.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

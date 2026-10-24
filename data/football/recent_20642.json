@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639033,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T03:00:00+00:00",
+      "timestamp": 1792292400,
+      "periods": {
+        "first": 1792292400,
+        "second": 1792296000
+      },
+      "venue": {
+        "id": null,
+        "name": "Shepherds Park",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 955,
+      "name": "National League - National",
+      "country": "New-Zealand",
+      "logo": "https://media.api-sports.io/football/leagues/955.png",
+      "flag": "https://media.api-sports.io/flags/nz.svg",
+      "season": 2026,
+      "round": "Championship Group - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20650,
+        "name": "Birkenhead United",
+        "logo": "https://media.api-sports.io/football/teams/20650.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20642,
+        "name": "Napier City Rovers",
+        "logo": "https://media.api-sports.io/football/teams/20642.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639030,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582705,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-26T01:00:00+00:00",
-      "timestamp": 1785027600,
-      "periods": {
-        "first": 1785027600,
-        "second": 1785031200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1127,
-      "name": "Chatham Cup",
-      "country": "New-Zealand",
-      "logo": "https://media.api-sports.io/football/leagues/1127.png",
-      "flag": "https://media.api-sports.io/flags/nz.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 24239,
-        "name": "Hibiscus Coast",
-        "logo": "https://media.api-sports.io/football/teams/24239.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20642,
-        "name": "Napier City Rovers",
-        "logo": "https://media.api-sports.io/football/teams/20642.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594409,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1023,
+      "name": "NB III - Southeast",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/1023.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southeast - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7561,
+        "name": "Szegedi VSE",
+        "logo": "https://media.api-sports.io/football/teams/7561.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5101,
+        "name": "H\u00f3dmez\u0151v\u00e1s\u00e1rhely",
+        "logo": "https://media.api-sports.io/football/teams/5101.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594402,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594370,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T14:00:00+00:00",
-      "timestamp": 1788616800,
-      "periods": {
-        "first": 1788616800,
-        "second": 1788620400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1023,
-      "name": "NB III - Southeast",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/1023.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Southeast - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5101,
-        "name": "H\u00f3dmez\u0151v\u00e1s\u00e1rhely",
-        "logo": "https://media.api-sports.io/football/teams/5101.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24505,
-        "name": "S\u00e1ndorfalva",
-        "logo": "https://media.api-sports.io/football/teams/24505.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
       },
       "fulltime": {
         "home": 3,

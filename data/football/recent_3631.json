@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581943,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": "Lokomotyv Stadium",
+        "city": "Poltava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17165,
+        "name": "SK Poltava",
+        "logo": "https://media.api-sports.io/football/teams/17165.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3631,
+        "name": "Prykarpattia",
+        "logo": "https://media.api-sports.io/football/teams/3631.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581929,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635880,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T11:00:00+00:00",
-      "timestamp": 1789556400,
-      "periods": {
-        "first": 1789556400,
-        "second": 1789560000
-      },
-      "venue": {
-        "id": null,
-        "name": "MCS Rukh",
-        "city": "Ivano-Frankivsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 335,
-      "name": "Cup",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/335.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3631,
-        "name": "Prykarpattia",
-        "logo": "https://media.api-sports.io/football/teams/3631.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3628,
-        "name": "FC Kharkiv",
-        "logo": "https://media.api-sports.io/football/teams/3628.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

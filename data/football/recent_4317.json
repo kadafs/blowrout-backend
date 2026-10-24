@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606716,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T05:00:00+00:00",
+      "timestamp": 1792818000,
+      "periods": {
+        "first": 1792818000,
+        "second": 1792821600
+      },
+      "venue": {
+        "id": 0,
+        "name": "Fujieda soccer stadium",
+        "city": "Fujieda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4317,
+        "name": "Fujieda MYFC",
+        "logo": "https://media.api-sports.io/football/teams/4317.png",
+        "winner": false
+      },
+      "away": {
+        "id": 299,
+        "name": "Tokushima Vortis",
+        "logo": "https://media.api-sports.io/football/teams/299.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606715,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638187,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T10:00:00+00:00",
-      "timestamp": 1790676000,
-      "periods": {
-        "first": 1790676000,
-        "second": 1790679600
-      },
-      "venue": {
-        "id": 3300,
-        "name": "Fujieda soccer stadium",
-        "city": "Fujieda"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4317,
-        "name": "Fujieda MYFC",
-        "logo": "https://media.api-sports.io/football/teams/4317.png",
-        "winner": false
-      },
-      "away": {
-        "id": 291,
-        "name": "Cerezo Osaka",
-        "logo": "https://media.api-sports.io/football/teams/291.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

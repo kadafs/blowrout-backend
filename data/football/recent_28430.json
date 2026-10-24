@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640443,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T05:00:00+00:00",
+      "timestamp": 1792386000,
+      "periods": {
+        "first": 1792386000,
+        "second": 1792389600
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 764,
+      "name": "Premier League",
+      "country": "Mongolia",
+      "logo": "https://media.api-sports.io/football/leagues/764.png",
+      "flag": "https://media.api-sports.io/flags/mn.svg",
+      "season": 2027,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28430,
+        "name": "Amtat FC",
+        "logo": "https://media.api-sports.io/football/teams/28430.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26669,
+        "name": "Khovd Western",
+        "logo": "https://media.api-sports.io/football/teams/26669.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640441,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640432,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T05:00:00+00:00",
-      "timestamp": 1789880400,
-      "periods": {
-        "first": 1789880400,
-        "second": 1789884000
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 764,
-      "name": "Premier League",
-      "country": "Mongolia",
-      "logo": "https://media.api-sports.io/football/leagues/764.png",
-      "flag": "https://media.api-sports.io/flags/mn.svg",
-      "season": 2027,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28430,
-        "name": "Amtat FC",
-        "logo": "https://media.api-sports.io/football/teams/28430.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16854,
-        "name": "Ulaanbaatar",
-        "logo": "https://media.api-sports.io/football/teams/16854.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 9
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 9
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632109,
+      "referee": "C. Flynn",
+      "timezone": "UTC",
+      "date": "2026-10-24T04:00:00+00:00",
+      "timestamp": 1792814400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Gosford"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22292,
+        "name": "Central Coast Mariners W",
+        "logo": "https://media.api-sports.io/football/teams/22292.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1970,
+        "name": "Canberra United W",
+        "logo": "https://media.api-sports.io/football/teams/1970.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1484576,
       "referee": "B. Mackie",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1305035,
-      "referee": "M. Ryan",
-      "timezone": "UTC",
-      "date": "2024-11-30T05:00:00+00:00",
-      "timestamp": 1732942800,
-      "periods": {
-        "first": 1732942800,
-        "second": 1732946400
-      },
-      "venue": {
-        "id": 20806,
-        "name": "Industree Group Stadium",
-        "city": "Gosford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2024,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22292,
-        "name": "Central Coast Mariners W",
-        "logo": "https://media.api-sports.io/football/teams/22292.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1970,
-        "name": "Canberra United W",
-        "logo": "https://media.api-sports.io/football/teams/1970.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

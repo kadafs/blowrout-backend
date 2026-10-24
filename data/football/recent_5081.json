@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594405,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T09:00:00+00:00",
+      "timestamp": 1792314000,
+      "periods": {
+        "first": 1792314000,
+        "second": 1792317600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1023,
+      "name": "NB III - Southeast",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/1023.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southeast - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11853,
+        "name": "Honv\u00e9d II",
+        "logo": "https://media.api-sports.io/football/teams/11853.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5081,
+        "name": "Csepel",
+        "logo": "https://media.api-sports.io/football/teams/5081.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594396,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634968,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
-      "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": null,
-        "name": "Villany TC Sporttelep",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7570,
-        "name": "Vill\u00e1ny",
-        "logo": "https://media.api-sports.io/football/teams/7570.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5081,
-        "name": "Csepel",
-        "logo": "https://media.api-sports.io/football/teams/5081.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

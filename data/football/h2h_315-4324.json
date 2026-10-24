@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555769,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T05:00:00+00:00",
+      "timestamp": 1792818000,
+      "periods": {
+        "first": 1792818000,
+        "second": 1792821600
+      },
+      "venue": {
+        "id": 3306,
+        "name": "Sagamihara Gion Stadium",
+        "city": "Sagamihara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4324,
+        "name": "Sagamihara",
+        "logo": "https://media.api-sports.io/football/teams/4324.png",
+        "winner": null
+      },
+      "away": {
+        "id": 315,
+        "name": "Tochigi SC",
+        "logo": "https://media.api-sports.io/football/teams/315.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1516723,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 678576,
-      "referee": "H. Otsubo",
-      "timezone": "UTC",
-      "date": "2021-08-09T08:00:00+00:00",
-      "timestamp": 1628496000,
-      "periods": {
-        "first": 1628496000,
-        "second": 1628499600
-      },
-      "venue": {
-        "id": 3306,
-        "name": "Sagamihara Gion Stadium",
-        "city": "Sagamihara"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2021,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4324,
-        "name": "Sagamihara",
-        "logo": "https://media.api-sports.io/football/teams/4324.png",
-        "winner": null
-      },
-      "away": {
-        "id": 315,
-        "name": "Tochigi SC",
-        "logo": "https://media.api-sports.io/football/teams/315.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

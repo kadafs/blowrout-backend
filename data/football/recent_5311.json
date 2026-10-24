@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632500,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": 1792242000,
+        "second": 1792245600
+      },
+      "venue": {
+        "id": 4021,
+        "name": "Stade Huye",
+        "city": "Butare"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 405,
+      "name": "National Soccer League",
+      "country": "Rwanda",
+      "logo": "https://media.api-sports.io/football/leagues/405.png",
+      "flag": "https://media.api-sports.io/flags/rw.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5311,
+        "name": "Amagaju",
+        "logo": "https://media.api-sports.io/football/teams/5311.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5324,
+        "name": "Sunrise",
+        "logo": "https://media.api-sports.io/football/teams/5324.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632495,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1507957,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-30T13:00:00+00:00",
-      "timestamp": 1780146000,
-      "periods": {
-        "first": 1780146000,
-        "second": 1780149600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 405,
-      "name": "National Soccer League",
-      "country": "Rwanda",
-      "logo": "https://media.api-sports.io/football/leagues/405.png",
-      "flag": "https://media.api-sports.io/flags/rw.svg",
-      "season": 2025,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5320,
-        "name": "Mukura",
-        "logo": "https://media.api-sports.io/football/teams/5320.png",
-        "winner": null
-      },
-      "away": {
-        "id": 5311,
-        "name": "Amagaju",
-        "logo": "https://media.api-sports.io/football/teams/5311.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

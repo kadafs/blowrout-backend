@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594646,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 634,
+      "name": "NB III - Southwest",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/634.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southwest - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2407,
+        "name": "Kaposvar",
+        "logo": "https://media.api-sports.io/football/teams/2407.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7562,
+        "name": "S\u00e1rbog\u00e1rd",
+        "logo": "https://media.api-sports.io/football/teams/7562.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594637,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634950,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": "Hatvani Nepkert Sporttelep",
-        "city": "Hatvan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5090,
-        "name": "FC Hatvan",
-        "logo": "https://media.api-sports.io/football/teams/5090.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2407,
-        "name": "Kaposvar",
-        "logo": "https://media.api-sports.io/football/teams/2407.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

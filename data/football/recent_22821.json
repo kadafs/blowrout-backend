@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643283,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T18:00:00+00:00",
+      "timestamp": 1792519200,
+      "periods": {
+        "first": 1792519200,
+        "second": 1792522800
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Pernambuco",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22821,
+        "name": "Jaguar\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/22821.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7853,
+        "name": "Atl\u00e9tico PE",
+        "logo": "https://media.api-sports.io/football/teams/7853.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1500479,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1500463,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-01-17T19:00:00+00:00",
-      "timestamp": 1768676400,
-      "periods": {
-        "first": 1768676400,
-        "second": 1768680000
-      },
-      "venue": {
-        "id": null,
-        "name": "Venue Estadio Municipal Odilon Ferreira Dos Santos",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 622,
-      "name": "Pernambucano - 1",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/622.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13097,
-        "name": "Decis\u00e3o",
-        "logo": "https://media.api-sports.io/football/teams/13097.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22821,
-        "name": "Jaguar\u00e9",
-        "logo": "https://media.api-sports.io/football/teams/22821.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

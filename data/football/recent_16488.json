@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1508572,
+      "referee": "John Griggs, USA",
+      "timezone": "UTC",
+      "date": "2026-10-17T01:05:00+00:00",
+      "timestamp": 1792199100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1618,
+        "name": "Boston Stadium",
+        "city": "Boston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27377,
+        "name": "Boston Legacy W",
+        "logo": "https://media.api-sports.io/football/teams/27377.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16488,
+        "name": "Racing Louisville W",
+        "logo": "https://media.api-sports.io/football/teams/16488.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508566,
       "referee": "Rodrigo Albuquerque",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508532,
-      "referee": "Laadi Issaka Black, Ghana",
-      "timezone": "UTC",
-      "date": "2026-09-05T22:30:00+00:00",
-      "timestamp": 1788647400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Lynn Family Stadium",
-        "city": "Louisville"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 254,
-      "name": "NWSL Women",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/254.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16488,
-        "name": "Racing Louisville W",
-        "logo": "https://media.api-sports.io/football/teams/16488.png",
-        "winner": false
-      },
-      "away": {
-        "id": 18450,
-        "name": "Angel City W",
-        "logo": "https://media.api-sports.io/football/teams/18450.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

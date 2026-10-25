@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1589517,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T14:00:00+00:00",
+      "timestamp": 1792332000,
+      "periods": {
+        "first": 1792332000,
+        "second": 1792335600
+      },
+      "venue": {
+        "id": 1035,
+        "name": "Party-Rent-Arena",
+        "city": "Rosport"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 261,
+      "name": "National Division",
+      "country": "Luxembourg",
+      "logo": "https://media.api-sports.io/football/leagues/261.png",
+      "flag": "https://media.api-sports.io/flags/lu.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2038,
+        "name": "Victoria Rosport",
+        "logo": "https://media.api-sports.io/football/teams/2038.png",
+        "winner": false
+      },
+      "away": {
+        "id": 684,
+        "name": "FC Differdange 03",
+        "logo": "https://media.api-sports.io/football/teams/684.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1589505,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1589485,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": 1035,
-        "name": "Party-Rent-Arena",
-        "city": "Rosport"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 261,
-      "name": "National Division",
-      "country": "Luxembourg",
-      "logo": "https://media.api-sports.io/football/leagues/261.png",
-      "flag": "https://media.api-sports.io/flags/lu.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2038,
-        "name": "Victoria Rosport",
-        "logo": "https://media.api-sports.io/football/teams/2038.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2040,
-        "name": "US Hostert",
-        "logo": "https://media.api-sports.io/football/teams/2040.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1593690,
+      "referee": "S. Kelly",
+      "timezone": "UTC",
+      "date": "2026-10-25T02:00:00+00:00",
+      "timestamp": 1792893600,
+      "periods": {
+        "first": 1792893600,
+        "second": 1792897200
+      },
+      "venue": {
+        "id": null,
+        "name": "Hnry Stadium",
+        "city": "Wellington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 188,
+      "name": "A-League",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/188.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 942,
+        "name": "Wellington Phoenix",
+        "logo": "https://media.api-sports.io/football/teams/942.png",
+        "winner": true
+      },
+      "away": {
+        "id": 941,
+        "name": "Central Coast Mariners",
+        "logo": "https://media.api-sports.io/football/teams/941.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593684,
-      "referee": "Lachlan Keevers, Australia",
+      "referee": "L. Keevers",
       "timezone": "UTC",
       "date": "2026-10-18T02:00:00+00:00",
       "timestamp": 1792288800,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Hnry Stadium",
+        "name": "Sky Stadium",
         "city": "Wellington"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469693,
-      "referee": "N. Shakespear",
-      "timezone": "UTC",
-      "date": "2026-04-05T05:00:00+00:00",
-      "timestamp": 1775365200,
-      "periods": {
-        "first": 1775365200,
-        "second": 1775368800
-      },
-      "venue": {
-        "id": 20807,
-        "name": "AAMI Park",
-        "city": "Melbourne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 188,
-      "name": "A-League",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/188.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 944,
-        "name": "Melbourne Victory",
-        "logo": "https://media.api-sports.io/football/teams/944.png",
-        "winner": false
-      },
-      "away": {
-        "id": 942,
-        "name": "Wellington Phoenix",
-        "logo": "https://media.api-sports.io/football/teams/942.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

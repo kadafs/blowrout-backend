@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1550151,
+      "referee": "Matteo Marchetti, Italy",
+      "timezone": "UTC",
+      "date": "2026-10-16T18:45:00+00:00",
+      "timestamp": 1792176300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 904,
+        "name": "PSC Arena",
+        "city": "Frosinone"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 512,
+        "name": "Frosinone",
+        "logo": "https://media.api-sports.io/football/teams/512.png",
+        "winner": true
+      },
+      "away": {
+        "id": 488,
+        "name": "Sassuolo",
+        "logo": "https://media.api-sports.io/football/teams/488.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1550144,
       "referee": "Ermanno Feliciani, Italy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550111,
-      "referee": "Mario Perri, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-06T13:00:00+00:00",
-      "timestamp": 1788699600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 904,
-        "name": "Stadio Benito Stirpe",
-        "city": "Frosinone"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 512,
-        "name": "Frosinone",
-        "logo": "https://media.api-sports.io/football/teams/512.png",
-        "winner": true
-      },
-      "away": {
-        "id": 517,
-        "name": "Venezia",
-        "logo": "https://media.api-sports.io/football/teams/517.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

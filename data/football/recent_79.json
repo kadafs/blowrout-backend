@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635684,
+      "referee": "Rade Obrenovic",
+      "timezone": "UTC",
+      "date": "2026-10-21T16:45:00+00:00",
+      "timestamp": 1792601100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22783,
+        "name": "Stade Pierre-Mauroy",
+        "city": "Lille"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png",
+        "winner": false
+      },
+      "away": {
+        "id": 645,
+        "name": "Galatasaray",
+        "logo": "https://media.api-sports.io/football/teams/645.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552786,
       "referee": "Clement Turpin, France",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 2,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552770,
-      "referee": "Willy Delajod, France",
-      "timezone": "UTC",
-      "date": "2026-09-20T15:15:00+00:00",
-      "timestamp": 1789917300,
-      "periods": {
-        "first": 1789917300,
-        "second": 1789920900
-      },
-      "venue": {
-        "id": 663,
-        "name": "Allianz Riviera",
-        "city": "Nice"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 84,
-        "name": "Nice",
-        "logo": "https://media.api-sports.io/football/teams/84.png",
-        "winner": true
-      },
-      "away": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 2,

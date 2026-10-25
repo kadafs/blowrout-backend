@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593149,
+      "referee": "Karoline Wacker",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20988,
+        "name": "Ulrich-Haberland-Stadion",
+        "city": "Leverkusen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1859,
+        "name": "Bayer Leverkusen W",
+        "logo": "https://media.api-sports.io/football/teams/1859.png",
+        "winner": null
+      },
+      "away": {
+        "id": 14014,
+        "name": "Eintracht Frankfurt W",
+        "logo": "https://media.api-sports.io/football/teams/14014.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593143,
       "referee": "J. Boike",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593114,
-      "referee": "F. Wildfeuer",
-      "timezone": "UTC",
-      "date": "2026-08-30T14:00:00+00:00",
-      "timestamp": 1788098400,
-      "periods": {
-        "first": 1788098400,
-        "second": 1788102000
-      },
-      "venue": {
-        "id": 20988,
-        "name": "Ulrich-Haberland-Stadion",
-        "city": "Leverkusen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1859,
-        "name": "Bayer Leverkusen W",
-        "logo": "https://media.api-sports.io/football/teams/1859.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1863,
-        "name": "VfL Wolfsburg W",
-        "logo": "https://media.api-sports.io/football/teams/1863.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 1
       },
       "fulltime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495989,
+      "referee": "E. Wisted-Thu",
+      "timezone": "UTC",
+      "date": "2026-10-18T15:00:00+00:00",
+      "timestamp": 1792335600,
+      "periods": {
+        "first": 1792335600,
+        "second": 1792339200
+      },
+      "venue": {
+        "id": null,
+        "name": "EXTRA Arena",
+        "city": "Trondheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 322,
+        "name": "Ranheim",
+        "logo": "https://media.api-sports.io/football/teams/322.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2142,
+        "name": "Bryne",
+        "logo": "https://media.api-sports.io/football/teams/2142.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495975,
       "referee": "H. Pedersen",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637862,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T16:00:00+00:00",
-      "timestamp": 1789574400,
-      "periods": {
-        "first": 1789574400,
-        "second": 1789578000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 105,
-      "name": "NM Cupen",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/105.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2027,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16217,
-        "name": "Bjarg",
-        "logo": "https://media.api-sports.io/football/teams/16217.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2142,
-        "name": "Bryne",
-        "logo": "https://media.api-sports.io/football/teams/2142.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 4
       },
       "extratime": {

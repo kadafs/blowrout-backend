@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1408297,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-21T12:30:00+00:00",
+      "timestamp": 1774096200,
+      "periods": {
+        "first": 1774096200,
+        "second": 1774099800
+      },
+      "venue": {
+        "id": 754,
+        "name": "Manfred-Werner-Stadion",
+        "city": "Flensburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 84,
+      "name": "Regionalliga - Nord",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/84.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "North - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1649,
+        "name": "Weiche Flensburg",
+        "logo": "https://media.api-sports.io/football/teams/1649.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9346,
+        "name": "St. Pauli II",
+        "logo": "https://media.api-sports.io/football/teams/9346.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1408147,
       "referee": "Mika Jungclaus",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1086224,
-      "referee": "M. Jungclaus",
-      "timezone": "UTC",
-      "date": "2023-09-23T11:30:00+00:00",
-      "timestamp": 1695468600,
-      "periods": {
-        "first": 1695468600,
-        "second": 1695472200
-      },
-      "venue": {
-        "id": 754,
-        "name": "Manfred-Werner-Stadion",
-        "city": "Flensburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 84,
-      "name": "Regionalliga - Nord",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/84.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2023,
-      "round": "Nord - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1649,
-        "name": "Weiche Flensburg",
-        "logo": "https://media.api-sports.io/football/teams/1649.png",
-        "winner": false
-      },
-      "away": {
-        "id": 9346,
-        "name": "St. Pauli II",
-        "logo": "https://media.api-sports.io/football/teams/9346.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

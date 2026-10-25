@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602512,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T14:30:00+00:00",
+      "timestamp": 1792506600,
+      "periods": {
+        "first": 1792506600,
+        "second": 1792510200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadionul Trans-Sil",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 284,
+      "name": "Liga II",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/284.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2590,
+        "name": "ASA Targu Mures",
+        "logo": "https://media.api-sports.io/football/teams/2590.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2586,
+        "name": "Chindia Targoviste",
+        "logo": "https://media.api-sports.io/football/teams/2586.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602505,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602463,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T08:00:00+00:00",
-      "timestamp": 1788076800,
-      "periods": {
-        "first": 1788076800,
-        "second": 1788080400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Electrica",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2606,
-        "name": "FC Politehnica Timisoara",
-        "logo": "https://media.api-sports.io/football/teams/2606.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2590,
-        "name": "ASA Targu Mures",
-        "logo": "https://media.api-sports.io/football/teams/2590.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

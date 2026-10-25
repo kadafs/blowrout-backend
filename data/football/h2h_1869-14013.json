@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1442378,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-22T13:00:00+00:00",
+      "timestamp": 1774184400,
+      "periods": {
+        "first": 1774184400,
+        "second": 1774188000
+      },
+      "venue": {
+        "id": 734,
+        "name": "H\u00e4nsch-Arena",
+        "city": "Meppen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1034,
+      "name": "2. Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/1034.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 20",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14013,
+        "name": "Meppen W",
+        "logo": "https://media.api-sports.io/football/teams/14013.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1869,
+        "name": "Turbine Potsdam W",
+        "logo": "https://media.api-sports.io/football/teams/1869.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1442287,
       "referee": null,
       "timezone": "UTC",
@@ -41,7 +111,7 @@
       },
       "away": {
         "id": 14013,
-        "name": "Meppen",
+        "name": "Meppen W",
         "logo": "https://media.api-sports.io/football/teams/14013.png",
         "winner": null
       }
@@ -111,7 +181,7 @@
       },
       "away": {
         "id": 14013,
-        "name": "Meppen",
+        "name": "Meppen W",
         "logo": "https://media.api-sports.io/football/teams/14013.png",
         "winner": true
       }
@@ -175,7 +245,7 @@
     "teams": {
       "home": {
         "id": 14013,
-        "name": "Meppen",
+        "name": "Meppen W",
         "logo": "https://media.api-sports.io/football/teams/14013.png",
         "winner": true
       },
@@ -251,7 +321,7 @@
       },
       "away": {
         "id": 14013,
-        "name": "Meppen",
+        "name": "Meppen W",
         "logo": "https://media.api-sports.io/football/teams/14013.png",
         "winner": false
       }
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 885818,
-      "referee": "K. Rafalski",
-      "timezone": "UTC",
-      "date": "2022-10-21T17:15:00+00:00",
-      "timestamp": 1666372500,
-      "periods": {
-        "first": 1666372500,
-        "second": 1666376100
-      },
-      "venue": {
-        "id": 734,
-        "name": "H\u00e4nsch-Arena",
-        "city": "Meppen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2022,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14013,
-        "name": "Meppen",
-        "logo": "https://media.api-sports.io/football/teams/14013.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1869,
-        "name": "Turbine Potsdam W",
-        "logo": "https://media.api-sports.io/football/teams/1869.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

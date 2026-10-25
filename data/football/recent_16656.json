@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534477,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T10:30:00+00:00",
+      "timestamp": 1792233000,
+      "periods": {
+        "first": 1792233000,
+        "second": 1792236600
+      },
+      "venue": {
+        "id": null,
+        "name": "Molodechno Haradzki Stadion",
+        "city": "Molodechno"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 117,
+      "name": "1. Division",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/117.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7798,
+        "name": "Molodechno-DYuSSh 4",
+        "logo": "https://media.api-sports.io/football/teams/7798.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16656,
+        "name": "Niva",
+        "logo": "https://media.api-sports.io/football/teams/16656.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534469,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1534438,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T11:00:00+00:00",
-      "timestamp": 1789297200,
-      "periods": {
-        "first": 1789297200,
-        "second": 1789300800
-      },
-      "venue": {
-        "id": null,
-        "name": "City Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 117,
-      "name": "1. Division",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/117.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16656,
-        "name": "Niva",
-        "logo": "https://media.api-sports.io/football/teams/16656.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7802,
-        "name": "Bumprom",
-        "logo": "https://media.api-sports.io/football/teams/7802.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

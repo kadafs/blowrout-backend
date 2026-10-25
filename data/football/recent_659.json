@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582297,
+      "referee": "M. De Gabriele",
+      "timezone": "UTC",
+      "date": "2026-10-21T18:30:00+00:00",
+      "timestamp": 1792607400,
+      "periods": {
+        "first": 1792607400,
+        "second": 1792611000
+      },
+      "venue": {
+        "id": 12090,
+        "name": "Tony Bezzina Stadium",
+        "city": "Paola"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 393,
+      "name": "Premier League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/393.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4627,
+        "name": "Mosta",
+        "logo": "https://media.api-sports.io/football/teams/4627.png",
+        "winner": false
+      },
+      "away": {
+        "id": 659,
+        "name": "Valletta FC",
+        "logo": "https://media.api-sports.io/football/teams/659.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582292,
       "referee": "F. Zammit",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638613,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-07T17:00:00+00:00",
-      "timestamp": 1788800400,
-      "periods": {
-        "first": 1788800400,
-        "second": 1788804000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 1050,
-      "name": "Super Cup",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/1050.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4625,
-        "name": "Floriana",
-        "logo": "https://media.api-sports.io/football/teams/4625.png",
-        "winner": false
-      },
-      "away": {
-        "id": 659,
-        "name": "Valletta FC",
-        "logo": "https://media.api-sports.io/football/teams/659.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

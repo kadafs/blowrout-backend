@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549513,
+      "referee": "Joel Alarcon",
+      "timezone": "UTC",
+      "date": "2026-10-18T18:15:00+00:00",
+      "timestamp": 1792347300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1243,
+        "name": "Estadio Heroes de San Ramon",
+        "city": "Cajamarca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22543,
+        "name": "FC Cajamarca",
+        "logo": "https://media.api-sports.io/football/teams/22543.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22489,
+        "name": "UCV Moquegua",
+        "logo": "https://media.api-sports.io/football/teams/22489.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549500,
       "referee": "Micke Palomino, Peru",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549468,
-      "referee": "J. Alarcon",
-      "timezone": "UTC",
-      "date": "2026-08-28T20:30:00+00:00",
-      "timestamp": 1787949000,
-      "periods": {
-        "first": 1787949000,
-        "second": 1787952600
-      },
-      "venue": {
-        "id": 1810,
-        "name": "Estadio Juan Maldonado Gamarra",
-        "city": "Cutervo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2558,
-        "name": "Comerciantes Unidos",
-        "logo": "https://media.api-sports.io/football/teams/2558.png",
-        "winner": false
-      },
-      "away": {
-        "id": 22543,
-        "name": "FC Cajamarca",
-        "logo": "https://media.api-sports.io/football/teams/22543.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

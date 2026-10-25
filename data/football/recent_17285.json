@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594169,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T15:00:00+00:00",
+      "timestamp": 1792335600,
+      "periods": {
+        "first": 1792335600,
+        "second": 1792339200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Szombathely"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 635,
+      "name": "NB III - Northwest",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/635.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Northwest - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17285,
+        "name": "Halad\u00e1s VSE",
+        "logo": "https://media.api-sports.io/football/teams/17285.png",
+        "winner": null
+      },
+      "away": {
+        "id": 13155,
+        "name": "Pusk\u00e1s II",
+        "logo": "https://media.api-sports.io/football/teams/13155.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594160,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634948,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": 1789221600,
-        "second": 1789225200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Szombathely"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 17285,
-        "name": "Halad\u00e1s VSE",
-        "logo": "https://media.api-sports.io/football/teams/17285.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5147,
-        "name": "Tiszafuredi VSE",
-        "logo": "https://media.api-sports.io/football/teams/5147.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

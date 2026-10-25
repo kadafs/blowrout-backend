@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565500,
+      "referee": "Oleksandr Afanasev",
+      "timezone": "UTC",
+      "date": "2026-10-18T10:00:00+00:00",
+      "timestamp": 1792317600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hirnyk Stadium",
+        "city": "Kryvyi Rih"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6489,
+        "name": "Kryvbas KR",
+        "logo": "https://media.api-sports.io/football/teams/6489.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17161,
+        "name": "LNZ Cherkasy",
+        "logo": "https://media.api-sports.io/football/teams/17161.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643483,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565458,
-      "referee": "Oleksandr Solovyan, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-08-30T10:00:00+00:00",
-      "timestamp": 1788084000,
-      "periods": {
-        "first": 1788084000,
-        "second": 1788087600
-      },
-      "venue": {
-        "id": 2418,
-        "name": "Stadion Chornomorets",
-        "city": "Odesa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3615,
-        "name": "Chornomorets",
-        "logo": "https://media.api-sports.io/football/teams/3615.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6489,
-        "name": "Kryvbas KR",
-        "logo": "https://media.api-sports.io/football/teams/6489.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

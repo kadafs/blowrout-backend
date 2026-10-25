@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635636,
+      "referee": "Simone Sozza",
+      "timezone": "UTC",
+      "date": "2026-10-21T19:00:00+00:00",
+      "timestamp": 1792609200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22785,
+        "name": "Estadio de la Cartuja",
+        "city": "Seville"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 543,
+        "name": "Real Betis",
+        "logo": "https://media.api-sports.io/football/teams/543.png",
+        "winner": true
+      },
+      "away": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570413,
       "referee": "Ricardo De Burgos Bengoetxea, Spain",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570386,
-      "referee": "Jos\u00e9 Mar\u00eda S\u00e1nchez Mart\u00ednez, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-17T17:00:00+00:00",
-      "timestamp": 1789664400,
-      "periods": {
-        "first": 1789664400,
-        "second": 1789668000
-      },
-      "venue": {
-        "id": null,
-        "name": "Benito Villamarin",
-        "city": "Seville"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 543,
-        "name": "Real Betis",
-        "logo": "https://media.api-sports.io/football/teams/543.png",
-        "winner": true
-      },
-      "away": {
-        "id": 546,
-        "name": "Getafe",
-        "logo": "https://media.api-sports.io/football/teams/546.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

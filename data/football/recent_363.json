@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494300,
+      "referee": "Sars Joakim",
+      "timezone": "UTC",
+      "date": "2026-10-18T14:30:00+00:00",
+      "timestamp": 1792333800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1512,
+        "name": "Orjans Vall",
+        "city": "Halmstad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 766,
+        "name": "Halmstad",
+        "logo": "https://media.api-sports.io/football/teams/766.png",
+        "winner": false
+      },
+      "away": {
+        "id": 363,
+        "name": "Hammarby FF",
+        "logo": "https://media.api-sports.io/football/teams/363.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494294,
       "referee": "Granit Maqedonci",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494271,
-      "referee": "Fredrik Klitte, Sweden",
-      "timezone": "UTC",
-      "date": "2026-09-06T12:00:00+00:00",
-      "timestamp": 1788696000,
-      "periods": {
-        "first": 1788696000,
-        "second": 1788699600
-      },
-      "venue": {
-        "id": null,
-        "name": "Gamla Ullevi",
-        "city": "Gothenburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2166,
-        "name": "Orgryte IS",
-        "logo": "https://media.api-sports.io/football/teams/2166.png",
-        "winner": null
-      },
-      "away": {
-        "id": 363,
-        "name": "Hammarby FF",
-        "logo": "https://media.api-sports.io/football/teams/363.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

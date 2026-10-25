@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580264,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 744,
+      "name": "Oberliga - Schleswig-Holstein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/744.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Schleswig-Holstein - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13940,
+        "name": "VfR Neum\u00fcnster",
+        "logo": "https://media.api-sports.io/football/teams/13940.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21943,
+        "name": "Hohenwestedt",
+        "logo": "https://media.api-sports.io/football/teams/21943.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580242,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580214,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T12:00:00+00:00",
-      "timestamp": 1788609600,
-      "periods": {
-        "first": 1788609600,
-        "second": 1788613200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 744,
-      "name": "Oberliga - Schleswig-Holstein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/744.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Schleswig-Holstein - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16072,
-        "name": "L\u00fcbeck II",
-        "logo": "https://media.api-sports.io/football/teams/16072.png",
-        "winner": true
-      },
-      "away": {
-        "id": 13940,
-        "name": "VfR Neum\u00fcnster",
-        "logo": "https://media.api-sports.io/football/teams/13940.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

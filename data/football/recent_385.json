@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1526006,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T15:00:00+00:00",
+      "timestamp": 1792422000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 171,
+        "name": "Torpedo Stadium",
+        "city": "Jodino"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 116,
+      "name": "Premier League",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/116.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 385,
+        "name": "Torpedo Zhodino",
+        "logo": "https://media.api-sports.io/football/teams/385.png",
+        "winner": true
+      },
+      "away": {
+        "id": 750,
+        "name": "Naftan",
+        "logo": "https://media.api-sports.io/football/teams/750.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1525934,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1525981,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T17:00:00+00:00",
-      "timestamp": 1789232400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 10497,
-        "name": "Stadion Neman",
-        "city": "Grodno"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 116,
-      "name": "Premier League",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/116.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 387,
-        "name": "Neman",
-        "logo": "https://media.api-sports.io/football/teams/387.png",
-        "winner": true
-      },
-      "away": {
-        "id": 385,
-        "name": "Torpedo Zhodino",
-        "logo": "https://media.api-sports.io/football/teams/385.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

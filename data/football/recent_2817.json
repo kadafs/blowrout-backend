@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646335,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T22:00:00+00:00",
+      "timestamp": 1792620000,
+      "periods": {
+        "first": 1792620000,
+        "second": 1792623600
+      },
+      "venue": {
+        "id": 1653,
+        "name": "Estadio Olimpico de la UCV",
+        "city": "Caracas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1113,
+      "name": "Copa Venezuela",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/1113.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2813,
+        "name": "Deportivo La Guaira",
+        "logo": "https://media.api-sports.io/football/teams/2813.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2817,
+        "name": "Aragua FC",
+        "logo": "https://media.api-sports.io/football/teams/2817.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645664,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635935,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T19:30:00+00:00",
-      "timestamp": 1790537400,
-      "periods": {
-        "first": 1790537400,
-        "second": 1790541000
-      },
-      "venue": {
-        "id": 0,
-        "name": "Estadio Olimpico Hermanos Ghersi Paez",
-        "city": "Maracay"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 300,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/300.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2817,
-        "name": "Aragua FC",
-        "logo": "https://media.api-sports.io/football/teams/2817.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27527,
-        "name": "Atletico Avila FC",
-        "logo": "https://media.api-sports.io/football/teams/27527.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

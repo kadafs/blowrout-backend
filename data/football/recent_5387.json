@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610643,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T11:00:00+00:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": 1792321200,
+        "second": 1792324800
+      },
+      "venue": {
+        "id": null,
+        "name": "Svay Rieng Stadium",
+        "city": "Svay Rieng"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 410,
+      "name": "C-League",
+      "country": "Cambodia",
+      "logo": "https://media.api-sports.io/football/leagues/410.png",
+      "flag": "https://media.api-sports.io/flags/kh.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5396,
+        "name": "Svay Rieng",
+        "logo": "https://media.api-sports.io/football/teams/5396.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5387,
+        "name": "Boeung Ket",
+        "logo": "https://media.api-sports.io/football/teams/5387.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610640,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1526304,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-03T11:00:00+00:00",
-      "timestamp": 1777806000,
-      "periods": {
-        "first": 1777806000,
-        "second": 1777809600
-      },
-      "venue": {
-        "id": null,
-        "name": "National Olympic Stadium",
-        "city": "Phnom Penh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 410,
-      "name": "C-League",
-      "country": "Cambodia",
-      "logo": "https://media.api-sports.io/football/leagues/410.png",
-      "flag": "https://media.api-sports.io/flags/kh.svg",
-      "season": 2025,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5387,
-        "name": "Boeung Ket",
-        "logo": "https://media.api-sports.io/football/teams/5387.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5394,
-        "name": "Phnom Penh Crown",
-        "logo": "https://media.api-sports.io/football/teams/5394.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

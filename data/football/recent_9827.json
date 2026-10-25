@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570788,
+      "referee": "O. Alvarez Rodriguez",
+      "timezone": "UTC",
+      "date": "2026-10-18T10:00:00+00:00",
+      "timestamp": 1792317600,
+      "periods": {
+        "first": 1792317600,
+        "second": 1792321200
+      },
+      "venue": {
+        "id": 6907,
+        "name": "Estadio La Isla",
+        "city": "Coria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 435,
+      "name": "Primera Divisi\u00f3n RFEF - Group 1",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/435.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 1 - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9827,
+        "name": "CD Coria",
+        "logo": "https://media.api-sports.io/football/teams/9827.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9579,
+        "name": "Athletic Club II",
+        "logo": "https://media.api-sports.io/football/teams/9579.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570778,
       "referee": "J. A. Palomares Gutierrez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570741,
-      "referee": "F. Roman",
-      "timezone": "UTC",
-      "date": "2026-09-13T16:15:00+00:00",
-      "timestamp": 1789316100,
-      "periods": {
-        "first": 1789316100,
-        "second": 1789319700
-      },
-      "venue": {
-        "id": 1465,
-        "name": "Estadio Anxo Carro",
-        "city": "Lugo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 435,
-      "name": "Primera Divisi\u00f3n RFEF - Group 1",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/435.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 1 - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 716,
-        "name": "Lugo",
-        "logo": "https://media.api-sports.io/football/teams/716.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9827,
-        "name": "CD Coria",
-        "logo": "https://media.api-sports.io/football/teams/9827.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

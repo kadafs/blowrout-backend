@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580259,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 744,
+      "name": "Oberliga - Schleswig-Holstein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/744.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Schleswig-Holstein - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26175,
+        "name": "Kaltenkirchen",
+        "logo": "https://media.api-sports.io/football/teams/26175.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12872,
+        "name": "TSB Flensburg",
+        "logo": "https://media.api-sports.io/football/teams/12872.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580255,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580222,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T12:00:00+00:00",
-      "timestamp": 1789300800,
-      "periods": {
-        "first": 1789300800,
-        "second": 1789304400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 744,
-      "name": "Oberliga - Schleswig-Holstein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/744.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Schleswig-Holstein - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12872,
-        "name": "TSB Flensburg",
-        "logo": "https://media.api-sports.io/football/teams/12872.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16068,
-        "name": "Eckernf\u00f6rder SV",
-        "logo": "https://media.api-sports.io/football/teams/16068.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

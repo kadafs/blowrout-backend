@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622803,
+      "referee": "T. Alkatiri",
+      "timezone": "UTC",
+      "date": "2026-10-21T12:00:00+00:00",
+      "timestamp": 1792584000,
+      "periods": {
+        "first": 1792584000,
+        "second": 1792587600
+      },
+      "venue": {
+        "id": null,
+        "name": "Bung Karno Stadium",
+        "city": "Jakarta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 274,
+      "name": "Liga 1",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/274.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10134,
+        "name": "Persija",
+        "logo": "https://media.api-sports.io/football/teams/10134.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2438,
+        "name": "Arema FC",
+        "logo": "https://media.api-sports.io/football/teams/2438.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622795,
       "referee": "Y. Supriyanto",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621304,
-      "referee": "R. Permana",
-      "timezone": "UTC",
-      "date": "2026-09-04T08:30:00+00:00",
-      "timestamp": 1788510600,
-      "periods": {
-        "first": 1788510600,
-        "second": 1788514200
-      },
-      "venue": {
-        "id": null,
-        "name": "Kanjuruhan Stadium",
-        "city": "Malang"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 274,
-      "name": "Liga 1",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/274.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2438,
-        "name": "Arema FC",
-        "logo": "https://media.api-sports.io/football/teams/2438.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24993,
-        "name": "Isenmulang Kalteng",
-        "logo": "https://media.api-sports.io/football/teams/24993.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

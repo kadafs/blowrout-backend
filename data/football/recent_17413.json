@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637594,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1044,
+      "name": "Erste Liga Cup",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/1044.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 17484,
+        "name": "Prishtina Bern",
+        "logo": "https://media.api-sports.io/football/teams/17484.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17413,
+        "name": "Coffrane",
+        "logo": "https://media.api-sports.io/football/teams/17413.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604877,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604851,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": 1789308000,
-        "second": 1789311600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 599,
-      "name": "1. Liga Classic - Group 1",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/599.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 1 - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26346,
-        "name": "Azzurri Bienne",
-        "logo": "https://media.api-sports.io/football/teams/26346.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17413,
-        "name": "Coffrane",
-        "logo": "https://media.api-sports.io/football/teams/17413.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

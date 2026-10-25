@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570389,
+      "referee": "Alejandro Quintero Gonzalez",
+      "timezone": "UTC",
+      "date": "2026-10-21T18:00:00+00:00",
+      "timestamp": 1792605600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1482,
+        "name": "Estadio Ciudad de Valencia",
+        "city": "Valencia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 539,
+        "name": "Levante",
+        "logo": "https://media.api-sports.io/football/teams/539.png",
+        "winner": true
+      },
+      "away": {
+        "id": 531,
+        "name": "Athletic Club",
+        "logo": "https://media.api-sports.io/football/teams/531.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570421,
       "referee": "Adrian Cordero Vega, Spain",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570364,
-      "referee": "Jos\u00e9 Luis Munuera Montero, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-05T14:15:00+00:00",
-      "timestamp": 1788617700,
-      "periods": {
-        "first": 1788617700,
-        "second": 1788621300
-      },
-      "venue": {
-        "id": 1460,
-        "name": "San Mam\u00e9s Stadium",
-        "city": "Bilbao"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 531,
-        "name": "Athletic Club",
-        "logo": "https://media.api-sports.io/football/teams/531.png",
-        "winner": true
-      },
-      "away": {
-        "id": 530,
-        "name": "Atletico Madrid",
-        "logo": "https://media.api-sports.io/football/teams/530.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

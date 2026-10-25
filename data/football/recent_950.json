@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1620185,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": null,
+        "name": "Veria Stadium",
+        "city": "Veria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 578,
+      "name": "Gamma Ethniki - Group 3",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/578.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Group 3 - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 961,
+        "name": "Veria",
+        "logo": "https://media.api-sports.io/football/teams/961.png",
+        "winner": true
+      },
+      "away": {
+        "id": 950,
+        "name": "PAS Giannina",
+        "logo": "https://media.api-sports.io/football/teams/950.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1620174,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1516988,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-18T12:00:00+00:00",
-      "timestamp": 1776513600,
-      "periods": {
-        "first": 1776513600,
-        "second": 1776517200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 494,
-      "name": "Super League 2",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/494.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2025,
-      "round": "Relegation Group - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 950,
-        "name": "PAS Giannina",
-        "logo": "https://media.api-sports.io/football/teams/950.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5049,
-        "name": "Kavala",
-        "logo": "https://media.api-sports.io/football/teams/5049.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

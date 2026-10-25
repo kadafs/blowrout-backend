@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1644405,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 401,
+      "name": "Premier Soccer League",
+      "country": "Zimbabwe",
+      "logo": "https://media.api-sports.io/football/leagues/401.png",
+      "flag": "https://media.api-sports.io/flags/zw.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5231,
+        "name": "TelOne",
+        "logo": "https://media.api-sports.io/football/teams/5231.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27275,
+        "name": "Hunters",
+        "logo": "https://media.api-sports.io/football/teams/27275.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644393,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791637200,
+        "second": 1791640800
       },
       "venue": {
         "id": 0,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604138,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-01T13:00:00+00:00",
-      "timestamp": 1785589200,
-      "periods": {
-        "first": 1785589200,
-        "second": 1785592800
-      },
-      "venue": {
-        "id": 3953,
-        "name": "Gibbo Stadium",
-        "city": "Masvingo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 401,
-      "name": "Premier Soccer League",
-      "country": "Zimbabwe",
-      "logo": "https://media.api-sports.io/football/leagues/401.png",
-      "flag": "https://media.api-sports.io/flags/zw.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5232,
-        "name": "Triangle United",
-        "logo": "https://media.api-sports.io/football/teams/5232.png",
-        "winner": null
-      },
-      "away": {
-        "id": 27275,
-        "name": "Hunters",
-        "logo": "https://media.api-sports.io/football/teams/27275.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

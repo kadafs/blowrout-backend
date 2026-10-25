@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561418,
+      "referee": "Rafael Shafeev",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:00:00+00:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20984,
+        "name": "Gazprom Arena",
+        "city": "Saint Petersburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 235,
+      "name": "Premier League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/235.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 596,
+        "name": "Zenit",
+        "logo": "https://media.api-sports.io/football/teams/596.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1085,
+        "name": "Akhmat",
+        "logo": "https://media.api-sports.io/football/teams/1085.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563661,
       "referee": "S. Cheban",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561394,
-      "referee": "Nikita Novikov, Russia",
-      "timezone": "UTC",
-      "date": "2026-09-12T13:15:00+00:00",
-      "timestamp": 1789218900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Gazprom Arena",
-        "city": "Saint Petersburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 596,
-        "name": "Zenit",
-        "logo": "https://media.api-sports.io/football/teams/596.png",
-        "winner": true
-      },
-      "away": {
-        "id": 597,
-        "name": "Lokomotiv",
-        "logo": "https://media.api-sports.io/football/teams/597.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1565501,
+      "referee": "Sergei Zadyran, Ukraine",
+      "timezone": "UTC",
+      "date": "2026-10-17T12:30:00+00:00",
+      "timestamp": 1792240200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 8330,
+        "name": "Obolon Arena",
+        "city": "Kyiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 21953,
+        "name": "Kudrivka",
+        "logo": "https://media.api-sports.io/football/teams/21953.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6486,
+        "name": "Bukovyna",
+        "logo": "https://media.api-sports.io/football/teams/6486.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565489,
-      "referee": "Oleksiy Derevinskiy",
+      "referee": "Oleksiy Derevinskyi, Ukraine",
       "timezone": "UTC",
       "date": "2026-10-11T15:00:00+00:00",
       "timestamp": 1791730800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565473,
-      "referee": "S. Prychyna",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": 4761,
-        "name": "Bukovyna Stadium",
-        "city": "Chernivtsi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6486,
-        "name": "Bukovyna",
-        "logo": "https://media.api-sports.io/football/teams/6486.png",
-        "winner": null
-      },
-      "away": {
-        "id": 599,
-        "name": "Zorya Luhansk",
-        "logo": "https://media.api-sports.io/football/teams/599.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638477,
+      "referee": "P. Li",
+      "timezone": "UTC",
+      "date": "2026-10-17T08:00:00+00:00",
+      "timestamp": 1792224000,
+      "periods": {
+        "first": 1792224000,
+        "second": 1792227600
+      },
+      "venue": {
+        "id": null,
+        "name": "Dalian Football Youth Training Base Stadium",
+        "city": "Dalian"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Promotion Group - 27",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27620,
+        "name": "Dalian Kewei",
+        "logo": "https://media.api-sports.io/football/teams/27620.png",
+        "winner": true
+      },
+      "away": {
+        "id": 25775,
+        "name": "Guizhou Zhucheng",
+        "logo": "https://media.api-sports.io/football/teams/25775.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638475,
       "referee": "L. Zhaohao",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1532879,
-      "referee": "W. Cheng",
-      "timezone": "UTC",
-      "date": "2026-08-22T08:00:00+00:00",
-      "timestamp": 1787385600,
-      "periods": {
-        "first": 1787385600,
-        "second": 1787389200
-      },
-      "venue": {
-        "id": 21688,
-        "name": "Yatai Training Base Stadium",
-        "city": "Changchun"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 23132,
-        "name": "Changchun Xidu",
-        "logo": "https://media.api-sports.io/football/teams/23132.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27620,
-        "name": "Dalian Kewei",
-        "logo": "https://media.api-sports.io/football/teams/27620.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

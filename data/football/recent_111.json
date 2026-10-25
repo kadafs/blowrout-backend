@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552784,
+      "referee": "Eric Wattellier",
+      "timezone": "UTC",
+      "date": "2026-10-18T15:15:00+00:00",
+      "timestamp": 1792336500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 652,
+        "name": "Stade Oc\u00e9ane",
+        "city": "Le Havre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png",
+        "winner": false
+      },
+      "away": {
+        "id": 108,
+        "name": "Auxerre",
+        "logo": "https://media.api-sports.io/football/teams/108.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552776,
-      "referee": "Bastein Dechepy",
+      "referee": "Bastien Dechepy, France",
       "timezone": "UTC",
       "date": "2026-10-10T15:15:00+00:00",
       "timestamp": 1791645300,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1552772,
-      "referee": "Hakim Ben el Hadj",
+      "referee": "Hakim Ben el Salem Hadj, France",
       "timezone": "UTC",
       "date": "2026-09-19T18:45:00+00:00",
       "timestamp": 1789843500,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552758,
-      "referee": "Ruddy Buquet",
+      "referee": "Ruddy Buquet, France",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552748,
-      "referee": "Marc Bollengier",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:45:00+00:00",
-      "timestamp": 1788633900,
-      "periods": {
-        "first": 1788633900,
-        "second": 1788637500
-      },
-      "venue": {
-        "id": 652,
-        "name": "Stade Oc\u00e9ane",
-        "city": "Le Havre"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 111,
-        "name": "Le Havre",
-        "logo": "https://media.api-sports.io/football/teams/111.png",
-        "winner": false
-      },
-      "away": {
-        "id": 106,
-        "name": "Stade Brestois 29",
-        "logo": "https://media.api-sports.io/football/teams/106.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

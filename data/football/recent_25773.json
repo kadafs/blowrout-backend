@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638525,
+      "referee": "Liu Xiao",
+      "timezone": "UTC",
+      "date": "2026-10-17T07:30:00+00:00",
+      "timestamp": 1792222200,
+      "periods": {
+        "first": 1792222200,
+        "second": 1792225800
+      },
+      "venue": {
+        "id": null,
+        "name": "Donghua University Stadium",
+        "city": "Shanghai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Relegation Group - 27",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27619,
+        "name": "Shanghai Second",
+        "logo": "https://media.api-sports.io/football/teams/27619.png",
+        "winner": null
+      },
+      "away": {
+        "id": 25773,
+        "name": "Guangdong Mingtu",
+        "logo": "https://media.api-sports.io/football/teams/25773.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638516,
       "referee": "B. Chen",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 27619,
         "name": "Shanghai Second",
         "logo": "https://media.api-sports.io/football/teams/27619.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1532887,
-      "referee": "L. Chentao",
-      "timezone": "UTC",
-      "date": "2026-08-23T11:30:00+00:00",
-      "timestamp": 1787484600,
-      "periods": {
-        "first": 1787484600,
-        "second": 1787488200
-      },
-      "venue": {
-        "id": null,
-        "name": "Linping Sports Centre Stadium",
-        "city": "Hangzhou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 23270,
-        "name": "Langfang Glory City",
-        "logo": "https://media.api-sports.io/football/teams/23270.png",
-        "winner": true
-      },
-      "away": {
-        "id": 25773,
-        "name": "Guangdong Mingtu",
-        "logo": "https://media.api-sports.io/football/teams/25773.png",
         "winner": false
       }
     },

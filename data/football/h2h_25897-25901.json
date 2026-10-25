@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534097,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-27T20:00:00+00:00",
+      "timestamp": 1790539200,
+      "periods": {
+        "first": 1790539200,
+        "second": 1790542800
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1182,
+      "name": "Northern Super League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/1182.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2026,
+      "round": "Regular season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25897,
+        "name": "Calgary Wild W",
+        "logo": "https://media.api-sports.io/football/teams/25897.png",
+        "winner": true
+      },
+      "away": {
+        "id": 25901,
+        "name": "Vancouver Rise W",
+        "logo": "https://media.api-sports.io/football/teams/25901.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534084,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1366204,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-09-06T23:00:00+00:00",
-      "timestamp": 1757199600,
-      "periods": {
-        "first": 1757199600,
-        "second": 1757203200
-      },
-      "venue": {
-        "id": 3128,
-        "name": "Swangard Stadium",
-        "city": "Burnaby, British Columbia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1182,
-      "name": "Northern Super League",
-      "country": "Canada",
-      "logo": "https://media.api-sports.io/football/leagues/1182.png",
-      "flag": "https://media.api-sports.io/flags/ca.svg",
-      "season": 2025,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25901,
-        "name": "Vancouver Rise W",
-        "logo": "https://media.api-sports.io/football/teams/25901.png",
-        "winner": true
-      },
-      "away": {
-        "id": 25897,
-        "name": "Calgary Wild W",
-        "logo": "https://media.api-sports.io/football/teams/25897.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

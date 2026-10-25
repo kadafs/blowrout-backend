@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638385,
+      "referee": "F. Jimenez Lazo",
+      "timezone": "UTC",
+      "date": "2026-09-23T23:30:00+00:00",
+      "timestamp": 1790206200,
+      "periods": {
+        "first": 1790206200,
+        "second": 1790209800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "La Calera"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2326,
+        "name": "Union La Calera",
+        "logo": "https://media.api-sports.io/football/teams/2326.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2994,
+        "name": "U. Catolica",
+        "logo": "https://media.api-sports.io/football/teams/2994.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505528,
       "referee": "C. Garay",
       "timezone": "UTC",
@@ -221,7 +291,7 @@
         "second": 1787785200
       },
       "venue": {
-        "id": null,
+        "id": 324,
         "name": "Francisco S\u00e1nchez Rumoroso",
         "city": "Coquimbo"
       },
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505505,
-      "referee": "D. Flores",
-      "timezone": "UTC",
-      "date": "2026-08-23T00:00:00+00:00",
-      "timestamp": 1787443200,
-      "periods": {
-        "first": 1787443200,
-        "second": 1787446800
-      },
-      "venue": {
-        "id": null,
-        "name": "Claro Arena",
-        "city": "Santiago de Chile"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2994,
-        "name": "U. Catolica",
-        "logo": "https://media.api-sports.io/football/teams/2994.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2337,
-        "name": "Nublense",
-        "logo": "https://media.api-sports.io/football/teams/2337.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

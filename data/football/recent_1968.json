@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632107,
+      "referee": "N. Moss",
+      "timezone": "UTC",
+      "date": "2026-10-18T05:30:00+00:00",
+      "timestamp": 1792301400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Sydney Olympic Park Athletic Centre",
+        "city": "Sydney"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1968,
+        "name": "Sydney FC W",
+        "logo": "https://media.api-sports.io/football/teams/1968.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1972,
+        "name": "Adelaide United W",
+        "logo": "https://media.api-sports.io/football/teams/1972.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1484580,
       "referee": "S. Allum",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484553,
-      "referee": "I. Cooper",
-      "timezone": "UTC",
-      "date": "2026-02-13T08:00:00+00:00",
-      "timestamp": 1770969600,
-      "periods": {
-        "first": 1770969600,
-        "second": 1770973200
-      },
-      "venue": {
-        "id": null,
-        "name": "Spencer Park",
-        "city": "Brisbane"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1973,
-        "name": "Brisbane Roar FC W",
-        "logo": "https://media.api-sports.io/football/teams/1973.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1968,
-        "name": "Sydney FC W",
-        "logo": "https://media.api-sports.io/football/teams/1968.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

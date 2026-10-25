@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1508574,
+      "referee": "Danielle Chesky, USA",
+      "timezone": "UTC",
+      "date": "2026-10-17T22:30:00+00:00",
+      "timestamp": 1792276200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19223,
+        "name": "Rio Tinto Stadium",
+        "city": "Sandy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3004,
+        "name": "Utah Royals W",
+        "logo": "https://media.api-sports.io/football/teams/3004.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16487,
+        "name": "Kansas City W",
+        "logo": "https://media.api-sports.io/football/teams/16487.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508567,
       "referee": "Carvajal, Edson",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508531,
-      "referee": "Brad Jensen, USA",
-      "timezone": "UTC",
-      "date": "2026-09-05T02:00:00+00:00",
-      "timestamp": 1788573600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "PayPal Park",
-        "city": "San Jose"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 254,
-      "name": "NWSL Women",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/254.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22943,
-        "name": "Bay FC W",
-        "logo": "https://media.api-sports.io/football/teams/22943.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16487,
-        "name": "Kansas City W",
-        "logo": "https://media.api-sports.io/football/teams/16487.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608321,
+      "referee": "S. Gavini",
+      "timezone": "UTC",
+      "date": "2026-10-18T15:30:00+00:00",
+      "timestamp": 1792337400,
+      "periods": {
+        "first": 1792337400,
+        "second": 1792341000
+      },
+      "venue": {
+        "id": null,
+        "name": "AlbinoLeffe",
+        "city": "Zanica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 879,
+        "name": "Albinoleffe",
+        "logo": "https://media.api-sports.io/football/teams/879.png",
+        "winner": null
+      },
+      "away": {
+        "id": 513,
+        "name": "Novara",
+        "logo": "https://media.api-sports.io/football/teams/513.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608315,
       "referee": "F. Tassano",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608271,
-      "referee": "M. Melloni",
-      "timezone": "UTC",
-      "date": "2026-09-17T16:30:00+00:00",
-      "timestamp": 1789662600,
-      "periods": {
-        "first": 1789662600,
-        "second": 1789666200
-      },
-      "venue": {
-        "id": null,
-        "name": "AlbinoLeffe",
-        "city": "Zanica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 879,
-        "name": "Albinoleffe",
-        "logo": "https://media.api-sports.io/football/teams/879.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6378,
-        "name": "Arzignano Valchiampo",
-        "logo": "https://media.api-sports.io/football/teams/6378.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

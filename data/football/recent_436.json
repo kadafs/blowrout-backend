@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1493194,
+      "referee": "F. Tello",
+      "timezone": "UTC",
+      "date": "2026-10-18T17:45:00+00:00",
+      "timestamp": 1792345500,
+      "periods": {
+        "first": 1792345500,
+        "second": 1792349100
+      },
+      "venue": {
+        "id": 99,
+        "name": "Estadio Juan Domingo Per\u00f3n",
+        "city": "Avellaneda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 436,
+        "name": "Racing Club",
+        "logo": "https://media.api-sports.io/football/teams/436.png",
+        "winner": null
+      },
+      "away": {
+        "id": 453,
+        "name": "Independiente",
+        "logo": "https://media.api-sports.io/football/teams/453.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493175,
       "referee": "Y. Perez",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493129,
-      "referee": "P. Dovalo",
-      "timezone": "UTC",
-      "date": "2026-09-14T00:30:00+00:00",
-      "timestamp": 1789345800,
-      "periods": {
-        "first": 1789345800,
-        "second": 1789349400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Tomas Adolfo Duco",
-        "city": "Buenos Aires"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 445,
-        "name": "Huracan",
-        "logo": "https://media.api-sports.io/football/teams/445.png",
-        "winner": true
-      },
-      "away": {
-        "id": 436,
-        "name": "Racing Club",
-        "logo": "https://media.api-sports.io/football/teams/436.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

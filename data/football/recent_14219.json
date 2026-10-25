@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612653,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T18:00:00+00:00",
+      "timestamp": 1792605600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 512,
+        "name": "Turf Moor",
+        "city": "Burnley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15439,
+        "name": "Burnley W",
+        "logo": "https://media.api-sports.io/football/teams/15439.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14219,
+        "name": "Aston Villa W",
+        "logo": "https://media.api-sports.io/football/teams/14219.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607698,
       "referee": "Megan Wilson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612636,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:00:00+00:00",
-      "timestamp": 1790186400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "City Ground",
-        "city": "Nottingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 15450,
-        "name": "Nottingham Forest W",
-        "logo": "https://media.api-sports.io/football/teams/15450.png",
-        "winner": false
-      },
-      "away": {
-        "id": 14219,
-        "name": "Aston Villa W",
-        "logo": "https://media.api-sports.io/football/teams/14219.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

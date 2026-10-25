@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1601562,
+      "referee": "Mario Perri, Italy",
+      "timezone": "UTC",
+      "date": "2026-10-16T18:30:00+00:00",
+      "timestamp": 1792175400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 890,
+        "name": "Marc'Antonio Bentegodi",
+        "city": "Verona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 136,
+      "name": "Serie B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/136.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 504,
+        "name": "Hellas Verona",
+        "logo": "https://media.api-sports.io/football/teams/504.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1687,
+        "name": "Catanzaro",
+        "logo": "https://media.api-sports.io/football/teams/1687.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601550,
-      "referee": "Alberto Ruben Arena",
+      "referee": "Alberto Ruben Arena, Italy",
       "timezone": "UTC",
       "date": "2026-10-11T17:30:00+00:00",
       "timestamp": 1791739800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601522,
-      "referee": "Luca Zufferli, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-06T15:15:00+00:00",
-      "timestamp": 1788707700,
-      "periods": {
-        "first": 1788707700,
-        "second": 1788711300
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Marcantonio Bentegodi",
-        "city": "Verona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 136,
-      "name": "Serie B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/136.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 504,
-        "name": "Hellas Verona",
-        "logo": "https://media.api-sports.io/football/teams/504.png",
-        "winner": true
-      },
-      "away": {
-        "id": 876,
-        "name": "Arezzo",
-        "logo": "https://media.api-sports.io/football/teams/876.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

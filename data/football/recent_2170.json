@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494302,
+      "referee": "Oscar Johnson",
+      "timezone": "UTC",
+      "date": "2026-10-18T14:30:00+00:00",
+      "timestamp": 1792333800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1509,
+        "name": "Gamla Ullevi",
+        "city": "Gothenburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2166,
+        "name": "Orgryte IS",
+        "logo": "https://media.api-sports.io/football/teams/2166.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2170,
+        "name": "Gais",
+        "logo": "https://media.api-sports.io/football/teams/2170.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494291,
       "referee": "Victor Wolf, Sweden",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494260,
-      "referee": "Kristoffer Karlsson, Sweden",
-      "timezone": "UTC",
-      "date": "2026-08-31T17:00:00+00:00",
-      "timestamp": 1788195600,
-      "periods": {
-        "first": 1788195600,
-        "second": 1788199200
-      },
-      "venue": {
-        "id": null,
-        "name": "Gamla Ullevi",
-        "city": "Gothenburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2170,
-        "name": "Gais",
-        "logo": "https://media.api-sports.io/football/teams/2170.png",
-        "winner": true
-      },
-      "away": {
-        "id": 371,
-        "name": "IF Brommapojkarna",
-        "logo": "https://media.api-sports.io/football/teams/371.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

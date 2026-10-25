@@ -88,6 +88,31 @@ python push_to_dashboard.py --sport basketball
 
 
 
+# ⚽ FOOTBALL — Highest-Scoring Half (HSH) Model
+# ─────────────────────────────────────────────────────────────────────
+# Phase 1: Grading (automatic — runs as part of normal grade_football.py)
+#   HT scores are now captured every time you grade football predictions.
+#   No extra steps needed — just run the normal grader:
+python3 grade_football.py
+
+# Phase 2: Rebuild team & league HSH profiles (run after grading)
+#   After a few days of graded data, build the HT leaderboards:
+python3 aggregate_hsh_stats.py
+python3 aggregate_hsh_stats.py --min_games 5    # stricter summary
+
+# Phase 3: Predictions now include HSH automatically
+#   hsh_decision (1H / 2H / PASS), hsh_prob_1h, hsh_prob_2h, hsh_confidence
+#   are included in every universal_predictions_YYYY-MM-DD.json
+
+# Profile data lives at:
+#   data/football/hsh_team_profiles.json    ← team 1H/2H goal splits
+#   data/football/hsh_league_profiles.json  ← league-wide 1H/2H rates
+
+# Note: model starts on global prior (2H ~49%), improves to team-profile
+# accuracy once 3+ graded games per team are stored (typically 2-3 weeks).
+
+
+
 
 
 

@@ -179,7 +179,8 @@ def build_result_key(fixture: dict) -> tuple:
     return (league_id, home_team, away_team)
 
 
-def grade_prediction(pred: dict, home_goals: int, away_goals: int) -> dict:
+def grade_prediction(pred: dict, home_goals: int, away_goals: int,
+                     ht_home: int = None, ht_away: int = None) -> dict:
     """Populate actual_* fields on a prediction dict and return it updated."""
     actual_result = (
         "HOME" if home_goals > away_goals else
@@ -195,11 +196,26 @@ def grade_prediction(pred: dict, home_goals: int, away_goals: int) -> dict:
     p["actual_draw"]       = (actual_result == "DRAW")
     p["actual_result"]     = actual_result
 
-    # Corners & booking grading — populated later from fixtures/statistics
-    # (These are set by grade_corners_from_api if available)
-    # p["actual_corners_total"] = None  -- set externally
-    # p["actual_booking_pts"]   = None  -- set externally
-    
+    # ── Halftime / Highest-Scoring Half grading ───────────────────────────────
+    if ht_home is not None and ht_away is not None:
+        p["actual_ht_home"] = ht_home
+        p["actual_ht_away"] = ht_away
+        ht_goals  = ht_home + ht_away
+        ft_goals  = home_goals + away_goals
+        sh_goals  = ft_goals - ht_goals   # 2nd-half goals
+        p["actual_ht_goals"] = ht_goals
+        p["actual_sh_goals"] = sh_goals
+        if ht_goals > sh_goals:
+            p["actual_hsh_result"] = "1H"
+        elif sh_goals > ht_goals:
+            p["actual_hsh_result"] = "2H"
+        else:
+            p["actual_hsh_result"] = "TIE"
+        # Grade HSH prediction if one was made
+        hsh_decision = pred.get("hsh_decision")
+        if hsh_decision and hsh_decision not in ("PASS", None):
+            p["hsh_grade"] = "WIN" if hsh_decision == p["actual_hsh_result"] else "LOSS"
+
     # Delta Grading Matrix
     actual_total = home_goals + away_goals
     xg_total = p.get("xg_total")
@@ -455,15 +471,24 @@ def grade_football_date(date: str, dry_run: bool = False, force: bool = False) -
         print("  ⚠️  No finished fixtures returned — try again later or check API key.")
         return None
 
-    # Build lookup: (league_id, home_name, away_name) → (home_goals, away_goals, fixture_id)
-    results_map: dict[tuple, tuple[int, int, int]] = {}
+    # Build lookup: (league_id, home_name, away_name) → (home_goals, away_goals, ht_home, ht_away, fixture_id)
+    results_map: dict[tuple, tuple] = {}
     for fix in fixtures:
         key = build_result_key(fix)
         home_goals = fix["goals"]["home"]
         away_goals = fix["goals"]["away"]
         fixture_id = fix["fixture"]["id"]
+        # Capture halftime scores for HSH model
+        ht_score   = fix.get("score", {}).get("halftime", {})
+        ht_home    = ht_score.get("home")
+        ht_away    = ht_score.get("away")
         if home_goals is not None and away_goals is not None:
-            results_map[key] = (int(home_goals), int(away_goals), fixture_id)
+            results_map[key] = (
+                int(home_goals), int(away_goals),
+                int(ht_home) if ht_home is not None else None,
+                int(ht_away) if ht_away is not None else None,
+                fixture_id
+            )
 
     # Grade each prediction
     matched = 0
@@ -524,8 +549,8 @@ def grade_football_date(date: str, dry_run: bool = False, force: bool = False) -
 
         key = (pred["league_id"], pred["home_team"], pred["away_team"])
         if key in results_map:
-            home_goals, away_goals, fixture_id = results_map[key]
-            graded = grade_prediction(pred, home_goals, away_goals)
+            home_goals, away_goals, ht_home, ht_away, fixture_id = results_map[key]
+            graded = grade_prediction(pred, home_goals, away_goals, ht_home, ht_away)
             
             # --- Fetch statistics if this is a Corners/Booking YES/NO call ---
             corners_block = graded.get("corners") or {}

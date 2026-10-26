@@ -30,6 +30,8 @@ Usage:
     python run_buffer_hit_rate.py --csv                # Export to CSV
 """
 
+from __future__ import annotations
+
 import json
 import os
 import sys

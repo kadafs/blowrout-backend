@@ -17,6 +17,8 @@ Fallback path (when granular logs are absent):
     and far better than the old monthly-fraction approach.
 """
 
+from __future__ import annotations
+
 import os
 from datetime import datetime
 from umpire_engine import _load_db, LEAGUE_K_PER_9, LEAGUE_BB_PER_9, STABILIZATION_GAMES

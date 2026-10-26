@@ -22,6 +22,7 @@ import subprocess
 import argparse
 from datetime import date
 from pathlib import Path
+from typing import Optional
 
 if sys.platform == "win32":
     try:
@@ -33,6 +34,8 @@ if sys.platform == "win32":
 # Paths — adjust if your folders are in a different location
 NCAA_API_ROOT   = Path(__file__).parent
 DASHBOARD_ROOT  = NCAA_API_ROOT.parent / "Sports Analytics"
+if not DASHBOARD_ROOT.exists() and (NCAA_API_ROOT.parent / "sports-analytics").exists():
+    DASHBOARD_ROOT = NCAA_API_ROOT.parent / "sports-analytics"
 
 SPORTS = ["football", "basketball"]
 
@@ -50,7 +53,7 @@ def run(cmd: list[str], cwd: Path):
     return result.stdout.strip()
 
 
-def copy_sport_data(sport: str, date_filter: str | None = None):
+def copy_sport_data(sport: str, date_filter: Optional[str] = None):
     """
     Copy prediction files for a sport from ncaa-api/data/{sport}
     into Sports Analytics/public/data/{sport}.

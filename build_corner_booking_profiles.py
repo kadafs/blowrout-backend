@@ -14,6 +14,8 @@ Usage:
 Output: data/football/team_profiles_{league_id}.json
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import json

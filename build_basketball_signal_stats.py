@@ -31,6 +31,8 @@ ROOT_DIR = Path(__file__).resolve().parent
 DATA_DIR = ROOT_DIR / "data" / "basketball"
 OUTPUT_FILE = DATA_DIR / "basketball_signal_stats.json"
 DASHBOARD_DIR = ROOT_DIR.parent / "Sports Analytics" / "public" / "data" / "basketball"
+if not DASHBOARD_DIR.parent.parent.exists() and (ROOT_DIR.parent / "sports-analytics").exists():
+    DASHBOARD_DIR = ROOT_DIR.parent / "sports-analytics" / "public" / "data" / "basketball"
 
 def build_signal_stats(save_to_dashboard: bool = True) -> dict:
     files = sorted(DATA_DIR.glob("universal_predictions_2026-*.json"))

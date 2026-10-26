@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636311,
+      "referee": "Jasper Vergoote",
+      "timezone": "UTC",
+      "date": "2026-10-22T19:00:00+00:00",
+      "timestamp": 1792695600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "GSP Stadium",
+        "city": "Nicosia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": false
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603581,
       "referee": "Panagiotis Hadjigeorghiou",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636312,
-      "referee": "Balazs Berke, Hungary",
-      "timezone": "UTC",
-      "date": "2026-09-16T16:45:00+00:00",
-      "timestamp": 1789577100,
-      "periods": {
-        "first": 1789577100,
-        "second": 1789580700
-      },
-      "venue": {
-        "id": null,
-        "name": "GSP Stadium",
-        "city": "Nicosia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 3,
-      "name": "UEFA Europa League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/3.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3402,
-        "name": "Omonia Nicosia",
-        "logo": "https://media.api-sports.io/football/teams/3402.png",
-        "winner": true
-      },
-      "away": {
-        "id": 538,
-        "name": "Celta Vigo",
-        "logo": "https://media.api-sports.io/football/teams/538.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1569970,
+      "referee": "M. Perez",
+      "timezone": "UTC",
+      "date": "2026-10-18T19:00:00+00:00",
+      "timestamp": 1792350000,
+      "periods": {
+        "first": 1792350000,
+        "second": 1792353600
+      },
+      "venue": {
+        "id": 6674,
+        "name": "Municipal El Plantio",
+        "city": "Burgos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9580,
+        "name": "Burgos",
+        "logo": "https://media.api-sports.io/football/teams/9580.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9593,
+        "name": "Sabadell",
+        "logo": "https://media.api-sports.io/football/teams/9593.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569961,
-      "referee": "Salvador Lax",
+      "referee": "S. Lax",
       "timezone": "UTC",
       "date": "2026-10-12T14:15:00+00:00",
       "timestamp": 1791814500,
       "periods": {
         "first": 1791814500,
-        "second": null
+        "second": 1791818100
       },
       "venue": {
         "id": 6674,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1569949,
-      "referee": "Iosu Galech Apezteguia, Spain",
+      "referee": "I. Galech",
       "timezone": "UTC",
       "date": "2026-10-03T14:15:00+00:00",
       "timestamp": 1791036900,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1569937,
-      "referee": "Abraham Dominguez Cervantes, Spain",
+      "referee": "A. Dominguez",
       "timezone": "UTC",
       "date": "2026-09-27T16:30:00+00:00",
       "timestamp": 1790526600,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1569933,
-      "referee": "Jose Luis Guzman Mansilla, Spain",
+      "referee": "J. Guzman",
       "timezone": "UTC",
       "date": "2026-09-20T16:30:00+00:00",
       "timestamp": 1789921800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569916,
-      "referee": "G. Etayo",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:30:00+00:00",
-      "timestamp": 1789151400,
-      "periods": {
-        "first": 1789151400,
-        "second": 1789155000
-      },
-      "venue": {
-        "id": null,
-        "name": "Municipal El Plantio",
-        "city": "Burgos"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9580,
-        "name": "Burgos",
-        "logo": "https://media.api-sports.io/football/teams/9580.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10139,
-        "name": "AD Ceuta FC",
-        "logo": "https://media.api-sports.io/football/teams/10139.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

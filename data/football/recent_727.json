@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1570419,
+      "referee": "Juan Martinez Munuera",
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1486,
+        "name": "Estadio El Sadar",
+        "city": "Pamplona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 727,
+        "name": "Osasuna",
+        "logo": "https://media.api-sports.io/football/teams/727.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4665,
+        "name": "Racing Santander",
+        "logo": "https://media.api-sports.io/football/teams/4665.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570405,
-      "referee": "C. Muniz",
+      "referee": "Carlos Muniz Munoz, Spain",
       "timezone": "UTC",
       "date": "2026-10-11T16:30:00+00:00",
       "timestamp": 1791736200,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1570399,
-      "referee": "M. Orellana",
+      "referee": "Manuel Jesus Orellana Cid, Spain",
       "timezone": "UTC",
       "date": "2026-09-19T12:00:00+00:00",
       "timestamp": 1789819200,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1570384,
-      "referee": "F. Maeso",
+      "referee": "Francisco Hernandez Maeso, Spain",
       "timezone": "UTC",
       "date": "2026-09-16T17:00:00+00:00",
       "timestamp": 1789578000,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1570377,
-      "referee": "L. Bestard Servera",
+      "referee": "Luis Bestard Servera, Spain",
       "timezone": "UTC",
       "date": "2026-09-12T14:15:00+00:00",
       "timestamp": 1789222500,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570363,
-      "referee": "J. Sanchez",
-      "timezone": "UTC",
-      "date": "2026-09-06T16:30:00+00:00",
-      "timestamp": 1788712200,
-      "periods": {
-        "first": 1788712200,
-        "second": 1788715800
-      },
-      "venue": {
-        "id": 1470,
-        "name": "Estadio Mendizorrotza",
-        "city": "Vitoria-Gasteiz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 542,
-        "name": "Alaves",
-        "logo": "https://media.api-sports.io/football/teams/542.png",
-        "winner": true
-      },
-      "away": {
-        "id": 727,
-        "name": "Osasuna",
-        "logo": "https://media.api-sports.io/football/teams/727.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 2
       },
       "extratime": {

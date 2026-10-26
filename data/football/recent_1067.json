@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1498899,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T18:30:00+00:00",
+      "timestamp": 1792434600,
+      "periods": {
+        "first": 1792434600,
+        "second": 1792438200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Osvaldo Baletto",
+        "city": "Dock Sud"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 129,
+      "name": "Primera Nacional",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/129.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1932,
+        "name": "San Telmo",
+        "logo": "https://media.api-sports.io/football/teams/1932.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1067,
+        "name": "Defensores De Belgrano",
+        "logo": "https://media.api-sports.io/football/teams/1067.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1498874,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1498801,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-14T18:30:00+00:00",
-      "timestamp": 1789410600,
-      "periods": {
-        "first": 1789410600,
-        "second": 1789414200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Juan Pasquale",
-        "city": "Belgrano"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 129,
-      "name": "Primera Nacional",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/129.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1067,
-        "name": "Defensores De Belgrano",
-        "logo": "https://media.api-sports.io/football/teams/1067.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1929,
-        "name": "Deportivo Madryn",
-        "logo": "https://media.api-sports.io/football/teams/1929.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

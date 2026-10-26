@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627099,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-12T18:00:00+00:00",
+      "timestamp": 1791828000,
+      "periods": {
+        "first": 1791828000,
+        "second": 1791831600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 19744,
+        "name": "Blackburn Rovers U21",
+        "logo": "https://media.api-sports.io/football/teams/19744.png",
+        "winner": null
+      },
+      "away": {
+        "id": 19877,
+        "name": "Bolton Wanderers Res.",
+        "logo": "https://media.api-sports.io/football/teams/19877.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621038,
       "referee": "E. Swallow",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627061,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-14T18:00:00+00:00",
-      "timestamp": 1786730400,
-      "periods": {
-        "first": 1786730400,
-        "second": 1786734000
-      },
-      "venue": {
-        "id": null,
-        "name": "Staplewood Training Ground",
-        "city": "Southampton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7201,
-        "name": "Southampton U21",
-        "logo": "https://media.api-sports.io/football/teams/7201.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19744,
-        "name": "Blackburn Rovers U21",
-        "logo": "https://media.api-sports.io/football/teams/19744.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

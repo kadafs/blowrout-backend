@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1520935,
+      "referee": "Rafael Rodrigo Klein",
+      "timezone": "UTC",
+      "date": "2026-10-20T22:30:00+00:00",
+      "timestamp": 1792535400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 249,
+        "name": "Estadio do Cafe",
+        "city": "Londrina"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 72,
+      "name": "Serie B",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/72.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 148,
+        "name": "Londrina",
+        "logo": "https://media.api-sports.io/football/teams/148.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1193,
+        "name": "Cuiaba",
+        "logo": "https://media.api-sports.io/football/teams/1193.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1520924,
       "referee": "Afro Rocha De Carvalho Filho, Brazil",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1193,
         "name": "Cuiaba",
         "logo": "https://media.api-sports.io/football/teams/1193.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1520883,
-      "referee": "R. Junior",
-      "timezone": "UTC",
-      "date": "2026-09-22T00:30:00+00:00",
-      "timestamp": 1790037000,
-      "periods": {
-        "first": 1790037000,
-        "second": 1790040600
-      },
-      "venue": {
-        "id": 235,
-        "name": "Arena Pantanal",
-        "city": "Cuiaba"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 72,
-      "name": "Serie B",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/72.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1193,
-        "name": "Cuiaba",
-        "logo": "https://media.api-sports.io/football/teams/1193.png",
-        "winner": true
-      },
-      "away": {
-        "id": 755,
-        "name": "Nautico Recife",
-        "logo": "https://media.api-sports.io/football/teams/755.png",
         "winner": false
       }
     },

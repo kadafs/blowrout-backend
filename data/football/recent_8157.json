@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1569975,
+      "referee": "D. Arcediano",
+      "timezone": "UTC",
+      "date": "2026-10-18T16:30:00+00:00",
+      "timestamp": 1792341000,
+      "periods": {
+        "first": 1792341000,
+        "second": 1792344600
+      },
+      "venue": {
+        "id": 1478,
+        "name": "Estadio Municipal de Montilivi",
+        "city": "Girona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 547,
+        "name": "Girona",
+        "logo": "https://media.api-sports.io/football/teams/547.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8157,
+        "name": "FC Andorra",
+        "logo": "https://media.api-sports.io/football/teams/8157.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569960,
-      "referee": "Abraham Dom\u00ednguez Cervantes",
+      "referee": "A. Dominguez",
       "timezone": "UTC",
       "date": "2026-10-11T12:00:00+00:00",
       "timestamp": 1791720000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791720000,
+        "second": 1791723600
       },
       "venue": {
         "id": 2618,
         "name": "Estadi de la FAF",
-        "city": "Andorra"
+        "city": "Encamp"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1569958,
-      "referee": "Jose Guzman",
+      "referee": "J. Guzman",
       "timezone": "UTC",
       "date": "2026-10-04T19:00:00+00:00",
       "timestamp": 1791140400,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": 6686,
-        "name": "Nova Creu Alta",
+        "name": "Estadi de la Nova Creu Alta",
         "city": "Sabadell"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1569942,
-      "referee": "Juan Gordillo, Spain",
+      "referee": "J. M. Gordillo",
       "timezone": "UTC",
       "date": "2026-09-26T14:15:00+00:00",
       "timestamp": 1790432100,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1569928,
-      "referee": "Pablo Morales Moreno, Spain",
+      "referee": "P. Morales",
       "timezone": "UTC",
       "date": "2026-09-19T14:15:00+00:00",
       "timestamp": 1789827300,
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569915,
-      "referee": "Jose Luis Guzman Mansilla, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadi de la FAF",
-        "city": "Encamp"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8157,
-        "name": "FC Andorra",
-        "logo": "https://media.api-sports.io/football/teams/8157.png",
-        "winner": false
-      },
-      "away": {
-        "id": 9585,
-        "name": "Real Sociedad II",
-        "logo": "https://media.api-sports.io/football/teams/9585.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
       },
       "fulltime": {
         "home": 1,

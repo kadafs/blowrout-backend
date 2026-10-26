@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602516,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T09:30:00+00:00",
+      "timestamp": 1792229400,
+      "periods": {
+        "first": 1792229400,
+        "second": 1792233000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadionul Municipal",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 284,
+      "name": "Liga II",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/284.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2616,
+        "name": "CSM Ramnicu Valcea",
+        "logo": "https://media.api-sports.io/football/teams/2616.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2606,
+        "name": "FC Politehnica Timisoara",
+        "logo": "https://media.api-sports.io/football/teams/2606.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602503,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602470,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T08:00:00+00:00",
-      "timestamp": 1788595200,
-      "periods": {
-        "first": 1788595200,
-        "second": 1788598800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Municipal",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2616,
-        "name": "CSM Ramnicu Valcea",
-        "logo": "https://media.api-sports.io/football/teams/2616.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6229,
-        "name": "CSM Re\u015fi\u0163a",
-        "logo": "https://media.api-sports.io/football/teams/6229.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

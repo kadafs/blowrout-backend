@@ -228,36 +228,42 @@ class FootballEngine:
         if not is_high_draw and draw_prob_final > 0.33:
             draw_prob_final = 0.33
 
-        # Market implied probability — use real bookmaker odds if available, else hardcoded default
+        # Market implied probability — retained for informational display/logging if present
         btts_market_prob = game_data.get("btts_market_prob") or c.get("btts_market_avg", 0.52)
-
-        # Edge
         btts_edge = round(btts_prob_final - btts_market_prob, 4)
 
-        # BTTS Decision
-        btts_threshold = c.get("btts_edge_threshold", 0.04)
-        draw_threshold = c.get("draw_edge_threshold",  0.05)
+        # -------------------------------------------------------
+        # BTTS Decision (Option A: Pure Model Probability)
+        # -------------------------------------------------------
+        # BTTS is strictly a one-way market: PLAY YES or PASS.
+        # PLAY NO is permanently eliminated to prevent bleeding units on clean-sheet underdogs.
+        # Market implied probability is removed from decision-making to keep predictions
+        # 100% independent and aligned with projected goal-scoring reality.
+        btts_yes_threshold = c.get("btts_yes_threshold", 0.58)
 
-        if btts_edge >= btts_threshold:
+        if btts_prob_final >= btts_yes_threshold:
             btts_decision    = "PLAY YES"
-            btts_confidence  = "HIGH" if btts_edge >= btts_threshold * 2 else "MEDIUM"
-        elif btts_edge <= -btts_threshold:
-            btts_decision    = "PLAY NO"
-            btts_confidence  = "HIGH" if btts_edge <= -btts_threshold * 2 else "MEDIUM"
-            if (btts_prob_final * 100) <= 38.0:
-                btts_decision = "[STRONG] PLAY NO"
+            btts_confidence  = "HIGH" if btts_prob_final >= 0.65 else "MEDIUM"
         else:
             btts_decision    = "PASS"
             btts_confidence  = "NO PLAY"
 
         # Draw: what odds do we need to have value?
         # If model says draw prob is 28%, we need odds > 1/0.28 = 3.57
+        draw_threshold     = c.get("draw_edge_threshold", 0.05)
         draw_fair_odds     = round(1 / draw_prob_final, 2) if draw_prob_final > 0 else 99.0
-        draw_value_flag    = btts_decision == "PASS"   # flag draw only when BTTS passes
+        market_draw        = (game_data.get("market_odds") or {}).get("draw_odds") or game_data.get("draw_odds")
+        
+        # Draw value flag: only when BTTS is PASS and positive draw edge exists vs market
+        if market_draw and float(market_draw) > 1.0:
+            implied_draw = 1.0 / float(market_draw)
+            draw_edge    = draw_prob_final - implied_draw
+            draw_value_flag = (btts_decision == "PASS") and (draw_edge >= draw_threshold)
+        else:
+            draw_value_flag = (btts_decision == "PASS") and (draw_prob_final >= 0.28)
 
-        self._log(f"Phase 3: BTTS = {btts_prob_final*100:.1f}% | Market = {btts_market_prob*100:.1f}% | Edge = {btts_edge*100:+.1f}%")
-        self._log(f"Phase 3: Draw = {draw_prob_final*100:.1f}% | Fair odds = {draw_fair_odds}")
-        self._log(f"Decision: BTTS {btts_decision} [{btts_confidence}]")
+        self._log(f"Phase 3: BTTS = {btts_prob_final*100:.1f}% (Threshold: {btts_yes_threshold*100:.1f}%) | Decision: {btts_decision} [{btts_confidence}]")
+        self._log(f"Phase 3: Draw = {draw_prob_final*100:.1f}% | Fair odds = {draw_fair_odds} | Value Flag: {draw_value_flag}")
 
         # -------------------------------------------------------
         # PHASE 4 — 1X2 Outcome Prediction (with sharp adjustments)

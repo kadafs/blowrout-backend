@@ -1,3 +1,4 @@
+from typing import Optional
 """
 grade_football.py
 ─────────────────
@@ -236,7 +237,7 @@ def grade_prediction(pred: dict, home_goals: int, away_goals: int,
     return p
 
 
-def btts_grade(pred: dict) -> str | None:
+def btts_grade(pred: dict) -> Optional[str]:
     """Return WIN, LOSS, or None (for PASS) based on BTTS decision vs actual."""
     decision = pred.get("btts_decision")
     actual   = pred.get("actual_btts")
@@ -249,7 +250,7 @@ def btts_grade(pred: dict) -> str | None:
     return None
 
 
-def corner_grade(pred: dict) -> str | None:
+def corner_grade(pred: dict) -> Optional[str]:
     """Return WIN, LOSS, or None (PASS) based on corner_call vs actual corners."""
     corners = pred.get("corners") or {}
     call = corners.get("corner_call")
@@ -271,7 +272,7 @@ def corner_grade(pred: dict) -> str | None:
     return None
 
 
-def booking_grade(pred: dict) -> str | None:
+def booking_grade(pred: dict) -> Optional[str]:
     """Return WIN, LOSS, or None (PASS) based on booking_call vs actual booking pts."""
     corners = pred.get("corners") or {}
     call = corners.get("booking_call")
@@ -292,7 +293,7 @@ def booking_grade(pred: dict) -> str | None:
     return None
 
 
-def shots_grade(pred: dict) -> str | None:
+def shots_grade(pred: dict) -> Optional[str]:
     """Return WIN, LOSS, or None (PASS) based on shots_call vs actual shots total."""
     shots = pred.get("shots") or {}
     call = shots.get("shots_call")
@@ -313,7 +314,7 @@ def shots_grade(pred: dict) -> str | None:
     return None
 
 
-def sot_grade(pred: dict) -> str | None:
+def sot_grade(pred: dict) -> Optional[str]:
     """Return WIN, LOSS, or None (PASS) based on sot_call vs actual SoT total."""
     shots = pred.get("shots") or {}
     call = shots.get("sot_call")
@@ -334,7 +335,7 @@ def sot_grade(pred: dict) -> str | None:
     return None
 
 
-def outcome_grade(pred: dict) -> str | None:
+def outcome_grade(pred: dict) -> Optional[str]:
     """Return WIN or LOSS for 1X2 prediction vs actual."""
     pred_result   = pred.get("predicted_result")
     actual_result = pred.get("actual_result")
@@ -343,7 +344,7 @@ def outcome_grade(pred: dict) -> str | None:
     return "WIN" if pred_result == actual_result else "LOSS"
 
 
-def resolve_target_date(date_arg: str | None = None) -> str:
+def resolve_target_date(date_arg: Optional[str] = None) -> str:
     if date_arg:
         return date_arg
     now = datetime.now()
@@ -435,7 +436,7 @@ def compute_grade_summary(predictions: list) -> dict:
     }
 
 
-def grade_football_date(date: str, dry_run: bool = False, force: bool = False) -> dict | None:
+def grade_football_date(date: str, dry_run: bool = False, force: bool = False) -> Optional[dict]:
     """Grade predictions for a specific date against actual match results from API."""
     print(f"\n{'='*60}")
     print(f"  GRADING FOOTBALL PREDICTIONS | {date}")
@@ -513,7 +514,7 @@ def grade_football_date(date: str, dry_run: bool = False, force: bool = False) -
             if needs_stats and (pred.get("actual_corners_total") is None or pred.get("actual_shots_total") is None):
                 key = (pred["league_id"], pred["home_team"], pred["away_team"])
                 if key in results_map:
-                    _, _, fixture_id = results_map[key]
+                    _, _, _, _, fixture_id = results_map[key]
                     h_id = pred.get("home_team_id")
                     a_id = pred.get("away_team_id")
                     stats = fetch_fixture_statistics(fixture_id, h_id, a_id)

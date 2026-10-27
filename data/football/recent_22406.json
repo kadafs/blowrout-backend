@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623626,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:30:00+00:00",
+      "timestamp": 1792845000,
+      "periods": {
+        "first": 1792845000,
+        "second": 1792848600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22406,
+        "name": "Sudtirol U19",
+        "logo": "https://media.api-sports.io/football/teams/22406.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15685,
+        "name": "Venezia U19",
+        "logo": "https://media.api-sports.io/football/teams/15685.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623601,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 22406,
         "name": "Sudtirol U19",
         "logo": "https://media.api-sports.io/football/teams/22406.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623564,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22406,
-        "name": "Sudtirol U19",
-        "logo": "https://media.api-sports.io/football/teams/22406.png",
-        "winner": null
-      },
-      "away": {
-        "id": 27996,
-        "name": "Mantova U19",
-        "logo": "https://media.api-sports.io/football/teams/27996.png",
         "winner": null
       }
     },

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1576206,
+      "referee": "Eric-Dominic Weisbach, Germany",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 751,
+        "name": "Vonovia Ruhrstadion",
+        "city": "Bochum"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 176,
+        "name": "VfL Bochum",
+        "logo": "https://media.api-sports.io/football/teams/176.png",
+        "winner": null
+      },
+      "away": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576202,
-      "referee": "Wolfgang Haslberger",
+      "referee": "Wolfgang Haslberger, Germany",
       "timezone": "UTC",
       "date": "2026-10-17T11:00:00+00:00",
       "timestamp": 1792234800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576170,
-      "referee": "Felix Bickel, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": 751,
-        "name": "Vonovia Ruhrstadion",
-        "city": "Bochum"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 176,
-        "name": "VfL Bochum",
-        "logo": "https://media.api-sports.io/football/teams/176.png",
-        "winner": null
-      },
-      "away": {
-        "id": 178,
-        "name": "SpVgg Greuther F\u00fcrth",
-        "logo": "https://media.api-sports.io/football/teams/178.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

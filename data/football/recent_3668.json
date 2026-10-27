@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1634986,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T11:00:00+00:00",
+      "timestamp": 1792753200,
+      "periods": {
+        "first": 1792753200,
+        "second": 1792756800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 637,
+      "name": "V.League 2",
+      "country": "Vietnam",
+      "logo": "https://media.api-sports.io/football/leagues/637.png",
+      "flag": "https://media.api-sports.io/flags/vn.svg",
+      "season": 2027,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3668,
+        "name": "Binh Duong",
+        "logo": "https://media.api-sports.io/football/teams/3668.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28216,
+        "name": "Thai Nguyen",
+        "logo": "https://media.api-sports.io/football/teams/28216.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634980,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1629016,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T10:15:00+00:00",
-      "timestamp": 1787480100,
-      "periods": {
-        "first": 1787480100,
-        "second": 1787483700
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3668,
-        "name": "Binh Duong",
-        "logo": "https://media.api-sports.io/football/teams/3668.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3672,
-        "name": "Ho Chi Minh",
-        "logo": "https://media.api-sports.io/football/teams/3672.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

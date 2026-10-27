@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628014,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T14:00:00+00:00",
+      "timestamp": 1792764000,
+      "periods": {
+        "first": 1792764000,
+        "second": 1792767600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 542,
+      "name": "Iraqi League",
+      "country": "Iraq",
+      "logo": "https://media.api-sports.io/football/leagues/542.png",
+      "flag": "https://media.api-sports.io/flags/iq.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8010,
+        "name": "Al Zawra'a",
+        "logo": "https://media.api-sports.io/football/teams/8010.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28571,
+        "name": "Al Shorta",
+        "logo": "https://media.api-sports.io/football/teams/28571.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628003,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630353,
-      "referee": "Z. Alimov",
-      "timezone": "UTC",
-      "date": "2026-09-16T18:15:00+00:00",
-      "timestamp": 1789582500,
-      "periods": {
-        "first": 1789582500,
-        "second": 1789586100
-      },
-      "venue": {
-        "id": null,
-        "name": "Al-Shorta Stadium",
-        "city": "Baghdad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 18,
-      "name": "AFC Champions League Two",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/18.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28571,
-        "name": "Al Shorta",
-        "logo": "https://media.api-sports.io/football/teams/28571.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7504,
-        "name": "Al Seeb",
-        "logo": "https://media.api-sports.io/football/teams/7504.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

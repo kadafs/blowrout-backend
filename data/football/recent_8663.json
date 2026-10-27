@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585296,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": "EBB Stadium at Recreation Ground",
+        "city": "Aldershot"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 43,
+      "name": "National League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/43.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1818,
+        "name": "Aldershot Town",
+        "logo": "https://media.api-sports.io/football/teams/1818.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8663,
+        "name": "Wealdstone",
+        "logo": "https://media.api-sports.io/football/teams/8663.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619501,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585260,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T18:45:00+00:00",
-      "timestamp": 1790707500,
-      "periods": {
-        "first": 1790707500,
-        "second": 1790711100
-      },
-      "venue": {
-        "id": null,
-        "name": "The New Lawn",
-        "city": "Nailsworth"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 43,
-      "name": "National League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/43.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1378,
-        "name": "Forest Green",
-        "logo": "https://media.api-sports.io/football/teams/1378.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8663,
-        "name": "Wealdstone",
-        "logo": "https://media.api-sports.io/football/teams/8663.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

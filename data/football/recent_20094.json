@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621061,
+      "referee": "J. Richardson",
+      "timezone": "UTC",
+      "date": "2026-10-23T11:00:00+00:00",
+      "timestamp": 1792753200,
+      "periods": {
+        "first": 1792753200,
+        "second": 1792756800
+      },
+      "venue": {
+        "id": null,
+        "name": "Ipswich Town Training Centre",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20094,
+        "name": "Ipswich Town U21",
+        "logo": "https://media.api-sports.io/football/teams/20094.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20078,
+        "name": "Birmingham City U21",
+        "logo": "https://media.api-sports.io/football/teams/20078.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1623276,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588886,
-      "referee": "C. Walchester",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 551,
-        "name": "Kenilworth Road",
-        "city": "Luton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1359,
-        "name": "Luton",
-        "logo": "https://media.api-sports.io/football/teams/1359.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20094,
-        "name": "Ipswich Town U21",
-        "logo": "https://media.api-sports.io/football/teams/20094.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

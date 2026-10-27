@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
-      "id": 1603050,
-      "referee": "Abdullah Al-Kharbosh",
+      "id": 1603070,
+      "referee": "Khalid Al-Ahmari, Saudi Arabia",
       "timezone": "UTC",
-      "date": "2026-10-16T13:15:00+00:00",
-      "timestamp": 1792156500,
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 2903,
+        "name": "King Khalid Sport City Stadium",
+        "city": "Tabuk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 307,
+      "name": "Pro League",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/307.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10513,
+        "name": "NEOM",
+        "logo": "https://media.api-sports.io/football/teams/10513.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2951,
+        "name": "Abha",
+        "logo": "https://media.api-sports.io/football/teams/2951.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1603050,
+      "referee": "Abdullah Al-Kharbosh, Saudi Arabia",
+      "timezone": "UTC",
+      "date": "2026-10-16T13:15:00+00:00",
+      "timestamp": 1792156500,
+      "periods": {
+        "first": 1792156500,
+        "second": 1792160100
+      },
+      "venue": {
         "id": 1370,
-        "name": "Prince Mohammed Bin Fahd Stadium",
-        "city": "Daman"
+        "name": "Prince Saud bin Jalawi Stadium",
+        "city": "Dammam"
       },
       "status": {
         "long": "Match Finished",
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1603027,
-      "referee": "Mohammed Nasser Abu Shaqara, Saudi Arabia",
+      "referee": "M. Abu Shaqarah",
       "timezone": "UTC",
       "date": "2026-09-13T18:00:00+00:00",
       "timestamp": 1789322400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789322400,
+        "second": 1789326000
       },
       "venue": {
         "id": null,
-        "name": "Al-Awwal Park",
+        "name": "King Saud University Stadium",
         "city": "Riyadh"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1603025,
-      "referee": "Shukri Alhunfush, Saudi Arabia",
+      "referee": "S. Al Hunfush",
       "timezone": "UTC",
       "date": "2026-09-09T18:00:00+00:00",
       "timestamp": 1788976800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788976800,
+        "second": 1788980400
       },
       "venue": {
         "id": null,
-        "name": "Al-Awwal Park",
+        "name": "King Saud University Stadium",
         "city": "Riyadh"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602999,
-      "referee": "Mohammed Khled Hoish, Saudi Arabia",
-      "timezone": "UTC",
-      "date": "2026-08-28T16:00:00+00:00",
-      "timestamp": 1787932800,
-      "periods": {
-        "first": 1787932800,
-        "second": 1787936400
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Majma'ah Sport City",
-        "city": "Al Majmaah"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 307,
-      "name": "Pro League",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/307.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2944,
-        "name": "Al-Fayha",
-        "logo": "https://media.api-sports.io/football/teams/2944.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2951,
-        "name": "Abha",
-        "logo": "https://media.api-sports.io/football/teams/2951.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

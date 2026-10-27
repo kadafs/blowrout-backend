@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556883,
+      "referee": "C. Scott",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": "Firhill Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 901,
+        "name": "Partick",
+        "logo": "https://media.api-sports.io/football/teams/901.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6784,
+        "name": "Stenhousemuir",
+        "logo": "https://media.api-sports.io/football/teams/6784.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556880,
       "referee": "L. Hogarth",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556855,
-      "referee": "S. Murdoch",
-      "timezone": "UTC",
-      "date": "2026-09-15T18:45:00+00:00",
-      "timestamp": 1789497900,
-      "periods": {
-        "first": 1789497900,
-        "second": 1789501500
-      },
-      "venue": {
-        "id": 4952,
-        "name": "Ochilview Park",
-        "city": "Stenhousemuir"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6784,
-        "name": "Stenhousemuir",
-        "logo": "https://media.api-sports.io/football/teams/6784.png",
-        "winner": true
-      },
-      "away": {
-        "id": 901,
-        "name": "Partick",
-        "logo": "https://media.api-sports.io/football/teams/901.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

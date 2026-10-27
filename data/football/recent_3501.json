@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1509206,
+      "referee": "G. Kikacheishvili",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 2303,
+        "name": "David Petriashvili Stadium",
+        "city": "Tbilisi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 327,
+      "name": "Erovnuli Liga",
+      "country": "Georgia",
+      "logo": "https://media.api-sports.io/football/leagues/327.png",
+      "flag": "https://media.api-sports.io/flags/ge.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3501,
+        "name": "Rustavi",
+        "logo": "https://media.api-sports.io/football/teams/3501.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2262,
+        "name": "Dinamo Tbilisi",
+        "logo": "https://media.api-sports.io/football/teams/2262.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1509202,
-      "referee": null,
+      "referee": "K. Revazashvili",
       "timezone": "UTC",
       "date": "2026-10-18T11:00:00+00:00",
       "timestamp": 1792321200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792321200,
+        "second": 1792324800
       },
       "venue": {
         "id": 693,
-        "name": "Ramaz Shengelia Stadium",
+        "name": "Stadion Ramaz Shengelia",
         "city": "Kutaisi"
       },
       "status": {
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1509195,
-      "referee": null,
+      "referee": "G. Avazashvili",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 2303,
-        "name": "Poladi Stadium",
-        "city": "Rustavi"
+        "name": "David Petriashvili Stadium",
+        "city": "Tbilisi"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1509186,
-      "referee": "I. Kherkhadze",
-      "timezone": "UTC",
-      "date": "2026-09-14T12:00:00+00:00",
-      "timestamp": 1789387200,
-      "periods": {
-        "first": 1789387200,
-        "second": 1789390800
-      },
-      "venue": {
-        "id": null,
-        "name": "Agrano Vachadze Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 327,
-      "name": "Erovnuli Liga",
-      "country": "Georgia",
-      "logo": "https://media.api-sports.io/football/leagues/327.png",
-      "flag": "https://media.api-sports.io/flags/ge.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13847,
-        "name": "Meshakhte",
-        "logo": "https://media.api-sports.io/football/teams/13847.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3501,
-        "name": "Rustavi",
-        "logo": "https://media.api-sports.io/football/teams/3501.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584053,
+      "referee": "Max Kluge",
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 753,
+        "name": "Brita Arena",
+        "city": "Wiesbaden"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1319,
+        "name": "SV Wehen",
+        "logo": "https://media.api-sports.io/football/teams/1319.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1317,
+        "name": "SG Sonnenhof Grossaspach",
+        "logo": "https://media.api-sports.io/football/teams/1317.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584038,
       "referee": "Simon Schreiner",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584008,
-      "referee": "A. Nouhoum",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:30:00+00:00",
-      "timestamp": 1789828200,
-      "periods": {
-        "first": 1789828200,
-        "second": 1789831800
-      },
-      "venue": {
-        "id": 11930,
-        "name": "Ludwigspark Stadion",
-        "city": "Saarbr\u00fccken"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1639,
-        "name": "FC Saarbr\u00fccken",
-        "logo": "https://media.api-sports.io/football/teams/1639.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1317,
-        "name": "SG Sonnenhof Grossaspach",
-        "logo": "https://media.api-sports.io/football/teams/1317.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

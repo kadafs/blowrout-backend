@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1553201,
+      "referee": "Patryk Gryckiewicz, Poland",
+      "timezone": "UTC",
+      "date": "2026-10-24T12:45:00+00:00",
+      "timestamp": 1792845900,
+      "periods": {
+        "first": 1792845900,
+        "second": 1792849500
+      },
+      "venue": {
+        "id": 22306,
+        "name": "Exbud Arena",
+        "city": "Kielce"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 346,
+        "name": "Korona Kielce",
+        "logo": "https://media.api-sports.io/football/teams/346.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3484,
+        "name": "GKS Katowice",
+        "logo": "https://media.api-sports.io/football/teams/3484.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553192,
-      "referee": "Szymon Marciniak",
+      "referee": "Szymon Marciniak, Poland",
       "timezone": "UTC",
       "date": "2026-10-17T15:30:00+00:00",
       "timestamp": 1792251000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792251000,
+        "second": 1792254600
       },
       "venue": {
         "id": 22596,
-        "name": "Arena Katowice",
+        "name": "Stadion miejski w Katowicach",
         "city": "Katowice"
       },
       "status": {
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1553119,
-      "referee": "Marcin Kochanek",
+      "referee": "Marcin Kochanek, Poland",
       "timezone": "UTC",
       "date": "2026-10-12T18:30:00+00:00",
       "timestamp": 1791829800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791829800,
+        "second": 1791833400
       },
       "venue": {
-        "id": null,
-        "name": "Stadion GKS Katowice",
+        "id": 22596,
+        "name": "Arena Katowice",
         "city": "Katowice"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1553188,
-      "referee": "Damian Kos",
+      "referee": "Damian Kos, Poland",
       "timezone": "UTC",
       "date": "2026-10-09T18:30:00+00:00",
       "timestamp": 1791570600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791570600,
+        "second": 1791574200
       },
       "venue": {
         "id": 18633,
-        "name": "Miejski Stadion Pi\u0142karski Rak\u00f3w w Cz\u0119stochowie",
+        "name": "Miejski Stadion Pilkarski Rakow",
         "city": "Czestochowa"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553173,
-      "referee": "Szymon Marciniak, Poland",
-      "timezone": "UTC",
-      "date": "2026-09-19T15:30:00+00:00",
-      "timestamp": 1789831800,
-      "periods": {
-        "first": 1789831800,
-        "second": 1789835400
-      },
-      "venue": {
-        "id": 22596,
-        "name": "Arena Katowice",
-        "city": "Katowice"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3484,
-        "name": "GKS Katowice",
-        "logo": "https://media.api-sports.io/football/teams/3484.png",
-        "winner": true
-      },
-      "away": {
-        "id": 350,
-        "name": "Cracovia Krakow",
-        "logo": "https://media.api-sports.io/football/teams/350.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

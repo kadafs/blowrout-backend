@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643016,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8681,
+        "name": "Anstey Nomads",
+        "logo": "https://media.api-sports.io/football/teams/8681.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7705,
+        "name": "Bromsgrove Sporting",
+        "logo": "https://media.api-sports.io/football/teams/7705.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1596938,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1596895,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T18:45:00+00:00",
-      "timestamp": 1790707500,
-      "periods": {
-        "first": 1790707500,
-        "second": 1790711100
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 931,
-      "name": "Non League Premier - Southern Central",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/931.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7705,
-        "name": "Bromsgrove Sporting",
-        "logo": "https://media.api-sports.io/football/teams/7705.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8656,
-        "name": "Leamington",
-        "logo": "https://media.api-sports.io/football/teams/8656.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

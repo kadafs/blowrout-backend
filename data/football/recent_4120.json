@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641323,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-22T13:00:00+00:00",
+      "timestamp": 1792674000,
+      "periods": {
+        "first": 1792674000,
+        "second": 1792677600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 363,
+      "name": "Premier League",
+      "country": "Ethiopia",
+      "logo": "https://media.api-sports.io/football/leagues/363.png",
+      "flag": "https://media.api-sports.io/flags/et.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28447,
+        "name": "Gamo Chencha",
+        "logo": "https://media.api-sports.io/football/teams/28447.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4120,
+        "name": "Mekelakeya",
+        "logo": "https://media.api-sports.io/football/teams/4120.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641318,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1541102,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-21T12:00:00+00:00",
-      "timestamp": 1782043200,
-      "periods": {
-        "first": 1782043200,
-        "second": 1782046800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 363,
-      "name": "Premier League",
-      "country": "Ethiopia",
-      "logo": "https://media.api-sports.io/football/leagues/363.png",
-      "flag": "https://media.api-sports.io/flags/et.svg",
-      "season": 2025,
-      "round": "Regular Season - 36",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4120,
-        "name": "Mekelakeya",
-        "logo": "https://media.api-sports.io/football/teams/4120.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20030,
-        "name": "Ethiopian Medhin",
-        "logo": "https://media.api-sports.io/football/teams/20030.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

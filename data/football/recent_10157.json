@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1587852,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": "Blackwell Meadows",
+        "city": "Darlington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 50,
+      "name": "National League - North",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/50.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "National League North - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10157,
+        "name": "Darlington 1883",
+        "logo": "https://media.api-sports.io/football/teams/10157.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4707,
+        "name": "Spennymoor Town",
+        "logo": "https://media.api-sports.io/football/teams/4707.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1587837,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638714,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T11:30:00+00:00",
-      "timestamp": 1789817400,
-      "periods": {
-        "first": 1789817400,
-        "second": 1789821000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "2nd Round Qualifying",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20611,
-        "name": "Redcar Town",
-        "logo": "https://media.api-sports.io/football/teams/20611.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10157,
-        "name": "Darlington 1883",
-        "logo": "https://media.api-sports.io/football/teams/10157.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

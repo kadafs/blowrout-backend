@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643031,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7640,
+        "name": "Evesham United",
+        "logo": "https://media.api-sports.io/football/teams/7640.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7644,
+        "name": "Halesowen Town",
+        "logo": "https://media.api-sports.io/football/teams/7644.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1596953,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644167,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T18:45:00+00:00",
-      "timestamp": 1791312300,
-      "periods": {
-        "first": 1791312300,
-        "second": 1791315900
-      },
-      "venue": {
-        "id": 5511,
-        "name": "The Grove",
-        "city": "Halesowen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "3rd Round Qualifying Replays",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7644,
-        "name": "Halesowen Town",
-        "logo": "https://media.api-sports.io/football/teams/7644.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7748,
-        "name": "Stafford Rangers",
-        "logo": "https://media.api-sports.io/football/teams/7748.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

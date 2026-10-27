@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557065,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 1402,
+        "name": "Global Energy Stadium",
+        "city": "Dingwall"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 183,
+      "name": "League One",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/183.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 902,
+        "name": "Ross County",
+        "logo": "https://media.api-sports.io/football/teams/902.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4668,
+        "name": "Airdrie United",
+        "logo": "https://media.api-sports.io/football/teams/4668.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557060,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593626,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": 1402,
-        "name": "Global Energy Stadium",
-        "city": "Dingwall"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 902,
-        "name": "Ross County",
-        "logo": "https://media.api-sports.io/football/teams/902.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6771,
-        "name": "Hearts U21",
-        "logo": "https://media.api-sports.io/football/teams/6771.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 14,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 6,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 14,
-        "away": 0
       },
       "extratime": {
         "home": null,

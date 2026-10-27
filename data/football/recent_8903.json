@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643035,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8654,
+        "name": "Kettering Town",
+        "logo": "https://media.api-sports.io/football/teams/8654.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8903,
+        "name": "Quorn",
+        "logo": "https://media.api-sports.io/football/teams/8903.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1596491,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639624,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 47,
-      "name": "FA Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/47.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 8903,
-        "name": "Quorn",
-        "logo": "https://media.api-sports.io/football/teams/8903.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8656,
-        "name": "Leamington",
-        "logo": "https://media.api-sports.io/football/teams/8656.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1561949,
+      "referee": "Josef Spurny",
+      "timezone": "UTC",
+      "date": "2026-10-24T15:00:00+00:00",
+      "timestamp": 1792854000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 140,
+        "name": "Profertil Arena",
+        "city": "Hartberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 218,
+      "name": "Bundesliga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/218.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1072,
+        "name": "TSV Hartberg",
+        "logo": "https://media.api-sports.io/football/teams/1072.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1025,
+        "name": "Wolfsberger AC",
+        "logo": "https://media.api-sports.io/football/teams/1025.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561947,
-      "referee": "Isa Simsek",
+      "referee": "Isa Simsek, Austria",
       "timezone": "UTC",
       "date": "2026-10-18T12:30:00+00:00",
       "timestamp": 1792326600,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1561936,
-      "referee": "Jakob Semler",
+      "referee": "Jakob Semler, Austria",
       "timezone": "UTC",
       "date": "2026-10-11T12:30:00+00:00",
       "timestamp": 1791721800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561929,
-      "referee": "Alain Sadikovski, Austria",
-      "timezone": "UTC",
-      "date": "2026-09-12T17:30:00+00:00",
-      "timestamp": 1789234200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1761,
-        "name": "Lavanttal-Arena",
-        "city": "Wolfsberg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 218,
-      "name": "Bundesliga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/218.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1025,
-        "name": "Wolfsberger AC",
-        "logo": "https://media.api-sports.io/football/teams/1025.png",
-        "winner": false
-      },
-      "away": {
-        "id": 781,
-        "name": "Rapid Vienna",
-        "logo": "https://media.api-sports.io/football/teams/781.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

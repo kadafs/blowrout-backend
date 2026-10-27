@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552198,
+      "referee": "Robin Hensgens",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1130,
+        "name": "De Adelaarshorst",
+        "city": "Deventer"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 410,
+        "name": "GO Ahead Eagles",
+        "logo": "https://media.api-sports.io/football/teams/410.png",
+        "winner": true
+      },
+      "away": {
+        "id": 427,
+        "name": "Telstar",
+        "logo": "https://media.api-sports.io/football/teams/427.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552192,
       "referee": "Jeroen Manschot",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552186,
-      "referee": "Erwin Blank",
+      "referee": "Erwin Blank, Netherlands",
       "timezone": "UTC",
       "date": "2026-10-11T12:30:00+00:00",
       "timestamp": 1791721800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552142,
-      "referee": "Richard Martens, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-09T16:45:00+00:00",
-      "timestamp": 1788972300,
-      "periods": {
-        "first": 1788972300,
-        "second": 1788975900
-      },
-      "venue": {
-        "id": 1153,
-        "name": "De Grolsch Veste",
-        "city": "Enschede"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 415,
-        "name": "Twente",
-        "logo": "https://media.api-sports.io/football/teams/415.png",
-        "winner": true
-      },
-      "away": {
-        "id": 427,
-        "name": "Telstar",
-        "logo": "https://media.api-sports.io/football/teams/427.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

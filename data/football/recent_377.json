@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494311,
+      "referee": "Adam Ladeback",
+      "timezone": "UTC",
+      "date": "2026-10-24T13:00:00+00:00",
+      "timestamp": 1792846800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1524,
+        "name": "Studenternas IP",
+        "city": "Uppsala"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 370,
+        "name": "Sirius",
+        "logo": "https://media.api-sports.io/football/teams/370.png",
+        "winner": false
+      },
+      "away": {
+        "id": 377,
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494297,
       "referee": "Kristoffer Karlsson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494273,
-      "referee": "Erik Mattsson, Sweden",
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": 21411,
-        "name": "Strawberry Arena",
-        "city": "Solna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 377,
-        "name": "AIK Stockholm",
-        "logo": "https://media.api-sports.io/football/teams/377.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2241,
-        "name": "Vasteras SK FK",
-        "logo": "https://media.api-sports.io/football/teams/2241.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

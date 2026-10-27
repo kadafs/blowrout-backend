@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1401960,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-21T15:00:00+00:00",
+      "timestamp": 1774105200,
+      "periods": {
+        "first": 1774105200,
+        "second": 1774108800
+      },
+      "venue": {
+        "id": 11942,
+        "name": "Melbourne Stadium",
+        "city": "Chelmsford, Essex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 51,
+      "name": "National League - South",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/51.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "South - 40",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4689,
+        "name": "Chelmsford City",
+        "logo": "https://media.api-sports.io/football/teams/4689.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1829,
+        "name": "Dover",
+        "logo": "https://media.api-sports.io/football/teams/1829.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1401613,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 4689,
         "name": "Chelmsford City",
         "logo": "https://media.api-sports.io/football/teams/4689.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 891709,
-      "referee": "C. Walchester",
-      "timezone": "UTC",
-      "date": "2022-11-07T19:45:00+00:00",
-      "timestamp": 1667850300,
-      "periods": {
-        "first": 1667850300,
-        "second": 1667853900
-      },
-      "venue": {
-        "id": 12091,
-        "name": "The EMG Inspire Stadium",
-        "city": "Chelmsford, Essex"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 51,
-      "name": "National League - South",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/51.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2022,
-      "round": "South - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4689,
-        "name": "Chelmsford City",
-        "logo": "https://media.api-sports.io/football/teams/4689.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1829,
-        "name": "Dover",
-        "logo": "https://media.api-sports.io/football/teams/1829.png",
         "winner": null
       }
     },

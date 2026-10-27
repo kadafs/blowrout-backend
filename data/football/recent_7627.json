@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643042,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8965,
+        "name": "Takeley",
+        "logo": "https://media.api-sports.io/football/teams/8965.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7627,
+        "name": "Chertsey Town",
+        "logo": "https://media.api-sports.io/football/teams/7627.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597412,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1641122,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "3rd Round Qualifying",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 8928,
-        "name": "Sheppey United",
-        "logo": "https://media.api-sports.io/football/teams/8928.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7627,
-        "name": "Chertsey Town",
-        "logo": "https://media.api-sports.io/football/teams/7627.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

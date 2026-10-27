@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552200,
+      "referee": "Dennis Higler",
+      "timezone": "UTC",
+      "date": "2026-10-24T16:45:00+00:00",
+      "timestamp": 1792860300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1159,
+        "name": "Koning Willem II Stadion",
+        "city": "Tilburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 195,
+        "name": "Willem II",
+        "logo": "https://media.api-sports.io/football/teams/195.png",
+        "winner": false
+      },
+      "away": {
+        "id": 420,
+        "name": "Cambuur",
+        "logo": "https://media.api-sports.io/football/teams/420.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552193,
       "referee": "Serdar Gozubuyuk",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552185,
-      "referee": "Jannick van der Laan",
+      "referee": "Jannick van der Laan, Netherlands",
       "timezone": "UTC",
       "date": "2026-10-11T10:15:00+00:00",
       "timestamp": 1791713700,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552162,
-      "referee": "Martin Van den Kerkhof, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1119,
-        "name": "AFAS Stadion",
-        "city": "Alkmaar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 201,
-        "name": "AZ Alkmaar",
-        "logo": "https://media.api-sports.io/football/teams/201.png",
-        "winner": null
-      },
-      "away": {
-        "id": 195,
-        "name": "Willem II",
-        "logo": "https://media.api-sports.io/football/teams/195.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

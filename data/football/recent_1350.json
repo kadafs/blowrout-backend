@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564381,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20413,
+        "name": "Hayes Lane",
+        "city": "Bromley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564373,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564329,
-      "referee": "R. Martin",
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": 3535,
-        "name": "Edgeley Park",
-        "city": "Stockport"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4686,
-        "name": "Stockport County",
-        "logo": "https://media.api-sports.io/football/teams/4686.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1350,
-        "name": "Peterborough",
-        "logo": "https://media.api-sports.io/football/teams/1350.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551850,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1126,
+        "name": "Jan Louwers Stadion",
+        "city": "Eindhoven"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 89,
+      "name": "Eerste Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/89.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 422,
+        "name": "FC Eindhoven",
+        "logo": "https://media.api-sports.io/football/teams/422.png",
+        "winner": false
+      },
+      "away": {
+        "id": 411,
+        "name": "Jong PSV U21",
+        "logo": "https://media.api-sports.io/football/teams/411.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551845,
       "referee": "Stan Smit",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551789,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19214,
-        "name": "GS Staalwerken Stadion",
-        "city": "Helmond"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 89,
-      "name": "Eerste Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/89.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 424,
-        "name": "Helmond Sport",
-        "logo": "https://media.api-sports.io/football/teams/424.png",
-        "winner": true
-      },
-      "away": {
-        "id": 411,
-        "name": "Jong PSV U21",
-        "logo": "https://media.api-sports.io/football/teams/411.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

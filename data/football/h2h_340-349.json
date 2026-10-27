@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553193,
+      "referee": "Patryk Gryckiewicz, Poland",
+      "timezone": "UTC",
+      "date": "2026-10-18T10:15:00+00:00",
+      "timestamp": 1792318500,
+      "periods": {
+        "first": 1792318500,
+        "second": 1792322100
+      },
+      "venue": {
+        "id": 18625,
+        "name": "Stadion im. Ernesta Pohla",
+        "city": "Zabrze"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 340,
+        "name": "Gornik Zabrze",
+        "logo": "https://media.api-sports.io/football/teams/340.png",
+        "winner": null
+      },
+      "away": {
+        "id": 349,
+        "name": "Piast Gliwice",
+        "logo": "https://media.api-sports.io/football/teams/349.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1380546,
       "referee": "P. Lasyk",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1035986,
-      "referee": "T. Musial",
-      "timezone": "UTC",
-      "date": "2024-02-10T16:30:00+00:00",
-      "timestamp": 1707582600,
-      "periods": {
-        "first": 1707582600,
-        "second": 1707586200
-      },
-      "venue": {
-        "id": 1255,
-        "name": "Stadion Miejski",
-        "city": "Gliwice"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2023,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 349,
-        "name": "Piast Gliwice",
-        "logo": "https://media.api-sports.io/football/teams/349.png",
-        "winner": false
-      },
-      "away": {
-        "id": 340,
-        "name": "Gornik Zabrze",
-        "logo": "https://media.api-sports.io/football/teams/340.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

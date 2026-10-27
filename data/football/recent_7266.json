@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1587853,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 50,
+      "name": "National League - North",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/50.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "National League North - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8812,
+        "name": "Harborough Town",
+        "logo": "https://media.api-sports.io/football/teams/8812.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7266,
+        "name": "Worksop Town",
+        "logo": "https://media.api-sports.io/football/teams/7266.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1587839,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640768,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:45:00+00:00",
-      "timestamp": 1790102700,
-      "periods": {
-        "first": 1790102700,
-        "second": 1790106300
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "2nd Round Qualifying Replays",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7266,
-        "name": "Worksop Town",
-        "logo": "https://media.api-sports.io/football/teams/7266.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4688,
-        "name": "AFC Telford United",
-        "logo": "https://media.api-sports.io/football/teams/4688.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

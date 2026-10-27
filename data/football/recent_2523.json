@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645653,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T12:15:00+00:00",
+      "timestamp": 1792757700,
+      "periods": {
+        "first": 1792757700,
+        "second": 1792761300
+      },
+      "venue": {
+        "id": null,
+        "name": "Sultan Hassanal Bolkiah Stadium",
+        "city": "B. S. Begawan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 500,
+      "name": "FA Cup",
+      "country": "Malaysia",
+      "logo": "https://media.api-sports.io/football/leagues/500.png",
+      "flag": "https://media.api-sports.io/flags/my.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4202,
+        "name": "DPMM FC Brunei",
+        "logo": "https://media.api-sports.io/football/teams/4202.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2523,
+        "name": "Johor Darul Takzim FC",
+        "logo": "https://media.api-sports.io/football/teams/2523.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601145,
       "referee": "R. J. bin Ali",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638887,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T09:00:00+00:00",
-      "timestamp": 1789894800,
-      "periods": {
-        "first": 1789894800,
-        "second": 1789898400
-      },
-      "venue": {
-        "id": null,
-        "name": "Bandaraya Stadium",
-        "city": "Pulau Pinang"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 500,
-      "name": "FA Cup",
-      "country": "Malaysia",
-      "logo": "https://media.api-sports.io/football/leagues/500.png",
-      "flag": "https://media.api-sports.io/flags/my.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2504,
-        "name": "Penang",
-        "logo": "https://media.api-sports.io/football/teams/2504.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2523,
-        "name": "Johor Darul Takzim FC",
-        "logo": "https://media.api-sports.io/football/teams/2523.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 7
       },
       "extratime": {
         "home": null,

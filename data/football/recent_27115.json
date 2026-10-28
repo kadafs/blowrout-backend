@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1546138,
+      "referee": "J. Wanjiku",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": 1792778400,
+        "second": 1792782000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 950,
+      "name": "World Cup - U17 - Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/950.png",
+      "flag": null,
+      "season": 2026,
+      "round": "World Cup Women U17 - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25230,
+        "name": "New Zealand U17 W",
+        "logo": "https://media.api-sports.io/football/teams/25230.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27115,
+        "name": "Germany U17 W",
+        "logo": "https://media.api-sports.io/football/teams/27115.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1546130,
       "referee": "L. Lee",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545171,
-      "referee": "F. L. Sokjaer",
-      "timezone": "UTC",
-      "date": "2026-05-17T17:00:00+00:00",
-      "timestamp": 1779037200,
-      "periods": {
-        "first": 1779037200,
-        "second": 1779040800
-      },
-      "venue": {
-        "id": null,
-        "name": "Windsor Park",
-        "city": "Belfast"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 1102,
-      "name": "UEFA U17 Championship - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1102.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 27115,
-        "name": "Germany U17 W",
-        "logo": "https://media.api-sports.io/football/teams/27115.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26053,
-        "name": "France U17\tW",
-        "logo": "https://media.api-sports.io/football/teams/26053.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594412,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 1023,
+      "name": "NB III - Southeast",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/1023.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southeast - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5081,
+        "name": "Csepel",
+        "logo": "https://media.api-sports.io/football/teams/5081.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2416,
+        "name": "Szolnoki MAV FC",
+        "logo": "https://media.api-sports.io/football/teams/2416.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594404,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594372,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": "Tiszaligeti Stadion",
-        "city": "Tiszaliget"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1023,
-      "name": "NB III - Southeast",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/1023.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Southeast - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2416,
-        "name": "Szolnoki MAV FC",
-        "logo": "https://media.api-sports.io/football/teams/2416.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2411,
-        "name": "Monori Se",
-        "logo": "https://media.api-sports.io/football/teams/2411.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 4
       },
       "extratime": {
         "home": null,

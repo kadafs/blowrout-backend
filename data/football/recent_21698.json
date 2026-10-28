@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495589,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T13:00:00+00:00",
+      "timestamp": 1792846800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Vilans IP",
+        "city": "Kristianstad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 549,
+      "name": "Damallsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/549.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11079,
+        "name": "Kristianstad W",
+        "logo": "https://media.api-sports.io/football/teams/11079.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21698,
+        "name": "Malm\u00f6 FF W",
+        "logo": "https://media.api-sports.io/football/teams/21698.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495583,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638410,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T16:45:00+00:00",
-      "timestamp": 1790181900,
-      "periods": {
-        "first": 1790181900,
-        "second": 1790185500
-      },
-      "venue": {
-        "id": null,
-        "name": "NV Arena",
-        "city": "Sankt Polten"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10227,
-        "name": "St. P\u00f6lten W",
-        "logo": "https://media.api-sports.io/football/teams/10227.png",
-        "winner": false
-      },
-      "away": {
-        "id": 21698,
-        "name": "Malm\u00f6 FF W",
-        "logo": "https://media.api-sports.io/football/teams/21698.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

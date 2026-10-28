@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1494688,
+      "referee": "Ola Hobber Nilsen",
+      "timezone": "UTC",
+      "date": "2026-10-25T18:15:00+00:00",
+      "timestamp": 1792952100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1184,
+        "name": "Aker Stadion",
+        "city": "Molde"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 329,
+        "name": "Molde",
+        "logo": "https://media.api-sports.io/football/teams/329.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2149,
+        "name": "Fredrikstad",
+        "logo": "https://media.api-sports.io/football/teams/2149.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494782,
-      "referee": "Stian Rovig Sletner",
+      "referee": "Stian Rovig Sletner, Norway",
       "timezone": "UTC",
       "date": "2026-10-18T15:00:00+00:00",
       "timestamp": 1792335600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637880,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T16:00:00+00:00",
-      "timestamp": 1789574400,
-      "periods": {
-        "first": 1789574400,
-        "second": 1789578000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 105,
-      "name": "NM Cupen",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/105.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2027,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7039,
-        "name": "Trygg/Lade",
-        "logo": "https://media.api-sports.io/football/teams/7039.png",
-        "winner": false
-      },
-      "away": {
-        "id": 329,
-        "name": "Molde",
-        "logo": "https://media.api-sports.io/football/teams/329.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

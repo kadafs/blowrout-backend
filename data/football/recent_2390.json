@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1560265,
+      "referee": "F. Karako",
+      "timezone": "UTC",
+      "date": "2026-10-25T12:15:00+00:00",
+      "timestamp": 1792930500,
+      "periods": {
+        "first": 1792930500,
+        "second": 1792934100
+      },
+      "venue": {
+        "id": 817,
+        "name": "Illovszky Rudolf Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 675,
+        "name": "Vasas",
+        "logo": "https://media.api-sports.io/football/teams/675.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2390,
+        "name": "Paks",
+        "logo": "https://media.api-sports.io/football/teams/2390.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560259,
-      "referee": null,
+      "referee": "M. Rusz",
       "timezone": "UTC",
       "date": "2026-10-17T15:00:00+00:00",
       "timestamp": 1792249200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792249200,
+        "second": 1792252800
       },
       "venue": {
         "id": 809,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1560252,
-      "referee": null,
+      "referee": "I. Kovacs",
       "timezone": "UTC",
       "date": "2026-10-10T17:30:00+00:00",
       "timestamp": 1791653400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791653400,
+        "second": 1791657000
       },
       "venue": {
         "id": 809,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1560244,
-      "referee": "Mario Zimmermann",
+      "referee": "M. Zimmermann",
       "timezone": "UTC",
       "date": "2026-09-19T15:00:00+00:00",
       "timestamp": 1789830000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789830000,
+        "second": 1789833600
       },
       "venue": {
         "id": 10569,
-        "name": "V\u00e1rkert Sportp\u00e1lya",
+        "name": "Varkert Stadium",
         "city": "Kisvarda"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560240,
-      "referee": "M. Kapraly",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:00:00+00:00",
-      "timestamp": 1788631200,
-      "periods": {
-        "first": 1788631200,
-        "second": 1788634800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Paks"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2390,
-        "name": "Paks",
-        "logo": "https://media.api-sports.io/football/teams/2390.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2392,
-        "name": "Debreceni VSC",
-        "logo": "https://media.api-sports.io/football/teams/2392.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

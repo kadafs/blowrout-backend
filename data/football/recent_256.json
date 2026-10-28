@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1556685,
+      "referee": "D. Nicolson",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": 1792936800,
+        "second": 1792940400
+      },
+      "venue": {
+        "id": 1398,
+        "name": "Fir Park",
+        "city": "Motherwell"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 256,
+        "name": "Motherwell",
+        "logo": "https://media.api-sports.io/football/teams/256.png",
+        "winner": false
+      },
+      "away": {
+        "id": 254,
+        "name": "Heart Of Midlothian",
+        "logo": "https://media.api-sports.io/football/teams/254.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556680,
-      "referee": null,
+      "referee": "C. Scott",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 19215,
-        "name": "The BBSP Stadium Rugby Park",
+        "name": "Rugby Park",
         "city": "Kilmarnock"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1556674,
-      "referee": null,
+      "referee": "S. McLean",
       "timezone": "UTC",
       "date": "2026-10-11T11:00:00+00:00",
       "timestamp": 1791716400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791716400,
+        "second": 1791720000
       },
       "venue": {
         "id": 1398,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1556664,
-      "referee": null,
+      "referee": "R. Hardie",
       "timezone": "UTC",
       "date": "2026-09-19T14:00:00+00:00",
       "timestamp": 1789826400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789826400,
+        "second": 1789830000
       },
       "venue": {
         "id": 20420,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1556643,
-      "referee": null,
+      "referee": "S. McLean",
       "timezone": "UTC",
       "date": "2026-09-15T18:45:00+00:00",
       "timestamp": 1789497900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789497900,
+        "second": 1789501500
       },
       "venue": {
         "id": 1398,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556661,
-      "referee": "D. Nicolson",
-      "timezone": "UTC",
-      "date": "2026-09-05T14:00:00+00:00",
-      "timestamp": 1788616800,
-      "periods": {
-        "first": 1788616800,
-        "second": 1788620400
-      },
-      "venue": {
-        "id": 1401,
-        "name": "Ibrox Stadium",
-        "city": "Glasgow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 257,
-        "name": "Rangers",
-        "logo": "https://media.api-sports.io/football/teams/257.png",
-        "winner": true
-      },
-      "away": {
-        "id": 256,
-        "name": "Motherwell",
-        "logo": "https://media.api-sports.io/football/teams/256.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

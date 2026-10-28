@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553202,
+      "referee": "Szymon Marciniak",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:30:00+00:00",
+      "timestamp": 1792945800,
+      "periods": {
+        "first": 1792945800,
+        "second": 1792949400
+      },
+      "venue": {
+        "id": 1253,
+        "name": "Polish Army Stadium",
+        "city": "Warsaw"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 339,
+        "name": "Legia Warszawa",
+        "logo": "https://media.api-sports.io/football/teams/339.png",
+        "winner": false
+      },
+      "away": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636280,
       "referee": "Balazs Berke",
       "timezone": "UTC",
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1553194,
-      "referee": "Lukasz Kuzma",
+      "referee": "Lukasz Kuzma, Poland",
       "timezone": "UTC",
       "date": "2026-10-18T15:30:00+00:00",
       "timestamp": 1792337400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792337400,
+        "second": 1792341000
       },
       "venue": {
         "id": 20110,
-        "name": "Stadion Miejski",
+        "name": "Stadion Poznan",
         "city": "Poznan"
       },
       "status": {
@@ -217,12 +287,12 @@
       "date": "2026-10-10T15:30:00+00:00",
       "timestamp": 1791646200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791646200,
+        "second": 1791649800
       },
       "venue": {
         "id": 18628,
-        "name": "Stadion \u015al\u0105ska  Wroc\u0142aw",
+        "name": "Tarczynski Arena",
         "city": "Wroclaw"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643228,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T11:30:00+00:00",
-      "timestamp": 1791027000,
-      "periods": {
-        "first": 1791027000,
-        "second": 1791030600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 347,
-        "name": "Lech Poznan",
-        "logo": "https://media.api-sports.io/football/teams/347.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1320,
-        "name": "Energie Cottbus",
-        "logo": "https://media.api-sports.io/football/teams/1320.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

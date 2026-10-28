@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1593159,
+      "referee": "Levke Scholz",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21035,
+        "name": "RB-Training Center Cottaweg",
+        "city": "Leipzig"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20501,
+        "name": "RB Leipzig W",
+        "logo": "https://media.api-sports.io/football/teams/20501.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1860,
+        "name": "Bayern Munich W",
+        "logo": "https://media.api-sports.io/football/teams/1860.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593150,
-      "referee": "Nadine Westerhoff",
+      "referee": "Nadine Westerhoff, Germany",
       "timezone": "UTC",
       "date": "2026-10-19T16:00:00+00:00",
       "timestamp": 1792425600,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638300,
-      "referee": "Olatz Rivera Olmedo",
-      "timezone": "UTC",
-      "date": "2026-09-22T16:45:00+00:00",
-      "timestamp": 1790095500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "FC Bayern Campus",
-        "city": "Munich"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 525,
-      "name": "UEFA Champions League Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/525.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1860,
-        "name": "Bayern Munich W",
-        "logo": "https://media.api-sports.io/football/teams/1860.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1854,
-        "name": "Manchester City W",
-        "logo": "https://media.api-sports.io/football/teams/1854.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

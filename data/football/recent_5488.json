@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643409,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T14:30:00+00:00",
+      "timestamp": 1792765800,
+      "periods": {
+        "first": 1792765800,
+        "second": 1792769400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 417,
+      "name": "Premier League",
+      "country": "Bahrain",
+      "logo": "https://media.api-sports.io/football/leagues/417.png",
+      "flag": "https://media.api-sports.io/flags/bh.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5485,
+        "name": "East Riffa",
+        "logo": "https://media.api-sports.io/football/teams/5485.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5488,
+        "name": "Muharraq",
+        "logo": "https://media.api-sports.io/football/teams/5488.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643405,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623119,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-10T16:00:00+00:00",
-      "timestamp": 1789056000,
-      "periods": {
-        "first": 1789056000,
-        "second": 1789059600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 417,
-      "name": "Premier League",
-      "country": "Bahrain",
-      "logo": "https://media.api-sports.io/football/leagues/417.png",
-      "flag": "https://media.api-sports.io/flags/bh.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5488,
-        "name": "Muharraq",
-        "logo": "https://media.api-sports.io/football/teams/5488.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5487,
-        "name": "Manama",
-        "logo": "https://media.api-sports.io/football/teams/5487.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

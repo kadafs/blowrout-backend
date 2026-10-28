@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1572713,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T10:30:00+00:00",
+      "timestamp": 1792924200,
+      "periods": {
+        "first": 1792924200,
+        "second": 1792927800
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio de La Condomina",
+        "city": "Murcia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 877,
+      "name": "Segunda Divisi\u00f3n RFEF - Group 3",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/877.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 3 - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 800,
+        "name": "Ucam Murcia",
+        "logo": "https://media.api-sports.io/football/teams/800.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20277,
+        "name": "Cieza",
+        "logo": "https://media.api-sports.io/football/teams/20277.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1572688,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 20277,
         "name": "Cieza",
         "logo": "https://media.api-sports.io/football/teams/20277.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1572652,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T15:30:00+00:00",
-      "timestamp": 1789313400,
-      "periods": {
-        "first": 1789313400,
-        "second": 1789317000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 877,
-      "name": "Segunda Divisi\u00f3n RFEF - Group 3",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/877.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 3 - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20277,
-        "name": "Cieza",
-        "logo": "https://media.api-sports.io/football/teams/20277.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9691,
-        "name": "Elche II",
-        "logo": "https://media.api-sports.io/football/teams/9691.png",
         "winner": false
       }
     },

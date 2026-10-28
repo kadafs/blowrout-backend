@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1576212,
+      "referee": "Felix Wagner, Germany",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 733,
+        "name": "Avnet Arena",
+        "city": "Magdeburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 179,
+        "name": "1. FC Magdeburg",
+        "logo": "https://media.api-sports.io/football/teams/179.png",
+        "winner": true
+      },
+      "away": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "logo": "https://media.api-sports.io/football/teams/785.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576204,
-      "referee": "Robin Braun",
+      "referee": "Robin Braun, Germany",
       "timezone": "UTC",
       "date": "2026-10-18T11:30:00+00:00",
       "timestamp": 1792323000,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1576175,
-      "referee": "M. P. Eckermann",
+      "referee": "Marc Philip Eckermann, Germany",
       "timezone": "UTC",
       "date": "2026-09-12T11:00:00+00:00",
       "timestamp": 1789210800,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Avnet-Arena",
+        "name": "Avnet Arena",
         "city": "Magdeburg"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576164,
-      "referee": "Florian Exner, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-06T11:30:00+00:00",
-      "timestamp": 1788694200,
-      "periods": {
-        "first": 1788694200,
-        "second": 1788697800
-      },
-      "venue": {
-        "id": null,
-        "name": "Olympiastadion",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 159,
-        "name": "Hertha BSC",
-        "logo": "https://media.api-sports.io/football/teams/159.png",
-        "winner": true
-      },
-      "away": {
-        "id": 179,
-        "name": "1. FC Magdeburg",
-        "logo": "https://media.api-sports.io/football/teams/179.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

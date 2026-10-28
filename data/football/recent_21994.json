@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1590440,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 552,
+      "name": "3. Lig - Group 1",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/552.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3. Lig Group 1 - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 21035,
+        "name": "Tokat Bld Plevnespor",
+        "logo": "https://media.api-sports.io/football/teams/21035.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21994,
+        "name": "K\u00fc\u00e7\u00fck\u00e7ekmece Sinopspor",
+        "logo": "https://media.api-sports.io/football/teams/21994.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590427,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1590402,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T13:00:00+00:00",
-      "timestamp": 1790427600,
-      "periods": {
-        "first": 1790427600,
-        "second": 1790431200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 552,
-      "name": "3. Lig - Group 1",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/552.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "3. Lig Group 1 - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21994,
-        "name": "K\u00fc\u00e7\u00fck\u00e7ekmece Sinopspor",
-        "logo": "https://media.api-sports.io/football/teams/21994.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3611,
-        "name": "Zonguldak K\u00f6m\u00fcrspor",
-        "logo": "https://media.api-sports.io/football/teams/3611.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559814,
+      "referee": "O. Pechanec",
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadium Viktoria Zizkov",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 346,
+      "name": "FNL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/346.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8618,
+        "name": "Slavia Praha II",
+        "logo": "https://media.api-sports.io/football/teams/8618.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3725,
+        "name": "Prost\u011bjov",
+        "logo": "https://media.api-sports.io/football/teams/3725.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559805,
       "referee": "D. Lovetinsky",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1559778,
-      "referee": "J. Vsetecka",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": null,
-        "name": "Mestsky Stadion Ceska Lipa",
-        "city": "Ceska Lipa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 346,
-      "name": "FNL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/346.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7270,
-        "name": "Arsenal \u010cesk\u00e1 L\u00edpa",
-        "logo": "https://media.api-sports.io/football/teams/7270.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3725,
-        "name": "Prost\u011bjov",
-        "logo": "https://media.api-sports.io/football/teams/3725.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

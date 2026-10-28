@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552202,
+      "referee": "Ingmar Oostrom",
+      "timezone": "UTC",
+      "date": "2026-10-25T11:15:00+00:00",
+      "timestamp": 1792926900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1129,
+        "name": "Fortuna Sittard Stadion",
+        "city": "Sitard"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 205,
+        "name": "Fortuna Sittard",
+        "logo": "https://media.api-sports.io/football/teams/205.png",
+        "winner": true
+      },
+      "away": {
+        "id": 196,
+        "name": "Excelsior",
+        "logo": "https://media.api-sports.io/football/teams/196.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552189,
-      "referee": "Robin Hensgens",
+      "referee": "Robin Hensgens, Netherlands",
       "timezone": "UTC",
       "date": "2026-10-16T18:00:00+00:00",
       "timestamp": 1792173600,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552188,
-      "referee": "Richard Martens",
+      "referee": "Richard Martens, Netherlands",
       "timezone": "UTC",
       "date": "2026-10-11T14:45:00+00:00",
       "timestamp": 1791729900,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552136,
-      "referee": "Erwin Blank, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-08T16:45:00+00:00",
-      "timestamp": 1788885900,
-      "periods": {
-        "first": 1788885900,
-        "second": 1788889500
-      },
-      "venue": {
-        "id": 1140,
-        "name": "Goffertstadion",
-        "city": "Nijmegen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 413,
-        "name": "NEC Nijmegen",
-        "logo": "https://media.api-sports.io/football/teams/413.png",
-        "winner": null
-      },
-      "away": {
-        "id": 196,
-        "name": "Excelsior",
-        "logo": "https://media.api-sports.io/football/teams/196.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

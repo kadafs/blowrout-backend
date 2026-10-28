@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495588,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T13:00:00+00:00",
+      "timestamp": 1792846800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20568,
+        "name": "Hammarby IP",
+        "city": "Stockholm"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 549,
+      "name": "Damallsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/549.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15630,
+        "name": "Hammarby W",
+        "logo": "https://media.api-sports.io/football/teams/15630.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11076,
+        "name": "Djurg\u00e5rden W",
+        "logo": "https://media.api-sports.io/football/teams/11076.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495581,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638402,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T17:00:00+00:00",
-      "timestamp": 1790182800,
-      "periods": {
-        "first": 1790182800,
-        "second": 1790186400
-      },
-      "venue": {
-        "id": 20568,
-        "name": "Hammarby IP",
-        "city": "Stockholm"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 15630,
-        "name": "Hammarby W",
-        "logo": "https://media.api-sports.io/football/teams/15630.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20374,
-        "name": "Rangers W",
-        "logo": "https://media.api-sports.io/football/teams/20374.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

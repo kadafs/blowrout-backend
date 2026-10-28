@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1490558,
+      "referee": "Filip Dujic, Canada",
+      "timezone": "UTC",
+      "date": "2026-10-24T21:30:00+00:00",
+      "timestamp": 1792877400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21544,
+        "name": "Sports Illustrated Stadium",
+        "city": "Harrison"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1602,
+        "name": "New York Red Bulls",
+        "logo": "https://media.api-sports.io/football/teams/1602.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9568,
+        "name": "Inter Miami",
+        "logo": "https://media.api-sports.io/football/teams/9568.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490543,
-      "referee": "Allen Chapman",
+      "referee": "Allen Chapman, USA",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1490526,
-      "referee": "Lorenzo Hernandez",
+      "referee": "Lorenzo Hernandez, USA",
       "timezone": "UTC",
       "date": "2026-10-14T23:30:00+00:00",
       "timestamp": 1792020600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490495,
-      "referee": "Rosendo Mendoza, USA",
-      "timezone": "UTC",
-      "date": "2026-09-20T23:00:00+00:00",
-      "timestamp": 1789945200,
-      "periods": {
-        "first": 1789945200,
-        "second": 1789948800
-      },
-      "venue": {
-        "id": null,
-        "name": "Nu Stadium",
-        "city": "Miami"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9568,
-        "name": "Inter Miami",
-        "logo": "https://media.api-sports.io/football/teams/9568.png",
-        "winner": null
-      },
-      "away": {
-        "id": 25484,
-        "name": "San Diego",
-        "logo": "https://media.api-sports.io/football/teams/25484.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

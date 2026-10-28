@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494688,
+      "referee": "Ola Hobber Nilsen",
+      "timezone": "UTC",
+      "date": "2026-10-25T18:15:00+00:00",
+      "timestamp": 1792952100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1184,
+        "name": "Aker Stadion",
+        "city": "Molde"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 329,
+        "name": "Molde",
+        "logo": "https://media.api-sports.io/football/teams/329.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2149,
+        "name": "Fredrikstad",
+        "logo": "https://media.api-sports.io/football/teams/2149.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494787,
       "referee": "Marius Grotta, Norway",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494757,
-      "referee": "Mohammad Usman Aslam, Norway",
-      "timezone": "UTC",
-      "date": "2026-09-13T17:15:00+00:00",
-      "timestamp": 1789319700,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Fredrikstad Stadion",
-        "city": "Fredrikstad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2149,
-        "name": "Fredrikstad",
-        "logo": "https://media.api-sports.io/football/teams/2149.png",
-        "winner": null
-      },
-      "away": {
-        "id": 333,
-        "name": "Sarpsborg 08 FF",
-        "logo": "https://media.api-sports.io/football/teams/333.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601570,
+      "referee": "Mattia Drigo",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 920,
+        "name": "Renzo Barbera",
+        "city": "Palermo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 136,
+      "name": "Serie B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/136.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 522,
+        "name": "Palermo",
+        "logo": "https://media.api-sports.io/football/teams/522.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1581,
+        "name": "Carrarese",
+        "logo": "https://media.api-sports.io/football/teams/1581.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601555,
       "referee": "Federico La Penna, Italy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601514,
-      "referee": "Giuseppe Mucera, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-05T17:30:00+00:00",
-      "timestamp": 1788629400,
-      "periods": {
-        "first": 1788629400,
-        "second": 1788633000
-      },
-      "venue": {
-        "id": 885,
-        "name": "Stadio dei Marmi",
-        "city": "Carrara"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 136,
-      "name": "Serie B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/136.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1581,
-        "name": "Carrarese",
-        "logo": "https://media.api-sports.io/football/teams/1581.png",
-        "winner": false
-      },
-      "away": {
-        "id": 511,
-        "name": "Empoli",
-        "logo": "https://media.api-sports.io/football/teams/511.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

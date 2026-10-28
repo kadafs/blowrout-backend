@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560054,
+      "referee": "Antonin Bohata",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19513,
+        "name": "Stadion Letn\u00e1",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3719,
+        "name": "Slov\u00e1cko",
+        "logo": "https://media.api-sports.io/football/teams/3719.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560048,
       "referee": "Vojtech Opocensky",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560017,
-      "referee": "D. Vokoun",
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Dolicek",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3714,
-        "name": "Bohemians 1905",
-        "logo": "https://media.api-sports.io/football/teams/3714.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3719,
-        "name": "Slov\u00e1cko",
-        "logo": "https://media.api-sports.io/football/teams/3719.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

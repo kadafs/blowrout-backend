@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1509203,
+      "referee": "B. Bregadze",
+      "timezone": "UTC",
+      "date": "2026-10-24T15:00:00+00:00",
+      "timestamp": 1792854000,
+      "periods": {
+        "first": 1792854000,
+        "second": 1792857600
+      },
+      "venue": {
+        "id": null,
+        "name": "Batumi Arena",
+        "city": "Batumi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 327,
+      "name": "Erovnuli Liga",
+      "country": "Georgia",
+      "logo": "https://media.api-sports.io/football/leagues/327.png",
+      "flag": "https://media.api-sports.io/flags/ge.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 705,
+        "name": "Dinamo Batumi",
+        "logo": "https://media.api-sports.io/football/teams/705.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10017,
+        "name": "Samgurali",
+        "logo": "https://media.api-sports.io/football/teams/10017.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1509200,
-      "referee": null,
+      "referee": "I. Shengelia",
       "timezone": "UTC",
       "date": "2026-10-17T15:00:00+00:00",
       "timestamp": 1792249200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792249200,
+        "second": 1792252800
       },
       "venue": {
         "id": 2305,
-        "name": "Mtskheta Park",
+        "name": "David Petriashvili Stadium",
         "city": "Tbilisi"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1509193,
-      "referee": null,
+      "referee": "A. Aptsiauri",
       "timezone": "UTC",
       "date": "2026-10-11T15:00:00+00:00",
       "timestamp": 1791730800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791730800,
+        "second": 1791734400
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1509183,
-      "referee": "G. Kikacheishvili",
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": 1789308000,
-        "second": 1789311600
-      },
-      "venue": {
-        "id": null,
-        "name": "Tengiz Burjanadze Stadium",
-        "city": "Gori"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 327,
-      "name": "Erovnuli Liga",
-      "country": "Georgia",
-      "logo": "https://media.api-sports.io/football/leagues/327.png",
-      "flag": "https://media.api-sports.io/flags/ge.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3499,
-        "name": "Dila",
-        "logo": "https://media.api-sports.io/football/teams/3499.png",
-        "winner": null
-      },
-      "away": {
-        "id": 705,
-        "name": "Dinamo Batumi",
-        "logo": "https://media.api-sports.io/football/teams/705.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611783,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T10:00:00+00:00",
+      "timestamp": 1792576800,
+      "periods": {
+        "first": 1792576800,
+        "second": 1792580400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1065,
+      "name": "U19 League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/1065.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23082,
+        "name": "Veres Rivne U19",
+        "logo": "https://media.api-sports.io/football/teams/23082.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7898,
+        "name": "Dynamo Kyiv U19",
+        "logo": "https://media.api-sports.io/football/teams/7898.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1611774,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611758,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T11:00:00+00:00",
-      "timestamp": 1788951600,
-      "periods": {
-        "first": 1788951600,
-        "second": 1788955200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 1065,
-      "name": "U19 League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/1065.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 23084,
-        "name": "Zhytomyr U19",
-        "logo": "https://media.api-sports.io/football/teams/23084.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7898,
-        "name": "Dynamo Kyiv U19",
-        "logo": "https://media.api-sports.io/football/teams/7898.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

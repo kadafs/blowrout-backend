@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1603588,
+      "referee": "Andreas Tehrany",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:00:00+00:00",
+      "timestamp": 1792944000,
+      "periods": {
+        "first": 1792944000,
+        "second": 1792947600
+      },
+      "venue": {
+        "id": null,
+        "name": "GSP Stadium",
+        "city": "Nicosia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2247,
+        "name": "Apoel Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/2247.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14126,
+        "name": "Omonia 29is Maiou",
+        "logo": "https://media.api-sports.io/football/teams/14126.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603584,
-      "referee": "Chrysovalantis Theouli",
+      "referee": "Chrysovalantis Theouli, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-19T15:00:00+00:00",
       "timestamp": 1792422000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792422000,
+        "second": 1792425600
       },
       "venue": {
         "id": 7134,
         "name": "Stelios Kyriakides Stadium",
-        "city": "Paphos"
+        "city": "Pafos"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1603574,
-      "referee": "Marios Christoforou",
+      "referee": "Marios Christoforou, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-10T16:00:00+00:00",
       "timestamp": 1791648000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791648000,
+        "second": 1791651600
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603550,
-      "referee": "Panagiotis Hadjigeorghiou, Cyprus",
-      "timezone": "UTC",
-      "date": "2026-09-06T16:00:00+00:00",
-      "timestamp": 1788710400,
-      "periods": {
-        "first": 1788710400,
-        "second": 1788714000
-      },
-      "venue": {
-        "id": null,
-        "name": "GSP Stadium",
-        "city": "Nicosia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2247,
-        "name": "Apoel Nicosia",
-        "logo": "https://media.api-sports.io/football/teams/2247.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3396,
-        "name": "AEL",
-        "logo": "https://media.api-sports.io/football/teams/3396.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

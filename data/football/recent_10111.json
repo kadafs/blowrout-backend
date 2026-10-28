@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632445,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-22T18:30:00+00:00",
+      "timestamp": 1792693800,
+      "periods": {
+        "first": 1792693800,
+        "second": 1792697400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 243,
+      "name": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/243.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Promotion Group - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23310,
+        "name": "San Antonio",
+        "logo": "https://media.api-sports.io/football/teams/23310.png",
+        "winner": null
+      },
+      "away": {
+        "id": 10111,
+        "name": "9 de Octubre",
+        "logo": "https://media.api-sports.io/football/teams/10111.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632442,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632431,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-17T20:15:00+00:00",
-      "timestamp": 1789676100,
-      "periods": {
-        "first": 1789676100,
-        "second": 1789679700
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 243,
-      "name": "Liga Pro Serie B",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/243.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2026,
-      "round": "Promotion Group - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21103,
-        "name": "Cuniburo",
-        "logo": "https://media.api-sports.io/football/teams/21103.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10111,
-        "name": "9 de Octubre",
-        "logo": "https://media.api-sports.io/football/teams/10111.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

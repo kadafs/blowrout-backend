@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562682,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": "TCM Strahov",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8619,
+        "name": "Sparta Praha II",
+        "logo": "https://media.api-sports.io/football/teams/8619.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7334,
+        "name": "P\u00edsek",
+        "logo": "https://media.api-sports.io/football/teams/7334.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562671,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562624,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T15:00:00+00:00",
-      "timestamp": 1788706800,
-      "periods": {
-        "first": 1788706800,
-        "second": 1788710400
-      },
-      "venue": {
-        "id": null,
-        "name": "Fotbalovy stadion Stechovice",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14005,
-        "name": "Povltava FA",
-        "logo": "https://media.api-sports.io/football/teams/14005.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8619,
-        "name": "Sparta Praha II",
-        "logo": "https://media.api-sports.io/football/teams/8619.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

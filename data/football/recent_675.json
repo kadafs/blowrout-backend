@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1560265,
+      "referee": "F. Karako",
+      "timezone": "UTC",
+      "date": "2026-10-25T12:15:00+00:00",
+      "timestamp": 1792930500,
+      "periods": {
+        "first": 1792930500,
+        "second": 1792934100
+      },
+      "venue": {
+        "id": 817,
+        "name": "Illovszky Rudolf Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 675,
+        "name": "Vasas",
+        "logo": "https://media.api-sports.io/football/teams/675.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2390,
+        "name": "Paks",
+        "logo": "https://media.api-sports.io/football/teams/2390.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560257,
-      "referee": null,
+      "referee": "B. Hanyecz",
       "timezone": "UTC",
       "date": "2026-10-16T18:00:00+00:00",
       "timestamp": 1792173600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792173600,
+        "second": 1792177200
       },
       "venue": {
         "id": 802,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1560253,
-      "referee": null,
+      "referee": "M. Rusz",
       "timezone": "UTC",
       "date": "2026-10-10T12:45:00+00:00",
       "timestamp": 1791636300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791636300,
+        "second": 1791639900
       },
       "venue": {
         "id": 817,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1560243,
-      "referee": "Marcell Derdak",
+      "referee": "M. Derdak",
       "timezone": "UTC",
       "date": "2026-09-19T17:30:00+00:00",
       "timestamp": 1789839000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789839000,
+        "second": 1789842600
       },
       "venue": {
         "id": 795,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560241,
-      "referee": "M. Zimmermann",
-      "timezone": "UTC",
-      "date": "2026-09-04T16:30:00+00:00",
-      "timestamp": 1788539400,
-      "periods": {
-        "first": 1788539400,
-        "second": 1788543000
-      },
-      "venue": {
-        "id": 817,
-        "name": "Illovszky Rudolf Stadion",
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 675,
-        "name": "Vasas",
-        "logo": "https://media.api-sports.io/football/teams/675.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2403,
-        "name": "Nyiregyhaza",
-        "logo": "https://media.api-sports.io/football/teams/2403.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601572,
+      "referee": "Niccolo Turrini",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 890,
+        "name": "Marc'Antonio Bentegodi",
+        "city": "Verona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 136,
+      "name": "Serie B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/136.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 504,
+        "name": "Hellas Verona",
+        "logo": "https://media.api-sports.io/football/teams/504.png",
+        "winner": null
+      },
+      "away": {
+        "id": 801,
+        "name": "Pisa",
+        "logo": "https://media.api-sports.io/football/teams/801.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601562,
       "referee": "Mario Perri, Italy",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601524,
-      "referee": "Livio Marinelli, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-11T19:00:00+00:00",
-      "timestamp": 1789153200,
-      "periods": {
-        "first": 1789153200,
-        "second": 1789156800
-      },
-      "venue": {
-        "id": 880,
-        "name": "Stadio Ciro Vigorito",
-        "city": "Benevento"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 136,
-      "name": "Serie B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/136.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 506,
-        "name": "Benevento",
-        "logo": "https://media.api-sports.io/football/teams/506.png",
-        "winner": true
-      },
-      "away": {
-        "id": 504,
-        "name": "Hellas Verona",
-        "logo": "https://media.api-sports.io/football/teams/504.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

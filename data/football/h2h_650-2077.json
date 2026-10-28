@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638092,
+      "referee": "Joona Kontinen, Finland",
+      "timezone": "UTC",
+      "date": "2026-09-08T15:00:00+00:00",
+      "timestamp": 1788879600,
+      "periods": {
+        "first": 1788879600,
+        "second": 1788883200
+      },
+      "venue": {
+        "id": 19205,
+        "name": "Lemonsoft Stadion",
+        "city": "Vaasa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 244,
+      "name": "Veikkausliiga",
+      "country": "Finland",
+      "logo": "https://media.api-sports.io/football/leagues/244.png",
+      "flag": "https://media.api-sports.io/flags/fi.svg",
+      "season": 2026,
+      "round": "Championship Group - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 650,
+        "name": "VPS",
+        "logo": "https://media.api-sports.io/football/teams/650.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2077,
+        "name": "AC Oulu",
+        "logo": "https://media.api-sports.io/football/teams/2077.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495711,
-      "referee": "P. Simani",
+      "referee": "Peiman Simani, Finland",
       "timezone": "UTC",
       "date": "2026-06-23T15:00:00+00:00",
       "timestamp": 1782226800,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1495657,
-      "referee": "D. Antamo",
+      "referee": "Dennis Antamo, Finland",
       "timezone": "UTC",
       "date": "2026-04-18T14:00:00+00:00",
       "timestamp": 1776520800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1342737,
-      "referee": "Joona Manninen, Finland",
-      "timezone": "UTC",
-      "date": "2025-06-28T20:00:00+00:00",
-      "timestamp": 1751140800,
-      "periods": {
-        "first": 1751140800,
-        "second": 1751144400
-      },
-      "venue": {
-        "id": 627,
-        "name": "Raatin stadion",
-        "city": "Oulu"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 244,
-      "name": "Veikkausliiga",
-      "country": "Finland",
-      "logo": "https://media.api-sports.io/football/leagues/244.png",
-      "flag": "https://media.api-sports.io/flags/fi.svg",
-      "season": 2025,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2077,
-        "name": "AC Oulu",
-        "logo": "https://media.api-sports.io/football/teams/2077.png",
-        "winner": true
-      },
-      "away": {
-        "id": 650,
-        "name": "VPS",
-        "logo": "https://media.api-sports.io/football/teams/650.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622658,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T16:50:00+00:00",
+      "timestamp": 1792774200,
+      "periods": {
+        "first": 1792774200,
+        "second": 1792777800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 330,
+      "name": "Premier League",
+      "country": "Kuwait",
+      "logo": "https://media.api-sports.io/football/leagues/330.png",
+      "flag": "https://media.api-sports.io/flags/kw.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3539,
+        "name": "Al Tadhamon",
+        "logo": "https://media.api-sports.io/football/teams/3539.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3535,
+        "name": "Al Kuwait",
+        "logo": "https://media.api-sports.io/football/teams/3535.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634788,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1622644,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T15:35:00+00:00",
-      "timestamp": 1788622500,
-      "periods": {
-        "first": 1788622500,
-        "second": 1788626100
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Kuwait Sports Club Stadium",
-        "city": "Kuwait"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 330,
-      "name": "Premier League",
-      "country": "Kuwait",
-      "logo": "https://media.api-sports.io/football/leagues/330.png",
-      "flag": "https://media.api-sports.io/flags/kw.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3535,
-        "name": "Al Kuwait",
-        "logo": "https://media.api-sports.io/football/teams/3535.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3534,
-        "name": "Al Jahra",
-        "logo": "https://media.api-sports.io/football/teams/3534.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

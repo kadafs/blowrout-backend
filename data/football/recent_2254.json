@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1553897,
+      "referee": "S. Jovanovic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 1427,
+        "name": "\u010cair Stadium",
+        "city": "Ni\u0161"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2254,
+        "name": "Radnicki NIS",
+        "logo": "https://media.api-sports.io/football/teams/2254.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2643,
+        "name": "Novi Pazar",
+        "logo": "https://media.api-sports.io/football/teams/2643.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553889,
-      "referee": null,
+      "referee": "N. Minakovic",
       "timezone": "UTC",
       "date": "2026-10-16T15:00:00+00:00",
       "timestamp": 1792162800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792162800,
+        "second": 1792166400
       },
       "venue": {
         "id": 19382,
-        "name": "Stadion FK Radnik",
-        "city": "Sudulika"
+        "name": "EFBET Stadion",
+        "city": "Surdulica"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1553883,
-      "referee": null,
+      "referee": "S. Ostracanin",
       "timezone": "UTC",
       "date": "2026-10-11T13:00:00+00:00",
       "timestamp": 1791723600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791723600,
+        "second": 1791727200
       },
       "venue": {
         "id": 1427,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1553871,
-      "referee": null,
+      "referee": "N. Simovic",
       "timezone": "UTC",
       "date": "2026-09-20T17:00:00+00:00",
       "timestamp": 1789923600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789923600,
+        "second": 1789927200
       },
       "venue": {
         "id": 1406,
-        "name": "Rajko Miti\u0107 Stadion",
+        "name": "Stadion Rajko Mit",
         "city": "Belgrade"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553868,
-      "referee": "M. Milanovic",
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": 1789308000,
-        "second": 1789311600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2254,
-        "name": "Radnicki NIS",
-        "logo": "https://media.api-sports.io/football/teams/2254.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2633,
-        "name": "OFK Beograd",
-        "logo": "https://media.api-sports.io/football/teams/2633.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

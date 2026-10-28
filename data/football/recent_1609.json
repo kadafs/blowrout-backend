@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1490561,
+      "referee": "Malik Badawi",
+      "timezone": "UTC",
+      "date": "2026-10-24T23:30:00+00:00",
+      "timestamp": 1792884600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1620,
+        "name": "Talen Energy Stadium",
+        "city": "Philadelphia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1599,
+        "name": "Philadelphia Union",
+        "logo": "https://media.api-sports.io/football/teams/1599.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1609,
+        "name": "New England Revolution",
+        "logo": "https://media.api-sports.io/football/teams/1609.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490547,
-      "referee": "Bensalah, Nabil",
+      "referee": "Nabil Bensalah, USA",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490484,
-      "referee": "Sergiy Boyko, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-19T23:30:00+00:00",
-      "timestamp": 1789860600,
-      "periods": {
-        "first": 1789860600,
-        "second": 1789864200
-      },
-      "venue": {
-        "id": null,
-        "name": "Gillette Stadium",
-        "city": "Foxborough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1609,
-        "name": "New England Revolution",
-        "logo": "https://media.api-sports.io/football/teams/1609.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1598,
-        "name": "Orlando City SC",
-        "logo": "https://media.api-sports.io/football/teams/1598.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

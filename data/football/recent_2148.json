@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495993,
+      "referee": "H. Sletner",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:00:00+00:00",
+      "timestamp": 1792944000,
+      "periods": {
+        "first": 1792944000,
+        "second": 1792947600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Moss"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7012,
+        "name": "Moss",
+        "logo": "https://media.api-sports.io/football/teams/7012.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2148,
+        "name": "Asane",
+        "logo": "https://media.api-sports.io/football/teams/2148.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495983,
       "referee": "A. Al Hatem",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495951,
-      "referee": "A. Bodding",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 12683,
-        "name": "Asane Arena",
-        "city": "Bergen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2148,
-        "name": "Asane",
-        "logo": "https://media.api-sports.io/football/teams/2148.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2142,
-        "name": "Bryne",
-        "logo": "https://media.api-sports.io/football/teams/2142.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

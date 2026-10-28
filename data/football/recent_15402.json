@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607706,
+      "referee": "Megan Wilson",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22764,
+        "name": "The DCS Stadium",
+        "city": "Stratford-upon-Avon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 44,
+      "name": "FA WSL",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/44.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1845,
+        "name": "Birmingham City W",
+        "logo": "https://media.api-sports.io/football/teams/1845.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15402,
+        "name": "Charlton Athletic W",
+        "logo": "https://media.api-sports.io/football/teams/15402.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1612659,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607684,
-      "referee": "Megan Wilson",
-      "timezone": "UTC",
-      "date": "2026-09-26T12:30:00+00:00",
-      "timestamp": 1790425800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 518,
-        "name": "The Oakwood",
-        "city": "Crayford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 44,
-      "name": "FA WSL",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/44.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15402,
-        "name": "Charlton Athletic W",
-        "logo": "https://media.api-sports.io/football/teams/15402.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1854,
-        "name": "Manchester City W",
-        "logo": "https://media.api-sports.io/football/teams/1854.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

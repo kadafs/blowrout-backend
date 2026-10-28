@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575085,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T10:15:00+00:00",
+      "timestamp": 1792318500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportcomplex De Toekomst",
+        "city": "Ouder-Amstel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 91,
+      "name": "Eredivisie Women",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/91.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1898,
+        "name": "Ajax W",
+        "logo": "https://media.api-sports.io/football/teams/1898.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1895,
+        "name": "PSV/Eindhoven W",
+        "logo": "https://media.api-sports.io/football/teams/1895.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575082,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 8,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575071,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:30:00+00:00",
-      "timestamp": 1789828200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportcomplex De Toekomst",
-        "city": "Ouder-Amstel"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 91,
-      "name": "Eredivisie Women",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/91.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1898,
-        "name": "Ajax W",
-        "logo": "https://media.api-sports.io/football/teams/1898.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21939,
-        "name": "AZ W",
-        "logo": "https://media.api-sports.io/football/teams/21939.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 1
       },
       "extratime": {
         "home": null,

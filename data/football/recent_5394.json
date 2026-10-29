@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610649,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": "RCAF Old Stadium",
+        "city": "Phnom Penh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 410,
+      "name": "C-League",
+      "country": "Cambodia",
+      "logo": "https://media.api-sports.io/football/leagues/410.png",
+      "flag": "https://media.api-sports.io/flags/kh.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5391,
+        "name": "National Defense",
+        "logo": "https://media.api-sports.io/football/teams/5391.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5394,
+        "name": "Phnom Penh Crown",
+        "logo": "https://media.api-sports.io/football/teams/5394.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610646,
       "referee": null,
       "timezone": "UTC",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1630369,
-      "referee": "Zaid Thamer Mohammed",
+      "referee": "Zaid Thamer Mohammed, Iraq",
       "timezone": "UTC",
       "date": "2026-10-15T10:00:00+00:00",
       "timestamp": 1792058400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792058400,
+        "second": 1792062000
       },
       "venue": {
         "id": 5166,
-        "name": "Gangneung Stadium",
-        "city": "Gangneung"
+        "name": "Chuncheon Songam Stadium",
+        "city": "Chuncheon"
       },
       "status": {
         "long": "Match Finished",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610629,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T11:00:00+00:00",
-      "timestamp": 1788606000,
-      "periods": {
-        "first": 1788606000,
-        "second": 1788609600
-      },
-      "venue": {
-        "id": 4069,
-        "name": "RSN Stadium",
-        "city": "Phnom Penh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 410,
-      "name": "C-League",
-      "country": "Cambodia",
-      "logo": "https://media.api-sports.io/football/leagues/410.png",
-      "flag": "https://media.api-sports.io/flags/kh.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5394,
-        "name": "Phnom Penh Crown",
-        "logo": "https://media.api-sports.io/football/teams/5394.png",
-        "winner": null
-      },
-      "away": {
-        "id": 5566,
-        "name": "NagaWorld",
-        "logo": "https://media.api-sports.io/football/teams/5566.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
       },
       "fulltime": {
         "home": 2,

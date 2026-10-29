@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621653,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T11:00:00+00:00",
+      "timestamp": 1792753200,
+      "periods": {
+        "first": 1792753200,
+        "second": 1792756800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 8",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6171,
+        "name": "Holon Yermiyahu",
+        "logo": "https://media.api-sports.io/football/teams/6171.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7609,
+        "name": "Tzeirey Tira",
+        "logo": "https://media.api-sports.io/football/teams/7609.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621647,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621611,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-17T17:30:00+00:00",
-      "timestamp": 1789666200,
-      "periods": {
-        "first": 1789666200,
-        "second": 1789669800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7609,
-        "name": "Tzeirey Tira",
-        "logo": "https://media.api-sports.io/football/teams/7609.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6142,
-        "name": "Dimona",
-        "logo": "https://media.api-sports.io/football/teams/6142.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

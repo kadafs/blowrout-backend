@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639541,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T16:00:00+00:00",
+      "timestamp": 1792944000,
+      "periods": {
+        "first": 1792944000,
+        "second": 1792947600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Abidjan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 12,
+      "name": "CAF Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/12.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4512,
+        "name": "ASEC Mimosas",
+        "logo": "https://media.api-sports.io/football/teams/4512.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3453,
+        "name": "Maghreb F\u00e8s",
+        "logo": "https://media.api-sports.io/football/teams/3453.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639535,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619083,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T16:00:00+00:00",
-      "timestamp": 1789315200,
-      "periods": {
-        "first": 1789315200,
-        "second": 1789318800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Abidjan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4512,
-        "name": "ASEC Mimosas",
-        "logo": "https://media.api-sports.io/football/teams/4512.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6424,
-        "name": "ASC Kara",
-        "logo": "https://media.api-sports.io/football/teams/6424.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

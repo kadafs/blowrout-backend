@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1618434,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T13:00:00+00:00",
+      "timestamp": 1792933200,
+      "periods": {
+        "first": 1792933200,
+        "second": 1792936800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 92,
+      "name": "Derde Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/92.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1255,
+        "name": "TEC",
+        "logo": "https://media.api-sports.io/football/teams/1255.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3920,
+        "name": "Purmersteijn",
+        "logo": "https://media.api-sports.io/football/teams/3920.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618407,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638284,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:00:00+00:00",
-      "timestamp": 1790186400,
-      "periods": {
-        "first": 1790186400,
-        "second": 1790190000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 90,
-      "name": "KNVB Beker",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/90.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "2nd Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1275,
-        "name": "Zwaluwen",
-        "logo": "https://media.api-sports.io/football/teams/1275.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3920,
-        "name": "Purmersteijn",
-        "logo": "https://media.api-sports.io/football/teams/3920.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

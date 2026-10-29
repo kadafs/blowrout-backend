@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582144,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 638,
+      "name": "Kvindeliga",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/638.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10883,
+        "name": "Br\u00f8ndby W",
+        "logo": "https://media.api-sports.io/football/teams/10883.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26101,
+        "name": "Midtjylland W",
+        "logo": "https://media.api-sports.io/football/teams/26101.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582142,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638398,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T16:00:00+00:00",
-      "timestamp": 1790179200,
-      "periods": {
-        "first": 1790179200,
-        "second": 1790182800
-      },
-      "venue": {
-        "id": 443,
-        "name": "Br\u00f8ndby Stadion",
-        "city": "Copenhagen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10883,
-        "name": "Br\u00f8ndby W",
-        "logo": "https://media.api-sports.io/football/teams/10883.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20511,
-        "name": "Sporting CP W",
-        "logo": "https://media.api-sports.io/football/teams/20511.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

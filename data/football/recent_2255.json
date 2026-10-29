@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1560262,
+      "referee": "M. Derdak",
+      "timezone": "UTC",
+      "date": "2026-10-24T15:00:00+00:00",
+      "timestamp": 1792854000,
+      "periods": {
+        "first": 1792854000,
+        "second": 1792857600
+      },
+      "venue": {
+        "id": 801,
+        "name": "ETO Park",
+        "city": "Gyor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2402,
+        "name": "Gyori ETO FC",
+        "logo": "https://media.api-sports.io/football/teams/2402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2255,
+        "name": "Ujpest",
+        "logo": "https://media.api-sports.io/football/teams/2255.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560260,
-      "referee": null,
+      "referee": "P. Zierkelbach",
       "timezone": "UTC",
       "date": "2026-10-17T17:30:00+00:00",
       "timestamp": 1792258200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792258200,
+        "second": 1792261800
       },
       "venue": {
         "id": 814,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1560251,
-      "referee": null,
+      "referee": "G. Bogar",
       "timezone": "UTC",
       "date": "2026-10-11T14:45:00+00:00",
       "timestamp": 1791729900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791729900,
+        "second": 1791733500
       },
       "venue": {
         "id": 11902,
-        "name": "Bozsik J\u00f3zsef Stadion",
+        "name": "Bozsik Arena",
         "city": "Budapest"
       },
       "status": {
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1560248,
-      "referee": "Mihaly Kapraly",
+      "referee": "M. Kapraly",
       "timezone": "UTC",
       "date": "2026-09-20T15:00:00+00:00",
       "timestamp": 1789916400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789916400,
+        "second": 1789920000
       },
       "venue": {
         "id": 814,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560237,
-      "referee": "F. Karako",
-      "timezone": "UTC",
-      "date": "2026-09-06T15:45:00+00:00",
-      "timestamp": 1788709500,
-      "periods": {
-        "first": 1788709500,
-        "second": 1788713100
-      },
-      "venue": {
-        "id": 799,
-        "name": "Groupama Arena",
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 651,
-        "name": "Ferencvarosi TC",
-        "logo": "https://media.api-sports.io/football/teams/651.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2255,
-        "name": "Ujpest",
-        "logo": "https://media.api-sports.io/football/teams/2255.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

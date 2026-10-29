@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1550157,
+      "referee": "Livio Marinelli",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 879,
+        "name": "New Balance Arena",
+        "city": "Bergamo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 499,
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png",
+        "winner": null
+      },
+      "away": {
+        "id": 512,
+        "name": "Frosinone",
+        "logo": "https://media.api-sports.io/football/teams/512.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1550151,
       "referee": "Matteo Marchetti, Italy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550119,
-      "referee": "Antonio Rapuano, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": "Luigi Ferraris",
-        "city": "Genova"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 495,
-        "name": "Genoa",
-        "logo": "https://media.api-sports.io/football/teams/495.png",
-        "winner": null
-      },
-      "away": {
-        "id": 512,
-        "name": "Frosinone",
-        "logo": "https://media.api-sports.io/football/teams/512.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

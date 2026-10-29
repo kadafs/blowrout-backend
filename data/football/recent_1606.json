@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490580,
+      "referee": "Ricardo Montero Araya",
+      "timezone": "UTC",
+      "date": "2026-10-29T00:30:00+00:00",
+      "timestamp": 1793233800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11535,
+        "name": "Q2 Stadium",
+        "city": "Austin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16489,
+        "name": "Austin",
+        "logo": "https://media.api-sports.io/football/teams/16489.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1606,
+        "name": "Real Salt Lake",
+        "logo": "https://media.api-sports.io/football/teams/1606.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490567,
       "referee": "Drew Fischer",
       "timezone": "UTC",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1490537,
-      "referee": "Sergii Demianchuk",
+      "referee": "Sergii Demianchuk, USA",
       "timezone": "UTC",
       "date": "2026-10-15T01:30:00+00:00",
       "timestamp": 1792027800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490506,
-      "referee": "Ricardo Fierro",
-      "timezone": "UTC",
-      "date": "2026-09-27T01:30:00+00:00",
-      "timestamp": 1790472600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19223,
-        "name": "Rio Tinto Stadium",
-        "city": "Sandy"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1606,
-        "name": "Real Salt Lake",
-        "logo": "https://media.api-sports.io/football/teams/1606.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1609,
-        "name": "New England Revolution",
-        "logo": "https://media.api-sports.io/football/teams/1609.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

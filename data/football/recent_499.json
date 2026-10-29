@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1550157,
+      "referee": "Livio Marinelli",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 879,
+        "name": "New Balance Arena",
+        "city": "Bergamo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 499,
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png",
+        "winner": null
+      },
+      "away": {
+        "id": 512,
+        "name": "Frosinone",
+        "logo": "https://media.api-sports.io/football/teams/512.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636379,
-      "referee": "Antonio Nobre, Portugal",
+      "referee": "A. Nobre",
       "timezone": "UTC",
       "date": "2026-10-22T19:00:00+00:00",
       "timestamp": 1792695600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1636382,
-      "referee": "Adam Ladeback, Sweden",
+      "referee": "A. Ladeback",
       "timezone": "UTC",
       "date": "2026-10-15T19:00:00+00:00",
       "timestamp": 1792090800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550132,
-      "referee": "Luca Zufferli, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-20T16:00:00+00:00",
-      "timestamp": 1789920000,
-      "periods": {
-        "first": 1789920000,
-        "second": 1789923600
-      },
-      "venue": {
-        "id": null,
-        "name": "Allianz Stadium",
-        "city": "Turin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 496,
-        "name": "Juventus",
-        "logo": "https://media.api-sports.io/football/teams/496.png",
-        "winner": true
-      },
-      "away": {
-        "id": 499,
-        "name": "Atalanta",
-        "logo": "https://media.api-sports.io/football/teams/499.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

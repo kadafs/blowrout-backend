@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490579,
+      "referee": "Serhiy Boiko",
+      "timezone": "UTC",
+      "date": "2026-10-29T00:30:00+00:00",
+      "timestamp": 1793233800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1617,
+        "name": "Allianz Field",
+        "city": "Sao Paulo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1612,
+        "name": "Minnesota United FC",
+        "logo": "https://media.api-sports.io/football/teams/1612.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1611,
+        "name": "Sporting Kansas City",
+        "logo": "https://media.api-sports.io/football/teams/1611.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490563,
       "referee": "Tori Penso",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1490542,
-      "referee": "Ramy Touchan",
+      "referee": "Ramy Touchan, USA",
       "timezone": "UTC",
       "date": "2026-10-17T20:30:00+00:00",
       "timestamp": 1792269000,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1490536,
-      "referee": "Victor Rivas",
+      "referee": "Victor Rivas, USA",
       "timezone": "UTC",
       "date": "2026-10-15T01:30:00+00:00",
       "timestamp": 1792027800,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1490521,
-      "referee": "Marcos De Oliveira",
+      "referee": "Marcos de Oliveira, USA",
       "timezone": "UTC",
       "date": "2026-10-11T00:30:00+00:00",
       "timestamp": 1791678600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490502,
-      "referee": "Bensalah, Nabil",
-      "timezone": "UTC",
-      "date": "2026-09-27T00:30:00+00:00",
-      "timestamp": 1790469000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 11534,
-        "name": "Lumen Field",
-        "city": "Seattle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1595,
-        "name": "Seattle Sounders",
-        "logo": "https://media.api-sports.io/football/teams/1595.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1612,
-        "name": "Minnesota United FC",
-        "logo": "https://media.api-sports.io/football/teams/1612.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1550165,
+      "referee": "Andrea Zanotti, Italy",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:45:00+00:00",
+      "timestamp": 1792781100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 943,
+        "name": "Stadio Olimpico Grande Torino",
+        "city": "Turin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 503,
+        "name": "Torino",
+        "logo": "https://media.api-sports.io/football/teams/503.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1550154,
-      "referee": "Giovanni Ayroldi",
+      "referee": "Giovanni Ayroldi, Italy",
       "timezone": "UTC",
       "date": "2026-10-19T18:45:00+00:00",
       "timestamp": 1792435500,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550110,
-      "referee": "Davide Massa, Italy",
-      "timezone": "UTC",
-      "date": "2026-09-05T13:00:00+00:00",
-      "timestamp": 1788613200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Artemio Franchi",
-        "city": "Florence"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 135,
-      "name": "Serie A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/135.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 502,
-        "name": "Fiorentina",
-        "logo": "https://media.api-sports.io/football/teams/502.png",
-        "winner": false
-      },
-      "away": {
-        "id": 503,
-        "name": "Torino",
-        "logo": "https://media.api-sports.io/football/teams/503.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

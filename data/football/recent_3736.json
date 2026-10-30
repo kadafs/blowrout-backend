@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562669,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:30:00+00:00",
+      "timestamp": 1792243800,
+      "periods": {
+        "first": 1792243800,
+        "second": 1792247400
+      },
+      "venue": {
+        "id": null,
+        "name": "Strelecky ostrov",
+        "city": "Ceske Budejovice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 11",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3736,
+        "name": "\u010cesk\u00e9 Bud\u011bjovice",
+        "logo": "https://media.api-sports.io/football/teams/3736.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7315,
+        "name": "Loko Vltav\u00edn",
+        "logo": "https://media.api-sports.io/football/teams/7315.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562665,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562631,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-11T16:00:00+00:00",
-      "timestamp": 1789142400,
-      "periods": {
-        "first": 1789142400,
-        "second": 1789146000
-      },
-      "venue": {
-        "id": null,
-        "name": "Sports facility Pisek",
-        "city": "Pisek"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7334,
-        "name": "P\u00edsek",
-        "logo": "https://media.api-sports.io/football/teams/7334.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3736,
-        "name": "\u010cesk\u00e9 Bud\u011bjovice",
-        "logo": "https://media.api-sports.io/football/teams/3736.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

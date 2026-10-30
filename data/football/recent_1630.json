@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586599,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T17:00:00+00:00",
+      "timestamp": 1792170000,
+      "periods": {
+        "first": 1792170000,
+        "second": 1792173600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 84,
+      "name": "Regionalliga - Nord",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/84.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "North - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4260,
+        "name": "Atlas Delmenhorst",
+        "logo": "https://media.api-sports.io/football/teams/4260.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1630,
+        "name": "Bremer SV",
+        "logo": "https://media.api-sports.io/football/teams/1630.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586590,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586551,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T12:00:00+00:00",
-      "timestamp": 1789300800,
-      "periods": {
-        "first": 1789300800,
-        "second": 1789304400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 84,
-      "name": "Regionalliga - Nord",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/84.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "North - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12880,
-        "name": "Todesfelde",
-        "logo": "https://media.api-sports.io/football/teams/12880.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1630,
-        "name": "Bremer SV",
-        "logo": "https://media.api-sports.io/football/teams/1630.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

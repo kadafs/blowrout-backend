@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607031,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12295,
+        "name": "Stadion am Brentanobad",
+        "city": "Frankfurt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1034,
+      "name": "2. Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/1034.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22293,
+        "name": "Eintracht Frankfurt II W",
+        "logo": "https://media.api-sports.io/football/teams/22293.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1864,
+        "name": "Borussia Monchengladbach W",
+        "logo": "https://media.api-sports.io/football/teams/1864.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607024,
       "referee": null,
       "timezone": "UTC",
@@ -122,8 +192,8 @@
     },
     "score": {
       "halftime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 0
       },
       "fulltime": {
         "home": 1,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607005,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T12:00:00+00:00",
-      "timestamp": 1788696000,
-      "periods": {
-        "first": 1788696000,
-        "second": 1788699600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1034,
-      "name": "2. Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/1034.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1864,
-        "name": "Borussia Monchengladbach W",
-        "logo": "https://media.api-sports.io/football/teams/1864.png",
-        "winner": false
-      },
-      "away": {
-        "id": 27444,
-        "name": "Hertha Berlin W",
-        "logo": "https://media.api-sports.io/football/teams/27444.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

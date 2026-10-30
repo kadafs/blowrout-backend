@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581944,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T08:00:00+00:00",
+      "timestamp": 1792224000,
+      "periods": {
+        "first": 1792224000,
+        "second": 1792227600
+      },
+      "venue": {
+        "id": null,
+        "name": "Yuvileiny Stadium",
+        "city": "Sumy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13223,
+        "name": "Viktoriya Mykolaivka",
+        "logo": "https://media.api-sports.io/football/teams/13223.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14433,
+        "name": "Chernihiv",
+        "logo": "https://media.api-sports.io/football/teams/14433.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581931,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581901,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-14T12:00:00+00:00",
-      "timestamp": 1789387200,
-      "periods": {
-        "first": 1789387200,
-        "second": 1789390800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 334,
-      "name": "Persha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/334.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3619,
-        "name": "Oleksandria",
-        "logo": "https://media.api-sports.io/football/teams/3619.png",
-        "winner": true
-      },
-      "away": {
-        "id": 13223,
-        "name": "Viktoriya Mykolaivka",
-        "logo": "https://media.api-sports.io/football/teams/13223.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

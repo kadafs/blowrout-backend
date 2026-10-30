@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636454,
+      "referee": "Samuel Barrott, England",
+      "timezone": "UTC",
+      "date": "2026-10-22T19:00:00+00:00",
+      "timestamp": 1792695600,
+      "periods": {
+        "first": 1792695600,
+        "second": 1792699200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Louis II",
+        "city": "Fontvieille"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png",
+        "winner": true
+      },
+      "away": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552787,
       "referee": "Marc Bollengier",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1636401,
-      "referee": "J. Goncalves",
+      "referee": "Joao Antonio Ferreira Goncalves, Portugal",
       "timezone": "UTC",
       "date": "2026-10-15T16:45:00+00:00",
       "timestamp": 1792082700,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "National Stadium Vasil Levski",
+        "name": "Vasil Levski National Sports Academy",
         "city": "Sofia"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552769,
-      "referee": "Clement Turpin, France",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:45:00+00:00",
-      "timestamp": 1789757100,
-      "periods": {
-        "first": 1789757100,
-        "second": 1789760700
-      },
-      "venue": {
-        "id": 20470,
-        "name": "Stade Louis II",
-        "city": "Monaco"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 91,
-        "name": "Monaco",
-        "logo": "https://media.api-sports.io/football/teams/91.png",
-        "winner": true
-      },
-      "away": {
-        "id": 116,
-        "name": "Lens",
-        "logo": "https://media.api-sports.io/football/teams/116.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

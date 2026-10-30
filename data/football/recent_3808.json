@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640330,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T08:30:00+00:00",
+      "timestamp": 1792139400,
+      "periods": {
+        "first": 1792139400,
+        "second": 1792143000
+      },
+      "venue": {
+        "id": 2578,
+        "name": "Jack Edwards Reserve",
+        "city": "Melbourne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3808,
+        "name": "Oakleigh Cannons",
+        "logo": "https://media.api-sports.io/football/teams/3808.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3774,
+        "name": "Sydney Olympic",
+        "logo": "https://media.api-sports.io/football/teams/3774.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642885,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1522000,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-14T10:15:00+00:00",
-      "timestamp": 1786702500,
-      "periods": {
-        "first": 1786702500,
-        "second": 1786706100
-      },
-      "venue": {
-        "id": 2578,
-        "name": "Jack Edwards Reserve",
-        "city": "Melbourne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 195,
-      "name": "Victoria NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/195.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3808,
-        "name": "Oakleigh Cannons",
-        "logo": "https://media.api-sports.io/football/teams/3808.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3802,
-        "name": "Green Gully",
-        "logo": "https://media.api-sports.io/football/teams/3802.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

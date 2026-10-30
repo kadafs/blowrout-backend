@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632229,
+      "referee": "W. L. Wong",
+      "timezone": "UTC",
+      "date": "2026-10-23T11:00:00+00:00",
+      "timestamp": 1792753200,
+      "periods": {
+        "first": 1792753200,
+        "second": 1792756800
+      },
+      "venue": {
+        "id": null,
+        "name": "Hisor Central Stadium",
+        "city": "Hisor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1132,
+      "name": "AFC Challenge League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1132.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3532,
+        "name": "Al Arabi",
+        "logo": "https://media.api-sports.io/football/teams/3532.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4570,
+        "name": "Al Nejmeh",
+        "logo": "https://media.api-sports.io/football/teams/4570.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632224,
       "referee": "S. Nathan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1622639,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T17:55:00+00:00",
-      "timestamp": 1788112500,
-      "periods": {
-        "first": 1788112500,
-        "second": 1788116100
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 330,
-      "name": "Premier League",
-      "country": "Kuwait",
-      "logo": "https://media.api-sports.io/football/leagues/330.png",
-      "flag": "https://media.api-sports.io/flags/kw.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3534,
-        "name": "Al Jahra",
-        "logo": "https://media.api-sports.io/football/teams/3534.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3532,
-        "name": "Al Arabi",
-        "logo": "https://media.api-sports.io/football/teams/3532.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

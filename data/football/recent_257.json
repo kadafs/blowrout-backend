@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1556686,
+      "referee": "C. Graham",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": true
+      },
+      "away": {
+        "id": 258,
+        "name": "ST Johnstone",
+        "logo": "https://media.api-sports.io/football/teams/258.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556678,
-      "referee": "Duncan Nicolson",
+      "referee": "D. Nicolson",
       "timezone": "UTC",
       "date": "2026-10-17T19:00:00+00:00",
       "timestamp": 1792263600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792263600,
+        "second": 1792267200
       },
       "venue": {
         "id": 20420,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1556675,
-      "referee": null,
+      "referee": "M. MacDermid",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 1401,
@@ -147,8 +217,8 @@
       "date": "2026-09-20T11:00:00+00:00",
       "timestamp": 1789902000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789902000,
+        "second": 1789905600
       },
       "venue": {
         "id": 1386,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556644,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T18:45:00+00:00",
-      "timestamp": 1788979500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1401,
-        "name": "Ibrox Stadium",
-        "city": "Glasgow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 257,
-        "name": "Rangers",
-        "logo": "https://media.api-sports.io/football/teams/257.png",
-        "winner": true
-      },
-      "away": {
-        "id": 251,
-        "name": "ST Mirren",
-        "logo": "https://media.api-sports.io/football/teams/251.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

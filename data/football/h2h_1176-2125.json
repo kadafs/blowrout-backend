@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1644260,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-14T22:30:00+00:00",
+      "timestamp": 1792017000,
+      "periods": {
+        "first": 1792017000,
+        "second": 1792020600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Defensores del Chaco",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 501,
+      "name": "Copa Paraguay",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/501.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1176,
+        "name": "Cerro Porteno",
+        "logo": "https://media.api-sports.io/football/teams/1176.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2125,
+        "name": "Club Sp. San Lorenzo",
+        "logo": "https://media.api-sports.io/football/teams/2125.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": 5,
+        "away": 3
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610939,
-      "referee": "Derlis Benitez, Paraguay",
+      "referee": "D. Benitez",
       "timezone": "UTC",
       "date": "2026-08-16T13:00:00+00:00",
       "timestamp": 1786885200,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "General Pablo Rojas",
+        "name": "Estadio General Pablo Rojas",
         "city": "Asuncion"
       },
       "status": {
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 319513,
-      "referee": "G. Juliadoza",
-      "timezone": "UTC",
-      "date": "2020-10-02T23:30:00+00:00",
-      "timestamp": 1601681400,
-      "periods": {
-        "first": 1601681400,
-        "second": 1601685000
-      },
-      "venue": {
-        "id": 1223,
-        "name": "Estadio Gunther Vogel",
-        "city": "San Lorenzo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 250,
-      "name": "Division Profesional - Apertura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/250.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2020,
-      "round": "Apertura - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2125,
-        "name": "Club Sp. San Lorenzo",
-        "logo": "https://media.api-sports.io/football/teams/2125.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1176,
-        "name": "Cerro Porteno",
-        "logo": "https://media.api-sports.io/football/teams/1176.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

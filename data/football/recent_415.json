@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636442,
+      "referee": "Matteo Marcenaro, Italy",
+      "timezone": "UTC",
+      "date": "2026-10-22T19:00:00+00:00",
+      "timestamp": 1792695600,
+      "periods": {
+        "first": 1792695600,
+        "second": 1792699200
+      },
+      "venue": {
+        "id": null,
+        "name": "Victoria Stadium",
+        "city": "Gibraltar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 667,
+        "name": "Lincoln Red Imps FC",
+        "logo": "https://media.api-sports.io/football/teams/667.png",
+        "winner": false
+      },
+      "away": {
+        "id": 415,
+        "name": "Twente",
+        "logo": "https://media.api-sports.io/football/teams/415.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552196,
       "referee": "Allard Lindhout",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1636480,
-      "referee": "G. Nuza",
+      "referee": "Genc Nuza, Kosovo",
       "timezone": "UTC",
       "date": "2026-10-15T19:00:00+00:00",
       "timestamp": 1792090800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552179,
-      "referee": "Serdar Gozubuyuk, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-20T12:30:00+00:00",
-      "timestamp": 1789907400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1153,
-        "name": "De Grolsch Veste",
-        "city": "Enschede"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 415,
-        "name": "Twente",
-        "logo": "https://media.api-sports.io/football/teams/415.png",
-        "winner": true
-      },
-      "away": {
-        "id": 197,
-        "name": "PSV Eindhoven",
-        "logo": "https://media.api-sports.io/football/teams/197.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

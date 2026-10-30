@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646917,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T22:00:00+00:00",
+      "timestamp": 1792879200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1653,
+        "name": "Estadio Olimpico de la UCV",
+        "city": "Caracas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 299,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/299.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Clausura - Quadrangular - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2808,
+        "name": "Caracas FC",
+        "logo": "https://media.api-sports.io/football/teams/2808.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2807,
+        "name": "Deportivo Tachira FC",
+        "logo": "https://media.api-sports.io/football/teams/2807.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638782,
       "referee": "F. Chacon",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638865,
-      "referee": "Y. Herrera",
-      "timezone": "UTC",
-      "date": "2026-09-12T21:00:00+00:00",
-      "timestamp": 1789246800,
-      "periods": {
-        "first": 1789246800,
-        "second": 1789250400
-      },
-      "venue": {
-        "id": 0,
-        "name": "Estadio Metropolitano de Merida",
-        "city": "M\u00e9rida"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 299,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/299.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2818,
-        "name": "Estudiantes de Merida FC",
-        "logo": "https://media.api-sports.io/football/teams/2818.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2807,
-        "name": "Deportivo Tachira FC",
-        "logo": "https://media.api-sports.io/football/teams/2807.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

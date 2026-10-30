@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611422,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T16:45:00+00:00",
+      "timestamp": 1792341900,
+      "periods": {
+        "first": 1792341900,
+        "second": 1792345500
+      },
+      "venue": {
+        "id": null,
+        "name": "Hocine Ait Ahmed Stadium",
+        "city": "Tizi Ouzou"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 186,
+      "name": "Ligue 1",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/186.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 918,
+        "name": "JS Kabylie",
+        "logo": "https://media.api-sports.io/football/teams/918.png",
+        "winner": true
+      },
+      "away": {
+        "id": 909,
+        "name": "US Biskra",
+        "logo": "https://media.api-sports.io/football/teams/909.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1611412,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611387,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-10T18:00:00+00:00",
-      "timestamp": 1789063200,
-      "periods": {
-        "first": 1789063200,
-        "second": 1789066800
-      },
-      "venue": {
-        "id": null,
-        "name": "20 August 1955 Stadium",
-        "city": "Algiers"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 186,
-      "name": "Ligue 1",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/186.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10792,
-        "name": "Ben Aknoun",
-        "logo": "https://media.api-sports.io/football/teams/10792.png",
-        "winner": null
-      },
-      "away": {
-        "id": 909,
-        "name": "US Biskra",
-        "logo": "https://media.api-sports.io/football/teams/909.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646918,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T21:30:00+00:00",
+      "timestamp": 1792963800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1661,
+        "name": "Estadio General Jose Antonio Paez",
+        "city": "Acarigua"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 299,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Venezuela",
+      "logo": "https://media.api-sports.io/football/leagues/299.png",
+      "flag": "https://media.api-sports.io/flags/ve.svg",
+      "season": 2026,
+      "round": "Clausura - Quadrangular - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2814,
+        "name": "Portuguesa FC",
+        "logo": "https://media.api-sports.io/football/teams/2814.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2810,
+        "name": "Carabobo FC",
+        "logo": "https://media.api-sports.io/football/teams/2810.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638782,
       "referee": "F. Chacon",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638867,
-      "referee": "J. Valenzuela",
-      "timezone": "UTC",
-      "date": "2026-09-12T23:00:00+00:00",
-      "timestamp": 1789254000,
-      "periods": {
-        "first": 1789254000,
-        "second": 1789257600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Complejo Deportivo Socialista",
-        "city": "Carabobo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 299,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Venezuela",
-      "logo": "https://media.api-sports.io/football/leagues/299.png",
-      "flag": "https://media.api-sports.io/flags/ve.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2827,
-        "name": "Puerto Cabello",
-        "logo": "https://media.api-sports.io/football/teams/2827.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2810,
-        "name": "Carabobo FC",
-        "logo": "https://media.api-sports.io/football/teams/2810.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

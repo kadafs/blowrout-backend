@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495988,
+      "referee": "H. Holthe",
+      "timezone": "UTC",
+      "date": "2026-10-18T15:00:00+00:00",
+      "timestamp": 1792335600,
+      "periods": {
+        "first": 1792335600,
+        "second": 1792339200
+      },
+      "venue": {
+        "id": 1187,
+        "name": "Skagerak Arena",
+        "city": "Skien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 330,
+        "name": "ODD Ballklubb",
+        "logo": "https://media.api-sports.io/football/teams/330.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2147,
+        "name": "Strommen",
+        "logo": "https://media.api-sports.io/football/teams/2147.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495981,
       "referee": "A. Al Fahad",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495949,
-      "referee": "A. Al Hatem",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": 1195,
-        "name": "Fosshaugane Campus",
-        "city": "Sogndal"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 758,
-        "name": "Sogndal",
-        "logo": "https://media.api-sports.io/football/teams/758.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2147,
-        "name": "Strommen",
-        "logo": "https://media.api-sports.io/football/teams/2147.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

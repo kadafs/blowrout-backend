@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496176,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": 1792242000,
+        "second": 1792245600
+      },
+      "venue": {
+        "id": 2790,
+        "name": "Norac stadion",
+        "city": "Arendal"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 473,
+      "name": "2. Division - Group 1",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/473.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2155,
+        "name": "Arendal",
+        "logo": "https://media.api-sports.io/football/teams/2155.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16211,
+        "name": "Eik-T\u00f8nsberg",
+        "logo": "https://media.api-sports.io/football/teams/16211.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496171,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637861,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T16:00:00+00:00",
-      "timestamp": 1789574400,
-      "periods": {
-        "first": 1789574400,
-        "second": 1789578000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 105,
-      "name": "NM Cupen",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/105.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2027,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2155,
-        "name": "Arendal",
-        "logo": "https://media.api-sports.io/football/teams/2155.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2146,
-        "name": "Sandnes ULF",
-        "logo": "https://media.api-sports.io/football/teams/2146.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

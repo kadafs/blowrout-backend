@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1548545,
+      "referee": "Antonio Skobic",
+      "timezone": "UTC",
+      "date": "2026-10-16T16:00:00+00:00",
+      "timestamp": 1792166400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 421,
+        "name": "Stadion Radnik",
+        "city": "Veliky Gorica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 210,
+      "name": "HNL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/210.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1019,
+        "name": "Rudes",
+        "logo": "https://media.api-sports.io/football/teams/1019.png",
+        "winner": false
+      },
+      "away": {
+        "id": 561,
+        "name": "HNK Rijeka",
+        "logo": "https://media.api-sports.io/football/teams/561.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1548537,
       "referee": "Patrik Kolari\u0107, Croatia",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548524,
-      "referee": "Antonio \u0160kobi\u0107, Croatia",
-      "timezone": "UTC",
-      "date": "2026-09-06T16:00:00+00:00",
-      "timestamp": 1788710400,
-      "periods": {
-        "first": 1788710400,
-        "second": 1788714000
-      },
-      "venue": {
-        "id": null,
-        "name": "Gradski stadion Velika Gorica",
-        "city": "Velika Gorica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 210,
-      "name": "HNL",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/210.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1019,
-        "name": "Rudes",
-        "logo": "https://media.api-sports.io/football/teams/1019.png",
-        "winner": false
-      },
-      "away": {
-        "id": 608,
-        "name": "HNK Hajduk Split",
-        "logo": "https://media.api-sports.io/football/teams/608.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

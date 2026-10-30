@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637589,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T18:30:00+00:00",
+      "timestamp": 1792175400,
+      "periods": {
+        "first": 1792175400,
+        "second": 1792179000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1044,
+      "name": "Erste Liga Cup",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/1044.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6628,
+        "name": "Lancy",
+        "logo": "https://media.api-sports.io/football/teams/6628.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16337,
+        "name": "Portalban / Gletterens",
+        "logo": "https://media.api-sports.io/football/teams/16337.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604876,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604847,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T15:00:00+00:00",
-      "timestamp": 1789225200,
-      "periods": {
-        "first": 1789225200,
-        "second": 1789228800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 599,
-      "name": "1. Liga Classic - Group 1",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/599.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 1 - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6628,
-        "name": "Lancy",
-        "logo": "https://media.api-sports.io/football/teams/6628.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12692,
-        "name": "Ch\u00eanois",
-        "logo": "https://media.api-sports.io/football/teams/12692.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

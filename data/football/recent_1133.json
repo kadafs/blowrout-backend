@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549752,
+      "referee": "Ferney Ossa Orozco, Colombia",
+      "timezone": "UTC",
+      "date": "2026-10-22T01:20:00+00:00",
+      "timestamp": 1792632000,
+      "periods": {
+        "first": 1792632000,
+        "second": 1792635600
+      },
+      "venue": {
+        "id": 383,
+        "name": "Estadio El Campin",
+        "city": "Bogota"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 239,
+      "name": "Primera A",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/239.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1139,
+        "name": "Santa Fe",
+        "logo": "https://media.api-sports.io/football/teams/1139.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1133,
+        "name": "Jaguares",
+        "logo": "https://media.api-sports.io/football/teams/1133.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549831,
       "referee": "Luis Matorel Bolivar, Colombia",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549790,
-      "referee": "Andres Rojas, Colombia",
-      "timezone": "UTC",
-      "date": "2026-09-22T23:00:00+00:00",
-      "timestamp": 1790118000,
-      "periods": {
-        "first": 1790118000,
-        "second": 1790121600
-      },
-      "venue": {
-        "id": 380,
-        "name": "Estadio Atanasio Girardot",
-        "city": "Medellin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 239,
-      "name": "Primera A",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/239.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Clausura - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1128,
-        "name": "Independiente Medellin",
-        "logo": "https://media.api-sports.io/football/teams/1128.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1133,
-        "name": "Jaguares",
-        "logo": "https://media.api-sports.io/football/teams/1133.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

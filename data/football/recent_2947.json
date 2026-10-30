@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1604035,
+      "referee": "F. Al Saadoun",
+      "timezone": "UTC",
+      "date": "2026-10-21T16:50:00+00:00",
+      "timestamp": 1792601400,
+      "periods": {
+        "first": 1792601400,
+        "second": 1792605000
+      },
+      "venue": {
+        "id": 1364,
+        "name": "King Abdullah Sports City",
+        "city": "Jeddah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 308,
+      "name": "Division 1",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/308.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2947,
+        "name": "Jeddah Club",
+        "logo": "https://media.api-sports.io/football/teams/2947.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2958,
+        "name": "Al Jabalain",
+        "logo": "https://media.api-sports.io/football/teams/2958.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604022,
       "referee": "M. Al Beredi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603985,
-      "referee": "M. Al Meshari",
-      "timezone": "UTC",
-      "date": "2026-09-01T15:40:00+00:00",
-      "timestamp": 1788277200,
-      "periods": {
-        "first": 1788277200,
-        "second": 1788280800
-      },
-      "venue": {
-        "id": 22271,
-        "name": "Prince Abdullah bin Jalawi Stadium",
-        "city": "Al Ahsa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 308,
-      "name": "Division 1",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/308.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2955,
-        "name": "Al Jeel",
-        "logo": "https://media.api-sports.io/football/teams/2955.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2947,
-        "name": "Jeddah Club",
-        "logo": "https://media.api-sports.io/football/teams/2947.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

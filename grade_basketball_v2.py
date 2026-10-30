@@ -16,6 +16,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 import requests
+from typing import Optional
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -128,7 +129,7 @@ def is_corrupt_score(h_s, a_s, model_total=None, h_scores=None, a_scores=None) -
             
     return False, ""
 
-def resolve_target_date(date_arg: str | None = None) -> str:
+def resolve_target_date(date_arg: Optional[str] = None) -> str:
     if date_arg:
         return date_arg
     now = datetime.now()

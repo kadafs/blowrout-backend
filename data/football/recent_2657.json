@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1553896,
+      "referee": "M. Jakovljevic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 1415,
+        "name": "\u010cika Da\u010da Stadium",
+        "city": "Kragujevac"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2644,
+        "name": "Radnicki 1923",
+        "logo": "https://media.api-sports.io/football/teams/2644.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2657,
+        "name": "Radnik Surdulica",
+        "logo": "https://media.api-sports.io/football/teams/2657.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553889,
-      "referee": null,
+      "referee": "N. Minakovic",
       "timezone": "UTC",
       "date": "2026-10-16T15:00:00+00:00",
       "timestamp": 1792162800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792162800,
+        "second": 1792166400
       },
       "venue": {
         "id": 19382,
-        "name": "Stadion FK Radnik",
-        "city": "Sudulika"
+        "name": "EFBET Stadion",
+        "city": "Surdulica"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1553879,
-      "referee": null,
+      "referee": "N. Simovic",
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791637200,
+        "second": 1791640800
       },
       "venue": {
         "id": null,
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1553875,
-      "referee": "Srdjan Jovanovic",
+      "referee": "S. Jovanovic",
       "timezone": "UTC",
       "date": "2026-09-19T17:00:00+00:00",
       "timestamp": 1789837200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789837200,
+        "second": 1789840800
       },
       "venue": {
         "id": 19382,
-        "name": "Stadion FK Radnik",
-        "city": "Sudulika"
+        "name": "EFBET Stadion",
+        "city": "Surdulica"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553825,
-      "referee": "A. Stojanovic",
-      "timezone": "UTC",
-      "date": "2026-09-10T17:00:00+00:00",
-      "timestamp": 1789059600,
-      "periods": {
-        "first": 1789059600,
-        "second": 1789063200
-      },
-      "venue": {
-        "id": 19382,
-        "name": "EFBET Stadion",
-        "city": "Surdulica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2657,
-        "name": "Radnik Surdulica",
-        "logo": "https://media.api-sports.io/football/teams/2657.png",
-        "winner": null
-      },
-      "away": {
-        "id": 598,
-        "name": "FK Crvena Zvezda",
-        "logo": "https://media.api-sports.io/football/teams/598.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

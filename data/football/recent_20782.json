@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643288,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-22T23:00:00+00:00",
+      "timestamp": 1792710000,
+      "periods": {
+        "first": 1792710000,
+        "second": 1792713600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20782,
+        "name": "Porto",
+        "logo": "https://media.api-sports.io/football/teams/20782.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2210,
+        "name": "Central SC",
+        "logo": "https://media.api-sports.io/football/teams/2210.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643280,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "fulltime": {
         "home": 4,
@@ -253,76 +323,6 @@
         "id": 20782,
         "name": "Porto",
         "logo": "https://media.api-sports.io/football/teams/20782.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1453416,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-09-27T18:00:00+00:00",
-      "timestamp": 1758996000,
-      "periods": {
-        "first": 1758996000,
-        "second": 1758999600
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1125,
-      "name": "Pernambucano - 2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1125.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2025,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20782,
-        "name": "Porto",
-        "logo": "https://media.api-sports.io/football/teams/20782.png",
-        "winner": null
-      },
-      "away": {
-        "id": 12289,
-        "name": "Ypiranga PE",
-        "logo": "https://media.api-sports.io/football/teams/12289.png",
         "winner": null
       }
     },

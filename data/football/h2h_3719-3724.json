@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560015,
+      "referee": "Karel Roucek, Czechia",
+      "timezone": "UTC",
+      "date": "2026-09-05T13:00:00+00:00",
+      "timestamp": 1788613200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky Fotbalovy Stadion",
+        "city": "Uherske Hradiste"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3719,
+        "name": "Slov\u00e1cko",
+        "logo": "https://media.api-sports.io/football/teams/3719.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3724,
+        "name": "Pardubice",
+        "logo": "https://media.api-sports.io/football/teams/3724.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1384833,
       "referee": "D. Cerny",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1210406,
-      "referee": "D. Vokoun",
-      "timezone": "UTC",
-      "date": "2024-08-11T12:30:00+00:00",
-      "timestamp": 1723379400,
-      "periods": {
-        "first": 1723379400,
-        "second": 1723383000
-      },
-      "venue": {
-        "id": 20750,
-        "name": "CFIG Arena",
-        "city": "Pardubice"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2024,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3724,
-        "name": "Pardubice",
-        "logo": "https://media.api-sports.io/football/teams/3724.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3719,
-        "name": "Slov\u00e1cko",
-        "logo": "https://media.api-sports.io/football/teams/3719.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

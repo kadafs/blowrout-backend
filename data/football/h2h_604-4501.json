@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555506,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-14T17:30:00+00:00",
+      "timestamp": 1789407000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10592,
+        "name": "Bloomfield Stadium",
+        "city": "Tel-Aviv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 383,
+      "name": "Ligat Ha'al",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/383.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Maccabi Tel Aviv",
+        "logo": "https://media.api-sports.io/football/teams/604.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4501,
+        "name": "Hapoel Tel Aviv",
+        "logo": "https://media.api-sports.io/football/teams/4501.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1540718,
       "referee": "S. Levi",
       "timezone": "UTC",
@@ -276,76 +346,6 @@
       "penalty": {
         "home": 4,
         "away": 5
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1389634,
-      "referee": "S. Berman",
-      "timezone": "UTC",
-      "date": "2025-10-19T17:30:00+00:00",
-      "timestamp": 1760895000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 10592,
-        "name": "Bloomfield Stadium",
-        "city": "Tel-Aviv"
-      },
-      "status": {
-        "long": "Technical loss",
-        "short": "AWD",
-        "elapsed": null,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 383,
-      "name": "Ligat Ha'al",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/383.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2025,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4501,
-        "name": "Hapoel Tel Aviv",
-        "logo": "https://media.api-sports.io/football/teams/4501.png",
-        "winner": null
-      },
-      "away": {
-        "id": 604,
-        "name": "Maccabi Tel Aviv",
-        "logo": "https://media.api-sports.io/football/teams/604.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": null,
-      "away": null
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": null,
-        "away": null
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
       }
     }
   }

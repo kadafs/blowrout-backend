@@ -31,6 +31,8 @@ ROOT_DIR = Path(__file__).resolve().parent
 DATA_DIR = ROOT_DIR / "data" / "basketball"
 OUTPUT_FILE = DATA_DIR / "basketball_signal_stats.json"
 DASHBOARD_DIR = ROOT_DIR.parent / "Sports Analytics" / "public" / "data" / "basketball"
+if not DASHBOARD_DIR.parent.parent.exists() and (ROOT_DIR.parent / "sports-analytics").exists():
+    DASHBOARD_DIR = ROOT_DIR.parent / "sports-analytics" / "public" / "data" / "basketball"
 
 def build_signal_stats(save_to_dashboard: bool = True) -> dict:
     files = sorted(DATA_DIR.glob("universal_predictions_2026-*.json"))
@@ -77,6 +79,11 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             if not actual_winner:
                 actual_winner = "HOME" if h_score > a_score else ("AWAY" if a_score > h_score else "DRAW")
 
+            # Check Drag-Down
+            band = str(p.get("confidence_score_band") or p.get("band") or "")
+            floor_st = str(p.get("floor_status") or "")
+            is_dd = bool(p.get("is_drag_down") or (floor_st.startswith("WEAK") and "[AVOID]" in band))
+
             all_graded.append({
                 "date": date_str,
                 "league": p.get("league", "Unknown"),
@@ -90,6 +97,7 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                 "clash_trigger": p.get("clash_trigger", ""),
                 "is_shootout": bool(p.get("is_shootout")),
                 "shootout_trigger": p.get("shootout_trigger", ""),
+                "is_drag_down": is_dd,
                 "winner_hit": bool(pred_winner and actual_winner and pred_winner == actual_winner),
             })
 
@@ -212,6 +220,34 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             }
         }
 
+    # 4. Drag-Down Under (⚓)
+    dd_games = [r for r in all_graded if r["is_drag_down"]]
+    dd_n = len(dd_games)
+    drag_down_stats = {}
+    if dd_n > 0:
+        dd_under_mod = sum(1 for r in dd_games if r["actual_total"] < r["model_total"])
+        dd_over_mod = sum(1 for r in dd_games if r["actual_total"] > r["model_total"])
+        dd_delta_mod = sum(r["signed_delta"] for r in dd_games) / dd_n
+        dd_ml = sum(1 for r in dd_games if r["winner_hit"])
+
+        dd_mkt = [r for r in dd_games if r["market_total"] is not None]
+        ddm_n = len(dd_mkt)
+        ddm_under = sum(1 for r in dd_mkt if r["actual_total"] < r["market_total"])
+        ddm_over = sum(1 for r in dd_mkt if r["actual_total"] > r["market_total"])
+        ddm_delta = (sum(r["actual_total"] - r["market_total"] for r in dd_mkt) / ddm_n) if ddm_n else 0.0
+
+        drag_down_stats = {
+            "sample": dd_n,
+            "mkt_sample": ddm_n,
+            "under_mkt_pct": round(ddm_under / ddm_n * 100, 1) if ddm_n else 0.0,
+            "over_mkt_pct": round(ddm_over / ddm_n * 100, 1) if ddm_n else 0.0,
+            "avg_market_delta": round(ddm_delta, 1),
+            "under_model_pct": round(dd_under_mod / dd_n * 100, 1),
+            "over_model_pct": round(dd_over_mod / dd_n * 100, 1),
+            "avg_score_delta": round(dd_delta_mod, 1),
+            "moneyline_pct": round(dd_ml / dd_n * 100, 1),
+        }
+
     payload = {
         "updated_at": datetime.now().isoformat(),
         "total_graded_games": total,
@@ -224,6 +260,7 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         },
         "clash": clash_stats,
         "shootout": shootout_stats,
+        "drag_down": drag_down_stats,
     }
 
     # Save to ncaa-api

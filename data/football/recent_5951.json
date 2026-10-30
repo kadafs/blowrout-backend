@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579978,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T18:00:00+00:00",
+      "timestamp": 1792605600,
+      "periods": {
+        "first": 1792605600,
+        "second": 1792609200
+      },
+      "venue": {
+        "id": 4596,
+        "name": "Gemeentelijk Sportcentrum",
+        "city": "Heist-Op-Den-Berg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 487,
+      "name": "First Amateur Division",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/487.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "VV - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6217,
+        "name": "Heist",
+        "logo": "https://media.api-sports.io/football/teams/6217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5951,
+        "name": "Tienen",
+        "logo": "https://media.api-sports.io/football/teams/5951.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579970,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579942,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
-      "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": null,
-        "name": "Forestierstadion",
-        "city": "Harelbeke"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 487,
-      "name": "First Amateur Division",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/487.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "VV - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5817,
-        "name": "Harelbeke",
-        "logo": "https://media.api-sports.io/football/teams/5817.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5951,
-        "name": "Tienen",
-        "logo": "https://media.api-sports.io/football/teams/5951.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

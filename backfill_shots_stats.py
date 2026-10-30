@@ -9,6 +9,8 @@ from API-Sports across the entire season.
 Enforces strict daily quota safety checks to preserve API limits.
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import time

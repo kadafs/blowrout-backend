@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577264,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 755,
+      "name": "Oberliga - Nordost-S\u00fcd",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/755.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "NOFV- Sud - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27910,
+        "name": "Weissenfels",
+        "logo": "https://media.api-sports.io/football/teams/27910.png",
+        "winner": true
+      },
+      "away": {
+        "id": 27909,
+        "name": "Dresden II",
+        "logo": "https://media.api-sports.io/football/teams/27909.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577251,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577219,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T12:00:00+00:00",
-      "timestamp": 1788091200,
-      "periods": {
-        "first": 1788091200,
-        "second": 1788094800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 755,
-      "name": "Oberliga - Nordost-S\u00fcd",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/755.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "NOFV- Sud - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27909,
-        "name": "Dresden II",
-        "logo": "https://media.api-sports.io/football/teams/27909.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14548,
-        "name": "Einheit Rudolstadt",
-        "logo": "https://media.api-sports.io/football/teams/14548.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

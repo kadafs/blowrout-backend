@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1497088,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 777,
+      "name": "3. Division - Girone 4",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/777.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18439,
+        "name": "Haugesund II",
+        "logo": "https://media.api-sports.io/football/teams/18439.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12812,
+        "name": "Mandalskameratene",
+        "logo": "https://media.api-sports.io/football/teams/12812.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1497082,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1497055,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 20
-      }
-    },
-    "league": {
-      "id": 777,
-      "name": "3. Division - Girone 4",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/777.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12812,
-        "name": "Mandalskameratene",
-        "logo": "https://media.api-sports.io/football/teams/12812.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6982,
-        "name": "Flekker\u00f8y",
-        "logo": "https://media.api-sports.io/football/teams/6982.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

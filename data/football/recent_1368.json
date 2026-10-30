@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564377,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T18:45:00+00:00",
+      "timestamp": 1792521900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 587,
+        "name": "Broadhall Way",
+        "city": "Stevenage"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1368,
+        "name": "Stevenage",
+        "logo": "https://media.api-sports.io/football/teams/1368.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1357,
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564356,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 6
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564312,
-      "referee": "C. Hicks",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 18618,
-        "name": "Brisbane Road",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1373,
-        "name": "Leyton Orient",
-        "logo": "https://media.api-sports.io/football/teams/1373.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1368,
-        "name": "Stevenage",
-        "logo": "https://media.api-sports.io/football/teams/1368.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

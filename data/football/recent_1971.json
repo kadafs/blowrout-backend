@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632106,
+      "referee": "C. Reibelt",
+      "timezone": "UTC",
+      "date": "2026-10-17T23:15:00+00:00",
+      "timestamp": 1792278900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 130,
+        "name": "Sky Stadium",
+        "city": "Wellington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17905,
+        "name": "Wellington Phoenix W",
+        "logo": "https://media.api-sports.io/football/teams/17905.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1971,
+        "name": "Melbourne City W",
+        "logo": "https://media.api-sports.io/football/teams/1971.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1538431,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484581,
-      "referee": "M. Ryan",
-      "timezone": "UTC",
-      "date": "2026-04-05T06:00:00+00:00",
-      "timestamp": 1775368800,
-      "periods": {
-        "first": 1775368800,
-        "second": 1775372400
-      },
-      "venue": {
-        "id": null,
-        "name": "Maitland Regional Sportsground",
-        "city": "Maitland"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1975,
-        "name": "Newcastle Jets FC W",
-        "logo": "https://media.api-sports.io/football/teams/1975.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1971,
-        "name": "Melbourne City W",
-        "logo": "https://media.api-sports.io/football/teams/1971.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

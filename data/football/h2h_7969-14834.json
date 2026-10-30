@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490644,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-21T11:00:00+00:00",
+      "timestamp": 1776769200,
+      "periods": {
+        "first": 1776769200,
+        "second": 1776772800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 668,
+      "name": "1. Liga U19",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/668.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2025,
+      "round": "Regular Season - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7969,
+        "name": "Sigma Olomouc U19",
+        "logo": "https://media.api-sports.io/football/teams/7969.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14834,
+        "name": "Mlad\u00e1 Boleslav U19",
+        "logo": "https://media.api-sports.io/football/teams/14834.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1396145,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1046269,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-08-12T09:00:00+00:00",
-      "timestamp": 1691830800,
-      "periods": {
-        "first": 1691830800,
-        "second": 1691834400
-      },
-      "venue": {
-        "id": null,
-        "name": "9. Z\u00e1kladn\u00ed \u0160kola",
-        "city": "Mlad\u00e1 Boleslav"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 668,
-      "name": "1. Liga U19",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/668.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2023,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14834,
-        "name": "Mlad\u00e1 Boleslav U19",
-        "logo": "https://media.api-sports.io/football/teams/14834.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7969,
-        "name": "Sigma Olomouc U19",
-        "logo": "https://media.api-sports.io/football/teams/7969.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

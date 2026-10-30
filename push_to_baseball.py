@@ -20,6 +20,7 @@ import argparse
 import re
 from datetime import date
 from pathlib import Path
+from typing import Optional
 
 if sys.platform == "win32":
     try:
@@ -44,7 +45,7 @@ def run(cmd: list[str], cwd: Path):
         raise RuntimeError(f"Command failed: {' '.join(cmd)}")
     return result.stdout.strip()
 
-def copy_baseball_data(date_filter: str | None = None):
+def copy_baseball_data(date_filter: Optional[str] = None):
     """
     Copy prediction files for baseball from ncaa-api/data/baseball
     into baseball-dashboard/public/data/baseball.

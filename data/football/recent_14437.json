@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581947,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T10:00:00+00:00",
+      "timestamp": 1792749600,
+      "periods": {
+        "first": 1792749600,
+        "second": 1792753200
+      },
+      "venue": {
+        "id": null,
+        "name": "OSC Metalist",
+        "city": "Kharkiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14437,
+        "name": "Metal Kharkiv",
+        "logo": "https://media.api-sports.io/football/teams/14437.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14441,
+        "name": "Yarud Mariupol'",
+        "logo": "https://media.api-sports.io/football/teams/14441.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581937,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581911,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T08:00:00+00:00",
-      "timestamp": 1789891200,
-      "periods": {
-        "first": 1789891200,
-        "second": 1789894800
-      },
-      "venue": {
-        "id": null,
-        "name": "Lokomotyv Stadium",
-        "city": "Poltava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 334,
-      "name": "Persha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/334.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17165,
-        "name": "SK Poltava",
-        "logo": "https://media.api-sports.io/football/teams/17165.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14437,
-        "name": "Metal Kharkiv",
-        "logo": "https://media.api-sports.io/football/teams/14437.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

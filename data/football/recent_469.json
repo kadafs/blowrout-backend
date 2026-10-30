@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1498890,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T18:00:00+00:00",
+      "timestamp": 1792346400,
+      "periods": {
+        "first": 1792346400,
+        "second": 1792350000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Nuevo Francisco Urbano",
+        "city": "Moron"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 129,
+      "name": "Primera Nacional",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/129.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 469,
+        "name": "Deportivo Moron",
+        "logo": "https://media.api-sports.io/football/teams/469.png",
+        "winner": false
+      },
+      "away": {
+        "id": 466,
+        "name": "Atletico Mitre",
+        "logo": "https://media.api-sports.io/football/teams/466.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1498869,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1498809,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T19:00:00+00:00",
-      "timestamp": 1789326000,
-      "periods": {
-        "first": 1789326000,
-        "second": 1789329600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Miguel Sancho",
-        "city": "Cordoba"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 129,
-      "name": "Primera Nacional",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/129.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1957,
-        "name": "Racing Cordoba",
-        "logo": "https://media.api-sports.io/football/teams/1957.png",
-        "winner": false
-      },
-      "away": {
-        "id": 469,
-        "name": "Deportivo Moron",
-        "logo": "https://media.api-sports.io/football/teams/469.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 1
       },
       "fulltime": {

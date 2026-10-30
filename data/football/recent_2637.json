@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1553898,
+      "referee": "A. Stojanovic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 1433,
+        "name": "Gradski Stadion Zemun",
+        "city": "Belgrade"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2642,
+        "name": "Zemun",
+        "logo": "https://media.api-sports.io/football/teams/2642.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2637,
+        "name": "Macva",
+        "logo": "https://media.api-sports.io/football/teams/2637.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553887,
-      "referee": null,
+      "referee": "P. Ilic",
       "timezone": "UTC",
       "date": "2026-10-17T17:00:00+00:00",
       "timestamp": 1792256400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792256400,
+        "second": 1792260000
       },
       "venue": {
         "id": null,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1553878,
-      "referee": null,
+      "referee": "D. Nikolic",
       "timezone": "UTC",
       "date": "2026-10-10T15:00:00+00:00",
       "timestamp": 1791644400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791644400,
+        "second": 1791648000
       },
       "venue": {
         "id": 1411,
-        "name": "FK \u010cukari\u010dki Stadion",
+        "name": "Stadion na Banovom brdu",
         "city": "Belgrade"
       },
       "status": {
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1553872,
-      "referee": null,
+      "referee": "M. Jakovljevic",
       "timezone": "UTC",
       "date": "2026-09-20T15:00:00+00:00",
       "timestamp": 1789916400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789916400,
+        "second": 1789920000
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553858,
-      "referee": "M. Delibasic",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:00:00+00:00",
-      "timestamp": 1788631200,
-      "periods": {
-        "first": 1788631200,
-        "second": 1788634800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2637,
-        "name": "Macva",
-        "logo": "https://media.api-sports.io/football/teams/2637.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2644,
-        "name": "Radnicki 1923",
-        "logo": "https://media.api-sports.io/football/teams/2644.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1498900,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T19:30:00+00:00",
+      "timestamp": 1792265400,
+      "periods": {
+        "first": 1792265400,
+        "second": 1792269000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio 20 de Octubre",
+        "city": "Tristan Suarez"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 129,
+      "name": "Primera Nacional",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/129.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1965,
+        "name": "Tristan Suarez",
+        "logo": "https://media.api-sports.io/football/teams/1965.png",
+        "winner": true
+      },
+      "away": {
+        "id": 444,
+        "name": "Patronato",
+        "logo": "https://media.api-sports.io/football/teams/444.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1498879,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1498807,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T18:30:00+00:00",
-      "timestamp": 1789324200,
-      "periods": {
-        "first": 1789324200,
-        "second": 1789327800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 129,
-      "name": "Primera Nacional",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/129.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 444,
-        "name": "Patronato",
-        "logo": "https://media.api-sports.io/football/teams/444.png",
-        "winner": null
-      },
-      "away": {
-        "id": 454,
-        "name": "Temperley",
-        "logo": "https://media.api-sports.io/football/teams/454.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

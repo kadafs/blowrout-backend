@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1553892,
+      "referee": "M. Ilic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": null,
+        "name": "Vozdovac Stadium",
+        "city": "Belgrade"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12316,
+        "name": "IMT Novi Beograd",
+        "logo": "https://media.api-sports.io/football/teams/12316.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12360,
+        "name": "\u017delezni\u010dar Pan\u010devo",
+        "logo": "https://media.api-sports.io/football/teams/12360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553888,
-      "referee": null,
+      "referee": "N. Radakovic",
       "timezone": "UTC",
       "date": "2026-10-18T12:00:00+00:00",
       "timestamp": 1792324800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792324800,
+        "second": 1792328400
       },
       "venue": {
         "id": null,
-        "name": "Novi Pazar City Stadium",
+        "name": "Gradski Stadion",
         "city": "Novi Pazar"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1553879,
-      "referee": null,
+      "referee": "N. Simovic",
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791637200,
+        "second": 1791640800
       },
       "venue": {
         "id": null,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1553876,
-      "referee": "Stefan Jeknic",
+      "referee": "S. Jeknic",
       "timezone": "UTC",
       "date": "2026-09-19T15:00:00+00:00",
       "timestamp": 1789830000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789830000,
+        "second": 1789833600
       },
       "venue": {
         "id": 1425,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553861,
-      "referee": "S. Jovanovic",
-      "timezone": "UTC",
-      "date": "2026-09-07T18:00:00+00:00",
-      "timestamp": 1788804000,
-      "periods": {
-        "first": 1788804000,
-        "second": 1788807600
-      },
-      "venue": {
-        "id": null,
-        "name": "Omladinski Stadion",
-        "city": "Belgrade"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2633,
-        "name": "OFK Beograd",
-        "logo": "https://media.api-sports.io/football/teams/2633.png",
-        "winner": null
-      },
-      "away": {
-        "id": 12316,
-        "name": "IMT Novi Beograd",
-        "logo": "https://media.api-sports.io/football/teams/12316.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

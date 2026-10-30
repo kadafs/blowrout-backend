@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640858,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T10:30:00+00:00",
+      "timestamp": 1792319400,
+      "periods": {
+        "first": 1792319400,
+        "second": 1792323000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 734,
+      "name": "Diski Challenge",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/734.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15999,
+        "name": "TS Galaxy U23",
+        "logo": "https://media.api-sports.io/football/teams/15999.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15993,
+        "name": "Mamelodi Sundowns U23",
+        "logo": "https://media.api-sports.io/football/teams/15993.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640850,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1453331,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-03T08:00:00+00:00",
-      "timestamp": 1777795200,
-      "periods": {
-        "first": 1777795200,
-        "second": 1777798800
-      },
-      "venue": {
-        "id": 21590,
-        "name": "Olympia Park",
-        "city": "Rustenburg, NW"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 734,
-      "name": "Diski Challenge",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/734.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2025,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26501,
-        "name": "Orbit College U23",
-        "logo": "https://media.api-sports.io/football/teams/26501.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15999,
-        "name": "TS Galaxy U23",
-        "logo": "https://media.api-sports.io/football/teams/15999.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639903,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T19:15:00+00:00",
+      "timestamp": 1792782900,
+      "periods": {
+        "first": 1792782900,
+        "second": 1792786500
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 404,
+      "name": "Campionato",
+      "country": "San-Marino",
+      "logo": "https://media.api-sports.io/football/leagues/404.png",
+      "flag": "https://media.api-sports.io/flags/sm.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5302,
+        "name": "Juvenes / Dogana",
+        "logo": "https://media.api-sports.io/football/teams/5302.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5308,
+        "name": "Virtus",
+        "logo": "https://media.api-sports.io/football/teams/5308.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639900,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619839,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T13:00:00+00:00",
-      "timestamp": 1788613200,
-      "periods": {
-        "first": 1788613200,
-        "second": 1788616800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 404,
-      "name": "Campionato",
-      "country": "San-Marino",
-      "logo": "https://media.api-sports.io/football/leagues/404.png",
-      "flag": "https://media.api-sports.io/flags/sm.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5303,
-        "name": "Libertas",
-        "logo": "https://media.api-sports.io/football/teams/5303.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5302,
-        "name": "Juvenes / Dogana",
-        "logo": "https://media.api-sports.io/football/teams/5302.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 2,

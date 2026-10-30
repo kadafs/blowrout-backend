@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637344,
+      "referee": "T. Owen",
+      "timezone": "UTC",
+      "date": "2026-10-20T11:00:00+00:00",
+      "timestamp": 1792494000,
+      "periods": {
+        "first": 1792494000,
+        "second": 1792497600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Luis Filipe Menezes",
+        "city": "Vila Nova de Gaia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7922,
+        "name": "Porto U19",
+        "logo": "https://media.api-sports.io/football/teams/7922.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7965,
+        "name": "PSV U19",
+        "logo": "https://media.api-sports.io/football/teams/7965.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592028,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592082,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T09:30:00+00:00",
-      "timestamp": 1789205400,
-      "periods": {
-        "first": 1789205400,
-        "second": 1789209000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 1041,
-      "name": "J\u00faniores U19",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/1041.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7922,
-        "name": "Porto U19",
-        "logo": "https://media.api-sports.io/football/teams/7922.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22394,
-        "name": "Famalic\u00e3o U19",
-        "logo": "https://media.api-sports.io/football/teams/22394.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

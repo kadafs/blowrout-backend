@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646730,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T13:00:00+00:00",
+      "timestamp": 1792501200,
+      "periods": {
+        "first": 1792501200,
+        "second": 1792504800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 569,
+      "name": "Premier League",
+      "country": "Kyrgyzstan",
+      "logo": "https://media.api-sports.io/football/leagues/569.png",
+      "flag": "https://media.api-sports.io/flags/kg.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8026,
+        "name": "Dordoi Bishkek",
+        "logo": "https://media.api-sports.io/football/teams/8026.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21167,
+        "name": "Muras United",
+        "logo": "https://media.api-sports.io/football/teams/21167.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646125,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632324,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T14:30:00+00:00",
-      "timestamp": 1787495400,
-      "periods": {
-        "first": 1787495400,
-        "second": 1787499000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 569,
-      "name": "Premier League",
-      "country": "Kyrgyzstan",
-      "logo": "https://media.api-sports.io/football/leagues/569.png",
-      "flag": "https://media.api-sports.io/flags/kg.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8026,
-        "name": "Dordoi Bishkek",
-        "logo": "https://media.api-sports.io/football/teams/8026.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8022,
-        "name": "Alay",
-        "logo": "https://media.api-sports.io/football/teams/8022.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

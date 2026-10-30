@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1536493,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T12:00:00+00:00",
+      "timestamp": 1792324800,
+      "periods": {
+        "first": 1792324800,
+        "second": 1792328400
+      },
+      "venue": {
+        "id": null,
+        "name": "Dinamo",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 652,
+      "name": "Second League - Group 2",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/652.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group 2 - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19447,
+        "name": "Dinamo Vologda",
+        "logo": "https://media.api-sports.io/football/teams/19447.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2014,
+        "name": "Chertanovo Moscow",
+        "logo": "https://media.api-sports.io/football/teams/2014.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639257,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1536456,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T15:00:00+00:00",
-      "timestamp": 1789225200,
-      "periods": {
-        "first": 1789225200,
-        "second": 1789228800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 652,
-      "name": "Second League - Group 2",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/652.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Group 2 - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17725,
-        "name": "Dinamo St. Petersburg",
-        "logo": "https://media.api-sports.io/football/teams/17725.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2014,
-        "name": "Chertanovo Moscow",
-        "logo": "https://media.api-sports.io/football/teams/2014.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

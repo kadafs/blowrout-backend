@@ -1144,8 +1144,16 @@ def main():
                 sdi_h = get_sdi_record(home, sdi_index) if sdi_index else None
                 sdi_a = get_sdi_record(away, sdi_index) if sdi_index else None
 
+                # Drag-Down Under Detection
+                is_drag_down = False
+                if conf_res.get("floor_status", "").startswith("WEAK") and "[AVOID]" in conf_res["band"]["label"]:
+                    if mae_h is not None and mae_a is not None:
+                        if min(mae_h, mae_a) <= 11.5 and max(mae_h, mae_a) >= 14.5:
+                            is_drag_down = True
+
                 # Build record
                 all_predictions.append({
+                    "is_drag_down":     is_drag_down,
                     "is_clash":         is_clash,
                     "clash_trigger":    clash_trigger,
                     "is_shootout":      is_shootout,
@@ -1175,6 +1183,7 @@ def main():
                     "confidence":   confidence,
                     "confidence_score_band": conf_res["band"]["label"].strip(),
                     "confidence_score": conf_res["confidence_score"],
+                    "floor_status": conf_res.get("floor_status", "N/A"),
                     "buffer_score": conf_res.get("hit_rate_score", 0),
                     "buffer_tier": "[ELITE BUFFER]" if conf_res.get("hit_rate_score", 0) >= 40 else ("[STRONG BUFFER]" if conf_res.get("hit_rate_score", 0) >= 28 else ("[NEUTRAL]" if conf_res.get("hit_rate_score", 0) >= 16 else ("[MARGINAL]" if conf_res.get("hit_rate_score", 0) > 0 else "[AVOID]"))),
                     "weighted_hit_rate": conf_res.get("weighted_hit_rate"),

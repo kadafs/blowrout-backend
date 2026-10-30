@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643390,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-21T19:00:00+00:00",
+      "timestamp": 1792609200,
+      "periods": {
+        "first": 1792609200,
+        "second": 1792612800
+      },
+      "venue": {
+        "id": 1636,
+        "name": "Estadio Belvedere",
+        "city": "Montevideo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 930,
+      "name": "Copa Uruguay",
+      "country": "Uruguay",
+      "logo": "https://media.api-sports.io/football/leagues/930.png",
+      "flag": "https://media.api-sports.io/flags/uy.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2358,
+        "name": "Liverpool Montevideo",
+        "logo": "https://media.api-sports.io/football/teams/2358.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2369,
+        "name": "Cerro Largo",
+        "logo": "https://media.api-sports.io/football/teams/2369.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644704,
       "referee": "E. Ostojich",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638263,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:30:00+00:00",
-      "timestamp": 1790188200,
-      "periods": {
-        "first": 1790188200,
-        "second": 1790191800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 930,
-      "name": "Copa Uruguay",
-      "country": "Uruguay",
-      "logo": "https://media.api-sports.io/football/leagues/930.png",
-      "flag": "https://media.api-sports.io/flags/uy.svg",
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2358,
-        "name": "Liverpool Montevideo",
-        "logo": "https://media.api-sports.io/football/teams/2358.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15628,
-        "name": "Col\u00f3n",
-        "logo": "https://media.api-sports.io/football/teams/15628.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

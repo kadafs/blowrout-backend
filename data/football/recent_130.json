@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492416,
+      "referee": "Joao Vitor Gobi",
+      "timezone": "UTC",
+      "date": "2026-10-18T19:00:00+00:00",
+      "timestamp": 1792350000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 241,
+        "name": "Arena do Gr\u00eamio",
+        "city": "Porto Alegre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 130,
+        "name": "Gremio",
+        "logo": "https://media.api-sports.io/football/teams/130.png",
+        "winner": false
+      },
+      "away": {
+        "id": 135,
+        "name": "Cruzeiro",
+        "logo": "https://media.api-sports.io/football/teams/135.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492406,
       "referee": "Rodrigo Jose Pereira de Lima",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492376,
-      "referee": "Raphael Claus, Brazil",
-      "timezone": "UTC",
-      "date": "2026-09-12T19:00:00+00:00",
-      "timestamp": 1789239600,
-      "periods": {
-        "first": 1789239600,
-        "second": 1789243200
-      },
-      "venue": {
-        "id": null,
-        "name": "Arena do Gr\u00eamio",
-        "city": "Porto Alegre"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 130,
-        "name": "Gremio",
-        "logo": "https://media.api-sports.io/football/teams/130.png",
-        "winner": false
-      },
-      "away": {
-        "id": 133,
-        "name": "Vasco DA Gama",
-        "logo": "https://media.api-sports.io/football/teams/133.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

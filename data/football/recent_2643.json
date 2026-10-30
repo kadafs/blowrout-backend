@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1553897,
+      "referee": "S. Jovanovic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 1427,
+        "name": "\u010cair Stadium",
+        "city": "Ni\u0161"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2254,
+        "name": "Radnicki NIS",
+        "logo": "https://media.api-sports.io/football/teams/2254.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2643,
+        "name": "Novi Pazar",
+        "logo": "https://media.api-sports.io/football/teams/2643.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553888,
-      "referee": null,
+      "referee": "N. Radakovic",
       "timezone": "UTC",
       "date": "2026-10-18T12:00:00+00:00",
       "timestamp": 1792324800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792324800,
+        "second": 1792328400
       },
       "venue": {
         "id": null,
-        "name": "Novi Pazar City Stadium",
+        "name": "Gradski Stadion",
         "city": "Novi Pazar"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1553881,
-      "referee": null,
+      "referee": "M. Milanovic",
       "timezone": "UTC",
       "date": "2026-10-11T15:00:00+00:00",
       "timestamp": 1791730800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791730800,
+        "second": 1791734400
       },
       "venue": {
         "id": 1424,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1553873,
-      "referee": "Predrag Janjus",
+      "referee": "P. Janjus",
       "timezone": "UTC",
       "date": "2026-09-19T15:00:00+00:00",
       "timestamp": 1789830000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789830000,
+        "second": 1789833600
       },
       "venue": {
         "id": null,
-        "name": "Novi Pazar City Stadium",
+        "name": "Gradski Stadion",
         "city": "Novi Pazar"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553860,
-      "referee": "N. Simovic",
-      "timezone": "UTC",
-      "date": "2026-09-04T17:00:00+00:00",
-      "timestamp": 1788541200,
-      "periods": {
-        "first": 1788541200,
-        "second": 1788544800
-      },
-      "venue": {
-        "id": null,
-        "name": "Gradski Stadion",
-        "city": "Novi Pazar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2643,
-        "name": "Novi Pazar",
-        "logo": "https://media.api-sports.io/football/teams/2643.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12360,
-        "name": "\u017delezni\u010dar Pan\u010devo",
-        "logo": "https://media.api-sports.io/football/teams/12360.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

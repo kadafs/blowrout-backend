@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1519664,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-19T15:00:00+00:00",
+      "timestamp": 1792422000,
+      "periods": {
+        "first": 1792422000,
+        "second": 1792425600
+      },
+      "venue": {
+        "id": 2337,
+        "name": "Kadrioru Staadion",
+        "city": "Tallinn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 328,
+      "name": "Esiliiga A",
+      "country": "Estonia",
+      "logo": "https://media.api-sports.io/football/leagues/328.png",
+      "flag": "https://media.api-sports.io/flags/ee.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3529,
+        "name": "Tallinna Kalev",
+        "logo": "https://media.api-sports.io/football/teams/3529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3517,
+        "name": "FCI Levadia II",
+        "logo": "https://media.api-sports.io/football/teams/3517.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519658,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519634,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T15:00:00+00:00",
-      "timestamp": 1788534000,
-      "periods": {
-        "first": 1788534000,
-        "second": 1788537600
-      },
-      "venue": {
-        "id": 2327,
-        "name": "Maarjamae staadion",
-        "city": "Tallinn"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 328,
-      "name": "Esiliiga A",
-      "country": "Estonia",
-      "logo": "https://media.api-sports.io/football/leagues/328.png",
-      "flag": "https://media.api-sports.io/flags/ee.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3517,
-        "name": "FCI Levadia II",
-        "logo": "https://media.api-sports.io/football/teams/3517.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3518,
-        "name": "Flora II",
-        "logo": "https://media.api-sports.io/football/teams/3518.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 2
       },
       "extratime": {
         "home": null,

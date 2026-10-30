@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560046,
+      "referee": "Dominik Stary",
+      "timezone": "UTC",
+      "date": "2026-10-17T16:00:00+00:00",
+      "timestamp": 1792252800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 435,
+        "name": "Andruv Stadion",
+        "city": "Olomouc"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2250,
+        "name": "Sigma Olomouc",
+        "logo": "https://media.api-sports.io/football/teams/2250.png",
+        "winner": true
+      },
+      "away": {
+        "id": 782,
+        "name": "Slovan Liberec",
+        "logo": "https://media.api-sports.io/football/teams/782.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560036,
       "referee": "J. Wulkan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560019,
-      "referee": "J. Machalek",
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 2493,
-        "name": "Stadion U Nisy",
-        "city": "Liberec"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 782,
-        "name": "Slovan Liberec",
-        "logo": "https://media.api-sports.io/football/teams/782.png",
-        "winner": true
-      },
-      "away": {
-        "id": 640,
-        "name": "Mlada Boleslav",
-        "logo": "https://media.api-sports.io/football/teams/640.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

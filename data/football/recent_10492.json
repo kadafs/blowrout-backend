@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1549522,
+      "referee": "D. Ureta",
+      "timezone": "UTC",
+      "date": "2026-10-23T20:15:00+00:00",
+      "timestamp": 1792786500,
+      "periods": {
+        "first": 1792786500,
+        "second": 1792790100
+      },
+      "venue": {
+        "id": null,
+        "name": "Ambrosio Maco Arroyo",
+        "city": "Piura"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2564,
+        "name": "Atletico Grau",
+        "logo": "https://media.api-sports.io/football/teams/2564.png",
+        "winner": null
+      },
+      "away": {
+        "id": 10492,
+        "name": "ADT",
+        "logo": "https://media.api-sports.io/football/teams/10492.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549515,
-      "referee": "Diego Haro",
+      "referee": "E. Ordonez",
       "timezone": "UTC",
       "date": "2026-10-16T20:30:00+00:00",
       "timestamp": 1792182600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792182600,
+        "second": 1792186200
       },
       "venue": {
         "id": 1875,
-        "name": "Estadio Los Chankas",
+        "name": "Estadio Municipal Los Chankas",
         "city": "Andahuaylas"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1549500,
-      "referee": "Micke Palomino, Peru",
+      "referee": "M. Palomino",
       "timezone": "UTC",
       "date": "2026-10-10T18:00:00+00:00",
       "timestamp": 1791655200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791655200,
+        "second": 1791658800
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549482,
-      "referee": "Junior Rivera",
-      "timezone": "UTC",
-      "date": "2026-09-23T20:00:00+00:00",
-      "timestamp": 1790193600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Union Tarma",
-        "city": "Tarma"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10492,
-        "name": "ADT",
-        "logo": "https://media.api-sports.io/football/teams/10492.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2562,
-        "name": "Cienciano",
-        "logo": "https://media.api-sports.io/football/teams/2562.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

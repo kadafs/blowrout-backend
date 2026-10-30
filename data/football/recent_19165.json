@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574633,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 484,
+      "name": "Frauenliga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/484.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24440,
+        "name": "LASK W",
+        "logo": "https://media.api-sports.io/football/teams/24440.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19165,
+        "name": "Kleinm\u00fcnchen / BW Linz W",
+        "logo": "https://media.api-sports.io/football/teams/19165.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574631,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574609,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T13:00:00+00:00",
-      "timestamp": 1788008400,
-      "periods": {
-        "first": 1788008400,
-        "second": 1788012000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 484,
-      "name": "Frauenliga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/484.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19165,
-        "name": "Kleinm\u00fcnchen / BW Linz W",
-        "logo": "https://media.api-sports.io/football/teams/19165.png",
-        "winner": null
-      },
-      "away": {
-        "id": 27906,
-        "name": "SK Rapid W",
-        "logo": "https://media.api-sports.io/football/teams/27906.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

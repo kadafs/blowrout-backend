@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593152,
+      "referee": "Anna-Lena Heidenreich",
+      "timezone": "UTC",
+      "date": "2026-10-17T10:00:00+00:00",
+      "timestamp": 1792231200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6476,
+        "name": "S\u00fcdstadion",
+        "city": "Cologne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1871,
+        "name": "FC Koln W",
+        "logo": "https://media.api-sports.io/football/teams/1871.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20498,
+        "name": "Hamburger SV W",
+        "logo": "https://media.api-sports.io/football/teams/20498.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593148,
       "referee": "Nadine Westerhoff",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593123,
-      "referee": "J. Boike",
-      "timezone": "UTC",
-      "date": "2026-09-05T10:00:00+00:00",
-      "timestamp": 1788602400,
-      "periods": {
-        "first": 1788602400,
-        "second": 1788606000
-      },
-      "venue": {
-        "id": 720,
-        "name": "Volksparkstadion",
-        "city": "Hamburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20498,
-        "name": "Hamburger SV W",
-        "logo": "https://media.api-sports.io/football/teams/20498.png",
-        "winner": null
-      },
-      "away": {
-        "id": 20501,
-        "name": "RB Leipzig W",
-        "logo": "https://media.api-sports.io/football/teams/20501.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

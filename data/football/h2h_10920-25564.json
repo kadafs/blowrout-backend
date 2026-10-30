@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612470,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-12T11:00:00+00:00",
+      "timestamp": 1789210800,
+      "periods": {
+        "first": 1789210800,
+        "second": 1789214400
+      },
+      "venue": {
+        "id": 2696,
+        "name": "Myyrmaaen jalkapallostadion",
+        "city": "Vantaa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 640,
+      "name": "Kansallinen Liiga",
+      "country": "Finland",
+      "logo": "https://media.api-sports.io/football/leagues/640.png",
+      "flag": "https://media.api-sports.io/flags/fi.svg",
+      "season": 2026,
+      "round": "Relegation Play-Off - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10920,
+        "name": "PK-35 Vantaa W",
+        "logo": "https://media.api-sports.io/football/teams/10920.png",
+        "winner": true
+      },
+      "away": {
+        "id": 25564,
+        "name": "VIFK W",
+        "logo": "https://media.api-sports.io/football/teams/25564.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1539068,
       "referee": null,
       "timezone": "UTC",
@@ -81,7 +151,7 @@
         "second": 1779022800
       },
       "venue": {
-        "id": 0,
+        "id": 2696,
         "name": "Myyrmaaen jalkapallostadion",
         "city": "Vantaa"
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 10,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1340081,
-      "referee": "Niko Jokinen",
-      "timezone": "UTC",
-      "date": "2025-07-16T15:30:00+00:00",
-      "timestamp": 1752679800,
-      "periods": {
-        "first": 1752679800,
-        "second": 1752683400
-      },
-      "venue": {
-        "id": 2696,
-        "name": "Myyrm\u00e4en jalkapallostadion",
-        "city": "Vantaa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 640,
-      "name": "Kansallinen Liiga",
-      "country": "Finland",
-      "logo": "https://media.api-sports.io/football/leagues/640.png",
-      "flag": "https://media.api-sports.io/flags/fi.svg",
-      "season": 2025,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10920,
-        "name": "PK-35 Vantaa W",
-        "logo": "https://media.api-sports.io/football/teams/10920.png",
-        "winner": true
-      },
-      "away": {
-        "id": 25564,
-        "name": "VIFK W",
-        "logo": "https://media.api-sports.io/football/teams/25564.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

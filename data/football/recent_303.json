@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556120,
+      "referee": "Akihiko Ikeuchi",
+      "timezone": "UTC",
+      "date": "2026-10-24T06:00:00+00:00",
+      "timestamp": 1792821600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 984,
+        "name": "Noevir Stadium Kobe",
+        "city": "Kobe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 289,
+        "name": "Vissel Kobe",
+        "logo": "https://media.api-sports.io/football/teams/289.png",
+        "winner": null
+      },
+      "away": {
+        "id": 303,
+        "name": "Machida Zelvia",
+        "logo": "https://media.api-sports.io/football/teams/303.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556107,
       "referee": "Yuzo Sutani",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1556095,
-      "referee": "Jumpei Iida",
+      "referee": "Jumpei Iida, Japan",
       "timezone": "UTC",
       "date": "2026-10-18T07:00:00+00:00",
       "timestamp": 1792306800,
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1630374,
-      "referee": null,
+      "referee": "Hussain Al-Showaikh, Bahrain",
       "timezone": "UTC",
       "date": "2026-10-15T12:15:00+00:00",
       "timestamp": 1792066500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792066500,
+        "second": 1792070100
       },
       "venue": {
         "id": null,
         "name": "Jalan Besar Stadium",
-        "city": "Kallang"
+        "city": "Singapore"
       },
       "status": {
         "long": "Match Finished",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635587,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T08:00:00+00:00",
-      "timestamp": 1790150400,
-      "periods": {
-        "first": 1790150400,
-        "second": 1790154000
-      },
-      "venue": {
-        "id": null,
-        "name": "Machida GION Stadium",
-        "city": "Machida"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 102,
-      "name": "Emperor Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/102.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 303,
-        "name": "Machida Zelvia",
-        "logo": "https://media.api-sports.io/football/teams/303.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7145,
-        "name": "Tochigi City",
-        "logo": "https://media.api-sports.io/football/teams/7145.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

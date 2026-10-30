@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642735,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 694,
+      "name": "Gamma Ethniki - Group 10",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/694.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Group 10 - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20677,
+        "name": "Tympaki",
+        "logo": "https://media.api-sports.io/football/teams/20677.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2105,
+        "name": "Ergotelis",
+        "logo": "https://media.api-sports.io/football/teams/2105.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642732,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 810811,
-      "referee": "F. Daoulas",
-      "timezone": "UTC",
-      "date": "2022-05-01T11:45:00+00:00",
-      "timestamp": 1651405500,
-      "periods": {
-        "first": 1651405500,
-        "second": 1651409100
-      },
-      "venue": {
-        "id": 773,
-        "name": "Stadio Levadias",
-        "city": "Levadia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 494,
-      "name": "Super League 2",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/494.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2021,
-      "round": "Group B - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 957,
-        "name": "Levadiakos",
-        "logo": "https://media.api-sports.io/football/teams/957.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2105,
-        "name": "Ergotelis",
-        "logo": "https://media.api-sports.io/football/teams/2105.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

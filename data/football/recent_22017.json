@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646133,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T15:30:00+00:00",
+      "timestamp": 1792251000,
+      "periods": {
+        "first": 1792251000,
+        "second": 1792254600
+      },
+      "venue": {
+        "id": 4740,
+        "name": "Stade Wobi",
+        "city": "Bobo Dioulasso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6430,
+        "name": "Rahimo",
+        "logo": "https://media.api-sports.io/football/teams/6430.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22017,
+        "name": "Sporting Cascades",
+        "logo": "https://media.api-sports.io/football/teams/22017.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644713,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469949,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-10T16:00:00+00:00",
-      "timestamp": 1778428800,
-      "periods": {
-        "first": 1778428800,
-        "second": 1778432400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26632,
-        "name": "AJEB",
-        "logo": "https://media.api-sports.io/football/teams/26632.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22017,
-        "name": "Sporting Cascades",
-        "logo": "https://media.api-sports.io/football/teams/22017.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

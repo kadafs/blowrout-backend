@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579387,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:30:00+00:00",
+      "timestamp": 1792240200,
+      "periods": {
+        "first": 1792240200,
+        "second": 1792243800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 686,
+      "name": "4. liga - Divizie F",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/686.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group F - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7289,
+        "name": "Fr\u00fddlant",
+        "logo": "https://media.api-sports.io/football/teams/7289.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15135,
+        "name": "Opava II",
+        "logo": "https://media.api-sports.io/football/teams/15135.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579383,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579351,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T08:15:00+00:00",
-      "timestamp": 1789287300,
-      "periods": {
-        "first": 1789287300,
-        "second": 1789290900
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 686,
-      "name": "4. liga - Divizie F",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/686.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group F - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15135,
-        "name": "Opava II",
-        "logo": "https://media.api-sports.io/football/teams/15135.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16877,
-        "name": "Vratimov",
-        "logo": "https://media.api-sports.io/football/teams/16877.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

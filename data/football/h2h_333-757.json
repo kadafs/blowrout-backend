@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494772,
+      "referee": "Svein Tore Sinnes, Norway",
+      "timezone": "UTC",
+      "date": "2026-10-11T15:00:00+00:00",
+      "timestamp": 1791730800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1174,
+        "name": "Color Line Stadion",
+        "city": "\u00c5lesund"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 757,
+        "name": "Aalesund",
+        "logo": "https://media.api-sports.io/football/teams/757.png",
+        "winner": false
+      },
+      "away": {
+        "id": 333,
+        "name": "Sarpsborg 08 FF",
+        "logo": "https://media.api-sports.io/football/teams/333.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1001759,
       "referee": "S. Sinnes",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 588944,
-      "referee": "Tommy Skjerven, Norway",
-      "timezone": "UTC",
-      "date": "2020-09-13T16:00:00+00:00",
-      "timestamp": 1600012800,
-      "periods": {
-        "first": 1600012800,
-        "second": 1600016400
-      },
-      "venue": {
-        "id": 1174,
-        "name": "Color Line Stadion",
-        "city": "\u00c5lesund"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2020,
-      "round": "Regular Season - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 757,
-        "name": "Aalesund",
-        "logo": "https://media.api-sports.io/football/teams/757.png",
-        "winner": false
-      },
-      "away": {
-        "id": 333,
-        "name": "Sarpsborg 08 FF",
-        "logo": "https://media.api-sports.io/football/teams/333.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

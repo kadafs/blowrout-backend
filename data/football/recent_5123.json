@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571866,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 272,
+      "name": "NB II",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/272.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5123,
+        "name": "Nagykanizsai ULE",
+        "logo": "https://media.api-sports.io/football/teams/5123.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2420,
+        "name": "Kozarmisleny FC",
+        "logo": "https://media.api-sports.io/football/teams/2420.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571856,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571822,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T15:30:00+00:00",
-      "timestamp": 1787412600,
-      "periods": {
-        "first": 1787412600,
-        "second": 1787416200
-      },
-      "venue": {
-        "id": null,
-        "name": "Ajka Sportcentrum",
-        "city": "Ajka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 272,
-      "name": "NB II",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/272.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4714,
-        "name": "Ajka",
-        "logo": "https://media.api-sports.io/football/teams/4714.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5123,
-        "name": "Nagykanizsai ULE",
-        "logo": "https://media.api-sports.io/football/teams/5123.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644215,
+      "referee": "A. Charhabil",
+      "timezone": "UTC",
+      "date": "2026-10-17T20:00:00+00:00",
+      "timestamp": 1792267200,
+      "periods": {
+        "first": 1792267200,
+        "second": 1792270800
+      },
+      "venue": {
+        "id": 1102,
+        "name": "Stade El Abdi",
+        "city": "El Jadida"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 964,
+        "name": "Difaa EL Jadida",
+        "logo": "https://media.api-sports.io/football/teams/964.png",
+        "winner": true
+      },
+      "away": {
+        "id": 965,
+        "name": "Moghreb Tetouan",
+        "logo": "https://media.api-sports.io/football/teams/965.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644206,
       "referee": "N. Nachite",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556572,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-27T15:00:00+00:00",
-      "timestamp": 1782572400,
-      "periods": {
-        "first": 1782572400,
-        "second": 1782576000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 201,
-      "name": "Botola 2",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/201.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2025,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 966,
-        "name": "Racing de Casablanca",
-        "logo": "https://media.api-sports.io/football/teams/966.png",
-        "winner": false
-      },
-      "away": {
-        "id": 965,
-        "name": "Moghreb Tetouan",
-        "logo": "https://media.api-sports.io/football/teams/965.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

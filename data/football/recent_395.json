@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551353,
+      "referee": "P. Gammelholm",
+      "timezone": "UTC",
+      "date": "2026-10-17T11:30:00+00:00",
+      "timestamp": 1792236600,
+      "periods": {
+        "first": 1792236600,
+        "second": 1792240200
+      },
+      "venue": {
+        "id": 440,
+        "name": "Aalborg Portland Park",
+        "city": "Aalborg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 402,
+        "name": "Aalborg",
+        "logo": "https://media.api-sports.io/football/teams/402.png",
+        "winner": false
+      },
+      "away": {
+        "id": 395,
+        "name": "Vejle",
+        "logo": "https://media.api-sports.io/football/teams/395.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551351,
       "referee": "M. Lykke",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551337,
-      "referee": "P. Gammelholm",
-      "timezone": "UTC",
-      "date": "2026-09-11T16:00:00+00:00",
-      "timestamp": 1789142400,
-      "periods": {
-        "first": 1789142400,
-        "second": 1789146000
-      },
-      "venue": {
-        "id": 449,
-        "name": "DS Arena",
-        "city": "Hobro"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 408,
-        "name": "Hobro",
-        "logo": "https://media.api-sports.io/football/teams/408.png",
-        "winner": null
-      },
-      "away": {
-        "id": 395,
-        "name": "Vejle",
-        "logo": "https://media.api-sports.io/football/teams/395.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

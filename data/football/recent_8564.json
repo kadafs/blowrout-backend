@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646135,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T15:30:00+00:00",
+      "timestamp": 1792251000,
+      "periods": {
+        "first": 1792251000,
+        "second": 1792254600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25180,
+        "name": "Como\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/25180.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8564,
+        "name": "ASFB",
+        "logo": "https://media.api-sports.io/football/teams/8564.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644710,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1469501,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-10T16:00:00+00:00",
-      "timestamp": 1778428800,
-      "periods": {
-        "first": 1778428800,
-        "second": 1778432400
-      },
-      "venue": {
-        "id": 306,
-        "name": "Stade du 4 Aout",
-        "city": "Ouagadougou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8072,
-        "name": "Salitas",
-        "logo": "https://media.api-sports.io/football/teams/8072.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8564,
-        "name": "ASFB",
-        "logo": "https://media.api-sports.io/football/teams/8564.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

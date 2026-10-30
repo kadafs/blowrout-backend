@@ -49,6 +49,7 @@ from core.football_enricher import (
 from build_corner_booking_profiles import corners_prediction
 from core.shots_engine import calculate_shots_prediction
 from core.xgot_history import build_xgot_adjustments, apply_xgot_adjustment
+from core.hsh_engine import compute_hsh
 
 API_KEY  = os.getenv("API_BASKETBALL_KEY")          # Same key covers api-sports football
 BASE_URL = "https://v3.football.api-sports.io"
@@ -1385,6 +1386,13 @@ def main():
                 "corners":         corner_booking if corner_booking else None,
                 # Total Shots & Shots on Target
                 "shots":           shots_block if shots_block else None,
+                # Highest-Scoring Half prediction
+                "hsh":             compute_hsh({
+                    "home_team": home, "away_team": away,
+                    "league_id": lid,
+                    "xg_home":   round(xg_h, 3),
+                    "xg_away":   round(xg_a, 3),
+                }),
                 # Actual results for backtesting
                 "actual_home_goals": game.get("home_goals") if game.get("is_completed") else None,
                 "actual_away_goals": game.get("away_goals") if game.get("is_completed") else None,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627652,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": 1792234800,
+        "second": 1792238400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 669,
+      "name": "1. Liga Women",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/669.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14842,
+        "name": "Horn\u00ed Her\u0161pice W",
+        "logo": "https://media.api-sports.io/football/teams/14842.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14846,
+        "name": "Slovan Liberec W",
+        "logo": "https://media.api-sports.io/football/teams/14846.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627647,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627632,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T12:00:00+00:00",
-      "timestamp": 1788004800,
-      "periods": {
-        "first": 1788004800,
-        "second": 1788008400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 669,
-      "name": "1. Liga Women",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/669.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10923,
-        "name": "Slavia Praha W",
-        "logo": "https://media.api-sports.io/football/teams/10923.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14842,
-        "name": "Horn\u00ed Her\u0161pice W",
-        "logo": "https://media.api-sports.io/football/teams/14842.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 9,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 6,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 9,
-        "away": 0
       },
       "extratime": {
         "home": null,

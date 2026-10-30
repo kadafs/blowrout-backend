@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644470,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": 503,
+        "name": "Meadow Park",
+        "city": "Borehamwood"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "4th Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1830,
+        "name": "Boreham Wood",
+        "logo": "https://media.api-sports.io/football/teams/1830.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1836,
+        "name": "Woking",
+        "logo": "https://media.api-sports.io/football/teams/1836.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1399768,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 888436,
-      "referee": "G. Rollason",
-      "timezone": "UTC",
-      "date": "2023-02-11T15:00:00+00:00",
-      "timestamp": 1676127600,
-      "periods": {
-        "first": 1676127600,
-        "second": 1676131200
-      },
-      "venue": {
-        "id": 2689,
-        "name": "The Laithwaite Community Stadium",
-        "city": "Woking, Surrey"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 43,
-      "name": "National League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/43.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2022,
-      "round": "Regular Season - 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1836,
-        "name": "Woking",
-        "logo": "https://media.api-sports.io/football/teams/1836.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1830,
-        "name": "Boreham Wood",
-        "logo": "https://media.api-sports.io/football/teams/1830.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

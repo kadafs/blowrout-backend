@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1534226,
+      "referee": "K. Fellas",
+      "timezone": "UTC",
+      "date": "2026-03-21T17:00:00+00:00",
+      "timestamp": 1774112400,
+      "periods": {
+        "first": 1774112400,
+        "second": 1774116000
+      },
+      "venue": {
+        "id": null,
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2025,
+      "round": "Relegation Group - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3424,
+        "name": "Krasava Ypsonas",
+        "logo": "https://media.api-sports.io/football/teams/3424.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3415,
+        "name": "Olympiakos",
+        "logo": "https://media.api-sports.io/football/teams/3415.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1415704,
-      "referee": "Chrysovalantis Theouli, Cyprus",
+      "referee": "C. Theouli",
       "timezone": "UTC",
       "date": "2026-01-12T17:00:00+00:00",
       "timestamp": 1768237200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1268512,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-01-08T12:30:00+00:00",
-      "timestamp": 1736339400,
-      "periods": {
-        "first": 1736339400,
-        "second": 1736343000
-      },
-      "venue": {
-        "id": 2230,
-        "name": "Koinotiko Stadio Erimis",
-        "city": "Erimi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 319,
-      "name": "2. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/319.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2024,
-      "round": "Regular Season - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3424,
-        "name": "Krasava Ypsonas",
-        "logo": "https://media.api-sports.io/football/teams/3424.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3415,
-        "name": "Olympiakos",
-        "logo": "https://media.api-sports.io/football/teams/3415.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558969,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T16:00:00+00:00",
+      "timestamp": 1792166400,
+      "periods": {
+        "first": 1792166400,
+        "second": 1792170000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 374,
+      "name": "2. SNL",
+      "country": "Slovenia",
+      "logo": "https://media.api-sports.io/football/leagues/374.png",
+      "flag": "https://media.api-sports.io/flags/si.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16302,
+        "name": "Dravinja",
+        "logo": "https://media.api-sports.io/football/teams/16302.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19244,
+        "name": "Jesenice",
+        "logo": "https://media.api-sports.io/football/teams/19244.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558964,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558934,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": 1789149600,
-        "second": 1789153200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 374,
-      "name": "2. SNL",
-      "country": "Slovenia",
-      "logo": "https://media.api-sports.io/football/leagues/374.png",
-      "flag": "https://media.api-sports.io/flags/si.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4362,
-        "name": "Tabor Se\u017eana",
-        "logo": "https://media.api-sports.io/football/teams/4362.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16302,
-        "name": "Dravinja",
-        "logo": "https://media.api-sports.io/football/teams/16302.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

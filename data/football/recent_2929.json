@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
-      "id": 1603057,
-      "referee": "Shukri Hussain Al Hunfush",
+      "id": 1603062,
+      "referee": "Abdullah Al-Shehri",
       "timezone": "UTC",
-      "date": "2026-10-19T15:05:00+00:00",
-      "timestamp": 1792422300,
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 1364,
+        "name": "Prince Abdullah Al-Faisal Sports City Stadium",
+        "city": "Jeddah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 307,
+      "name": "Pro League",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/307.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2929,
+        "name": "Al-Ahli Jeddah",
+        "logo": "https://media.api-sports.io/football/teams/2929.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2928,
+        "name": "Al Khaleej Saihat",
+        "logo": "https://media.api-sports.io/football/teams/2928.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1603057,
+      "referee": "S. Al Hunfush",
+      "timezone": "UTC",
+      "date": "2026-10-19T15:05:00+00:00",
+      "timestamp": 1792422300,
+      "periods": {
+        "first": 1792422300,
+        "second": 1792425900
+      },
+      "venue": {
         "id": null,
-        "name": "Al Majma\u2019a Sport City",
-        "city": "Madimaa"
+        "name": "King Abdullah Sports City Stadium",
+        "city": "Buraidah"
       },
       "status": {
         "long": "Match Finished",
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1603037,
-      "referee": "Abdullah Al-Owaidan, Saudi Arabia",
+      "referee": "A. Al Owaidan",
       "timezone": "UTC",
       "date": "2026-10-09T14:55:00+00:00",
       "timestamp": 1791557700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791557700,
+        "second": 1791561300
       },
       "venue": {
         "id": 1363,
-        "name": "Maydan Tamweel Al Oula",
-        "city": "Al-Hasa"
+        "name": "Al Fateh club stadium",
+        "city": "Al-Hofuf"
       },
       "status": {
         "long": "Match Finished",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1629915,
-      "referee": "Abdullah Jamali",
-      "timezone": "UTC",
-      "date": "2026-09-14T18:15:00+00:00",
-      "timestamp": 1789409700,
-      "periods": {
-        "first": 1789409700,
-        "second": 1789413300
-      },
-      "venue": {
-        "id": null,
-        "name": "Alinma Stadium",
-        "city": "Jeddah"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 17,
-      "name": "AFC Champions League Elite",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/17.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Phase - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2929,
-        "name": "Al-Ahli Jeddah",
-        "logo": "https://media.api-sports.io/football/teams/2929.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4220,
-        "name": "Pakhtakor",
-        "logo": "https://media.api-sports.io/football/teams/4220.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

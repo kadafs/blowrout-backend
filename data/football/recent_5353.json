@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639278,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T18:45:00+00:00",
+      "timestamp": 1792521900,
+      "periods": {
+        "first": 1792521900,
+        "second": 1792525500
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 559,
+      "name": "League Cup",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/559.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5353,
+        "name": "Institute",
+        "logo": "https://media.api-sports.io/football/teams/5353.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5345,
+        "name": "Loughgall",
+        "logo": "https://media.api-sports.io/football/teams/5345.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564894,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564865,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 407,
-      "name": "Championship",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/407.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5353,
-        "name": "Institute",
-        "logo": "https://media.api-sports.io/football/teams/5353.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5355,
-        "name": "Warrenpoint Town",
-        "logo": "https://media.api-sports.io/football/teams/5355.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645642,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T12:00:00+00:00",
+      "timestamp": 1792238400,
+      "periods": {
+        "first": 1792238400,
+        "second": 1792242000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 847,
+      "name": "Premier League",
+      "country": "Eswatini",
+      "logo": "https://media.api-sports.io/football/leagues/847.png",
+      "flag": "https://media.api-sports.io/flags/sz.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28440,
+        "name": "Red Rhinos",
+        "logo": "https://media.api-sports.io/football/teams/28440.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16821,
+        "name": "Moneni Pirates",
+        "logo": "https://media.api-sports.io/football/teams/16821.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645163,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1512100,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-20T16:00:00+00:00",
-      "timestamp": 1779292800,
-      "periods": {
-        "first": 1779292800,
-        "second": 1779296400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 847,
-      "name": "Premier League",
-      "country": "Eswatini",
-      "logo": "https://media.api-sports.io/football/leagues/847.png",
-      "flag": "https://media.api-sports.io/flags/sz.svg",
-      "season": 2025,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8107,
-        "name": "Mbabane Swallows",
-        "logo": "https://media.api-sports.io/football/teams/8107.png",
-        "winner": null
-      },
-      "away": {
-        "id": 16821,
-        "name": "Moneni Pirates",
-        "logo": "https://media.api-sports.io/football/teams/16821.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

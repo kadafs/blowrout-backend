@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1417306,
+      "referee": "G. Lowe",
+      "timezone": "UTC",
+      "date": "2026-03-28T17:30:00+00:00",
+      "timestamp": 1774719000,
+      "periods": {
+        "first": 1774719000,
+        "second": 1774722600
+      },
+      "venue": {
+        "id": 494,
+        "name": "Emirates Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 44,
+      "name": "FA WSL",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/44.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1850,
+        "name": "Arsenal W",
+        "logo": "https://media.api-sports.io/football/teams/1850.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4899,
+        "name": "Tottenham Hotspur W",
+        "logo": "https://media.api-sports.io/football/teams/4899.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1417248,
-      "referee": null,
+      "referee": "E. Heaslip",
       "timezone": "UTC",
       "date": "2025-11-16T14:30:00+00:00",
       "timestamp": 1763303400,
@@ -253,76 +323,6 @@
         "id": 4899,
         "name": "Tottenham Hotspur W",
         "logo": "https://media.api-sports.io/football/teams/4899.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1075754,
-      "referee": "C. Foster",
-      "timezone": "UTC",
-      "date": "2023-12-16T12:00:00+00:00",
-      "timestamp": 1702728000,
-      "periods": {
-        "first": 1702728000,
-        "second": 1702731600
-      },
-      "venue": {
-        "id": 593,
-        "name": "Tottenham Hotspur Stadium",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 44,
-      "name": "FA WSL",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/44.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2023,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4899,
-        "name": "Tottenham Hotspur W",
-        "logo": "https://media.api-sports.io/football/teams/4899.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1850,
-        "name": "Arsenal W",
-        "logo": "https://media.api-sports.io/football/teams/1850.png",
         "winner": false
       }
     },

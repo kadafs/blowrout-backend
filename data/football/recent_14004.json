@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562538,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T13:30:00+00:00",
+      "timestamp": 1792243800,
+      "periods": {
+        "first": 1792243800,
+        "second": 1792247400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 352,
+      "name": "4. liga - Divizie C",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/352.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group C - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14004,
+        "name": "Kosmonosy",
+        "logo": "https://media.api-sports.io/football/teams/14004.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7286,
+        "name": "Dv\u016fr Kr\u00e1lov\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/7286.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562530,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562507,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T15:00:00+00:00",
-      "timestamp": 1789311600,
-      "periods": {
-        "first": 1789311600,
-        "second": 1789315200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 352,
-      "name": "4. liga - Divizie C",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/352.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group C - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19437,
-        "name": "Turnov",
-        "logo": "https://media.api-sports.io/football/teams/19437.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14004,
-        "name": "Kosmonosy",
-        "logo": "https://media.api-sports.io/football/teams/14004.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

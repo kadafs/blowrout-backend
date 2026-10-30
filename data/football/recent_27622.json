@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638530,
+      "referee": "Changzhi Liu",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": 1792323000,
+        "second": 1792326600
+      },
+      "venue": {
+        "id": null,
+        "name": "Haicang Sports Centre Stadium",
+        "city": "Xiamen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Relegation Group - 27",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27622,
+        "name": "Xiamen Feilu",
+        "logo": "https://media.api-sports.io/football/teams/27622.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5679,
+        "name": "Qingdao Red Lions",
+        "logo": "https://media.api-sports.io/football/teams/5679.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638523,
       "referee": "X. Wang",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1532890,
-      "referee": "D. Zhu",
-      "timezone": "UTC",
-      "date": "2026-08-23T11:30:00+00:00",
-      "timestamp": 1787484600,
-      "periods": {
-        "first": 1787484600,
-        "second": 1787488200
-      },
-      "venue": {
-        "id": null,
-        "name": "Haicang Sports Centre Stadium",
-        "city": "Xiamen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 27622,
-        "name": "Xiamen Feilu",
-        "logo": "https://media.api-sports.io/football/teams/27622.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17272,
-        "name": "Yichun Grand Tiger",
-        "logo": "https://media.api-sports.io/football/teams/17272.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

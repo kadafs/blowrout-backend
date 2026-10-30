@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640721,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T14:00:00+00:00",
+      "timestamp": 1792504800,
+      "periods": {
+        "first": 1792504800,
+        "second": 1792508400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 291,
+      "name": "Azadegan League",
+      "country": "Iran",
+      "logo": "https://media.api-sports.io/football/leagues/291.png",
+      "flag": "https://media.api-sports.io/flags/ir.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22890,
+        "name": "Shenavarsazi Qeshm",
+        "logo": "https://media.api-sports.io/football/teams/22890.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2718,
+        "name": "Mes Kerman",
+        "logo": "https://media.api-sports.io/football/teams/2718.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640708,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632790,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T14:00:00+00:00",
-      "timestamp": 1789480800,
-      "periods": {
-        "first": 1789480800,
-        "second": 1789484400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 291,
-      "name": "Azadegan League",
-      "country": "Iran",
-      "logo": "https://media.api-sports.io/football/leagues/291.png",
-      "flag": "https://media.api-sports.io/flags/ir.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25364,
-        "name": "Fard Alborz",
-        "logo": "https://media.api-sports.io/football/teams/25364.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2718,
-        "name": "Mes Kerman",
-        "logo": "https://media.api-sports.io/football/teams/2718.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

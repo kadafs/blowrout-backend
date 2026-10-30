@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646353,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T19:00:00+00:00",
+      "timestamp": 1792350000,
+      "periods": {
+        "first": 1792350000,
+        "second": 1792353600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 710,
+      "name": "Nacional B",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/710.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15698,
+        "name": "EM Huanuni",
+        "logo": "https://media.api-sports.io/football/teams/15698.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28290,
+        "name": "Atletico Sucre",
+        "logo": "https://media.api-sports.io/football/teams/28290.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644745,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638343,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T17:00:00+00:00",
-      "timestamp": 1788627600,
-      "periods": {
-        "first": 1788627600,
-        "second": 1788631200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 710,
-      "name": "Nacional B",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/710.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15715,
-        "name": "Libertad",
-        "logo": "https://media.api-sports.io/football/teams/15715.png",
-        "winner": null
-      },
-      "away": {
-        "id": 15698,
-        "name": "EM Huanuni",
-        "logo": "https://media.api-sports.io/football/teams/15698.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

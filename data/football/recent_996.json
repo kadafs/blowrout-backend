@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1584439,
+      "referee": "Ali Sansalan, T\u00fcrkiye",
+      "timezone": "UTC",
+      "date": "2026-10-23T17:00:00+00:00",
+      "timestamp": 1792774800,
+      "periods": {
+        "first": 1792774800,
+        "second": 1792778400
+      },
+      "venue": {
+        "id": null,
+        "name": "Bahcesehir Okullari Stadium",
+        "city": "Alanya"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 203,
+      "name": "S\u00fcper Lig",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/203.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 996,
+        "name": "Alanyaspor",
+        "logo": "https://media.api-sports.io/football/teams/996.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7411,
+        "name": "Kocaelispor",
+        "logo": "https://media.api-sports.io/football/teams/7411.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584434,
-      "referee": "C. Altay",
+      "referee": "Cagdas Altay, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-10-17T16:00:00+00:00",
       "timestamp": 1792252800,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+        "name": "Chobani Stadium",
         "city": "Istanbul"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1584421,
-      "referee": "D. Celik",
+      "referee": "Davut Dakul Celik, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Alanya Oba Stadium",
+        "name": "Bahcesehir Okullari Stadium",
         "city": "Alanya"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1584414,
-      "referee": "A. Akarsu",
+      "referee": "Alper Akarsu, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-09-19T14:00:00+00:00",
       "timestamp": 1789826400,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1584403,
-      "referee": "O. Ergun",
+      "referee": "Ozan Ergun, T\u00fcrkiye",
       "timezone": "UTC",
       "date": "2026-09-12T17:00:00+00:00",
       "timestamp": 1789232400,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Alanya Oba Stadium",
+        "name": "Bahcesehir Okullari Stadium",
         "city": "Alanya"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584401,
-      "referee": "A. B. Taskinsoy",
-      "timezone": "UTC",
-      "date": "2026-09-07T17:00:00+00:00",
-      "timestamp": 1788800400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1580,
-        "name": "\u00c7aykur Didi Stadyumu",
-        "city": "Rize"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 203,
-      "name": "S\u00fcper Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/203.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1007,
-        "name": "Rizespor",
-        "logo": "https://media.api-sports.io/football/teams/1007.png",
-        "winner": false
-      },
-      "away": {
-        "id": 996,
-        "name": "Alanyaspor",
-        "logo": "https://media.api-sports.io/football/teams/996.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

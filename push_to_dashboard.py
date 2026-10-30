@@ -22,6 +22,7 @@ import subprocess
 import argparse
 from datetime import date
 from pathlib import Path
+from typing import Optional
 
 if sys.platform == "win32":
     try:
@@ -33,6 +34,8 @@ if sys.platform == "win32":
 # Paths — adjust if your folders are in a different location
 NCAA_API_ROOT   = Path(__file__).parent
 DASHBOARD_ROOT  = NCAA_API_ROOT.parent / "Sports Analytics"
+if not DASHBOARD_ROOT.exists() and (NCAA_API_ROOT.parent / "sports-analytics").exists():
+    DASHBOARD_ROOT = NCAA_API_ROOT.parent / "sports-analytics"
 
 SPORTS = ["football", "basketball"]
 
@@ -50,7 +53,7 @@ def run(cmd: list[str], cwd: Path):
     return result.stdout.strip()
 
 
-def copy_sport_data(sport: str, date_filter: str | None = None):
+def copy_sport_data(sport: str, date_filter: Optional[str] = None):
     """
     Copy prediction files for a sport from ncaa-api/data/{sport}
     into Sports Analytics/public/data/{sport}.
@@ -96,8 +99,8 @@ def copy_sport_data(sport: str, date_filter: str | None = None):
             shutil.copy2(src_file, dest_file)
         copied.append(src_file.name)
 
-    # Also copy leaderboard and signal stats files if they exist
-    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json"):
+    # Also copy leaderboard, signal stats, and SDI index files if they exist
+    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json", "team_sdi.json"):
         for aux_file in src_dir.glob(aux_pattern):
             dest_aux = dest_dir / aux_file.name
             try:
@@ -132,7 +135,8 @@ def cleanup_old_files(sport: str, keep_days: int = 7):
         "basketball_leaderboard",
         "football_leaderboard",
         "basketball_signal_stats",
-        "signal_stats"
+        "signal_stats",
+        "team_sdi"
     )
     removed = []
 

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619748,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T17:30:00+00:00",
+      "timestamp": 1792344600,
+      "periods": {
+        "first": 1792344600,
+        "second": 1792348200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 758,
+      "name": "Premier Division",
+      "country": "Gibraltar",
+      "logo": "https://media.api-sports.io/football/leagues/758.png",
+      "flag": "https://media.api-sports.io/flags/gi.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16790,
+        "name": "Hound Dogs",
+        "logo": "https://media.api-sports.io/football/teams/16790.png",
+        "winner": false
+      },
+      "away": {
+        "id": 698,
+        "name": "St Joseph S Fc",
+        "logo": "https://media.api-sports.io/football/teams/698.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 8
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 8
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619743,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632309,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T19:00:00+00:00",
-      "timestamp": 1787511600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Europa Point Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1042,
-      "name": "Super Cup",
-      "country": "Gibraltar",
-      "logo": "https://media.api-sports.io/football/leagues/1042.png",
-      "flag": "https://media.api-sports.io/flags/gi.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 667,
-        "name": "Lincoln Red Imps FC",
-        "logo": "https://media.api-sports.io/football/teams/667.png",
-        "winner": true
-      },
-      "away": {
-        "id": 698,
-        "name": "St Joseph S Fc",
-        "logo": "https://media.api-sports.io/football/teams/698.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

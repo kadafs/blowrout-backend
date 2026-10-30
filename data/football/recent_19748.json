@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601262,
+      "referee": "M. Pasculli",
+      "timezone": "UTC",
+      "date": "2026-10-18T16:00:00+00:00",
+      "timestamp": 1792339200,
+      "periods": {
+        "first": 1792339200,
+        "second": 1792342800
+      },
+      "venue": {
+        "id": 6550,
+        "name": "Stadio Ernesto Breda",
+        "city": "Sesto San Giovanni"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 139,
+      "name": "Serie A Women",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/139.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7533,
+        "name": "Inter Milano W",
+        "logo": "https://media.api-sports.io/football/teams/7533.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19748,
+        "name": "Parma W",
+        "logo": "https://media.api-sports.io/football/teams/19748.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601259,
       "referee": "F. Tassano",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582315,
-      "referee": "J. Gallorini",
-      "timezone": "UTC",
-      "date": "2026-08-21T18:30:00+00:00",
-      "timestamp": 1787337000,
-      "periods": {
-        "first": 1787337000,
-        "second": 1787340600
-      },
-      "venue": {
-        "id": 921,
-        "name": "Stadio Ennio Tardini",
-        "city": "Parma"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1198,
-      "name": "Serie A Cup Women",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/1198.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 19748,
-        "name": "Parma W",
-        "logo": "https://media.api-sports.io/football/teams/19748.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7533,
-        "name": "Inter Milano W",
-        "logo": "https://media.api-sports.io/football/teams/7533.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

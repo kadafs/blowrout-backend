@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636442,
+      "referee": "Matteo Marcenaro, Italy",
+      "timezone": "UTC",
+      "date": "2026-10-22T19:00:00+00:00",
+      "timestamp": 1792695600,
+      "periods": {
+        "first": 1792695600,
+        "second": 1792699200
+      },
+      "venue": {
+        "id": null,
+        "name": "Victoria Stadium",
+        "city": "Gibraltar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 667,
+        "name": "Lincoln Red Imps FC",
+        "logo": "https://media.api-sports.io/football/teams/667.png",
+        "winner": false
+      },
+      "away": {
+        "id": 415,
+        "name": "Twente",
+        "logo": "https://media.api-sports.io/football/teams/415.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619747,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619716,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T19:00:00+00:00",
-      "timestamp": 1788548400,
-      "periods": {
-        "first": 1788548400,
-        "second": 1788552000
-      },
-      "venue": {
-        "id": 760,
-        "name": "Victoria Stadium",
-        "city": "Gibraltar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 758,
-      "name": "Premier Division",
-      "country": "Gibraltar",
-      "logo": "https://media.api-sports.io/football/leagues/758.png",
-      "flag": "https://media.api-sports.io/flags/gi.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 667,
-        "name": "Lincoln Red Imps FC",
-        "logo": "https://media.api-sports.io/football/teams/667.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16131,
-        "name": "Europa Point",
-        "logo": "https://media.api-sports.io/football/teams/16131.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -22,6 +22,8 @@ Usage:
     python setup_tennis_data.py  # run from ncaa-api/ OR ncaa-api/tennis/
 """
 
+from __future__ import annotations
+
 import os
 import time
 import zipfile

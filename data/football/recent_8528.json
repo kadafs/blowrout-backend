@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571594,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T13:00:00+00:00",
+      "timestamp": 1792760400,
+      "periods": {
+        "first": 1792760400,
+        "second": 1792764000
+      },
+      "venue": {
+        "id": 304,
+        "name": "Stadion Dragalevtsi",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 173,
+      "name": "Second League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/173.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1415,
+        "name": "CSKA Sofia II",
+        "logo": "https://media.api-sports.io/football/teams/1415.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8528,
+        "name": "Yantra 2019",
+        "logo": "https://media.api-sports.io/football/teams/8528.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644246,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571573,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T16:00:00+00:00",
-      "timestamp": 1789920000,
-      "periods": {
-        "first": 1789920000,
-        "second": 1789923600
-      },
-      "venue": {
-        "id": 6084,
-        "name": "Stadion Hristo Botev",
-        "city": "Gabrovo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 173,
-      "name": "Second League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/173.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8528,
-        "name": "Yantra 2019",
-        "logo": "https://media.api-sports.io/football/teams/8528.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1420,
-        "name": "Lokomotiv G. Oryahovitsa",
-        "logo": "https://media.api-sports.io/football/teams/1420.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

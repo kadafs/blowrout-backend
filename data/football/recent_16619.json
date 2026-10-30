@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528741,
+      "referee": "T. Ren",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": 1792323000,
+        "second": 1792326600
+      },
+      "venue": {
+        "id": null,
+        "name": "Wutaishan Stadium",
+        "city": "Nanjing"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 170,
+      "name": "League One",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/170.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16619,
+        "name": "Nanjing City",
+        "logo": "https://media.api-sports.io/football/teams/16619.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17264,
+        "name": "Hebei Kungfu",
+        "logo": "https://media.api-sports.io/football/teams/17264.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528788,
       "referee": "T. Man",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1528705,
-      "referee": "P. Li",
-      "timezone": "UTC",
-      "date": "2026-09-06T11:00:00+00:00",
-      "timestamp": 1788692400,
-      "periods": {
-        "first": 1788692400,
-        "second": 1788696000
-      },
-      "venue": {
-        "id": null,
-        "name": "Suzhou Sports Centre",
-        "city": "Suzhou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 170,
-      "name": "League One",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/170.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5688,
-        "name": "Suzhou Dongwu",
-        "logo": "https://media.api-sports.io/football/teams/5688.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16619,
-        "name": "Nanjing City",
-        "logo": "https://media.api-sports.io/football/teams/16619.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1414463,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-22T13:00:00+00:00",
+      "timestamp": 1774184400,
+      "periods": {
+        "first": 1774184400,
+        "second": 1774188000
+      },
+      "venue": {
+        "id": 19978,
+        "name": "S\u00e1ndor K\u00e1roly Labdar\u00fag\u00f3 Akad\u00e9mia",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 634,
+      "name": "NB III - Southwest",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/634.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2025,
+      "round": "Southwest - 21",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17064,
+        "name": "MTK Budapest II",
+        "logo": "https://media.api-sports.io/football/teams/17064.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2407,
+        "name": "Kaposvar",
+        "logo": "https://media.api-sports.io/football/teams/2407.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1414342,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1072288,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-10-08T13:00:00+00:00",
-      "timestamp": 1696770000,
-      "periods": {
-        "first": 1696770000,
-        "second": 1696773600
-      },
-      "venue": {
-        "id": 19978,
-        "name": "S\u00e1ndor K\u00e1roly Labdar\u00fag\u00f3 Akad\u00e9mia",
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 634,
-      "name": "NB III - Southwest",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/634.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2023,
-      "round": "Southwest - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17064,
-        "name": "MTK Budapest II",
-        "logo": "https://media.api-sports.io/football/teams/17064.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2407,
-        "name": "Kaposvar",
-        "logo": "https://media.api-sports.io/football/teams/2407.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

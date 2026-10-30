@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645490,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T14:00:00+00:00",
+      "timestamp": 1792245600,
+      "periods": {
+        "first": 1792245600,
+        "second": 1792249200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 187,
+      "name": "Ligue 2",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/187.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1071,
+        "name": "NC Magra",
+        "logo": "https://media.api-sports.io/football/teams/1071.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20696,
+        "name": "IRB Nezla",
+        "logo": "https://media.api-sports.io/football/teams/20696.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643954,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "fulltime": {
         "home": 2,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 973697,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2022-12-16T13:00:00+00:00",
-      "timestamp": 1671195600,
-      "periods": {
-        "first": 1671195600,
-        "second": 1671199200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade OPOW El Moustaqbel",
-        "city": "Touggourt"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 514,
-      "name": "Coupe Nationale",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/514.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2022,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20696,
-        "name": "IRB Nezla",
-        "logo": "https://media.api-sports.io/football/teams/20696.png",
-        "winner": false
-      },
-      "away": {
-        "id": 911,
-        "name": "CS Constantine",
-        "logo": "https://media.api-sports.io/football/teams/911.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

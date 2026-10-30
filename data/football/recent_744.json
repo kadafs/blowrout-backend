@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1576199,
+      "referee": "Felix Weller, Germany",
+      "timezone": "UTC",
+      "date": "2026-10-17T11:00:00+00:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 718,
+        "name": "Sportpark Ronhof Thomas Sommer",
+        "city": "F\u00fcrth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 178,
+        "name": "SpVgg Greuther F\u00fcrth",
+        "logo": "https://media.api-sports.io/football/teams/178.png",
+        "winner": true
+      },
+      "away": {
+        "id": 744,
+        "name": "Eintracht Braunschweig",
+        "logo": "https://media.api-sports.io/football/teams/744.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576189,
       "referee": "Eric-Dominic Weisbach, Germany",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576168,
-      "referee": "Wolfgang Haslberger, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-06T11:30:00+00:00",
-      "timestamp": 1788694200,
-      "periods": {
-        "first": 1788694200,
-        "second": 1788697800
-      },
-      "venue": {
-        "id": 735,
-        "name": "Bremer Br\u00fccke",
-        "city": "Osnabruck"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1324,
-        "name": "VfL Osnabr\u00fcck",
-        "logo": "https://media.api-sports.io/football/teams/1324.png",
-        "winner": true
-      },
-      "away": {
-        "id": 744,
-        "name": "Eintracht Braunschweig",
-        "logo": "https://media.api-sports.io/football/teams/744.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

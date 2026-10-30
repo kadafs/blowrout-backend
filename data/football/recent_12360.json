@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1553892,
+      "referee": "M. Ilic",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": null,
+        "name": "Vozdovac Stadium",
+        "city": "Belgrade"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12316,
+        "name": "IMT Novi Beograd",
+        "logo": "https://media.api-sports.io/football/teams/12316.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12360,
+        "name": "\u017delezni\u010dar Pan\u010devo",
+        "logo": "https://media.api-sports.io/football/teams/12360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553891,
-      "referee": null,
+      "referee": "Stefan Jeknic, Serbia",
       "timezone": "UTC",
       "date": "2026-10-18T16:30:00+00:00",
       "timestamp": 1792341000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792341000,
+        "second": 1792344600
       },
       "venue": {
         "id": 7892,
-        "name": "Stadion FK Zeleznicar Pancevo",
+        "name": "Sportsko-Rekreativni Centar Mladost",
         "city": "Pancevo"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1553884,
-      "referee": null,
+      "referee": "M. Markovic",
       "timezone": "UTC",
       "date": "2026-10-11T17:00:00+00:00",
       "timestamp": 1791738000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791738000,
+        "second": 1791741600
       },
       "venue": {
         "id": 1433,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1553877,
-      "referee": null,
+      "referee": "M. Stefanovic",
       "timezone": "UTC",
       "date": "2026-09-20T18:00:00+00:00",
       "timestamp": 1789927200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789927200,
+        "second": 1789930800
       },
       "venue": {
         "id": 7892,
-        "name": "Stadion FK Zeleznicar Pancevo",
+        "name": "Sportsko-Rekreativni Centar Mladost",
         "city": "Pancevo"
       },
       "status": {
@@ -217,12 +287,12 @@
       "date": "2026-09-17T18:00:00+00:00",
       "timestamp": 1789668000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789668000,
+        "second": 1789671600
       },
       "venue": {
         "id": 7892,
-        "name": "Stadion FK Zeleznicar Pancevo",
+        "name": "Sportsko-Rekreativni Centar Mladost",
         "city": "Pancevo"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553869,
-      "referee": "D. Jeknic",
-      "timezone": "UTC",
-      "date": "2026-09-11T16:30:00+00:00",
-      "timestamp": 1789144200,
-      "periods": {
-        "first": 1789144200,
-        "second": 1789147800
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportsko-Rekreativni Centar Mladost",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12360,
-        "name": "\u017delezni\u010dar Pan\u010devo",
-        "logo": "https://media.api-sports.io/football/teams/12360.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2637,
-        "name": "Macva",
-        "logo": "https://media.api-sports.io/football/teams/2637.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

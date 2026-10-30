@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1508575,
+      "referee": "Brad Jensen, USA",
+      "timezone": "UTC",
+      "date": "2026-10-17T23:00:00+00:00",
+      "timestamp": 1792278000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21741,
+        "name": "WakeMed Soccer Park",
+        "city": "Kari"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2999,
+        "name": "North Carolina Courage W",
+        "logo": "https://media.api-sports.io/football/teams/2999.png",
+        "winner": false
+      },
+      "away": {
+        "id": 18451,
+        "name": "San Diego Wave W",
+        "logo": "https://media.api-sports.io/football/teams/18451.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508564,
       "referee": "Alexandra Billeter",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508537,
-      "referee": "Abdou Ndiaye, USA",
-      "timezone": "UTC",
-      "date": "2026-09-07T01:00:00+00:00",
-      "timestamp": 1788742800,
-      "periods": {
-        "first": 1788742800,
-        "second": 1788746400
-      },
-      "venue": {
-        "id": null,
-        "name": "Lumen Field",
-        "city": "Seattle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 254,
-      "name": "NWSL Women",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/254.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3002,
-        "name": "Seattle Reign FC W",
-        "logo": "https://media.api-sports.io/football/teams/3002.png",
-        "winner": true
-      },
-      "away": {
-        "id": 18451,
-        "name": "San Diego Wave W",
-        "logo": "https://media.api-sports.io/football/teams/18451.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

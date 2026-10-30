@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1536491,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T11:00:00+00:00",
+      "timestamp": 1792148400,
+      "periods": {
+        "first": 1792148400,
+        "second": 1792152000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Nova Arena",
+        "city": "Saint Petersburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 652,
+      "name": "Second League - Group 2",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/652.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group 2 - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6840,
+        "name": "Zvezda St. Petersburg",
+        "logo": "https://media.api-sports.io/football/teams/6840.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24450,
+        "name": "Cherepovets",
+        "logo": "https://media.api-sports.io/football/teams/24450.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1536486,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1536450,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T16:00:00+00:00",
-      "timestamp": 1788710400,
-      "periods": {
-        "first": 1788710400,
-        "second": 1788714000
-      },
-      "venue": {
-        "id": null,
-        "name": "Chertanovo Arena",
-        "city": "Moscow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 652,
-      "name": "Second League - Group 2",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/652.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Group 2 - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2014,
-        "name": "Chertanovo Moscow",
-        "logo": "https://media.api-sports.io/football/teams/2014.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24450,
-        "name": "Cherepovets",
-        "logo": "https://media.api-sports.io/football/teams/24450.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

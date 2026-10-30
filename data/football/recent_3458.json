@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644216,
+      "referee": "B. Redouane",
+      "timezone": "UTC",
+      "date": "2026-10-18T18:00:00+00:00",
+      "timestamp": 1792346400,
+      "periods": {
+        "first": 1792346400,
+        "second": 1792350000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Olympique de Rabat",
+        "city": "Rabat"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3458,
+        "name": "Widad T\u00e9mara",
+        "logo": "https://media.api-sports.io/football/teams/3458.png",
+        "winner": false
+      },
+      "away": {
+        "id": 971,
+        "name": "Kawkab Marrakech",
+        "logo": "https://media.api-sports.io/football/teams/971.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644203,
       "referee": "M. Kechchaf",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640042,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T16:00:00+00:00",
-      "timestamp": 1789574400,
-      "periods": {
-        "first": 1789574400,
-        "second": 1789578000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 22218,
-        "name": "CODM Mekn\u00e8s",
-        "logo": "https://media.api-sports.io/football/teams/22218.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3458,
-        "name": "Widad T\u00e9mara",
-        "logo": "https://media.api-sports.io/football/teams/3458.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

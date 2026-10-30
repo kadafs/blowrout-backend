@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582298,
+      "referee": "D. Casha",
+      "timezone": "UTC",
+      "date": "2026-10-21T18:30:00+00:00",
+      "timestamp": 1792607400,
+      "periods": {
+        "first": 1792607400,
+        "second": 1792611000
+      },
+      "venue": {
+        "id": null,
+        "name": "Centenary Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 393,
+      "name": "Premier League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/393.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4622,
+        "name": "Zabbar St. Patrick",
+        "logo": "https://media.api-sports.io/football/teams/4622.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4628,
+        "name": "Sliema Wanderers",
+        "logo": "https://media.api-sports.io/football/teams/4628.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582287,
       "referee": "E. Barbara",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582266,
-      "referee": "E. Barbara",
-      "timezone": "UTC",
-      "date": "2026-09-06T18:30:00+00:00",
-      "timestamp": 1788719400,
-      "periods": {
-        "first": 1788719400,
-        "second": 1788723000
-      },
-      "venue": {
-        "id": null,
-        "name": "Centenary Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 393,
-      "name": "Premier League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/393.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4622,
-        "name": "Zabbar St. Patrick",
-        "logo": "https://media.api-sports.io/football/teams/4622.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4626,
-        "name": "Hamrun Spartans",
-        "logo": "https://media.api-sports.io/football/teams/4626.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

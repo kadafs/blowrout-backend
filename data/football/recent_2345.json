@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1511710,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T18:00:00+00:00",
+      "timestamp": 1792346400,
+      "periods": {
+        "first": 1792346400,
+        "second": 1792350000
+      },
+      "venue": {
+        "id": 2672,
+        "name": "Estadio Carlos Dittborn",
+        "city": "Arica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 266,
+      "name": "Primera B",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/266.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2345,
+        "name": "San Marcos de Arica",
+        "logo": "https://media.api-sports.io/football/teams/2345.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2342,
+        "name": "D. Puerto Montt",
+        "logo": "https://media.api-sports.io/football/teams/2342.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511697,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 2345,
         "name": "San Marcos de Arica",
         "logo": "https://media.api-sports.io/football/teams/2345.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1511679,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T00:00:00+00:00",
-      "timestamp": 1788652800,
-      "periods": {
-        "first": 1788652800,
-        "second": 1788656400
-      },
-      "venue": {
-        "id": 2672,
-        "name": "Estadio Carlos Dittborn",
-        "city": "Arica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 266,
-      "name": "Primera B",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/266.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2345,
-        "name": "San Marcos de Arica",
-        "logo": "https://media.api-sports.io/football/teams/2345.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2343,
-        "name": "Deportes Copiapo",
-        "logo": "https://media.api-sports.io/football/teams/2343.png",
         "winner": false
       }
     },

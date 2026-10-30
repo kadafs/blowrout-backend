@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1576197,
+      "referee": "Michael Bacher",
+      "timezone": "UTC",
+      "date": "2026-10-18T11:30:00+00:00",
+      "timestamp": 1792323000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 697,
+        "name": "Sch\u00fcco-Arena",
+        "city": "Bielefeld"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1324,
+        "name": "VfL Osnabr\u00fcck",
+        "logo": "https://media.api-sports.io/football/teams/1324.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576188,
-      "referee": "Konrad Oldhafer",
+      "referee": "Konrad Oldhafer, Germany",
       "timezone": "UTC",
       "date": "2026-10-11T11:30:00+00:00",
       "timestamp": 1791718200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576161,
-      "referee": "Felix Prigan, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-04T16:30:00+00:00",
-      "timestamp": 1788539400,
-      "periods": {
-        "first": 1788539400,
-        "second": 1788543000
-      },
-      "venue": {
-        "id": null,
-        "name": "Sch\u00fcco-Arena",
-        "city": "Bielefeld"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 188,
-        "name": "Arminia Bielefeld",
-        "logo": "https://media.api-sports.io/football/teams/188.png",
-        "winner": null
-      },
-      "away": {
-        "id": 186,
-        "name": "FC St. Pauli",
-        "logo": "https://media.api-sports.io/football/teams/186.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605402,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-11T14:00:00+00:00",
+      "timestamp": 1791727200,
+      "periods": {
+        "first": 1791727200,
+        "second": 1791730800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 457,
+      "name": "Campeonato de Portugal Prio - Group A",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/457.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group A - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 246,
+        "name": "SC Braga B",
+        "logo": "https://media.api-sports.io/football/teams/246.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15128,
+        "name": "Tirsense",
+        "logo": "https://media.api-sports.io/football/teams/15128.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605399,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567732,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-25T12:00:00+00:00",
-      "timestamp": 1784980800,
-      "periods": {
-        "first": 1784980800,
-        "second": 1784984400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 810,
-        "name": "Vizela",
-        "logo": "https://media.api-sports.io/football/teams/810.png",
-        "winner": false
-      },
-      "away": {
-        "id": 246,
-        "name": "SC Braga B",
-        "logo": "https://media.api-sports.io/football/teams/246.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,3 +1,4 @@
+from typing import Optional
 import json
 import os
 import glob
@@ -48,7 +49,7 @@ def _blank_stats():
         "team_shot_games": 0
     }
 
-def _shots_grade(pred: dict) -> str | None:
+def _shots_grade(pred: dict) -> Optional[str]:
     shots = pred.get("shots") or {}
     call = shots.get("shots_call")
     if not call or call == "PASS":
@@ -67,7 +68,7 @@ def _shots_grade(pred: dict) -> str | None:
         return "WIN" if actual_total < line_val else "LOSS"
     return None
 
-def _sot_grade(pred: dict) -> str | None:
+def _sot_grade(pred: dict) -> Optional[str]:
     shots = pred.get("shots") or {}
     call = shots.get("sot_call")
     if not call or call == "PASS":

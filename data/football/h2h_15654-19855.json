@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1467991,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-21T10:30:00+00:00",
+      "timestamp": 1774089000,
+      "periods": {
+        "first": 1774089000,
+        "second": 1774092600
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Group B - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15654,
+        "name": "Ascoli U19",
+        "logo": "https://media.api-sports.io/football/teams/15654.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19855,
+        "name": "Monopoli U19",
+        "logo": "https://media.api-sports.io/football/teams/19855.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1467710,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1131451,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-11T10:30:00+00:00",
-      "timestamp": 1699698600,
-      "periods": {
-        "first": 1699698600,
-        "second": 1699702200
-      },
-      "venue": {
-        "id": 20942,
-        "name": "Stadio Antonio Antonucci",
-        "city": "Bitetto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2023,
-      "round": "Group B - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19855,
-        "name": "Monopoli U19",
-        "logo": "https://media.api-sports.io/football/teams/19855.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15654,
-        "name": "Ascoli U19",
-        "logo": "https://media.api-sports.io/football/teams/15654.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

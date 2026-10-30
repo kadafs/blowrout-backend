@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1493732,
+      "referee": "S. Berna Rico",
+      "timezone": "UTC",
+      "date": "2026-10-03T23:30:00+00:00",
+      "timestamp": 1791070200,
+      "periods": {
+        "first": 1791070200,
+        "second": 1791073800
+      },
+      "venue": {
+        "id": null,
+        "name": "Al Lang Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4021,
+        "name": "Tampa Bay Rowdies",
+        "logo": "https://media.api-sports.io/football/teams/4021.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9030,
+        "name": "Miami FC",
+        "logo": "https://media.api-sports.io/football/teams/9030.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493594,
       "referee": "M. Thompson",
       "timezone": "UTC",
@@ -276,76 +346,6 @@
       "penalty": {
         "home": 3,
         "away": 4
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1326992,
-      "referee": "A. Billeter",
-      "timezone": "UTC",
-      "date": "2025-03-22T23:00:00+00:00",
-      "timestamp": 1742684400,
-      "periods": {
-        "first": 1742684400,
-        "second": 1742688000
-      },
-      "venue": {
-        "id": null,
-        "name": "Riccardo Silva Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 255,
-      "name": "USL Championship",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/255.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2025,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9030,
-        "name": "Miami FC",
-        "logo": "https://media.api-sports.io/football/teams/9030.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4021,
-        "name": "Tampa Bay Rowdies",
-        "logo": "https://media.api-sports.io/football/teams/4021.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
       }
     }
   }

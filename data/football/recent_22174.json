@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627092,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-09T18:00:00+00:00",
+      "timestamp": 1791568800,
+      "periods": {
+        "first": 1791568800,
+        "second": 1791572400
+      },
+      "venue": {
+        "id": null,
+        "name": "Northumberland FA",
+        "city": "Newcastle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7199,
+        "name": "Newcastle United U21",
+        "logo": "https://media.api-sports.io/football/teams/7199.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22174,
+        "name": "Luton Town U21",
+        "logo": "https://media.api-sports.io/football/teams/22174.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627077,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1447116,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-12-03T19:00:00+00:00",
-      "timestamp": 1764788400,
-      "periods": {
-        "first": 1764788400,
-        "second": 1764792000
-      },
-      "venue": {
-        "id": 551,
-        "name": "Kenilworth Road",
-        "city": "Luton, Bedfordshire"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2025,
-      "round": "Group Stage - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22174,
-        "name": "Luton Town U21",
-        "logo": "https://media.api-sports.io/football/teams/22174.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24847,
-        "name": "Exeter U21",
-        "logo": "https://media.api-sports.io/football/teams/24847.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
         "away": 0
       },
       "fulltime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559814,
+      "referee": "O. Pechanec",
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadium Viktoria Zizkov",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 346,
+      "name": "FNL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/346.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8618,
+        "name": "Slavia Praha II",
+        "logo": "https://media.api-sports.io/football/teams/8618.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3725,
+        "name": "Prost\u011bjov",
+        "logo": "https://media.api-sports.io/football/teams/3725.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559803,
       "referee": "T. Ehrenberger",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1559774,
-      "referee": "P. Orel",
-      "timezone": "UTC",
-      "date": "2026-09-04T16:00:00+00:00",
-      "timestamp": 1788537600,
-      "periods": {
-        "first": 1788537600,
-        "second": 1788541200
-      },
-      "venue": {
-        "id": null,
-        "name": "Town Stadium Usti",
-        "city": "Usti nad Labem"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 346,
-      "name": "FNL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/346.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3735,
-        "name": "\u00dast\u00ed nad Labem",
-        "logo": "https://media.api-sports.io/football/teams/3735.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8618,
-        "name": "Slavia Praha II",
-        "logo": "https://media.api-sports.io/football/teams/8618.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

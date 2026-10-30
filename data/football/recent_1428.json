@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571597,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T15:00:00+00:00",
+      "timestamp": 1792767600,
+      "periods": {
+        "first": 1792767600,
+        "second": 1792771200
+      },
+      "venue": {
+        "id": null,
+        "name": "Lokomotiv stadium",
+        "city": "Gorna Orjahovica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 173,
+      "name": "Second League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/173.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1420,
+        "name": "Lokomotiv G. Oryahovitsa",
+        "logo": "https://media.api-sports.io/football/teams/1420.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1428,
+        "name": "Pirin Blagoevgrad",
+        "logo": "https://media.api-sports.io/football/teams/1428.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644243,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571562,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": 1789308000,
-        "second": 1789311600
-      },
-      "venue": {
-        "id": 6098,
-        "name": "Stadion Bonchuk",
-        "city": "Dupnitsa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 173,
-      "name": "Second League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/173.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8543,
-        "name": "Marek",
-        "logo": "https://media.api-sports.io/football/teams/8543.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1428,
-        "name": "Pirin Blagoevgrad",
-        "logo": "https://media.api-sports.io/football/teams/1428.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

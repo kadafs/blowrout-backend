@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551126,
+      "referee": "V. Mitrev",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 20105,
+        "name": "Bistritsa Stadium",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1426,
+        "name": "CSKA 1948",
+        "logo": "https://media.api-sports.io/football/teams/1426.png",
+        "winner": true
+      },
+      "away": {
+        "id": 634,
+        "name": "Botev Plovdiv",
+        "logo": "https://media.api-sports.io/football/teams/634.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644464,
       "referee": null,
       "timezone": "UTC",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1551120,
-      "referee": "Lyuboslav Lyubomirov",
+      "referee": "L. Lyubomirov",
       "timezone": "UTC",
       "date": "2026-10-11T17:00:00+00:00",
       "timestamp": 1791738000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791738000,
+        "second": 1791741600
       },
       "venue": {
         "id": 20105,
         "name": "Bistritsa Stadium",
-        "city": "Bistritsa"
+        "city": "Sofia"
       },
       "status": {
         "long": "Match Finished",
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1551115,
-      "referee": "Radoslav Gidzhenov, Bulgaria",
+      "referee": "R. Gidzhenov",
       "timezone": "UTC",
       "date": "2026-09-18T17:00:00+00:00",
       "timestamp": 1789750800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789750800,
+        "second": 1789754400
       },
       "venue": {
         "id": 18616,
-        "name": "Stadion Slavia",
+        "name": "Stadion Aleksandar Shalamanov",
         "city": "Sofia"
       },
       "status": {
@@ -223,7 +293,7 @@
       "venue": {
         "id": null,
         "name": "Bistritsa Stadium",
-        "city": "Bistritsa"
+        "city": "Sofia"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551098,
-      "referee": "Marijan Grebencharski, Bulgaria",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:15:00+00:00",
-      "timestamp": 1788632100,
-      "periods": {
-        "first": 1788632100,
-        "second": 1788635700
-      },
-      "venue": {
-        "id": null,
-        "name": "Georgi Asparuhov Stadium",
-        "city": "Sofia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 646,
-        "name": "Levski Sofia",
-        "logo": "https://media.api-sports.io/football/teams/646.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1426,
-        "name": "CSKA 1948",
-        "logo": "https://media.api-sports.io/football/teams/1426.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

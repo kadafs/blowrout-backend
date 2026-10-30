@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1632270,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:30:00+00:00",
+      "timestamp": 1793129400,
+      "periods": {
+        "first": 1793129400,
+        "second": 1793133000
+      },
+      "venue": {
+        "id": 11931,
+        "name": "Petre Libardi Stadium",
+        "city": "Arad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20034,
+        "name": "Corvinul Hunedoara",
+        "logo": "https://media.api-sports.io/football/teams/20034.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6231,
+        "name": "Rapid",
+        "logo": "https://media.api-sports.io/football/teams/6231.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565285,
-      "referee": "Horatiu Fesnic, Romania",
+      "referee": "H. Fesnic",
       "timezone": "UTC",
       "date": "2026-10-24T18:00:00+00:00",
       "timestamp": 1792864800,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1565272,
-      "referee": "Szabolcs Kovacs, Romania",
+      "referee": "K. Szabolcs",
       "timezone": "UTC",
       "date": "2026-10-17T18:30:00+00:00",
       "timestamp": 1792261800,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565270,
-      "referee": "Rares George Vidican, Romania",
+      "referee": "R. Vidican",
       "timezone": "UTC",
       "date": "2026-10-12T18:00:00+00:00",
       "timestamp": 1791828000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565257,
-      "referee": "Marius Florin Badea, Romania",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:00:00+00:00",
-      "timestamp": 1789754400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19516,
-        "name": "Superbet Arena - Giulesti",
-        "city": "Bucharest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6231,
-        "name": "Rapid",
-        "logo": "https://media.api-sports.io/football/teams/6231.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2592,
-        "name": "Arges Pitesti",
-        "logo": "https://media.api-sports.io/football/teams/2592.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

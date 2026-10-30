@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492790,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T19:00:00+00:00",
+      "timestamp": 1792782000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 865,
+        "name": "Tallaght Stadium",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 357,
+      "name": "Premier Division",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/357.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Regular Season - 35",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 652,
+        "name": "Shamrock Rovers",
+        "logo": "https://media.api-sports.io/football/teams/652.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3842,
+        "name": "Sligo Rovers",
+        "logo": "https://media.api-sports.io/football/teams/3842.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492783,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492769,
-      "referee": "R. Hennessey",
-      "timezone": "UTC",
-      "date": "2026-09-11T19:00:00+00:00",
-      "timestamp": 1789153200,
-      "periods": {
-        "first": 1789153200,
-        "second": 1789156800
-      },
-      "venue": {
-        "id": 2628,
-        "name": "Richmond Park",
-        "city": "Dublin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 357,
-      "name": "Premier Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/357.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2026,
-      "round": "Regular Season - 31",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3843,
-        "name": "St Patrick's Athl.",
-        "logo": "https://media.api-sports.io/football/teams/3843.png",
-        "winner": true
-      },
-      "away": {
-        "id": 652,
-        "name": "Shamrock Rovers",
-        "logo": "https://media.api-sports.io/football/teams/652.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

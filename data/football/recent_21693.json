@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1501510,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 736,
+      "name": "Elitettan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/736.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16028,
+        "name": "\u00d6rebro SK W",
+        "logo": "https://media.api-sports.io/football/teams/16028.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21693,
+        "name": "Elfsborg W",
+        "logo": "https://media.api-sports.io/football/teams/21693.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1501500,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1501478,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T13:00:00+00:00",
-      "timestamp": 1789822800,
-      "periods": {
-        "first": 1789822800,
-        "second": 1789826400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 736,
-      "name": "Elitettan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/736.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21693,
-        "name": "Elfsborg W",
-        "logo": "https://media.api-sports.io/football/teams/21693.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15957,
-        "name": "Sandviken W",
-        "logo": "https://media.api-sports.io/football/teams/15957.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

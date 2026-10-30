@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549044,
+      "referee": "Jens Maae",
+      "timezone": "UTC",
+      "date": "2026-10-23T17:00:00+00:00",
+      "timestamp": 1792774800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 457,
+        "name": "Cepheus Park Randers",
+        "city": "Landers"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 119,
+      "name": "Superliga",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/119.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 401,
+        "name": "Randers FC",
+        "logo": "https://media.api-sports.io/football/teams/401.png",
+        "winner": false
+      },
+      "away": {
+        "id": 407,
+        "name": "Brondby",
+        "logo": "https://media.api-sports.io/football/teams/407.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549035,
       "referee": "Morten Krogh",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636682,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T17:00:00+00:00",
-      "timestamp": 1789578000,
-      "periods": {
-        "first": 1789578000,
-        "second": 1789581600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 121,
-      "name": "DBU Pokalen",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/121.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 399,
-        "name": "Vendsyssel FF",
-        "logo": "https://media.api-sports.io/football/teams/399.png",
-        "winner": false
-      },
-      "away": {
-        "id": 401,
-        "name": "Randers FC",
-        "logo": "https://media.api-sports.io/football/teams/401.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

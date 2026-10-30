@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628012,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T15:00:00+00:00",
+      "timestamp": 1792854000,
+      "periods": {
+        "first": 1792854000,
+        "second": 1792857600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 542,
+      "name": "Iraqi League",
+      "country": "Iraq",
+      "logo": "https://media.api-sports.io/football/leagues/542.png",
+      "flag": "https://media.api-sports.io/flags/iq.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11065,
+        "name": "Al Minaa Basra",
+        "logo": "https://media.api-sports.io/football/teams/11065.png",
+        "winner": true
+      },
+      "away": {
+        "id": 25063,
+        "name": "Al-Karma",
+        "logo": "https://media.api-sports.io/football/teams/25063.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628002,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627961,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T19:00:00+00:00",
-      "timestamp": 1788980400,
-      "periods": {
-        "first": 1788980400,
-        "second": 1788984000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 542,
-      "name": "Iraqi League",
-      "country": "Iraq",
-      "logo": "https://media.api-sports.io/football/leagues/542.png",
-      "flag": "https://media.api-sports.io/flags/iq.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25063,
-        "name": "Al-Karma",
-        "logo": "https://media.api-sports.io/football/teams/25063.png",
-        "winner": true
-      },
-      "away": {
-        "id": 11071,
-        "name": "Naft",
-        "logo": "https://media.api-sports.io/football/teams/11071.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

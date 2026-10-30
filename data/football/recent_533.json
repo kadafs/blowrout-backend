@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644360,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T20:00:00+00:00",
+      "timestamp": 1793131200,
+      "periods": {
+        "first": 1793131200,
+        "second": 1793134800
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Na Capellera",
+        "city": "Manacor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 9784,
+        "name": "Manacor",
+        "logo": "https://media.api-sports.io/football/teams/9784.png",
+        "winner": false
+      },
+      "away": {
+        "id": 533,
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570432,
       "referee": "Alejandro Quintero Gonzalez, Spain",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570411,
-      "referee": "Isidro Diaz de Mera Escuderos, Spain",
-      "timezone": "UTC",
-      "date": "2026-10-10T19:00:00+00:00",
-      "timestamp": 1791658800,
-      "periods": {
-        "first": 1791658800,
-        "second": 1791662400
-      },
-      "venue": {
-        "id": 1456,
-        "name": "Santiago Bernab\u00e9u Stadium",
-        "city": "Madrid"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 541,
-        "name": "Real Madrid",
-        "logo": "https://media.api-sports.io/football/teams/541.png",
-        "winner": true
-      },
-      "away": {
-        "id": 533,
-        "name": "Villarreal",
-        "logo": "https://media.api-sports.io/football/teams/533.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552798,
+      "referee": "Ruddy Buquet",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": 1792944900,
+        "second": 1792948500
+      },
+      "venue": {
+        "id": 680,
+        "name": "Roazhon Park",
+        "city": "Rennes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png",
+        "winner": true
+      },
+      "away": {
+        "id": 95,
+        "name": "Strasbourg",
+        "logo": "https://media.api-sports.io/football/teams/95.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636276,
       "referee": "Morten Krogh",
       "timezone": "UTC",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1552789,
-      "referee": "Bastein Dechepy",
+      "referee": "B. Dechepy",
       "timezone": "UTC",
       "date": "2026-10-18T15:15:00+00:00",
       "timestamp": 1792336500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792336500,
+        "second": 1792340100
       },
       "venue": {
         "id": 18861,
         "name": "Stade Jean Bouin",
-        "city": "Isilemulino"
+        "city": "Paris"
       },
       "status": {
         "long": "Match Finished",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552781,
-      "referee": "Willy Delajod, France",
+      "referee": "W. Delajod",
       "timezone": "UTC",
       "date": "2026-10-11T15:15:00+00:00",
       "timestamp": 1791731700,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642930,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T17:00:00+00:00",
-      "timestamp": 1790960400,
-      "periods": {
-        "first": 1790960400,
-        "second": 1790964000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 433,
-        "name": "Laval",
-        "logo": "https://media.api-sports.io/football/teams/433.png",
-        "winner": true
-      },
-      "away": {
-        "id": 94,
-        "name": "Rennes",
-        "logo": "https://media.api-sports.io/football/teams/94.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

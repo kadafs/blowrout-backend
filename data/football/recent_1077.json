@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1577558,
+      "referee": "M. Cheremnykh",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 1329,
+        "name": "Stadion Arsenal",
+        "city": "Tula"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1077,
+        "name": "Arsenal Tula",
+        "logo": "https://media.api-sports.io/football/teams/1077.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6801,
+        "name": "KAMAZ",
+        "logo": "https://media.api-sports.io/football/teams/6801.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577554,
-      "referee": null,
+      "referee": "S. Medvedev",
       "timezone": "UTC",
       "date": "2026-10-17T11:00:00+00:00",
       "timestamp": 1792234800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792234800,
+        "second": 1792238400
       },
       "venue": {
         "id": null,
-        "name": "Neftyanik Stadium",
+        "name": "BetBoom Arena",
         "city": "Ufa"
       },
       "status": {
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1577540,
-      "referee": null,
+      "referee": "O. Gusakov",
       "timezone": "UTC",
       "date": "2026-10-09T16:30:00+00:00",
       "timestamp": 1791563400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791563400,
+        "second": 1791567000
       },
       "venue": {
         "id": 1329,
-        "name": "Arsenal Stadium (Tula)",
+        "name": "Stadion Arsenal",
         "city": "Tula"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577539,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T12:30:00+00:00",
-      "timestamp": 1789561800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Tsentralnyi Stadion",
-        "city": "Krasnoyarsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1089,
-        "name": "Enisey",
-        "logo": "https://media.api-sports.io/football/teams/1089.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1077,
-        "name": "Arsenal Tula",
-        "logo": "https://media.api-sports.io/football/teams/1077.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

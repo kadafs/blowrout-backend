@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646143,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-26T15:00:00+00:00",
+      "timestamp": 1793026800,
+      "periods": {
+        "first": 1793026800,
+        "second": 1793030400
+      },
+      "venue": {
+        "id": 3403,
+        "name": "Acre Municipal Stadium",
+        "city": "Acre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 384,
+      "name": "State Cup",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/384.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4482,
+        "name": "Hapoel Acre",
+        "logo": "https://media.api-sports.io/football/teams/4482.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6210,
+        "name": "Tira",
+        "logo": "https://media.api-sports.io/football/teams/6210.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555188,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555155,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T16:00:00+00:00",
-      "timestamp": 1790265600,
-      "periods": {
-        "first": 1790265600,
-        "second": 1790269200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 382,
-      "name": "Liga Leumit",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/382.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4482,
-        "name": "Hapoel Acre",
-        "logo": "https://media.api-sports.io/football/teams/4482.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4483,
-        "name": "Hapoel Afula",
-        "logo": "https://media.api-sports.io/football/teams/4483.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

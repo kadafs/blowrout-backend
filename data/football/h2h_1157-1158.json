@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1639721,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T00:00:00+00:00",
+      "timestamp": 1793318400,
+      "periods": {
+        "first": 1793318400,
+        "second": 1793322000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 15
+      }
+    },
+    "league": {
+      "id": 917,
+      "name": "Copa Ecuador",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/917.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2025,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1157,
+        "name": "Universidad Catolica",
+        "logo": "https://media.api-sports.io/football/teams/1157.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1158,
+        "name": "LDU de Quito",
+        "logo": "https://media.api-sports.io/football/teams/1158.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639790,
-      "referee": "Bryan Loayza",
+      "referee": "B. L. Salazar",
       "timezone": "UTC",
       "date": "2026-09-20T23:30:00+00:00",
       "timestamp": 1789947000,
@@ -19,7 +89,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 15
+        "extra": null
       }
     },
     "league": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1519407,
-      "referee": "A. Torres Cajax",
+      "referee": "Alex Fabricio Cajas Torres, Ecuador",
       "timezone": "UTC",
       "date": "2026-07-15T22:00:00+00:00",
       "timestamp": 1784152800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1489083,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-12-19T00:00:00+00:00",
-      "timestamp": 1766102400,
-      "periods": {
-        "first": 1766102400,
-        "second": 1766106000
-      },
-      "venue": {
-        "id": 471,
-        "name": "Estadio Rodrigo Paz Delgado",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 917,
-      "name": "Copa Ecuador",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/917.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2024,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1158,
-        "name": "LDU de Quito",
-        "logo": "https://media.api-sports.io/football/teams/1158.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1157,
-        "name": "Universidad Catolica",
-        "logo": "https://media.api-sports.io/football/teams/1157.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

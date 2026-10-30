@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640674,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T16:00:00+00:00",
+      "timestamp": 1793116800,
+      "periods": {
+        "first": 1793116800,
+        "second": 1793120400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 335,
+      "name": "Cup",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/335.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": true
+      },
+      "away": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565511,
       "referee": "Roman Blavatskiy, Ukraine",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565496,
-      "referee": "Viktor Kopievskiy",
-      "timezone": "UTC",
-      "date": "2026-10-09T12:30:00+00:00",
-      "timestamp": 1791549000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20308,
-        "name": "Avanhard Stadium",
-        "city": "Uzhhorod"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6501,
-        "name": "Veres Rivne",
-        "logo": "https://media.api-sports.io/football/teams/6501.png",
-        "winner": false
-      },
-      "away": {
-        "id": 550,
-        "name": "Shakhtar Donetsk",
-        "logo": "https://media.api-sports.io/football/teams/550.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574140,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T17:30:00+00:00",
+      "timestamp": 1792776600,
+      "periods": {
+        "first": 1792776600,
+        "second": 1792780200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 221,
+      "name": "Regionalliga - Ost",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/221.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Ost - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4961,
+        "name": "Traiskirchen",
+        "logo": "https://media.api-sports.io/football/teams/4961.png",
+        "winner": true
+      },
+      "away": {
+        "id": 27886,
+        "name": "Mattersburg SV 2020",
+        "logo": "https://media.api-sports.io/football/teams/27886.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574132,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574083,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T17:30:00+00:00",
-      "timestamp": 1790098200,
-      "periods": {
-        "first": 1790098200,
-        "second": 1790101800
-      },
-      "venue": {
-        "id": 19578,
-        "name": "Sportzentrum Traiskirchen",
-        "city": "Traiskirchen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 221,
-      "name": "Regionalliga - Ost",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/221.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Ost - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4961,
-        "name": "Traiskirchen",
-        "logo": "https://media.api-sports.io/football/teams/4961.png",
-        "winner": true
-      },
-      "away": {
-        "id": 25119,
-        "name": "Krems / Rehberg",
-        "logo": "https://media.api-sports.io/football/teams/25119.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

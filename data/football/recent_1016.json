@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1548543,
-      "referee": "Antonio Melnjak",
+      "id": 1548549,
+      "referee": "Patrik Kolaric",
       "timezone": "UTC",
-      "date": "2026-10-17T13:00:00+00:00",
-      "timestamp": 1792242000,
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 416,
+        "name": "Stadion Aldo Drosina",
+        "city": "Pula"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 210,
+      "name": "HNL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/210.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1016,
+        "name": "Istra 1961",
+        "logo": "https://media.api-sports.io/football/teams/1016.png",
+        "winner": null
+      },
+      "away": {
+        "id": 608,
+        "name": "HNK Hajduk Split",
+        "logo": "https://media.api-sports.io/football/teams/608.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1548543,
+      "referee": "Antonio Melnjak, Croatia",
+      "timezone": "UTC",
+      "date": "2026-10-17T13:00:00+00:00",
+      "timestamp": 1792242000,
+      "periods": {
+        "first": 1792242000,
+        "second": 1792245600
+      },
+      "venue": {
         "id": 412,
-        "name": "Stadion Kranj\u010devi\u0107eva",
+        "name": "Stadion Maksimir",
         "city": "Zagreb"
       },
       "status": {
@@ -77,8 +147,8 @@
       "date": "2026-10-10T16:00:00+00:00",
       "timestamp": 1791648000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791648000,
+        "second": 1791651600
       },
       "venue": {
         "id": 20730,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635896,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-08T15:30:00+00:00",
-      "timestamp": 1788881400,
-      "periods": {
-        "first": 1788881400,
-        "second": 1788885000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 212,
-      "name": "Cup",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/212.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5732,
-        "name": "Zagorec",
-        "logo": "https://media.api-sports.io/football/teams/5732.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1016,
-        "name": "Istra 1961",
-        "logo": "https://media.api-sports.io/football/teams/1016.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

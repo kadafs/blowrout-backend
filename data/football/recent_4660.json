@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551128,
+      "referee": "G. Kabakov",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": 1736,
+        "name": "Gradski stadion",
+        "city": "Ruse"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 683,
+        "name": "Dunav Ruse",
+        "logo": "https://media.api-sports.io/football/teams/683.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4660,
+        "name": "Spartak Varna",
+        "logo": "https://media.api-sports.io/football/teams/4660.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644174,
       "referee": null,
       "timezone": "UTC",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1551118,
-      "referee": "Stoyanov\u00b7Georgi",
+      "referee": "G. Stoyanov",
       "timezone": "UTC",
       "date": "2026-10-10T12:00:00+00:00",
       "timestamp": 1791633600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791633600,
+        "second": 1791637200
       },
       "venue": {
         "id": 285,
         "name": "Hristo Botev Stadium",
-        "city": "Vratsa"
+        "city": "Vraca"
       },
       "status": {
         "long": "Match Finished",
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1551116,
-      "referee": "Stanimir Trenchev, Bulgaria",
+      "referee": "S. Trenchev",
       "timezone": "UTC",
       "date": "2026-09-20T12:15:00+00:00",
       "timestamp": 1789906500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789906500,
+        "second": 1789910100
       },
       "venue": {
         "id": 3512,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551102,
-      "referee": "Radoslav Gidzhenov, Bulgaria",
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": 3512,
-        "name": "Stadion Spartak",
-        "city": "Varna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4660,
-        "name": "Spartak Varna",
-        "logo": "https://media.api-sports.io/football/teams/4660.png",
-        "winner": null
-      },
-      "away": {
-        "id": 853,
-        "name": "CSKA Sofia",
-        "logo": "https://media.api-sports.io/football/teams/853.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

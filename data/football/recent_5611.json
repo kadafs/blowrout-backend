@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575991,
+      "referee": "M. James",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:45:00+00:00",
+      "timestamp": 1792781100,
+      "periods": {
+        "first": 1792781100,
+        "second": 1792784700
+      },
+      "venue": {
+        "id": null,
+        "name": "Llanelian Road",
+        "city": "Old Colwyn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5611,
+        "name": "Colwyn Bay",
+        "logo": "https://media.api-sports.io/football/teams/5611.png",
+        "winner": null
+      },
+      "away": {
+        "id": 353,
+        "name": "Cardiff MET",
+        "logo": "https://media.api-sports.io/football/teams/353.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643977,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575960,
-      "referee": "I. A. Griffith",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:45:00+00:00",
-      "timestamp": 1789757100,
-      "periods": {
-        "first": 1789757100,
-        "second": 1789760700
-      },
-      "venue": {
-        "id": null,
-        "name": "Llanelian Road",
-        "city": "Old Colwyn"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5611,
-        "name": "Colwyn Bay",
-        "logo": "https://media.api-sports.io/football/teams/5611.png",
-        "winner": true
-      },
-      "away": {
-        "id": 361,
-        "name": "Barry Town",
-        "logo": "https://media.api-sports.io/football/teams/361.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

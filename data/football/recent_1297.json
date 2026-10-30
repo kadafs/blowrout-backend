@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552510,
+      "referee": "Gabriel Henry, France",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11898,
+        "name": "Nouste Camp",
+        "city": "Pau"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1297,
+        "name": "PAU",
+        "logo": "https://media.api-sports.io/football/teams/1297.png",
+        "winner": true
+      },
+      "away": {
+        "id": 101,
+        "name": "Grenoble",
+        "logo": "https://media.api-sports.io/football/teams/101.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552497,
       "referee": "Thomas Vincent, France",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552472,
-      "referee": "Antoine Valnet, France",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:00:00+00:00",
-      "timestamp": 1789149600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade de la Mosson",
-        "city": "Montpellier"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 82,
-        "name": "Montpellier",
-        "logo": "https://media.api-sports.io/football/teams/82.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1297,
-        "name": "PAU",
-        "logo": "https://media.api-sports.io/football/teams/1297.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

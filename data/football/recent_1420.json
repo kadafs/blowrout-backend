@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571597,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T15:00:00+00:00",
+      "timestamp": 1792767600,
+      "periods": {
+        "first": 1792767600,
+        "second": 1792771200
+      },
+      "venue": {
+        "id": null,
+        "name": "Lokomotiv stadium",
+        "city": "Gorna Orjahovica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 173,
+      "name": "Second League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/173.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1420,
+        "name": "Lokomotiv G. Oryahovitsa",
+        "logo": "https://media.api-sports.io/football/teams/1420.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1428,
+        "name": "Pirin Blagoevgrad",
+        "logo": "https://media.api-sports.io/football/teams/1428.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571589,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571560,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T15:30:00+00:00",
-      "timestamp": 1789486200,
-      "periods": {
-        "first": 1789486200,
-        "second": 1789489800
-      },
-      "venue": {
-        "id": null,
-        "name": "Lokomotiv stadium",
-        "city": "Gorna Orjahovica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 173,
-      "name": "Second League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/173.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1420,
-        "name": "Lokomotiv G. Oryahovitsa",
-        "logo": "https://media.api-sports.io/football/teams/1420.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1410,
-        "name": "Nesebar",
-        "logo": "https://media.api-sports.io/football/teams/1410.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

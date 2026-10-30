@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1551707,
+      "id": 1640751,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T02:00:00+00:00",
+      "timestamp": 1793325600,
+      "periods": {
+        "first": 1793325600,
+        "second": 1793329200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Alejandro Morera Soto",
+        "city": "Alajuela"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1028,
+      "name": "CONCACAF Central American Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1028.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 822,
+        "name": "LD Alajuelense",
+        "logo": "https://media.api-sports.io/football/teams/822.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1055,
+        "name": "CD Motagua",
+        "logo": "https://media.api-sports.io/football/teams/1055.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1551707,
+      "referee": "A. Gomez",
       "timezone": "UTC",
       "date": "2026-10-26T00:00:00+00:00",
       "timestamp": 1792972800,
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551695,
-      "referee": "S. Madrigal",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:00:00+00:00",
-      "timestamp": 1791673200,
-      "periods": {
-        "first": 1791673200,
-        "second": 1791676800
-      },
-      "venue": {
-        "id": 405,
-        "name": "Estadio Municipal de Puntarenas Miguel Angel Lito Perez Treacy",
-        "city": "Puntarenas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 162,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Costa-Rica",
-      "logo": "https://media.api-sports.io/football/leagues/162.png",
-      "flag": "https://media.api-sports.io/flags/cr.svg",
-      "season": 2026,
-      "round": "Apertura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2045,
-        "name": "Puntarenas FC",
-        "logo": "https://media.api-sports.io/football/teams/2045.png",
-        "winner": null
-      },
-      "away": {
-        "id": 822,
-        "name": "LD Alajuelense",
-        "logo": "https://media.api-sports.io/football/teams/822.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 1
       },
       "fulltime": {

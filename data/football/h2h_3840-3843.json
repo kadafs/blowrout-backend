@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629909,
+      "referee": "P. Norton",
+      "timezone": "UTC",
+      "date": "2026-09-05T15:00:00+00:00",
+      "timestamp": 1788620400,
+      "periods": {
+        "first": 1788620400,
+        "second": 1788624000
+      },
+      "venue": {
+        "id": 2628,
+        "name": "Richmond Park",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 359,
+      "name": "FAI Cup",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/359.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3843,
+        "name": "St Patrick's Athl.",
+        "logo": "https://media.api-sports.io/football/teams/3843.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3840,
+        "name": "Bohemians",
+        "logo": "https://media.api-sports.io/football/teams/3840.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 1,
+        "away": 1
+      },
+      "penalty": {
+        "home": 7,
+        "away": 8
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492721,
       "referee": "R. Harvey",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 3843,
         "name": "St Patrick's Athl.",
         "logo": "https://media.api-sports.io/football/teams/3843.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1340634,
-      "referee": "Robert Hennessy",
-      "timezone": "UTC",
-      "date": "2025-07-04T18:45:00+00:00",
-      "timestamp": 1751654700,
-      "periods": {
-        "first": 1751654700,
-        "second": 1751658300
-      },
-      "venue": {
-        "id": 2628,
-        "name": "Richmond Park",
-        "city": "Dublin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 357,
-      "name": "Premier Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/357.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2025,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3843,
-        "name": "St Patrick's Athl.",
-        "logo": "https://media.api-sports.io/football/teams/3843.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3840,
-        "name": "Bohemians",
-        "logo": "https://media.api-sports.io/football/teams/3840.png",
         "winner": null
       }
     },

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644265,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T13:00:00+00:00",
+      "timestamp": 1792155600,
+      "periods": {
+        "first": 1792155600,
+        "second": 1792159200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 303,
+      "name": "Division 1",
+      "country": "United-Arab-Emirates",
+      "logo": "https://media.api-sports.io/football/leagues/303.png",
+      "flag": "https://media.api-sports.io/flags/ae.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22322,
+        "name": "Gulf United",
+        "logo": "https://media.api-sports.io/football/teams/22322.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2868,
+        "name": "Emirates Club",
+        "logo": "https://media.api-sports.io/football/teams/2868.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590016,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1589995,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T15:00:00+00:00",
-      "timestamp": 1788620400,
-      "periods": {
-        "first": 1788620400,
-        "second": 1788624000
-      },
-      "venue": {
-        "id": null,
-        "name": "Fujairah Club Stadium",
-        "city": "Fujairah"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 14
-      }
-    },
-    "league": {
-      "id": 303,
-      "name": "Division 1",
-      "country": "United-Arab-Emirates",
-      "logo": "https://media.api-sports.io/football/leagues/303.png",
-      "flag": "https://media.api-sports.io/flags/ae.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2880,
-        "name": "Al Fujairah SC",
-        "logo": "https://media.api-sports.io/football/teams/2880.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2868,
-        "name": "Emirates Club",
-        "logo": "https://media.api-sports.io/football/teams/2868.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

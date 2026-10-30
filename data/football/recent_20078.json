@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621061,
+      "referee": "J. Richardson",
+      "timezone": "UTC",
+      "date": "2026-10-23T11:00:00+00:00",
+      "timestamp": 1792753200,
+      "periods": {
+        "first": 1792753200,
+        "second": 1792756800
+      },
+      "venue": {
+        "id": null,
+        "name": "Ipswich Town Training Centre",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20094,
+        "name": "Ipswich Town U21",
+        "logo": "https://media.api-sports.io/football/teams/20094.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20078,
+        "name": "Birmingham City U21",
+        "logo": "https://media.api-sports.io/football/teams/20078.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621057,
       "referee": "J. Durkin",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627159,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T18:00:00+00:00",
-      "timestamp": 1789495200,
-      "periods": {
-        "first": 1789495200,
-        "second": 1789498800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 28224,
-        "name": "Gillingham FC U21",
-        "logo": "https://media.api-sports.io/football/teams/28224.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20078,
-        "name": "Birmingham City U21",
-        "logo": "https://media.api-sports.io/football/teams/20078.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

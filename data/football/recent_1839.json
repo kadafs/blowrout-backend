@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585305,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": 1793130300,
+        "second": 1793133900
+      },
+      "venue": {
+        "id": null,
+        "name": "Mill Farm",
+        "city": "Wesham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 43,
+      "name": "National League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/43.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1839,
+        "name": "AFC Fylde",
+        "logo": "https://media.api-sports.io/football/teams/1839.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1366,
+        "name": "Hartlepool",
+        "logo": "https://media.api-sports.io/football/teams/1366.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585298,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585257,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T18:45:00+00:00",
-      "timestamp": 1790707500,
-      "periods": {
-        "first": 1790707500,
-        "second": 1790711100
-      },
-      "venue": {
-        "id": null,
-        "name": "Mill Farm",
-        "city": "Wesham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 43,
-      "name": "National League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/43.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1839,
-        "name": "AFC Fylde",
-        "logo": "https://media.api-sports.io/football/teams/1839.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1371,
-        "name": "Carlisle",
-        "logo": "https://media.api-sports.io/football/teams/1371.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

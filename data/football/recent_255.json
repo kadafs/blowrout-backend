@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556881,
+      "referee": "R. Hardie",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": "The Home of the Set Fare Arena",
+        "city": "Livingston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 255,
+        "name": "Livingston",
+        "logo": "https://media.api-sports.io/football/teams/255.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4249,
+        "name": "Arbroath",
+        "logo": "https://media.api-sports.io/football/teams/4249.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556877,
       "referee": "C. Graham",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556856,
-      "referee": "C. Steven",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": "The Home of the Set Fare Arena",
-        "city": "Livingston"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 255,
-        "name": "Livingston",
-        "logo": "https://media.api-sports.io/football/teams/255.png",
-        "winner": null
-      },
-      "away": {
-        "id": 903,
-        "name": "Inverness CT",
-        "logo": "https://media.api-sports.io/football/teams/903.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575994,
+      "referee": "A. D. Livesey",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:45:00+00:00",
+      "timestamp": 1792781100,
+      "periods": {
+        "first": 1792781100,
+        "second": 1792784700
+      },
+      "venue": {
+        "id": null,
+        "name": "Park Hall",
+        "city": "Oswestry"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 354,
+        "name": "The New Saints",
+        "logo": "https://media.api-sports.io/football/teams/354.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2188,
+        "name": "Ammanford AFC",
+        "logo": "https://media.api-sports.io/football/teams/2188.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 9,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 9,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643995,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575957,
-      "referee": "B. Markham-Jones",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:45:00+00:00",
-      "timestamp": 1789757100,
-      "periods": {
-        "first": 1789757100,
-        "second": 1789760700
-      },
-      "venue": {
-        "id": 19181,
-        "name": "Ammanford Recreation Ground",
-        "city": "Ammanford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2188,
-        "name": "Ammanford AFC",
-        "logo": "https://media.api-sports.io/football/teams/2188.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2191,
-        "name": "Penybont",
-        "logo": "https://media.api-sports.io/football/teams/2191.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

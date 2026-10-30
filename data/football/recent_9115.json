@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645680,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 425,
+      "name": "Premier League",
+      "country": "Syria",
+      "logo": "https://media.api-sports.io/football/leagues/425.png",
+      "flag": "https://media.api-sports.io/flags/sy.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9117,
+        "name": "Tishreen",
+        "logo": "https://media.api-sports.io/football/teams/9117.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9115,
+        "name": "Hottin",
+        "logo": "https://media.api-sports.io/football/teams/9115.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645674,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550062,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-24T14:00:00+00:00",
-      "timestamp": 1782309600,
-      "periods": {
-        "first": 1782309600,
-        "second": 1782313200
-      },
-      "venue": {
-        "id": 1549,
-        "name": "Aleppo International Stadium",
-        "city": "Aleppo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 425,
-      "name": "Premier League",
-      "country": "Syria",
-      "logo": "https://media.api-sports.io/football/leagues/425.png",
-      "flag": "https://media.api-sports.io/flags/sy.svg",
-      "season": 2025,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8019,
-        "name": "Al Ittihad",
-        "logo": "https://media.api-sports.io/football/teams/8019.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9115,
-        "name": "Hottin",
-        "logo": "https://media.api-sports.io/football/teams/9115.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

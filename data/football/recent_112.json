@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552507,
+      "referee": "Mickael Leleu, France",
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 646,
+        "name": "Stade Marcel Tribut",
+        "city": "Dunkirk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": null
+      },
+      "away": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552499,
-      "referee": "Gael Angoula",
+      "referee": "Gael Angoula, France",
       "timezone": "UTC",
       "date": "2026-10-17T12:00:00+00:00",
       "timestamp": 1792238400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552463,
-      "referee": "Jeremy Stinat, France",
-      "timezone": "UTC",
-      "date": "2026-09-05T12:00:00+00:00",
-      "timestamp": 1788609600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Saint Symphorien",
-        "city": "Metz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 112,
-        "name": "Metz",
-        "logo": "https://media.api-sports.io/football/teams/112.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1301,
-        "name": "Rodez",
-        "logo": "https://media.api-sports.io/football/teams/1301.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

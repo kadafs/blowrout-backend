@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629944,
+      "referee": "Ma Ning",
+      "timezone": "UTC",
+      "date": "2026-10-26T16:00:00+00:00",
+      "timestamp": 1793030400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Alinma Stadium",
+        "city": "Jeddah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 17,
+      "name": "AFC Champions League Elite",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/17.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2929,
+        "name": "Al-Ahli Jeddah",
+        "logo": "https://media.api-sports.io/football/teams/2929.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2903,
+        "name": "Al-Gharafa",
+        "logo": "https://media.api-sports.io/football/teams/2903.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597945,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639145,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-01T15:00:00+00:00",
-      "timestamp": 1790866800,
-      "periods": {
-        "first": 1790866800,
-        "second": 1790870400
-      },
-      "venue": {
-        "id": 1300,
-        "name": "Al Gharafa Stadium ",
-        "city": "Doha"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 677,
-      "name": "QSL Cup",
-      "country": "Qatar",
-      "logo": "https://media.api-sports.io/football/leagues/677.png",
-      "flag": "https://media.api-sports.io/flags/qa.svg",
-      "season": 2026,
-      "round": "Group Stage - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2903,
-        "name": "Al-Gharafa",
-        "logo": "https://media.api-sports.io/football/teams/2903.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2915,
-        "name": "Al Mesaimeer",
-        "logo": "https://media.api-sports.io/football/teams/2915.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 2
       },
       "extratime": {

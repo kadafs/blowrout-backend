@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1519182,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T12:00:00+00:00",
+      "timestamp": 1792756800,
+      "periods": {
+        "first": 1792756800,
+        "second": 1792760400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 238,
+      "name": "Youth Championship",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/238.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17151,
+        "name": "Nizhny Novgorod U19",
+        "logo": "https://media.api-sports.io/football/teams/17151.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7941,
+        "name": "Zenit U19",
+        "logo": "https://media.api-sports.io/football/teams/7941.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519230,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519148,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T10:00:00+00:00",
-      "timestamp": 1788516000,
-      "periods": {
-        "first": 1788516000,
-        "second": 1788519600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 238,
-      "name": "Youth Championship",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/238.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7941,
-        "name": "Zenit U19",
-        "logo": "https://media.api-sports.io/football/teams/7941.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9226,
-        "name": "Rubin Kazan U20",
-        "logo": "https://media.api-sports.io/football/teams/9226.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

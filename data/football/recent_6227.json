@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579987,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T18:30:00+00:00",
+      "timestamp": 1792780200,
+      "periods": {
+        "first": 1792780200,
+        "second": 1792783800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 487,
+      "name": "First Amateur Division",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/487.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "VV - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5934,
+        "name": "Spouwen-Mopertingen",
+        "logo": "https://media.api-sports.io/football/teams/5934.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6227,
+        "name": "Thes Sport",
+        "logo": "https://media.api-sports.io/football/teams/6227.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579982,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579948,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T18:00:00+00:00",
-      "timestamp": 1789840800,
-      "periods": {
-        "first": 1789840800,
-        "second": 1789844400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gemeentelijk Sportpark",
-        "city": "Tessenderlo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 487,
-      "name": "First Amateur Division",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/487.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "VV - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6227,
-        "name": "Thes Sport",
-        "logo": "https://media.api-sports.io/football/teams/6227.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19957,
-        "name": "Oud-Heverlee Leuven II",
-        "logo": "https://media.api-sports.io/football/teams/19957.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

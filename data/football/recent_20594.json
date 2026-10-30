@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599265,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T09:00:00+00:00",
+      "timestamp": 1792832400,
+      "periods": {
+        "first": 1792832400,
+        "second": 1792836000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 676,
+      "name": "Central Youth League",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/676.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20594,
+        "name": "Rak\u00f3w Cz\u0119stochowa U19",
+        "logo": "https://media.api-sports.io/football/teams/20594.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20244,
+        "name": "Zag\u0142\u0119bie Lubin U19",
+        "logo": "https://media.api-sports.io/football/teams/20244.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599256,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599399,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T10:00:00+00:00",
-      "timestamp": 1789898400,
-      "periods": {
-        "first": 1789898400,
-        "second": 1789902000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 676,
-      "name": "Central Youth League",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/676.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28017,
-        "name": "Talent Warszawa U19",
-        "logo": "https://media.api-sports.io/football/teams/28017.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20594,
-        "name": "Rak\u00f3w Cz\u0119stochowa U19",
-        "logo": "https://media.api-sports.io/football/teams/20594.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

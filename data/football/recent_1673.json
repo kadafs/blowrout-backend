@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580943,
+      "referee": "Gerbel\u00b7Audrey",
+      "timezone": "UTC",
+      "date": "2026-10-24T19:00:00+00:00",
+      "timestamp": 1792868400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 666,
+        "name": "Groupama Stadium",
+        "city": "Lyon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1674,
+        "name": "Lyon W",
+        "logo": "https://media.api-sports.io/football/teams/1674.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1673,
+        "name": "Marseille W",
+        "logo": "https://media.api-sports.io/football/teams/1673.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580940,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580928,
-      "referee": "R. Fournier",
-      "timezone": "UTC",
-      "date": "2026-09-05T19:00:00+00:00",
-      "timestamp": 1788634800,
-      "periods": {
-        "first": 1788634800,
-        "second": 1788638400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1673,
-        "name": "Marseille W",
-        "logo": "https://media.api-sports.io/football/teams/1673.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14006,
-        "name": "Le Havre W",
-        "logo": "https://media.api-sports.io/football/teams/14006.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494012,
+      "referee": "J. Escobar",
+      "timezone": "UTC",
+      "date": "2026-09-26T22:00:00+00:00",
+      "timestamp": 1790460000,
+      "periods": {
+        "first": 1790460000,
+        "second": 1790463600
+      },
+      "venue": {
+        "id": null,
+        "name": "Breese Stevens Field",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 489,
+      "name": "USL League One",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/489.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9025,
+        "name": "Forward Madison",
+        "logo": "https://media.api-sports.io/football/teams/9025.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22785,
+        "name": "Spokane Velocity",
+        "logo": "https://media.api-sports.io/football/teams/22785.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493882,
       "referee": null,
       "timezone": "UTC",
@@ -276,76 +346,6 @@
       "penalty": {
         "home": 4,
         "away": 5
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1148548,
-      "referee": "F. Demirhan",
-      "timezone": "UTC",
-      "date": "2024-09-21T22:00:00+00:00",
-      "timestamp": 1726956000,
-      "periods": {
-        "first": 1726956000,
-        "second": 1726959600
-      },
-      "venue": {
-        "id": 6267,
-        "name": "Breese Stevens Field",
-        "city": "Madison, Wisconsin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 489,
-      "name": "USL League One",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/489.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2024,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9025,
-        "name": "Forward Madison",
-        "logo": "https://media.api-sports.io/football/teams/9025.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22785,
-        "name": "Spokane Velocity",
-        "logo": "https://media.api-sports.io/football/teams/22785.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
       }
     }
   }

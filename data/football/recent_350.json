@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1553204,
+      "referee": "Pawel Malec, Poland",
+      "timezone": "UTC",
+      "date": "2026-10-24T10:15:00+00:00",
+      "timestamp": 1792836900,
+      "periods": {
+        "first": 1792836900,
+        "second": 1792840500
+      },
+      "venue": {
+        "id": 1255,
+        "name": "Stadion Miejski w Gliwicach",
+        "city": "Gliwice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 349,
+        "name": "Piast Gliwice",
+        "logo": "https://media.api-sports.io/football/teams/349.png",
+        "winner": true
+      },
+      "away": {
+        "id": 350,
+        "name": "Cracovia Krakow",
+        "logo": "https://media.api-sports.io/football/teams/350.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553191,
-      "referee": "Piotr Lasyk",
+      "referee": "Piotr Lasyk, Poland",
       "timezone": "UTC",
       "date": "2026-10-17T18:15:00+00:00",
       "timestamp": 1792260900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792260900,
+        "second": 1792264500
       },
       "venue": {
         "id": 1247,
-        "name": "Marshal J\u00f3zef Pi\u0142sudski Stadium",
+        "name": "Stadion Cracovii im. Jozefa Pilsudskiego",
         "city": "Krakow"
       },
       "status": {
@@ -77,12 +147,12 @@
       "date": "2026-10-10T12:45:00+00:00",
       "timestamp": 1791636300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791636300,
+        "second": 1791639900
       },
       "venue": {
         "id": 1247,
-        "name": "Marshal J\u00f3zef Pi\u0142sudski Stadium",
+        "name": "Stadion Cracovii im. Jozefa Pilsudskiego",
         "city": "Krakow"
       },
       "status": {
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": 22596,
-        "name": "Arena Katowice",
+        "name": "Stadion miejski w Katowicach",
         "city": "Katowice"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553171,
-      "referee": "Pawe\u0142 Raczkowski, Poland",
-      "timezone": "UTC",
-      "date": "2026-09-13T10:15:00+00:00",
-      "timestamp": 1789294500,
-      "periods": {
-        "first": 1789294500,
-        "second": 1789298100
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion im. Kazimierza Gorskiego",
-        "city": "Plock"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 341,
-        "name": "Wisla Plock",
-        "logo": "https://media.api-sports.io/football/teams/341.png",
-        "winner": true
-      },
-      "away": {
-        "id": 350,
-        "name": "Cracovia Krakow",
-        "logo": "https://media.api-sports.io/football/teams/350.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567933,
+      "referee": "S. Sampl",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": 1792773000,
+        "second": 1792776600
+      },
+      "venue": {
+        "id": 133,
+        "name": "Ertl Glas Stadion",
+        "city": "Amstetten"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1404,
+        "name": "SKU Amstetten",
+        "logo": "https://media.api-sports.io/football/teams/1404.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8247,
+        "name": "Rapid Wien II",
+        "logo": "https://media.api-sports.io/football/teams/8247.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567926,
       "referee": "M. Greinecker",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567901,
-      "referee": "C. Demir",
-      "timezone": "UTC",
-      "date": "2026-09-11T16:30:00+00:00",
-      "timestamp": 1789144200,
-      "periods": {
-        "first": 1789144200,
-        "second": 1789147800
-      },
-      "venue": {
-        "id": 133,
-        "name": "Ertl Glas Stadion",
-        "city": "Amstetten"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1404,
-        "name": "SKU Amstetten",
-        "logo": "https://media.api-sports.io/football/teams/1404.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2860,
-        "name": "Austria Vienna (Am)",
-        "logo": "https://media.api-sports.io/football/teams/2860.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

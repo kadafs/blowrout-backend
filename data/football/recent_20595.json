@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599266,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 676,
+      "name": "Central Youth League",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/676.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20596,
+        "name": "\u015al\u0105sk Wroc\u0142aw U19",
+        "logo": "https://media.api-sports.io/football/teams/20596.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20595,
+        "name": "Wis\u0142a Krak\u00f3w U19",
+        "logo": "https://media.api-sports.io/football/teams/20595.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599258,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599225,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T09:45:00+00:00",
-      "timestamp": 1789811100,
-      "periods": {
-        "first": 1789811100,
-        "second": 1789814700
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 676,
-      "name": "Central Youth League",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/676.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26374,
-        "name": "Arkonia U19",
-        "logo": "https://media.api-sports.io/football/teams/26374.png",
-        "winner": null
-      },
-      "away": {
-        "id": 20595,
-        "name": "Wis\u0142a Krak\u00f3w U19",
-        "logo": "https://media.api-sports.io/football/teams/20595.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

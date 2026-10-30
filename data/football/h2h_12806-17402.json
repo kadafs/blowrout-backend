@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1410931,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-01T16:00:00+00:00",
+      "timestamp": 1775059200,
+      "periods": {
+        "first": 1775059200,
+        "second": 1775062800
+      },
+      "venue": {
+        "id": 19259,
+        "name": "Stadion Miejski",
+        "city": "Jelenia G\u00f3ra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 782,
+      "name": "III Liga - Group 3",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/782.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2025,
+      "round": "Group III - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17402,
+        "name": "Karkonosze Jelenia G\u00f3ra",
+        "logo": "https://media.api-sports.io/football/teams/17402.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12806,
+        "name": "Kluczbork",
+        "logo": "https://media.api-sports.io/football/teams/12806.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1410782,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1057093,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-08-26T15:00:00+00:00",
-      "timestamp": 1693062000,
-      "periods": {
-        "first": 1693062000,
-        "second": 1693065600
-      },
-      "venue": {
-        "id": 19259,
-        "name": "Stadion Miejski",
-        "city": "Jelenia G\u00f3ra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 782,
-      "name": "III Liga - Group 3",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/782.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2023,
-      "round": "Group 3 - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17402,
-        "name": "Karkonosze Jelenia G\u00f3ra",
-        "logo": "https://media.api-sports.io/football/teams/17402.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12806,
-        "name": "Kluczbork",
-        "logo": "https://media.api-sports.io/football/teams/12806.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

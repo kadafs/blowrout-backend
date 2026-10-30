@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607947,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-11T17:00:00+00:00",
+      "timestamp": 1789146000,
+      "periods": {
+        "first": 1789146000,
+        "second": 1789149600
+      },
+      "venue": {
+        "id": 1725,
+        "name": "Sportplatz Lafnitz",
+        "city": "Lafnitz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1238,
+      "name": "Regionalliga - South",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/1238.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "South - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1402,
+        "name": "SV Lafnitz",
+        "logo": "https://media.api-sports.io/football/teams/1402.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4972,
+        "name": "Deutschlandsberger SC",
+        "logo": "https://media.api-sports.io/football/teams/4972.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1397890,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 395845,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2017-08-05T17:00:00+00:00",
-      "timestamp": 1501952400,
-      "periods": {
-        "first": 1501952400,
-        "second": 1501956000
-      },
-      "venue": {
-        "id": 1725,
-        "name": "Sportplatz Lafnitz",
-        "city": "Lafnitz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 222,
-      "name": "Regionalliga - Mitte",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/222.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2017,
-      "round": "Regular Season - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1402,
-        "name": "SV Lafnitz",
-        "logo": "https://media.api-sports.io/football/teams/1402.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4972,
-        "name": "Deutschlandsberger SC",
-        "logo": "https://media.api-sports.io/football/teams/4972.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

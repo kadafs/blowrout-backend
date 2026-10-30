@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552797,
+      "referee": "Francois Letexier",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": 1792936800,
+        "second": 1792940400
+      },
+      "venue": {
+        "id": 20470,
+        "name": "Stade Louis II",
+        "city": "Monaco"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png",
+        "winner": null
+      },
+      "away": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635684,
       "referee": "Rade Obrenovic",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1552786,
-      "referee": "Clement Turpin, France",
+      "referee": "C. Turpin",
       "timezone": "UTC",
       "date": "2026-10-17T18:45:00+00:00",
       "timestamp": 1792262700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792262700,
+        "second": 1792266300
       },
       "venue": {
         "id": 22783,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552776,
-      "referee": "Bastien Dechepy, France",
+      "referee": "B. Dechepy",
       "timezone": "UTC",
       "date": "2026-10-10T15:15:00+00:00",
       "timestamp": 1791645300,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642914,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T12:00:00+00:00",
-      "timestamp": 1790942400,
-      "periods": {
-        "first": 1790942400,
-        "second": 1790946000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
-        "winner": true
-      },
-      "away": {
-        "id": 600,
-        "name": "Zulte Waregem",
-        "logo": "https://media.api-sports.io/football/teams/600.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

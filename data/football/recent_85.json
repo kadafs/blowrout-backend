@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552800,
+      "referee": "Jerome Brisard",
+      "timezone": "UTC",
+      "date": "2026-10-26T19:30:00+00:00",
+      "timestamp": 1793043000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 671,
+        "name": "Parc des Princes",
+        "city": "Paris"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png",
+        "winner": true
+      },
+      "away": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1635702,
       "referee": "Michael Oliver",
       "timezone": "UTC",
@@ -77,8 +147,8 @@
       "date": "2026-10-17T15:15:00+00:00",
       "timestamp": 1792250100,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792250100,
+        "second": 1792253700
       },
       "venue": {
         "id": 681,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552780,
-      "referee": "Mathieu Vernice, France",
+      "referee": "M. Vernice",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552773,
-      "referee": "Fran\u00e7ois Letexier, France",
-      "timezone": "UTC",
-      "date": "2026-09-20T18:45:00+00:00",
-      "timestamp": 1789929900,
-      "periods": {
-        "first": 1789929900,
-        "second": 1789933500
-      },
-      "venue": {
-        "id": 12678,
-        "name": "Orange V\u00e9lodrome",
-        "city": "Marseille"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 81,
-        "name": "Marseille",
-        "logo": "https://media.api-sports.io/football/teams/81.png",
-        "winner": false
-      },
-      "away": {
-        "id": 85,
-        "name": "Paris Saint Germain",
-        "logo": "https://media.api-sports.io/football/teams/85.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

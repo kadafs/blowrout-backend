@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581950,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T10:00:00+00:00",
+      "timestamp": 1792836000,
+      "periods": {
+        "first": 1792836000,
+        "second": 1792839600
+      },
+      "venue": {
+        "id": null,
+        "name": "MCS Rukh",
+        "city": "Ivano-Frankivsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3631,
+        "name": "Prykarpattia",
+        "logo": "https://media.api-sports.io/football/teams/3631.png",
+        "winner": null
+      },
+      "away": {
+        "id": 13223,
+        "name": "Viktoriya Mykolaivka",
+        "logo": "https://media.api-sports.io/football/teams/13223.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581943,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581910,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T10:30:00+00:00",
-      "timestamp": 1789900200,
-      "periods": {
-        "first": 1789900200,
-        "second": 1789903800
-      },
-      "venue": {
-        "id": null,
-        "name": "MCS Rukh",
-        "city": "Ivano-Frankivsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 334,
-      "name": "Persha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/334.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3631,
-        "name": "Prykarpattia",
-        "logo": "https://media.api-sports.io/football/teams/3631.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21957,
-        "name": "UCSA",
-        "logo": "https://media.api-sports.io/football/teams/21957.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

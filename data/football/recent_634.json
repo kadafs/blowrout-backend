@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551126,
+      "referee": "V. Mitrev",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:00:00+00:00",
+      "timestamp": 1792771200,
+      "periods": {
+        "first": 1792771200,
+        "second": 1792774800
+      },
+      "venue": {
+        "id": 20105,
+        "name": "Bistritsa Stadium",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1426,
+        "name": "CSKA 1948",
+        "logo": "https://media.api-sports.io/football/teams/1426.png",
+        "winner": true
+      },
+      "away": {
+        "id": 634,
+        "name": "Botev Plovdiv",
+        "logo": "https://media.api-sports.io/football/teams/634.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644239,
       "referee": null,
       "timezone": "UTC",
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1551117,
-      "referee": "Nikola Popov",
+      "referee": "N. Popov",
       "timezone": "UTC",
       "date": "2026-10-10T17:00:00+00:00",
       "timestamp": 1791651600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791651600,
+        "second": 1791655200
       },
       "venue": {
         "id": 19922,
-        "name": "Hristo Botev Stadium",
+        "name": "Stadion Hristo Botev",
         "city": "Plovdiv"
       },
       "status": {
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1551114,
-      "referee": "Gero Piskov, Bulgaria",
+      "referee": "G. Piskov",
       "timezone": "UTC",
       "date": "2026-09-19T13:30:00+00:00",
       "timestamp": 1789824600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789824600,
+        "second": 1789828200
       },
       "venue": {
         "id": 304,
-        "name": "Dragalevtsi Stadium,",
+        "name": "National Stadium Vasil Levski",
         "city": "Sofia"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551103,
-      "referee": "N. Popov",
-      "timezone": "UTC",
-      "date": "2026-09-13T17:30:00+00:00",
-      "timestamp": 1789320600,
-      "periods": {
-        "first": 1789320600,
-        "second": 1789324200
-      },
-      "venue": {
-        "id": 19922,
-        "name": "Stadion Hristo Botev",
-        "city": "Plovdiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 634,
-        "name": "Botev Plovdiv",
-        "logo": "https://media.api-sports.io/football/teams/634.png",
-        "winner": true
-      },
-      "away": {
-        "id": 858,
-        "name": "Lokomotiv Plovdiv",
-        "logo": "https://media.api-sports.io/football/teams/858.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

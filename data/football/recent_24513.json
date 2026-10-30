@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580944,
+      "referee": "Fournier, Romy",
+      "timezone": "UTC",
+      "date": "2026-10-24T16:00:00+00:00",
+      "timestamp": 1792857600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6392,
+        "name": "Stade Marcel Saupin",
+        "city": "Nantes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24513,
+        "name": "Nantes W",
+        "logo": "https://media.api-sports.io/football/teams/24513.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24514,
+        "name": "Strasbourg W",
+        "logo": "https://media.api-sports.io/football/teams/24514.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581006,
       "referee": "Gerbel\u00b7Audrey",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580929,
-      "referee": "M. Chignard",
-      "timezone": "UTC",
-      "date": "2026-09-06T13:00:00+00:00",
-      "timestamp": 1788699600,
-      "periods": {
-        "first": 1788699600,
-        "second": 1788703200
-      },
-      "venue": {
-        "id": 12585,
-        "name": "Stade Charlety",
-        "city": "Paris"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1676,
-        "name": "Paris FC W",
-        "logo": "https://media.api-sports.io/football/teams/1676.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24513,
-        "name": "Nantes W",
-        "logo": "https://media.api-sports.io/football/teams/24513.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

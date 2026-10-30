@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637685,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": "Manahan Stadium",
+        "city": "Surakarta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 275,
+      "name": "Liga 2",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/275.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4243,
+        "name": "Persis Solo",
+        "logo": "https://media.api-sports.io/football/teams/4243.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4229,
+        "name": "RANS Nusantara",
+        "logo": "https://media.api-sports.io/football/teams/4229.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637677,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637639,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T12:00:00+00:00",
-      "timestamp": 1789905600,
-      "periods": {
-        "first": 1789905600,
-        "second": 1789909200
-      },
-      "venue": {
-        "id": null,
-        "name": "Manahan Stadium",
-        "city": "Surakarta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 275,
-      "name": "Liga 2",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/275.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4243,
-        "name": "Persis Solo",
-        "logo": "https://media.api-sports.io/football/teams/4243.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4232,
-        "name": "PSBS Biak Numfor",
-        "logo": "https://media.api-sports.io/football/teams/4232.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 7,
-        "away": 0
       },
       "extratime": {
         "home": null,

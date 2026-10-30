@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594881,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T12:30:00+00:00",
+      "timestamp": 1792758600,
+      "periods": {
+        "first": 1792758600,
+        "second": 1792762200
+      },
+      "venue": {
+        "id": null,
+        "name": "Al Salam Stadium",
+        "city": "Cairo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 887,
+      "name": "Second League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/887.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1034,
+        "name": "El Entag EL Harby",
+        "logo": "https://media.api-sports.io/football/teams/1034.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16432,
+        "name": "El Mansura",
+        "logo": "https://media.api-sports.io/football/teams/16432.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594876,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594832,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T13:30:00+00:00",
-      "timestamp": 1789738200,
-      "periods": {
-        "first": 1789738200,
-        "second": 1789741800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 887,
-      "name": "Second League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/887.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18022,
-        "name": "Dayrout",
-        "logo": "https://media.api-sports.io/football/teams/18022.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1034,
-        "name": "El Entag EL Harby",
-        "logo": "https://media.api-sports.io/football/teams/1034.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

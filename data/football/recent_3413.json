@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1603589,
+      "referee": "Nikolas Liotatis",
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": 7134,
+        "name": "Stelios Kyriakides Stadium",
+        "city": "Paphos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3413,
+        "name": "Karmiotissa",
+        "logo": "https://media.api-sports.io/football/teams/3413.png",
+        "winner": false
+      },
+      "away": {
+        "id": 602,
+        "name": "Apollon Limassol",
+        "logo": "https://media.api-sports.io/football/teams/602.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603580,
-      "referee": "Michalis Louka",
+      "referee": "Michalis Louka, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-17T15:00:00+00:00",
       "timestamp": 1792249200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792249200,
+        "second": 1792252800
       },
       "venue": {
         "id": 19078,
-        "name": "Stelios Chari Stadium",
-        "city": "Ypsonas"
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
       },
       "status": {
         "long": "Match Finished",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1603575,
-      "referee": "Antonis Konstantinidis",
+      "referee": "A. Konstantinidis",
       "timezone": "UTC",
       "date": "2026-10-09T16:00:00+00:00",
       "timestamp": 1791561600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791561600,
+        "second": 1791565200
       },
       "venue": {
         "id": 7134,
-        "name": "Stelios Kyriakides Stadium",
-        "city": "Paphos"
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603554,
-      "referee": "Konstantinos Photiou, Cyprus",
-      "timezone": "UTC",
-      "date": "2026-09-04T16:00:00+00:00",
-      "timestamp": 1788537600,
-      "periods": {
-        "first": 1788537600,
-        "second": 1788541200
-      },
-      "venue": {
-        "id": null,
-        "name": "Katokopia Epistrofi - Glafkos Klirides",
-        "city": "Peristerona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14126,
-        "name": "Omonia 29is Maiou",
-        "logo": "https://media.api-sports.io/football/teams/14126.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3413,
-        "name": "Karmiotissa",
-        "logo": "https://media.api-sports.io/football/teams/3413.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

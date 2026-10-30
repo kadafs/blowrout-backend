@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584044,
+      "referee": "Lars Erbst",
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 722,
+        "name": "Ostseestadion",
+        "city": "Rostock"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png",
+        "winner": null
+      },
+      "away": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584036,
       "referee": "Leonidas Exuzidis",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584002,
-      "referee": "T. Gansloweit",
-      "timezone": "UTC",
-      "date": "2026-09-15T17:00:00+00:00",
-      "timestamp": 1789491600,
-      "periods": {
-        "first": 1789491600,
-        "second": 1789495200
-      },
-      "venue": {
-        "id": 10490,
-        "name": "Jahnstadion Regensburg",
-        "city": "Regensburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 177,
-        "name": "SSV Jahn Regensburg",
-        "logo": "https://media.api-sports.io/football/teams/177.png",
-        "winner": false
-      },
-      "away": {
-        "id": 158,
-        "name": "Fortuna D\u00fcsseldorf",
-        "logo": "https://media.api-sports.io/football/teams/158.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

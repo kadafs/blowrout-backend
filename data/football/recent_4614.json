@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629715,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T16:15:00+00:00",
+      "timestamp": 1792772100,
+      "periods": {
+        "first": 1792772100,
+        "second": 1792775700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 392,
+      "name": "Challenge League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/392.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4614,
+        "name": "Zebbug Rangers",
+        "logo": "https://media.api-sports.io/football/teams/4614.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4620,
+        "name": "Melita",
+        "logo": "https://media.api-sports.io/football/teams/4620.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629711,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1540376,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-18T14:30:00+00:00",
-      "timestamp": 1776522600,
-      "periods": {
-        "first": 1776522600,
-        "second": 1776526200
-      },
-      "venue": {
-        "id": 1065,
-        "name": "Victor Tedesco Stadium",
-        "city": "Hamrun"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 392,
-      "name": "Challenge League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/392.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2025,
-      "round": "Relegation Group - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4614,
-        "name": "Zebbug Rangers",
-        "logo": "https://media.api-sports.io/football/teams/4614.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4617,
-        "name": "Marsa",
-        "logo": "https://media.api-sports.io/football/teams/4617.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555040,
+      "referee": "D. Blanco",
+      "timezone": "UTC",
+      "date": "2026-08-28T18:15:00+00:00",
+      "timestamp": 1787940900,
+      "periods": {
+        "first": 1787940900,
+        "second": 1787944500
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Aarau"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 208,
+      "name": "Challenge League",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/208.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2177,
+        "name": "FC Aarau",
+        "logo": "https://media.api-sports.io/football/teams/2177.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1015,
+        "name": "Neuchatel Xamax FC",
+        "logo": "https://media.api-sports.io/football/teams/1015.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1491432,
       "referee": "L. Piccolo",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1325418,
-      "referee": "N. Gianforte",
-      "timezone": "UTC",
-      "date": "2025-04-11T18:15:00+00:00",
-      "timestamp": 1744395300,
-      "periods": {
-        "first": 1744395300,
-        "second": 1744398900
-      },
-      "venue": {
-        "id": 1538,
-        "name": "Stade de la Maladi\u00e8re",
-        "city": "Neuch\u00e2tel"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 208,
-      "name": "Challenge League",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/208.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2024,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1015,
-        "name": "Neuchatel Xamax FC",
-        "logo": "https://media.api-sports.io/football/teams/1015.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2177,
-        "name": "FC Aarau",
-        "logo": "https://media.api-sports.io/football/teams/2177.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

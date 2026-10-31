@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564390,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 587,
+        "name": "Broadhall Way",
+        "city": "Stevenage"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1368,
+        "name": "Stevenage",
+        "logo": "https://media.api-sports.io/football/teams/1368.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1348,
+        "name": "Milton Keynes Dons",
+        "logo": "https://media.api-sports.io/football/teams/1348.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564377,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588872,
-      "referee": "R. Massey-Ellis",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 18620,
-        "name": "Bescot Stadium",
-        "city": "Walsall"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1342,
-        "name": "Walsall",
-        "logo": "https://media.api-sports.io/football/teams/1342.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1368,
-        "name": "Stevenage",
-        "logo": "https://media.api-sports.io/football/teams/1368.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 6
       },
       "extratime": {
         "home": null,

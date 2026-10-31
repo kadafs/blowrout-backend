@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564389,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12052,
+        "name": "Madejski Stadium",
+        "city": "Reading"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": true
+      },
+      "away": {
+        "id": 747,
+        "name": "Barnsley",
+        "logo": "https://media.api-sports.io/football/teams/747.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564378,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564340,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 12052,
-        "name": "Madejski Stadium",
-        "city": "Reading"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 53,
-        "name": "Reading",
-        "logo": "https://media.api-sports.io/football/teams/53.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1343,
-        "name": "Bradford",
-        "logo": "https://media.api-sports.io/football/teams/1343.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

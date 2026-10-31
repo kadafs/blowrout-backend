@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551360,
+      "referee": "J. Bogelund",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:30:00+00:00",
+      "timestamp": 1792841400,
+      "periods": {
+        "first": 1792841400,
+        "second": 1792845000
+      },
+      "venue": {
+        "id": 445,
+        "name": "Blue Water Arena",
+        "city": "Esbjerg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 120,
+      "name": "1. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/120.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 403,
+        "name": "Esbjerg",
+        "logo": "https://media.api-sports.io/football/teams/403.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2061,
+        "name": "FC Fredericia",
+        "logo": "https://media.api-sports.io/football/teams/2061.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551355,
       "referee": "F. Iriskic",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551333,
-      "referee": "M. Thomsen",
-      "timezone": "UTC",
-      "date": "2026-09-05T12:00:00+00:00",
-      "timestamp": 1788609600,
-      "periods": {
-        "first": 1788609600,
-        "second": 1788613200
-      },
-      "venue": {
-        "id": 446,
-        "name": "Monjasa Park",
-        "city": "Fredericia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 120,
-      "name": "1. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/120.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2061,
-        "name": "FC Fredericia",
-        "logo": "https://media.api-sports.io/football/teams/2061.png",
-        "winner": true
-      },
-      "away": {
-        "id": 403,
-        "name": "Esbjerg",
-        "logo": "https://media.api-sports.io/football/teams/403.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

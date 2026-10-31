@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579843,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T18:00:00+00:00",
+      "timestamp": 1792864800,
+      "periods": {
+        "first": 1792864800,
+        "second": 1792868400
+      },
+      "venue": {
+        "id": null,
+        "name": "Edmond Machtens Stadium",
+        "city": "Brussels"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 487,
+      "name": "First Amateur Division",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/487.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "ACFF - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6224,
+        "name": "RWDM",
+        "logo": "https://media.api-sports.io/football/teams/6224.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5740,
+        "name": "Albert Qu\u00e9vy-Mons",
+        "logo": "https://media.api-sports.io/football/teams/5740.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579839,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635526,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T16:00:00+00:00",
-      "timestamp": 1790438400,
-      "periods": {
-        "first": 1790438400,
-        "second": 1790442000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 147,
-      "name": "Cup",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/147.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5862,
-        "name": "Londerzeel",
-        "logo": "https://media.api-sports.io/football/teams/5862.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5740,
-        "name": "Albert Qu\u00e9vy-Mons",
-        "logo": "https://media.api-sports.io/football/teams/5740.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

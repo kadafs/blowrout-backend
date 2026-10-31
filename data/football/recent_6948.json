@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640573,
+      "referee": "M. Kuropatwa",
+      "timezone": "UTC",
+      "date": "2026-10-28T18:00:00+00:00",
+      "timestamp": 1793210400,
+      "periods": {
+        "first": 1793210400,
+        "second": 1793214000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Sredzki",
+        "city": "Sroda Wielkopolska"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 108,
+      "name": "Cup",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/108.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6948,
+        "name": "Polonia \u015aroda",
+        "logo": "https://media.api-sports.io/football/teams/6948.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12900,
+        "name": "\u015al\u0105sk Wroc\u0142aw II",
+        "logo": "https://media.api-sports.io/football/teams/12900.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1568841,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1568808,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T10:00:00+00:00",
-      "timestamp": 1790416800,
-      "periods": {
-        "first": 1790416800,
-        "second": 1790420400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 781,
-      "name": "III Liga - Group 2",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/781.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Group II - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6948,
-        "name": "Polonia \u015aroda",
-        "logo": "https://media.api-sports.io/football/teams/6948.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6938,
-        "name": "Elana Toru\u0144",
-        "logo": "https://media.api-sports.io/football/teams/6938.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

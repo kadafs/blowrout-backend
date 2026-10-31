@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1563834,
+      "referee": "S. Jackson",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:30:00+00:00",
+      "timestamp": 1792841400,
+      "periods": {
+        "first": 1792841400,
+        "second": 1792845000
+      },
+      "venue": {
+        "id": 11881,
+        "name": "Sixfields Stadium",
+        "city": "Northampton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1337,
+        "name": "Northampton",
+        "logo": "https://media.api-sports.io/football/teams/1337.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1361,
+        "name": "Colchester",
+        "logo": "https://media.api-sports.io/football/teams/1361.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563822,
-      "referee": null,
+      "referee": "A. Jackson",
       "timezone": "UTC",
       "date": "2026-10-20T18:45:00+00:00",
       "timestamp": 1792521900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792521900,
+        "second": 1792525500
       },
       "venue": {
         "id": 11881,
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1563807,
-      "referee": null,
+      "referee": "M. Woods",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 538,
         "name": "Blundell Park",
-        "city": "Grimsby"
+        "city": "Cleethorpes"
       },
       "status": {
         "long": "Match Finished",
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1563802,
-      "referee": null,
+      "referee": "M. Barlow",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": null,
-        "name": "York`s LNER Community Stadium",
+        "name": "York Community Stadium",
         "city": "York"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563763,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 11881,
-        "name": "Sixfields Stadium",
-        "city": "Northampton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1337,
-        "name": "Northampton",
-        "logo": "https://media.api-sports.io/football/teams/1337.png",
-        "winner": false
-      },
-      "away": {
-        "id": 73,
-        "name": "Rotherham",
-        "logo": "https://media.api-sports.io/football/teams/73.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

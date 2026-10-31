@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638514,
+      "referee": "L. Xie",
+      "timezone": "UTC",
+      "date": "2026-10-07T08:00:00+00:00",
+      "timestamp": 1791360000,
+      "periods": {
+        "first": 1791360000,
+        "second": 1791363600
+      },
+      "venue": {
+        "id": null,
+        "name": "Taishan",
+        "city": "Tchaj-an"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Relegation Group - 25",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 19321,
+        "name": "Tai'an Tiankuang",
+        "logo": "https://media.api-sports.io/football/teams/19321.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19320,
+        "name": "Shangyu Pterosaur",
+        "logo": "https://media.api-sports.io/football/teams/19320.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1440570,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1119300,
-      "referee": "Wan Tao",
-      "timezone": "UTC",
-      "date": "2023-10-21T07:00:00+00:00",
-      "timestamp": 1697871600,
-      "periods": {
-        "first": 1697871600,
-        "second": 1697875200
-      },
-      "venue": {
-        "id": 19666,
-        "name": "Taishan Stadium",
-        "city": "New Taipei City"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2023,
-      "round": "Relegation Round - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19321,
-        "name": "Tai'an Tiankuang",
-        "logo": "https://media.api-sports.io/football/teams/19321.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19320,
-        "name": "Shangyu Pterosaur",
-        "logo": "https://media.api-sports.io/football/teams/19320.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

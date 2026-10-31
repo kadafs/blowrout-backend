@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638559,
+      "referee": "Florian Lechner",
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20471,
+        "name": "Borussia-Park",
+        "city": "Monchengladbach"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 81,
+      "name": "DFB Pokal",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/81.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 163,
+        "name": "Borussia M\u00f6nchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png",
+        "winner": true
+      },
+      "away": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "logo": "https://media.api-sports.io/football/teams/785.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576212,
       "referee": "Felix Wagner, Germany",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576185,
-      "referee": "Timo Gansloweit, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": 11900,
-        "name": "BBBank Wildpark",
-        "city": "Karlsruhe"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 785,
-        "name": "Karlsruher SC",
-        "logo": "https://media.api-sports.io/football/teams/785.png",
-        "winner": false
-      },
-      "away": {
-        "id": 171,
-        "name": "1. FC N\u00fcrnberg",
-        "logo": "https://media.api-sports.io/football/teams/171.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

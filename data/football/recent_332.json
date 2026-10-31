@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643412,
+      "referee": "O. Nilsen",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
+        "id": 1187,
+        "name": "Skagerak Arena",
+        "city": "Skien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 105,
+      "name": "NM Cupen",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/105.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2027,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 330,
+        "name": "ODD Ballklubb",
+        "logo": "https://media.api-sports.io/football/teams/330.png",
+        "winner": true
+      },
+      "away": {
+        "id": 332,
+        "name": "Sandefjord",
+        "logo": "https://media.api-sports.io/football/teams/332.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494690,
       "referee": "Rohit Saggi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494767,
-      "referee": "Espen Eskas, Norway",
-      "timezone": "UTC",
-      "date": "2026-09-20T15:00:00+00:00",
-      "timestamp": 1789916400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20418,
-        "name": "Sandefjord Arena",
-        "city": "Sandefjord"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 332,
-        "name": "Sandefjord",
-        "logo": "https://media.api-sports.io/football/teams/332.png",
-        "winner": true
-      },
-      "away": {
-        "id": 334,
-        "name": "Start",
-        "logo": "https://media.api-sports.io/football/teams/334.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

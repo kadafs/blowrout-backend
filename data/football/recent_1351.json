@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1563838,
+      "id": 1588838,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-24T14:00:00+00:00",
-      "timestamp": 1792850400,
+      "date": "2026-10-27T19:00:00+00:00",
+      "timestamp": 1793127600,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 572,
+        "name": "Vale Park",
+        "city": "Stoke-On-Trent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group North - 4",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1351,
+        "name": "Port Vale",
+        "logo": "https://media.api-sports.io/football/teams/1351.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7197,
+        "name": "Manchester City U21",
+        "logo": "https://media.api-sports.io/football/teams/7197.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1563838,
+      "referee": "D. Webb",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
         "id": null,
-        "name": "York`s LNER Community Stadium",
+        "name": "York Community Stadium",
         "city": "York"
       },
       "status": {
@@ -77,8 +147,8 @@
       "date": "2026-10-20T19:00:00+00:00",
       "timestamp": 1792522800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792522800,
+        "second": 1792526400
       },
       "venue": {
         "id": 537,
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1563810,
-      "referee": null,
+      "referee": "H. Blair",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 572,
         "name": "Vale Park",
-        "city": "Stoke-On-Trent"
+        "city": "Stoke on Trent"
       },
       "status": {
         "long": "Match Finished",
@@ -212,18 +282,18 @@
   {
     "fixture": {
       "id": 1563797,
-      "referee": null,
+      "referee": "R. Martin",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 572,
         "name": "Vale Park",
-        "city": "Stoke-On-Trent"
+        "city": "Stoke on Trent"
       },
       "status": {
         "long": "Match Finished",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588836,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T18:00:00+00:00",
-      "timestamp": 1791309600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 572,
-        "name": "Vale Park",
-        "city": "Stoke-On-Trent"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group North - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1351,
-        "name": "Port Vale",
-        "logo": "https://media.api-sports.io/football/teams/1351.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1374,
-        "name": "Mansfield Town",
-        "logo": "https://media.api-sports.io/football/teams/1374.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

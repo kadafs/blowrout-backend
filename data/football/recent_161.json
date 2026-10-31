@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638564,
+      "referee": "Soren Storks",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12717,
+        "name": "Europa-Park-Stadion",
+        "city": "Freiburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 81,
+      "name": "DFB Pokal",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/81.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png",
+        "winner": true
+      },
+      "away": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576206,
       "referee": "Eric-Dominic Weisbach, Germany",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576187,
-      "referee": "Martin Petersen, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-18T16:30:00+00:00",
-      "timestamp": 1789749000,
-      "periods": {
-        "first": 1789749000,
-        "second": 1789752600
-      },
-      "venue": {
-        "id": 752,
-        "name": "Volkswagen Arena",
-        "city": "Wolfsburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 161,
-        "name": "VfL Wolfsburg",
-        "logo": "https://media.api-sports.io/football/teams/161.png",
-        "winner": true
-      },
-      "away": {
-        "id": 181,
-        "name": "SV Darmstadt 98",
-        "logo": "https://media.api-sports.io/football/teams/181.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

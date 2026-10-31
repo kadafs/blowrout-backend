@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1563833,
+      "referee": "S. Mulhall",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 537,
+        "name": "Priestfield Stadium",
+        "city": "Gillingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1347,
+        "name": "Gillingham",
+        "logo": "https://media.api-sports.io/football/teams/1347.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1365,
+        "name": "Grimsby",
+        "logo": "https://media.api-sports.io/football/teams/1365.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563821,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-10-20T19:00:00+00:00",
       "timestamp": 1792522800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792522800,
+        "second": 1792526400
       },
       "venue": {
         "id": 537,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1563803,
-      "referee": null,
+      "referee": "W. Finnie",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 490,
-        "name": "The Crown Ground",
+        "name": "The Wham Stadium",
         "city": "Accrington"
       },
       "status": {
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1563798,
-      "referee": null,
+      "referee": "W. Davis",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 578,
-        "name": "New York Stadium",
+        "name": "Aesseal New York Stadium",
         "city": "Rotherham"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563785,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 537,
-        "name": "Priestfield Stadium",
-        "city": "Gillingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1347,
-        "name": "Gillingham",
-        "logo": "https://media.api-sports.io/football/teams/1347.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1367,
-        "name": "Newport County",
-        "logo": "https://media.api-sports.io/football/teams/1367.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490575,
+      "referee": "Alexis Da Silva",
+      "timezone": "UTC",
+      "date": "2026-10-28T23:30:00+00:00",
+      "timestamp": 1793230200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 312,
+        "name": "BMO Field",
+        "city": "Toronto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1601,
+        "name": "Toronto FC",
+        "logo": "https://media.api-sports.io/football/teams/1601.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1615,
+        "name": "DC United",
+        "logo": "https://media.api-sports.io/football/teams/1615.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490560,
       "referee": "Jon Freemon",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490513,
-      "referee": "Lukasz Szpala, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:30:00+00:00",
-      "timestamp": 1791675000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Nu Stadium",
-        "city": "Miami"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9568,
-        "name": "Inter Miami",
-        "logo": "https://media.api-sports.io/football/teams/9568.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1615,
-        "name": "DC United",
-        "logo": "https://media.api-sports.io/football/teams/1615.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579990,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T18:00:00+00:00",
+      "timestamp": 1792864800,
+      "periods": {
+        "first": 1792864800,
+        "second": 1792868400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 487,
+      "name": "First Amateur Division",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/487.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "VV - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16980,
+        "name": "Roeselare Daisel",
+        "logo": "https://media.api-sports.io/football/teams/16980.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5847,
+        "name": "Knokke",
+        "logo": "https://media.api-sports.io/football/teams/5847.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579983,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635525,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:00:00+00:00",
-      "timestamp": 1790517600,
-      "periods": {
-        "first": 1790517600,
-        "second": 1790521200
-      },
-      "venue": {
-        "id": null,
-        "name": "Burgemeester Graaf Leopold Lippens Park",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 147,
-      "name": "Cup",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/147.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5847,
-        "name": "Knokke",
-        "logo": "https://media.api-sports.io/football/teams/5847.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10244,
-        "name": "Seraing United",
-        "logo": "https://media.api-sports.io/football/teams/10244.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

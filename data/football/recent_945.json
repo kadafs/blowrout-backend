@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593689,
+      "referee": "D. Elder",
+      "timezone": "UTC",
+      "date": "2026-10-24T08:40:00+00:00",
+      "timestamp": 1792831200,
+      "periods": {
+        "first": 1792831200,
+        "second": 1792834800
+      },
+      "venue": {
+        "id": 20807,
+        "name": "AAMI Park",
+        "city": "Melbourne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 188,
+      "name": "A-League",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/188.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 944,
+        "name": "Melbourne Victory",
+        "logo": "https://media.api-sports.io/football/teams/944.png",
+        "winner": null
+      },
+      "away": {
+        "id": 945,
+        "name": "Melbourne City",
+        "logo": "https://media.api-sports.io/football/teams/945.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593681,
       "referee": "T. Danaskos",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560871,
-      "referee": "J. Attard",
-      "timezone": "UTC",
-      "date": "2026-07-26T04:00:00+00:00",
-      "timestamp": 1785038400,
-      "periods": {
-        "first": 1785038400,
-        "second": 1785042000
-      },
-      "venue": {
-        "id": 7161,
-        "name": "Rockwell Automation Park",
-        "city": "Newcastle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 874,
-      "name": "Australia Cup",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/874.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10210,
-        "name": "Weston Bears",
-        "logo": "https://media.api-sports.io/football/teams/10210.png",
-        "winner": false
-      },
-      "away": {
-        "id": 945,
-        "name": "Melbourne City",
-        "logo": "https://media.api-sports.io/football/teams/945.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

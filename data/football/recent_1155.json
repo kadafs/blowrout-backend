@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1639799,
+      "referee": "G. Guerrero",
+      "timezone": "UTC",
+      "date": "2026-10-24T21:30:00+00:00",
+      "timestamp": 1792877400,
+      "periods": {
+        "first": 1792877400,
+        "second": 1792881000
+      },
+      "venue": {
+        "id": 471,
+        "name": "Estadio Rodrigo Paz Delgado",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 242,
+      "name": "Liga Pro",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/242.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Championship Group - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1158,
+        "name": "LDU de Quito",
+        "logo": "https://media.api-sports.io/football/teams/1158.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1155,
+        "name": "Macara",
+        "logo": "https://media.api-sports.io/football/teams/1155.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639796,
-      "referee": "Rodrigo Oswaldo Leon Ramon",
+      "referee": "Rodrigo Oswaldo Leon Ramon, Ecuador",
       "timezone": "UTC",
       "date": "2026-10-17T19:00:00+00:00",
       "timestamp": 1792263600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792263600,
+        "second": 1792267200
       },
       "venue": {
         "id": 474,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1639793,
-      "referee": "Patricio Parrao",
+      "referee": "P. Parra",
       "timezone": "UTC",
       "date": "2026-10-11T16:30:00+00:00",
       "timestamp": 1791736200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791736200,
+        "second": 1791739800
       },
       "venue": {
         "id": 465,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1519493,
-      "referee": "Eloy Vicente Beltran Moreira, Ecuador",
+      "referee": "E. Moreira",
       "timezone": "UTC",
       "date": "2026-09-13T20:30:00+00:00",
       "timestamp": 1789331400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519484,
-      "referee": "Yerson Zambrano, Ecuador",
-      "timezone": "UTC",
-      "date": "2026-09-05T23:00:00+00:00",
-      "timestamp": 1788649200,
-      "periods": {
-        "first": 1788649200,
-        "second": 1788652800
-      },
-      "venue": {
-        "id": 18580,
-        "name": "Estadio Banco Guayaquil",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1153,
-        "name": "Independiente del Valle",
-        "logo": "https://media.api-sports.io/football/teams/1153.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1155,
-        "name": "Macara",
-        "logo": "https://media.api-sports.io/football/teams/1155.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

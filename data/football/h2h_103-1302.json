@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1423039,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-27T18:30:00+00:00",
+      "timestamp": 1774636200,
+      "periods": {
+        "first": 1774636200,
+        "second": 1774639800
+      },
+      "venue": {
+        "id": 668,
+        "name": "Stade de la Source",
+        "city": "Orl\u00e9ans"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "Ligue 3",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 103,
+        "name": "Orleans",
+        "logo": "https://media.api-sports.io/football/teams/103.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1302,
+        "name": "Villefranche",
+        "logo": "https://media.api-sports.io/football/teams/1302.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1422899,
       "referee": null,
       "timezone": "UTC",
@@ -24,7 +94,7 @@
     },
     "league": {
       "id": 63,
-      "name": "National 1",
+      "name": "Ligue 3",
       "country": "France",
       "logo": "https://media.api-sports.io/football/leagues/63.png",
       "flag": "https://media.api-sports.io/flags/fr.svg",
@@ -94,7 +164,7 @@
     },
     "league": {
       "id": 63,
-      "name": "National 1",
+      "name": "Ligue 3",
       "country": "France",
       "logo": "https://media.api-sports.io/football/leagues/63.png",
       "flag": "https://media.api-sports.io/flags/fr.svg",
@@ -164,7 +234,7 @@
     },
     "league": {
       "id": 63,
-      "name": "National 1",
+      "name": "Ligue 3",
       "country": "France",
       "logo": "https://media.api-sports.io/football/leagues/63.png",
       "flag": "https://media.api-sports.io/flags/fr.svg",
@@ -234,7 +304,7 @@
     },
     "league": {
       "id": 63,
-      "name": "National 1",
+      "name": "Ligue 3",
       "country": "France",
       "logo": "https://media.api-sports.io/football/leagues/63.png",
       "flag": "https://media.api-sports.io/flags/fr.svg",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1072001,
-      "referee": "A. Ustaritz",
-      "timezone": "UTC",
-      "date": "2023-09-29T17:30:00+00:00",
-      "timestamp": 1696008600,
-      "periods": {
-        "first": 1696008600,
-        "second": 1696012200
-      },
-      "venue": {
-        "id": 687,
-        "name": "Stade Armand Chouffet",
-        "city": "Villefranche-sur-Sa\u00f4ne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 63,
-      "name": "National 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/63.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2023,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1302,
-        "name": "Villefranche",
-        "logo": "https://media.api-sports.io/football/teams/1302.png",
-        "winner": true
-      },
-      "away": {
-        "id": 103,
-        "name": "Orleans",
-        "logo": "https://media.api-sports.io/football/teams/103.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1529647,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 364,
+      "name": "1. Liga",
+      "country": "Latvia",
+      "logo": "https://media.api-sports.io/football/leagues/364.png",
+      "flag": "https://media.api-sports.io/flags/lv.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14366,
+        "name": "M\u0101rupe",
+        "logo": "https://media.api-sports.io/football/teams/14366.png",
+        "winner": false
+      },
+      "away": {
+        "id": 25785,
+        "name": "Riga Mariners",
+        "logo": "https://media.api-sports.io/football/teams/25785.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1529643,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1529607,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T16:00:00+00:00",
-      "timestamp": 1788019200,
-      "periods": {
-        "first": 1788019200,
-        "second": 1788022800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 364,
-      "name": "1. Liga",
-      "country": "Latvia",
-      "logo": "https://media.api-sports.io/football/leagues/364.png",
-      "flag": "https://media.api-sports.io/flags/lv.svg",
-      "season": 2026,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14366,
-        "name": "M\u0101rupe",
-        "logo": "https://media.api-sports.io/football/teams/14366.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4139,
-        "name": "JDFS Alberts",
-        "logo": "https://media.api-sports.io/football/teams/4139.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

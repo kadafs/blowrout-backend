@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606720,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T05:00:00+00:00",
+      "timestamp": 1792904400,
+      "periods": {
+        "first": 1792904400,
+        "second": 1792908000
+      },
+      "venue": {
+        "id": 0,
+        "name": "Resonac Dome Oita",
+        "city": "Oita"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 298,
+        "name": "Oita Trinita",
+        "logo": "https://media.api-sports.io/football/teams/298.png",
+        "winner": null
+      },
+      "away": {
+        "id": 308,
+        "name": "Ventforet Kofu",
+        "logo": "https://media.api-sports.io/football/teams/308.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606710,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606666,
-      "referee": "R. Yamaoka",
-      "timezone": "UTC",
-      "date": "2026-09-26T08:00:00+00:00",
-      "timestamp": 1790409600,
-      "periods": {
-        "first": 1790409600,
-        "second": 1790413200
-      },
-      "venue": {
-        "id": 0,
-        "name": "Resonac Dome Oita",
-        "city": "Oita"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 298,
-        "name": "Oita Trinita",
-        "logo": "https://media.api-sports.io/football/teams/298.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4317,
-        "name": "Fujieda MYFC",
-        "logo": "https://media.api-sports.io/football/teams/4317.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

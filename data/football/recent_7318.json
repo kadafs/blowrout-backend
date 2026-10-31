@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562441,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 351,
+      "name": "4. liga - Divizie B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/351.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7318,
+        "name": "Meteor Praha",
+        "logo": "https://media.api-sports.io/football/teams/7318.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7350,
+        "name": "Sokol Hostou\u0148",
+        "logo": "https://media.api-sports.io/football/teams/7350.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562431,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562369,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T14:30:00+00:00",
-      "timestamp": 1790173800,
-      "periods": {
-        "first": 1790173800,
-        "second": 1790177400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 351,
-      "name": "4. liga - Divizie B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/351.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7318,
-        "name": "Meteor Praha",
-        "logo": "https://media.api-sports.io/football/teams/7318.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3721,
-        "name": "Ban\u00edk Sokolov",
-        "logo": "https://media.api-sports.io/football/teams/3721.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

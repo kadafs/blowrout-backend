@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639728,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": 1793124000,
+        "second": 1793127600
+      },
+      "venue": {
+        "id": null,
+        "name": "Alcufer Stadion",
+        "city": "Gyor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 273,
+      "name": "Magyar Kupa",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/273.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2398,
+        "name": "Gyirmot SE",
+        "logo": "https://media.api-sports.io/football/teams/2398.png",
+        "winner": true
+      },
+      "away": {
+        "id": 576,
+        "name": "Budapest Honved",
+        "logo": "https://media.api-sports.io/football/teams/576.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571872,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634946,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
-      "periods": {
-        "first": 1789228800,
-        "second": 1789232400
-      },
-      "venue": {
-        "id": null,
-        "name": "Alcufer Stadion",
-        "city": "Gyor"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2398,
-        "name": "Gyirmot SE",
-        "logo": "https://media.api-sports.io/football/teams/2398.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2409,
-        "name": "Csakvar",
-        "logo": "https://media.api-sports.io/football/teams/2409.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

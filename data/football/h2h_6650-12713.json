@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1430565,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-01T18:00:00+00:00",
+      "timestamp": 1775066400,
+      "periods": {
+        "first": 1775066400,
+        "second": 1775070000
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportpark Eschen-Mauren",
+        "city": "Eschen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 601,
+      "name": "1. Liga Classic - Group 3",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/601.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2025,
+      "round": "Group 3 - 22",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12713,
+        "name": "Eschen / Mauren",
+        "logo": "https://media.api-sports.io/football/teams/12713.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6650,
+        "name": "Wettswil-Bonstetten",
+        "logo": "https://media.api-sports.io/football/teams/6650.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1430443,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1059113,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-11T15:00:00+00:00",
-      "timestamp": 1699714800,
-      "periods": {
-        "first": 1699714800,
-        "second": 1699718400
-      },
-      "venue": {
-        "id": 4857,
-        "name": "Sportplatz Moos",
-        "city": "Wettswil"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 601,
-      "name": "1. Liga Classic - Group 3",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/601.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2023,
-      "round": "Group 3 - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6650,
-        "name": "Wettswil-Bonstetten",
-        "logo": "https://media.api-sports.io/football/teams/6650.png",
-        "winner": null
-      },
-      "away": {
-        "id": 12713,
-        "name": "Eschen / Mauren",
-        "logo": "https://media.api-sports.io/football/teams/12713.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

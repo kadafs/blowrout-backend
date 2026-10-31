@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602529,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T08:00:00+00:00",
+      "timestamp": 1792828800,
+      "periods": {
+        "first": 1792828800,
+        "second": 1792832400
+      },
+      "venue": {
+        "id": null,
+        "name": "May 1 Stadium",
+        "city": "Slobozia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 284,
+      "name": "Liga II",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/284.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6916,
+        "name": "Unirea Slobozia",
+        "logo": "https://media.api-sports.io/football/teams/6916.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2580,
+        "name": "Concordia",
+        "logo": "https://media.api-sports.io/football/teams/2580.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602511,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602474,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T08:00:00+00:00",
-      "timestamp": 1788595200,
-      "periods": {
-        "first": 1788595200,
-        "second": 1788598800
-      },
-      "venue": {
-        "id": null,
-        "name": "May 1 Stadium",
-        "city": "Slobozia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6916,
-        "name": "Unirea Slobozia",
-        "logo": "https://media.api-sports.io/football/teams/6916.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19170,
-        "name": "CS Dinamo Bucure\u0219ti",
-        "logo": "https://media.api-sports.io/football/teams/19170.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 8,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 8,
         "away": 0
       },
       "extratime": {

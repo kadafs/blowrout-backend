@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1510472,
+      "referee": "J. Ahn",
+      "timezone": "UTC",
+      "date": "2026-10-18T05:00:00+00:00",
+      "timestamp": 1792299600,
+      "periods": {
+        "first": 1792299600,
+        "second": 1792303200
+      },
+      "venue": {
+        "id": 19536,
+        "name": "Mokdong Stadium",
+        "city": "Seoul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2749,
+        "name": "Seoul E-Land FC",
+        "logo": "https://media.api-sports.io/football/teams/2749.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7076,
+        "name": "Gimhae City",
+        "logo": "https://media.api-sports.io/football/teams/7076.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510461,
       "referee": "Oh Hyun-Jung",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510432,
-      "referee": "J. Jo",
-      "timezone": "UTC",
-      "date": "2026-08-29T10:30:00+00:00",
-      "timestamp": 1787999400,
-      "periods": {
-        "first": 1787999400,
-        "second": 1788003000
-      },
-      "venue": {
-        "id": null,
-        "name": "Tancheon Stadium",
-        "city": "Seongnam"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2757,
-        "name": "Seongnam FC",
-        "logo": "https://media.api-sports.io/football/teams/2757.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2749,
-        "name": "Seoul E-Land FC",
-        "logo": "https://media.api-sports.io/football/teams/2749.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

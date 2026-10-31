@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1552799,
+      "referee": "Geoffrey Kubler",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": 1792944900,
+        "second": 1792948500
+      },
+      "venue": {
+        "id": 682,
+        "name": "Stadium Municipal",
+        "city": "Toulouse"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 96,
+        "name": "Toulouse",
+        "logo": "https://media.api-sports.io/football/teams/96.png",
+        "winner": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552791,
-      "referee": "Hakim Ben el Salem Hadj, France",
+      "referee": "H. Ben El Hadj Salem",
       "timezone": "UTC",
       "date": "2026-10-17T18:45:00+00:00",
       "timestamp": 1792262700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792262700,
+        "second": 1792266300
       },
       "venue": {
         "id": 684,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": 634,
-        "name": "Stade Raymond Kopa",
+        "name": "Stade Raymond-Kopa",
         "city": "Angers"
       },
       "status": {
@@ -247,76 +317,6 @@
         "id": 77,
         "name": "Angers",
         "logo": "https://media.api-sports.io/football/teams/77.png",
-        "winner": true
-      },
-      "away": {
-        "id": 110,
-        "name": "Estac Troyes",
-        "logo": "https://media.api-sports.io/football/teams/110.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552760,
-      "referee": "Romain Lissorgue, France",
-      "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
-      "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": 22783,
-        "name": "Stade Pierre-Mauroy",
-        "city": "Lille"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
         "winner": true
       },
       "away": {

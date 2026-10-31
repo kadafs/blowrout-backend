@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1563836,
+      "referee": "J. Oldham",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 578,
+        "name": "Aesseal New York Stadium",
+        "city": "Rotherham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 73,
+        "name": "Rotherham",
+        "logo": "https://media.api-sports.io/football/teams/73.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1352,
+        "name": "Shrewsbury",
+        "logo": "https://media.api-sports.io/football/teams/1352.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563824,
-      "referee": null,
+      "referee": "J. Callum",
       "timezone": "UTC",
       "date": "2026-10-20T18:45:00+00:00",
       "timestamp": 1792521900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792521900,
+        "second": 1792525500
       },
       "venue": {
         "id": 578,
-        "name": "New York Stadium",
+        "name": "Aesseal New York Stadium",
         "city": "Rotherham"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1563806,
-      "referee": null,
+      "referee": "S. Copeland",
       "timezone": "UTC",
       "date": "2026-10-17T11:30:00+00:00",
       "timestamp": 1792236600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792236600,
+        "second": 1792240200
       },
       "venue": {
         "id": 533,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1563798,
-      "referee": null,
+      "referee": "W. Davis",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 578,
-        "name": "New York Stadium",
+        "name": "Aesseal New York Stadium",
         "city": "Rotherham"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563784,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 532,
-        "name": "St James Park",
-        "city": "Exeter"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1364,
-        "name": "Exeter City",
-        "logo": "https://media.api-sports.io/football/teams/1364.png",
-        "winner": true
-      },
-      "away": {
-        "id": 73,
-        "name": "Rotherham",
-        "logo": "https://media.api-sports.io/football/teams/73.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

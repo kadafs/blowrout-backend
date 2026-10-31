@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1578730,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "New Dundas Park",
+        "city": "Bonnyrigg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 731,
+      "name": "Football League - Lowland League",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/731.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7431,
+        "name": "Bonnyrigg Rose Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7431.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15597,
+        "name": "Bo'ness United",
+        "logo": "https://media.api-sports.io/football/teams/15597.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1578721,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593592,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:45:00+00:00",
-      "timestamp": 1790102700,
-      "periods": {
-        "first": 1790102700,
-        "second": 1790106300
-      },
-      "venue": {
-        "id": null,
-        "name": "New Dundas Park",
-        "city": "Bonnyrigg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7431,
-        "name": "Bonnyrigg Rose Athletic",
-        "logo": "https://media.api-sports.io/football/teams/7431.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4668,
-        "name": "Airdrie United",
-        "logo": "https://media.api-sports.io/football/teams/4668.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 6
       },
       "extratime": {
         "home": null,

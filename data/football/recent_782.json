@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645408,
+      "referee": "J. Machalek",
+      "timezone": "UTC",
+      "date": "2026-10-27T16:00:00+00:00",
+      "timestamp": 1793116800,
+      "periods": {
+        "first": 1793116800,
+        "second": 1793120400
+      },
+      "venue": {
+        "id": 2493,
+        "name": "Stadion U Nisy",
+        "city": "Liberec"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 347,
+      "name": "Cup",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/347.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 782,
+        "name": "Slovan Liberec",
+        "logo": "https://media.api-sports.io/football/teams/782.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3720,
+        "name": "Teplice",
+        "logo": "https://media.api-sports.io/football/teams/3720.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560046,
       "referee": "Dominik Stary",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636731,
-      "referee": "D. Cerny",
-      "timezone": "UTC",
-      "date": "2026-09-15T15:00:00+00:00",
-      "timestamp": 1789484400,
-      "periods": {
-        "first": 1789484400,
-        "second": 1789488000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion v Kollarove ulici",
-        "city": "Vlasim"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 347,
-      "name": "Cup",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/347.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3730,
-        "name": "Vla\u0161im",
-        "logo": "https://media.api-sports.io/football/teams/3730.png",
-        "winner": false
-      },
-      "away": {
-        "id": 782,
-        "name": "Slovan Liberec",
-        "logo": "https://media.api-sports.io/football/teams/782.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

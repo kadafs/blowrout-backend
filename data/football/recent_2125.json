@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632043,
+      "referee": "Derlis Lopez",
+      "timezone": "UTC",
+      "date": "2026-10-25T22:30:00+00:00",
+      "timestamp": 1792967400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1223,
+        "name": "Estadio Gunther Vogel",
+        "city": "San Lorenzo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2125,
+        "name": "Club Sp. San Lorenzo",
+        "logo": "https://media.api-sports.io/football/teams/2125.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1176,
+        "name": "Cerro Porteno",
+        "logo": "https://media.api-sports.io/football/teams/1176.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632036,
       "referee": "M. D. de Vivar",
       "timezone": "UTC",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1632022,
-      "referee": "J. Benitez",
+      "referee": "Juan Gabriel Benitez, Paraguay",
       "timezone": "UTC",
       "date": "2026-10-03T20:00:00+00:00",
       "timestamp": 1791057600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639167,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T19:00:00+00:00",
-      "timestamp": 1790190000,
-      "periods": {
-        "first": 1790190000,
-        "second": 1790193600
-      },
-      "venue": {
-        "id": 1747,
-        "name": "Estadio Juan Jose Vazquez",
-        "city": "San Estanislao"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 501,
-      "name": "Copa Paraguay",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/501.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Round of 16",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2125,
-        "name": "Club Sp. San Lorenzo",
-        "logo": "https://media.api-sports.io/football/teams/2125.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28093,
-        "name": "4 de Mayo",
-        "logo": "https://media.api-sports.io/football/teams/28093.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

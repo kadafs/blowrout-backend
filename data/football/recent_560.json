@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645411,
+      "referee": "A. Trska",
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": 1793124000,
+        "second": 1793127600
+      },
+      "venue": {
+        "id": 435,
+        "name": "Fortuna Arena",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 347,
+      "name": "Cup",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/347.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 560,
+        "name": "Slavia Praha",
+        "logo": "https://media.api-sports.io/football/teams/560.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3733,
+        "name": "Zbrojovka Brno",
+        "logo": "https://media.api-sports.io/football/teams/3733.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560053,
       "referee": "Karel Roucek",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560040,
-      "referee": "M. Radina",
-      "timezone": "UTC",
-      "date": "2026-10-09T16:00:00+00:00",
-      "timestamp": 1791561600,
-      "periods": {
-        "first": 1791561600,
-        "second": 1791565200
-      },
-      "venue": {
-        "id": 2492,
-        "name": "Stadion Letna",
-        "city": "Zlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 603,
-        "name": "Zlin",
-        "logo": "https://media.api-sports.io/football/teams/603.png",
-        "winner": false
-      },
-      "away": {
-        "id": 560,
-        "name": "Slavia Praha",
-        "logo": "https://media.api-sports.io/football/teams/560.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580782,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T18:45:00+00:00",
+      "timestamp": 1792781100,
+      "periods": {
+        "first": 1792781100,
+        "second": 1792784700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 111,
+      "name": "FAW Championship",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/111.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "South - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11310,
+        "name": "Trethomas Bluebirds",
+        "logo": "https://media.api-sports.io/football/teams/11310.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7586,
+        "name": "Cardiff Draconians",
+        "logo": "https://media.api-sports.io/football/teams/7586.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643970,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580738,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-04T18:45:00+00:00",
-      "timestamp": 1788547500,
-      "periods": {
-        "first": 1788547500,
-        "second": 1788551100
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 111,
-      "name": "FAW Championship",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/111.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "South - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11310,
-        "name": "Trethomas Bluebirds",
-        "logo": "https://media.api-sports.io/football/teams/11310.png",
-        "winner": null
-      },
-      "away": {
-        "id": 11283,
-        "name": "Caerphilly Athletic",
-        "logo": "https://media.api-sports.io/football/teams/11283.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

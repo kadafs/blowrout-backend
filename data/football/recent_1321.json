@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584044,
+      "referee": "Lars Erbst",
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 722,
+        "name": "Ostseestadion",
+        "city": "Rostock"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1321,
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png",
+        "winner": null
+      },
+      "away": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584034,
       "referee": "Eric-Dominic Weisbach",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583997,
-      "referee": "L. Exuzidis",
-      "timezone": "UTC",
-      "date": "2026-09-16T17:00:00+00:00",
-      "timestamp": 1789578000,
-      "periods": {
-        "first": 1789578000,
-        "second": 1789581600
-      },
-      "venue": {
-        "id": 722,
-        "name": "Ostseestadion",
-        "city": "Rostock"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1321,
-        "name": "Hansa Rostock",
-        "logo": "https://media.api-sports.io/football/teams/1321.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12867,
-        "name": "Stuttgart II",
-        "logo": "https://media.api-sports.io/football/teams/12867.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

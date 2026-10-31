@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558656,
+      "referee": "E. Lambrechts",
+      "timezone": "UTC",
+      "date": "2026-10-25T17:30:00+00:00",
+      "timestamp": 1792949400,
+      "periods": {
+        "first": 1792949400,
+        "second": 1792953000
+      },
+      "venue": {
+        "id": 20727,
+        "name": "Planet Group Arena",
+        "city": "Gent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 631,
+        "name": "Gent",
+        "logo": "https://media.api-sports.io/football/teams/631.png",
+        "winner": true
+      },
+      "away": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636273,
       "referee": "Ondrej Berka",
       "timezone": "UTC",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1558645,
-      "referee": "Kevin van Damme, Belgium",
+      "referee": "K. van Damme",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
@@ -222,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Jan Breydel Stadium",
-        "city": "Bruges"
+        "name": "Jan Breydel Stadion",
+        "city": "Brugge"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643479,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T12:00:00+00:00",
-      "timestamp": 1790942400,
-      "periods": {
-        "first": 1790942400,
-        "second": 1790946000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 554,
-        "name": "Anderlecht",
-        "logo": "https://media.api-sports.io/football/teams/554.png",
-        "winner": true
-      },
-      "away": {
-        "id": 93,
-        "name": "Reims",
-        "logo": "https://media.api-sports.io/football/teams/93.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

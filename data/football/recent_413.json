@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552203,
+      "referee": "Martin Van den Kerkhof",
+      "timezone": "UTC",
+      "date": "2026-10-25T13:30:00+00:00",
+      "timestamp": 1792935000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1140,
+        "name": "Stadion de Goffert",
+        "city": "Nijmegen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 413,
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png",
+        "winner": null
+      },
+      "away": {
+        "id": 202,
+        "name": "Groningen",
+        "logo": "https://media.api-sports.io/football/teams/202.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636258,
       "referee": "Manfredas Lukjancukas",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 413,
         "name": "NEC Nijmegen",
         "logo": "https://media.api-sports.io/football/teams/413.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552178,
-      "referee": "Martijn Vos, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-20T14:45:00+00:00",
-      "timestamp": 1789915500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1140,
-        "name": "Stadion de Goffert",
-        "city": "Nijmegen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 413,
-        "name": "NEC Nijmegen",
-        "logo": "https://media.api-sports.io/football/teams/413.png",
-        "winner": null
-      },
-      "away": {
-        "id": 410,
-        "name": "GO Ahead Eagles",
-        "logo": "https://media.api-sports.io/football/teams/410.png",
         "winner": null
       }
     },

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593056,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T10:30:00+00:00",
+      "timestamp": 1792837800,
+      "periods": {
+        "first": 1792837800,
+        "second": 1792841400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 336,
+      "name": "Druha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/336.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 21956,
+        "name": "Skala 1911 Stryi",
+        "logo": "https://media.api-sports.io/football/teams/21956.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28007,
+        "name": "Dnister Zalishchyky",
+        "logo": "https://media.api-sports.io/football/teams/28007.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593043,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593008,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": null,
-        "name": "Sport Complex Podillia",
-        "city": "Khmelnytskyi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 336,
-      "name": "Druha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/336.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6495,
-        "name": "Podillya Khmelnytskyi",
-        "logo": "https://media.api-sports.io/football/teams/6495.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21956,
-        "name": "Skala 1911 Stryi",
-        "logo": "https://media.api-sports.io/football/teams/21956.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

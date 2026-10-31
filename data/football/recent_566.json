@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551127,
+      "referee": "Marijan Grebencharski",
+      "timezone": "UTC",
+      "date": "2026-10-26T17:30:00+00:00",
+      "timestamp": 1793035800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 288,
+        "name": "Balgarska Armiya Stadium",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 172,
+      "name": "First League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/172.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 853,
+        "name": "CSKA Sofia",
+        "logo": "https://media.api-sports.io/football/teams/853.png",
+        "winner": true
+      },
+      "away": {
+        "id": 566,
+        "name": "Ludogorets",
+        "logo": "https://media.api-sports.io/football/teams/566.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644238,
       "referee": null,
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1551122,
-      "referee": "Kolev, Ivo",
+      "referee": "K. Kolev",
       "timezone": "UTC",
       "date": "2026-10-12T17:00:00+00:00",
       "timestamp": 1791824400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791824400,
+        "second": 1791828000
       },
       "venue": {
         "id": 10547,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551108,
-      "referee": "D. Stalev",
-      "timezone": "UTC",
-      "date": "2026-09-14T17:30:00+00:00",
-      "timestamp": 1789407000,
-      "periods": {
-        "first": 1789407000,
-        "second": 1789410600
-      },
-      "venue": {
-        "id": 10547,
-        "name": "Huvepharma Arena",
-        "city": "Razgrad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 172,
-      "name": "First League",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/172.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 566,
-        "name": "Ludogorets",
-        "logo": "https://media.api-sports.io/football/teams/566.png",
-        "winner": true
-      },
-      "away": {
-        "id": 856,
-        "name": "Septemvri Sofia",
-        "logo": "https://media.api-sports.io/football/teams/856.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

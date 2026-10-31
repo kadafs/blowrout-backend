@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1510481,
+      "referee": "Go Min-Guk",
+      "timezone": "UTC",
+      "date": "2026-10-25T07:30:00+00:00",
+      "timestamp": 1792913400,
+      "periods": {
+        "first": 1792913400,
+        "second": 1792917000
+      },
+      "venue": {
+        "id": null,
+        "name": "Cheongju Stadion",
+        "city": "Cheongju"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7061,
+        "name": "Cheongju",
+        "logo": "https://media.api-sports.io/football/teams/7061.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9171,
+        "name": "Yongin City",
+        "logo": "https://media.api-sports.io/football/teams/9171.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510471,
       "referee": "J. Park",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510440,
-      "referee": "D. Jeong",
-      "timezone": "UTC",
-      "date": "2026-09-05T10:00:00+00:00",
-      "timestamp": 1788602400,
-      "periods": {
-        "first": 1788602400,
-        "second": 1788606000
-      },
-      "venue": {
-        "id": 22429,
-        "name": "Yongin Mireu Stadium",
-        "city": "Yongin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9171,
-        "name": "Yongin City",
-        "logo": "https://media.api-sports.io/football/teams/9171.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2756,
-        "name": "Suwon City FC",
-        "logo": "https://media.api-sports.io/football/teams/2756.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

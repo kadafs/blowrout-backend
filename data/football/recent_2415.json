@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571870,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 272,
+      "name": "NB II",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/272.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5071,
+        "name": "BVSC",
+        "logo": "https://media.api-sports.io/football/teams/5071.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2415,
+        "name": "Tiszakecske FC",
+        "logo": "https://media.api-sports.io/football/teams/2415.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571869,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571844,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T17:00:00+00:00",
-      "timestamp": 1788627600,
-      "periods": {
-        "first": 1788627600,
-        "second": 1788631200
-      },
-      "venue": {
-        "id": null,
-        "name": "Tiszakecske Varosi Stadion",
-        "city": "Tiszakecske"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 272,
-      "name": "NB II",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/272.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2415,
-        "name": "Tiszakecske FC",
-        "logo": "https://media.api-sports.io/football/teams/2415.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5139,
-        "name": "Szentl\u0151rinc SE",
-        "logo": "https://media.api-sports.io/football/teams/5139.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528742,
+      "referee": "M. Wang",
+      "timezone": "UTC",
+      "date": "2026-10-24T07:00:00+00:00",
+      "timestamp": 1792825200,
+      "periods": {
+        "first": 1792825200,
+        "second": 1792828800
+      },
+      "venue": {
+        "id": null,
+        "name": "Dalian Sports Center Stadium",
+        "city": "Dalian"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 170,
+      "name": "League One",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/170.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5652,
+        "name": "Dalian Huayi",
+        "logo": "https://media.api-sports.io/football/teams/5652.png",
+        "winner": true
+      },
+      "away": {
+        "id": 23268,
+        "name": "Guangxi Hengchen",
+        "logo": "https://media.api-sports.io/football/teams/23268.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528736,
       "referee": "W. Li",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1528786,
-      "referee": "Zhikai Yin",
-      "timezone": "UTC",
-      "date": "2026-09-18T11:00:00+00:00",
-      "timestamp": 1789729200,
-      "periods": {
-        "first": 1789729200,
-        "second": 1789732800
-      },
-      "venue": {
-        "id": null,
-        "name": "Dalian Sports Center Stadium",
-        "city": "Dalian"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 170,
-      "name": "League One",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/170.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5652,
-        "name": "Dalian Huayi",
-        "logo": "https://media.api-sports.io/football/teams/5652.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27556,
-        "name": "Ningbo Professional",
-        "logo": "https://media.api-sports.io/football/teams/27556.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

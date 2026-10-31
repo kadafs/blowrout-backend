@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557040,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": 1793130300,
+        "second": 1793133900
+      },
+      "venue": {
+        "id": 1402,
+        "name": "Global Energy Stadium",
+        "city": "Dingwall"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 183,
+      "name": "League One",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/183.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 902,
+        "name": "Ross County",
+        "logo": "https://media.api-sports.io/football/teams/902.png",
+        "winner": null
+      },
+      "away": {
+        "id": 248,
+        "name": "Hamilton Academical",
+        "logo": "https://media.api-sports.io/football/teams/248.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557065,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557050,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 1402,
-        "name": "Global Energy Stadium",
-        "city": "Dingwall"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 183,
-      "name": "League One",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/183.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 902,
-        "name": "Ross County",
-        "logo": "https://media.api-sports.io/football/teams/902.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1391,
-        "name": "Alloa Athletic",
-        "logo": "https://media.api-sports.io/football/teams/1391.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643104,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T18:30:00+00:00",
+      "timestamp": 1792175400,
+      "periods": {
+        "first": 1792175400,
+        "second": 1792179000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 147,
+      "name": "Cup",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/147.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5931,
+        "name": "Sporting Hasselt",
+        "logo": "https://media.api-sports.io/football/teams/5931.png",
+        "winner": false
+      },
+      "away": {
+        "id": 741,
+        "name": "Cercle Brugge",
+        "logo": "https://media.api-sports.io/football/teams/741.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559175,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1559152,
-      "referee": "L. Bultynck",
-      "timezone": "UTC",
-      "date": "2026-09-05T18:00:00+00:00",
-      "timestamp": 1788631200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 12455,
-        "name": "Cegeka Arena",
-        "city": "Genk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 145,
-      "name": "Challenger Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/145.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19045,
-        "name": "KRC Genk II",
-        "logo": "https://media.api-sports.io/football/teams/19045.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5931,
-        "name": "Sporting Hasselt",
-        "logo": "https://media.api-sports.io/football/teams/5931.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

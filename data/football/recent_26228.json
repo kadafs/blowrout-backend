@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562315,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T08:15:00+00:00",
+      "timestamp": 1792829700,
+      "periods": {
+        "first": 1792829700,
+        "second": 1792833300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 350,
+      "name": "4. liga - Divizie A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/350.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26228,
+        "name": "K\u0159imice",
+        "logo": "https://media.api-sports.io/football/teams/26228.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26127,
+        "name": "Milevsko",
+        "logo": "https://media.api-sports.io/football/teams/26127.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562311,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562277,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T08:15:00+00:00",
-      "timestamp": 1789805700,
-      "periods": {
-        "first": 1789805700,
-        "second": 1789809300
-      },
-      "venue": {
-        "id": null,
-        "name": "SK Petrin Pilsen - grass",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 350,
-      "name": "4. liga - Divizie A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/350.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7330,
-        "name": "Pet\u0159\u00edn Plze\u0148",
-        "logo": "https://media.api-sports.io/football/teams/7330.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26228,
-        "name": "K\u0159imice",
-        "logo": "https://media.api-sports.io/football/teams/26228.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

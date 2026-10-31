@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638564,
+      "referee": "Soren Storks",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12717,
+        "name": "Europa-Park-Stadion",
+        "city": "Freiburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 81,
+      "name": "DFB Pokal",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/81.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png",
+        "winner": true
+      },
+      "away": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575198,
       "referee": "Felix Zwayer",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575179,
-      "referee": "Martin Petersen, Germany",
-      "timezone": "UTC",
-      "date": "2026-10-11T15:30:00+00:00",
-      "timestamp": 1791732600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 12717,
-        "name": "Europa-Park-Stadion",
-        "city": "Freiburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 160,
-        "name": "SC Freiburg",
-        "logo": "https://media.api-sports.io/football/teams/160.png",
-        "winner": true
-      },
-      "away": {
-        "id": 174,
-        "name": "FC Schalke 04",
-        "logo": "https://media.api-sports.io/football/teams/174.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

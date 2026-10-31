@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1548549,
+      "referee": "Patrik Kolaric",
+      "timezone": "UTC",
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 416,
+        "name": "Stadion Aldo Drosina",
+        "city": "Pula"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 210,
+      "name": "HNL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/210.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1016,
+        "name": "Istra 1961",
+        "logo": "https://media.api-sports.io/football/teams/1016.png",
+        "winner": null
+      },
+      "away": {
+        "id": 608,
+        "name": "HNK Hajduk Split",
+        "logo": "https://media.api-sports.io/football/teams/608.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636474,
-      "referee": "Jarred Gillett, Australia",
+      "referee": "J. Gillett",
       "timezone": "UTC",
       "date": "2026-10-22T19:00:00+00:00",
       "timestamp": 1792695600,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1548542,
-      "referee": "Dario Bel",
+      "referee": "Dario Bel, Croatia",
       "timezone": "UTC",
       "date": "2026-10-18T13:00:00+00:00",
       "timestamp": 1792328400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792328400,
+        "second": 1792332000
       },
       "venue": {
         "id": 413,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1636419,
-      "referee": "Christian-Petru Ciochirca, Austria",
+      "referee": "P. Ciochirca",
       "timezone": "UTC",
       "date": "2026-10-15T16:45:00+00:00",
       "timestamp": 1792082700,
@@ -217,8 +287,8 @@
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791637200,
+        "second": 1791640800
       },
       "venue": {
         "id": 413,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548534,
-      "referee": "Mateo Erceg, Croatia",
-      "timezone": "UTC",
-      "date": "2026-09-20T15:00:00+00:00",
-      "timestamp": 1789916400,
-      "periods": {
-        "first": 1789916400,
-        "second": 1789920000
-      },
-      "venue": {
-        "id": 423,
-        "name": "Stadion HNK Rijeka",
-        "city": "Rijeka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 210,
-      "name": "HNL",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/210.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 561,
-        "name": "HNK Rijeka",
-        "logo": "https://media.api-sports.io/football/teams/561.png",
-        "winner": true
-      },
-      "away": {
-        "id": 608,
-        "name": "HNK Hajduk Split",
-        "logo": "https://media.api-sports.io/football/teams/608.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

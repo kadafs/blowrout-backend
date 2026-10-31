@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1563221,
+      "referee": "Elliot Bell, England",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 574,
+        "name": "Deepdale Stadium",
+        "city": "Preston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": null
+      },
+      "away": {
+        "id": 60,
+        "name": "West Brom",
+        "logo": "https://media.api-sports.io/football/teams/60.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563214,
-      "referee": "Simon Hooper",
+      "referee": "Simon Hooper, England",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1563191,
-      "referee": "Sam Allison",
+      "referee": "Sam Allison, England",
       "timezone": "UTC",
       "date": "2026-10-13T19:00:00+00:00",
       "timestamp": 1791918000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563160,
-      "referee": "Steve Martin, England",
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": 1789221600,
-        "second": 1789225200
-      },
-      "venue": {
-        "id": 574,
-        "name": "Deepdale",
-        "city": "Preston"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 59,
-        "name": "Preston",
-        "logo": "https://media.api-sports.io/football/teams/59.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1379,
-        "name": "Lincoln",
-        "logo": "https://media.api-sports.io/football/teams/1379.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

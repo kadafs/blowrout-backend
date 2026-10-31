@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1578744,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:45:00+00:00",
+      "timestamp": 1793216700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 731,
+      "name": "Football League - Lowland League",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/731.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27925,
+        "name": "Renfrew",
+        "logo": "https://media.api-sports.io/football/teams/27925.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27926,
+        "name": "Troon FC",
+        "logo": "https://media.api-sports.io/football/teams/27926.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644195,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1578699,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:45:00+00:00",
-      "timestamp": 1790189100,
-      "periods": {
-        "first": 1790189100,
-        "second": 1790192700
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 731,
-      "name": "Football League - Lowland League",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/731.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27925,
-        "name": "Renfrew",
-        "logo": "https://media.api-sports.io/football/teams/27925.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21900,
-        "name": "Beith",
-        "logo": "https://media.api-sports.io/football/teams/21900.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

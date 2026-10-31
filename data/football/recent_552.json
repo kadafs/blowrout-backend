@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558030,
+      "referee": "R. Obrenovic",
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": 1793124000,
+        "second": 1793127600
+      },
+      "venue": {
+        "id": null,
+        "name": "Bonifika",
+        "city": "Koper"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 373,
+      "name": "1. SNL",
+      "country": "Slovenia",
+      "logo": "https://media.api-sports.io/football/leagues/373.png",
+      "flag": "https://media.api-sports.io/flags/si.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4374,
+        "name": "Koper",
+        "logo": "https://media.api-sports.io/football/teams/4374.png",
+        "winner": true
+      },
+      "away": {
+        "id": 552,
+        "name": "Maribor",
+        "logo": "https://media.api-sports.io/football/teams/552.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558027,
       "referee": "A. Matkovic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558013,
-      "referee": "R. Obrenovic",
-      "timezone": "UTC",
-      "date": "2026-09-13T18:15:00+00:00",
-      "timestamp": 1789323300,
-      "periods": {
-        "first": 1789323300,
-        "second": 1789326900
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 373,
-      "name": "1. SNL",
-      "country": "Slovenia",
-      "logo": "https://media.api-sports.io/football/leagues/373.png",
-      "flag": "https://media.api-sports.io/flags/si.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4378,
-        "name": "Radomlje",
-        "logo": "https://media.api-sports.io/football/teams/4378.png",
-        "winner": false
-      },
-      "away": {
-        "id": 552,
-        "name": "Maribor",
-        "logo": "https://media.api-sports.io/football/teams/552.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1577562,
+      "referee": "O. Gusakov",
+      "timezone": "UTC",
+      "date": "2026-10-24T05:00:00+00:00",
+      "timestamp": 1792818000,
+      "periods": {
+        "first": 1792818000,
+        "second": 1792821600
+      },
+      "venue": {
+        "id": 1335,
+        "name": "Stadion imeni V.I. Lenina",
+        "city": "Khabarovsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1087,
+        "name": "Ska-khabarovsk",
+        "logo": "https://media.api-sports.io/football/teams/1087.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1089,
+        "name": "Enisey",
+        "logo": "https://media.api-sports.io/football/teams/1089.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577551,
-      "referee": null,
+      "referee": "V. Moldovan",
       "timezone": "UTC",
       "date": "2026-10-18T05:00:00+00:00",
       "timestamp": 1792299600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792299600,
+        "second": 1792303200
       },
       "venue": {
         "id": 1335,
-        "name": "Lenin Stadium",
+        "name": "Stadion imeni V.I. Lenina",
         "city": "Khabarovsk"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1577546,
-      "referee": null,
+      "referee": "A. Anopa",
       "timezone": "UTC",
       "date": "2026-10-10T07:00:00+00:00",
       "timestamp": 1791615600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791615600,
+        "second": 1791619200
       },
       "venue": {
         "id": 1335,
-        "name": "Lenin Stadium",
+        "name": "Stadion imeni V.I. Lenina",
         "city": "Khabarovsk"
       },
       "status": {
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1577490,
-      "referee": null,
+      "referee": "Y. Matveev",
       "timezone": "UTC",
       "date": "2026-09-27T14:00:00+00:00",
       "timestamp": 1790517600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1790517600,
+        "second": 1790521200
       },
       "venue": {
         "id": 1350,
-        "name": "Shinnik",
+        "name": "Stadion Shinnik",
         "city": "Yaroslavl"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577535,
-      "referee": "Aleksei Lapatukhin",
-      "timezone": "UTC",
-      "date": "2026-09-18T14:00:00+00:00",
-      "timestamp": 1789740000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 2834,
-        "name": "Fisht Olympic Stadium",
-        "city": "Sochi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2012,
-        "name": "FC Sochi",
-        "logo": "https://media.api-sports.io/football/teams/2012.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1087,
-        "name": "Ska-khabarovsk",
-        "logo": "https://media.api-sports.io/football/teams/1087.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

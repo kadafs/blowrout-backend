@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561175,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:30:00+00:00",
+      "timestamp": 1792845000,
+      "periods": {
+        "first": 1792845000,
+        "second": 1792848600
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky stadion Bytca",
+        "city": "Bytca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15006,
+        "name": "MFK Byt\u010da",
+        "logo": "https://media.api-sports.io/football/teams/15006.png",
+        "winner": false
+      },
+      "away": {
+        "id": 10550,
+        "name": "Tatran Pre\u0161ov",
+        "logo": "https://media.api-sports.io/football/teams/10550.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561171,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561147,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T08:30:00+00:00",
-      "timestamp": 1790497800,
-      "periods": {
-        "first": 1790497800,
-        "second": 1790501400
-      },
-      "venue": {
-        "id": null,
-        "name": "Pasienky",
-        "city": "Bratislava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 506,
-      "name": "2. liga",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/506.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10544,
-        "name": "Slovan Bratislava II",
-        "logo": "https://media.api-sports.io/football/teams/10544.png",
-        "winner": null
-      },
-      "away": {
-        "id": 10550,
-        "name": "Tatran Pre\u0161ov",
-        "logo": "https://media.api-sports.io/football/teams/10550.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

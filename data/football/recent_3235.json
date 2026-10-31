@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599748,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-17T16:00:00+00:00",
+      "timestamp": 1792252800,
+      "periods": {
+        "first": 1792252800,
+        "second": 1792256400
+      },
+      "venue": {
+        "id": 637,
+        "name": "Stade Rene Fenouillere",
+        "city": "Avranches"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 68,
+      "name": "National 2 - Group B",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/68.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group B - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1303,
+        "name": "Avranches",
+        "logo": "https://media.api-sports.io/football/teams/1303.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3235,
+        "name": "Tarbes",
+        "logo": "https://media.api-sports.io/football/teams/3235.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599746,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599714,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-29T16:00:00+00:00",
-      "timestamp": 1788019200,
-      "periods": {
-        "first": 1788019200,
-        "second": 1788022800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 68,
-      "name": "National 2 - Group B",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/68.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group B - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3235,
-        "name": "Tarbes",
-        "logo": "https://media.api-sports.io/football/teams/3235.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9240,
-        "name": "Lorient II",
-        "logo": "https://media.api-sports.io/football/teams/9240.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

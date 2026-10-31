@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552206,
+      "referee": "Alex Bos",
+      "timezone": "UTC",
+      "date": "2026-10-25T19:00:00+00:00",
+      "timestamp": 1792954800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1119,
+        "name": "AFAS Stadion\uff08Alkmaar\uff09",
+        "city": "Alkmaar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": false
+      },
+      "away": {
+        "id": 415,
+        "name": "Twente",
+        "logo": "https://media.api-sports.io/football/teams/415.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636215,
       "referee": "Patrik Kolaric",
       "timezone": "UTC",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552181,
-      "referee": "Danny Makkelie",
+      "referee": "Danny Makkelie, Netherlands",
       "timezone": "UTC",
       "date": "2026-10-10T16:45:00+00:00",
       "timestamp": 1791650700,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552177,
-      "referee": "Sander van der Eijk, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-20T12:30:00+00:00",
-      "timestamp": 1789907400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1119,
-        "name": "AFAS Stadion\uff08Alkmaar\uff09",
-        "city": "Alkmaar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 201,
-        "name": "AZ Alkmaar",
-        "logo": "https://media.api-sports.io/football/teams/201.png",
-        "winner": true
-      },
-      "away": {
-        "id": 427,
-        "name": "Telstar",
-        "logo": "https://media.api-sports.io/football/teams/427.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

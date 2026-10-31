@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555768,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T05:00:00+00:00",
+      "timestamp": 1792904400,
+      "periods": {
+        "first": 1792904400,
+        "second": 1792908000
+      },
+      "venue": {
+        "id": null,
+        "name": "Heiwado HATO Stadium",
+        "city": "Hikone"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7117,
+        "name": "Biwako Shiga",
+        "logo": "https://media.api-sports.io/football/teams/7117.png",
+        "winner": false
+      },
+      "away": {
+        "id": 300,
+        "name": "Kanazawa",
+        "logo": "https://media.api-sports.io/football/teams/300.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555755,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 300,
         "name": "Kanazawa",
         "logo": "https://media.api-sports.io/football/teams/300.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638189,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T10:00:00+00:00",
-      "timestamp": 1790676000,
-      "periods": {
-        "first": 1790676000,
-        "second": 1790679600
-      },
-      "venue": {
-        "id": null,
-        "name": "Ishikawa Athletics Stadium",
-        "city": "Kanazawa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 101,
-      "name": "J-League Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/101.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 300,
-        "name": "Kanazawa",
-        "logo": "https://media.api-sports.io/football/teams/300.png",
-        "winner": false
-      },
-      "away": {
-        "id": 283,
-        "name": "Shimizu S-pulse",
-        "logo": "https://media.api-sports.io/football/teams/283.png",
         "winner": true
       }
     },

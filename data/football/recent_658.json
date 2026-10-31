@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1589520,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T16:00:00+00:00",
+      "timestamp": 1792857600,
+      "periods": {
+        "first": 1792857600,
+        "second": 1792861200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Am Deich",
+        "city": "Ettelbruck"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 261,
+      "name": "National Division",
+      "country": "Luxembourg",
+      "logo": "https://media.api-sports.io/football/leagues/261.png",
+      "flag": "https://media.api-sports.io/flags/lu.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2042,
+        "name": "Etzella Ettelbruck",
+        "logo": "https://media.api-sports.io/football/teams/2042.png",
+        "winner": true
+      },
+      "away": {
+        "id": 658,
+        "name": "Progres Niederkorn",
+        "logo": "https://media.api-sports.io/football/teams/658.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1589515,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1589494,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
-      "periods": {
-        "first": 1789228800,
-        "second": 1789232400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Am Petz",
-        "city": "Wiltz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 261,
-      "name": "National Division",
-      "country": "Luxembourg",
-      "logo": "https://media.api-sports.io/football/leagues/261.png",
-      "flag": "https://media.api-sports.io/flags/lu.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11906,
-        "name": "Wiltz",
-        "logo": "https://media.api-sports.io/football/teams/11906.png",
-        "winner": false
-      },
-      "away": {
-        "id": 658,
-        "name": "Progres Niederkorn",
-        "logo": "https://media.api-sports.io/football/teams/658.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640384,
+      "referee": "T. Kirk",
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": 1793130300,
+        "second": 1793133900
+      },
+      "venue": {
+        "id": 19198,
+        "name": "Valley Parade",
+        "city": "Bradford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 48,
+      "name": "League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/48.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1343,
+        "name": "Bradford",
+        "logo": "https://media.api-sports.io/football/teams/1343.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564381,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588884,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T18:00:00+00:00",
-      "timestamp": 1791309600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 570,
-        "name": "ABAX Stadium",
-        "city": "Peterborough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1350,
-        "name": "Peterborough",
-        "logo": "https://media.api-sports.io/football/teams/1350.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20094,
-        "name": "Ipswich Town U21",
-        "logo": "https://media.api-sports.io/football/teams/20094.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

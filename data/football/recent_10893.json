@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1503717,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": null,
+        "name": "Gamla Ullevi",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 736,
+      "name": "Elitettan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/736.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10893,
+        "name": "G\u00f6teborg W",
+        "logo": "https://media.api-sports.io/football/teams/10893.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16030,
+        "name": "Enskede W",
+        "logo": "https://media.api-sports.io/football/teams/16030.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1501504,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1501471,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gamla Ullevi",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 736,
-      "name": "Elitettan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/736.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10893,
-        "name": "G\u00f6teborg W",
-        "logo": "https://media.api-sports.io/football/teams/10893.png",
-        "winner": null
-      },
-      "away": {
-        "id": 16005,
-        "name": "Jitex W",
-        "logo": "https://media.api-sports.io/football/teams/16005.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

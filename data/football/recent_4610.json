@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629716,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T18:45:00+00:00",
+      "timestamp": 1792781100,
+      "periods": {
+        "first": 1792781100,
+        "second": 1792784700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 392,
+      "name": "Challenge League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/392.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19912,
+        "name": "Attard",
+        "logo": "https://media.api-sports.io/football/teams/19912.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4610,
+        "name": "St. Andrews",
+        "logo": "https://media.api-sports.io/football/teams/4610.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629705,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1554562,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-27T13:30:00+00:00",
-      "timestamp": 1782567000,
-      "periods": {
-        "first": 1782567000,
-        "second": 1782570600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1390,
-        "name": "Brechin",
-        "logo": "https://media.api-sports.io/football/teams/1390.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4610,
-        "name": "St. Andrews",
-        "logo": "https://media.api-sports.io/football/teams/4610.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

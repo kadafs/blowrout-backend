@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638572,
+      "referee": "Wolfgang Haslberger",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 707,
+        "name": "Rudolf-Harbig Stadion",
+        "city": "Dresden"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 81,
+      "name": "DFB Pokal",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/81.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "logo": "https://media.api-sports.io/football/teams/183.png",
+        "winner": true
+      },
+      "away": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575201,
       "referee": "Harm Osmers, Germany",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642884,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T17:00:00+00:00",
-      "timestamp": 1790269200,
-      "periods": {
-        "first": 1790269200,
-        "second": 1790272800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1658,
-        "name": "Rot-weiss Oberhausen",
-        "logo": "https://media.api-sports.io/football/teams/1658.png",
-        "winner": false
-      },
-      "away": {
-        "id": 174,
-        "name": "FC Schalke 04",
-        "logo": "https://media.api-sports.io/football/teams/174.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

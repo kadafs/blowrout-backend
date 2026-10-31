@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1506551,
+      "referee": "D. Forna",
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 367,
+      "name": "Meistaradeildin",
+      "country": "Faroe-Islands",
+      "logo": "https://media.api-sports.io/football/leagues/367.png",
+      "flag": "https://media.api-sports.io/flags/fo.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4191,
+        "name": "Sk\u00e1la",
+        "logo": "https://media.api-sports.io/football/teams/4191.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4184,
+        "name": "AB",
+        "logo": "https://media.api-sports.io/football/teams/4184.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1506547,
       "referee": "J. Ossursson Mohr",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1506526,
-      "referee": "H. Vidoy",
-      "timezone": "UTC",
-      "date": "2026-08-30T14:00:00+00:00",
-      "timestamp": 1788098400,
-      "periods": {
-        "first": 1788098400,
-        "second": 1788102000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 367,
-      "name": "Meistaradeildin",
-      "country": "Faroe-Islands",
-      "logo": "https://media.api-sports.io/football/leagues/367.png",
-      "flag": "https://media.api-sports.io/flags/fo.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 682,
-        "name": "NSI Runavik",
-        "logo": "https://media.api-sports.io/football/teams/682.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4184,
-        "name": "AB",
-        "logo": "https://media.api-sports.io/football/teams/4184.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528744,
+      "referee": "C. Liu",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:30:00+00:00",
+      "timestamp": 1792841400,
+      "periods": {
+        "first": 1792841400,
+        "second": 1792845000
+      },
+      "venue": {
+        "id": null,
+        "name": "Foshan International Sports and Cultural Center",
+        "city": "Foshan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 170,
+      "name": "League One",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/170.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17263,
+        "name": "Dongguan United",
+        "logo": "https://media.api-sports.io/football/teams/17263.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16619,
+        "name": "Nanjing City",
+        "logo": "https://media.api-sports.io/football/teams/16619.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528735,
       "referee": "K. Wu",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1528708,
-      "referee": "Qiu Zhaojun",
-      "timezone": "UTC",
-      "date": "2026-09-12T11:00:00+00:00",
-      "timestamp": 1789210800,
-      "periods": {
-        "first": 1789210800,
-        "second": 1789214400
-      },
-      "venue": {
-        "id": null,
-        "name": "Suzhou Sports Centre",
-        "city": "Suzhou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 170,
-      "name": "League One",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/170.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5688,
-        "name": "Suzhou Dongwu",
-        "logo": "https://media.api-sports.io/football/teams/5688.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17263,
-        "name": "Dongguan United",
-        "logo": "https://media.api-sports.io/football/teams/17263.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

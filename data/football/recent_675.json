@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639736,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T11:30:00+00:00",
+      "timestamp": 1793187000,
+      "periods": {
+        "first": 1793187000,
+        "second": 1793190600
+      },
+      "venue": {
+        "id": null,
+        "name": "Szentlorinc SE Sporttelep",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 273,
+      "name": "Magyar Kupa",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/273.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5139,
+        "name": "Szentl\u0151rinc SE",
+        "logo": "https://media.api-sports.io/football/teams/5139.png",
+        "winner": false
+      },
+      "away": {
+        "id": 675,
+        "name": "Vasas",
+        "logo": "https://media.api-sports.io/football/teams/675.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560265,
       "referee": "F. Karako",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634967,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 26978,
-        "name": "TFSE Budapest",
-        "logo": "https://media.api-sports.io/football/teams/26978.png",
-        "winner": false
-      },
-      "away": {
-        "id": 675,
-        "name": "Vasas",
-        "logo": "https://media.api-sports.io/football/teams/675.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

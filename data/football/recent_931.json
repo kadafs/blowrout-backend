@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611435,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T16:45:00+00:00",
+      "timestamp": 1793378700,
+      "periods": {
+        "first": 1793378700,
+        "second": 1793382300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 186,
+      "name": "Ligue 1",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/186.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 931,
+        "name": "ASO Chlef",
+        "logo": "https://media.api-sports.io/football/teams/931.png",
+        "winner": false
+      },
+      "away": {
+        "id": 905,
+        "name": "ES Setif",
+        "logo": "https://media.api-sports.io/football/teams/905.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1611427,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611395,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T20:00:00+00:00",
-      "timestamp": 1789761600,
-      "periods": {
-        "first": 1789761600,
-        "second": 1789765200
-      },
-      "venue": {
-        "id": null,
-        "name": "Mohamed Boumezrag Stadium",
-        "city": "Chlef"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 186,
-      "name": "Ligue 1",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/186.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 931,
-        "name": "ASO Chlef",
-        "logo": "https://media.api-sports.io/football/teams/931.png",
-        "winner": false
-      },
-      "away": {
-        "id": 907,
-        "name": "MC Oran",
-        "logo": "https://media.api-sports.io/football/teams/907.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

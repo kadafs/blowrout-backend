@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640562,
+      "referee": "P. Rzucidlo",
+      "timezone": "UTC",
+      "date": "2026-10-28T11:30:00+00:00",
+      "timestamp": 1793187000,
+      "periods": {
+        "first": 1793187000,
+        "second": 1793190600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Miejski w Kleczewie",
+        "city": "Kleczew"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 108,
+      "name": "Cup",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/108.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16255,
+        "name": "Sok\u00f3\u0142 Kleczew",
+        "logo": "https://media.api-sports.io/football/teams/16255.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12834,
+        "name": "Podhale Nowy Targ",
+        "logo": "https://media.api-sports.io/football/teams/12834.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561702,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561663,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T10:00:00+00:00",
-      "timestamp": 1789812000,
-      "periods": {
-        "first": 1789812000,
-        "second": 1789815600
-      },
-      "venue": {
-        "id": null,
-        "name": "Legia Training Center",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6944,
-        "name": "Legia Warszawa II",
-        "logo": "https://media.api-sports.io/football/teams/6944.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12834,
-        "name": "Podhale Nowy Targ",
-        "logo": "https://media.api-sports.io/football/teams/12834.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

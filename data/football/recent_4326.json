@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606723,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T05:00:00+00:00",
+      "timestamp": 1792904400,
+      "periods": {
+        "first": 1792904400,
+        "second": 1792908000
+      },
+      "venue": {
+        "id": 0,
+        "name": "Ekimae Real Estate Stadium",
+        "city": "Tosu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 295,
+        "name": "Sagan Tosu",
+        "logo": "https://media.api-sports.io/football/teams/295.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4326,
+        "name": "Vanraure Hachinohe",
+        "logo": "https://media.api-sports.io/football/teams/4326.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606708,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606670,
-      "referee": "T. Kobayashi",
-      "timezone": "UTC",
-      "date": "2026-09-26T08:00:00+00:00",
-      "timestamp": 1790409600,
-      "periods": {
-        "first": 1790409600,
-        "second": 1790413200
-      },
-      "venue": {
-        "id": 0,
-        "name": "Yamaha Stadium",
-        "city": "Iwata"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 280,
-        "name": "Jubilo Iwata",
-        "logo": "https://media.api-sports.io/football/teams/280.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4326,
-        "name": "Vanraure Hachinohe",
-        "logo": "https://media.api-sports.io/football/teams/4326.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

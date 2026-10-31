@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1603585,
+      "referee": "Menelaos Antoniou",
+      "timezone": "UTC",
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22732,
+        "name": "AEK Arena",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 614,
+        "name": "AEK Larnaca",
+        "logo": "https://media.api-sports.io/football/teams/614.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636311,
       "referee": "Jasper Vergoote",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1603581,
-      "referee": "Panagiotis Hadjigeorghiou",
+      "referee": "Panagiotis Hadjigeorghiou, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-19T16:00:00+00:00",
       "timestamp": 1792425600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792425600,
+        "second": 1792429200
       },
       "venue": {
         "id": null,
@@ -212,18 +282,18 @@
   {
     "fixture": {
       "id": 1603575,
-      "referee": "Antonis Konstantinidis",
+      "referee": "A. Konstantinidis",
       "timezone": "UTC",
       "date": "2026-10-09T16:00:00+00:00",
       "timestamp": 1791561600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791561600,
+        "second": 1791565200
       },
       "venue": {
         "id": 7134,
-        "name": "Stelios Kyriakides Stadium",
-        "city": "Paphos"
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603567,
-      "referee": "C. Konstantinos",
-      "timezone": "UTC",
-      "date": "2026-09-20T16:00:00+00:00",
-      "timestamp": 1789920000,
-      "periods": {
-        "first": 1789920000,
-        "second": 1789923600
-      },
-      "venue": {
-        "id": null,
-        "name": "GSP Stadium",
-        "city": "Nicosia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3402,
-        "name": "Omonia Nicosia",
-        "logo": "https://media.api-sports.io/football/teams/3402.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3424,
-        "name": "Krasava Ypsonas",
-        "logo": "https://media.api-sports.io/football/teams/3424.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

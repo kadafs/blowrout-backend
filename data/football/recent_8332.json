@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567937,
+      "referee": "S. Bosnjak",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": 1792773000,
+        "second": 1792776600
+      },
+      "venue": {
+        "id": 5842,
+        "name": "Huber-Arena",
+        "city": "Wels"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22213,
+        "name": "WSPG Wels",
+        "logo": "https://media.api-sports.io/football/teams/22213.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8332,
+        "name": "Voitsberg",
+        "logo": "https://media.api-sports.io/football/teams/8332.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567924,
       "referee": "J. Spurny",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567907,
-      "referee": "S. Sampl",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:30:00+00:00",
-      "timestamp": 1789151400,
-      "periods": {
-        "first": 1789151400,
-        "second": 1789155000
-      },
-      "venue": {
-        "id": 152,
-        "name": "Stadion Tivoli NEU",
-        "city": "Innsbruck"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1073,
-        "name": "Wacker Innsbruck",
-        "logo": "https://media.api-sports.io/football/teams/1073.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8332,
-        "name": "Voitsberg",
-        "logo": "https://media.api-sports.io/football/teams/8332.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

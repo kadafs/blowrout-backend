@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1563780,
+      "referee": "B. Toner",
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": 1793130300,
+        "second": 1793133900
+      },
+      "venue": {
+        "id": 496,
+        "name": "The Hive Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1369,
+        "name": "Barnet",
+        "logo": "https://media.api-sports.io/football/teams/1369.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1828,
+        "name": "York",
+        "logo": "https://media.api-sports.io/football/teams/1828.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563838,
-      "referee": null,
+      "referee": "D. Webb",
       "timezone": "UTC",
       "date": "2026-10-24T14:00:00+00:00",
       "timestamp": 1792850400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792850400,
+        "second": 1792854000
       },
       "venue": {
         "id": null,
-        "name": "York`s LNER Community Stadium",
+        "name": "York Community Stadium",
         "city": "York"
       },
       "status": {
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1563826,
-      "referee": null,
+      "referee": "D. Brown",
       "timezone": "UTC",
       "date": "2026-10-20T18:45:00+00:00",
       "timestamp": 1792521900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792521900,
+        "second": 1792525500
       },
       "venue": {
         "id": null,
-        "name": "York`s LNER Community Stadium",
+        "name": "York Community Stadium",
         "city": "York"
       },
       "status": {
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1563808,
-      "referee": null,
+      "referee": "N. Hair",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 563,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1563802,
-      "referee": null,
+      "referee": "M. Barlow",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": null,
-        "name": "York`s LNER Community Stadium",
+        "name": "York Community Stadium",
         "city": "York"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563778,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "York`s LNER Community Stadium",
-        "city": "York"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1828,
-        "name": "York",
-        "logo": "https://media.api-sports.io/football/teams/1828.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1347,
-        "name": "Gillingham",
-        "logo": "https://media.api-sports.io/football/teams/1347.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

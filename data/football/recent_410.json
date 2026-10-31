@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641975,
+      "referee": "D. Higler",
+      "timezone": "UTC",
+      "date": "2026-10-27T20:00:00+00:00",
+      "timestamp": 1793131200,
+      "periods": {
+        "first": 1793131200,
+        "second": 1793134800
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportpark Spanjaardslaan",
+        "city": "Haarlem"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 90,
+      "name": "KNVB Beker",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/90.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1246,
+        "name": "Koninklijke HFC",
+        "logo": "https://media.api-sports.io/football/teams/1246.png",
+        "winner": false
+      },
+      "away": {
+        "id": 410,
+        "name": "GO Ahead Eagles",
+        "logo": "https://media.api-sports.io/football/teams/410.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552198,
       "referee": "Robin Hensgens",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552164,
-      "referee": "Dennis Higler, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-12T16:45:00+00:00",
-      "timestamp": 1789231500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1130,
-        "name": "De Adelaarshorst",
-        "city": "Deventer"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 410,
-        "name": "GO Ahead Eagles",
-        "logo": "https://media.api-sports.io/football/teams/410.png",
-        "winner": null
-      },
-      "away": {
-        "id": 202,
-        "name": "Groningen",
-        "logo": "https://media.api-sports.io/football/teams/202.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 1
       },
       "fulltime": {

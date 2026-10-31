@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1504588,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": "Harlyckan",
+        "city": "Helsingborg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 564,
+      "name": "Ettan - S\u00f6dra",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/564.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "S\u00f6dra - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6663,
+        "name": "Eskilsminne",
+        "logo": "https://media.api-sports.io/football/teams/6663.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6687,
+        "name": "Lund",
+        "logo": "https://media.api-sports.io/football/teams/6687.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1504583,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1504549,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 2843,
-        "name": "Kopparvallen",
-        "city": "Atvidaberg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 564,
-      "name": "Ettan - S\u00f6dra",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/564.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "S\u00f6dra - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2162,
-        "name": "Atvidabergs FF",
-        "logo": "https://media.api-sports.io/football/teams/2162.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6687,
-        "name": "Lund",
-        "logo": "https://media.api-sports.io/football/teams/6687.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

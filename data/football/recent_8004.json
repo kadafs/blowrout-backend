@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1634928,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T22:00:00+00:00",
+      "timestamp": 1792965600,
+      "periods": {
+        "first": 1792965600,
+        "second": 1792969200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Cibao FC",
+        "city": "Santiago"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 759,
+      "name": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/759.png",
+      "flag": "https://media.api-sports.io/flags/do.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8004,
+        "name": "Cibao",
+        "logo": "https://media.api-sports.io/football/teams/8004.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16617,
+        "name": "Moca",
+        "logo": "https://media.api-sports.io/football/teams/16617.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634924,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634905,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T20:00:00+00:00",
-      "timestamp": 1790193600,
-      "periods": {
-        "first": 1790193600,
-        "second": 1790197200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Domingo Polonia",
-        "city": "Salcedo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 759,
-      "name": "Liga Mayor",
-      "country": "Dominican-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/759.png",
-      "flag": "https://media.api-sports.io/flags/do.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25556,
-        "name": "Salcedo",
-        "logo": "https://media.api-sports.io/football/teams/25556.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8004,
-        "name": "Cibao",
-        "logo": "https://media.api-sports.io/football/teams/8004.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

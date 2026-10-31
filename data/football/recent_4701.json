@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1587870,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": 1793130300,
+        "second": 1793133900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 50,
+      "name": "National League - North",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/50.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "National League North - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7671,
+        "name": "Spalding United",
+        "logo": "https://media.api-sports.io/football/teams/7671.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4701,
+        "name": "Brackley Town",
+        "logo": "https://media.api-sports.io/football/teams/4701.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1587850,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1587754,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T18:45:00+00:00",
-      "timestamp": 1790707500,
-      "periods": {
-        "first": 1790707500,
-        "second": 1790711100
-      },
-      "venue": {
-        "id": null,
-        "name": "St James Park",
-        "city": "Brackley"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 50,
-      "name": "National League - North",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/50.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "National League North - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4701,
-        "name": "Brackley Town",
-        "logo": "https://media.api-sports.io/football/teams/4701.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7746,
-        "name": "South Shields",
-        "logo": "https://media.api-sports.io/football/teams/7746.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

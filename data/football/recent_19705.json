@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640336,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-22T08:30:00+00:00",
+      "timestamp": 1792657800,
+      "periods": {
+        "first": 1792657800,
+        "second": 1792661400
+      },
+      "venue": {
+        "id": null,
+        "name": "Lions Stadium",
+        "city": "Brisbane"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10217,
+        "name": "Lions",
+        "logo": "https://media.api-sports.io/football/teams/10217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19705,
+        "name": "Preston Lions",
+        "logo": "https://media.api-sports.io/football/teams/19705.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636741,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1522031,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-19T10:30:00+00:00",
-      "timestamp": 1787135400,
-      "periods": {
-        "first": 1787135400,
-        "second": 1787139000
-      },
-      "venue": {
-        "id": null,
-        "name": "Genis Steel Stadium",
-        "city": "Melbourne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 195,
-      "name": "Victoria NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/195.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19705,
-        "name": "Preston Lions",
-        "logo": "https://media.api-sports.io/football/teams/19705.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20783,
-        "name": "Melbourne City II",
-        "logo": "https://media.api-sports.io/football/teams/20783.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

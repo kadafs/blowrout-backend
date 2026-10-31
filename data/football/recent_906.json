@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1611428,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T14:00:00+00:00",
+      "timestamp": 1793109600,
+      "periods": {
+        "first": 1793109600,
+        "second": 1793113200
+      },
+      "venue": {
+        "id": null,
+        "name": "18 February Stadium",
+        "city": "Biskra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 186,
+      "name": "Ligue 1",
+      "country": "Algeria",
+      "logo": "https://media.api-sports.io/football/leagues/186.png",
+      "flag": "https://media.api-sports.io/flags/dz.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 909,
+        "name": "US Biskra",
+        "logo": "https://media.api-sports.io/football/teams/909.png",
+        "winner": false
+      },
+      "away": {
+        "id": 906,
+        "name": "MC Alger",
+        "logo": "https://media.api-sports.io/football/teams/906.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639344,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1611400,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T18:00:00+00:00",
-      "timestamp": 1789754400,
-      "periods": {
-        "first": 1789754400,
-        "second": 1789758000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ali La Pointe Stadium",
-        "city": "Douera"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 186,
-      "name": "Ligue 1",
-      "country": "Algeria",
-      "logo": "https://media.api-sports.io/football/leagues/186.png",
-      "flag": "https://media.api-sports.io/flags/dz.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 906,
-        "name": "MC Alger",
-        "logo": "https://media.api-sports.io/football/teams/906.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10777,
-        "name": "MB Rouisset",
-        "logo": "https://media.api-sports.io/football/teams/10777.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

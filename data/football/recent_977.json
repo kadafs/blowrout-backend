@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646855,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T16:00:00+00:00",
+      "timestamp": 1792944000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18526,
+        "name": "Stade Municipal Zemamra",
+        "city": "Zemamra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3449,
+        "name": "CR Khemis Zemamra",
+        "logo": "https://media.api-sports.io/football/teams/3449.png",
+        "winner": false
+      },
+      "away": {
+        "id": 977,
+        "name": "FUS Rabat",
+        "logo": "https://media.api-sports.io/football/teams/977.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644212,
       "referee": "S. Boujidi",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571478,
-      "referee": "M. Sourdy",
-      "timezone": "UTC",
-      "date": "2026-07-05T17:00:00+00:00",
-      "timestamp": 1783270800,
-      "periods": {
-        "first": 1783270800,
-        "second": 1783274400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Prince Moulay Hassan",
-        "city": "Rabat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 15
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 977,
-        "name": "FUS Rabat",
-        "logo": "https://media.api-sports.io/football/teams/977.png",
-        "winner": false
-      },
-      "away": {
-        "id": 25058,
-        "name": "Yacoub El Mansour",
-        "logo": "https://media.api-sports.io/football/teams/25058.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

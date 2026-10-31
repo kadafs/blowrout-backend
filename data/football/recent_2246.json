@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1632267,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:30:00+00:00",
+      "timestamp": 1793215800,
+      "periods": {
+        "first": 1793215800,
+        "second": 1793219400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Cluj-Napoca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2246,
+        "name": "CFR 1907 Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2246.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2599,
+        "name": "Universitatea Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2599.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565279,
-      "referee": "Florin Andrei, Romania",
+      "referee": "F. Andrei",
       "timezone": "UTC",
       "date": "2026-10-25T17:00:00+00:00",
       "timestamp": 1792947600,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1565278,
-      "referee": "Marcel Birsan, Romania",
+      "referee": "M. Birsan",
       "timezone": "UTC",
       "date": "2026-10-18T15:15:00+00:00",
       "timestamp": 1792336500,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565266,
-      "referee": "Andrei Florin Chivulete, Romania",
+      "referee": "A. Chivulete",
       "timezone": "UTC",
       "date": "2026-10-12T15:00:00+00:00",
       "timestamp": 1791817200,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1565207,
-      "referee": "Horia Gabriel Mladinovici, Romania",
+      "referee": "H. Mladinovici",
       "timezone": "UTC",
       "date": "2026-10-08T17:30:00+00:00",
       "timestamp": 1791480600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644428,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-01T12:00:00+00:00",
-      "timestamp": 1790856000,
-      "periods": {
-        "first": 1790856000,
-        "second": 1790859600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2246,
-        "name": "CFR 1907 Cluj",
-        "logo": "https://media.api-sports.io/football/teams/2246.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16279,
-        "name": "CSM Satu Mare",
-        "logo": "https://media.api-sports.io/football/teams/16279.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

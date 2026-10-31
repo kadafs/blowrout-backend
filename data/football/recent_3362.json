@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645397,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T12:00:00+00:00",
+      "timestamp": 1793102400,
+      "periods": {
+        "first": 1793102400,
+        "second": 1793106000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 314,
+      "name": "Cup",
+      "country": "Bosnia",
+      "logo": "https://media.api-sports.io/football/leagues/314.png",
+      "flag": "https://media.api-sports.io/flags/ba.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3362,
+        "name": "Zvijezda 09",
+        "logo": "https://media.api-sports.io/football/teams/3362.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3359,
+        "name": "Radnik Bijeljina",
+        "logo": "https://media.api-sports.io/football/teams/3359.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1609945,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609925,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T16:00:00+00:00",
-      "timestamp": 1791043200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 317,
-      "name": "1st League - RS",
-      "country": "Bosnia",
-      "logo": "https://media.api-sports.io/football/leagues/317.png",
-      "flag": "https://media.api-sports.io/flags/ba.svg",
-      "season": 2026,
-      "round": "RS - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4285,
-        "name": "Sutjeska Fo\u010da",
-        "logo": "https://media.api-sports.io/football/teams/4285.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3362,
-        "name": "Zvijezda 09",
-        "logo": "https://media.api-sports.io/football/teams/3362.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

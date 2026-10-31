@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594652,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": 1886,
+        "name": "Promontor utcai Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 634,
+      "name": "NB III - Southwest",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/634.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southwest - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2399,
+        "name": "Budafoki LC",
+        "logo": "https://media.api-sports.io/football/teams/2399.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5153,
+        "name": "\u00c9rdi VSE",
+        "logo": "https://media.api-sports.io/football/teams/5153.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594649,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594617,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 634,
-      "name": "NB III - Southwest",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/634.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Southwest - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5153,
-        "name": "\u00c9rdi VSE",
-        "logo": "https://media.api-sports.io/football/teams/5153.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7562,
-        "name": "S\u00e1rbog\u00e1rd",
-        "logo": "https://media.api-sports.io/football/teams/7562.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 3
       },
       "extratime": {
         "home": null,

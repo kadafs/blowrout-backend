@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528650,
+      "referee": "Yi Jiajin",
+      "timezone": "UTC",
+      "date": "2026-09-26T11:30:00+00:00",
+      "timestamp": 1790422200,
+      "periods": {
+        "first": 1790422200,
+        "second": 1790425800
+      },
+      "venue": {
+        "id": null,
+        "name": "Rugao Olympic Sports Center",
+        "city": "Rugao"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 170,
+      "name": "League One",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/170.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2626,
+        "name": "Nantong Zhiyun",
+        "logo": "https://media.api-sports.io/football/teams/2626.png",
+        "winner": true
+      },
+      "away": {
+        "id": 834,
+        "name": "Changchun Yatai",
+        "logo": "https://media.api-sports.io/football/teams/834.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1173235,
       "referee": "Wang Jing",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 608250,
-      "referee": "Li Zheng",
-      "timezone": "UTC",
-      "date": "2020-10-08T11:00:00+00:00",
-      "timestamp": 1602154800,
-      "periods": {
-        "first": 1602154800,
-        "second": 1602158400
-      },
-      "venue": {
-        "id": null,
-        "name": "Jiangyin Sports Park Stadium",
-        "city": "Jiangyin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 170,
-      "name": "League One",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/170.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2020,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 834,
-        "name": "Changchun Yatai",
-        "logo": "https://media.api-sports.io/football/teams/834.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2626,
-        "name": "Nantong Zhiyun",
-        "logo": "https://media.api-sports.io/football/teams/2626.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562795,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": "Football pitch Novy Hradec",
+        "city": "Hradec Kralove"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 685,
+      "name": "3. liga - CFL B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/685.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14495,
+        "name": "Hradec Kr\u00e1lov\u00e9 II",
+        "logo": "https://media.api-sports.io/football/teams/14495.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7271,
+        "name": "Ban\u00edk Sou\u0161",
+        "logo": "https://media.api-sports.io/football/teams/7271.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562787,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562770,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:30:00+00:00",
-      "timestamp": 1790519400,
-      "periods": {
-        "first": 1790519400,
-        "second": 1790523000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 685,
-      "name": "3. liga - CFL B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/685.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7356,
-        "name": "Sokol Z\u00e1py",
-        "logo": "https://media.api-sports.io/football/teams/7356.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7271,
-        "name": "Ban\u00edk Sou\u0161",
-        "logo": "https://media.api-sports.io/football/teams/7271.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

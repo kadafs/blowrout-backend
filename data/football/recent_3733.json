@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645411,
+      "referee": "A. Trska",
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": 1793124000,
+        "second": 1793127600
+      },
+      "venue": {
+        "id": 435,
+        "name": "Fortuna Arena",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 347,
+      "name": "Cup",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/347.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 560,
+        "name": "Slavia Praha",
+        "logo": "https://media.api-sports.io/football/teams/560.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3733,
+        "name": "Zbrojovka Brno",
+        "logo": "https://media.api-sports.io/football/teams/3733.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560049,
       "referee": "Marek Radina",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560029,
-      "referee": "D. Stary",
-      "timezone": "UTC",
-      "date": "2026-09-19T13:00:00+00:00",
-      "timestamp": 1789822800,
-      "periods": {
-        "first": 1789822800,
-        "second": 1789826400
-      },
-      "venue": {
-        "id": 2494,
-        "name": "Lokotrans Arena",
-        "city": "Mlada Boleslav"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 640,
-        "name": "Mlada Boleslav",
-        "logo": "https://media.api-sports.io/football/teams/640.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3733,
-        "name": "Zbrojovka Brno",
-        "logo": "https://media.api-sports.io/football/teams/3733.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

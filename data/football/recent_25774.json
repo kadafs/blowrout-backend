@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638534,
+      "referee": "G. Shen",
+      "timezone": "UTC",
+      "date": "2026-10-24T08:00:00+00:00",
+      "timestamp": 1792828800,
+      "periods": {
+        "first": 1792828800,
+        "second": 1792832400
+      },
+      "venue": {
+        "id": null,
+        "name": "Zengcheng Stadium",
+        "city": "Guangzhou"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Relegation Group - 28",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 25774,
+        "name": "Guangzhou Dandelion",
+        "logo": "https://media.api-sports.io/football/teams/25774.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27621,
+        "name": "Dalian Yingbo B",
+        "logo": "https://media.api-sports.io/football/teams/27621.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638524,
       "referee": "X. Qiangqiang",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638497,
-      "referee": "H. Tengfei",
-      "timezone": "UTC",
-      "date": "2026-09-13T08:00:00+00:00",
-      "timestamp": 1789286400,
-      "periods": {
-        "first": 1789286400,
-        "second": 1789290000
-      },
-      "venue": {
-        "id": null,
-        "name": "Zengcheng Stadium",
-        "city": "Guangzhou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Relegation Group - 23",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 25774,
-        "name": "Guangzhou Dandelion",
-        "logo": "https://media.api-sports.io/football/teams/25774.png",
-        "winner": false
-      },
-      "away": {
-        "id": 21328,
-        "name": "Rizhao Yuqi",
-        "logo": "https://media.api-sports.io/football/teams/21328.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

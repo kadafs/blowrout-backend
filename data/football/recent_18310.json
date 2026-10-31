@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490574,
+      "referee": "Ricardo Fierro",
+      "timezone": "UTC",
+      "date": "2026-10-28T23:30:00+00:00",
+      "timestamp": 1793230200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18659,
+        "name": "Bank of America Stadium",
+        "city": "Charlotte"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18310,
+        "name": "Charlotte",
+        "logo": "https://media.api-sports.io/football/teams/18310.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1614,
+        "name": "CF Montreal",
+        "logo": "https://media.api-sports.io/football/teams/1614.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490569,
       "referee": "Rosendo Mendoza",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490499,
-      "referee": "Chris Penso, USA",
-      "timezone": "UTC",
-      "date": "2026-09-26T23:30:00+00:00",
-      "timestamp": 1790465400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 18659,
-        "name": "Bank of America Stadium",
-        "city": "Charlotte"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18310,
-        "name": "Charlotte",
-        "logo": "https://media.api-sports.io/football/teams/18310.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1607,
-        "name": "Chicago Fire",
-        "logo": "https://media.api-sports.io/football/teams/1607.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

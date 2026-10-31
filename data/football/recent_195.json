@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641974,
+      "referee": "M. Vos",
+      "timezone": "UTC",
+      "date": "2026-10-27T19:00:00+00:00",
+      "timestamp": 1793127600,
+      "periods": {
+        "first": 1793127600,
+        "second": 1793131200
+      },
+      "venue": {
+        "id": null,
+        "name": "MySteel Stadion",
+        "city": "Helmond"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 90,
+      "name": "KNVB Beker",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/90.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 424,
+        "name": "Helmond Sport",
+        "logo": "https://media.api-sports.io/football/teams/424.png",
+        "winner": false
+      },
+      "away": {
+        "id": 195,
+        "name": "Willem II",
+        "logo": "https://media.api-sports.io/football/teams/195.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552200,
       "referee": "Dennis Higler",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552143,
-      "referee": "Allard Lindhout, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-15T18:00:00+00:00",
-      "timestamp": 1789495200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1117,
-        "name": "Johan Cruijff Arena",
-        "city": "Amsterdam"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 194,
-        "name": "Ajax",
-        "logo": "https://media.api-sports.io/football/teams/194.png",
-        "winner": true
-      },
-      "away": {
-        "id": 195,
-        "name": "Willem II",
-        "logo": "https://media.api-sports.io/football/teams/195.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

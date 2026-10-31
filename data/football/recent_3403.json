@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1603590,
+      "referee": "Konstantinos Fellas",
+      "timezone": "UTC",
+      "date": "2026-10-26T16:00:00+00:00",
+      "timestamp": 1793030400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20190,
+        "name": "Ammochostos Stadium",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 318,
+      "name": "1. Division",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/318.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3401,
+        "name": "Nea Salamis",
+        "logo": "https://media.api-sports.io/football/teams/3401.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3403,
+        "name": "Pafos",
+        "logo": "https://media.api-sports.io/football/teams/3403.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636462,
-      "referee": "Marian Barbu, Romania",
+      "referee": "M. Barbu",
       "timezone": "UTC",
       "date": "2026-10-22T16:45:00+00:00",
       "timestamp": 1792687500,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Stelios Kyriakidis",
-        "city": "Paphos"
+        "name": "Alphamega Stadium",
+        "city": "Kolossi"
       },
       "status": {
         "long": "Match Finished",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1603584,
-      "referee": "Chrysovalantis Theouli",
+      "referee": "Chrysovalantis Theouli, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-19T15:00:00+00:00",
       "timestamp": 1792422000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792422000,
+        "second": 1792425600
       },
       "venue": {
         "id": 7134,
         "name": "Stelios Kyriakides Stadium",
-        "city": "Paphos"
+        "city": "Pafos"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1636382,
-      "referee": "Adam Ladeback, Sweden",
+      "referee": "A. Ladeback",
       "timezone": "UTC",
       "date": "2026-10-15T19:00:00+00:00",
       "timestamp": 1792090800,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1603573,
-      "referee": "Menelaos Antoniou",
+      "referee": "Menelaos Antoniou, Cyprus",
       "timezone": "UTC",
       "date": "2026-10-11T15:00:00+00:00",
       "timestamp": 1791730800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791730800,
+        "second": 1791734400
       },
       "venue": {
         "id": 431,
-        "name": "Antonis Papadopoulos",
+        "name": "Antonis Papadopoulos Stadium",
         "city": "Larnaca"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603570,
-      "referee": "Marios Christoforou, Cyprus",
-      "timezone": "UTC",
-      "date": "2026-09-18T17:00:00+00:00",
-      "timestamp": 1789750800,
-      "periods": {
-        "first": 1789750800,
-        "second": 1789754400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stelios Kyriakidis",
-        "city": "Paphos"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3403,
-        "name": "Pafos",
-        "logo": "https://media.api-sports.io/football/teams/3403.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3396,
-        "name": "AEL",
-        "logo": "https://media.api-sports.io/football/teams/3396.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

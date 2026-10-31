@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632272,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Nationala",
+        "city": "Bucharest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 635,
+        "name": "Dinamo Bucuresti",
+        "logo": "https://media.api-sports.io/football/teams/635.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2586,
+        "name": "Chindia Targoviste",
+        "logo": "https://media.api-sports.io/football/teams/2586.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610571,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602496,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T08:00:00+00:00",
-      "timestamp": 1789804800,
-      "periods": {
-        "first": 1789804800,
-        "second": 1789808400
-      },
-      "venue": {
-        "id": null,
-        "name": "May 1 Stadium",
-        "city": "Slobozia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6916,
-        "name": "Unirea Slobozia",
-        "logo": "https://media.api-sports.io/football/teams/6916.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2586,
-        "name": "Chindia Targoviste",
-        "logo": "https://media.api-sports.io/football/teams/2586.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

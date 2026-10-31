@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645445,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T12:00:00+00:00",
+      "timestamp": 1793102400,
+      "periods": {
+        "first": 1793102400,
+        "second": 1793106000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3605,
+        "name": "Sar\u0131yer",
+        "logo": "https://media.api-sports.io/football/teams/3605.png",
+        "winner": true
+      },
+      "away": {
+        "id": 13407,
+        "name": "Ayvalikgucu",
+        "logo": "https://media.api-sports.io/football/teams/13407.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585807,
       "referee": "Muhammet Alperen Copur, T\u00fcrkiye",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585768,
-      "referee": "Asen Albayrak, T\u00fcrkiye",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": "Yusuf Ziya \u00d6ni\u015f Stadium",
-        "city": "Istanbul"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 204,
-      "name": "1. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/204.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3605,
-        "name": "Sar\u0131yer",
-        "logo": "https://media.api-sports.io/football/teams/3605.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3569,
-        "name": "Boluspor",
-        "logo": "https://media.api-sports.io/football/teams/3569.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

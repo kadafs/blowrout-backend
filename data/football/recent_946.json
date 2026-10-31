@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1629951,
+      "referee": "Kim Jong-hyeok",
+      "timezone": "UTC",
+      "date": "2026-10-27T10:00:00+00:00",
+      "timestamp": 1793095200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 967,
+        "name": "Sanga Stadium by Kyocera",
+        "city": "Kyoto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 17,
+      "name": "AFC Champions League Elite",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/17.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 302,
+        "name": "Kyoto Sanga",
+        "logo": "https://media.api-sports.io/football/teams/302.png",
+        "winner": true
+      },
+      "away": {
+        "id": 946,
+        "name": "Newcastle Jets",
+        "logo": "https://media.api-sports.io/football/teams/946.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593687,
-      "referee": "Alexander George King, Australia",
+      "referee": "A. King",
       "timezone": "UTC",
       "date": "2026-10-24T04:00:00+00:00",
       "timestamp": 1792814400,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1593683,
-      "referee": "Adam Kersey, Australia",
+      "referee": "A. Kersey",
       "timezone": "UTC",
       "date": "2026-10-17T08:40:00+00:00",
       "timestamp": 1792226400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560864,
-      "referee": "E. Saba",
-      "timezone": "UTC",
-      "date": "2026-07-21T09:30:00+00:00",
-      "timestamp": 1784626200,
-      "periods": {
-        "first": 1784626200,
-        "second": 1784629800
-      },
-      "venue": {
-        "id": null,
-        "name": "Genis Steel Stadium",
-        "city": "Melbourne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 874,
-      "name": "Australia Cup",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/874.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 19705,
-        "name": "Preston Lions",
-        "logo": "https://media.api-sports.io/football/teams/19705.png",
-        "winner": true
-      },
-      "away": {
-        "id": 946,
-        "name": "Newcastle Jets",
-        "logo": "https://media.api-sports.io/football/teams/946.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

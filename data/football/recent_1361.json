@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1563834,
+      "referee": "S. Jackson",
+      "timezone": "UTC",
+      "date": "2026-10-24T11:30:00+00:00",
+      "timestamp": 1792841400,
+      "periods": {
+        "first": 1792841400,
+        "second": 1792845000
+      },
+      "venue": {
+        "id": 11881,
+        "name": "Sixfields Stadium",
+        "city": "Northampton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1337,
+        "name": "Northampton",
+        "logo": "https://media.api-sports.io/football/teams/1337.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1361,
+        "name": "Colchester",
+        "logo": "https://media.api-sports.io/football/teams/1361.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563818,
-      "referee": null,
+      "referee": "P. Howard",
       "timezone": "UTC",
       "date": "2026-10-20T18:45:00+00:00",
       "timestamp": 1792521900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792521900,
+        "second": 1792525500
       },
       "venue": {
         "id": 19924,
-        "name": "Proact Stadium",
+        "name": "SMH Group Stadium",
         "city": "Chesterfield"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1563804,
-      "referee": null,
+      "referee": "B. Atkinson",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 522,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1563795,
-      "referee": null,
+      "referee": "O. Mackey",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 563,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1563775,
-      "referee": null,
+      "referee": "J. Robinson",
       "timezone": "UTC",
       "date": "2026-09-26T14:00:00+00:00",
       "timestamp": 1790431200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1790431200,
+        "second": 1790434800
       },
       "venue": {
         "id": 19925,
-        "name": "New Meadow",
+        "name": "The Croud Meadow",
         "city": "Shrewsbury"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588882,
-      "referee": "S. Mulhall",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 570,
-        "name": "Weston Homes Stadium",
-        "city": "Peterborough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1350,
-        "name": "Peterborough",
-        "logo": "https://media.api-sports.io/football/teams/1350.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1361,
-        "name": "Colchester",
-        "logo": "https://media.api-sports.io/football/teams/1361.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

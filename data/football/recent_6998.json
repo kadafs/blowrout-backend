@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496365,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": "Myhrer Stadion",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 474,
+      "name": "2. Division - Group 2",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/474.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6978,
+        "name": "Eidsvold",
+        "logo": "https://media.api-sports.io/football/teams/6978.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6998,
+        "name": "H\u00f8nefoss",
+        "logo": "https://media.api-sports.io/football/teams/6998.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496359,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1496338,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T15:30:00+00:00",
-      "timestamp": 1790523000,
-      "periods": {
-        "first": 1790523000,
-        "second": 1790526600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 474,
-      "name": "2. Division - Group 2",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/474.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6998,
-        "name": "H\u00f8nefoss",
-        "logo": "https://media.api-sports.io/football/teams/6998.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2158,
-        "name": "Tromsdalen Uil",
-        "logo": "https://media.api-sports.io/football/teams/2158.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

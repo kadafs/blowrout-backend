@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639733,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion PMFC",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 273,
+      "name": "Magyar Kupa",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/273.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5130,
+        "name": "P\u00e9csi MFC",
+        "logo": "https://media.api-sports.io/football/teams/5130.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2394,
+        "name": "Kisvarda FC",
+        "logo": "https://media.api-sports.io/football/teams/2394.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560266,
       "referee": "B. Katona",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634962,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": "Nagykozar KSE Sporttelep",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 28091,
-        "name": "Nagykozar KSE",
-        "logo": "https://media.api-sports.io/football/teams/28091.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2394,
-        "name": "Kisvarda FC",
-        "logo": "https://media.api-sports.io/football/teams/2394.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 9
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 9
       },
       "extratime": {
         "home": null,

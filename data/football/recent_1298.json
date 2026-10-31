@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1552793,
+      "referee": "Willy Delajod",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": 1792944900,
+        "second": 1792948500
+      },
+      "venue": {
+        "id": 636,
+        "name": "Stade de l'Abb\u00e9-Deschamps",
+        "city": "Auxerre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 108,
+        "name": "Auxerre",
+        "logo": "https://media.api-sports.io/football/teams/108.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1298,
+        "name": "Le Mans",
+        "logo": "https://media.api-sports.io/football/teams/1298.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552785,
-      "referee": "Aurelien Petit, France",
+      "referee": "A. Petit",
       "timezone": "UTC",
       "date": "2026-10-16T18:45:00+00:00",
       "timestamp": 1792176300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792176300,
+        "second": 1792179900
       },
       "venue": {
         "id": 19206,
-        "name": "MMArena",
+        "name": "Stade Marie-Marvingt",
         "city": "Le Mans"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552780,
-      "referee": "Mathieu Vernice, France",
+      "referee": "M. Vernice",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": 19206,
-        "name": "MMArena",
+        "name": "Stade Marie-Marvingt",
         "city": "Le Mans"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552759,
-      "referee": "Hakim Ben el Salem Hadj, France",
-      "timezone": "UTC",
-      "date": "2026-09-13T15:15:00+00:00",
-      "timestamp": 1789312500,
-      "periods": {
-        "first": 1789312500,
-        "second": 1789316100
-      },
-      "venue": {
-        "id": 19206,
-        "name": "MMArena",
-        "city": "Le Mans"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1298,
-        "name": "Le Mans",
-        "logo": "https://media.api-sports.io/football/teams/1298.png",
-        "winner": null
-      },
-      "away": {
-        "id": 116,
-        "name": "Lens",
-        "logo": "https://media.api-sports.io/football/teams/116.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

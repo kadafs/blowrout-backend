@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599972,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T17:30:00+00:00",
+      "timestamp": 1792171800,
+      "periods": {
+        "first": 1792171800,
+        "second": 1792175400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Gaston Petit",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 69,
+      "name": "National 2 - Group C",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/69.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group C - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 107,
+        "name": "Chateauroux",
+        "logo": "https://media.api-sports.io/football/teams/107.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9973,
+        "name": "Rumilly Valli\u00e8res",
+        "logo": "https://media.api-sports.io/football/teams/9973.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599967,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599943,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T16:00:00+00:00",
-      "timestamp": 1787414400,
-      "periods": {
-        "first": 1787414400,
-        "second": 1787418000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 69,
-      "name": "National 2 - Group C",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/69.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group C - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3187,
-        "name": "Hauts Lyonnais",
-        "logo": "https://media.api-sports.io/football/teams/3187.png",
-        "winner": null
-      },
-      "away": {
-        "id": 107,
-        "name": "Chateauroux",
-        "logo": "https://media.api-sports.io/football/teams/107.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

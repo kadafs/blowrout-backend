@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1553208,
+      "referee": "Tomasz Kwiatkowski, Poland",
+      "timezone": "UTC",
+      "date": "2026-10-24T18:15:00+00:00",
+      "timestamp": 1792865700,
+      "periods": {
+        "first": 1792865700,
+        "second": 1792869300
+      },
+      "venue": {
+        "id": 1258,
+        "name": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
+        "city": "Krakow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 338,
+        "name": "Wisla Krakow",
+        "logo": "https://media.api-sports.io/football/teams/338.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3491,
+        "name": "Rak\u00f3w Cz\u0119stochowa",
+        "logo": "https://media.api-sports.io/football/teams/3491.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553196,
-      "referee": "Marcin Szczerbowicz",
+      "referee": "Marcin Szczerbowicz, Poland",
       "timezone": "UTC",
       "date": "2026-10-16T18:30:00+00:00",
       "timestamp": 1792175400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792175400,
+        "second": 1792179000
       },
       "venue": {
         "id": 5080,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1553184,
-      "referee": "Damian Sylwestrzak",
+      "referee": "Damian Sylwestrzak, Poland",
       "timezone": "UTC",
       "date": "2026-10-11T18:15:00+00:00",
       "timestamp": 1791742500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791742500,
+        "second": 1791746100
       },
       "venue": {
         "id": 1253,
-        "name": "Polish Army Stadium",
+        "name": "Stadion Wojska Polskiego",
         "city": "Warsaw"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553170,
-      "referee": "Piotr Lasyk, Poland",
-      "timezone": "UTC",
-      "date": "2026-09-11T18:30:00+00:00",
-      "timestamp": 1789151400,
-      "periods": {
-        "first": 1789151400,
-        "second": 1789155000
-      },
-      "venue": {
-        "id": 1258,
-        "name": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
-        "city": "Krak\u00f3w"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 338,
-        "name": "Wisla Krakow",
-        "logo": "https://media.api-sports.io/football/teams/338.png",
-        "winner": true
-      },
-      "away": {
-        "id": 336,
-        "name": "Jagiellonia",
-        "logo": "https://media.api-sports.io/football/teams/336.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

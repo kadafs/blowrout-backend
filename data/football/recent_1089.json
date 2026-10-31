@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1577562,
+      "referee": "O. Gusakov",
+      "timezone": "UTC",
+      "date": "2026-10-24T05:00:00+00:00",
+      "timestamp": 1792818000,
+      "periods": {
+        "first": 1792818000,
+        "second": 1792821600
+      },
+      "venue": {
+        "id": 1335,
+        "name": "Stadion imeni V.I. Lenina",
+        "city": "Khabarovsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1087,
+        "name": "Ska-khabarovsk",
+        "logo": "https://media.api-sports.io/football/teams/1087.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1089,
+        "name": "Enisey",
+        "logo": "https://media.api-sports.io/football/teams/1089.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577557,
-      "referee": null,
+      "referee": "Y. Matveev",
       "timezone": "UTC",
       "date": "2026-10-17T08:30:00+00:00",
       "timestamp": 1792225800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792225800,
+        "second": 1792229400
       },
       "venue": {
         "id": 1346,
-        "name": "Central Stadium (Krasnoyarsk)",
+        "name": "Tsentralnyi Stadion",
         "city": "Krasnoyarsk"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1577543,
-      "referee": null,
+      "referee": "V. Kharitonov",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 2835,
-        "name": "Nizhny Novgorod Stadium",
+        "name": "Sovcombank Arena",
         "city": "Nizhny Novgorod"
       },
       "status": {
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1577487,
-      "referee": null,
+      "referee": "R. Safyan",
       "timezone": "UTC",
       "date": "2026-09-26T09:00:00+00:00",
       "timestamp": 1790413200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1790413200,
+        "second": 1790416800
       },
       "venue": {
         "id": 4957,
-        "name": "Central Stadium (Chelyabinsk)",
+        "name": "Central Stadium",
         "city": "Chelyabinsk"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577539,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-16T12:30:00+00:00",
-      "timestamp": 1789561800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Tsentralnyi Stadion",
-        "city": "Krasnoyarsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1089,
-        "name": "Enisey",
-        "logo": "https://media.api-sports.io/football/teams/1089.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1077,
-        "name": "Arsenal Tula",
-        "logo": "https://media.api-sports.io/football/teams/1077.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

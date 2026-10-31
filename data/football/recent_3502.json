@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1509204,
+      "referee": "I. Shengelia",
+      "timezone": "UTC",
+      "date": "2026-10-26T15:00:00+00:00",
+      "timestamp": 1793026800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2302,
+        "name": "Mikheil Meskhi Stadium",
+        "city": "Tbilisi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 327,
+      "name": "Erovnuli Liga",
+      "country": "Georgia",
+      "logo": "https://media.api-sports.io/football/leagues/327.png",
+      "flag": "https://media.api-sports.io/flags/ge.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3502,
+        "name": "FC Iberia 1999",
+        "logo": "https://media.api-sports.io/football/teams/3502.png",
+        "winner": true
+      },
+      "away": {
+        "id": 685,
+        "name": "Torpedo Kutaisi",
+        "logo": "https://media.api-sports.io/football/teams/685.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636424,
       "referee": "Lothar D'hondt, Belgium",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1509198,
-      "referee": null,
+      "referee": "G. Kruashvili",
       "timezone": "UTC",
       "date": "2026-10-19T15:00:00+00:00",
       "timestamp": 1792422000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792422000,
+        "second": 1792425600
       },
       "venue": {
         "id": 2301,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1636471,
-      "referee": "Mehmet T\u00fcrkmen, T\u00fcrkiye",
+      "referee": "M. Turkmen",
       "timezone": "UTC",
       "date": "2026-10-15T19:00:00+00:00",
       "timestamp": 1792090800,
@@ -152,8 +222,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Stayen",
-        "city": "Sint- Truiden"
+        "name": "Daio Wasabi Stayen",
+        "city": "Sint-Truiden"
       },
       "status": {
         "long": "Match Finished",
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1509194,
-      "referee": null,
+      "referee": "B. Ninua",
       "timezone": "UTC",
       "date": "2026-10-10T11:30:00+00:00",
       "timestamp": 1791631800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791631800,
+        "second": 1791635400
       },
       "venue": {
         "id": 8566,
-        "name": "Stadioni Vladimer Bochorishvili",
+        "name": "Agrano Vachadze Stadium",
         "city": "Tkibuli"
       },
       "status": {
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1509164,
-      "referee": "J. Khorava",
-      "timezone": "UTC",
-      "date": "2026-10-04T15:00:00+00:00",
-      "timestamp": 1791126000,
-      "periods": {
-        "first": 1791126000,
-        "second": 1791129600
-      },
-      "venue": {
-        "id": 2302,
-        "name": "Mikheil Meskhi Stadium",
-        "city": "Tbilisi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 327,
-      "name": "Erovnuli Liga",
-      "country": "Georgia",
-      "logo": "https://media.api-sports.io/football/leagues/327.png",
-      "flag": "https://media.api-sports.io/flags/ge.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3502,
-        "name": "FC Iberia 1999",
-        "logo": "https://media.api-sports.io/football/teams/3502.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2262,
-        "name": "Dinamo Tbilisi",
-        "logo": "https://media.api-sports.io/football/teams/2262.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 1,

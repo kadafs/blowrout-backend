@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639731,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T11:30:00+00:00",
+      "timestamp": 1793187000,
+      "periods": {
+        "first": 1793187000,
+        "second": 1793190600
+      },
+      "venue": {
+        "id": 806,
+        "name": "Balassi Balint utcai stadion",
+        "city": "Monor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 273,
+      "name": "Magyar Kupa",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/273.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2411,
+        "name": "Monori Se",
+        "logo": "https://media.api-sports.io/football/teams/2411.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2396,
+        "name": "MTK Budapest",
+        "logo": "https://media.api-sports.io/football/teams/2396.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560261,
       "referee": "M. Rusz",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634959,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T15:30:00+00:00",
-      "timestamp": 1789227000,
-      "periods": {
-        "first": 1789227000,
-        "second": 1789230600
-      },
-      "venue": {
-        "id": null,
-        "name": "Mezokovesdi Varosi Stadion",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2389,
-        "name": "Mezokovesd-zsory",
-        "logo": "https://media.api-sports.io/football/teams/2389.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2396,
-        "name": "MTK Budapest",
-        "logo": "https://media.api-sports.io/football/teams/2396.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

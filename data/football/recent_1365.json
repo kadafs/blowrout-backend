@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1563833,
+      "referee": "S. Mulhall",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 537,
+        "name": "Priestfield Stadium",
+        "city": "Gillingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1347,
+        "name": "Gillingham",
+        "logo": "https://media.api-sports.io/football/teams/1347.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1365,
+        "name": "Grimsby",
+        "logo": "https://media.api-sports.io/football/teams/1365.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563823,
-      "referee": null,
+      "referee": "D. Bourne",
       "timezone": "UTC",
       "date": "2026-10-20T18:45:00+00:00",
       "timestamp": 1792521900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792521900,
+        "second": 1792525500
       },
       "venue": {
         "id": null,
-        "name": "Spotland",
+        "name": "Spotland Stadium",
         "city": "Rochdale"
       },
       "status": {
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1563807,
-      "referee": null,
+      "referee": "M. Woods",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 538,
         "name": "Blundell Park",
-        "city": "Grimsby"
+        "city": "Cleethorpes"
       },
       "status": {
         "long": "Match Finished",
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1563797,
-      "referee": null,
+      "referee": "R. Martin",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 572,
         "name": "Vale Park",
-        "city": "Stoke-On-Trent"
+        "city": "Stoke on Trent"
       },
       "status": {
         "long": "Match Finished",
@@ -212,18 +282,18 @@
   {
     "fixture": {
       "id": 1563786,
-      "referee": null,
+      "referee": "M. Corlett",
       "timezone": "UTC",
       "date": "2026-10-03T14:00:00+00:00",
       "timestamp": 1791036000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791036000,
+        "second": 1791039600
       },
       "venue": {
         "id": 538,
         "name": "Blundell Park",
-        "city": "Grimsby"
+        "city": "Cleethorpes"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563771,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 563,
-        "name": "Rodney Parade",
-        "city": "Newport"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1367,
-        "name": "Newport County",
-        "logo": "https://media.api-sports.io/football/teams/1367.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1365,
-        "name": "Grimsby",
-        "logo": "https://media.api-sports.io/football/teams/1365.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567935,
+      "referee": "C. Demir",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": 1792773000,
+        "second": 1792776600
+      },
+      "venue": {
+        "id": null,
+        "name": "Generali Arena",
+        "city": "Vienna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2860,
+        "name": "Austria Vienna (Am)",
+        "logo": "https://media.api-sports.io/football/teams/2860.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8251,
+        "name": "Sturm Graz II",
+        "logo": "https://media.api-sports.io/football/teams/8251.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567930,
       "referee": "F. Jager",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567899,
-      "referee": "P. Gadler",
-      "timezone": "UTC",
-      "date": "2026-08-30T08:30:00+00:00",
-      "timestamp": 1788078600,
-      "periods": {
-        "first": 1788078600,
-        "second": 1788082200
-      },
-      "venue": {
-        "id": null,
-        "name": "Solarstadion Gleisdorf",
-        "city": "Gleisdorf"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8251,
-        "name": "Sturm Graz II",
-        "logo": "https://media.api-sports.io/football/teams/8251.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8247,
-        "name": "Rapid Wien II",
-        "logo": "https://media.api-sports.io/football/teams/8247.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

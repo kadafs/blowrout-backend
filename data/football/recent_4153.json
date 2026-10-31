@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1529646,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 364,
+      "name": "1. Liga",
+      "country": "Latvia",
+      "logo": "https://media.api-sports.io/football/leagues/364.png",
+      "flag": "https://media.api-sports.io/flags/lv.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4153,
+        "name": "Valmiera / BSS",
+        "logo": "https://media.api-sports.io/football/teams/4153.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21202,
+        "name": "JFK Ventspils",
+        "logo": "https://media.api-sports.io/football/teams/21202.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1529641,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1529610,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T11:00:00+00:00",
-      "timestamp": 1788606000,
-      "periods": {
-        "first": 1788606000,
-        "second": 1788609600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 364,
-      "name": "1. Liga",
-      "country": "Latvia",
-      "logo": "https://media.api-sports.io/football/leagues/364.png",
-      "flag": "https://media.api-sports.io/flags/lv.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4153,
-        "name": "Valmiera / BSS",
-        "logo": "https://media.api-sports.io/football/teams/4153.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4159,
-        "name": "Metta / LU",
-        "logo": "https://media.api-sports.io/football/teams/4159.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

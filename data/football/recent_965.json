@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646854,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T20:00:00+00:00",
+      "timestamp": 1792872000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1108,
+        "name": "Stade Saniat Rmel",
+        "city": "Tetouan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 965,
+        "name": "Moghreb Tetouan",
+        "logo": "https://media.api-sports.io/football/teams/965.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3458,
+        "name": "Widad T\u00e9mara",
+        "logo": "https://media.api-sports.io/football/teams/3458.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644215,
       "referee": "A. Charhabil",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576128,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-05T15:00:00+00:00",
-      "timestamp": 1783263600,
-      "periods": {
-        "first": 1783263600,
-        "second": 1783267200
-      },
-      "venue": {
-        "id": 1108,
-        "name": "Stade Saniat Rmel",
-        "city": "Tetouan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 201,
-      "name": "Botola 2",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/201.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 965,
-        "name": "Moghreb Tetouan",
-        "logo": "https://media.api-sports.io/football/teams/965.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15549,
-        "name": "Stade Marocain",
-        "logo": "https://media.api-sports.io/football/teams/15549.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

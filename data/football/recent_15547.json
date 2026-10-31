@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628018,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-22T14:00:00+00:00",
+      "timestamp": 1792677600,
+      "periods": {
+        "first": 1792677600,
+        "second": 1792681200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 542,
+      "name": "Iraqi League",
+      "country": "Iraq",
+      "logo": "https://media.api-sports.io/football/leagues/542.png",
+      "flag": "https://media.api-sports.io/flags/iq.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15547,
+        "name": "Zakho",
+        "logo": "https://media.api-sports.io/football/teams/15547.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11070,
+        "name": "Erbil",
+        "logo": "https://media.api-sports.io/football/teams/11070.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628001,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627960,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T15:00:00+00:00",
-      "timestamp": 1788966000,
-      "periods": {
-        "first": 1788966000,
-        "second": 1788969600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 542,
-      "name": "Iraqi League",
-      "country": "Iraq",
-      "logo": "https://media.api-sports.io/football/leagues/542.png",
-      "flag": "https://media.api-sports.io/flags/iq.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28222,
-        "name": "Al-Jolan SC",
-        "logo": "https://media.api-sports.io/football/teams/28222.png",
-        "winner": null
-      },
-      "away": {
-        "id": 15547,
-        "name": "Zakho",
-        "logo": "https://media.api-sports.io/football/teams/15547.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

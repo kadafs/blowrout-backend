@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641732,
+      "referee": "M. Stofringshaug",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
+        "id": null,
+        "name": "Grorud Matchbane",
+        "city": "Oslo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 105,
+      "name": "NM Cupen",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/105.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2027,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6993,
+        "name": "Grorud",
+        "logo": "https://media.api-sports.io/football/teams/6993.png",
+        "winner": false
+      },
+      "away": {
+        "id": 319,
+        "name": "Brann",
+        "logo": "https://media.api-sports.io/football/teams/319.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496370,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1496341,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:00:00+00:00",
-      "timestamp": 1790517600,
-      "periods": {
-        "first": 1790517600,
-        "second": 1790521200
-      },
-      "venue": {
-        "id": 1952,
-        "name": "Tobb Arena Levanger",
-        "city": "Levanger"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 474,
-      "name": "2. Division - Group 2",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/474.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2145,
-        "name": "Levanger",
-        "logo": "https://media.api-sports.io/football/teams/2145.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6993,
-        "name": "Grorud",
-        "logo": "https://media.api-sports.io/football/teams/6993.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

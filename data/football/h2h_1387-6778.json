@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556859,
+      "referee": "J. Hay",
+      "timezone": "UTC",
+      "date": "2026-09-18T18:30:00+00:00",
+      "timestamp": 1789756200,
+      "periods": {
+        "first": 1789756200,
+        "second": 1789759800
+      },
+      "venue": {
+        "id": null,
+        "name": "The City Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6778,
+        "name": "Queen's Park",
+        "logo": "https://media.api-sports.io/football/teams/6778.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1387,
+        "name": "Ayr Utd",
+        "logo": "https://media.api-sports.io/football/teams/1387.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1383007,
       "referee": "R. Lee",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1221457,
-      "referee": "S. Murdoch",
-      "timezone": "UTC",
-      "date": "2025-04-26T14:00:00+00:00",
-      "timestamp": 1745676000,
-      "periods": {
-        "first": 1745676000,
-        "second": 1745679600
-      },
-      "venue": {
-        "id": 1385,
-        "name": "Somerset Park",
-        "city": "Ayr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2024,
-      "round": "Regular Season - 35",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1387,
-        "name": "Ayr Utd",
-        "logo": "https://media.api-sports.io/football/teams/1387.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6778,
-        "name": "Queen's Park",
-        "logo": "https://media.api-sports.io/football/teams/6778.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

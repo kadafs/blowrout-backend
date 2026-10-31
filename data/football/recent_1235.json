@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641981,
+      "referee": "T. Visser",
+      "timezone": "UTC",
+      "date": "2026-10-28T19:00:00+00:00",
+      "timestamp": 1793214000,
+      "periods": {
+        "first": 1793214000,
+        "second": 1793217600
+      },
+      "venue": {
+        "id": 2874,
+        "name": "Sportpark Nieuw Zuid",
+        "city": "Katwijk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 90,
+      "name": "KNVB Beker",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/90.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1272,
+        "name": "Quick Boys",
+        "logo": "https://media.api-sports.io/football/teams/1272.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1235,
+        "name": "Eemdijk",
+        "logo": "https://media.api-sports.io/football/teams/1235.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618420,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638267,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportpark De Vinken",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 90,
-      "name": "KNVB Beker",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/90.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "2nd Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1235,
-        "name": "Eemdijk",
-        "logo": "https://media.api-sports.io/football/teams/1235.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19266,
-        "name": "Roosendaal",
-        "logo": "https://media.api-sports.io/football/teams/19266.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

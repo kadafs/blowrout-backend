@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562795,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": "Football pitch Novy Hradec",
+        "city": "Hradec Kralove"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 685,
+      "name": "3. liga - CFL B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/685.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14495,
+        "name": "Hradec Kr\u00e1lov\u00e9 II",
+        "logo": "https://media.api-sports.io/football/teams/14495.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7271,
+        "name": "Ban\u00edk Sou\u0161",
+        "logo": "https://media.api-sports.io/football/teams/7271.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562792,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562758,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T08:15:00+00:00",
-      "timestamp": 1789892100,
-      "periods": {
-        "first": 1789892100,
-        "second": 1789895700
-      },
-      "venue": {
-        "id": null,
-        "name": "SA Slavia HK",
-        "city": "Hradec Kralove"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 685,
-      "name": "3. liga - CFL B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/685.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14495,
-        "name": "Hradec Kr\u00e1lov\u00e9 II",
-        "logo": "https://media.api-sports.io/football/teams/14495.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7356,
-        "name": "Sokol Z\u00e1py",
-        "logo": "https://media.api-sports.io/football/teams/7356.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 1
       },
       "fulltime": {

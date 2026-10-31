@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567938,
+      "referee": "M. Baumann",
+      "timezone": "UTC",
+      "date": "2026-10-23T16:30:00+00:00",
+      "timestamp": 1792773000,
+      "periods": {
+        "first": 1792773000,
+        "second": 1792776600
+      },
+      "venue": {
+        "id": 19512,
+        "name": "Alpenstadion",
+        "city": "Kapfenberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 219,
+      "name": "2. Liga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/219.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1401,
+        "name": "SV Kapfenberg",
+        "logo": "https://media.api-sports.io/football/teams/1401.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1027,
+        "name": "SKN ST. Polten",
+        "logo": "https://media.api-sports.io/football/teams/1027.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1567930,
       "referee": "F. Jager",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1567900,
-      "referee": "J. Weinberger",
-      "timezone": "UTC",
-      "date": "2026-09-11T16:30:00+00:00",
-      "timestamp": 1789144200,
-      "periods": {
-        "first": 1789144200,
-        "second": 1789147800
-      },
-      "venue": {
-        "id": null,
-        "name": "Motion Invest Arena",
-        "city": "Maria Enzersdorf"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 219,
-      "name": "2. Liga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/219.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1023,
-        "name": "Admira Wacker",
-        "logo": "https://media.api-sports.io/football/teams/1023.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1401,
-        "name": "SV Kapfenberg",
-        "logo": "https://media.api-sports.io/football/teams/1401.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

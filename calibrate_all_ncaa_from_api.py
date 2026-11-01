@@ -125,9 +125,76 @@ def filter_finished_games(games):
     return finished
 
 
-def derive_conference_metrics(games, pace_pivot=78.0, is_non_conf=False):
+BT_NAME_MAP = {
+    'Non-Conference': 'ALL',
+    'ASUN': 'ASun',
+    'America East': 'AE',
+    'American Conference': 'Amer',
+    'Atlantic 10': 'A10',
+    'Atlantic Coast': 'ACC',
+    'Big 12': 'B12',
+    'Big East': 'BE',
+    'Big Sky': 'BSky',
+    'Big South': 'BSth',
+    'Big Ten': 'B10',
+    'Big West': 'BW',
+    'Coastal Athletic': 'CAA',
+    'Coastal Athletic Association': 'CAA',
+    'Conference USA': 'CUSA',
+    'Horizon League': 'Horz',
+    'Ivy League': 'Ivy',
+    'Metro Atlantic Athletic': 'MAAC',
+    'Mid-American': 'MAC',
+    'Mid-Eastern Athletic': 'MEAC',
+    'Missouri Valley': 'MVC',
+    'Mountain West': 'MWC',
+    'Northeast': 'NEC',
+    'Ohio Valley': 'OVC',
+    'Patriot League': 'Pat',
+    'Southeastern': 'SEC',
+    'Southern': 'SC',
+    'Southland': 'Slnd',
+    'Southwestern Athletic': 'SWAC',
+    'Sun Belt': 'SB',
+    'Summit League': 'Sum',
+    'Western Athletic': 'WAC',
+    'West Coast': 'WCC'
+}
+
+def load_men_conference_paces():
+    """Load empirical conference-level pace (possessions/40min) from Barttorvik data."""
+    bt_path = "data/barttorvik_stats.json"
+    if not os.path.exists(bt_path):
+        return {}, 67.3
+
+    with open(bt_path, "r", encoding="utf-8") as f:
+        bt_data = json.load(f)
+
+    conf_paces = defaultdict(list)
+    for team, stats in bt_data.items():
+        c = stats.get('conf')
+        t = stats.get('adj_t')
+        if c and t:
+            conf_paces[c].append(t)
+
+    all_paces = [t for paces in conf_paces.values() for t in paces]
+    national_avg_pace = round(sum(all_paces) / len(all_paces), 1) if all_paces else 67.3
+
+    men_paces_by_name = {}
+    for conf_name, bt_code in BT_NAME_MAP.items():
+        if bt_code == 'ALL':
+            men_paces_by_name[conf_name] = national_avg_pace
+        else:
+            paces = conf_paces.get(bt_code, [])
+            men_paces_by_name[conf_name] = round(sum(paces) / len(paces), 1) if paces else national_avg_pace
+
+    return men_paces_by_name, national_avg_pace
+
+
+def derive_conference_metrics(games, pace_pivot=None, is_non_conf=False, target_eff=96.0):
     """
     Derive statistical parameters from game logs.
+    If pace_pivot is None, dynamically derives pace from average total score and target_eff.
     """
     n = len(games)
     if n < 5:
@@ -148,6 +215,9 @@ def derive_conference_metrics(games, pace_pivot=78.0, is_non_conf=False):
     else:
         # Intra-conference games: real collegiate home court advantage
         hca = max(1.0, min(5.5, raw_hca))
+
+    if pace_pivot is None:
+        pace_pivot = round((avg_total * 100.0) / (2.0 * target_eff), 1)
 
     eff_pivot = (avg_total * 100.0) / (2.0 * pace_pivot)
     eff_pivot = max(88.0, min(135.0, eff_pivot))
@@ -225,14 +295,17 @@ def calibrate_all_ncaa():
         }
     }
 
-    # 3. Calibrate each individual conference + Non-Conference
+    men_paces_by_name, national_men_pace = load_men_conference_paces()
+
+    # 3. Calibrate each individual Men's conference + Non-Conference
     for conf_name, info in conf_map.items():
         cid = info["id"]
         cname = info["name"]
         games = by_conf.get(cid, [])
         is_nc = (cid == 11600)
+        pace = men_paces_by_name.get(conf_name, national_men_pace)
 
-        metrics = derive_conference_metrics(games, pace_pivot=78.0, is_non_conf=is_nc)
+        metrics = derive_conference_metrics(games, pace_pivot=pace, is_non_conf=is_nc)
         if not metrics:
             print(f"  [Warning] Insufficient games for {cname} (ID {cid}): {len(games)} games")
             continue
@@ -278,7 +351,7 @@ def calibrate_all_ncaa():
         })
 
     # 4. Calibrate parent NCAA (116) across ALL games
-    parent_metrics = derive_conference_metrics(finished_men_games, pace_pivot=78.0, is_non_conf=False)
+    parent_metrics = derive_conference_metrics(finished_men_games, pace_pivot=national_men_pace, is_non_conf=False)
     if parent_metrics:
         parent_cfg = dict(base_template)
         parent_cfg["name"] = "NCAA"
@@ -305,12 +378,70 @@ def calibrate_all_ncaa():
             "backtest_sample_size": parent_metrics["n_games"]
         }
 
-    # 5. Calibrate NCAA Women (423)
+    # 5. Calibrate NCAA Women (423) and all 31 Women's Conferences (42300-42331)
     raw_women_games = fetch_api_games_for_league(423, ["2024-2025", "2025-2026"])
     finished_women_games = filter_finished_games(raw_women_games)
     print(f"Total finished NCAA Women games available: {len(finished_women_games)}")
 
-    women_metrics = derive_conference_metrics(finished_women_games, pace_pivot=74.0, is_non_conf=False)
+    by_women_conf = defaultdict(list)
+    for g in finished_women_games:
+        cid, cname, _ = resolve_ncaa_conference(
+            g.get("home_id"), g.get("home"),
+            g.get("away_id"), g.get("away"),
+            is_women=True
+        )
+        by_women_conf[cid].append(g)
+
+    for conf_name, info in conf_map.items():
+        base_id = info["id"]
+        wcid = 42300 + (base_id - 11600)
+        cname = "NCAA Women - " + conf_name if conf_name != "Non-Conference" else "NCAA Women - Non-Conference"
+        games = by_women_conf.get(wcid, [])
+        is_nc = (wcid == 42300)
+
+        metrics = derive_conference_metrics(games, pace_pivot=None, is_non_conf=is_nc, target_eff=96.0)
+        if not metrics:
+            continue
+
+        wcfg = dict(base_template)
+        wcfg["name"] = cname
+        wcfg["_league_id"] = wcid
+        wcfg["_calibrated_at"] = today_str
+        wcfg["_tier"] = "top_domestic"
+        wcfg["_source"] = "api-recalibrated"
+        wcfg["pace_pivot"] = metrics["pace_pivot"]
+        wcfg["eff_pivot"] = metrics["eff_pivot"]
+        wcfg["regression_factor"] = metrics["regression_factor"]
+        wcfg["hca_total_bump"] = metrics["hca"]
+        wcfg["_n_games"] = metrics["n_games"]
+        wcfg["_avg_total"] = metrics["avg_total"]
+        wcfg["_std_total"] = metrics["std_total"]
+
+        for dir_name in ("configs/leagues_v2", "configs/leagues"):
+            os.makedirs(dir_name, exist_ok=True)
+            with open(os.path.join(dir_name, f"{wcid}.json"), "w", encoding="utf-8") as fp:
+                json.dump(wcfg, fp, indent=2)
+
+        wslug = re.sub(r"[^a-z0-9]+", "_", cname.lower()).strip("_")
+        edge_data[str(wcid)] = {
+            "slug": wslug,
+            "mean_absolute_error_pts": metrics["est_mae"],
+            "recommended_minimum_edge": metrics["rec_edge"],
+            "backtest_sample_size": metrics["n_games"]
+        }
+
+        calibrated_results.append({
+            "id": wcid,
+            "name": cname,
+            "games": metrics["n_games"],
+            "avg_total": metrics["avg_total"],
+            "std_total": metrics["std_total"],
+            "pace": metrics["pace_pivot"],
+            "eff": metrics["eff_pivot"],
+            "hca": metrics["hca"]
+        })
+
+    women_metrics = derive_conference_metrics(finished_women_games, pace_pivot=None, is_non_conf=False, target_eff=96.0)
     if women_metrics:
         women_cfg = dict(base_template)
         women_cfg["name"] = "NCAA Women"

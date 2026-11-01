@@ -226,7 +226,7 @@ def calibrate_league(league_id, force_tier=None, verbose=True):
     global _NCAA_CALIBRATED_SESSION
     try:
         lid_int = int(league_id)
-        if lid_int == 116 or (11600 <= lid_int <= 11699):
+        if lid_int in (116, 423) or (11600 <= lid_int <= 11699) or (42300 <= lid_int <= 42399):
             if not _NCAA_CALIBRATED_SESSION:
                 from calibrate_all_ncaa_from_api import calibrate_all_ncaa
                 calibrate_all_ncaa()

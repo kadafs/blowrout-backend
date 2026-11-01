@@ -219,13 +219,18 @@ def derive_parameters(games, league_id, league_name, tier_name):
         "regression_factor": round(regression_factor, 3),
     }
 
+_NCAA_CALIBRATED_SESSION = False
+
 def calibrate_league(league_id, force_tier=None, verbose=True):
     """Calibrate a single league and save to configs/leagues/ and configs/leagues_v2/."""
+    global _NCAA_CALIBRATED_SESSION
     try:
         lid_int = int(league_id)
         if lid_int == 116 or (11600 <= lid_int <= 11699):
-            from calibrate_all_ncaa_from_api import calibrate_all_ncaa
-            calibrate_all_ncaa()
+            if not _NCAA_CALIBRATED_SESSION:
+                from calibrate_all_ncaa_from_api import calibrate_all_ncaa
+                calibrate_all_ncaa()
+                _NCAA_CALIBRATED_SESSION = True
             return True
     except (ValueError, TypeError):
         pass

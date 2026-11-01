@@ -221,6 +221,15 @@ def derive_parameters(games, league_id, league_name, tier_name):
 
 def calibrate_league(league_id, force_tier=None, verbose=True):
     """Calibrate a single league and save to configs/leagues/ and configs/leagues_v2/."""
+    try:
+        lid_int = int(league_id)
+        if lid_int == 116 or (11600 <= lid_int <= 11699):
+            from calibrate_all_ncaa_from_api import calibrate_all_ncaa
+            calibrate_all_ncaa()
+            return True
+    except (ValueError, TypeError):
+        pass
+
     l_obj, name, seasons = get_league_info(league_id)
     if not seasons:
         if verbose:
@@ -280,6 +289,7 @@ def calibrate_league(league_id, force_tier=None, verbose=True):
 def main():
     parser = argparse.ArgumentParser(description="Official API League Calibrator")
     parser.add_argument("--league_id", type=int, help="Single league ID to calibrate")
+    parser.add_argument("--ncaa", action="store_true", help="Calibrate all 31 NCAA conferences + Non-Conference + Women's NCAA")
     parser.add_argument("--active", action="store_true", help="Calibrate all leagues active in today's predictions")
     parser.add_argument("--limit", type=int, default=0, help="Max leagues to calibrate (default: 0 = all)")
     args = parser.parse_args()
@@ -287,6 +297,11 @@ def main():
     print("=" * 70)
     print("  OFFICIAL API LEAGUE RE-CALIBRATOR (7,500 Plan Active)")
     print("=" * 70)
+
+    if args.ncaa:
+        from calibrate_all_ncaa_from_api import calibrate_all_ncaa
+        calibrate_all_ncaa()
+        return
 
     if args.league_id:
         calibrate_league(args.league_id)

@@ -134,3 +134,4 @@ def is_ncaa_league(league_id):
         return lid == 116 or (11600 <= lid <= 11699)
     except (ValueError, TypeError):
         return False
+

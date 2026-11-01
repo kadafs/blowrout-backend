@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630886,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T15:00:00+00:00",
+      "timestamp": 1792335600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1196,
+      "name": "Division One League",
+      "country": "Ghana",
+      "logo": "https://media.api-sports.io/football/leagues/1196.png",
+      "flag": "https://media.api-sports.io/flags/gh.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20020,
+        "name": "Kotoku Royals",
+        "logo": "https://media.api-sports.io/football/teams/20020.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28281,
+        "name": "7th Wave",
+        "logo": "https://media.api-sports.io/football/teams/28281.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630860,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1142568,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-29T15:00:00+00:00",
-      "timestamp": 1701270000,
-      "periods": {
-        "first": 1701270000,
-        "second": 1701273600
-      },
-      "venue": {
-        "id": 19080,
-        "name": "Oda Sports Stadium",
-        "city": "Akim Oda"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 966,
-      "name": "Cup",
-      "country": "Ghana",
-      "logo": "https://media.api-sports.io/football/leagues/966.png",
-      "flag": "https://media.api-sports.io/flags/gh.svg",
-      "season": 2023,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20020,
-        "name": "Kotoku Royals",
-        "logo": "https://media.api-sports.io/football/teams/20020.png",
-        "winner": false
-      },
-      "away": {
-        "id": 21093,
-        "name": "Swedru All Blacks",
-        "logo": "https://media.api-sports.io/football/teams/21093.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

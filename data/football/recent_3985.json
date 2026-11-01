@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1577564,
+      "referee": "O. Zhuravlev",
+      "timezone": "UTC",
+      "date": "2026-10-23T15:00:00+00:00",
+      "timestamp": 1792767600,
+      "periods": {
+        "first": 1792767600,
+        "second": 1792771200
+      },
+      "venue": {
+        "id": 18629,
+        "name": "Arena Khimki",
+        "city": "Khimki"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3985,
+        "name": "Torpedo Moskva",
+        "logo": "https://media.api-sports.io/football/teams/3985.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2010,
+        "name": "Rotor Volgograd",
+        "logo": "https://media.api-sports.io/football/teams/2010.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577557,
-      "referee": null,
+      "referee": "Y. Matveev",
       "timezone": "UTC",
       "date": "2026-10-17T08:30:00+00:00",
       "timestamp": 1792225800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792225800,
+        "second": 1792229400
       },
       "venue": {
         "id": 1346,
-        "name": "Central Stadium (Krasnoyarsk)",
+        "name": "Tsentralnyi Stadion",
         "city": "Krasnoyarsk"
       },
       "status": {
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1577541,
-      "referee": null,
+      "referee": "A. Lapatukhin",
       "timezone": "UTC",
       "date": "2026-10-10T11:00:00+00:00",
       "timestamp": 1791630000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791630000,
+        "second": 1791633600
       },
       "venue": {
         "id": null,
-        "name": "Nova Arena",
-        "city": "Saint Petersburg"
+        "name": "Roshchino Arena",
+        "city": "Roshchino"
       },
       "status": {
         "long": "Match Finished",
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1577492,
-      "referee": null,
+      "referee": "S. Fedotov",
       "timezone": "UTC",
       "date": "2026-09-27T09:30:00+00:00",
       "timestamp": 1790501400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1790501400,
+        "second": 1790505000
       },
       "venue": {
         "id": null,
-        "name": "Neftyanik Stadium",
+        "name": "BetBoom Arena",
         "city": "Ufa"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577537,
-      "referee": "Aleksandr Mashlyakevich",
-      "timezone": "UTC",
-      "date": "2026-09-17T16:00:00+00:00",
-      "timestamp": 1789660800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 18629,
-        "name": "Arena Khimki",
-        "city": "Khimki"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3985,
-        "name": "Torpedo Moskva",
-        "logo": "https://media.api-sports.io/football/teams/3985.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6833,
-        "name": "Veles",
-        "logo": "https://media.api-sports.io/football/teams/6833.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

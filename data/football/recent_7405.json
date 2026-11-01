@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645444,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T12:00:00+00:00",
+      "timestamp": 1793188800,
+      "periods": {
+        "first": 1793188800,
+        "second": 1793192400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3613,
+        "name": "\u015eanl\u0131urfaspor",
+        "logo": "https://media.api-sports.io/football/teams/3613.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7405,
+        "name": "G\u00f6lc\u00fckspor",
+        "logo": "https://media.api-sports.io/football/teams/7405.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590437,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 22448,
         "name": "Yozgat Bld Bozokspor",
         "logo": "https://media.api-sports.io/football/teams/22448.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1590405,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:30:00+00:00",
-      "timestamp": 1791030600,
-      "periods": {
-        "first": 1791030600,
-        "second": 1791034200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 552,
-      "name": "3. Lig - Group 1",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/552.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "3. Lig Group 1 - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3609,
-        "name": "Beykoz Anadolu",
-        "logo": "https://media.api-sports.io/football/teams/3609.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7405,
-        "name": "G\u00f6lc\u00fckspor",
-        "logo": "https://media.api-sports.io/football/teams/7405.png",
         "winner": false
       }
     },

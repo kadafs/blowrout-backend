@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602169,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": null,
+        "name": "Tuba Astro Turf",
+        "city": "Accra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 570,
+      "name": "Premier League",
+      "country": "Ghana",
+      "logo": "https://media.api-sports.io/football/leagues/570.png",
+      "flag": "https://media.api-sports.io/flags/gh.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4450,
+        "name": "Dreams",
+        "logo": "https://media.api-sports.io/football/teams/4450.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22782,
+        "name": "Vision",
+        "logo": "https://media.api-sports.io/football/teams/22782.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602161,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602104,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T15:00:00+00:00",
-      "timestamp": 1790175600,
-      "periods": {
-        "first": 1790175600,
-        "second": 1790179200
-      },
-      "venue": {
-        "id": null,
-        "name": "Tuba Astro Turf",
-        "city": "Accra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 570,
-      "name": "Premier League",
-      "country": "Ghana",
-      "logo": "https://media.api-sports.io/football/leagues/570.png",
-      "flag": "https://media.api-sports.io/flags/gh.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4450,
-        "name": "Dreams",
-        "logo": "https://media.api-sports.io/football/teams/4450.png",
-        "winner": null
-      },
-      "away": {
-        "id": 12255,
-        "name": "Medeama",
-        "logo": "https://media.api-sports.io/football/teams/12255.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

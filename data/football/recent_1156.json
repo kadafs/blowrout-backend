@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1639797,
+      "referee": "Alex Fabricio Cajas Torres",
+      "timezone": "UTC",
+      "date": "2026-10-25T21:30:00+00:00",
+      "timestamp": 1792963800,
+      "periods": {
+        "first": 1792963800,
+        "second": 1792967400
+      },
+      "venue": {
+        "id": 19380,
+        "name": "Estadio Gonzalo Pozo Ripalda",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 242,
+      "name": "Liga Pro",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/242.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Championship Group - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1156,
+        "name": "Aucas",
+        "logo": "https://media.api-sports.io/football/teams/1156.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1152,
+        "name": "Barcelona SC",
+        "logo": "https://media.api-sports.io/football/teams/1152.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639794,
-      "referee": "Patricio Parrao",
+      "referee": "P. Parra",
       "timezone": "UTC",
       "date": "2026-10-17T21:30:00+00:00",
       "timestamp": 1792272600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792272600,
+        "second": 1792276200
       },
       "venue": {
         "id": 19380,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1639791,
-      "referee": "Gorky Stalin Araujo Zambrano",
+      "referee": "G. Araujo",
       "timezone": "UTC",
       "date": "2026-10-10T16:30:00+00:00",
       "timestamp": 1791649800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791649800,
+        "second": 1791653400
       },
       "venue": {
         "id": 18580,
-        "name": "Estadio Banco De Guayaquil",
+        "name": "Estadio Banco Guayaquil",
         "city": "Quito"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1519494,
-      "referee": "Guillermo Enrique Guerrero Alcivar, Ecuador",
+      "referee": "G. Guerrero",
       "timezone": "UTC",
       "date": "2026-09-12T19:00:00+00:00",
       "timestamp": 1789239600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519480,
-      "referee": "Lenin Quinonez, Ecuador",
-      "timezone": "UTC",
-      "date": "2026-09-07T00:00:00+00:00",
-      "timestamp": 1788739200,
-      "periods": {
-        "first": 1788739200,
-        "second": 1788742800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Gonzalo Pozo Ripalda",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1156,
-        "name": "Aucas",
-        "logo": "https://media.api-sports.io/football/teams/1156.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1152,
-        "name": "Barcelona SC",
-        "logo": "https://media.api-sports.io/football/teams/1152.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

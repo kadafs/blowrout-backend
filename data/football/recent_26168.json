@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1598949,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 752,
+      "name": "Oberliga - Rheinland-Pfalz / Saar",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/752.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Rheinland-Pfalz/Saar - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20395,
+        "name": "Cosmos Koblenz",
+        "logo": "https://media.api-sports.io/football/teams/20395.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26168,
+        "name": "Gau-Odernheim",
+        "logo": "https://media.api-sports.io/football/teams/26168.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1598948,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1598916,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T13:00:00+00:00",
-      "timestamp": 1789909200,
-      "periods": {
-        "first": 1789909200,
-        "second": 1789912800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 752,
-      "name": "Oberliga - Rheinland-Pfalz / Saar",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/752.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Rheinland-Pfalz/Saar - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26168,
-        "name": "Gau-Odernheim",
-        "logo": "https://media.api-sports.io/football/teams/26168.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14655,
-        "name": "Diefflen",
-        "logo": "https://media.api-sports.io/football/teams/14655.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

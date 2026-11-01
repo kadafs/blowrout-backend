@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605773,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 459,
+      "name": "Campeonato de Portugal Prio - Group C",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/459.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group C - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22092,
+        "name": "FC Alverca II",
+        "logo": "https://media.api-sports.io/football/teams/22092.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4719,
+        "name": "AD Nogueirense",
+        "logo": "https://media.api-sports.io/football/teams/4719.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605771,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605751,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": null,
-        "name": "Campo da Portela",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 459,
-      "name": "Campeonato de Portugal Prio - Group C",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/459.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Group C - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20042,
-        "name": "UD da Serra",
-        "logo": "https://media.api-sports.io/football/teams/20042.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22092,
-        "name": "FC Alverca II",
-        "logo": "https://media.api-sports.io/football/teams/22092.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645853,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T14:30:00+00:00",
+      "timestamp": 1792852200,
+      "periods": {
+        "first": 1792852200,
+        "second": 1792855800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 411,
+      "name": "Elite One",
+      "country": "Cameroon",
+      "logo": "https://media.api-sports.io/football/leagues/411.png",
+      "flag": "https://media.api-sports.io/flags/cm.svg",
+      "season": 2027,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20799,
+        "name": "Aigle Royal de Moungo",
+        "logo": "https://media.api-sports.io/football/teams/20799.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5398,
+        "name": "APEJES Academy",
+        "logo": "https://media.api-sports.io/football/teams/5398.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645848,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1512933,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-08T14:30:00+00:00",
-      "timestamp": 1780929000,
-      "periods": {
-        "first": 1780929000,
-        "second": 1780932600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 411,
-      "name": "Elite One",
-      "country": "Cameroon",
-      "logo": "https://media.api-sports.io/football/leagues/411.png",
-      "flag": "https://media.api-sports.io/flags/cm.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26906,
-        "name": "Fauve Azur Elite",
-        "logo": "https://media.api-sports.io/football/teams/26906.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20799,
-        "name": "Aigle Royal de Moungo",
-        "logo": "https://media.api-sports.io/football/teams/20799.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

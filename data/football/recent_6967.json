@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496547,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": "Foyka Stadium",
+        "city": "Asker"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 774,
+      "name": "3. Division - Girone 1",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/774.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6967,
+        "name": "Asker",
+        "logo": "https://media.api-sports.io/football/teams/6967.png",
+        "winner": true
+      },
+      "away": {
+        "id": 23423,
+        "name": "Union Carl Berner",
+        "logo": "https://media.api-sports.io/football/teams/23423.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496543,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1496519,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:00:00+00:00",
-      "timestamp": 1790424000,
-      "periods": {
-        "first": 1790424000,
-        "second": 1790427600
-      },
-      "venue": {
-        "id": null,
-        "name": "Foyka Stadium",
-        "city": "Asker"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 774,
-      "name": "3. Division - Girone 1",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/774.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6967,
-        "name": "Asker",
-        "logo": "https://media.api-sports.io/football/teams/6967.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7015,
-        "name": "Nordstrand",
-        "logo": "https://media.api-sports.io/football/teams/7015.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

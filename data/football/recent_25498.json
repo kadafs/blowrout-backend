@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496730,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-26T18:00:00+00:00",
+      "timestamp": 1793037600,
+      "periods": {
+        "first": 1793037600,
+        "second": 1793041200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 775,
+      "name": "3. Division - Girone 2",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/775.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25498,
+        "name": "Kvik Trondheim",
+        "logo": "https://media.api-sports.io/football/teams/25498.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10113,
+        "name": "Rosenborg II",
+        "logo": "https://media.api-sports.io/football/teams/10113.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496727,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1496695,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T15:00:00+00:00",
-      "timestamp": 1789830000,
-      "periods": {
-        "first": 1789830000,
-        "second": 1789833600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 775,
-      "name": "3. Division - Girone 2",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/775.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25498,
-        "name": "Kvik Trondheim",
-        "logo": "https://media.api-sports.io/football/teams/25498.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7013,
-        "name": "NTNUI",
-        "logo": "https://media.api-sports.io/football/teams/7013.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

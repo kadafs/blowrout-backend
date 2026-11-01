@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646857,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T18:00:00+00:00",
+      "timestamp": 1793210400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1099,
+        "name": "Stade Mohamed V",
+        "city": "Casablanca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 976,
+        "name": "Raja Casablanca",
+        "logo": "https://media.api-sports.io/football/teams/976.png",
+        "winner": null
+      },
+      "away": {
+        "id": 973,
+        "name": "Hassania Agadir",
+        "logo": "https://media.api-sports.io/football/teams/973.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639530,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640792,
-      "referee": "N. Benrqia",
-      "timezone": "UTC",
-      "date": "2026-10-03T20:00:00+00:00",
-      "timestamp": 1791057600,
-      "periods": {
-        "first": 1791057600,
-        "second": 1791061200
-      },
-      "venue": {
-        "id": 1099,
-        "name": "Stade Mohamed V",
-        "city": "Casablanca"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 976,
-        "name": "Raja Casablanca",
-        "logo": "https://media.api-sports.io/football/teams/976.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3449,
-        "name": "CR Khemis Zemamra",
-        "logo": "https://media.api-sports.io/football/teams/3449.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

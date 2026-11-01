@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645413,
+      "referee": "J. Wulkan",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:30:00+00:00",
+      "timestamp": 1793208600,
+      "periods": {
+        "first": 1793208600,
+        "second": 1793212200
+      },
+      "venue": {
+        "id": null,
+        "name": "epet ARENA",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 347,
+      "name": "Cup",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/347.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560045,
       "referee": "Dalibor Cerny",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560020,
-      "referee": "Vojtech Opocensky, Czechia",
-      "timezone": "UTC",
-      "date": "2026-09-13T11:00:00+00:00",
-      "timestamp": 1789297200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "M\u011bstsk\u00fd stadion (Ostrava-V\u00edtkovice)",
-        "city": "Ostrava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3713,
-        "name": "Ban\u00edk Ostrava",
-        "logo": "https://media.api-sports.io/football/teams/3713.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3724,
-        "name": "Pardubice",
-        "logo": "https://media.api-sports.io/football/teams/3724.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

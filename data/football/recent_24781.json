@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646384,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T12:30:00+00:00",
+      "timestamp": 1793190600,
+      "periods": {
+        "first": 1793190600,
+        "second": 1793194200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 756,
+      "name": "Cup",
+      "country": "Macedonia",
+      "logo": "https://media.api-sports.io/football/leagues/756.png",
+      "flag": "https://media.api-sports.io/flags/mk.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22153,
+        "name": "Bashkimi Kumanovo",
+        "logo": "https://media.api-sports.io/football/teams/22153.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24781,
+        "name": "Shk\u00ebndija Hara\u00e7in\u00eb",
+        "logo": "https://media.api-sports.io/football/teams/24781.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551477,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551457,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-14T14:00:00+00:00",
-      "timestamp": 1789394400,
-      "periods": {
-        "first": 1789394400,
-        "second": 1789398000
-      },
-      "venue": {
-        "id": null,
-        "name": "Chair Stadion",
-        "city": "Skopje"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 371,
-      "name": "First League",
-      "country": "Macedonia",
-      "logo": "https://media.api-sports.io/football/leagues/371.png",
-      "flag": "https://media.api-sports.io/flags/mk.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24781,
-        "name": "Shk\u00ebndija Hara\u00e7in\u00eb",
-        "logo": "https://media.api-sports.io/football/teams/24781.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4332,
-        "name": "Skopje",
-        "logo": "https://media.api-sports.io/football/teams/4332.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

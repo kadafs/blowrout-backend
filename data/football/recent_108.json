@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1552793,
+      "referee": "Willy Delajod",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": 1792944900,
+        "second": 1792948500
+      },
+      "venue": {
+        "id": 636,
+        "name": "Stade de l'Abb\u00e9-Deschamps",
+        "city": "Auxerre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 108,
+        "name": "Auxerre",
+        "logo": "https://media.api-sports.io/football/teams/108.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1298,
+        "name": "Le Mans",
+        "logo": "https://media.api-sports.io/football/teams/1298.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552784,
-      "referee": "Eric Wattellier",
+      "referee": "E. Wattellier",
       "timezone": "UTC",
       "date": "2026-10-18T15:15:00+00:00",
       "timestamp": 1792336500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792336500,
+        "second": 1792340100
       },
       "venue": {
         "id": 652,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552781,
-      "referee": "Willy Delajod, France",
+      "referee": "W. Delajod",
       "timezone": "UTC",
       "date": "2026-10-11T15:15:00+00:00",
       "timestamp": 1791731700,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552756,
-      "referee": "Fran\u00e7ois Letexier, France",
-      "timezone": "UTC",
-      "date": "2026-09-12T18:45:00+00:00",
-      "timestamp": 1789238700,
-      "periods": {
-        "first": 1789238700,
-        "second": 1789242300
-      },
-      "venue": {
-        "id": 636,
-        "name": "Stade de l'Abb\u00e9-Deschamps",
-        "city": "Auxerre"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 108,
-        "name": "Auxerre",
-        "logo": "https://media.api-sports.io/football/teams/108.png",
-        "winner": true
-      },
-      "away": {
-        "id": 84,
-        "name": "Nice",
-        "logo": "https://media.api-sports.io/football/teams/84.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

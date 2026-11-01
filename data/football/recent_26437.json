@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1569410,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": 1792936800,
+        "second": 1792940400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 705,
+      "name": "Campionato Primavera - 1",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/705.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24734,
+        "name": "Internazionale U20",
+        "logo": "https://media.api-sports.io/football/teams/24734.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26437,
+        "name": "Parma U20",
+        "logo": "https://media.api-sports.io/football/teams/26437.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569402,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569360,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T13:00:00+00:00",
-      "timestamp": 1788613200,
-      "periods": {
-        "first": 1788613200,
-        "second": 1788616800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 705,
-      "name": "Campionato Primavera - 1",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/705.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24735,
-        "name": "Lazio U20",
-        "logo": "https://media.api-sports.io/football/teams/24735.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26437,
-        "name": "Parma U20",
-        "logo": "https://media.api-sports.io/football/teams/26437.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

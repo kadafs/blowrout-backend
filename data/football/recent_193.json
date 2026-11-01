@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641990,
+      "referee": "R. Martens",
+      "timezone": "UTC",
+      "date": "2026-10-28T19:00:00+00:00",
+      "timestamp": 1793214000,
+      "periods": {
+        "first": 1793214000,
+        "second": 1793217600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Zwolle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 90,
+      "name": "KNVB Beker",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/90.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 193,
+        "name": "PEC Zwolle",
+        "logo": "https://media.api-sports.io/football/teams/193.png",
+        "winner": false
+      },
+      "away": {
+        "id": 423,
+        "name": "FC OSS",
+        "logo": "https://media.api-sports.io/football/teams/423.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552199,
       "referee": "Martijn Vos",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552170,
-      "referee": "Alex Bos, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-09-13T14:45:00+00:00",
-      "timestamp": 1789310700,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1160,
-        "name": "MAC\u00b3PARK Stadion",
-        "city": "Zwolle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 193,
-        "name": "PEC Zwolle",
-        "logo": "https://media.api-sports.io/football/teams/193.png",
-        "winner": false
-      },
-      "away": {
-        "id": 209,
-        "name": "Feyenoord",
-        "logo": "https://media.api-sports.io/football/teams/209.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 7
       },
       "extratime": {
         "home": null,

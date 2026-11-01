@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645425,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T12:00:00+00:00",
+      "timestamp": 1793102400,
+      "periods": {
+        "first": 1793102400,
+        "second": 1793106000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3571,
+        "name": "Elaz\u0131\u011fspor",
+        "logo": "https://media.api-sports.io/football/teams/3571.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21995,
+        "name": "Talasg\u00fcc\u00fc Belediyespor",
+        "logo": "https://media.api-sports.io/football/teams/21995.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591043,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591009,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T12:30:00+00:00",
-      "timestamp": 1790512200,
-      "periods": {
-        "first": 1790512200,
-        "second": 1790515800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 554,
-      "name": "3. Lig - Group 3",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/554.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "3. Lig Group 3 - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21995,
-        "name": "Talasg\u00fcc\u00fc Belediyespor",
-        "logo": "https://media.api-sports.io/football/teams/21995.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6531,
-        "name": "K\u0131r\u0131kkale B\u00fcy\u00fck Anadolu",
-        "logo": "https://media.api-sports.io/football/teams/6531.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

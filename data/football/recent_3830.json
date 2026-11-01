@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
-      "id": 1517368,
+      "id": 1517373,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T20:00:00+00:00",
+      "timestamp": 1792958400,
+      "periods": {
+        "first": 1792958400,
+        "second": 1792962000
+      },
+      "venue": {
+        "id": 19444,
+        "name": "Westhills Stadium",
+        "city": "Langford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2622,
+        "name": "Pacific FC",
+        "logo": "https://media.api-sports.io/football/teams/2622.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3830,
+        "name": "Forge",
+        "logo": "https://media.api-sports.io/football/teams/3830.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1517368,
+      "referee": "B. Hoskins",
       "timezone": "UTC",
       "date": "2026-10-17T17:00:00+00:00",
       "timestamp": 1792256400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792256400,
+        "second": 1792260000
       },
       "venue": {
         "id": 7149,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1517364,
-      "referee": null,
+      "referee": "A. Ruch",
       "timezone": "UTC",
       "date": "2026-10-12T17:00:00+00:00",
       "timestamp": 1791824400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791824400,
+        "second": 1791828000
       },
       "venue": {
         "id": 21640,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1517309,
-      "referee": "I. Jecanski",
+      "referee": "M. Alayass",
       "timezone": "UTC",
       "date": "2026-10-07T23:00:00+00:00",
       "timestamp": 1791414000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791414000,
+        "second": 1791417600
       },
       "venue": {
         "id": 21640,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1517359,
-      "referee": null,
+      "referee": "M. Souare",
       "timezone": "UTC",
       "date": "2026-10-03T20:00:00+00:00",
       "timestamp": 1791057600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791057600,
+        "second": 1791061200
       },
       "venue": {
         "id": 21640,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1517355,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T23:00:00+00:00",
-      "timestamp": 1790463600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20613,
-        "name": "Willoughby Community Park",
-        "city": "Langley"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 479,
-      "name": "Canadian Premier League",
-      "country": "Canada",
-      "logo": "https://media.api-sports.io/football/leagues/479.png",
-      "flag": "https://media.api-sports.io/flags/ca.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20881,
-        "name": "Vancouver FC",
-        "logo": "https://media.api-sports.io/football/teams/20881.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3830,
-        "name": "Forge",
-        "logo": "https://media.api-sports.io/football/teams/3830.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

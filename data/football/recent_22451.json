@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645437,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T15:00:00+00:00",
+      "timestamp": 1793286000,
+      "periods": {
+        "first": 1793286000,
+        "second": 1793289600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1004,
+        "name": "Kas\u0131mpa\u015fa",
+        "logo": "https://media.api-sports.io/football/teams/1004.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22451,
+        "name": "\u00c7orluspor 1947",
+        "logo": "https://media.api-sports.io/football/teams/22451.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591354,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591317,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": 1790514000,
-        "second": 1790517600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 205,
-      "name": "2. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/205.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "2. Lig White Group - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22451,
-        "name": "\u00c7orluspor 1947",
-        "logo": "https://media.api-sports.io/football/teams/22451.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6523,
-        "name": "Isparta 32 Spor",
-        "logo": "https://media.api-sports.io/football/teams/6523.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 3
       },
       "extratime": {

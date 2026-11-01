@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575088,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T15:45:00+00:00",
+      "timestamp": 1792943100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportpark Ceintuurbaan",
+        "city": "Zwolle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 91,
+      "name": "Eredivisie Women",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/91.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1900,
+        "name": "PEC Zwolle W",
+        "logo": "https://media.api-sports.io/football/teams/1900.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1899,
+        "name": "Twente W",
+        "logo": "https://media.api-sports.io/football/teams/1899.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575083,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575063,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T14:45:00+00:00",
-      "timestamp": 1788705900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportpark Ceintuurbaan",
-        "city": "Zwolle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 91,
-      "name": "Eredivisie Women",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/91.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1900,
-        "name": "PEC Zwolle W",
-        "logo": "https://media.api-sports.io/football/teams/1900.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1894,
-        "name": "ADO Den Haag W",
-        "logo": "https://media.api-sports.io/football/teams/1894.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
         "away": 4
       },
       "extratime": {

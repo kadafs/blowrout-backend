@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1560960,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T05:00:00+00:00",
+      "timestamp": 1792818000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 980,
+        "name": "Saitama Stadium 2002",
+        "city": "Saitama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 854,
+      "name": "WE League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/854.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16952,
+        "name": "Urawa Reds W",
+        "logo": "https://media.api-sports.io/football/teams/16952.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16947,
+        "name": "INAC Kobe Leonessa W",
+        "logo": "https://media.api-sports.io/football/teams/16947.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560950,
       "referee": "Shinnosuke Tahara",
       "timezone": "UTC",
       "date": "2026-10-21T03:00:00+00:00",
       "timestamp": 1792551600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792551600,
+        "second": 1792555200
       },
       "venue": {
         "id": 984,
-        "name": "Noevir Stadium Kobe",
+        "name": "Noevir Stadium",
         "city": "Kobe"
       },
       "status": {
@@ -77,12 +147,12 @@
       "date": "2026-10-18T05:00:00+00:00",
       "timestamp": 1792299600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792299600,
+        "second": 1792303200
       },
       "venue": {
         "id": 982,
-        "name": "Yurtec Stadium",
+        "name": "Yurtec Stadium Sendai",
         "city": "Sendai"
       },
       "status": {
@@ -147,8 +217,8 @@
       "date": "2026-09-06T08:00:00+00:00",
       "timestamp": 1788681600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788681600,
+        "second": 1788685200
       },
       "venue": {
         "id": 3306,
@@ -217,8 +287,8 @@
       "date": "2026-09-02T10:00:00+00:00",
       "timestamp": 1788343200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1788343200,
+        "second": 1788346800
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560934,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T09:00:00+00:00",
-      "timestamp": 1788080400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Kumagaya Athletic Stadium",
-        "city": "Saitama"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 854,
-      "name": "WE League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/854.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16946,
-        "name": "Elfen Saitama W",
-        "logo": "https://media.api-sports.io/football/teams/16946.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16947,
-        "name": "INAC Kobe Leonessa W",
-        "logo": "https://media.api-sports.io/football/teams/16947.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

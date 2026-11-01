@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1552783,
-      "referee": "Jeremie Pignard",
+      "id": 1552792,
+      "referee": "Azzedine Souifi",
       "timezone": "UTC",
-      "date": "2026-10-18T13:00:00+00:00",
-      "timestamp": 1792328400,
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792944900,
+        "second": 1792948500
       },
       "venue": {
         "id": 634,
         "name": "Stade Raymond Kopa",
+        "city": "Angers"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png",
+        "winner": null
+      },
+      "away": {
+        "id": 97,
+        "name": "Lorient",
+        "logo": "https://media.api-sports.io/football/teams/97.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1552783,
+      "referee": "J. Pignard",
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": 634,
+        "name": "Stade Raymond-Kopa",
         "city": "Angers"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552774,
-      "referee": "Eric Wattellier, France",
+      "referee": "E. Wattellier",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 634,
-        "name": "Stade Raymond Kopa",
+        "name": "Stade Raymond-Kopa",
         "city": "Angers"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552758,
-      "referee": "Ruddy Buquet, France",
+      "referee": "R. Buquet",
       "timezone": "UTC",
       "date": "2026-09-12T18:45:00+00:00",
       "timestamp": 1789238700,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552747,
-      "referee": "Geoffrey Kubler, French Guiana",
-      "timezone": "UTC",
-      "date": "2026-09-06T15:15:00+00:00",
-      "timestamp": 1788707700,
-      "periods": {
-        "first": 1788707700,
-        "second": 1788711300
-      },
-      "venue": {
-        "id": 634,
-        "name": "Stade Raymond Kopa",
-        "city": "Angers"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 77,
-        "name": "Angers",
-        "logo": "https://media.api-sports.io/football/teams/77.png",
-        "winner": false
-      },
-      "away": {
-        "id": 94,
-        "name": "Rennes",
-        "logo": "https://media.api-sports.io/football/teams/94.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

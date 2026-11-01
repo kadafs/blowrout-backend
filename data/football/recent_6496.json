@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640673,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T11:00:00+00:00",
+      "timestamp": 1793185200,
+      "periods": {
+        "first": 1793185200,
+        "second": 1793188800
+      },
+      "venue": {
+        "id": 11948,
+        "name": "Tsentralnyi Stadion",
+        "city": "Zhytomyr"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 335,
+      "name": "Cup",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/335.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6496,
+        "name": "Polessya",
+        "logo": "https://media.api-sports.io/football/teams/6496.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28128,
+        "name": "Novyi Rozdil",
+        "logo": "https://media.api-sports.io/football/teams/28128.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565510,
       "referee": "Andrey Kovalenko, Ukraine",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565487,
-      "referee": "O. Omelchenko",
-      "timezone": "UTC",
-      "date": "2026-09-18T12:30:00+00:00",
-      "timestamp": 1789734600,
-      "periods": {
-        "first": 1789734600,
-        "second": 1789738200
-      },
-      "venue": {
-        "id": 11948,
-        "name": "Tsentralnyi Stadion",
-        "city": "Zhytomyr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6496,
-        "name": "Polessya",
-        "logo": "https://media.api-sports.io/football/teams/6496.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6489,
-        "name": "Kryvbas KR",
-        "logo": "https://media.api-sports.io/football/teams/6489.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

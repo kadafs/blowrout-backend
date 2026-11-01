@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632274,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T19:30:00+00:00",
+      "timestamp": 1793302200,
+      "periods": {
+        "first": 1793302200,
+        "second": 1793305800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadionul Jean Padureanu",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22824,
+        "name": "Gloria Bistri\u0163a",
+        "logo": "https://media.api-sports.io/football/teams/22824.png",
+        "winner": true
+      },
+      "away": {
+        "id": 559,
+        "name": "FCSB",
+        "logo": "https://media.api-sports.io/football/teams/559.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602524,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602494,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T08:00:00+00:00",
-      "timestamp": 1789804800,
-      "periods": {
-        "first": 1789804800,
-        "second": 1789808400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Steaua",
-        "city": "Bucharest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7466,
-        "name": "CSA Steaua Bucure\u015fti",
-        "logo": "https://media.api-sports.io/football/teams/7466.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22824,
-        "name": "Gloria Bistri\u0163a",
-        "logo": "https://media.api-sports.io/football/teams/22824.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

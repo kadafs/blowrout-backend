@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610649,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": "RCAF Old Stadium",
+        "city": "Phnom Penh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 410,
+      "name": "C-League",
+      "country": "Cambodia",
+      "logo": "https://media.api-sports.io/football/leagues/410.png",
+      "flag": "https://media.api-sports.io/flags/kh.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5391,
+        "name": "National Defense",
+        "logo": "https://media.api-sports.io/football/teams/5391.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5394,
+        "name": "Phnom Penh Crown",
+        "logo": "https://media.api-sports.io/football/teams/5394.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610645,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 6
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1526311,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-16T11:00:00+00:00",
-      "timestamp": 1778929200,
-      "periods": {
-        "first": 1778929200,
-        "second": 1778932800
-      },
-      "venue": {
-        "id": null,
-        "name": "AIA Stadium KMH PARK",
-        "city": "Phnom Penh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 410,
-      "name": "C-League",
-      "country": "Cambodia",
-      "logo": "https://media.api-sports.io/football/leagues/410.png",
-      "flag": "https://media.api-sports.io/flags/kh.svg",
-      "season": 2025,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21735,
-        "name": "Dangkor Senchey",
-        "logo": "https://media.api-sports.io/football/teams/21735.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5391,
-        "name": "National Defense",
-        "logo": "https://media.api-sports.io/football/teams/5391.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

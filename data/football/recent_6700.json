@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1505307,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": 1528,
+        "name": "Tunavallen",
+        "city": "Eskilstuna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 563,
+      "name": "Ettan - Norra",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/563.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Norra - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 765,
+        "name": "AFC Eskilstuna",
+        "logo": "https://media.api-sports.io/football/teams/765.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6700,
+        "name": "Stocksund",
+        "logo": "https://media.api-sports.io/football/teams/6700.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505304,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505273,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T13:00:00+00:00",
-      "timestamp": 1789909200,
-      "periods": {
-        "first": 1789909200,
-        "second": 1789912800
-      },
-      "venue": {
-        "id": null,
-        "name": "Danderyd IP",
-        "city": "Stocksund"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 563,
-      "name": "Ettan - Norra",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/563.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Norra - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6700,
-        "name": "Stocksund",
-        "logo": "https://media.api-sports.io/football/teams/6700.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6705,
-        "name": "Ume\u00e5 FC",
-        "logo": "https://media.api-sports.io/football/teams/6705.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

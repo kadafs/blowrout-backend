@@ -1,76 +1,6 @@
 [
   {
     "fixture": {
-      "id": 1583797,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-25T00:30:00+00:00",
-      "timestamp": 1792888200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "La Chorrera"
-      },
-      "status": {
-        "long": "Match Postponed",
-        "short": "PST",
-        "elapsed": null,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 304,
-      "name": "Liga Paname\u00f1a de F\u00fatbol",
-      "country": "Panama",
-      "logo": "https://media.api-sports.io/football/leagues/304.png",
-      "flag": "https://media.api-sports.io/flags/pa.svg",
-      "season": 2026,
-      "round": "Apertura - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2890,
-        "name": "Independiente de La Chorrera",
-        "logo": "https://media.api-sports.io/football/teams/2890.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2887,
-        "name": "San Francisco FC",
-        "logo": "https://media.api-sports.io/football/teams/2887.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": null,
-      "away": null
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": null,
-        "away": null
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
       "id": 1583735,
       "referee": null,
       "timezone": "UTC",
@@ -81,8 +11,8 @@
         "second": 1786761000
       },
       "venue": {
-        "id": null,
-        "name": null,
+        "id": 1210,
+        "name": "Estadio Agust\u00edn Muquita S\u00e1nchez",
         "city": "La Chorrera"
       },
       "status": {
@@ -151,8 +81,8 @@
         "second": 1775952900
       },
       "venue": {
-        "id": null,
-        "name": null,
+        "id": 1210,
+        "name": "Estadio Agust\u00edn Muquita S\u00e1nchez",
         "city": "La Chorrera"
       },
       "status": {
@@ -221,8 +151,8 @@
         "second": 1770431400
       },
       "venue": {
-        "id": null,
-        "name": null,
+        "id": 1210,
+        "name": "Estadio Agust\u00edn Muquita S\u00e1nchez",
         "city": "La Chorrera"
       },
       "status": {
@@ -338,6 +268,76 @@
       "fulltime": {
         "home": 0,
         "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1405357,
+      "referee": "Mario Camarena",
+      "timezone": "UTC",
+      "date": "2025-08-02T01:30:00+00:00",
+      "timestamp": 1754098200,
+      "periods": {
+        "first": 1754098200,
+        "second": 1754101800
+      },
+      "venue": {
+        "id": 0,
+        "name": "Estadio Arist\u00f3cle Toco Castillo",
+        "city": "La Chorrera"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 304,
+      "name": "Liga Paname\u00f1a de F\u00fatbol",
+      "country": "Panama",
+      "logo": "https://media.api-sports.io/football/leagues/304.png",
+      "flag": "https://media.api-sports.io/flags/pa.svg",
+      "season": 2025,
+      "round": "Clausura - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2887,
+        "name": "San Francisco FC",
+        "logo": "https://media.api-sports.io/football/teams/2887.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2890,
+        "name": "Independiente de La Chorrera",
+        "logo": "https://media.api-sports.io/football/teams/2890.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
       },
       "extratime": {
         "home": null,

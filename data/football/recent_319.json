@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641732,
+      "referee": "M. Stofringshaug",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
+        "id": null,
+        "name": "Grorud Matchbane",
+        "city": "Oslo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 105,
+      "name": "NM Cupen",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/105.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2027,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6993,
+        "name": "Grorud",
+        "logo": "https://media.api-sports.io/football/teams/6993.png",
+        "winner": false
+      },
+      "away": {
+        "id": 319,
+        "name": "Brann",
+        "logo": "https://media.api-sports.io/football/teams/319.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494687,
       "referee": "Mohammad Usman Aslam",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494774,
-      "referee": "Tore Hansen, Norway",
-      "timezone": "UTC",
-      "date": "2026-10-09T17:00:00+00:00",
-      "timestamp": 1791565200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1176,
-        "name": "Brann Stadion",
-        "city": "Bergen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 319,
-        "name": "Brann",
-        "logo": "https://media.api-sports.io/football/teams/319.png",
-        "winner": false
-      },
-      "away": {
-        "id": 759,
-        "name": "Viking",
-        "logo": "https://media.api-sports.io/football/teams/759.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

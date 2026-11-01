@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645440,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T10:30:00+00:00",
+      "timestamp": 1793183400,
+      "periods": {
+        "first": 1793183400,
+        "second": 1793187000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3599,
+        "name": "Menemen FK",
+        "logo": "https://media.api-sports.io/football/teams/3599.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7407,
+        "name": "Karacabey Belediyespor",
+        "logo": "https://media.api-sports.io/football/teams/7407.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591354,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591322,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T12:00:00+00:00",
-      "timestamp": 1790510400,
-      "periods": {
-        "first": 1790510400,
-        "second": 1790514000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 205,
-      "name": "2. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/205.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "2. Lig White Group - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22010,
-        "name": "Sebat Gen\u00e7likspor",
-        "logo": "https://media.api-sports.io/football/teams/22010.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3599,
-        "name": "Menemen FK",
-        "logo": "https://media.api-sports.io/football/teams/3599.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

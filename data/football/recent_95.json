@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1552798,
+      "referee": "Ruddy Buquet",
+      "timezone": "UTC",
+      "date": "2026-10-25T16:15:00+00:00",
+      "timestamp": 1792944900,
+      "periods": {
+        "first": 1792944900,
+        "second": 1792948500
+      },
+      "venue": {
+        "id": 680,
+        "name": "Roazhon Park",
+        "city": "Rennes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png",
+        "winner": true
+      },
+      "away": {
+        "id": 95,
+        "name": "Strasbourg",
+        "logo": "https://media.api-sports.io/football/teams/95.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552790,
       "referee": "Willy Delajod, France",
       "timezone": "UTC",
       "date": "2026-10-17T15:15:00+00:00",
       "timestamp": 1792250100,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792250100,
+        "second": 1792253700
       },
       "venue": {
         "id": 681,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1552779,
-      "referee": "Jeremie Pignard, France",
+      "referee": "J. Pignard",
       "timezone": "UTC",
       "date": "2026-10-11T13:00:00+00:00",
       "timestamp": 1791723600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1552771,
-      "referee": "Jeremy Stinat, France",
+      "referee": "J. Stinat",
       "timezone": "UTC",
       "date": "2026-09-19T15:15:00+00:00",
       "timestamp": 1789830900,
@@ -153,7 +223,7 @@
       "venue": {
         "id": 18861,
         "name": "Stade Jean Bouin",
-        "city": "Isilemulino"
+        "city": "Paris"
       },
       "status": {
         "long": "Match Finished",
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552764,
-      "referee": "Eric Wattellier, France",
+      "referee": "E. Wattellier",
       "timezone": "UTC",
       "date": "2026-09-12T15:15:00+00:00",
       "timestamp": 1789226100,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552755,
-      "referee": "Guillaume Paradis, France",
-      "timezone": "UTC",
-      "date": "2026-09-06T13:00:00+00:00",
-      "timestamp": 1788699600,
-      "periods": {
-        "first": 1788699600,
-        "second": 1788703200
-      },
-      "venue": {
-        "id": 684,
-        "name": "Stade de l'Aube",
-        "city": "Troyes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 110,
-        "name": "Estac Troyes",
-        "logo": "https://media.api-sports.io/football/teams/110.png",
-        "winner": false
-      },
-      "away": {
-        "id": 95,
-        "name": "Strasbourg",
-        "logo": "https://media.api-sports.io/football/teams/95.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 6
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638652,
+      "referee": "A. Talic",
+      "timezone": "UTC",
+      "date": "2026-10-29T17:00:00+00:00",
+      "timestamp": 1793293200,
+      "periods": {
+        "first": 1793293200,
+        "second": 1793296800
+      },
+      "venue": {
+        "id": 135,
+        "name": "Planet Pure Stadion",
+        "city": "Lustenau"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 220,
+      "name": "Cup",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/220.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1399,
+        "name": "Austria Lustenau",
+        "logo": "https://media.api-sports.io/football/teams/1399.png",
+        "winner": true
+      },
+      "away": {
+        "id": 637,
+        "name": "Sturm Graz",
+        "logo": "https://media.api-sports.io/football/teams/637.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561952,
       "referee": "Safak Barmaksiz",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561937,
-      "referee": "Walter Altmann, Austria",
-      "timezone": "UTC",
-      "date": "2026-10-10T17:30:00+00:00",
-      "timestamp": 1791653400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Generali Arena",
-        "city": "Vienna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 218,
-      "name": "Bundesliga",
-      "country": "Austria",
-      "logo": "https://media.api-sports.io/football/leagues/218.png",
-      "flag": "https://media.api-sports.io/flags/at.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 601,
-        "name": "Austria Vienna",
-        "logo": "https://media.api-sports.io/football/teams/601.png",
-        "winner": false
-      },
-      "away": {
-        "id": 637,
-        "name": "Sturm Graz",
-        "logo": "https://media.api-sports.io/football/teams/637.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

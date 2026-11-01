@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584050,
+      "referee": "Sebastian Hilsberg",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:30:00+00:00",
+      "timestamp": 1792852200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10640,
+        "name": "comtech Arena",
+        "city": "Aspache"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12867,
+        "name": "Stuttgart II",
+        "logo": "https://media.api-sports.io/football/teams/12867.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4259,
+        "name": "Alemannia Aachen",
+        "logo": "https://media.api-sports.io/football/teams/4259.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584034,
       "referee": "Eric-Dominic Weisbach",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1584033,
-      "referee": "Kevin Behrens",
+      "referee": "Kevin Behrens, Germany",
       "timezone": "UTC",
       "date": "2026-10-14T17:00:00+00:00",
       "timestamp": 1791997200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584004,
-      "referee": "K. Oldhafer",
-      "timezone": "UTC",
-      "date": "2026-09-19T12:00:00+00:00",
-      "timestamp": 1789819200,
-      "periods": {
-        "first": 1789819200,
-        "second": 1789822800
-      },
-      "venue": {
-        "id": 3254,
-        "name": "New Tivoli",
-        "city": "Aachen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 80,
-      "name": "3. Liga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/80.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4259,
-        "name": "Alemannia Aachen",
-        "logo": "https://media.api-sports.io/football/teams/4259.png",
-        "winner": true
-      },
-      "away": {
-        "id": 158,
-        "name": "Fortuna D\u00fcsseldorf",
-        "logo": "https://media.api-sports.io/football/teams/158.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

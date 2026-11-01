@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642623,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T13:00:00+00:00",
+      "timestamp": 1792328400,
+      "periods": {
+        "first": 1792328400,
+        "second": 1792332000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 693,
+      "name": "Gamma Ethniki - Group 9",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/693.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Group 9 - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24879,
+        "name": "Nea Ionia",
+        "logo": "https://media.api-sports.io/football/teams/24879.png",
+        "winner": false
+      },
+      "away": {
+        "id": 13915,
+        "name": "Asteras Magoula",
+        "logo": "https://media.api-sports.io/football/teams/13915.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642618,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 554185,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2014-03-22T13:00:00+00:00",
-      "timestamp": 1395493200,
-      "periods": {
-        "first": 1395493200,
-        "second": 1395496800
-      },
-      "venue": {
-        "id": 782,
-        "name": "Dimotiko Stadio Perivolion",
-        "city": "Perivolia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 198,
-      "name": "Football League",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/198.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2013,
-      "round": "Notios - 25",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2088,
-        "name": "Chania",
-        "logo": "https://media.api-sports.io/football/teams/2088.png",
-        "winner": true
-      },
-      "away": {
-        "id": 13915,
-        "name": "Asteras Magoula",
-        "logo": "https://media.api-sports.io/football/teams/13915.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

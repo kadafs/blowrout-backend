@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622657,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T16:50:00+00:00",
+      "timestamp": 1793206200,
+      "periods": {
+        "first": 1793206200,
+        "second": 1793209800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 330,
+      "name": "Premier League",
+      "country": "Kuwait",
+      "logo": "https://media.api-sports.io/football/leagues/330.png",
+      "flag": "https://media.api-sports.io/flags/kw.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3541,
+        "name": "Al Shabab",
+        "logo": "https://media.api-sports.io/football/teams/3541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3537,
+        "name": "Al Qadsia",
+        "logo": "https://media.api-sports.io/football/teams/3537.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632232,
       "referee": "M. Kamaruzaman",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642882,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T15:00:00+00:00",
-      "timestamp": 1790262000,
-      "periods": {
-        "first": 1790262000,
-        "second": 1790265600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3537,
-        "name": "Al Qadsia",
-        "logo": "https://media.api-sports.io/football/teams/3537.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3533,
-        "name": "Al Fahaheel",
-        "logo": "https://media.api-sports.io/football/teams/3533.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

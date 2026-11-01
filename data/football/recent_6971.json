@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1497093,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 777,
+      "name": "3. Division - Girone 4",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/777.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6971,
+        "name": "Brodd",
+        "logo": "https://media.api-sports.io/football/teams/6971.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7049,
+        "name": "\u00c5kra",
+        "logo": "https://media.api-sports.io/football/teams/7049.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1497091,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1497063,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T13:00:00+00:00",
-      "timestamp": 1789822800,
-      "periods": {
-        "first": 1789822800,
-        "second": 1789826400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 777,
-      "name": "3. Division - Girone 4",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/777.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25500,
-        "name": "V\u00e5g",
-        "logo": "https://media.api-sports.io/football/teams/25500.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6971,
-        "name": "Brodd",
-        "logo": "https://media.api-sports.io/football/teams/6971.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

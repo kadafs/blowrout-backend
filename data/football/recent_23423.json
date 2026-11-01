@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496547,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:00:00+00:00",
+      "timestamp": 1792843200,
+      "periods": {
+        "first": 1792843200,
+        "second": 1792846800
+      },
+      "venue": {
+        "id": null,
+        "name": "Foyka Stadium",
+        "city": "Asker"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 774,
+      "name": "3. Division - Girone 1",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/774.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6967,
+        "name": "Asker",
+        "logo": "https://media.api-sports.io/football/teams/6967.png",
+        "winner": true
+      },
+      "away": {
+        "id": 23423,
+        "name": "Union Carl Berner",
+        "logo": "https://media.api-sports.io/football/teams/23423.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1496546,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1496524,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T15:30:00+00:00",
-      "timestamp": 1790436600,
-      "periods": {
-        "first": 1790436600,
-        "second": 1790440200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 774,
-      "name": "3. Division - Girone 1",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/774.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 23423,
-        "name": "Union Carl Berner",
-        "logo": "https://media.api-sports.io/football/teams/23423.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6987,
-        "name": "Frigg",
-        "logo": "https://media.api-sports.io/football/teams/6987.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1490572,
+      "referee": "Tori Penso",
+      "timezone": "UTC",
+      "date": "2026-10-28T23:30:00+00:00",
+      "timestamp": 1793230200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Citi Field",
+        "city": "Flushing"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1604,
+        "name": "New York City FC",
+        "logo": "https://media.api-sports.io/football/teams/1604.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1608,
+        "name": "Atlanta United FC",
+        "logo": "https://media.api-sports.io/football/teams/1608.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490562,
       "referee": "Victor Rivas, USA",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490497,
-      "referee": "Alexis Da Silva, USA",
-      "timezone": "UTC",
-      "date": "2026-09-26T23:30:00+00:00",
-      "timestamp": 1790465400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1898,
-        "name": "Atlanta Stadium",
-        "city": "Atlanta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1608,
-        "name": "Atlanta United FC",
-        "logo": "https://media.api-sports.io/football/teams/1608.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1604,
-        "name": "New York City FC",
-        "logo": "https://media.api-sports.io/football/teams/1604.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

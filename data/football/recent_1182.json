@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1632039,
+      "referee": "Carlos P. Benitez",
+      "timezone": "UTC",
+      "date": "2026-10-25T13:00:00+00:00",
+      "timestamp": 1792933200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 7215,
+        "name": "Estadio Jose Tomas Silva",
+        "city": "Asuncion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10487,
+        "name": "Sportivo Ameliano",
+        "logo": "https://media.api-sports.io/football/teams/10487.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1182,
+        "name": "Olimpia",
+        "logo": "https://media.api-sports.io/football/teams/1182.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632034,
-      "referee": "B. Romero",
+      "referee": "Blas Romero, Paraguay",
       "timezone": "UTC",
       "date": "2026-10-17T22:20:00+00:00",
       "timestamp": 1792275600,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Estadio Osvaldo Dominguez Dibb",
-        "city": "Asunci\u00f3n"
+        "name": "Osvaldo Dom\u00ednguez Dibb",
+        "city": "Asuncion"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632011,
-      "referee": "B. Romero",
-      "timezone": "UTC",
-      "date": "2026-09-20T19:00:00+00:00",
-      "timestamp": 1789930800,
-      "periods": {
-        "first": 1789930800,
-        "second": 1789934400
-      },
-      "venue": {
-        "id": 1223,
-        "name": "Estadio Defensores del Chaco",
-        "city": "San Lorenzo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 252,
-      "name": "Division Profesional - Clausura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/252.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Clausura - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2125,
-        "name": "Club Sp. San Lorenzo",
-        "logo": "https://media.api-sports.io/football/teams/2125.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1182,
-        "name": "Olimpia",
-        "logo": "https://media.api-sports.io/football/teams/1182.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

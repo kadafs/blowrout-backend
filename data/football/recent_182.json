@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638563,
+      "referee": "Sven Jablonski",
+      "timezone": "UTC",
+      "date": "2026-10-27T19:45:00+00:00",
+      "timestamp": 1793130300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 731,
+        "name": "RheinEnergieStadion",
+        "city": "Cologne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 81,
+      "name": "DFB Pokal",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/81.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 192,
+        "name": "1. FC K\u00f6ln",
+        "logo": "https://media.api-sports.io/football/teams/192.png",
+        "winner": true
+      },
+      "away": {
+        "id": 182,
+        "name": "Union Berlin",
+        "logo": "https://media.api-sports.io/football/teams/182.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575199,
       "referee": "Robin Braun",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575167,
-      "referee": "Benjamin Brand, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:30:00+00:00",
-      "timestamp": 1789756200,
-      "periods": {
-        "first": 1789756200,
-        "second": 1789759800
-      },
-      "venue": {
-        "id": 700,
-        "name": "Allianz Arena",
-        "city": "Munich"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 157,
-        "name": "Bayern M\u00fcnchen",
-        "logo": "https://media.api-sports.io/football/teams/157.png",
-        "winner": true
-      },
-      "away": {
-        "id": 182,
-        "name": "Union Berlin",
-        "logo": "https://media.api-sports.io/football/teams/182.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 7,
-        "away": 0
       },
       "extratime": {
         "home": null,

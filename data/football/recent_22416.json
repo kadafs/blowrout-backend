@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1590198,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T13:00:00+00:00",
+      "timestamp": 1792760400,
+      "periods": {
+        "first": 1792760400,
+        "second": 1792764000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Ivan Laljak-Ivic",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 211,
+      "name": "First NL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/211.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22416,
+        "name": "Dinamo Zagreb U21",
+        "logo": "https://media.api-sports.io/football/teams/22416.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1021,
+        "name": "HNK Cibalia",
+        "logo": "https://media.api-sports.io/football/teams/1021.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590192,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623266,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T18:00:00+00:00",
-      "timestamp": 1789495200,
-      "periods": {
-        "first": 1789495200,
-        "second": 1789498800
-      },
-      "venue": {
-        "id": null,
-        "name": "SPORTA Arena",
-        "city": "Stevenage"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 1039,
-      "name": "Premier League International Cup",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1039.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7202,
-        "name": "Tottenham Hotspur U21",
-        "logo": "https://media.api-sports.io/football/teams/7202.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22416,
-        "name": "Dinamo Zagreb U21",
-        "logo": "https://media.api-sports.io/football/teams/22416.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

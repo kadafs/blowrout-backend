@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632108,
+      "referee": "C. Hollings",
+      "timezone": "UTC",
+      "date": "2026-10-24T03:15:00+00:00",
+      "timestamp": 1792811700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18601,
+        "name": "CommBank Stadium",
+        "city": "Sydney"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1974,
+        "name": "Western Sydney Wanderers W",
+        "logo": "https://media.api-sports.io/football/teams/1974.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1973,
+        "name": "Brisbane Roar FC W",
+        "logo": "https://media.api-sports.io/football/teams/1973.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632104,
       "referee": "M. Ryan",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484559,
-      "referee": "M. Velarde",
-      "timezone": "UTC",
-      "date": "2026-02-21T05:30:00+00:00",
-      "timestamp": 1771651800,
-      "periods": {
-        "first": 1771651800,
-        "second": 1771655400
-      },
-      "venue": {
-        "id": null,
-        "name": "McKellar Park",
-        "city": "Canberra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1970,
-        "name": "Canberra United W",
-        "logo": "https://media.api-sports.io/football/teams/1970.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1974,
-        "name": "Western Sydney Wanderers W",
-        "logo": "https://media.api-sports.io/football/teams/1974.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

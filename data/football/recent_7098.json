@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1510482,
+      "referee": "C. Ji-Um",
+      "timezone": "UTC",
+      "date": "2026-10-25T07:30:00+00:00",
+      "timestamp": 1792913400,
+      "periods": {
+        "first": 1792913400,
+        "second": 1792917000
+      },
+      "venue": {
+        "id": null,
+        "name": "Paju Stadium",
+        "city": "Paju"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7098,
+        "name": "Paju Citizen",
+        "logo": "https://media.api-sports.io/football/teams/7098.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7087,
+        "name": "Hwaseong",
+        "logo": "https://media.api-sports.io/football/teams/7087.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510469,
       "referee": "H. Jeong",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510430,
-      "referee": "Y. Hyo Young",
-      "timezone": "UTC",
-      "date": "2026-08-29T10:30:00+00:00",
-      "timestamp": 1787999400,
-      "periods": {
-        "first": 1787999400,
-        "second": 1788003000
-      },
-      "venue": {
-        "id": null,
-        "name": "Changwon Football Centre Stadium",
-        "city": "Changwon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2751,
-        "name": "Gyeongnam FC",
-        "logo": "https://media.api-sports.io/football/teams/2751.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7098,
-        "name": "Paju Citizen",
-        "logo": "https://media.api-sports.io/football/teams/7098.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

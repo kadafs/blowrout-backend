@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492347,
+      "referee": "Braulio Da Silva Machado, Brazil",
+      "timezone": "UTC",
+      "date": "2026-08-23T19:00:00+00:00",
+      "timestamp": 1787511600,
+      "periods": {
+        "first": 1787511600,
+        "second": 1787515200
+      },
+      "venue": {
+        "id": null,
+        "name": "Nubank Parque",
+        "city": "Sao Paulo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 121,
+        "name": "Palmeiras",
+        "logo": "https://media.api-sports.io/football/teams/121.png",
+        "winner": true
+      },
+      "away": {
+        "id": 133,
+        "name": "Vasco DA Gama",
+        "logo": "https://media.api-sports.io/football/teams/133.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492159,
       "referee": "Savio Pereira Sampaio, Brazil",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1180430,
-      "referee": "Ramon Abatti",
-      "timezone": "UTC",
-      "date": "2024-06-14T00:30:00+00:00",
-      "timestamp": 1718325000,
-      "periods": {
-        "first": 1718325000,
-        "second": 1718328600
-      },
-      "venue": {
-        "id": 258,
-        "name": "Allianz Parque",
-        "city": "S\u00e3o Paulo, S\u00e3o Paulo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2024,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 121,
-        "name": "Palmeiras",
-        "logo": "https://media.api-sports.io/football/teams/121.png",
-        "winner": true
-      },
-      "away": {
-        "id": 133,
-        "name": "Vasco DA Gama",
-        "logo": "https://media.api-sports.io/football/teams/133.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

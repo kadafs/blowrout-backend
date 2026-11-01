@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1588822,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:00:00+00:00",
+      "timestamp": 1793127600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 501,
+        "name": "Bloomfield Road",
+        "city": "Blackpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group North - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1356,
+        "name": "Blackpool",
+        "logo": "https://media.api-sports.io/football/teams/1356.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7190,
+        "name": "Aston Villa U21",
+        "logo": "https://media.api-sports.io/football/teams/7190.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564380,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588823,
-      "referee": "G. Rhodes",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 599,
-        "name": "The Brick Community Stadium",
-        "city": "Wigan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group North - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 61,
-        "name": "Wigan",
-        "logo": "https://media.api-sports.io/football/teams/61.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1356,
-        "name": "Blackpool",
-        "logo": "https://media.api-sports.io/football/teams/1356.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

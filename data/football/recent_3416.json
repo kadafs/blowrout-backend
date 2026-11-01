@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642285,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T15:00:00+00:00",
+      "timestamp": 1793199600,
+      "periods": {
+        "first": 1793199600,
+        "second": 1793203200
+      },
+      "venue": {
+        "id": null,
+        "name": "Antonis Papadopoulos Stadium",
+        "city": "Larnaca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 321,
+      "name": "Cup",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/321.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3416,
+        "name": "Omonia Aradippou",
+        "logo": "https://media.api-sports.io/football/teams/3416.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3423,
+        "name": "Digenis Morphou",
+        "logo": "https://media.api-sports.io/football/teams/3423.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603587,
       "referee": "Chrysovalantis Theouli, Cyprus",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603560,
-      "referee": "Nikolas Liotatis, Cyprus",
-      "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
-      "periods": {
-        "first": 1789228800,
-        "second": 1789232400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stelios Kyriakidis",
-        "city": "Paphos"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 318,
-      "name": "1. Division",
-      "country": "Cyprus",
-      "logo": "https://media.api-sports.io/football/leagues/318.png",
-      "flag": "https://media.api-sports.io/flags/cy.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3413,
-        "name": "Karmiotissa",
-        "logo": "https://media.api-sports.io/football/teams/3413.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3416,
-        "name": "Omonia Aradippou",
-        "logo": "https://media.api-sports.io/football/teams/3416.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

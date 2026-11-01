@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638313,
+      "referee": "Volha Blotskaya",
+      "timezone": "UTC",
+      "date": "2026-10-29T20:00:00+00:00",
+      "timestamp": 1793304000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11892,
+        "name": "Capelli Sport Stadion",
+        "city": "Koege"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 525,
+      "name": "UEFA Champions League Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/525.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13982,
+        "name": "K\u00f8ge W",
+        "logo": "https://media.api-sports.io/football/teams/13982.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1918,
+        "name": "Barcelona W",
+        "logo": "https://media.api-sports.io/football/teams/1918.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 8
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 8
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582146,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582131,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T11:00:00+00:00",
-      "timestamp": 1790420400,
-      "periods": {
-        "first": 1790420400,
-        "second": 1790424000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 638,
-      "name": "Kvindeliga",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/638.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13982,
-        "name": "K\u00f8ge W",
-        "logo": "https://media.api-sports.io/football/teams/13982.png",
-        "winner": true
-      },
-      "away": {
-        "id": 13981,
-        "name": "KoldingQ W",
-        "logo": "https://media.api-sports.io/football/teams/13981.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

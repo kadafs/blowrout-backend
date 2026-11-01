@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645521,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T19:00:00+00:00",
+      "timestamp": 1792954800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2487,
+        "name": "Estadio Municipal de El Alto",
+        "city": "El Alto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 344,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/344.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Apertura - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3700,
+        "name": "Always Ready",
+        "logo": "https://media.api-sports.io/football/teams/3700.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20252,
+        "name": "Real Oruro",
+        "logo": "https://media.api-sports.io/football/teams/20252.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645451,
       "referee": "D. Rodriguez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619702,
-      "referee": "C. Condori",
-      "timezone": "UTC",
-      "date": "2026-10-03T19:00:00+00:00",
-      "timestamp": 1791054000,
-      "periods": {
-        "first": 1791054000,
-        "second": 1791057600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "El Alto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 964,
-      "name": "Copa de la Divisi\u00f3n Profesional",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/964.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Group Stage - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3700,
-        "name": "Always Ready",
-        "logo": "https://media.api-sports.io/football/teams/3700.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15708,
-        "name": "Real Tomayapo",
-        "logo": "https://media.api-sports.io/football/teams/15708.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

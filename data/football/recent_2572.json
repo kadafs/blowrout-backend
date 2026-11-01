@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549533,
+      "referee": "Sebastian Lozano",
+      "timezone": "UTC",
+      "date": "2026-10-29T18:00:00+00:00",
+      "timestamp": 1793296800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1875,
+        "name": "Estadio Los Chankas",
+        "city": "Andahuaylas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2572,
+        "name": "Club Deportivo Los Chankas",
+        "logo": "https://media.api-sports.io/football/teams/2572.png",
+        "winner": false
+      },
+      "away": {
+        "id": 10013,
+        "name": "Cusco",
+        "logo": "https://media.api-sports.io/football/teams/10013.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549521,
       "referee": "Jordi Espinoza",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549488,
-      "referee": "K. Ortega",
-      "timezone": "UTC",
-      "date": "2026-09-12T15:30:00+00:00",
-      "timestamp": 1789227000,
-      "periods": {
-        "first": 1789227000,
-        "second": 1789230600
-      },
-      "venue": {
-        "id": 1875,
-        "name": "Estadio Municipal Los Chankas",
-        "city": "Andahuaylas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2572,
-        "name": "Club Deportivo Los Chankas",
-        "logo": "https://media.api-sports.io/football/teams/2572.png",
-        "winner": false
-      },
-      "away": {
-        "id": 22543,
-        "name": "FC Cajamarca",
-        "logo": "https://media.api-sports.io/football/teams/22543.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

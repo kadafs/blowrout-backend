@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1492430,
+      "referee": "Raphael Claus, Brazil",
+      "timezone": "UTC",
+      "date": "2026-10-29T22:30:00+00:00",
+      "timestamp": 1793313000,
+      "periods": {
+        "first": 1793313000,
+        "second": 1793316600
+      },
+      "venue": {
+        "id": 21427,
+        "name": "MRV Arena",
+        "city": "Belo Horizonte"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1062,
+        "name": "Atletico-MG",
+        "logo": "https://media.api-sports.io/football/teams/1062.png",
+        "winner": false
+      },
+      "away": {
+        "id": 135,
+        "name": "Cruzeiro",
+        "logo": "https://media.api-sports.io/football/teams/135.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492423,
-      "referee": "Rodrigo Jose Pereira de Lima",
+      "referee": "Rodrigo Jose Pereira de Lima, Brazil",
       "timezone": "UTC",
       "date": "2026-10-26T23:00:00+00:00",
       "timestamp": 1793055600,
@@ -152,8 +222,8 @@
       },
       "venue": {
         "id": 21427,
-        "name": "Arena MRV",
-        "city": "Bello Harisanta"
+        "name": "MRV Arena",
+        "city": "Belo Horizonte"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492400,
-      "referee": "Alex Gomes Stefano, Brazil",
-      "timezone": "UTC",
-      "date": "2026-10-11T19:00:00+00:00",
-      "timestamp": 1791745200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 21427,
-        "name": "Arena MRV",
-        "city": "Bello Harisanta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1062,
-        "name": "Atletico-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png",
-        "winner": true
-      },
-      "away": {
-        "id": 128,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/128.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

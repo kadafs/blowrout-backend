@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642156,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T16:00:00+00:00",
+      "timestamp": 1793203200,
+      "periods": {
+        "first": 1793203200,
+        "second": 1793206800
+      },
+      "venue": {
+        "id": null,
+        "name": "Batumi Arena",
+        "city": "Batumi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 672,
+      "name": "David Kipiani Cup",
+      "country": "Georgia",
+      "logo": "https://media.api-sports.io/football/leagues/672.png",
+      "flag": "https://media.api-sports.io/flags/ge.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 705,
+        "name": "Dinamo Batumi",
+        "logo": "https://media.api-sports.io/football/teams/705.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3499,
+        "name": "Dila",
+        "logo": "https://media.api-sports.io/football/teams/3499.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1509203,
       "referee": "B. Bregadze",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1509188,
-      "referee": "T. Samsonashvili",
-      "timezone": "UTC",
-      "date": "2026-09-20T16:00:00+00:00",
-      "timestamp": 1789920000,
-      "periods": {
-        "first": 1789920000,
-        "second": 1789923600
-      },
-      "venue": {
-        "id": null,
-        "name": "Batumi Arena",
-        "city": "Batumi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 327,
-      "name": "Erovnuli Liga",
-      "country": "Georgia",
-      "logo": "https://media.api-sports.io/football/leagues/327.png",
-      "flag": "https://media.api-sports.io/flags/ge.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 705,
-        "name": "Dinamo Batumi",
-        "logo": "https://media.api-sports.io/football/teams/705.png",
-        "winner": true
-      },
-      "away": {
-        "id": 685,
-        "name": "Torpedo Kutaisi",
-        "logo": "https://media.api-sports.io/football/teams/685.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

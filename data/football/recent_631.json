@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558656,
+      "referee": "Eric Lambrechts, Belgium",
+      "timezone": "UTC",
+      "date": "2026-10-25T17:30:00+00:00",
+      "timestamp": 1792949400,
+      "periods": {
+        "first": 1792949400,
+        "second": 1792953000
+      },
+      "venue": {
+        "id": 20727,
+        "name": "Planet Group Arena",
+        "city": "Gent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 631,
+        "name": "Gent",
+        "logo": "https://media.api-sports.io/football/teams/631.png",
+        "winner": true
+      },
+      "away": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636388,
-      "referee": "Andris Treimanis, Latvia",
+      "referee": "A. Treimanis",
       "timezone": "UTC",
       "date": "2026-10-22T19:00:00+00:00",
       "timestamp": 1792695600,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1636414,
-      "referee": "Bulat Sariyev, Kazakhstan",
+      "referee": "B. Sariev",
       "timezone": "UTC",
       "date": "2026-10-15T16:45:00+00:00",
       "timestamp": 1792082700,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558632,
-      "referee": "Nathan Verboomen, Belgium",
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 12455,
-        "name": "Cegeka Arena",
-        "city": "Genk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 742,
-        "name": "Genk",
-        "logo": "https://media.api-sports.io/football/teams/742.png",
-        "winner": null
-      },
-      "away": {
-        "id": 631,
-        "name": "Gent",
-        "logo": "https://media.api-sports.io/football/teams/631.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

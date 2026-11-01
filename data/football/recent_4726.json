@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605950,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T15:00:00+00:00",
+      "timestamp": 1792940400,
+      "periods": {
+        "first": 1792940400,
+        "second": 1792944000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Sintra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 460,
+      "name": "Campeonato de Portugal Prio - Group D",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/460.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group D - 6",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4796,
+        "name": "Sintrense",
+        "logo": "https://media.api-sports.io/football/teams/4796.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4726,
+        "name": "Amora",
+        "logo": "https://media.api-sports.io/football/teams/4726.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605941,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605933,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T10:00:00+00:00",
-      "timestamp": 1788688800,
-      "periods": {
-        "first": 1788688800,
-        "second": 1788692400
-      },
-      "venue": {
-        "id": null,
-        "name": "Medideira Stadium",
-        "city": "Amora"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 460,
-      "name": "Campeonato de Portugal Prio - Group D",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/460.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Group D - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4726,
-        "name": "Amora",
-        "logo": "https://media.api-sports.io/football/teams/4726.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10149,
-        "name": "Real",
-        "logo": "https://media.api-sports.io/football/teams/10149.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

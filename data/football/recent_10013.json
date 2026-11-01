@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549533,
+      "referee": "Sebastian Lozano",
+      "timezone": "UTC",
+      "date": "2026-10-29T18:00:00+00:00",
+      "timestamp": 1793296800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1875,
+        "name": "Estadio Los Chankas",
+        "city": "Andahuaylas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2572,
+        "name": "Club Deportivo Los Chankas",
+        "logo": "https://media.api-sports.io/football/teams/2572.png",
+        "winner": false
+      },
+      "away": {
+        "id": 10013,
+        "name": "Cusco",
+        "logo": "https://media.api-sports.io/football/teams/10013.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549520,
       "referee": "A. Menendez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549486,
-      "referee": "Jordi Espinoza, Peru",
-      "timezone": "UTC",
-      "date": "2026-09-12T00:00:00+00:00",
-      "timestamp": 1789171200,
-      "periods": {
-        "first": 1789171200,
-        "second": 1789174800
-      },
-      "venue": {
-        "id": 1233,
-        "name": "Estadio Inca Garcilaso de la Vega",
-        "city": "Cusco"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10013,
-        "name": "Cusco",
-        "logo": "https://media.api-sports.io/football/teams/10013.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2554,
-        "name": "FBC Melgar",
-        "logo": "https://media.api-sports.io/football/teams/2554.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

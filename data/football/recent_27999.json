@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645416,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T12:00:00+00:00",
+      "timestamp": 1793102400,
+      "periods": {
+        "first": 1793102400,
+        "second": 1793106000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27999,
+        "name": "Adana Adaletgucu",
+        "logo": "https://media.api-sports.io/football/teams/27999.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1010,
+        "name": "Ankarag\u00fcc\u00fc",
+        "logo": "https://media.api-sports.io/football/teams/1010.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591044,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591019,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T11:30:00+00:00",
-      "timestamp": 1791027000,
-      "periods": {
-        "first": 1791027000,
-        "second": 1791030600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 554,
-      "name": "3. Lig - Group 3",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/554.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "3. Lig Group 3 - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6513,
-        "name": "Bitlis \u00d6zg\u00fczelderespor",
-        "logo": "https://media.api-sports.io/football/teams/6513.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27999,
-        "name": "Adana Adaletgucu",
-        "logo": "https://media.api-sports.io/football/teams/27999.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

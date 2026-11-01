@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1508585,
+      "referee": "Jaclyn Metz",
+      "timezone": "UTC",
+      "date": "2026-10-25T19:00:00+00:00",
+      "timestamp": 1792954800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20500,
+        "name": "Exploria Stadium",
+        "city": "Orlando"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3000,
+        "name": "Orlando Pride W",
+        "logo": "https://media.api-sports.io/football/teams/3000.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3003,
+        "name": "NJ/NY Gotham FC W",
+        "logo": "https://media.api-sports.io/football/teams/3003.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508573,
       "referee": "Abdou Ndiaye, USA",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508538,
-      "referee": "Robert Vincze, USA",
-      "timezone": "UTC",
-      "date": "2026-09-11T22:30:00+00:00",
-      "timestamp": 1789165800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Lynn Family Stadium",
-        "city": "Louisville"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 254,
-      "name": "NWSL Women",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/254.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16488,
-        "name": "Racing Louisville W",
-        "logo": "https://media.api-sports.io/football/teams/16488.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3003,
-        "name": "NJ/NY Gotham FC W",
-        "logo": "https://media.api-sports.io/football/teams/3003.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 1
       },
       "fulltime": {

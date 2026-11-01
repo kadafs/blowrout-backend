@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1519668,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T09:30:00+00:00",
+      "timestamp": 1792834200,
+      "periods": {
+        "first": 1792834200,
+        "second": 1792837800
+      },
+      "venue": {
+        "id": null,
+        "name": "Hiiu Stadium",
+        "city": "Tallinn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 328,
+      "name": "Esiliiga A",
+      "country": "Estonia",
+      "logo": "https://media.api-sports.io/football/leagues/328.png",
+      "flag": "https://media.api-sports.io/flags/ee.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13826,
+        "name": "N\u00f5mme Kalju II",
+        "logo": "https://media.api-sports.io/football/teams/13826.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14287,
+        "name": "FC Tallinn",
+        "logo": "https://media.api-sports.io/football/teams/14287.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519666,
       "referee": null,
       "timezone": "UTC",
@@ -217,8 +287,8 @@
       "date": "2026-10-03T12:30:00+00:00",
       "timestamp": 1791030600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791030600,
+        "second": 1791034200
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 10
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612553,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T17:00:00+00:00",
-      "timestamp": 1790096400,
-      "periods": {
-        "first": 1790096400,
-        "second": 1790100000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Tallinn"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 657,
-      "name": "Cup",
-      "country": "Estonia",
-      "logo": "https://media.api-sports.io/football/leagues/657.png",
-      "flag": "https://media.api-sports.io/flags/ee.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14287,
-        "name": "FC Tallinn",
-        "logo": "https://media.api-sports.io/football/teams/14287.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27852,
-        "name": "Harju JK Laagri U21",
-        "logo": "https://media.api-sports.io/football/teams/27852.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

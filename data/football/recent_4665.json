@@ -1,8 +1,148 @@
 [
   {
     "fixture": {
+      "id": 1644374,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T20:00:00+00:00",
+      "timestamp": 1793304000,
+      "periods": {
+        "first": 1793304000,
+        "second": 1793307600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Oreyana",
+        "city": "Ribadesella"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 28413,
+        "name": "Ribadesella CF",
+        "logo": "https://media.api-sports.io/football/teams/28413.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4665,
+        "name": "Racing Santander",
+        "logo": "https://media.api-sports.io/football/teams/4665.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1570428,
+      "referee": "Jesus Gil Manzano, Spain",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:15:00+00:00",
+      "timestamp": 1792851300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3516,
+        "name": "El Sardinero",
+        "city": "Santander"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4665,
+        "name": "Racing Santander",
+        "logo": "https://media.api-sports.io/football/teams/4665.png",
+        "winner": true
+      },
+      "away": {
+        "id": 540,
+        "name": "Espanyol",
+        "logo": "https://media.api-sports.io/football/teams/540.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570419,
-      "referee": "Juan Martinez Munuera",
+      "referee": "Juan Martinez Munuera, Spain",
       "timezone": "UTC",
       "date": "2026-10-18T12:00:00+00:00",
       "timestamp": 1792324800,
@@ -198,146 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570385,
-      "referee": "Jos\u00e9 Luis Munuera Montero, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-16T19:30:00+00:00",
-      "timestamp": 1789587000,
-      "periods": {
-        "first": 1789587000,
-        "second": 1789590600
-      },
-      "venue": {
-        "id": 19939,
-        "name": "Camp Nou",
-        "city": "Barcelona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 529,
-        "name": "Barcelona",
-        "logo": "https://media.api-sports.io/football/teams/529.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4665,
-        "name": "Racing Santander",
-        "logo": "https://media.api-sports.io/football/teams/4665.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 7,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 7,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570378,
-      "referee": "Javier Alberola Rojas, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-12T12:00:00+00:00",
-      "timestamp": 1789214400,
-      "periods": {
-        "first": 1789214400,
-        "second": 1789218000
-      },
-      "venue": {
-        "id": 3516,
-        "name": "Estadio El Sardinero",
-        "city": "Santander"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 140,
-      "name": "La Liga",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/140.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4665,
-        "name": "Racing Santander",
-        "logo": "https://media.api-sports.io/football/teams/4665.png",
-        "winner": true
-      },
-      "away": {
-        "id": 542,
-        "name": "Alaves",
-        "logo": "https://media.api-sports.io/football/teams/542.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

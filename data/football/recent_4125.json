@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639355,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T17:00:00+00:00",
+      "timestamp": 1792861200,
+      "periods": {
+        "first": 1792861200,
+        "second": 1792864800
+      },
+      "venue": {
+        "id": null,
+        "name": "Tripoli International Stadium",
+        "city": "Tripoli"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 20,
+      "name": "CAF Confederation Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/20.png",
+      "flag": null,
+      "season": 2026,
+      "round": "2nd Preliminary Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12424,
+        "name": "Al Ahli Tripoli",
+        "logo": "https://media.api-sports.io/football/teams/12424.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4125,
+        "name": "Welwalo Adigrat Uni",
+        "logo": "https://media.api-sports.io/football/teams/4125.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639351,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1541118,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-02T12:00:00+00:00",
-      "timestamp": 1782993600,
-      "periods": {
-        "first": 1782993600,
-        "second": 1782997200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 363,
-      "name": "Premier League",
-      "country": "Ethiopia",
-      "logo": "https://media.api-sports.io/football/leagues/363.png",
-      "flag": "https://media.api-sports.io/flags/et.svg",
-      "season": 2025,
-      "round": "Regular Season - 38",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4125,
-        "name": "Welwalo Adigrat Uni",
-        "logo": "https://media.api-sports.io/football/teams/4125.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4119,
-        "name": "Kedus Giorgis",
-        "logo": "https://media.api-sports.io/football/teams/4119.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

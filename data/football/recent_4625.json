@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1582304,
+      "referee": "E. Grech",
+      "timezone": "UTC",
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
+      "periods": {
+        "first": 1793034000,
+        "second": 1793037600
+      },
+      "venue": {
+        "id": 12090,
+        "name": "Tony Bezzina Stadium",
+        "city": "Paola"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 393,
+      "name": "Premier League",
+      "country": "Malta",
+      "logo": "https://media.api-sports.io/football/leagues/393.png",
+      "flag": "https://media.api-sports.io/flags/mt.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4625,
+        "name": "Floriana",
+        "logo": "https://media.api-sports.io/football/teams/4625.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4622,
+        "name": "Zabbar St. Patrick",
+        "logo": "https://media.api-sports.io/football/teams/4622.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1582293,
       "referee": "I. Barbara",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582271,
-      "referee": "D. Portelli",
-      "timezone": "UTC",
-      "date": "2026-09-12T18:30:00+00:00",
-      "timestamp": 1789237800,
-      "periods": {
-        "first": 1789237800,
-        "second": 1789241400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 393,
-      "name": "Premier League",
-      "country": "Malta",
-      "logo": "https://media.api-sports.io/football/leagues/393.png",
-      "flag": "https://media.api-sports.io/flags/mt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4625,
-        "name": "Floriana",
-        "logo": "https://media.api-sports.io/football/teams/4625.png",
-        "winner": false
-      },
-      "away": {
-        "id": 14507,
-        "name": "Marsaxlokk",
-        "logo": "https://media.api-sports.io/football/teams/14507.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

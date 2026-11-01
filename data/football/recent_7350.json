@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562441,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T09:15:00+00:00",
+      "timestamp": 1792919700,
+      "periods": {
+        "first": 1792919700,
+        "second": 1792923300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 351,
+      "name": "4. liga - Divizie B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/351.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7318,
+        "name": "Meteor Praha",
+        "logo": "https://media.api-sports.io/football/teams/7318.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7350,
+        "name": "Sokol Hostou\u0148",
+        "logo": "https://media.api-sports.io/football/teams/7350.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562427,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562395,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T14:30:00+00:00",
-      "timestamp": 1789914600,
-      "periods": {
-        "first": 1789914600,
-        "second": 1789918200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Vojtecha Zeithamla",
-        "city": "Hostoun - KD"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 351,
-      "name": "4. liga - Divizie B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/351.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7350,
-        "name": "Sokol Hostou\u0148",
-        "logo": "https://media.api-sports.io/football/teams/7350.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7348,
-        "name": "Slovan Velvary",
-        "logo": "https://media.api-sports.io/football/teams/7348.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 1
       },
       "extratime": {
         "home": null,

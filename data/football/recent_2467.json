@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629089,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T11:00:00+00:00",
+      "timestamp": 1793185200,
+      "periods": {
+        "first": 1793185200,
+        "second": 1793188800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2462,
+        "name": "Homeboyz",
+        "logo": "https://media.api-sports.io/football/teams/2462.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2467,
+        "name": "GOR Mahia",
+        "logo": "https://media.api-sports.io/football/teams/2467.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629079,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619064,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T12:00:00+00:00",
-      "timestamp": 1788696000,
-      "periods": {
-        "first": 1788696000,
-        "second": 1788699600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2467,
-        "name": "GOR Mahia",
-        "logo": "https://media.api-sports.io/football/teams/2467.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1036,
-        "name": "Pyramids FC",
-        "logo": "https://media.api-sports.io/football/teams/1036.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

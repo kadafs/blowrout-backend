@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612661,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:00:00+00:00",
+      "timestamp": 1793214000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 511,
+        "name": "Hayes Lane",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15406,
+        "name": "London City Lionesses W",
+        "logo": "https://media.api-sports.io/football/teams/15406.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15409,
+        "name": "Crystal Palace W",
+        "logo": "https://media.api-sports.io/football/teams/15409.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607708,
       "referee": "Alice Parker",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612641,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:00:00+00:00",
-      "timestamp": 1790791200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 525,
-        "name": "Borough Sports Ground",
-        "city": "Sutton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 15409,
-        "name": "Crystal Palace W",
-        "logo": "https://media.api-sports.io/football/teams/15409.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15402,
-        "name": "Charlton Athletic W",
-        "logo": "https://media.api-sports.io/football/teams/15402.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

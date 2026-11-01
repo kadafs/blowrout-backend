@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632273,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T17:00:00+00:00",
+      "timestamp": 1793293200,
+      "periods": {
+        "first": 1793293200,
+        "second": 1793296800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadionul Anghel Iordanescu",
+        "city": "Voluntari"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2578,
+        "name": "FC Voluntari",
+        "logo": "https://media.api-sports.io/football/teams/2578.png",
+        "winner": null
+      },
+      "away": {
+        "id": 632,
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565286,
       "referee": "Horia Gabriel Mladinovici, Romania",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565264,
-      "referee": "Andrei Moroita, Romania",
-      "timezone": "UTC",
-      "date": "2026-10-11T15:00:00+00:00",
-      "timestamp": 1791730800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 12593,
-        "name": "Stadionul Municipal",
-        "city": "Miercurea Ciuc"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6230,
-        "name": "Csikszereda",
-        "logo": "https://media.api-sports.io/football/teams/6230.png",
-        "winner": false
-      },
-      "away": {
-        "id": 632,
-        "name": "Universitatea Craiova",
-        "logo": "https://media.api-sports.io/football/teams/632.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642499,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T13:00:00+00:00",
+      "timestamp": 1792933200,
+      "periods": {
+        "first": 1792933200,
+        "second": 1792936800
+      },
+      "venue": {
+        "id": null,
+        "name": "Georgios Kamaras Stadium",
+        "city": "Athens"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 583,
+      "name": "Gamma Ethniki - Group 8",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/583.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Group 8 - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 951,
+        "name": "Apollon Smirnis",
+        "logo": "https://media.api-sports.io/football/teams/951.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5042,
+        "name": "Ethnikos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/5042.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642494,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1122362,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-04-28T13:00:00+00:00",
-      "timestamp": 1714309200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 764,
-        "name": "Stadio Georgios Kamaras",
-        "city": "Athens"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 579,
-      "name": "Gamma Ethniki - Group 4",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/579.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2023,
-      "round": "Group 4 - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 951,
-        "name": "Apollon Smirnis",
-        "logo": "https://media.api-sports.io/football/teams/951.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22246,
-        "name": "Atromitos Piraeus",
-        "logo": "https://media.api-sports.io/football/teams/22246.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

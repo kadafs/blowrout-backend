@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1577564,
+      "referee": "O. Zhuravlev",
+      "timezone": "UTC",
+      "date": "2026-10-23T15:00:00+00:00",
+      "timestamp": 1792767600,
+      "periods": {
+        "first": 1792767600,
+        "second": 1792771200
+      },
+      "venue": {
+        "id": 18629,
+        "name": "Arena Khimki",
+        "city": "Khimki"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3985,
+        "name": "Torpedo Moskva",
+        "logo": "https://media.api-sports.io/football/teams/3985.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2010,
+        "name": "Rotor Volgograd",
+        "logo": "https://media.api-sports.io/football/teams/2010.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577550,
-      "referee": null,
+      "referee": "S. Fedotov",
       "timezone": "UTC",
       "date": "2026-10-16T16:00:00+00:00",
       "timestamp": 1792166400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792166400,
+        "second": 1792170000
       },
       "venue": {
         "id": 1348,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1577544,
-      "referee": null,
+      "referee": "K. Garafutdinov",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 1348,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1577536,
-      "referee": "Semyon Denisovich\u00b7Medvedev",
+      "referee": "S. Medvedev",
       "timezone": "UTC",
       "date": "2026-09-17T14:00:00+00:00",
       "timestamp": 1789653600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789653600,
+        "second": 1789657200
       },
       "venue": {
         "id": 3038,
-        "name": "Tekstilshchik Stadium",
+        "name": "Stadion Tekstilshchik",
         "city": "Ivanovo"
       },
       "status": {
@@ -217,8 +287,8 @@
       "date": "2026-09-13T14:00:00+00:00",
       "timestamp": 1789308000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789308000,
+        "second": 1789311600
       },
       "venue": {
         "id": 1348,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635575,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T11:00:00+00:00",
-      "timestamp": 1788951600,
-      "periods": {
-        "first": 1788951600,
-        "second": 1788955200
-      },
-      "venue": {
-        "id": null,
-        "name": "Zavolzhsky Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 237,
-      "name": "Cup",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/237.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regions Path - Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14124,
-        "name": "Volna Nizhegorodskaya",
-        "logo": "https://media.api-sports.io/football/teams/14124.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2010,
-        "name": "Rotor Volgograd",
-        "logo": "https://media.api-sports.io/football/teams/2010.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

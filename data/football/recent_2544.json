@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1549524,
+      "referee": "Roberto Perez Gutierrez",
+      "timezone": "UTC",
+      "date": "2026-10-25T20:30:00+00:00",
+      "timestamp": 1792960200,
+      "periods": {
+        "first": 1792960200,
+        "second": 1792963800
+      },
+      "venue": {
+        "id": 1238,
+        "name": "Miguel Grau Stadium",
+        "city": "Callao"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2544,
+        "name": "Sport Boys",
+        "logo": "https://media.api-sports.io/football/teams/2544.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22543,
+        "name": "FC Cajamarca",
+        "logo": "https://media.api-sports.io/football/teams/22543.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549514,
-      "referee": "Jordi Espinoza",
+      "referee": "J. Espinoza",
       "timezone": "UTC",
       "date": "2026-10-17T20:00:00+00:00",
       "timestamp": 1792267200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792267200,
+        "second": 1792270800
       },
       "venue": {
         "id": null,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1549507,
-      "referee": "Julio Cesar Quiroz",
+      "referee": "J. C. Quiroz",
       "timezone": "UTC",
       "date": "2026-10-11T20:30:00+00:00",
       "timestamp": 1791750600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791750600,
+        "second": 1791754200
       },
       "venue": {
         "id": 1238,
-        "name": "Miguel Grau Stadium",
+        "name": "Estadio Miguel Grau",
         "city": "Callao"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549495,
-      "referee": "Kevin Ortega",
-      "timezone": "UTC",
-      "date": "2026-09-20T01:15:00+00:00",
-      "timestamp": 1789866900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1235,
-        "name": "Estadio Monumental de la UNSA",
-        "city": "Arequipa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2554,
-        "name": "FBC Melgar",
-        "logo": "https://media.api-sports.io/football/teams/2554.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2544,
-        "name": "Sport Boys",
-        "logo": "https://media.api-sports.io/football/teams/2544.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

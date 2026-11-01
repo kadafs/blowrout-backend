@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556689,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:45:00+00:00",
+      "timestamp": 1793216700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1386,
+        "name": "Celtic Park",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 247,
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1386,
+        "name": "Dundee Utd",
+        "logo": "https://media.api-sports.io/football/teams/1386.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556684,
       "referee": "R. Lee",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556674,
-      "referee": "S. McLean",
-      "timezone": "UTC",
-      "date": "2026-10-11T11:00:00+00:00",
-      "timestamp": 1791716400,
-      "periods": {
-        "first": 1791716400,
-        "second": 1791720000
-      },
-      "venue": {
-        "id": 1398,
-        "name": "Fir Park",
-        "city": "Motherwell"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 256,
-        "name": "Motherwell",
-        "logo": "https://media.api-sports.io/football/teams/256.png",
-        "winner": false
-      },
-      "away": {
-        "id": 247,
-        "name": "Celtic",
-        "logo": "https://media.api-sports.io/football/teams/247.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

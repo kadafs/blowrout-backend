@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563674,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T17:30:00+00:00",
+      "timestamp": 1793208600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20743,
+        "name": "Lukoil Arena",
+        "city": "Moscow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 237,
+      "name": "Cup",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/237.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Group Stage - 5",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 558,
+        "name": "Spartak Moscow",
+        "logo": "https://media.api-sports.io/football/teams/558.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1083,
+        "name": "Rubin",
+        "logo": "https://media.api-sports.io/football/teams/1083.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561421,
       "referee": "Kirill Levnikov",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561402,
-      "referee": "Stanislav Matveev, Russia",
-      "timezone": "UTC",
-      "date": "2026-09-16T15:30:00+00:00",
-      "timestamp": 1789572600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Lukoil Arena",
-        "city": "Moscow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 558,
-        "name": "Spartak Moscow",
-        "logo": "https://media.api-sports.io/football/teams/558.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1993,
-        "name": "Fakel",
-        "logo": "https://media.api-sports.io/football/teams/1993.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

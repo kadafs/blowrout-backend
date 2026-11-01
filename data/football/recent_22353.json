@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605298,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-26T18:00:00+00:00",
+      "timestamp": 1793037600,
+      "periods": {
+        "first": 1793037600,
+        "second": 1793041200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1155,
+      "name": "Carioca B2",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/1155.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Group Stage - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22353,
+        "name": "Rio de Janeiro",
+        "logo": "https://media.api-sports.io/football/teams/22353.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17736,
+        "name": "7 de Abril",
+        "logo": "https://media.api-sports.io/football/teams/17736.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605292,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605270,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T18:00:00+00:00",
-      "timestamp": 1790532000,
-      "periods": {
-        "first": 1790532000,
-        "second": 1790535600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 1155,
-      "name": "Carioca B2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1155.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Group Stage - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13116,
-        "name": "Serra Macaense",
-        "logo": "https://media.api-sports.io/football/teams/13116.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22353,
-        "name": "Rio de Janeiro",
-        "logo": "https://media.api-sports.io/football/teams/22353.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

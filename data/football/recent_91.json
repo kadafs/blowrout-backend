@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1552797,
+      "referee": "Francois Letexier",
+      "timezone": "UTC",
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
+      "periods": {
+        "first": 1792936800,
+        "second": 1792940400
+      },
+      "venue": {
+        "id": 20470,
+        "name": "Stade Louis II",
+        "city": "Monaco"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png",
+        "winner": null
+      },
+      "away": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636454,
-      "referee": "Samuel Barrott, England",
+      "referee": "S. Barrott",
       "timezone": "UTC",
       "date": "2026-10-22T19:00:00+00:00",
       "timestamp": 1792695600,
@@ -13,7 +83,7 @@
       "venue": {
         "id": null,
         "name": "Stade Louis II",
-        "city": "Fontvieille"
+        "city": "Monaco"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1552787,
-      "referee": "Marc Bollengier",
+      "referee": "M. Bollengier",
       "timezone": "UTC",
       "date": "2026-10-18T15:15:00+00:00",
       "timestamp": 1792336500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792336500,
+        "second": 1792340100
       },
       "venue": {
         "id": 21430,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1636401,
-      "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+      "referee": "J. Goncalves",
       "timezone": "UTC",
       "date": "2026-10-15T16:45:00+00:00",
       "timestamp": 1792082700,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Vasil Levski National Sports Academy",
+        "name": "National Stadium Vasil Levski",
         "city": "Sofia"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1552778,
-      "referee": "Ruddy Buquet, France",
+      "referee": "R. Buquet",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644412,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T09:00:00+00:00",
-      "timestamp": 1791018000,
-      "periods": {
-        "first": 1791018000,
-        "second": 1791021600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 91,
-        "name": "Monaco",
-        "logo": "https://media.api-sports.io/football/teams/91.png",
-        "winner": true
-      },
-      "away": {
-        "id": 801,
-        "name": "Pisa",
-        "logo": "https://media.api-sports.io/football/teams/801.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

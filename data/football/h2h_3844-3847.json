@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492983,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-25T18:45:00+00:00",
+      "timestamp": 1790361900,
+      "periods": {
+        "first": 1790361900,
+        "second": 1790365500
+      },
+      "venue": {
+        "id": 2629,
+        "name": "UCD Bowl",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 358,
+      "name": "First Division",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/358.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3844,
+        "name": "UCD",
+        "logo": "https://media.api-sports.io/football/teams/3844.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3847,
+        "name": "Bray Wanderers",
+        "logo": "https://media.api-sports.io/football/teams/3847.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492931,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1482342,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-24T18:45:00+00:00",
-      "timestamp": 1761331500,
-      "periods": {
-        "first": 1761331500,
-        "second": 1761335100
-      },
-      "venue": {
-        "id": 2629,
-        "name": "UCD Bowl",
-        "city": "Dublin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 358,
-      "name": "First Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/358.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2025,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3844,
-        "name": "UCD",
-        "logo": "https://media.api-sports.io/football/teams/3844.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3847,
-        "name": "Bray Wanderers",
-        "logo": "https://media.api-sports.io/football/teams/3847.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

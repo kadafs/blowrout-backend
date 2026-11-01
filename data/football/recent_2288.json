@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551011,
+      "referee": "Martin Molina Astorga",
+      "timezone": "UTC",
+      "date": "2026-10-24T01:00:00+00:00",
+      "timestamp": 1792803600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20474,
+        "name": "Estadio Victoria",
+        "city": "Aguascalientes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 262,
+      "name": "Liga MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/262.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2026,
+      "round": "Apertura - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2288,
+        "name": "Necaxa",
+        "logo": "https://media.api-sports.io/football/teams/2288.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2298,
+        "name": "FC Juarez",
+        "logo": "https://media.api-sports.io/football/teams/2298.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551004,
       "referee": "Vicente Jassiel Reynoso Arce",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550969,
-      "referee": "Katia Garc\u00eda, Mexico",
-      "timezone": "UTC",
-      "date": "2026-09-19T23:00:00+00:00",
-      "timestamp": 1789858800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Alfonso Lastras Ramirez",
-        "city": "San Luis de Potosi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 262,
-      "name": "Liga MX",
-      "country": "Mexico",
-      "logo": "https://media.api-sports.io/football/leagues/262.png",
-      "flag": "https://media.api-sports.io/flags/mx.svg",
-      "season": 2026,
-      "round": "Apertura - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2314,
-        "name": "Atletico San Luis",
-        "logo": "https://media.api-sports.io/football/teams/2314.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2288,
-        "name": "Necaxa",
-        "logo": "https://media.api-sports.io/football/teams/2288.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

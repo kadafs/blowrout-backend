@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556119,
+      "referee": "Yoshimi Yamashita",
+      "timezone": "UTC",
+      "date": "2026-10-24T06:00:00+00:00",
+      "timestamp": 1792821600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 960,
+        "name": "Ajinomoto Stadium",
+        "city": "Chofu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 306,
+        "name": "Tokyo Verdy",
+        "logo": "https://media.api-sports.io/football/teams/306.png",
+        "winner": true
+      },
+      "away": {
+        "id": 316,
+        "name": "Avispa Fukuoka",
+        "logo": "https://media.api-sports.io/football/teams/316.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556101,
       "referee": "Masuya Ueda",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1556095,
-      "referee": "Jumpei Iida",
+      "referee": "Jumpei Iida, Japan",
       "timezone": "UTC",
       "date": "2026-10-18T07:00:00+00:00",
       "timestamp": 1792306800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635578,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-07T09:30:00+00:00",
-      "timestamp": 1791365400,
-      "periods": {
-        "first": 1791365400,
-        "second": 1791369000
-      },
-      "venue": {
-        "id": 20417,
-        "name": "Best Denki Stadium",
-        "city": "Fukuoka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 102,
-      "name": "Emperor Cup",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/102.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 316,
-        "name": "Avispa Fukuoka",
-        "logo": "https://media.api-sports.io/football/teams/316.png",
-        "winner": false
-      },
-      "away": {
-        "id": 307,
-        "name": "Yokohama FC",
-        "logo": "https://media.api-sports.io/football/teams/307.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

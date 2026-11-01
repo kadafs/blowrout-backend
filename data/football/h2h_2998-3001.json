@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1508561,
+      "referee": "Trevor Wiseman",
+      "timezone": "UTC",
+      "date": "2026-09-27T00:45:00+00:00",
+      "timestamp": 1790469900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1748,
+        "name": "Providence Park",
+        "city": "Portland"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 254,
+      "name": "NWSL Women",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/254.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3001,
+        "name": "Portland Thorns W",
+        "logo": "https://media.api-sports.io/football/teams/3001.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2998,
+        "name": "Houston Dash W",
+        "logo": "https://media.api-sports.io/football/teams/2998.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1339426,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1004122,
-      "referee": "K. Koroleva",
-      "timezone": "UTC",
-      "date": "2023-05-13T00:30:00+00:00",
-      "timestamp": 1683937800,
-      "periods": {
-        "first": 1683937800,
-        "second": 1683941400
-      },
-      "venue": {
-        "id": 19418,
-        "name": "Shell Energy Stadium",
-        "city": "Houston, Texas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 254,
-      "name": "NWSL Women",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/254.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2023,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2998,
-        "name": "Houston Dash W",
-        "logo": "https://media.api-sports.io/football/teams/2998.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3001,
-        "name": "Portland Thorns W",
-        "logo": "https://media.api-sports.io/football/teams/3001.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

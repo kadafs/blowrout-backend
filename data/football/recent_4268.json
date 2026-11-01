@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584046,
+      "referee": "Kevin Behrens",
+      "timezone": "UTC",
+      "date": "2026-10-25T18:30:00+00:00",
+      "timestamp": 1792953000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3263,
+        "name": "Carl-Benz-Stadion",
+        "city": "Mannheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4268,
+        "name": "Waldhof Mannheim",
+        "logo": "https://media.api-sports.io/football/teams/4268.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9364,
+        "name": "Hoffenheim II",
+        "logo": "https://media.api-sports.io/football/teams/9364.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584043,
       "referee": "Yannick Sager",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642879,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T11:00:00+00:00",
-      "timestamp": 1790247600,
-      "periods": {
-        "first": 1790247600,
-        "second": 1790251200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4268,
-        "name": "Waldhof Mannheim",
-        "logo": "https://media.api-sports.io/football/teams/4268.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1660,
-        "name": "SV Elversberg",
-        "logo": "https://media.api-sports.io/football/teams/1660.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

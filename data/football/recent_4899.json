@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612660,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:00:00+00:00",
+      "timestamp": 1793214000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20106,
+        "name": "Robins High Performance Centre",
+        "city": "Bristol"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1846,
+        "name": "Bristol City W",
+        "logo": "https://media.api-sports.io/football/teams/1846.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4899,
+        "name": "Tottenham Hotspur W",
+        "logo": "https://media.api-sports.io/football/teams/4899.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607711,
       "referee": "Phoebe Cross",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607689,
-      "referee": "Lisa Benn",
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 593,
-        "name": "Tottenham Hotspur Stadium",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 44,
-      "name": "FA WSL",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/44.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4899,
-        "name": "Tottenham Hotspur W",
-        "logo": "https://media.api-sports.io/football/teams/4899.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14219,
-        "name": "Aston Villa W",
-        "logo": "https://media.api-sports.io/football/teams/14219.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

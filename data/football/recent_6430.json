@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646775,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T15:30:00+00:00",
+      "timestamp": 1792855800,
+      "periods": {
+        "first": 1792855800,
+        "second": 1792859400
+      },
+      "venue": {
+        "id": 4740,
+        "name": "Stade Wobi",
+        "city": "Bobo Dioulasso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6430,
+        "name": "Rahimo",
+        "logo": "https://media.api-sports.io/football/teams/6430.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8111,
+        "name": "SONABEL",
+        "logo": "https://media.api-sports.io/football/teams/8111.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646133,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640524,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T15:30:00+00:00",
-      "timestamp": 1789918200,
-      "periods": {
-        "first": 1789918200,
-        "second": 1789921800
-      },
-      "venue": {
-        "id": 4740,
-        "name": "Stade Wobi",
-        "city": "Bobo Dioulasso"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6430,
-        "name": "Rahimo",
-        "logo": "https://media.api-sports.io/football/teams/6430.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20029,
-        "name": "R\u00e9al du Faso",
-        "logo": "https://media.api-sports.io/football/teams/20029.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

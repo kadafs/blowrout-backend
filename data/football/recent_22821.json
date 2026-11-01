@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643306,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T18:00:00+00:00",
+      "timestamp": 1793210400,
+      "periods": {
+        "first": 1793210400,
+        "second": 1793214000
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Pernambuco",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22821,
+        "name": "Jaguar\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/22821.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28465,
+        "name": "Santa Fe PE",
+        "logo": "https://media.api-sports.io/football/teams/28465.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643286,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1500471,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-01-25T19:00:00+00:00",
-      "timestamp": 1769367600,
-      "periods": {
-        "first": 1769367600,
-        "second": 1769371200
-      },
-      "venue": {
-        "id": null,
-        "name": "Arena Pernambuco",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 622,
-      "name": "Pernambucano - 1",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/622.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13098,
-        "name": "Retr\u00f4",
-        "logo": "https://media.api-sports.io/football/teams/13098.png",
-        "winner": null
-      },
-      "away": {
-        "id": 22821,
-        "name": "Jaguar\u00e9",
-        "logo": "https://media.api-sports.io/football/teams/22821.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

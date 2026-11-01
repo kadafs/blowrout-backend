@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1569846,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-03T05:00:00+00:00",
+      "timestamp": 1791003600,
+      "periods": {
+        "first": 1791003600,
+        "second": 1791007200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1234,
+      "name": "K4 League",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/1234.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 23",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27859,
+        "name": "Haman",
+        "logo": "https://media.api-sports.io/football/teams/27859.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27860,
+        "name": "Jecheon Citizen",
+        "logo": "https://media.api-sports.io/football/teams/27860.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569832,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569817,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-25T08:00:00+00:00",
-      "timestamp": 1784966400,
-      "periods": {
-        "first": 1784966400,
-        "second": 1784970000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 1234,
-      "name": "K4 League",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/1234.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27860,
-        "name": "Jecheon Citizen",
-        "logo": "https://media.api-sports.io/football/teams/27860.png",
-        "winner": false
-      },
-      "away": {
-        "id": 23089,
-        "name": "Namyangju",
-        "logo": "https://media.api-sports.io/football/teams/23089.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

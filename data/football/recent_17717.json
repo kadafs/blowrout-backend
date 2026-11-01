@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640863,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T08:00:00+00:00",
+      "timestamp": 1792915200,
+      "periods": {
+        "first": 1792915200,
+        "second": 1792918800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 734,
+      "name": "Diski Challenge",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/734.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17717,
+        "name": "Marumo Gallants U23",
+        "logo": "https://media.api-sports.io/football/teams/17717.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15996,
+        "name": "Stellenbosch U23",
+        "logo": "https://media.api-sports.io/football/teams/15996.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640856,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1453333,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T08:00:00+00:00",
-      "timestamp": 1778313600,
-      "periods": {
-        "first": 1778313600,
-        "second": 1778317200
-      },
-      "venue": {
-        "id": null,
-        "name": "CUT Stadium",
-        "city": "Bloemfontein"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 734,
-      "name": "Diski Challenge",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/734.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17717,
-        "name": "Marumo Gallants U23",
-        "logo": "https://media.api-sports.io/football/teams/17717.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26501,
-        "name": "Orbit College U23",
-        "logo": "https://media.api-sports.io/football/teams/26501.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -351,11 +351,10 @@ def save_json(path, data):
 
 def partition_ncaa_leagues(leagues_summary):
     """
-    Ensures that any games under generic NCAA (league_id == 116) are partitioned
-    into their specific individual conferences (e.g. NCAA - Big East, NCAA - Big Ten)
-    or NCAA - Non-Conference.
+    Ensures that any games under generic NCAA (league_id == 116 or 423) are partitioned
+    into their specific individual conferences or Non-Conference, strictly keeping Men and Women separate.
     """
-    if not any(l.get("league_id") == 116 for l in leagues_summary):
+    if not any(l.get("league_id") in (116, 423) for l in leagues_summary):
         return leagues_summary
 
     from collections import defaultdict
@@ -363,21 +362,23 @@ def partition_ncaa_leagues(leagues_summary):
     ncaa_by_conf = defaultdict(list)
 
     for entry in leagues_summary:
-        if entry.get("league_id") != 116:
+        lid = entry.get("league_id")
+        if lid not in (116, 423):
             new_summary.append(entry)
             continue
 
         country = entry.get("country", "USA")
         season = entry.get("season")
+        is_women = (lid == 423 or "women" in entry.get("league_name", "").lower())
         for g in entry.get("games", []):
             hid = g.get("home_id")
             hname = g.get("home")
             aid = g.get("away_id")
             aname = g.get("away")
-            c_lid, c_lname, _ = resolve_ncaa_conference(hid, hname, aid, aname)
+            c_lid, c_lname, _ = resolve_ncaa_conference(hid, hname, aid, aname, is_women=is_women, upstream_lid=lid)
             ncaa_by_conf[(c_lid, c_lname, country, season)].append(g)
 
-    for (c_lid, c_lname, country, season), games in sorted(ncaa_by_conf.items(), key=lambda x: x[0][1]):
+    for (c_lid, c_lname, country, season), games in sorted(ncaa_by_conf.items(), key=lambda x: (x[0][0], x[0][1])):
         new_summary.append({
             "league_id": c_lid,
             "league_name": c_lname,
@@ -446,7 +447,9 @@ def fetch_today_fixtures(date_str, refresh=False):
         away_id = game.get("teams", {}).get("away", {}).get("id")
 
         if lid == 116:
-            lid, lname, _ = resolve_ncaa_conference(home_id, home, away_id, away)
+            lid, lname, _ = resolve_ncaa_conference(home_id, home, away_id, away, is_women=False, upstream_lid=116)
+        elif lid == 423:
+            lid, lname, _ = resolve_ncaa_conference(home_id, home, away_id, away, is_women=True, upstream_lid=423)
 
         by_league[(lid, lname, country, season)].append({
             "id": game.get("id"),

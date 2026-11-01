@@ -43,12 +43,6 @@ jobs:
           
           echo "Using DATE_FLAG: $DATE_FLAG"
           
-          echo "--- Running grade_basketball.py ---"
-          python grade_basketball.py $DATE_FLAG
-          
-          echo "--- Running aggregate_basketball_stats.py ---"
-          python aggregate_basketball_stats.py $DATE_FLAG
-          
           echo "--- Running grade_basketball_v2.py ---"
           python grade_basketball_v2.py $DATE_FLAG
           

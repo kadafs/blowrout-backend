@@ -1,143 +1,279 @@
 """
 calculate_sdi.py
 ================
-Star Dependency Index (SDI) Calculator
+Star Dependency Index (SDI) Calculator (API-Powered with Local Boxscore Cache)
 
-Reads all Proballers historical box score files and calculates per-team
-scoring concentration metrics. A high SDI means the team relies heavily
-on 1-2 players for most of its scoring — making them vulnerable to
-injury, foul trouble, or off nights.
+Calculates per-team scoring concentration metrics using official player box scores
+from API-Basketball (/games/statistics/players).
 
 SDI Formula:
-    SDI = avg((Top 2 scorers' pts) / Team total pts) × 100
+    SDI = avg((Top 2 scorers' pts) / Team total pts) * 100
 
 Risk Tiers:
-    GREEN  (< 40%) — Balanced roster, resilient
-    AMBER  (40-54%) — Moderate dependency, monitor key players
-    RED    (>= 55%) — High dependency, injury = collapse
+    GREEN  (< 40%)  - Balanced roster, resilient
+    AMBER  (40-54%) - Moderate dependency, monitor key players
+    RED    (>= 55%) - High dependency, injury = collapse
 
 Usage:
-    python calculate_sdi.py
-    python calculate_sdi.py --verbose
-    python calculate_sdi.py --min_games 5
+    python calculate_sdi.py                # Checks last 7 days of games
+    python calculate_sdi.py --days 14      # Checks last 14 days of games
+    python calculate_sdi.py --verbose      # Prints detailed breakdown
 """
 
-import json
 import os
+import json
 import glob
+import time
 import argparse
+from datetime import datetime, timedelta
 from collections import defaultdict
-from datetime import datetime
+import requests
+from dotenv import load_dotenv
 
-DATA_DIR       = os.path.join(os.path.dirname(__file__), "data")
-HISTORICAL_DIR = os.path.join(DATA_DIR, "historical")
-OUTPUT_FILE    = os.path.join(DATA_DIR, "basketball", "team_sdi.json")
-MIN_GAMES_DEFAULT = 3
+load_dotenv()
+
+BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR       = os.path.join(BASE_DIR, "data")
+BASKETBALL_DIR = os.path.join(DATA_DIR, "basketball")
+CACHE_DIR      = os.path.join(DATA_DIR, "cache", "boxscores")
+OUTPUT_FILE    = os.path.join(BASKETBALL_DIR, "team_sdi.json")
+API_KEY        = os.getenv("API_BASKETBALL_KEY", "")
+API_URL        = "https://v1.basketball.api-sports.io"
+
+MIN_GAMES_DEFAULT = 2
 
 
-def load_all_historical():
-    """Load proballers and nbl1_official files and return list of games with player data."""
-    p_files = glob.glob(os.path.join(HISTORICAL_DIR, "proballers_*.json"))
-    n_files = glob.glob(os.path.join(HISTORICAL_DIR, "nbl1_official_*.json"))
-    files = p_files + n_files
+def fetch_recent_finished_games(days=7):
+    """Fetch finished games from the last N days via API-Basketball."""
+    if not API_KEY:
+        print("  [!] Warning: API_BASKETBALL_KEY not set. Cannot fetch new games.")
+        return []
+
+    headers = {"x-apisports-key": API_KEY}
+    today = datetime.today().date()
     all_games = []
-    for f in files:
+
+    print(f"  Fetching finished games for the last {days} days from API-Basketball...")
+    for i in range(1, days + 1):
+        target_date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
         try:
-            data = json.load(open(f, encoding="utf-8"))
-            for game in data:
-                home_p = game.get("stats", {}).get("home", {}).get("players", [])
-                away_p = game.get("stats", {}).get("away", {}).get("players", [])
-                if home_p or away_p:
-                    all_games.append(game)
-        except Exception:
-            continue
+            r = requests.get(f"{API_URL}/games?date={target_date}", headers=headers, timeout=15)
+            if r.status_code == 200:
+                resp = r.json().get("response", [])
+                finished = [
+                    g for g in resp 
+                    if g.get("status", {}).get("short") in ("FT", "AOT")
+                    and g.get("scores", {}).get("home", {}).get("total") is not None
+                    and g.get("scores", {}).get("away", {}).get("total") is not None
+                ]
+                all_games.extend(finished)
+                print(f"    {target_date}: {len(finished)} finished games found.")
+            else:
+                print(f"    {target_date}: HTTP {r.status_code}")
+        except Exception as e:
+            print(f"    {target_date}: Error fetching games: {e}")
+        time.sleep(0.3)
+
     return all_games
 
 
-def compute_sdi_for_side(players, team_total):
-    """
-    Given a list of player dicts {name, pts} and the team total,
-    return (sdi_pct, top_scorer_pct, top_2_names).
-    """
-    if not players or not team_total or team_total == 0:
+def load_cached_boxscores():
+    """Load all locally cached player box scores."""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    cache = {}
+    pattern = os.path.join(CACHE_DIR, "*.json")
+    for filepath in glob.glob(pattern):
+        try:
+            gid = int(os.path.basename(filepath).replace(".json", ""))
+            with open(filepath, "r", encoding="utf-8") as f:
+                cache[gid] = json.load(f)
+        except Exception:
+            continue
+    return cache
+
+
+def save_boxscores_to_cache(game_id, player_records):
+    """Save player records for a game to local cache."""
+    try:
+        path = os.path.join(CACHE_DIR, f"{game_id}.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(player_records, f, ensure_ascii=False)
+    except Exception:
+        pass
+
+
+def fetch_boxscores_batch(game_ids, headers):
+    """Fetch player box scores for up to 20 games in a single call."""
+    if not game_ids:
+        return {}
+    
+    ids_str = "-".join(str(gid) for gid in game_ids)
+    url = f"{API_URL}/games/statistics/players?ids={ids_str}"
+    
+    try:
+        r = requests.get(url, headers=headers, timeout=25)
+        if r.status_code == 200:
+            resp = r.json().get("response", [])
+            by_game = defaultdict(list)
+            for p in resp:
+                gid = p.get("game", {}).get("id")
+                if gid:
+                    by_game[gid].append(p)
+            return by_game
+        else:
+            print(f"    [!] Error fetching boxscore batch: HTTP {r.status_code}")
+    except Exception as e:
+        print(f"    [!] Exception in batch fetch: {e}")
+    
+    return {}
+
+
+def get_all_boxscores(games, cached_scores):
+    """Ensure all games have boxscores, fetching missing ones via API in batches."""
+    headers = {"x-apisports-key": API_KEY}
+    missing_gids = [g["id"] for g in games if g["id"] not in cached_scores]
+    
+    if missing_gids and API_KEY:
+        print(f"  Fetching player box scores for {len(missing_gids)} games (batches of 20)...")
+        # Chunk into groups of 20
+        chunk_size = 20
+        chunks = [missing_gids[i:i + chunk_size] for i in range(0, len(missing_gids), chunk_size)]
+        
+        for idx, chunk in enumerate(chunks, 1):
+            batch_data = fetch_boxscores_batch(chunk, headers)
+            for gid in chunk:
+                players = batch_data.get(gid, [])
+                cached_scores[gid] = players
+                save_boxscores_to_cache(gid, players)
+            
+            print(f"    [{idx}/{len(chunks)}] Fetched {len(chunk)} games ({sum(len(v) for v in batch_data.values())} player stats).")
+            time.sleep(0.3)
+    else:
+        print(f"  All {len(games)} games are already present in local boxscore cache.")
+
+    return cached_scores
+
+
+def compute_sdi_for_players(players, team_score):
+    """Calculate SDI, top 1 %, and top 2 player names for a single team in a game."""
+    if not players or not team_score or team_score <= 0:
         return None, None, []
-
-    sorted_players = sorted(players, key=lambda x: x.get("pts", 0), reverse=True)
+    
+    # Sort players by points descending
+    sorted_players = sorted(players, key=lambda x: x.get("points") or 0, reverse=True)
     top2 = sorted_players[:2]
-    top2_pts = sum(p.get("pts", 0) for p in top2)
-    top1_pts = top2[0].get("pts", 0) if top2 else 0
+    top2_pts = sum(p.get("points") or 0 for p in top2)
+    top1_pts = top2[0].get("points") or 0 if top2 else 0
 
-    sdi_pct     = (top2_pts / team_total) * 100
-    top1_pct    = (top1_pts / team_total) * 100
-    top2_names  = [p.get("name", "?") for p in top2]
+    sdi_pct = (top2_pts / team_score) * 100
+    top1_pct = (top1_pts / team_score) * 100
+    top2_names = [p.get("player", {}).get("name", "Unknown") for p in top2]
 
     return round(sdi_pct, 1), round(top1_pct, 1), top2_names
 
 
+def load_previous_sdi():
+    """Load existing SDI output to preserve historical teams that haven't played recently."""
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Calculate Star Dependency Index (SDI) per team.")
-    parser.add_argument("--min_games", type=int, default=MIN_GAMES_DEFAULT,
-                        help=f"Minimum games with player data to include a team (default: {MIN_GAMES_DEFAULT})")
-    parser.add_argument("--verbose", action="store_true", help="Print per-team details during processing.")
+    parser = argparse.ArgumentParser(description="Calculate Star Dependency Index (SDI) per team via API.")
+    parser.add_argument("--days", type=int, default=7, help="Number of past days to fetch (default: 7)")
+    parser.add_argument("--min_games", type=int, default=MIN_GAMES_DEFAULT, help="Minimum games required")
+    parser.add_argument("--verbose", action="store_true", help="Print verbose team details")
     args = parser.parse_args()
 
-    print("\n" + "="*70)
-    print("  STAR DEPENDENCY INDEX (SDI) CALCULATOR")
-    print("="*70)
+    print("\n" + "=" * 70)
+    print("  STAR DEPENDENCY INDEX (SDI) CALCULATOR (API-POWERED)")
+    print("=" * 70)
 
-    games = load_all_historical()
-    print(f"  Loaded {len(games)} games with player data across all leagues.\n")
+    # 1. Load cached boxscores
+    cached_boxscores = load_cached_boxscores()
+    print(f"  Loaded {len(cached_boxscores)} previously cached game box scores.")
 
-    # team_data[team_name] = { sdi_samples: [], top1_samples: [], top_scorers: Counter, games: int }
+    # 2. Fetch recent games from API
+    games = fetch_recent_finished_games(days=args.days)
+    
+    # 3. Fetch missing box scores in batches of 20
+    all_boxscores = get_all_boxscores(games, cached_boxscores)
+
+    # 4. Map game details
+    game_lookup = {}
+    for g in games:
+        game_lookup[g["id"]] = {
+            "home_id": g["teams"]["home"]["id"],
+            "home_name": g["teams"]["home"]["name"],
+            "home_score": g["scores"]["home"]["total"] or 0,
+            "away_id": g["teams"]["away"]["id"],
+            "away_name": g["teams"]["away"]["name"],
+            "away_score": g["scores"]["away"]["total"] or 0,
+        }
+
+    # 5. Process player stats by team
     team_data = defaultdict(lambda: {
-        "sdi_samples":  [],
+        "sdi_samples": [],
         "top1_samples": [],
-        "top_scorers":  defaultdict(int),
-        "game_count":   0
+        "top_scorers": defaultdict(int),
+        "game_count": 0
     })
 
-    for game in games:
-        home_team  = game.get("home_team", "")
-        away_team  = game.get("away_team", "")
+    processed_games = 0
+    for gid, players in all_boxscores.items():
+        if not players:
+            continue
+        ginfo = game_lookup.get(gid)
+        if not ginfo:
+            continue
         
-        # Ensure NBL1 women's teams don't get merged with men's teams of the exact same name
-        comp = game.get("competition", "").lower()
-        if "women" in comp or "(w)" in comp:
-            if not home_team.endswith(" W"): home_team += " W"
-            if not away_team.endswith(" W"): away_team += " W"
-            
-        home_score = game.get("home_score", 0) or 0
-        away_score = game.get("away_score", 0) or 0
+        # Group players by team_id
+        team_players = defaultdict(list)
+        for p in players:
+            tid = p.get("team", {}).get("id")
+            if tid:
+                team_players[tid].append(p)
 
-        home_players = game.get("stats", {}).get("home", {}).get("players", [])
-        away_players = game.get("stats", {}).get("away", {}).get("players", [])
+        # For home team
+        h_id = ginfo["home_id"]
+        h_name = ginfo["home_name"]
+        h_score = ginfo["home_score"]
+        if h_id in team_players and h_score > 0:
+            sdi, top1, stars = compute_sdi_for_players(team_players[h_id], h_score)
+            if sdi is not None:
+                team_data[h_name]["sdi_samples"].append(sdi)
+                team_data[h_name]["top1_samples"].append(top1)
+                team_data[h_name]["game_count"] += 1
+                for star in stars:
+                    team_data[h_name]["top_scorers"][star] += 1
 
-        for team, players, total in [
-            (home_team, home_players, home_score),
-            (away_team, away_players, away_score)
-        ]:
-            if not team or not players or total <= 0:
-                continue
+        # For away team
+        a_id = ginfo["away_id"]
+        a_name = ginfo["away_name"]
+        a_score = ginfo["away_score"]
+        if a_id in team_players and a_score > 0:
+            sdi, top1, stars = compute_sdi_for_players(team_players[a_id], a_score)
+            if sdi is not None:
+                team_data[a_name]["sdi_samples"].append(sdi)
+                team_data[a_name]["top1_samples"].append(top1)
+                team_data[a_name]["game_count"] += 1
+                for star in stars:
+                    team_data[a_name]["top_scorers"][star] += 1
 
-            sdi, top1, top2_names = compute_sdi_for_side(players, total)
-            if sdi is None:
-                continue
+        processed_games += 1
 
-            team_data[team]["sdi_samples"].append(sdi)
-            team_data[team]["top1_samples"].append(top1)
-            team_data[team]["game_count"] += 1
+    print(f"  Processed player statistics across {processed_games} games.")
 
-            for name in top2_names:
-                team_data[team]["top_scorers"][name] += 1
-
-    # Compile results
-    results = []
-    skipped = 0
-
+    # 6. Build new team SDI list
+    new_team_records = {}
     for team_name, d in team_data.items():
         g = d["game_count"]
         if g < args.min_games:
-            skipped += 1
             continue
 
         avg_sdi  = round(sum(d["sdi_samples"])  / g, 1)
@@ -145,11 +281,9 @@ def main():
         max_sdi  = round(max(d["sdi_samples"]),  1)
         min_sdi  = round(min(d["sdi_samples"]),  1)
 
-        # Top recurring star players
         top_players = sorted(d["top_scorers"].items(), key=lambda x: x[1], reverse=True)
         top_players_list = [{"name": n, "times_top2": t} for n, t in top_players[:5]]
 
-        # Risk tier
         if avg_sdi >= 55:
             risk = "RED"
             risk_label = "HIGH DEPENDENCY"
@@ -160,7 +294,7 @@ def main():
             risk = "GREEN"
             risk_label = "BALANCED"
 
-        results.append({
+        new_team_records[team_name] = {
             "team":          team_name,
             "games_tracked": g,
             "avg_sdi":       avg_sdi,
@@ -170,25 +304,34 @@ def main():
             "risk":          risk,
             "risk_label":    risk_label,
             "top_players":   top_players_list,
-        })
+        }
 
-        if args.verbose:
-            stars = ", ".join(f"{p['name']} ({p['times_top2']}g)" for p in top_players_list[:2])
-            print(f"  [{risk}] {team_name:<35} SDI={avg_sdi:>5}% | Top1={avg_top1:>4}% | Games={g} | Stars: {stars}")
+    # 7. Merge with existing previous SDI so we don't drop teams that didn't play in this window
+    prev_data = load_previous_sdi()
+    merged_teams = {}
+    if prev_data and "teams" in prev_data:
+        for t in prev_data["teams"]:
+            for p in t.get("top_players", []):
+                if "name" in p:
+                    import re
+                    p["name"] = re.sub(r"\s+", " ", p["name"]).strip()
+            merged_teams[t["team"]] = t
 
-    # Sort by SDI descending (most dependent first)
-    results.sort(key=lambda x: x["avg_sdi"], reverse=True)
+    # Overwrite / update with fresh records
+    for team_name, rec in new_team_records.items():
+        merged_teams[team_name] = rec
 
-    # Summary stats
-    red_count   = sum(1 for r in results if r["risk"] == "RED")
-    amber_count = sum(1 for r in results if r["risk"] == "AMBER")
-    green_count = sum(1 for r in results if r["risk"] == "GREEN")
+    results = list(merged_teams.values())
+    results.sort(key=lambda x: x.get("avg_sdi", 0), reverse=True)
+
+    red_count   = sum(1 for r in results if r.get("risk") == "RED")
+    amber_count = sum(1 for r in results if r.get("risk") == "AMBER")
+    green_count = sum(1 for r in results if r.get("risk") == "GREEN")
 
     output = {
         "generated_at":     datetime.now().isoformat(),
         "total_teams":      len(results),
-        "skipped_teams":    skipped,
-        "min_games_filter": args.min_games,
+        "source":           "api-basketball",
         "summary": {
             "red_high_dependency": red_count,
             "amber_moderate":      amber_count,
@@ -201,26 +344,17 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"\n  Results: {len(results)} teams tracked ({skipped} skipped — fewer than {args.min_games} games)")
+    print(f"\n  Results: {len(results)} teams tracked ({len(new_team_records)} updated from fresh API data).")
     print(f"  Risk breakdown: RED={red_count} | AMBER={amber_count} | GREEN={green_count}")
-    print(f"\n  Output saved -> {OUTPUT_FILE}")
+    print(f"  Output saved -> {OUTPUT_FILE}")
 
-    # Print top 15 most star-dependent teams
-    print(f"\n  TOP 15 MOST STAR-DEPENDENT TEAMS:")
+    # Print top 10 most star-dependent teams
+    print(f"\n  TOP 10 MOST STAR-DEPENDENT TEAMS:")
     print(f"  {'Team':<35} {'SDI':>6} {'Top1':>5} {'Risk':<8} {'Key Players'}")
-    print("  " + "-" * 90)
-    for r in results[:15]:
-        stars = ", ".join(p["name"] for p in r["top_players"][:2])
-        print(f"  {r['team']:<35} {r['avg_sdi']:>5}% {r['avg_top1_pct']:>4}% {r['risk_label']:<12} {stars}")
-
-    # Print bottom 10 most balanced teams
-    print(f"\n  TOP 10 MOST BALANCED TEAMS (Lowest SDI):")
-    print(f"  {'Team':<35} {'SDI':>6} {'Games':>6} {'Risk'}")
-    print("  " + "-" * 60)
-    for r in results[-10:][::-1]:
-        print(f"  {r['team']:<35} {r['avg_sdi']:>5}% {r['games_tracked']:>6}   {r['risk_label']}")
-
-    print()
+    print("  " + "-" * 85)
+    for r in results[:10]:
+        stars = ", ".join(p["name"] for p in r.get("top_players", [])[:2])
+        print(f"  {r['team']:<35} {r.get('avg_sdi', 0):>5}% {r.get('avg_top1_pct', 0):>4}% {r.get('risk_label', ''):<12} {stars}")
 
 
 if __name__ == "__main__":

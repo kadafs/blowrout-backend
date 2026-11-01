@@ -37,6 +37,7 @@ from core.offline_match_center import compile_offline_match_center
 from core.confidence_score import compute_confidence
 from run_confidence_report import load_leaderboard, get_team_stats
 from core.sdi_lookup import load_sdi_index, get_sdi_record
+from core.odds_client import fetch_game_odds
 
 if sys.platform == "win32":
     try:
@@ -399,6 +400,7 @@ def fetch_today_fixtures(date_str, refresh=False):
         home_id = game.get("teams", {}).get("home", {}).get("id")
         away_id = game.get("teams", {}).get("away", {}).get("id")
         by_league[(lid, lname, country, season)].append({
+            "id": game.get("id"),
             "home": home, "away": away,
             "home_id": home_id, "away_id": away_id,
             "home_score": hs, "away_score": as_,
@@ -670,7 +672,7 @@ def calculate_win_prob(spread, std_dev=12.0):
     # Using a simple approximation if scipy is not available, but norm.cdf is better
     return norm.cdf(spread / std_dev)
 
-def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None, fallback_stats=None):
+def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None, fallback_stats=None, market_total=None):
     """
     Run the UniversalBasketballEngine for a single matchup.
     Returns engine result dict or None if teams not found.
@@ -830,7 +832,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
         "pace_adjustment":      raw_pace,
         "efficiency_adjustment": crossmatch_eff,
         "projected_spread": abs(spread_est),
-        "market_total": None,
+        "market_total": market_total,
         "is_neutral": False,
         "is_b2b_home": is_b2b_home,
         "is_b2b_away": is_b2b_away,
@@ -939,6 +941,7 @@ def main():
     
     # Load Global M.B.E.T Array
     mbet_matrix = load_json("configs/league_edge_thresholds.json") or {}
+    odds_cache = {}
     
     # Load Leaderboard for Confidence Scoring snapshot
     print(f"  Loading leaderboard for runtime confidence scoring...")
@@ -1004,13 +1007,18 @@ def main():
 
             away_id = game.get("away_id")
             home_id = game.get("home_id")
+            gid = game.get("id")
+
+            # Fetch live market odds (Pinnacle consensus)
+            odds_info = fetch_game_odds(gid, session_cache=odds_cache) if gid else {"has_live_odds": False}
+            live_market = odds_info.get("market_total") if odds_info.get("has_live_odds") else None
 
             best_pass = None
 
             # PASS 1: Try ADVANCED Model first if matrix exists
             if stats_adv:
                 result_adv, err_adv = predict_game(
-                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs
+                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs, market_total=live_market
                 )
                 if not err_adv:
                     best_pass = (result_adv, "[ADVANCED]", stats_adv)
@@ -1018,7 +1026,7 @@ def main():
             # PASS 2: Fallback to SRS if ADVANCED failed or doesn't exist
             if not best_pass:
                 result_srs, err_srs = predict_game(
-                    away, home, away_id, home_id, stats_srs, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries
+                    away, home, away_id, home_id, stats_srs, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, market_total=live_market
                 )
                 if not err_srs:
                     best_pass = (result_srs, "[  SRS   ]", stats_srs)
@@ -1033,15 +1041,14 @@ def main():
                 
             for res, matrix_type, active_stats in passes:
                 model_total = res.get("final_model_total", 0.0)
-                market      = res.get("market_total")
-                edge        = res.get("edge")
-                decision    = res.get("decision", "MODEL ONLY")
-                confidence  = res.get("confidence", "-")
-                side        = res.get("side", "-")
-                
-                # Post-Engine M.B.E.T Filter Enforcement
+                has_live_odds = odds_info.get("has_live_odds", False) and (live_market is not None)
                 mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 4.0)
-                if edge is not None and market not in (145.5, 230.0):
+
+                if has_live_odds:
+                    market = live_market
+                    edge = round(model_total - market, 1)
+                    side = "OVER" if edge > 0 else "UNDER"
+                    odds_source = odds_info.get("bookmaker") or "BOOKMAKER"
                     abs_edge = abs(edge)
                     if abs_edge >= mbet:
                         decision = f"PLAY {side}"
@@ -1049,14 +1056,18 @@ def main():
                     else:
                         decision = "PASS"
                         confidence = "MBET FILTER"
-
-                # Format output line
-                if market and market not in (145.5, 230.0):
-                    mkt_str = f"Mkt:{market:.1f}"
+                    mkt_str = f"Mkt:{market:.1f} [{odds_source}]"
                     edge_str = f"Edge:{edge:+.1f} {side} [{confidence}] -> {decision}"
                 else:
-                    mkt_str = "Mkt:N/A"
-                    edge_str = "MODEL ONLY (no line)"
+                    baseline = config.get("_avg_total", 145.5)
+                    market = None
+                    edge = None
+                    side = None
+                    decision = "MODEL ONLY"
+                    confidence = "-"
+                    odds_source = "CALIBRATED_BASELINE"
+                    mkt_str = f"Mkt:N/A (Base:{baseline:.1f})"
+                    edge_str = "MODEL ONLY (no live odds)"
 
                 score_str = ""
                 if game.get("home_score") is not None:
@@ -1128,15 +1139,13 @@ def main():
                     if h_off is not None and h_def is not None and a_off is not None and a_def is not None:
                         if h_off < eff_pivot and a_off < eff_pivot and h_def > eff_pivot and a_def > eff_pivot:
                             is_clash = True
-                            clash_mkt = market if (market and market not in (145.5, 230.0)) else None
-                            if clash_mkt is not None and (model_total - clash_mkt) >= 7.0:
+                            if market is not None and (model_total - market) >= 7.0:
                                 clash_trigger = "SHARP OVER"
                             else:
                                 clash_trigger = "CLASH"
                         elif h_off > eff_pivot and a_off > eff_pivot and h_def > eff_pivot and a_def > eff_pivot:
                             is_shootout = True
-                            mkt_val = market if (market and market not in (145.5, 230.0)) else None
-                            if mkt_val is not None and (model_total - mkt_val) >= 5.0:
+                            if market is not None and (model_total - market) >= 5.0:
                                 shootout_trigger = "SHARP SHOOTOUT"
                             else:
                                 shootout_trigger = "SHOOTOUT"
@@ -1177,11 +1186,17 @@ def main():
                     "away_source":  sA.get("source", "SRS") if sA else "SRS",
                     "home_team_volatility": sH.get("std_dev_totals", None) if sH else None,
                     "away_team_volatility": sA.get("std_dev_totals", None) if sA else None,
-                    "market_total": market if (market and market not in (145.5, 230.0)) else None,
-                    "edge":         edge if (market and market not in (145.5, 230.0)) else None,
-                    "side":         side if (market and market not in (145.5, 230.0)) else None,
-                    "decision":     decision if (market and market not in (145.5, 230.0)) else "MODEL ONLY",
+                    "game_id":      gid,
+                    "market_total": market,
+                    "edge":         edge,
+                    "side":         side,
+                    "decision":     decision,
                     "confidence":   confidence,
+                    "odds_source":  odds_source,
+                    "bookmaker":    odds_info.get("bookmaker") if has_live_odds else None,
+                    "odds_over":    odds_info.get("odds_over") if has_live_odds else None,
+                    "odds_under":   odds_info.get("odds_under") if has_live_odds else None,
+                    "baseline_total": config.get("_avg_total") if not has_live_odds else None,
                     "confidence_score_band": conf_res["band"]["label"].strip(),
                     "confidence_score": conf_res["confidence_score"],
                     "floor_status": conf_res.get("floor_status", "N/A"),

@@ -58,32 +58,23 @@ jobs:
           FORCE_CALIBRATE="${{ github.event.inputs.force_calibrate }}"
           
           if [ "$DAY_OF_MONTH" = "01" ] || [ "$DAY_OF_MONTH" = "15" ] || [ "$FORCE_CALIBRATE" = "true" ]; then
-            echo "--- 2. Rebuilding Pace/Eff Pivots (V1) ---"
-            python calibrate_from_local.py
-            
-            echo "--- 2b. Rebuilding Pace/Eff Pivots (V2) ---"
-            python calibrate_from_local_v2.py
+            echo "--- 2. Rebuilding Pace/Eff Pivots (V2) ---"
+            python recalibrate_from_api.py --active --limit 50
           else
             echo "--- Skipping Pace/Eff Pivots Rebuild (Runs 1st and 15th of month) ---"
           fi
           
-          echo "--- 3. Generating Advanced Metrics (V1) ---"
-          python generate_advanced_metrics.py
-          
-          echo "--- 3b. Generating Advanced Metrics (V2) ---"
+          echo "--- 3. Generating Advanced Metrics (V2) ---"
           python generate_advanced_metrics_v2.py
           
-          echo "--- 4. Running Daily Predictions (V1) ---"
-          python run_basketball_daily.py --mode full --refresh $DATE_FLAG
-          
-          echo "--- 4b. Running Daily Predictions (V2) ---"
-          python run_basketball_daily_v2.py --mode full $DATE_FLAG
+          echo "--- 4. Running Daily Predictions (V2) ---"
+          python run_basketball_daily_v2.py --mode full --refresh $DATE_FLAG
 
       - name: Commit local data changes
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add data/
+          git add data/ configs/
           git diff --staged --quiet && echo "No changes to commit to ncaa-api." || (
             git commit -m "data: generate basketball predictions $(date -u +'%Y-%m-%d')"
             git push

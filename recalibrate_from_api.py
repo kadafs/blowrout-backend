@@ -281,7 +281,7 @@ def main():
     parser = argparse.ArgumentParser(description="Official API League Calibrator")
     parser.add_argument("--league_id", type=int, help="Single league ID to calibrate")
     parser.add_argument("--active", action="store_true", help="Calibrate all leagues active in today's predictions")
-    parser.add_argument("--limit", type=int, default=50, help="Max leagues to calibrate in one batch")
+    parser.add_argument("--limit", type=int, default=0, help="Max leagues to calibrate (default: 0 = all)")
     args = parser.parse_args()
 
     print("=" * 70)
@@ -318,7 +318,7 @@ def main():
                 target_ids.append(int(base))
         print(f"Found {len(target_ids)} total league configs in repository.")
 
-    if args.limit and len(target_ids) > args.limit:
+    if args.limit and args.limit > 0 and len(target_ids) > args.limit:
         target_ids = target_ids[:args.limit]
         print(f"Batching down to top {args.limit} leagues.")
 

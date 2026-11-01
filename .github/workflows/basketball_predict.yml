@@ -59,7 +59,7 @@ jobs:
           
           if [ "$DAY_OF_MONTH" = "01" ] || [ "$DAY_OF_MONTH" = "15" ] || [ "$FORCE_CALIBRATE" = "true" ]; then
             echo "--- 2. Rebuilding Pace/Eff Pivots (V2) ---"
-            python recalibrate_from_api.py --active --limit 50
+            python recalibrate_from_api.py --active
           else
             echo "--- Skipping Pace/Eff Pivots Rebuild (Runs 1st and 15th of month) ---"
           fi

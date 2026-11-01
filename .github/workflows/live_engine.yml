@@ -44,6 +44,7 @@ jobs:
           for i in $(seq 1 $ITERATIONS); do
             echo "Iteration $i / $ITERATIONS at $(date)"
             python run_live_engine.py || true
+            python run_live_inplay_engine.py || true
             
             if [ $i -lt $ITERATIONS ]; then
               echo "Sleeping for 1 minute..."

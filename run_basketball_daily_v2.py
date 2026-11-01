@@ -33,7 +33,7 @@ from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 from scipy.stats import norm
 
-from core.offline_match_center import compile_offline_match_center
+from core.live_match_center import build_live_match_center
 from core.confidence_score import compute_confidence
 from run_confidence_report import load_leaderboard, get_team_stats
 from core.sdi_lookup import load_sdi_index, get_sdi_record
@@ -1087,11 +1087,11 @@ def main():
                 league_standings_data = None
                 
                 if args.match_center:
-                    offline_data = compile_offline_match_center(lid, lname, home, away, ref_date=date_str)
-                    h2h = offline_data["h2h"]
-                    recentH = offline_data["recentH"]
-                    recentA = offline_data["recentA"]
-                    league_standings_data = offline_data["full_standings"]
+                    mc_data = build_live_match_center(lid, lname, season, home, away, home_id=home_id, away_id=away_id, ref_date=date_str)
+                    h2h = mc_data.get("h2h", [])
+                    recentH = mc_data.get("recentH", [])
+                    recentA = mc_data.get("recentA", [])
+                    league_standings_data = mc_data.get("full_standings", [])
                 
                 _, sA = find_team(away, active_stats)
                 if not sA and stats_srs:

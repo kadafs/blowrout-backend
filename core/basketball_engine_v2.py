@@ -39,34 +39,18 @@ class UniversalBasketballEngineV2:
         # --- PHASE 1: STATISTICAL FOUNDATION ---
         pace_adj = game_data.get('pace_adjustment', c['pace_pivot'])
         
-        # Step 0: Pace Multiplier
-        pace_mult = c.get('conf_pace_multipliers', {}).get(conf, c.get('conf_pace_multipliers', {}).get('DEFAULT', 1.0))
-        if pace_mult != 1.0:
-            pace_adj *= pace_mult
-            self._log(f"Step 0: Pace Multiplier ({conf}) -> {pace_adj:.1f}")
-
         eff_adj = game_data.get('efficiency_adjustment', c['eff_pivot'])
         
-        # Step 1: Base Total Formula
+        # Step 1: Base Total Formula (Standard empirical formula for all teams and leagues)
         stats_total = ((eff_adj * pace_adj) / 100) * 2
         self._log(f"Step 1: Base Total ({eff_adj:.1f} Eff @ {pace_adj:.1f} Pace) = {stats_total:.2f}")
         self._log(f"Step 2: Pace Impact DISABLED (pace embedded multiplicatively)")
         
-        # Step 3: Alignment (Conf & HCA)
+        # Step 3: Alignment (HCA)
         if not game_data.get('is_neutral', False):
             hca = c.get('hca_total_bump', 0)
             stats_total += hca
             self._log(f"Step 3: Home Court Advantage -> +{hca:.1f}")
-            
-        cb = c.get('conf_bias', {}).get(conf, c.get('conf_bias', {}).get('DEFAULT', 0))
-        if pace_mult != 1.0 and cb != 0:
-            reduction = 0.5
-            cb = cb - reduction if cb > 0 else cb + reduction
-            self._log(f"Step 3b: Conf Bias Sync Gate -> Bias adjusted to {cb:+.1f}")
-        
-        if cb != 0:
-            stats_total += cb
-            self._log(f"Step 3c: Conference Bias ({conf}) -> {cb:+.1f}")
 
         # Step 4: UNIFIED REGRESSION (Linear blend-to-mean avoids downward bias)
         if c['name'] == "NBA":

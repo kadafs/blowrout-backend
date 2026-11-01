@@ -38,6 +38,7 @@ from core.confidence_score import compute_confidence
 from run_confidence_report import load_leaderboard, get_team_stats
 from core.sdi_lookup import load_sdi_index, get_sdi_record
 from core.odds_client import fetch_game_odds
+from core.ncaa_conference_resolver import resolve_ncaa_conference, is_ncaa_league, get_api_league_id
 
 if sys.platform == "win32":
     try:
@@ -348,6 +349,47 @@ def save_json(path, data):
 # STEP 1: FETCH TODAY'S FIXTURES
 # ------------------------------------------------------------------
 
+def partition_ncaa_leagues(leagues_summary):
+    """
+    Ensures that any games under generic NCAA (league_id == 116) are partitioned
+    into their specific individual conferences (e.g. NCAA - Big East, NCAA - Big Ten)
+    or NCAA - Non-Conference.
+    """
+    if not any(l.get("league_id") == 116 for l in leagues_summary):
+        return leagues_summary
+
+    from collections import defaultdict
+    new_summary = []
+    ncaa_by_conf = defaultdict(list)
+
+    for entry in leagues_summary:
+        if entry.get("league_id") != 116:
+            new_summary.append(entry)
+            continue
+
+        country = entry.get("country", "USA")
+        season = entry.get("season")
+        for g in entry.get("games", []):
+            hid = g.get("home_id")
+            hname = g.get("home")
+            aid = g.get("away_id")
+            aname = g.get("away")
+            c_lid, c_lname, _ = resolve_ncaa_conference(hid, hname, aid, aname)
+            ncaa_by_conf[(c_lid, c_lname, country, season)].append(g)
+
+    for (c_lid, c_lname, country, season), games in sorted(ncaa_by_conf.items(), key=lambda x: x[0][1]):
+        new_summary.append({
+            "league_id": c_lid,
+            "league_name": c_lname,
+            "country": country,
+            "season": season,
+            "game_count": len(games),
+            "games": games
+        })
+
+    return new_summary
+
+
 def fetch_today_fixtures(date_str, refresh=False):
     """
     Returns all games for today from api-basketball.com.
@@ -358,7 +400,10 @@ def fetch_today_fixtures(date_str, refresh=False):
     if not refresh and os.path.exists(cache_path):
         print(f"  Using cached fixtures: {cache_path}")
         data = load_json(cache_path)
-        return data.get("leagues_summary", [])
+        cached = data.get("leagues_summary", [])
+        if cached:
+            return partition_ncaa_leagues(cached)
+        return []
 
     print(f"  Fetching fixtures for {date_str} from api-basketball.com...")
     try:
@@ -383,7 +428,7 @@ def fetch_today_fixtures(date_str, refresh=False):
         data = load_json(cache_path)
         cached = data.get("leagues_summary", [])
         if cached:
-            return cached
+            return partition_ncaa_leagues(cached)
 
     from collections import defaultdict
     by_league = defaultdict(list)
@@ -399,6 +444,10 @@ def fetch_today_fixtures(date_str, refresh=False):
         as_ = game.get("scores", {}).get("away", {}).get("total")
         home_id = game.get("teams", {}).get("home", {}).get("id")
         away_id = game.get("teams", {}).get("away", {}).get("id")
+
+        if lid == 116:
+            lid, lname, _ = resolve_ncaa_conference(home_id, home, away_id, away)
+
         by_league[(lid, lname, country, season)].append({
             "id": game.get("id"),
             "home": home, "away": away,
@@ -473,6 +522,19 @@ def get_or_calibrate_config(league_id, league_name, auto_calibrate=True):
             except Exception as e:
                 print(f"      Failed to delete corrupted config: {e}")
 
+    try:
+        lid_int = int(league_id)
+        if 11600 <= lid_int <= 11699:
+            base_p = "configs/leagues_v2/116.json"
+            if os.path.exists(base_p):
+                cfg = load_json(base_p)
+                cfg["name"] = league_name
+                cfg["_league_id"] = league_id
+                save_json(config_path, cfg)
+                return config_path, cfg
+    except Exception:
+        pass
+
     if auto_calibrate:
         print(f"    No config found for league {league_id}.")
         print(f"    WARNING: LIVE API Calibration is permanently disabled. Please run calibrate_from_local.py to securely generate baselines.")
@@ -488,6 +550,12 @@ def get_advanced_stats(league_id, season=None):
     """Load cached [ADVANCED] matrix if available."""
     from fetch_universal_bball_stats import attach_prior_season_stats
     matrix_path = f"data/bball_stats_{league_id}_adv_v2.json"
+    if not os.path.exists(matrix_path):
+        try:
+            if 11600 <= int(league_id) <= 11699:
+                matrix_path = "data/bball_stats_116_adv_v2.json"
+        except Exception:
+            pass
     if os.path.exists(matrix_path):
         data = load_json(matrix_path)
         if data.get("note") == "Insufficient box-score coverage; using SRS fallback": 
@@ -513,6 +581,12 @@ def get_srs_stats(league_id, season, refresh=False):
     """Load cached [  SRS   ] matrix strictly from V2."""
     from fetch_universal_bball_stats import attach_prior_season_stats
     matrix_path = f"data/bball_stats_{league_id}_srs_v2.json"
+    if not os.path.exists(matrix_path):
+        try:
+            if 11600 <= int(league_id) <= 11699:
+                matrix_path = "data/bball_stats_116_srs_v2.json"
+        except Exception:
+            pass
     if os.path.exists(matrix_path):
         data = load_json(matrix_path)
         raw_teams = data.get("teams", data)
@@ -927,7 +1001,10 @@ def main():
         if l["league_id"] not in EXCLUDED_LEAGUE_IDS
     ]
     if args.league_id:
-        leagues = [l for l in leagues if l["league_id"] == args.league_id]
+        if args.league_id == 116:
+            leagues = [l for l in leagues if l["league_id"] == 116 or (11600 <= l["league_id"] <= 11699)]
+        else:
+            leagues = [l for l in leagues if l["league_id"] == args.league_id]
     if args.min_games > 1:
         leagues = [l for l in leagues if l["game_count"] >= args.min_games]
 

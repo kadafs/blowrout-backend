@@ -14,6 +14,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from core.offline_match_center import compile_offline_match_center
+from core.ncaa_conference_resolver import get_api_league_id
 
 load_dotenv()
 
@@ -52,14 +53,15 @@ def fetch_live_standings(league_id, season):
     if not API_KEY or not league_id or not season:
         return []
 
-    cache_key = f"standings_{league_id}_{season}"
+    api_lid = get_api_league_id(league_id)
+    cache_key = f"standings_{api_lid}_{season}"
     cached = _get_cache(cache_key)
     if cached is not None:
         return cached
 
     url = f"{API_URL}/standings"
     try:
-        r = requests.get(url, headers=HEADERS, params={"league": league_id, "season": season}, timeout=15)
+        r = requests.get(url, headers=HEADERS, params={"league": api_lid, "season": season}, timeout=15)
         if r.status_code == 200:
             resp = r.json().get("response", [])
             if resp:
@@ -68,7 +70,7 @@ def fetch_live_standings(league_id, season):
             # Try single year if split year failed (e.g. '2026' instead of '2026-2027')
             s_short = str(season).split("-")[0]
             if s_short != str(season):
-                r2 = requests.get(url, headers=HEADERS, params={"league": league_id, "season": s_short}, timeout=15)
+                r2 = requests.get(url, headers=HEADERS, params={"league": api_lid, "season": s_short}, timeout=15)
                 if r2.status_code == 200:
                     resp2 = r2.json().get("response", [])
                     if resp2:
@@ -85,14 +87,15 @@ def fetch_live_league_games(league_id, season):
     if not API_KEY or not league_id or not season:
         return []
 
-    cache_key = f"games_{league_id}_{season}"
+    api_lid = get_api_league_id(league_id)
+    cache_key = f"games_{api_lid}_{season}"
     cached = _get_cache(cache_key)
     if cached is not None:
         return cached
 
     url = f"{API_URL}/games"
     try:
-        r = requests.get(url, headers=HEADERS, params={"league": league_id, "season": season}, timeout=20)
+        r = requests.get(url, headers=HEADERS, params={"league": api_lid, "season": season}, timeout=20)
         if r.status_code == 200:
             resp = r.json().get("response", [])
             finished = [
@@ -108,7 +111,7 @@ def fetch_live_league_games(league_id, season):
         # Try short season string
         s_short = str(season).split("-")[0]
         if s_short != str(season):
-            r2 = requests.get(url, headers=HEADERS, params={"league": league_id, "season": s_short}, timeout=20)
+            r2 = requests.get(url, headers=HEADERS, params={"league": api_lid, "season": s_short}, timeout=20)
             if r2.status_code == 200:
                 resp2 = r2.json().get("response", [])
                 finished2 = [
@@ -133,6 +136,21 @@ def build_live_match_center(league_id, league_name, season, home_team, away_team
     """
     standings = fetch_live_standings(league_id, season)
     league_games = fetch_live_league_games(league_id, season)
+
+    try:
+        lid_int = int(league_id)
+        if standings and 11601 <= lid_int <= 11631:
+            conf_keyword = league_name.replace("NCAA -", "").strip().lower()
+            filtered = []
+            for grp in standings:
+                if isinstance(grp, list) and grp:
+                    grp_name = grp[0].get("group", {}).get("name", "").lower()
+                    if conf_keyword in grp_name or grp_name in conf_keyword:
+                        filtered.append(grp)
+            if filtered:
+                standings = filtered
+    except (ValueError, TypeError):
+        pass
 
     if not standings and not league_games:
         # Fall back completely to offline database

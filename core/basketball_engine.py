@@ -37,41 +37,20 @@ class UniversalBasketballEngine:
         # --- PHASE 1: STATISTICAL FOUNDATION ---
         pace_adj = game_data.get('pace_adjustment', c['pace_pivot'])
         
-        # Step 0: Pace Multiplier
-        pace_mult = c.get('conf_pace_multipliers', {}).get(conf, c.get('conf_pace_multipliers', {}).get('DEFAULT', 1.0))
-        if pace_mult != 1.0:
-            pace_adj *= pace_mult
-            self._log(f"Step 0: Pace Multiplier ({conf}) -> {pace_adj:.1f}")
-
         eff_adj = game_data.get('efficiency_adjustment', c['eff_pivot'])
         
-        # Step 1: Base Total (v4.0: crossmatch efficiency computed upstream for all leagues)
+        # Step 1: Base Total (Standard empirical formula for all teams and leagues)
         stats_total = ((eff_adj * pace_adj) / 100) * 2
         self._log(f"Step 1: Base Total ({eff_adj:.1f} Eff @ {pace_adj:.1f} Pace) = {stats_total:.2f}")
 
-        # Step 2: Pace Impact (v3.0: DISABLED for NBA to avoid double-counting)
-        # Step 2: Pace Impact — DISABLED for all leagues (v4.0)
-        # Pace is already embedded multiplicatively in Step 1.
-        # Adding an additive delta on top causes systematic double-counting.
-        self._log(f"Step 2: Pace Impact DISABLED (v4.0: pace already in base formula)")
+        # Step 2: Pace Impact — DISABLED for all leagues (pace already in base formula)
+        self._log(f"Step 2: Pace Impact DISABLED (pace already in base formula)")
         
-        # Step 3: Alignment (Conf & HCA) -> BEFORE Regression
-        # HCA Gate: Disable if neutral
+        # Step 3: Alignment (HCA) -> BEFORE Regression
         if not game_data.get('is_neutral', False):
             hca = c.get('hca_total_bump', 0)
             stats_total += hca
             self._log(f"Step 3: Home Court Advantage -> +{hca:.1f}")
-            
-        # Conference Sync Gate: Reduce bias if pace multiplier used
-        cb = c.get('conf_bias', {}).get(conf, c.get('conf_bias', {}).get('DEFAULT', 0))
-        if pace_mult != 1.0 and cb != 0:
-            reduction = 0.5
-            cb = cb - reduction if cb > 0 else cb + reduction
-            self._log(f"Step 3b: Conf Bias Sync Gate (Pace Mult used) -> Bias reduced to {cb:+.1f}")
-        
-        if cb != 0:
-            stats_total += cb
-            self._log(f"Step 3c: Conference Bias ({conf}) -> {cb:+.1f}")
 
         # Step 4: REGRESSION → v4.0 Blend-to-mean for all leagues
         if c['name'] == "NBA":

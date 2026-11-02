@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571180,
+      "referee": "A. Rodriguez",
+      "timezone": "UTC",
+      "date": "2026-10-25T17:45:00+00:00",
+      "timestamp": 1792950300,
+      "periods": {
+        "first": 1792950300,
+        "second": 1792953900
+      },
+      "venue": {
+        "id": null,
+        "name": "Nou Estadi de Tarragona",
+        "city": "Tarragona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 436,
+      "name": "Primera Divisi\u00f3n RFEF - Group 2",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/436.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 2 - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 714,
+        "name": "Gimnastic",
+        "logo": "https://media.api-sports.io/football/teams/714.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4666,
+        "name": "H\u00e9rcules",
+        "logo": "https://media.api-sports.io/football/teams/4666.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571170,
       "referee": "M. B. Torres",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571126,
-      "referee": "L. Balle Reus",
-      "timezone": "UTC",
-      "date": "2026-09-20T10:00:00+00:00",
-      "timestamp": 1789898400,
-      "periods": {
-        "first": 1789898400,
-        "second": 1789902000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Municipal de Santo Domingo",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 436,
-      "name": "Primera Divisi\u00f3n RFEF - Group 2",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/436.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 2 - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 711,
-        "name": "Alcorcon",
-        "logo": "https://media.api-sports.io/football/teams/711.png",
-        "winner": true
-      },
-      "away": {
-        "id": 714,
-        "name": "Gimnastic",
-        "logo": "https://media.api-sports.io/football/teams/714.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

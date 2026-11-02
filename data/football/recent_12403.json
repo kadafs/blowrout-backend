@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635507,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T13:00:00+00:00",
+      "timestamp": 1793192400,
+      "periods": {
+        "first": 1793192400,
+        "second": 1793196000
+      },
+      "venue": {
+        "id": null,
+        "name": "Markopoulo Municipal Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 199,
+      "name": "Cup",
+      "country": "Greece",
+      "logo": "https://media.api-sports.io/football/leagues/199.png",
+      "flag": "https://media.api-sports.io/flags/gr.svg",
+      "season": 2026,
+      "round": "Greek Cup - 4",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12403,
+        "name": "Marko",
+        "logo": "https://media.api-sports.io/football/teams/12403.png",
+        "winner": false
+      },
+      "away": {
+        "id": 553,
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1636961,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636929,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T13:00:00+00:00",
-      "timestamp": 1790600400,
-      "periods": {
-        "first": 1790600400,
-        "second": 1790604000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 494,
-      "name": "Super League 2",
-      "country": "Greece",
-      "logo": "https://media.api-sports.io/football/leagues/494.png",
-      "flag": "https://media.api-sports.io/flags/gr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12403,
-        "name": "Marko",
-        "logo": "https://media.api-sports.io/football/teams/12403.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2090,
-        "name": "Panthrakikos",
-        "logo": "https://media.api-sports.io/football/teams/2090.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

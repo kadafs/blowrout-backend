@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1498915,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T19:00:00+00:00",
+      "timestamp": 1792954800,
+      "periods": {
+        "first": 1792954800,
+        "second": 1792958400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 129,
+      "name": "Primera Nacional",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/129.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Regular Season - 35",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 444,
+        "name": "Patronato",
+        "logo": "https://media.api-sports.io/football/teams/444.png",
+        "winner": false
+      },
+      "away": {
+        "id": 462,
+        "name": "Agropecuario",
+        "logo": "https://media.api-sports.io/football/teams/462.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1498900,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1498823,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-21T22:00:00+00:00",
-      "timestamp": 1790028000,
-      "periods": {
-        "first": 1790028000,
-        "second": 1790031600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Nueva Chicago",
-        "city": "Buenos Aires"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 129,
-      "name": "Primera Nacional",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/129.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 484,
-        "name": "Nueva Chicago",
-        "logo": "https://media.api-sports.io/football/teams/484.png",
-        "winner": null
-      },
-      "away": {
-        "id": 444,
-        "name": "Patronato",
-        "logo": "https://media.api-sports.io/football/teams/444.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

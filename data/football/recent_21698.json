@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644149,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T18:30:00+00:00",
+      "timestamp": 1793212200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1135,
+        "name": "Sportpark De Toekomst",
+        "city": "Amsterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1191,
+      "name": "UEFA Europa Cup - Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1191.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1898,
+        "name": "Ajax W",
+        "logo": "https://media.api-sports.io/football/teams/1898.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21698,
+        "name": "Malm\u00f6 FF W",
+        "logo": "https://media.api-sports.io/football/teams/21698.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495589,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495567,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T11:00:00+00:00",
-      "timestamp": 1790506800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1503,
-        "name": "Grimsta IP",
-        "city": "Stockholm"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 549,
-      "name": "Damallsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/549.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16004,
-        "name": "Brommapojkarna W",
-        "logo": "https://media.api-sports.io/football/teams/16004.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21698,
-        "name": "Malm\u00f6 FF W",
-        "logo": "https://media.api-sports.io/football/teams/21698.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

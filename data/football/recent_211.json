@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1589435,
+      "referee": "J. Bessa",
+      "timezone": "UTC",
+      "date": "2026-10-29T20:45:00+00:00",
+      "timestamp": 1793306700,
+      "periods": {
+        "first": 1793306700,
+        "second": 1793310300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Lisbon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 762,
+        "name": "GIL Vicente",
+        "logo": "https://media.api-sports.io/football/teams/762.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575524,
-      "referee": "Claudio Pereira",
+      "referee": "C. Pereira",
       "timezone": "UTC",
       "date": "2026-10-26T18:45:00+00:00",
       "timestamp": 1793040300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793040300,
+        "second": 1793043900
       },
       "venue": {
         "id": 1289,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1575511,
-      "referee": "Lu\u00eds Godinho, Portugal",
+      "referee": "L. M. Branco Godinho",
       "timezone": "UTC",
       "date": "2026-10-11T17:00:00+00:00",
       "timestamp": 1791738000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791738000,
+        "second": 1791741600
       },
       "venue": {
         "id": 1265,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575503,
-      "referee": "Miguel Nogueira, Portugal",
-      "timezone": "UTC",
-      "date": "2026-09-20T19:30:00+00:00",
-      "timestamp": 1789932600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1286,
-        "name": "Est\u00e1dio do Drag\u00e3o",
-        "city": "Porto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 94,
-      "name": "Primeira Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/94.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 212,
-        "name": "FC Porto",
-        "logo": "https://media.api-sports.io/football/teams/212.png",
-        "winner": true
-      },
-      "away": {
-        "id": 211,
-        "name": "Benfica",
-        "logo": "https://media.api-sports.io/football/teams/211.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

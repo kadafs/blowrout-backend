@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558256,
+      "referee": "M. Szczerbowicz",
+      "timezone": "UTC",
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
+      "periods": {
+        "first": 1793034000,
+        "second": 1793037600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 107,
+      "name": "I Liga",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/107.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3496,
+        "name": "Warta Pozna\u0144",
+        "logo": "https://media.api-sports.io/football/teams/3496.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3498,
+        "name": "\u0141KS \u0141\u00f3d\u017a",
+        "logo": "https://media.api-sports.io/football/teams/3498.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558242,
       "referee": "F. Kaliszewski",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558203,
-      "referee": "M. Jenda",
-      "timezone": "UTC",
-      "date": "2026-09-06T12:30:00+00:00",
-      "timestamp": 1788697800,
-      "periods": {
-        "first": 1788697800,
-        "second": 1788701400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Miejski w Gdyni",
-        "city": "Gdynia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 107,
-      "name": "I Liga",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/107.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 344,
-        "name": "Arka Gdynia",
-        "logo": "https://media.api-sports.io/football/teams/344.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3498,
-        "name": "\u0141KS \u0141\u00f3d\u017a",
-        "logo": "https://media.api-sports.io/football/teams/3498.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645114,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T10:00:00+00:00",
+      "timestamp": 1793268000,
+      "periods": {
+        "first": 1793268000,
+        "second": 1793271600
+      },
+      "venue": {
+        "id": null,
+        "name": "Chernihiv Arena",
+        "city": "Chernihiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 335,
+      "name": "Cup",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/335.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14433,
+        "name": "Chernihiv",
+        "logo": "https://media.api-sports.io/football/teams/14433.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14434,
+        "name": "Epitsentr Dunayivtsi",
+        "logo": "https://media.api-sports.io/football/teams/14434.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565508,
       "referee": "Jevgeny Tsybulko, Ukraine",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565482,
-      "referee": "Oleksandr Afanasev, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-19T15:00:00+00:00",
-      "timestamp": 1789830000,
-      "periods": {
-        "first": 1789830000,
-        "second": 1789833600
-      },
-      "venue": {
-        "id": null,
-        "name": "Roman Shukhevych Ternopil City Stadium",
-        "city": "Ternopil"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14434,
-        "name": "Epitsentr Dunayivtsi",
-        "logo": "https://media.api-sports.io/football/teams/14434.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17162,
-        "name": "Livyi Bereh",
-        "logo": "https://media.api-sports.io/football/teams/17162.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

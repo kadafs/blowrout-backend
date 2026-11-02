@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1645430,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T12:30:00+00:00",
+      "timestamp": 1793277000,
+      "periods": {
+        "first": 1793277000,
+        "second": 1793280600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 997,
+        "name": "Gen\u00e7lerbirli\u011fi S.K.",
+        "logo": "https://media.api-sports.io/football/teams/997.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7408,
+        "name": "Karak\u00f6pr\u00fc Belediyespor",
+        "logo": "https://media.api-sports.io/football/teams/7408.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584445,
-      "referee": "Oguzhan Cakir, T\u00fcrkiye",
+      "referee": "O. Cakir",
       "timezone": "UTC",
       "date": "2026-10-25T13:00:00+00:00",
       "timestamp": 1792933200,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Medas Konya B\u00fcy\u00fcksehir Belediyesi Stadium",
+        "name": "Konya Buyuksehir Belediye Stadium",
         "city": "Konya"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1584435,
-      "referee": "Resat Onur Coskunses, T\u00fcrkiye",
+      "referee": "R. Coskunses",
       "timezone": "UTC",
       "date": "2026-10-17T13:00:00+00:00",
       "timestamp": 1792242000,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Eryaman Stadyumu",
+        "name": "Eryaman Stadium",
         "city": "Ankara"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1584426,
-      "referee": "Umit Ozturk, T\u00fcrkiye",
+      "referee": "U. Ozturk",
       "timezone": "UTC",
       "date": "2026-10-10T10:30:00+00:00",
       "timestamp": 1791628200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Eryaman Stadyumu",
+        "name": "Eryaman Stadium",
         "city": "Ankara"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584413,
-      "referee": "Atilla Karaoglan, T\u00fcrkiye",
-      "timezone": "UTC",
-      "date": "2026-09-19T17:00:00+00:00",
-      "timestamp": 1789837200,
-      "periods": {
-        "first": 1789837200,
-        "second": 1789840800
-      },
-      "venue": {
-        "id": null,
-        "name": "Basaksehir Fatih Terim Stadium",
-        "city": "Istanbul"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 203,
-      "name": "S\u00fcper Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/203.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 564,
-        "name": "Ba\u015fak\u015fehir",
-        "logo": "https://media.api-sports.io/football/teams/564.png",
-        "winner": true
-      },
-      "away": {
-        "id": 997,
-        "name": "Gen\u00e7lerbirli\u011fi S.K.",
-        "logo": "https://media.api-sports.io/football/teams/997.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

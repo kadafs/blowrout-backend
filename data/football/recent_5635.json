@@ -1,19 +1,19 @@
 [
   {
     "fixture": {
-      "id": 1505525,
-      "referee": "D. Flores",
+      "id": 1505540,
+      "referee": "Mathias Riquelme",
       "timezone": "UTC",
-      "date": "2026-09-13T20:30:00+00:00",
-      "timestamp": 1789331400,
+      "date": "2026-10-24T15:30:00+00:00",
+      "timestamp": 1792855800,
       "periods": {
-        "first": 1789331400,
-        "second": 1789335000
+        "first": null,
+        "second": null
       },
       "venue": {
-        "id": 319,
-        "name": "Estadio Monumental David Arellano",
-        "city": "Santiago de Chile"
+        "id": 321,
+        "name": "La Portada",
+        "city": "La Serena"
       },
       "status": {
         "long": "Match Finished",
@@ -29,20 +29,90 @@
       "logo": "https://media.api-sports.io/football/leagues/265.png",
       "flag": "https://media.api-sports.io/flags/cl.svg",
       "season": 2026,
-      "round": "Regular Season - 23",
+      "round": "Regular Season - 25",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 2315,
-        "name": "Colo Colo",
-        "logo": "https://media.api-sports.io/football/teams/2315.png",
-        "winner": null
+        "id": 2341,
+        "name": "D. La Serena",
+        "logo": "https://media.api-sports.io/football/teams/2341.png",
+        "winner": true
       },
       "away": {
         "id": 5635,
         "name": "Concepci\u00f3n",
         "logo": "https://media.api-sports.io/football/teams/5635.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1505533,
+      "referee": "H. Jona",
+      "timezone": "UTC",
+      "date": "2026-10-11T20:30:00+00:00",
+      "timestamp": 1791750600,
+      "periods": {
+        "first": 1791750600,
+        "second": 1791754200
+      },
+      "venue": {
+        "id": 346,
+        "name": "Estadio Ester Roa",
+        "city": "Concepcion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 265,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/265.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5635,
+        "name": "Concepci\u00f3n",
+        "logo": "https://media.api-sports.io/football/teams/5635.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2326,
+        "name": "Union La Calera",
+        "logo": "https://media.api-sports.io/football/teams/2326.png",
         "winner": null
       }
     },
@@ -53,7 +123,7 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
         "home": 1,
@@ -71,14 +141,84 @@
   },
   {
     "fixture": {
-      "id": 1505515,
-      "referee": "P. Maza",
+      "id": 1643185,
+      "referee": "I. R. Sepulveda M.",
       "timezone": "UTC",
-      "date": "2026-09-05T00:30:00+00:00",
-      "timestamp": 1788568200,
+      "date": "2026-10-04T18:30:00+00:00",
+      "timestamp": 1791138600,
       "periods": {
-        "first": 1788568200,
-        "second": 1788571800
+        "first": 1791138600,
+        "second": 1791142200
+      },
+      "venue": {
+        "id": 337,
+        "name": "Estadio El Teniente",
+        "city": "Rancagua"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2320,
+        "name": "O'Higgins",
+        "logo": "https://media.api-sports.io/football/teams/2320.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5635,
+        "name": "Concepci\u00f3n",
+        "logo": "https://media.api-sports.io/football/teams/5635.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1643184,
+      "referee": "C. Garay",
+      "timezone": "UTC",
+      "date": "2026-09-30T23:00:00+00:00",
+      "timestamp": 1790809200,
+      "periods": {
+        "first": 1790809200,
+        "second": 1790812800
       },
       "venue": {
         "id": null,
@@ -89,184 +229,44 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5635,
-        "name": "Concepci\u00f3n",
-        "logo": "https://media.api-sports.io/football/teams/5635.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2329,
-        "name": "A. Italiano",
-        "logo": "https://media.api-sports.io/football/teams/2329.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505511,
-      "referee": "M. Araos",
-      "timezone": "UTC",
-      "date": "2026-08-30T00:00:00+00:00",
-      "timestamp": 1788048000,
-      "periods": {
-        "first": 1788048000,
-        "second": 1788051600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Municipal Nelson Oyarzun Arenas",
-        "city": "Chillan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2337,
-        "name": "Nublense",
-        "logo": "https://media.api-sports.io/football/teams/2337.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5635,
-        "name": "Concepci\u00f3n",
-        "logo": "https://media.api-sports.io/football/teams/5635.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505500,
-      "referee": "F. Jimenez Lazo",
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Ester Roa",
-        "city": "Concepci\u00f3n"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
         "extra": 7
       }
     },
     "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
+      "id": 267,
+      "name": "Copa Chile",
       "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
       "flag": "https://media.api-sports.io/flags/cl.svg",
       "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
+      "round": "Quarter-finals",
+      "standings": false
     },
     "teams": {
       "home": {
         "id": 5635,
         "name": "Concepci\u00f3n",
         "logo": "https://media.api-sports.io/football/teams/5635.png",
-        "winner": null
+        "winner": false
       },
       "away": {
-        "id": 2330,
-        "name": "Coquimbo Unido",
-        "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": null
+        "id": 2320,
+        "name": "O'Higgins",
+        "logo": "https://media.api-sports.io/football/teams/2320.png",
+        "winner": true
       }
     },
     "goals": {
-      "home": 1,
+      "home": 0,
       "away": 1
     },
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
-        "home": 1,
+        "home": 0,
         "away": 1
       },
       "extratime": {
@@ -281,63 +281,63 @@
   },
   {
     "fixture": {
-      "id": 1505491,
-      "referee": "M. Salvo",
+      "id": 1638392,
+      "referee": "C. Diaz",
       "timezone": "UTC",
-      "date": "2026-08-16T19:00:00+00:00",
-      "timestamp": 1786906800,
+      "date": "2026-09-27T18:00:00+00:00",
+      "timestamp": 1790532000,
       "periods": {
-        "first": 1786906800,
-        "second": 1786910400
+        "first": 1790532000,
+        "second": 1790535600
       },
       "venue": {
         "id": null,
-        "name": "Estadio El Cobre de El Salvador",
-        "city": "El Salvador"
+        "name": "Estadio Ester Roa",
+        "city": null
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 6
+        "extra": 5
       }
     },
     "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
+      "id": 267,
+      "name": "Copa Chile",
       "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
       "flag": "https://media.api-sports.io/flags/cl.svg",
       "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
+      "round": "Round of 16",
+      "standings": false
     },
     "teams": {
       "home": {
-        "id": 2331,
-        "name": "Cobresal",
-        "logo": "https://media.api-sports.io/football/teams/2331.png",
-        "winner": false
-      },
-      "away": {
         "id": 5635,
         "name": "Concepci\u00f3n",
         "logo": "https://media.api-sports.io/football/teams/5635.png",
         "winner": true
+      },
+      "away": {
+        "id": 2316,
+        "name": "Curico Unido",
+        "logo": "https://media.api-sports.io/football/teams/2316.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 0,
-      "away": 2
+      "home": 2,
+      "away": 0
     },
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
-        "home": 0,
-        "away": 2
+        "home": 2,
+        "away": 0
       },
       "extratime": {
         "home": null,

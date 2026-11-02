@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1511717,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T20:30:00+00:00",
+      "timestamp": 1792873800,
+      "periods": {
+        "first": 1792873800,
+        "second": 1792877400
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Regional de Chinquihue",
+        "city": "Puerto Montt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 266,
+      "name": "Primera B",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/266.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2342,
+        "name": "D. Puerto Montt",
+        "logo": "https://media.api-sports.io/football/teams/2342.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2340,
+        "name": "Union San Felipe",
+        "logo": "https://media.api-sports.io/football/teams/2340.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511710,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638390,
-      "referee": "M. H. Assadi Quintana",
-      "timezone": "UTC",
-      "date": "2026-09-26T20:30:00+00:00",
-      "timestamp": 1790454600,
-      "periods": {
-        "first": 1790454600,
-        "second": 1790458200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Municipal Nelson Oyarzun Arenas",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 267,
-      "name": "Copa Chile",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/267.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Round of 16",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2337,
-        "name": "Nublense",
-        "logo": "https://media.api-sports.io/football/teams/2337.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2342,
-        "name": "D. Puerto Montt",
-        "logo": "https://media.api-sports.io/football/teams/2342.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553820,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T14:00:00+00:00",
+      "timestamp": 1793196000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1415,
+        "name": "\u010cika Da\u010da Stadium",
+        "city": "Kragujevac"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 286,
+      "name": "Super Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/286.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2644,
+        "name": "Radnicki 1923",
+        "logo": "https://media.api-sports.io/football/teams/2644.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12360,
+        "name": "\u017delezni\u010dar Pan\u010devo",
+        "logo": "https://media.api-sports.io/football/teams/12360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553892,
       "referee": "M. Ilic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553841,
-      "referee": "S. Ostracanin",
-      "timezone": "UTC",
-      "date": "2026-09-17T18:00:00+00:00",
-      "timestamp": 1789668000,
-      "periods": {
-        "first": 1789668000,
-        "second": 1789671600
-      },
-      "venue": {
-        "id": 7892,
-        "name": "Sportsko-Rekreativni Centar Mladost",
-        "city": "Pancevo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 286,
-      "name": "Super Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/286.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12360,
-        "name": "\u017delezni\u010dar Pan\u010devo",
-        "logo": "https://media.api-sports.io/football/teams/12360.png",
-        "winner": false
-      },
-      "away": {
-        "id": 598,
-        "name": "FK Crvena Zvezda",
-        "logo": "https://media.api-sports.io/football/teams/598.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

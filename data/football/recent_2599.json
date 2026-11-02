@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632267,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:30:00+00:00",
+      "timestamp": 1793215800,
+      "periods": {
+        "first": 1793215800,
+        "second": 1793219400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Cluj-Napoca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 285,
+      "name": "Cupa Rom\u00e2niei",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/285.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2246,
+        "name": "CFR 1907 Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2246.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2599,
+        "name": "Universitatea Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2599.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565280,
       "referee": "Adrian Viorel Cojocaru, Romania",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565258,
-      "referee": "Florin Andrei, Romania",
-      "timezone": "UTC",
-      "date": "2026-09-20T11:00:00+00:00",
-      "timestamp": 1789902000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1315,
-        "name": "Stadionul Anghel Iordanescu",
-        "city": "Voluntari"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2578,
-        "name": "FC Voluntari",
-        "logo": "https://media.api-sports.io/football/teams/2578.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2599,
-        "name": "Universitatea Cluj",
-        "logo": "https://media.api-sports.io/football/teams/2599.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

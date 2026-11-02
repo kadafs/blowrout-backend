@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494313,
+      "referee": "Sars Joakim",
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1501,
+        "name": "Strawberry Arena",
+        "city": "Solna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 377,
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png",
+        "winner": null
+      },
+      "away": {
+        "id": 372,
+        "name": "IF Elfsborg",
+        "logo": "https://media.api-sports.io/football/teams/372.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494311,
       "referee": "Adam Ladeback",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494249,
-      "referee": "Glenn Nyberg, Sweden",
-      "timezone": "UTC",
-      "date": "2026-09-16T17:00:00+00:00",
-      "timestamp": 1789578000,
-      "periods": {
-        "first": 1789578000,
-        "second": 1789581600
-      },
-      "venue": {
-        "id": 21411,
-        "name": "Strawberry Arena",
-        "city": "Solna"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 377,
-        "name": "AIK Stockholm",
-        "logo": "https://media.api-sports.io/football/teams/377.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2240,
-        "name": "Mjallby AIF",
-        "logo": "https://media.api-sports.io/football/teams/2240.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

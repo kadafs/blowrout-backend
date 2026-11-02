@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638101,
+      "referee": "P. Simani",
+      "timezone": "UTC",
+      "date": "2026-10-07T16:00:00+00:00",
+      "timestamp": 1791388800,
+      "periods": {
+        "first": 1791388800,
+        "second": 1791392400
+      },
+      "venue": {
+        "id": 2698,
+        "name": "Markku.fi Areena",
+        "city": "Helsinki"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 244,
+      "name": "Veikkausliiga",
+      "country": "Finland",
+      "logo": "https://media.api-sports.io/football/leagues/244.png",
+      "flag": "https://media.api-sports.io/flags/fi.svg",
+      "season": 2026,
+      "round": "Championship Group - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2082,
+        "name": "Gnistan",
+        "logo": "https://media.api-sports.io/football/teams/2082.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1164,
+        "name": "Inter Turku",
+        "logo": "https://media.api-sports.io/football/teams/1164.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495743,
       "referee": "Oliver Reitala, Finland",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1468203,
-      "referee": "Petri Viljanen, Finland",
-      "timezone": "UTC",
-      "date": "2025-09-13T14:00:00+00:00",
-      "timestamp": 1757772000,
-      "periods": {
-        "first": 1757772000,
-        "second": 1757775600
-      },
-      "venue": {
-        "id": 2698,
-        "name": "Mustapekka Areena",
-        "city": "Helsinki"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 244,
-      "name": "Veikkausliiga",
-      "country": "Finland",
-      "logo": "https://media.api-sports.io/football/leagues/244.png",
-      "flag": "https://media.api-sports.io/flags/fi.svg",
-      "season": 2025,
-      "round": "Championship Round - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2082,
-        "name": "Gnistan",
-        "logo": "https://media.api-sports.io/football/teams/2082.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1164,
-        "name": "Inter Turku",
-        "logo": "https://media.api-sports.io/football/teams/1164.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

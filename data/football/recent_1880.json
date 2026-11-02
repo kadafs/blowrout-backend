@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1601271,
+      "referee": "C. Papi",
+      "timezone": "UTC",
+      "date": "2026-10-25T17:00:00+00:00",
+      "timestamp": 1792947600,
+      "periods": {
+        "first": 1792947600,
+        "second": 1792951200
+      },
+      "venue": {
+        "id": 921,
+        "name": "Stadio Ennio Tardini",
+        "city": "Parma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 139,
+      "name": "Serie A Women",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/139.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19748,
+        "name": "Parma W",
+        "logo": "https://media.api-sports.io/football/teams/19748.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1880,
+        "name": "Fiorentina W",
+        "logo": "https://media.api-sports.io/football/teams/1880.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601261,
       "referee": "F. Aloise",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1582319,
-      "referee": "J. Gallorini",
-      "timezone": "UTC",
-      "date": "2026-08-30T18:30:00+00:00",
-      "timestamp": 1788114600,
-      "periods": {
-        "first": 1788114600,
-        "second": 1788118200
-      },
-      "venue": {
-        "id": null,
-        "name": "Curva Fiesole - Viola Park",
-        "city": "Bagno a Ripoli"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 1198,
-      "name": "Serie A Cup Women",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/1198.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group Stage - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1880,
-        "name": "Fiorentina W",
-        "logo": "https://media.api-sports.io/football/teams/1880.png",
-        "winner": true
-      },
-      "away": {
-        "id": 23669,
-        "name": "Ternana W",
-        "logo": "https://media.api-sports.io/football/teams/23669.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

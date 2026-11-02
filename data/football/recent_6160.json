@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646144,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T17:30:00+00:00",
+      "timestamp": 1793208600,
+      "periods": {
+        "first": 1793208600,
+        "second": 1793212200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 384,
+      "name": "State Cup",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/384.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 28434,
+        "name": "Hapoel Bnei Jisr az-Zarqa",
+        "logo": "https://media.api-sports.io/football/teams/28434.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6160,
+        "name": "Hapoel Kfar Shalem",
+        "logo": "https://media.api-sports.io/football/teams/6160.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 9
+    },
+    "score": {
+      "halftime": {
+        "home": 5,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 9
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555190,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555157,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T16:00:00+00:00",
-      "timestamp": 1790611200,
-      "periods": {
-        "first": 1790611200,
-        "second": 1790614800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 382,
-      "name": "Liga Leumit",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/382.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6160,
-        "name": "Hapoel Kfar Shalem",
-        "logo": "https://media.api-sports.io/football/teams/6160.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6192,
-        "name": "Maccabi Kabilio Jaffa",
-        "logo": "https://media.api-sports.io/football/teams/6192.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

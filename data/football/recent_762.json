@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1589435,
+      "referee": "J. Bessa",
+      "timezone": "UTC",
+      "date": "2026-10-29T20:45:00+00:00",
+      "timestamp": 1793306700,
+      "periods": {
+        "first": 1793306700,
+        "second": 1793310300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Lisbon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 762,
+        "name": "GIL Vicente",
+        "logo": "https://media.api-sports.io/football/teams/762.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575521,
-      "referee": "Lu\u00eds Godinho, Portugal",
+      "referee": "L. M. Branco Godinho",
       "timezone": "UTC",
       "date": "2026-10-24T19:30:00+00:00",
       "timestamp": 1792870200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792870200,
+        "second": 1792873800
       },
       "venue": {
         "id": 2811,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1575458,
-      "referee": "Fabio Jose Costa Verissimo, Portugal",
+      "referee": "G. Correia",
       "timezone": "UTC",
       "date": "2026-10-19T19:15:00+00:00",
       "timestamp": 1792437300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792437300,
+        "second": 1792440900
       },
       "venue": {
         "id": 1291,
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1575516,
-      "referee": "Miguel Nogueira, Portugal",
+      "referee": "M. Nogueira",
       "timezone": "UTC",
       "date": "2026-10-09T17:45:00+00:00",
       "timestamp": 1791567900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791567900,
+        "second": 1791571500
       },
       "venue": {
         "id": 1280,
-        "name": "Parque Joaquim Almeida Freitas",
-        "city": "Guimar\u00e3es"
+        "name": "Parque Joaquim de Almeida Freitas",
+        "city": "Moreira de Conegos"
       },
       "status": {
         "long": "Match Finished",
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1575504,
-      "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+      "referee": "B. J. Costa",
       "timezone": "UTC",
       "date": "2026-09-19T14:30:00+00:00",
       "timestamp": 1789828200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1789828200,
+        "second": 1789831800
       },
       "venue": {
         "id": 2811,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575493,
-      "referee": "Joao Antonio Ferreira Goncalves, Portugal",
-      "timezone": "UTC",
-      "date": "2026-09-13T17:00:00+00:00",
-      "timestamp": 1789318800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1293,
-        "name": "Est\u00e1dio da Luz",
-        "city": "Lisbon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 94,
-      "name": "Primeira Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/94.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 211,
-        "name": "Benfica",
-        "logo": "https://media.api-sports.io/football/teams/211.png",
-        "winner": true
-      },
-      "away": {
-        "id": 762,
-        "name": "GIL Vicente",
-        "logo": "https://media.api-sports.io/football/teams/762.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

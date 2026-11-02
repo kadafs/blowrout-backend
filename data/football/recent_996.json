@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645418,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T17:30:00+00:00",
+      "timestamp": 1793122200,
+      "periods": {
+        "first": 1793122200,
+        "second": 1793125800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 206,
+      "name": "T\u00fcrkiye Kupas\u0131",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/206.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 996,
+        "name": "Alanyaspor",
+        "logo": "https://media.api-sports.io/football/teams/996.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6504,
+        "name": "12 Bing\u00f6lspor",
+        "logo": "https://media.api-sports.io/football/teams/6504.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584439,
       "referee": "Ali Sansalan, T\u00fcrkiye",
       "timezone": "UTC",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1584421,
-      "referee": "Davut Dakul Celik, T\u00fcrkiye",
+      "referee": "D. Celik",
       "timezone": "UTC",
       "date": "2026-10-10T13:00:00+00:00",
       "timestamp": 1791637200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Bahcesehir Okullari Stadium",
+        "name": "Alanya Oba Stadium",
         "city": "Alanya"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1584414,
-      "referee": "Alper Akarsu, T\u00fcrkiye",
+      "referee": "A. Akarsu",
       "timezone": "UTC",
       "date": "2026-09-19T14:00:00+00:00",
       "timestamp": 1789826400,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1584403,
-      "referee": "Ozan Ergun, T\u00fcrkiye",
-      "timezone": "UTC",
-      "date": "2026-09-12T17:00:00+00:00",
-      "timestamp": 1789232400,
-      "periods": {
-        "first": 1789232400,
-        "second": 1789236000
-      },
-      "venue": {
-        "id": null,
-        "name": "Bahcesehir Okullari Stadium",
-        "city": "Alanya"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 203,
-      "name": "S\u00fcper Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/203.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 996,
-        "name": "Alanyaspor",
-        "logo": "https://media.api-sports.io/football/teams/996.png",
-        "winner": null
-      },
-      "away": {
-        "id": 994,
-        "name": "G\u00f6ztepe",
-        "logo": "https://media.api-sports.io/football/teams/994.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 2
       },
       "extratime": {

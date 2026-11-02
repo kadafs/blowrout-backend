@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1609094,
+      "referee": "N. Dorillo",
+      "timezone": "UTC",
+      "date": "2026-10-26T19:30:00+00:00",
+      "timestamp": 1793043000,
+      "periods": {
+        "first": 1793043000,
+        "second": 1793046600
+      },
+      "venue": {
+        "id": 895,
+        "name": "Stadio Ezio Scida",
+        "city": "Crotone"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 943,
+      "name": "Serie C - Girone C",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/943.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone C - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9542,
+        "name": "Casarano",
+        "logo": "https://media.api-sports.io/football/teams/9542.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1609084,
       "referee": "L. Maccarini",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609049,
-      "referee": "F. Barbetti",
-      "timezone": "UTC",
-      "date": "2026-09-19T15:30:00+00:00",
-      "timestamp": 1789831800,
-      "periods": {
-        "first": 1789831800,
-        "second": 1789835400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Alberto De Cristofaro",
-        "city": "Giugliano"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 943,
-      "name": "Serie C - Girone C",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/943.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone C - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9564,
-        "name": "Savoia",
-        "logo": "https://media.api-sports.io/football/teams/9564.png",
-        "winner": null
-      },
-      "away": {
-        "id": 9542,
-        "name": "Casarano",
-        "logo": "https://media.api-sports.io/football/teams/9542.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

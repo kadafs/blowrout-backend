@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639737,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T11:30:00+00:00",
+      "timestamp": 1793187000,
+      "periods": {
+        "first": 1793187000,
+        "second": 1793190600
+      },
+      "venue": {
+        "id": null,
+        "name": "Tiszaujvaros Sportcentrum",
+        "city": "Tiszaujvaros"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 273,
+      "name": "Magyar Kupa",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/273.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5149,
+        "name": "Tisza\u00fajv\u00e1ros",
+        "logo": "https://media.api-sports.io/football/teams/5149.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5111,
+        "name": "Kecskem\u00e9ti TE",
+        "logo": "https://media.api-sports.io/football/teams/5111.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571874,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634966,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": 793,
-        "name": "Grosics Gyula Stadion",
-        "city": "Tatabanya"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 273,
-      "name": "Magyar Kupa",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/273.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5145,
-        "name": "Tatab\u00e1nya",
-        "logo": "https://media.api-sports.io/football/teams/5145.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5111,
-        "name": "Kecskem\u00e9ti TE",
-        "logo": "https://media.api-sports.io/football/teams/5111.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632230,
+      "referee": "S. Al Mezeini",
+      "timezone": "UTC",
+      "date": "2026-10-23T15:00:00+00:00",
+      "timestamp": 1792767600,
+      "periods": {
+        "first": 1792767600,
+        "second": 1792771200
+      },
+      "venue": {
+        "id": null,
+        "name": "Changlimithang Stadium",
+        "city": "Thimphu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1132,
+      "name": "AFC Challenge League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1132.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8019,
+        "name": "Al Ittihad",
+        "logo": "https://media.api-sports.io/football/teams/8019.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9426,
+        "name": "Paro",
+        "logo": "https://media.api-sports.io/football/teams/9426.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632221,
       "referee": "A. Purkayastha",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550078,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-03T15:00:00+00:00",
-      "timestamp": 1783090800,
-      "periods": {
-        "first": 1783090800,
-        "second": 1783094400
-      },
-      "venue": {
-        "id": 1549,
-        "name": "Aleppo International Stadium",
-        "city": "Aleppo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 425,
-      "name": "Premier League",
-      "country": "Syria",
-      "logo": "https://media.api-sports.io/football/leagues/425.png",
-      "flag": "https://media.api-sports.io/flags/sy.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8019,
-        "name": "Al Ittihad",
-        "logo": "https://media.api-sports.io/football/teams/8019.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8040,
-        "name": "Jaish",
-        "logo": "https://media.api-sports.io/football/teams/8040.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

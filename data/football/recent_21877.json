@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641903,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T15:00:00+00:00",
+      "timestamp": 1793113200,
+      "periods": {
+        "first": 1793113200,
+        "second": 1793116800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 709,
+      "name": "Cup",
+      "country": "Armenia",
+      "logo": "https://media.api-sports.io/football/leagues/709.png",
+      "flag": "https://media.api-sports.io/flags/am.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2276,
+        "name": "FC Urartu",
+        "logo": "https://media.api-sports.io/football/teams/2276.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21877,
+        "name": "Andranik",
+        "logo": "https://media.api-sports.io/football/teams/21877.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605106,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605073,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-14T12:00:00+00:00",
-      "timestamp": 1789387200,
-      "periods": {
-        "first": 1789387200,
-        "second": 1789390800
-      },
-      "venue": {
-        "id": null,
-        "name": "Vagharshapat Football Academy",
-        "city": "Vagharshapat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 343,
-      "name": "First League",
-      "country": "Armenia",
-      "logo": "https://media.api-sports.io/football/leagues/343.png",
-      "flag": "https://media.api-sports.io/flags/am.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17171,
-        "name": "BKMA II",
-        "logo": "https://media.api-sports.io/football/teams/17171.png",
-        "winner": false
-      },
-      "away": {
-        "id": 21877,
-        "name": "Andranik",
-        "logo": "https://media.api-sports.io/football/teams/21877.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

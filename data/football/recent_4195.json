@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555533,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-26T17:00:00+00:00",
+      "timestamp": 1793034000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 868,
+        "name": "Sammy Ofer Stadium",
+        "city": "Haifa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 383,
+      "name": "Ligat Ha'al",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/383.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4195,
+        "name": "Maccabi Haifa",
+        "logo": "https://media.api-sports.io/football/teams/4195.png",
+        "winner": false
+      },
+      "away": {
+        "id": 563,
+        "name": "Hapoel Beer Sheva",
+        "logo": "https://media.api-sports.io/football/teams/563.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555525,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555496,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T17:30:00+00:00",
-      "timestamp": 1788629400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 868,
-        "name": "Sammy Ofer Stadium",
-        "city": "Haifa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 383,
-      "name": "Ligat Ha'al",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/383.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4195,
-        "name": "Maccabi Haifa",
-        "logo": "https://media.api-sports.io/football/teams/4195.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4488,
-        "name": "Hapoel Petah Tikva",
-        "logo": "https://media.api-sports.io/football/teams/4488.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -522,6 +522,14 @@ def get_or_calibrate_config(league_id, league_name, auto_calibrate=True):
                 cfg["_league_id"] = league_id
                 save_json(config_path, cfg)
                 return config_path, cfg
+        elif 42300 <= lid_int <= 42399:
+            base_p = "configs/leagues/423.json"
+            if os.path.exists(base_p):
+                cfg = load_json(base_p)
+                cfg["name"] = league_name
+                cfg["_league_id"] = league_id
+                save_json(config_path, cfg)
+                return config_path, cfg
     except Exception:
         pass
 
@@ -540,6 +548,15 @@ def get_advanced_stats(league_id, season=None):
     """Load cached [ADVANCED] matrix if available."""
     from fetch_universal_bball_stats import attach_prior_season_stats
     matrix_path = f"data/bball_stats_{league_id}_adv.json"
+    if not os.path.exists(matrix_path):
+        try:
+            lid_int = int(league_id)
+            if 11600 <= lid_int <= 11699:
+                matrix_path = "data/bball_stats_116_adv.json"
+            elif 42300 <= lid_int <= 42399:
+                matrix_path = "data/bball_stats_423_adv.json"
+        except Exception:
+            pass
     if os.path.exists(matrix_path):
         data = load_json(matrix_path)
         # Verify it's a REAL advanced matrix, not an SRS fallback
@@ -574,6 +591,15 @@ def get_srs_stats(league_id, season, refresh=False):
 
     # 1. New proprietary SRS matrix
     matrix_path = f"data/bball_stats_{league_id}_srs.json"
+    if not os.path.exists(matrix_path):
+        try:
+            lid_int = int(league_id)
+            if 11600 <= lid_int <= 11699:
+                matrix_path = "data/bball_stats_116_srs.json"
+            elif 42300 <= lid_int <= 42399:
+                matrix_path = "data/bball_stats_423_srs.json"
+        except Exception:
+            pass
     if os.path.exists(matrix_path):
         teams = _load_teams_from_file(matrix_path)
         if teams:
@@ -1021,6 +1047,8 @@ def main():
     if args.league_id:
         if args.league_id == 116:
             leagues = [l for l in leagues if l["league_id"] == 116 or (11600 <= l["league_id"] <= 11699)]
+        elif args.league_id == 423:
+            leagues = [l for l in leagues if l["league_id"] == 423 or (42300 <= l["league_id"] <= 42399)]
         else:
             leagues = [l for l in leagues if l["league_id"] == args.league_id]
     if args.min_games > 1:

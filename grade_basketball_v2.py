@@ -111,21 +111,27 @@ def is_corrupt_score(h_s, a_s, model_total=None, h_scores=None, a_scores=None) -
             return True, f"total {total} < 55% of model ({model_total:.1f})"
             
     # Layer 3: Quarter freeze signature (both teams 0 in later quarters)
+    # Only applies if quarter breakdown was actually recorded (not None)
     if h_scores and a_scores:
-        hq2 = h_scores.get("quarter_2") or 0
-        aq2 = a_scores.get("quarter_2") or 0
-        hq3 = h_scores.get("quarter_3") or 0
-        aq3 = a_scores.get("quarter_3") or 0
-        hq4 = h_scores.get("quarter_4") or 0
-        aq4 = a_scores.get("quarter_4") or 0
-        
-        # Frozen after Q1 (Q2, Q3, Q4 are all 0)
-        if (hq2 + aq2 == 0) and (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
-            return True, "frozen feed after Q1 (Q2, Q3, Q4 are 0)"
+        has_quarters = any(
+            h_scores.get(q) is not None or a_scores.get(q) is not None
+            for q in ("quarter_1", "quarter_2", "quarter_3", "quarter_4")
+        )
+        if has_quarters:
+            hq2 = h_scores.get("quarter_2") or 0
+            aq2 = a_scores.get("quarter_2") or 0
+            hq3 = h_scores.get("quarter_3") or 0
+            aq3 = a_scores.get("quarter_3") or 0
+            hq4 = h_scores.get("quarter_4") or 0
+            aq4 = a_scores.get("quarter_4") or 0
             
-        # Frozen at halftime (Q3 and Q4 both 0)
-        if (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
-            return True, "frozen feed at halftime (Q3, Q4 are 0)"
+            # Frozen after Q1 (Q2, Q3, Q4 are all 0)
+            if (hq2 + aq2 == 0) and (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
+                return True, "frozen feed after Q1 (Q2, Q3, Q4 are 0)"
+                
+            # Frozen at halftime (Q3 and Q4 both 0)
+            if (hq3 + aq3 == 0) and (hq4 + aq4 == 0):
+                return True, "frozen feed at halftime (Q3, Q4 are 0)"
             
     return False, ""
 
@@ -262,6 +268,7 @@ def main():
 
     # Map (league_id, home, away) -> (home_score, away_score, status, ht_home, ht_away)
     results_map = {}
+    by_game_id = {}
     for fix in fixtures:
         lid = fix["league"]["id"]
         h_name = fix["teams"]["home"]["name"]
@@ -283,7 +290,11 @@ def main():
             if corrupt:
                 print(f"  [!] Omitting corrupt API feed: {h_name} vs {a_name} ({h_score}-{a_score}) - {reason}")
                 continue
-            results_map[(lid, h_name, a_name)] = (int(h_score), int(a_score), status, ht_home, ht_away)
+            entry = (int(h_score), int(a_score), status, ht_home, ht_away)
+            gid = fix.get("id")
+            if gid:
+                by_game_id[gid] = entry
+            results_map[(lid, h_name, a_name)] = entry
 
     matched = 0
     graded_list = []
@@ -315,17 +326,39 @@ def main():
             graded_list.append(pred)
             continue
         
-        key = (pred["league_id"], pred["home_team"], pred["away_team"])
-        # Bug 2: Fuzzy fallback if exact key not found
-        if key not in results_map:
+        found_result = None
+        # 1. Match by exact game_id if available
+        gid = pred.get("game_id")
+        if gid and gid in by_game_id:
+            found_result = by_game_id[gid]
+
+        # 2. Match by exact (league_id, home, away)
+        if not found_result:
+            key = (pred["league_id"], pred["home_team"], pred["away_team"])
+            if key in results_map:
+                found_result = results_map[key]
+
+        # 3. Match with NCAA parent league fallback (11600-11699 -> 116, 42300-42399 -> 423)
+        if not found_result:
+            pred_lid = pred.get("league_id", 0)
+            parent_lid = 116 if (11600 <= pred_lid <= 11699) else (423 if (42300 <= pred_lid <= 42399) else pred_lid)
+            parent_key = (parent_lid, pred["home_team"], pred["away_team"])
+            if parent_key in results_map:
+                found_result = results_map[parent_key]
+
+        # 4. Fuzzy fallback across league_id and parent_lid
+        if not found_result:
+            pred_lid = pred.get("league_id", 0)
+            parent_lid = 116 if (11600 <= pred_lid <= 11699) else (423 if (42300 <= pred_lid <= 42399) else pred_lid)
             pred_home_n = _normalize_name(pred["home_team"])
             pred_away_n = _normalize_name(pred["away_team"])
             for (lid, h, a), val in results_map.items():
-                if lid == pred["league_id"] and _normalize_name(h) == pred_home_n and _normalize_name(a) == pred_away_n:
-                    key = (lid, h, a)
+                if lid in (pred_lid, parent_lid) and _normalize_name(h) == pred_home_n and _normalize_name(a) == pred_away_n:
+                    found_result = val
                     break
-        if key in results_map:
-            h_s, a_s, status, ht_home, ht_away = results_map[key]
+
+        if found_result:
+            h_s, a_s, status, ht_home, ht_away = found_result
 
             # Skip awarded/forfeited matches — 0-20 or 20-0 scores are not real game totals.
             # API short codes for awarded: 'FT:AW', 'AWD', 'WO' (walkover).

@@ -36,6 +36,7 @@ from scipy.stats import norm
 from core.offline_match_center import compile_offline_match_center
 from core.confidence_score import compute_confidence
 from run_confidence_report import load_leaderboard, get_team_stats
+from core.mismatch_detector import detect_mismatch
 from core.sdi_lookup import load_sdi_index, get_sdi_record
 
 if sys.platform == "win32":
@@ -1280,8 +1281,28 @@ def main():
                         if min(mae_h, mae_a) <= 11.5 and max(mae_h, mae_a) >= 14.5:
                             is_drag_down = True
 
+                # Mismatch and Responsible Staking Evaluation
+                mismatch_info = detect_mismatch(
+                    home_team=home,
+                    away_team=away,
+                    home_id=home_id,
+                    away_id=away_id,
+                    league_id=lid,
+                    projected_spread=spread,
+                    market_spread=None,
+                    srs_h=sH.get("srs_rating") if sH else None,
+                    srs_a=sA.get("srs_rating") if sA else None,
+                )
+
                 # Build record
                 all_predictions.append({
+                    "is_mismatch":      mismatch_info["is_mismatch"],
+                    "risk_level":       mismatch_info["risk_level"],
+                    "mismatch_badge":   mismatch_info["short_badge"],
+                    "mismatch_trigger": mismatch_info["trigger"],
+                    "recommended_stake": mismatch_info["recommended_stake"],
+                    "totals_advice":    mismatch_info["totals_advice"],
+                    "mismatch_info":    mismatch_info,
                     "is_drag_down":     is_drag_down,
                     "is_clash":         is_clash,
                     "clash_trigger":    clash_trigger,

@@ -164,6 +164,8 @@ def main():
     parser = argparse.ArgumentParser(description="Grade basketball predictions")
     parser.add_argument("--date",    default=None, help="Date to grade (YYYY-MM-DD)")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--force",   action="store_true",
+                        help="Re-fetch finished games from API and re-grade all predictions from scratch")
     parser.add_argument("--regrade", action="store_true",
                         help="Recalculate Delta Matrix fields on already-graded games (no API call needed)")
     args = parser.parse_args()
@@ -200,7 +202,7 @@ def main():
         wins_by_model  = {}
         total_by_model = {}
         for pred in predictions:
-            if pred.get("actual_result"):
+            if pred.get("actual_result") and not args.force:
                 h_s = pred.get("actual_home_score")
                 a_s = pred.get("actual_away_score")
                 m_total = pred.get("model_total") or pred.get("model", {}).get("total")
@@ -257,8 +259,8 @@ def main():
             save_predictions(date, data)
         return
 
-    if not ungraded:
-        print("  ✅ Already graded. Run with --regrade to backfill Delta fields.")
+    if not ungraded and not args.force:
+        print("  ✅ Already graded. Run with --regrade to backfill Delta fields, or --force to re-grade.")
         return
 
     fixtures = fetch_fixtures_for_date(date)
@@ -285,6 +287,16 @@ def main():
         a_q2 = a_scores.get("quarter_2") or 0
         ht_home = (h_q1 + h_q2) if (h_scores.get("quarter_1") is not None) else None
         ht_away = (a_q1 + a_q2) if (a_scores.get("quarter_1") is not None) else None
+
+        # Upstream API-Basketball Inversion Guard:
+        # In NCAA Men (League 116 or 11600-11699), when quarter_1 is None,
+        # API-Basketball ingests text feeds formatted as "Visitor Score - Home Score"
+        # and naively places the visitor score into scores.home and host into scores.away.
+        # Detect this and restore the true home/away scores.
+        if (lid == 116 or (11600 <= lid <= 11699)) and h_scores.get("quarter_1") is None:
+            if h_score is not None and a_score is not None:
+                h_score, a_score = a_score, h_score
+
         if h_score is not None and a_score is not None:
             corrupt, reason = is_corrupt_score(int(h_score), int(a_score), h_scores=h_scores, a_scores=a_scores)
             if corrupt:
@@ -302,7 +314,7 @@ def main():
     total_by_model = {}   # { model_architecture: total_count }
 
     for pred in predictions:
-        if pred.get("actual_result"):
+        if pred.get("actual_result") and not args.force:
             # Self-healing check: if a game was previously graded with a corrupt score, un-grade it
             h_prev = pred.get("actual_home_score")
             a_prev = pred.get("actual_away_score")

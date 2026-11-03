@@ -1273,13 +1273,8 @@ def main():
 
                 # Build record
                 all_predictions.append({
-                    "is_mismatch":      mismatch_info["is_mismatch"],
-                    "risk_level":       mismatch_info["risk_level"],
-                    "mismatch_badge":   mismatch_info["short_badge"],
-                    "mismatch_trigger": mismatch_info["trigger"],
-                    "recommended_stake": mismatch_info["recommended_stake"],
-                    "totals_advice":    mismatch_info["totals_advice"],
-                    "mismatch_info":    mismatch_info,
+                    "is_mismatch":  mismatch_info["is_mismatch"],
+                    "mismatch_info": mismatch_info,
                     "is_drag_down":     is_drag_down,
                     "is_clash":         is_clash,
                     "clash_trigger":    clash_trigger,

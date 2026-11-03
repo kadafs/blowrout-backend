@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619176,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-26T13:00:00+00:00",
+      "timestamp": 1793019600,
+      "periods": {
+        "first": 1793019600,
+        "second": 1793023200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 703,
+      "name": "Professional Development League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/703.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11912,
+        "name": "Swansea City U21",
+        "logo": "https://media.api-sports.io/football/teams/11912.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20082,
+        "name": "Charlton Athletic U21",
+        "logo": "https://media.api-sports.io/football/teams/20082.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619168,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619146,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T12:00:00+00:00",
-      "timestamp": 1790078400,
-      "periods": {
-        "first": 1790078400,
-        "second": 1790082000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20082,
-        "name": "Charlton Athletic U21",
-        "logo": "https://media.api-sports.io/football/teams/20082.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20086,
-        "name": "Sheffield United U21",
-        "logo": "https://media.api-sports.io/football/teams/20086.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

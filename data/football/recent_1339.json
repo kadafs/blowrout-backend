@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563846,
+      "referee": "E. Heaslip",
+      "timezone": "UTC",
+      "date": "2026-10-31T12:30:00+00:00",
+      "timestamp": 1793449800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 572,
+        "name": "Vale Park",
+        "city": "Stoke-On-Trent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1351,
+        "name": "Port Vale",
+        "logo": "https://media.api-sports.io/football/teams/1351.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1339,
+        "name": "Rochdale",
+        "logo": "https://media.api-sports.io/football/teams/1339.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563835,
       "referee": "R. Watkins",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588860,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T18:00:00+00:00",
-      "timestamp": 1791309600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 543,
-        "name": "John Smith's Stadium",
-        "city": "Huddersfield"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group North - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 37,
-        "name": "Huddersfield",
-        "logo": "https://media.api-sports.io/football/teams/37.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1339,
-        "name": "Rochdale",
-        "logo": "https://media.api-sports.io/football/teams/1339.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

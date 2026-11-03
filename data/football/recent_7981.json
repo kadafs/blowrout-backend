@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637354,
+      "referee": "R. Jitari",
+      "timezone": "UTC",
+      "date": "2026-10-21T13:00:00+00:00",
+      "timestamp": 1792587600,
+      "periods": {
+        "first": 1792587600,
+        "second": 1792591200
+      },
+      "venue": {
+        "id": null,
+        "name": "Ciudad Deportiva Rafael Gordillo",
+        "city": "Sevilla"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 25195,
+        "name": "Real Betis U19",
+        "logo": "https://media.api-sports.io/football/teams/25195.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7981,
+        "name": "Feyenoord U19",
+        "logo": "https://media.api-sports.io/football/teams/7981.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637338,
       "referee": "A. Tsakalidis",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1508321,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-23T10:15:00+00:00",
-      "timestamp": 1779531300,
-      "periods": {
-        "first": 1779531300,
-        "second": 1779534900
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1152,
-      "name": "U19 Divisie 1",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/1152.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2025,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7981,
-        "name": "Feyenoord U19",
-        "logo": "https://media.api-sports.io/football/teams/7981.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7881,
-        "name": "Ajax U19",
-        "logo": "https://media.api-sports.io/football/teams/7881.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 4
       },
       "extratime": {
         "home": null,

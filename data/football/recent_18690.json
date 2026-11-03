@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612139,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T18:00:00+00:00",
+      "timestamp": 1793124000,
+      "periods": {
+        "first": 1793124000,
+        "second": 1793127600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 906,
+      "name": "Reserve League",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/906.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18693,
+        "name": "Platense Res.",
+        "logo": "https://media.api-sports.io/football/teams/18693.png",
+        "winner": false
+      },
+      "away": {
+        "id": 18690,
+        "name": "Lan\u00fas Res.",
+        "logo": "https://media.api-sports.io/football/teams/18690.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1612121,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612047,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T20:00:00+00:00",
-      "timestamp": 1790193600,
-      "periods": {
-        "first": 1790193600,
-        "second": 1790197200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 906,
-      "name": "Reserve League",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/906.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18690,
-        "name": "Lan\u00fas Res.",
-        "logo": "https://media.api-sports.io/football/teams/18690.png",
-        "winner": true
-      },
-      "away": {
-        "id": 18679,
-        "name": "Banfield Res.",
-        "logo": "https://media.api-sports.io/football/teams/18679.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

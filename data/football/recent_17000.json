@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621070,
+      "referee": "C. Walchester",
+      "timezone": "UTC",
+      "date": "2026-10-26T19:00:00+00:00",
+      "timestamp": 1793041200,
+      "periods": {
+        "first": 1793041200,
+        "second": 1793044800
+      },
+      "venue": {
+        "id": null,
+        "name": "The 360 Engage Stadium",
+        "city": "Sutton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17000,
+        "name": "Crystal Palace U21",
+        "logo": "https://media.api-sports.io/football/teams/17000.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7201,
+        "name": "Southampton U21",
+        "logo": "https://media.api-sports.io/football/teams/7201.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621052,
       "referee": "N. Smith",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588889,
-      "referee": "A. Farmer",
-      "timezone": "UTC",
-      "date": "2026-09-15T18:00:00+00:00",
-      "timestamp": 1789495200,
-      "periods": {
-        "first": 1789495200,
-        "second": 1789498800
-      },
-      "venue": {
-        "id": 0,
-        "name": "County Ground",
-        "city": "Swindon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 5",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1353,
-        "name": "Swindon Town",
-        "logo": "https://media.api-sports.io/football/teams/1353.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17000,
-        "name": "Crystal Palace U21",
-        "logo": "https://media.api-sports.io/football/teams/17000.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

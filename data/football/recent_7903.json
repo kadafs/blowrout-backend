@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637357,
+      "referee": "D. Kos",
+      "timezone": "UTC",
+      "date": "2026-10-21T14:00:00+00:00",
+      "timestamp": 1792591200,
+      "periods": {
+        "first": 1792591200,
+        "second": 1792594800
+      },
+      "venue": {
+        "id": null,
+        "name": "KONAMI Youth Development Centre",
+        "city": "Milan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7903,
+        "name": "Internazionale U19",
+        "logo": "https://media.api-sports.io/football/teams/7903.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7929,
+        "name": "Shakhtar Donetsk U19",
+        "logo": "https://media.api-sports.io/football/teams/7929.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637328,
       "referee": "P. Ilic",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491676,
-      "referee": "S. Ebner",
-      "timezone": "UTC",
-      "date": "2026-02-04T17:00:00+00:00",
-      "timestamp": 1770224400,
-      "periods": {
-        "first": 1770224400,
-        "second": 1770228000
-      },
-      "venue": {
-        "id": null,
-        "name": "RheinEnergieStadion",
-        "city": "Cologne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2025,
-      "round": "Round of 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10265,
-        "name": "K\u00f6ln U19",
-        "logo": "https://media.api-sports.io/football/teams/10265.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7903,
-        "name": "Internazionale U19",
-        "logo": "https://media.api-sports.io/football/teams/7903.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 3
       },
       "extratime": {

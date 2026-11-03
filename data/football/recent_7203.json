@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627108,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T19:00:00+00:00",
+      "timestamp": 1793386800,
+      "periods": {
+        "first": 1793386800,
+        "second": 1793390400
+      },
+      "venue": {
+        "id": null,
+        "name": "Rush Green Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7203,
+        "name": "West Ham United U21",
+        "logo": "https://media.api-sports.io/football/teams/7203.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20086,
+        "name": "Sheffield United U21",
+        "logo": "https://media.api-sports.io/football/teams/20086.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621064,
       "referee": "P. Johnson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627091,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-09T18:00:00+00:00",
-      "timestamp": 1791568800,
-      "periods": {
-        "first": 1791568800,
-        "second": 1791572400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20095,
-        "name": "Millwall U21",
-        "logo": "https://media.api-sports.io/football/teams/20095.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7203,
-        "name": "West Ham United U21",
-        "logo": "https://media.api-sports.io/football/teams/7203.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

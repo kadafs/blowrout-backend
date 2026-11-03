@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645865,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T14:30:00+00:00",
+      "timestamp": 1793543400,
+      "periods": {
+        "first": 1793543400,
+        "second": 1793547000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 411,
+      "name": "Elite One",
+      "country": "Cameroon",
+      "logo": "https://media.api-sports.io/football/leagues/411.png",
+      "flag": "https://media.api-sports.io/flags/cm.svg",
+      "season": 2027,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20800,
+        "name": "Victoria United",
+        "logo": "https://media.api-sports.io/football/teams/20800.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28568,
+        "name": "Gazelle",
+        "logo": "https://media.api-sports.io/football/teams/28568.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645852,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1512930,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-07T14:30:00+00:00",
-      "timestamp": 1780842600,
-      "periods": {
-        "first": 1780842600,
-        "second": 1780846200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 411,
-      "name": "Elite One",
-      "country": "Cameroon",
-      "logo": "https://media.api-sports.io/football/leagues/411.png",
-      "flag": "https://media.api-sports.io/flags/cm.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5556,
-        "name": "Aigle Royal",
-        "logo": "https://media.api-sports.io/football/teams/5556.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28568,
-        "name": "Gazelle",
-        "logo": "https://media.api-sports.io/football/teams/28568.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

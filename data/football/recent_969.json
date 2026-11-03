@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646865,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20212,
+        "name": "Stade d'Honneur",
+        "city": "Meknes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22218,
+        "name": "CODM Mekn\u00e8s",
+        "logo": "https://media.api-sports.io/football/teams/22218.png",
+        "winner": null
+      },
+      "away": {
+        "id": 969,
+        "name": "FAR Rabat",
+        "logo": "https://media.api-sports.io/football/teams/969.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646858,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644203,
-      "referee": "M. Kechchaf",
-      "timezone": "UTC",
-      "date": "2026-10-08T18:00:00+00:00",
-      "timestamp": 1791482400,
-      "periods": {
-        "first": 1791482400,
-        "second": 1791486000
-      },
-      "venue": {
-        "id": 1103,
-        "name": "Stade Prince Moulay Abdallah",
-        "city": "Rabat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 969,
-        "name": "FAR Rabat",
-        "logo": "https://media.api-sports.io/football/teams/969.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3458,
-        "name": "Widad T\u00e9mara",
-        "logo": "https://media.api-sports.io/football/teams/3458.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

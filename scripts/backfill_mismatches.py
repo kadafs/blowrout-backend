@@ -56,12 +56,9 @@ for fpath in files:
         )
 
         p['is_mismatch'] = info['is_mismatch']
-        p['risk_level'] = info['risk_level']
-        p['mismatch_badge'] = info['short_badge']
-        p['mismatch_trigger'] = info['trigger']
-        p['recommended_stake'] = info['recommended_stake']
-        p['totals_advice'] = info['totals_advice']
         p['mismatch_info'] = info
+        for _stale in ('risk_level', 'mismatch_badge', 'mismatch_trigger', 'recommended_stake', 'totals_advice'):
+            p.pop(_stale, None)
 
         if info['is_mismatch']:
             total_mismatches += 1
@@ -74,3 +71,4 @@ for fpath in files:
         print(f"  Saved {fpath} ({len(preds)} predictions).")
 
 print(f"\nFinished backfilling! Updated {total_updated} prediction records ({total_mismatches} flagged as mismatches).")
+

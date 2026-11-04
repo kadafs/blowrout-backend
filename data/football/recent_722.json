@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1569992,
+      "referee": "A. Fuentes",
+      "timezone": "UTC",
+      "date": "2026-10-31T20:00:00+00:00",
+      "timestamp": 1793476800,
+      "periods": {
+        "first": 1793476800,
+        "second": 1793480400
+      },
+      "venue": {
+        "id": 1458,
+        "name": "Estadio Carlos Belmonte",
+        "city": "Albacete"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 722,
+        "name": "Albacete",
+        "logo": "https://media.api-sports.io/football/teams/722.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9593,
+        "name": "Sabadell",
+        "logo": "https://media.api-sports.io/football/teams/9593.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569981,
-      "referee": "Daniel Palencia Caballero",
+      "referee": "D. Palencia",
       "timezone": "UTC",
       "date": "2026-10-25T15:15:00+00:00",
       "timestamp": 1792941300,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792941300,
+        "second": 1792944900
       },
       "venue": {
         "id": 1458,
-        "name": "Carlos Belmonte",
+        "name": "Estadio Carlos Belmonte",
         "city": "Albacete"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569941,
-      "referee": "Saul Ais Reig, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-25T18:30:00+00:00",
-      "timestamp": 1790361000,
-      "periods": {
-        "first": 1790361000,
-        "second": 1790364600
-      },
-      "venue": {
-        "id": 1478,
-        "name": "Estadio Municipal de Montilivi",
-        "city": "Girona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 547,
-        "name": "Girona",
-        "logo": "https://media.api-sports.io/football/teams/547.png",
-        "winner": true
-      },
-      "away": {
-        "id": 722,
-        "name": "Albacete",
-        "logo": "https://media.api-sports.io/football/teams/722.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

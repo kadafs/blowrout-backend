@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612274,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 483,
+        "name": "Alexandria Stadium",
+        "city": "Alexandria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 233,
+      "name": "Premier League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/233.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1572,
+        "name": "Al Ittihad",
+        "logo": "https://media.api-sports.io/football/teams/1572.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1039,
+        "name": "El Geish",
+        "logo": "https://media.api-sports.io/football/teams/1039.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1612264,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612222,
-      "referee": "M. El Atabani",
-      "timezone": "UTC",
-      "date": "2026-09-01T14:00:00+00:00",
-      "timestamp": 1788271200,
-      "periods": {
-        "first": 1788271200,
-        "second": 1788274800
-      },
-      "venue": {
-        "id": null,
-        "name": "Gehaz El Reyada El Askari Stadium",
-        "city": "Cairo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1039,
-        "name": "El Geish",
-        "logo": "https://media.api-sports.io/football/teams/1039.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7520,
-        "name": "Masr",
-        "logo": "https://media.api-sports.io/football/teams/7520.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

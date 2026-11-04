@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563228,
+      "referee": "Ruebyn Ricardo",
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 512,
+        "name": "Turf Moor",
+        "city": "Burnley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 40,
+      "name": "Championship",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/40.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 44,
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1355,
+        "name": "Portsmouth",
+        "logo": "https://media.api-sports.io/football/teams/1355.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563220,
       "referee": "Tom Reeves, England",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563186,
-      "referee": "Adam Herczeg, England",
-      "timezone": "UTC",
-      "date": "2026-10-11T11:00:00+00:00",
-      "timestamp": 1791716400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 585,
-        "name": "St. Mary's Stadium",
-        "city": "Southampton"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 40,
-      "name": "Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/40.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 41,
-        "name": "Southampton",
-        "logo": "https://media.api-sports.io/football/teams/41.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1355,
-        "name": "Portsmouth",
-        "logo": "https://media.api-sports.io/football/teams/1355.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565172,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T09:30:00+00:00",
+      "timestamp": 1793439000,
+      "periods": {
+        "first": 1793439000,
+        "second": 1793442600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 668,
+      "name": "1. Liga U19",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/668.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27891,
+        "name": "Teplice U19",
+        "logo": "https://media.api-sports.io/football/teams/27891.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7970,
+        "name": "Viktoria Plze\u0148 U19",
+        "logo": "https://media.api-sports.io/football/teams/7970.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565170,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565165,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T09:00:00+00:00",
-      "timestamp": 1789203600,
-      "periods": {
-        "first": 1789203600,
-        "second": 1789207200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 668,
-      "name": "1. Liga U19",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/668.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14834,
-        "name": "Mlad\u00e1 Boleslav U19",
-        "logo": "https://media.api-sports.io/football/teams/14834.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27891,
-        "name": "Teplice U19",
-        "logo": "https://media.api-sports.io/football/teams/27891.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 3
       },
       "extratime": {
         "home": null,

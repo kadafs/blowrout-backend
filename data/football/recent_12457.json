@@ -1,33 +1,103 @@
 [
   {
     "fixture": {
-      "id": 1647058,
+      "id": 1635308,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-25T11:00:00+00:00",
-      "timestamp": 1792926000,
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
       "periods": {
-        "first": 1792926000,
-        "second": 1792929600
+        "first": 1793451600,
+        "second": 1793455200
       },
       "venue": {
-        "id": null,
-        "name": null,
-        "city": null
+        "id": 22605,
+        "name": "Lugazi FC Stadium",
+        "city": "Najjembe"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": null
+        "extra": 4
       }
     },
     "league": {
-      "id": 962,
+      "id": 585,
       "name": "Premier League",
-      "country": "Lesotho",
-      "logo": "https://media.api-sports.io/football/leagues/962.png",
-      "flag": "https://media.api-sports.io/flags/ls.svg",
+      "country": "Uganda",
+      "logo": "https://media.api-sports.io/football/leagues/585.png",
+      "flag": "https://media.api-sports.io/flags/ug.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24776,
+        "name": "Lugazi",
+        "logo": "https://media.api-sports.io/football/teams/24776.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12457,
+        "name": "SC Villa",
+        "logo": "https://media.api-sports.io/football/teams/12457.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1635299,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T13:00:00+00:00",
+      "timestamp": 1793106000,
+      "periods": {
+        "first": 1793106000,
+        "second": 1793109600
+      },
+      "venue": {
+        "id": null,
+        "name": "Mutesa II Stadium",
+        "city": "Kampala"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 585,
+      "name": "Premier League",
+      "country": "Uganda",
+      "logo": "https://media.api-sports.io/football/leagues/585.png",
+      "flag": "https://media.api-sports.io/flags/ug.svg",
       "season": 2026,
       "round": "Regular Season - 8",
       "standings": true
@@ -37,27 +107,27 @@
         "id": 12457,
         "name": "SC Villa",
         "logo": "https://media.api-sports.io/football/teams/12457.png",
-        "winner": false
+        "winner": null
       },
       "away": {
-        "id": 20980,
-        "name": "Lijabatho",
-        "logo": "https://media.api-sports.io/football/teams/20980.png",
-        "winner": true
+        "id": 20297,
+        "name": "Blacks Power",
+        "logo": "https://media.api-sports.io/football/teams/20297.png",
+        "winner": null
       }
     },
     "goals": {
-      "home": 1,
-      "away": 3
+      "home": 0,
+      "away": 0
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "fulltime": {
-        "home": 1,
-        "away": 3
+        "home": 0,
+        "away": 0
       },
       "extratime": {
         "home": null,
@@ -127,76 +197,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1646178,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T13:00:00+00:00",
-      "timestamp": 1792242000,
-      "periods": {
-        "first": 1792242000,
-        "second": 1792245600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 962,
-      "name": "Premier League",
-      "country": "Lesotho",
-      "logo": "https://media.api-sports.io/football/leagues/962.png",
-      "flag": "https://media.api-sports.io/flags/ls.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20979,
-        "name": "Lifofane",
-        "logo": "https://media.api-sports.io/football/teams/20979.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12457,
-        "name": "SC Villa",
-        "logo": "https://media.api-sports.io/football/teams/12457.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {
@@ -281,48 +281,48 @@
   },
   {
     "fixture": {
-      "id": 1645140,
+      "id": 1635270,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-11T13:00:00+00:00",
-      "timestamp": 1791723600,
+      "date": "2026-10-07T13:00:00+00:00",
+      "timestamp": 1791378000,
       "periods": {
-        "first": 1791723600,
-        "second": 1791727200
+        "first": 1791378000,
+        "second": 1791381600
       },
       "venue": {
         "id": null,
-        "name": null,
-        "city": null
+        "name": "BCS Sports complex Bukedea",
+        "city": "Bukedea"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": null
+        "extra": 6
       }
     },
     "league": {
-      "id": 962,
+      "id": 585,
       "name": "Premier League",
-      "country": "Lesotho",
-      "logo": "https://media.api-sports.io/football/leagues/962.png",
-      "flag": "https://media.api-sports.io/flags/ls.svg",
+      "country": "Uganda",
+      "logo": "https://media.api-sports.io/football/leagues/585.png",
+      "flag": "https://media.api-sports.io/flags/ug.svg",
       "season": 2026,
-      "round": "Regular Season - 6",
+      "round": "Regular Season - 5",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 12457,
-        "name": "SC Villa",
-        "logo": "https://media.api-sports.io/football/teams/12457.png",
+        "id": 28319,
+        "name": "Kataka",
+        "logo": "https://media.api-sports.io/football/teams/28319.png",
         "winner": null
       },
       "away": {
-        "id": 20978,
-        "name": "LMPS",
-        "logo": "https://media.api-sports.io/football/teams/20978.png",
+        "id": 12457,
+        "name": "SC Villa",
+        "logo": "https://media.api-sports.io/football/teams/12457.png",
         "winner": null
       }
     },
@@ -333,7 +333,7 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
         "home": 1,

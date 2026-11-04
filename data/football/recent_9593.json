@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1569992,
+      "referee": "A. Fuentes",
+      "timezone": "UTC",
+      "date": "2026-10-31T20:00:00+00:00",
+      "timestamp": 1793476800,
+      "periods": {
+        "first": 1793476800,
+        "second": 1793480400
+      },
+      "venue": {
+        "id": 1458,
+        "name": "Estadio Carlos Belmonte",
+        "city": "Albacete"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 722,
+        "name": "Albacete",
+        "logo": "https://media.api-sports.io/football/teams/722.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9593,
+        "name": "Sabadell",
+        "logo": "https://media.api-sports.io/football/teams/9593.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569991,
-      "referee": "Saul Ais Reig",
+      "referee": "S. Ais",
       "timezone": "UTC",
       "date": "2026-10-25T13:00:00+00:00",
       "timestamp": 1792933200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792933200,
+        "second": 1792936800
       },
       "venue": {
         "id": 6686,
-        "name": "Nova Creu Alta",
+        "name": "Estadi de la Nova Creu Alta",
         "city": "Sabadell"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1569970,
-      "referee": "Manuel Angel Perez Hernandez, Spain",
+      "referee": "M. Perez",
       "timezone": "UTC",
       "date": "2026-10-18T19:00:00+00:00",
       "timestamp": 1792350000,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1569964,
-      "referee": "Olatz Rivera Olmedo, Spain",
+      "referee": "O. Rivera Olmedo",
       "timezone": "UTC",
       "date": "2026-10-10T14:15:00+00:00",
       "timestamp": 1791641700,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1569958,
-      "referee": "Jose Luis Guzman Mansilla, Spain",
+      "referee": "J. Guzman",
       "timezone": "UTC",
       "date": "2026-10-04T19:00:00+00:00",
       "timestamp": 1791140400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569938,
-      "referee": "Gorka Etayo Herrera, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-26T16:30:00+00:00",
-      "timestamp": 1790440200,
-      "periods": {
-        "first": 1790440200,
-        "second": 1790443800
-      },
-      "venue": {
-        "id": 22784,
-        "name": "Municipal de Bala\u00eddos",
-        "city": "Vigo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9571,
-        "name": "Celta de Vigo II",
-        "logo": "https://media.api-sports.io/football/teams/9571.png",
-        "winner": null
-      },
-      "away": {
-        "id": 9593,
-        "name": "Sabadell",
-        "logo": "https://media.api-sports.io/football/teams/9593.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

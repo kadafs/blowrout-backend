@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534496,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": null,
+        "name": "Dinamo-Yuni Stadium",
+        "city": "Minsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 117,
+      "name": "1. Division",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/117.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 18857,
+        "name": "Uni Minsk",
+        "logo": "https://media.api-sports.io/football/teams/18857.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3387,
+        "name": "Lida",
+        "logo": "https://media.api-sports.io/football/teams/3387.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534486,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1534455,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T13:00:00+00:00",
-      "timestamp": 1790427600,
-      "periods": {
-        "first": 1790427600,
-        "second": 1790431200
-      },
-      "venue": {
-        "id": null,
-        "name": "Dinamo-Yuni Stadium",
-        "city": "Minsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 117,
-      "name": "1. Division",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/117.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18857,
-        "name": "Uni Minsk",
-        "logo": "https://media.api-sports.io/football/teams/18857.png",
-        "winner": null
-      },
-      "away": {
-        "id": 13149,
-        "name": "Ostrovets FC",
-        "logo": "https://media.api-sports.io/football/teams/13149.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

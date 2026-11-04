@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632520,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": 1793451600,
+        "second": 1793455200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 405,
+      "name": "National Soccer League",
+      "country": "Rwanda",
+      "logo": "https://media.api-sports.io/football/leagues/405.png",
+      "flag": "https://media.api-sports.io/flags/rw.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7574,
+        "name": "Gasogi United",
+        "logo": "https://media.api-sports.io/football/teams/7574.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5237,
+        "name": "Al Hilal Omdurman",
+        "logo": "https://media.api-sports.io/football/teams/5237.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632477,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619081,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T13:00:00+00:00",
-      "timestamp": 1789218000,
-      "periods": {
-        "first": 1789218000,
-        "second": 1789221600
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Hilal Stadium",
-        "city": "Omdurman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5237,
-        "name": "Al Hilal Omdurman",
-        "logo": "https://media.api-sports.io/football/teams/5237.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4447,
-        "name": "Aigle Noir",
-        "logo": "https://media.api-sports.io/football/teams/4447.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

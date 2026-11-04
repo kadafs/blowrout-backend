@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627104,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T19:00:00+00:00",
+      "timestamp": 1793386800,
+      "periods": {
+        "first": 1793386800,
+        "second": 1793390400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22174,
+        "name": "Luton Town U21",
+        "logo": "https://media.api-sports.io/football/teams/22174.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19746,
+        "name": "Nottingham Forest U21",
+        "logo": "https://media.api-sports.io/football/teams/19746.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621065,
       "referee": "L. Smith",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627093,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-09T18:00:00+00:00",
-      "timestamp": 1791568800,
-      "periods": {
-        "first": 1791568800,
-        "second": 1791572400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20018,
-        "name": "Peterborough United U21",
-        "logo": "https://media.api-sports.io/football/teams/20018.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19746,
-        "name": "Nottingham Forest U21",
-        "logo": "https://media.api-sports.io/football/teams/19746.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

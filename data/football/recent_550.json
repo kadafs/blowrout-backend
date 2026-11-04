@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565519,
+      "referee": "M. Balakin",
+      "timezone": "UTC",
+      "date": "2026-10-30T16:00:00+00:00",
+      "timestamp": 1793376000,
+      "periods": {
+        "first": 1793376000,
+        "second": 1793379600
+      },
+      "venue": {
+        "id": 8330,
+        "name": "Arena Lviv",
+        "city": "Lviv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3630,
+        "name": "Obolon'-Brovar",
+        "logo": "https://media.api-sports.io/football/teams/3630.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640674,
       "referee": null,
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1565511,
-      "referee": "Roman Blavatskiy, Ukraine",
+      "referee": "R. Blavatsky",
       "timezone": "UTC",
       "date": "2026-10-24T15:00:00+00:00",
       "timestamp": 1792854000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792854000,
+        "second": 1792857600
       },
       "venue": {
         "id": 20124,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1565504,
-      "referee": "Dmytro Panchyshyn, Ukraine",
+      "referee": "D. Panchyshyn",
       "timezone": "UTC",
       "date": "2026-10-17T15:00:00+00:00",
       "timestamp": 1792249200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792249200,
+        "second": 1792252800
       },
       "venue": {
         "id": 20124,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635725,
-      "referee": "Chris Kavanagh",
-      "timezone": "UTC",
-      "date": "2026-10-14T19:00:00+00:00",
-      "timestamp": 1792004400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 519,
-        "name": "Stamford Bridge",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 2,
-      "name": "UEFA Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/2.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 550,
-        "name": "Shakhtar Donetsk",
-        "logo": "https://media.api-sports.io/football/teams/550.png",
-        "winner": true
-      },
-      "away": {
-        "id": 575,
-        "name": "AEK Athens FC",
-        "logo": "https://media.api-sports.io/football/teams/575.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

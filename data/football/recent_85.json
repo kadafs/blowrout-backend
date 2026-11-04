@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552801,
+      "referee": "Francois Letexier",
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 652,
+        "name": "Stade Oc\u00e9ane",
+        "city": "Le Havre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png",
+        "winner": false
+      },
+      "away": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552800,
       "referee": "Jerome Brisard",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552780,
-      "referee": "M. Vernice",
-      "timezone": "UTC",
-      "date": "2026-10-10T18:45:00+00:00",
-      "timestamp": 1791657900,
-      "periods": {
-        "first": 1791657900,
-        "second": 1791661500
-      },
-      "venue": {
-        "id": 671,
-        "name": "Parc des Princes",
-        "city": "Paris"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 85,
-        "name": "Paris Saint Germain",
-        "logo": "https://media.api-sports.io/football/teams/85.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1298,
-        "name": "Le Mans",
-        "logo": "https://media.api-sports.io/football/teams/1298.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

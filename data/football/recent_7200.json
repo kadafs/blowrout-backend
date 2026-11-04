@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621071,
+      "referee": "M. Scholes",
+      "timezone": "UTC",
+      "date": "2026-10-26T19:00:00+00:00",
+      "timestamp": 1793041200,
+      "periods": {
+        "first": 1793041200,
+        "second": 1793044800
+      },
+      "venue": {
+        "id": null,
+        "name": "Pride Park",
+        "city": "Derby"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19745,
+        "name": "Derby County U21",
+        "logo": "https://media.api-sports.io/football/teams/19745.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7200,
+        "name": "Norwich City U21",
+        "logo": "https://media.api-sports.io/football/teams/7200.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627074,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1628851,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T18:00:00+00:00",
-      "timestamp": 1790618400,
-      "periods": {
-        "first": 1790618400,
-        "second": 1790622000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 871,
-      "name": "Premier League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/871.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 24847,
-        "name": "Exeter U21",
-        "logo": "https://media.api-sports.io/football/teams/24847.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7200,
-        "name": "Norwich City U21",
-        "logo": "https://media.api-sports.io/football/teams/7200.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
         "away": 3
       },
       "extratime": {

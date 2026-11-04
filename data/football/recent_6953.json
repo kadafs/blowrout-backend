@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640570,
+      "referee": "F. Kaliszewski",
+      "timezone": "UTC",
+      "date": "2026-10-28T16:30:00+00:00",
+      "timestamp": 1793205000,
+      "periods": {
+        "first": 1793205000,
+        "second": 1793208600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion MZOS Znicz",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 108,
+      "name": "Cup",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/108.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6964,
+        "name": "Znicz Pruszk\u00f3w",
+        "logo": "https://media.api-sports.io/football/teams/6964.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6953,
+        "name": "Ruch Chorz\u00f3w",
+        "logo": "https://media.api-sports.io/football/teams/6953.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558253,
       "referee": "M. Kochanek",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558226,
-      "referee": "W. Myc",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:45:00+00:00",
-      "timestamp": 1789757100,
-      "periods": {
-        "first": 1789757100,
-        "second": 1789760700
-      },
-      "venue": {
-        "id": null,
-        "name": "Boisko ul. Pilkarska 8",
-        "city": "Bytom"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 107,
-      "name": "I Liga",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/107.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12835,
-        "name": "Polonia Bytom",
-        "logo": "https://media.api-sports.io/football/teams/12835.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6953,
-        "name": "Ruch Chorz\u00f3w",
-        "logo": "https://media.api-sports.io/football/teams/6953.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

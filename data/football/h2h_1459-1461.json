@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549664,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-16T01:00:00+00:00",
+      "timestamp": 1792112400,
+      "periods": {
+        "first": 1792112400,
+        "second": 1792116000
+      },
+      "venue": {
+        "id": 374,
+        "name": "Estadio Centenario",
+        "city": "Armenia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1461,
+        "name": "Quindio",
+        "logo": "https://media.api-sports.io/football/teams/1461.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1459,
+        "name": "Real Cartagena",
+        "logo": "https://media.api-sports.io/football/teams/1459.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511932,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1315014,
-      "referee": "J. Mayorga",
-      "timezone": "UTC",
-      "date": "2024-11-09T23:10:00+00:00",
-      "timestamp": 1731193800,
-      "periods": {
-        "first": 1731193800,
-        "second": 1731197400
-      },
-      "venue": {
-        "id": 385,
-        "name": "Estadio Ol\u00edmpico Jaime Mor\u00f3n Le\u00f3n",
-        "city": "Cartagena de Indias"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 240,
-      "name": "Primera B",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/240.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2024,
-      "round": "Clausura - Quadrangular - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1459,
-        "name": "Real Cartagena",
-        "logo": "https://media.api-sports.io/football/teams/1459.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1461,
-        "name": "Quindio",
-        "logo": "https://media.api-sports.io/football/teams/1461.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

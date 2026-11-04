@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552802,
+      "referee": "Jerome Brisard",
+      "timezone": "UTC",
+      "date": "2026-10-30T20:05:00+00:00",
+      "timestamp": 1793390700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22783,
+        "name": "Stade Pierre-Mauroy",
+        "city": "Lille"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 79,
+        "name": "Lille",
+        "logo": "https://media.api-sports.io/football/teams/79.png",
+        "winner": true
+      },
+      "away": {
+        "id": 116,
+        "name": "Lens",
+        "logo": "https://media.api-sports.io/football/teams/116.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552797,
       "referee": "Francois Letexier",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552776,
-      "referee": "B. Dechepy",
-      "timezone": "UTC",
-      "date": "2026-10-10T15:15:00+00:00",
-      "timestamp": 1791645300,
-      "periods": {
-        "first": 1791645300,
-        "second": 1791648900
-      },
-      "venue": {
-        "id": 22783,
-        "name": "Stade Pierre-Mauroy",
-        "city": "Lille"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 79,
-        "name": "Lille",
-        "logo": "https://media.api-sports.io/football/teams/79.png",
-        "winner": true
-      },
-      "away": {
-        "id": 111,
-        "name": "Le Havre",
-        "logo": "https://media.api-sports.io/football/teams/111.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

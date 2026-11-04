@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638197,
+      "referee": "Anderson Daronco",
+      "timezone": "UTC",
+      "date": "2026-11-01T19:00:00+00:00",
+      "timestamp": 1793559600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 258,
+        "name": "Nubank Parque",
+        "city": "Sao Paulo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 73,
+      "name": "Copa Do Brasil",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/73.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 121,
+        "name": "Palmeiras",
+        "logo": "https://media.api-sports.io/football/teams/121.png",
+        "winner": true
+      },
+      "away": {
+        "id": 133,
+        "name": "Vasco DA Gama",
+        "logo": "https://media.api-sports.io/football/teams/133.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492439,
       "referee": "Bruno Arleu de Araujo, Brazil",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639863,
-      "referee": "P. Maza",
-      "timezone": "UTC",
-      "date": "2026-10-14T00:30:00+00:00",
-      "timestamp": 1791937800,
-      "periods": {
-        "first": 1791937800,
-        "second": 1791941400
-      },
-      "venue": {
-        "id": 46,
-        "name": "Estadio Alberto J. Armando",
-        "city": "Buenos Aires"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 11,
-      "name": "CONMEBOL Sudamericana",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/11.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 451,
-        "name": "Boca Juniors",
-        "logo": "https://media.api-sports.io/football/teams/451.png",
-        "winner": false
-      },
-      "away": {
-        "id": 133,
-        "name": "Vasco DA Gama",
-        "logo": "https://media.api-sports.io/football/teams/133.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

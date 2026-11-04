@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552806,
+      "referee": "Eric Wattellier",
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 663,
+        "name": "Allianz Riviera",
+        "city": "Nice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png",
+        "winner": true
+      },
+      "away": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552798,
       "referee": "Ruddy Buquet",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552781,
-      "referee": "W. Delajod",
-      "timezone": "UTC",
-      "date": "2026-10-11T15:15:00+00:00",
-      "timestamp": 1791731700,
-      "periods": {
-        "first": 1791731700,
-        "second": 1791735300
-      },
-      "venue": {
-        "id": 680,
-        "name": "Roazhon Park",
-        "city": "Rennes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 94,
-        "name": "Rennes",
-        "logo": "https://media.api-sports.io/football/teams/94.png",
-        "winner": true
-      },
-      "away": {
-        "id": 108,
-        "name": "Auxerre",
-        "logo": "https://media.api-sports.io/football/teams/108.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

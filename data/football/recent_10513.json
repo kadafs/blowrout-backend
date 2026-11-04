@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1603072,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T14:50:00+00:00",
+      "timestamp": 1793371800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Prince Turki bin Abdul Aziz Stadium",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 307,
+      "name": "Pro League",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/307.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26738,
+        "name": "Al Diriyah",
+        "logo": "https://media.api-sports.io/football/teams/26738.png",
+        "winner": false
+      },
+      "away": {
+        "id": 10513,
+        "name": "NEOM",
+        "logo": "https://media.api-sports.io/football/teams/10513.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645603,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1645598,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:00:00+00:00",
-      "timestamp": 1791914400,
-      "periods": {
-        "first": 1791914400,
-        "second": 1791918000
-      },
-      "venue": {
-        "id": null,
-        "name": "King Khalid Sports City",
-        "city": "Tabuk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 1162,
-      "name": "AGCFF Gulf Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1162.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10513,
-        "name": "NEOM",
-        "logo": "https://media.api-sports.io/football/teams/10513.png",
-        "winner": true
-      },
-      "away": {
-        "id": 23356,
-        "name": "Al Sha'ab Hadhramaut",
-        "logo": "https://media.api-sports.io/football/teams/23356.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

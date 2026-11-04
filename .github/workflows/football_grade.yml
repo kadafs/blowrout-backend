@@ -49,6 +49,12 @@ jobs:
           python aggregate_league_stats.py
           echo "Done."
 
+      - name: Aggregate HSH Stats
+        run: |
+          echo "Aggregating HSH team/league profiles..."
+          python aggregate_hsh_stats.py
+          echo "Done."
+
 
       - name: Regenerate dates index
         run: |

@@ -338,6 +338,14 @@ def main():
             graded_list.append(pred)
             continue
         
+        home_t = pred.get("home_team")
+        away_t = pred.get("away_team")
+        if not home_t or not away_t:
+            graded_list.append(pred)
+            continue
+
+        pred_lid = pred.get("league_id", 0)
+
         found_result = None
         # 1. Match by exact game_id if available
         gid = pred.get("game_id")
@@ -346,24 +354,22 @@ def main():
 
         # 2. Match by exact (league_id, home, away)
         if not found_result:
-            key = (pred["league_id"], pred["home_team"], pred["away_team"])
+            key = (pred_lid, home_t, away_t)
             if key in results_map:
                 found_result = results_map[key]
 
         # 3. Match with NCAA parent league fallback (11600-11699 -> 116, 42300-42399 -> 423)
         if not found_result:
-            pred_lid = pred.get("league_id", 0)
             parent_lid = 116 if (11600 <= pred_lid <= 11699) else (423 if (42300 <= pred_lid <= 42399) else pred_lid)
-            parent_key = (parent_lid, pred["home_team"], pred["away_team"])
+            parent_key = (parent_lid, home_t, away_t)
             if parent_key in results_map:
                 found_result = results_map[parent_key]
 
         # 4. Fuzzy fallback across league_id and parent_lid
         if not found_result:
-            pred_lid = pred.get("league_id", 0)
             parent_lid = 116 if (11600 <= pred_lid <= 11699) else (423 if (42300 <= pred_lid <= 42399) else pred_lid)
-            pred_home_n = _normalize_name(pred["home_team"])
-            pred_away_n = _normalize_name(pred["away_team"])
+            pred_home_n = _normalize_name(home_t)
+            pred_away_n = _normalize_name(away_t)
             for (lid, h, a), val in results_map.items():
                 if lid in (pred_lid, parent_lid) and _normalize_name(h) == pred_home_n and _normalize_name(a) == pred_away_n:
                     found_result = val

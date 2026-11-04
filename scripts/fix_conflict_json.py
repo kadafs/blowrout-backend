@@ -34,3 +34,4 @@ except json.JSONDecodeError as e:
     end = min(len(lines), e.lineno + 3)
     for i, l in enumerate(lines[start:end], start=start+1):
         print(f"  {i}: {repr(l)}")
+

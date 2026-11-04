@@ -13,6 +13,13 @@ Usage:
     python3 aggregate_hsh_stats.py --min_games 5
 """
 
+import sys
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 import argparse
 import glob
 import json

@@ -213,7 +213,7 @@ def grade_prediction(pred: dict, home_goals: int, away_goals: int,
         else:
             p["actual_hsh_result"] = "TIE"
         # Grade HSH prediction if one was made
-        hsh_decision = pred.get("hsh_decision")
+        hsh_decision = pred.get("hsh_decision") or (pred.get("hsh") or {}).get("hsh_decision")
         if hsh_decision and hsh_decision not in ("PASS", None):
             p["hsh_grade"] = "WIN" if hsh_decision == p["actual_hsh_result"] else "LOSS"
 

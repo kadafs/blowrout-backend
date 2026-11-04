@@ -257,7 +257,7 @@ def main():
     end_dt   = datetime.strptime(args.date, "%Y-%m-%d") if args.date else None
     
     for f in all_files:
-        file_date_str = os.path.basename(f).replace("universal_predictions_", "").replace(".json", "")
+        file_date_str = os.path.basename(f).replace("universal_predictions_", "").replace("_v2", "").replace(".json", "")
         try:
             file_dt = datetime.strptime(file_date_str, "%Y-%m-%d")
             
@@ -280,7 +280,7 @@ def main():
     team_stats = {}
     
     for f in sorted(files):
-        file_date_str = os.path.basename(f).replace("universal_predictions_", "").replace(".json", "")
+        file_date_str = os.path.basename(f).replace("universal_predictions_", "").replace("_v2", "").replace(".json", "")
         if args.verbose:
             print(f" - Processing {os.path.basename(f)}...")
         process_file(f, file_date_str, league_stats, team_stats)

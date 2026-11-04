@@ -17,9 +17,8 @@ python mlb/post_process_fg.py --file .consensus_f5_v3_report_MLB_YYYY-MM-DD.json
 ##Basketball
 TRACKING_EPOCH = "2026-03-26"
 python audit_team_names.py - check team names
-/ **[python grade_basketball.py  
-python grade_basketball.py --regrade
-python aggregate_basketball_stats.py*** 
+/ **[python grade_basketball_V2.py  
+python aggregate_basketball_stats_v2.py*** 
 python run_daily_sdi_report.py
 
 # CLI Custom Audit

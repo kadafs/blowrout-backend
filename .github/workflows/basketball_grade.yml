@@ -71,8 +71,13 @@ jobs:
           echo "Copying graded files to dashboard..."
           mkdir -p sports-analytics/public/data/basketball
           
-          # Copy up to 14 latest prediction files
-          ls -t data/basketball/universal_predictions_*.json 2>/dev/null | head -14 | xargs -I {} cp {} sports-analytics/public/data/basketball/ || true
+          # Copy up to 8 latest prediction files (up to 5 dates with v1/v2)
+          ls -t data/basketball/universal_predictions_*.json 2>/dev/null | head -8 | xargs -I {} cp {} sports-analytics/public/data/basketball/ || true
+          
+          # Clean up prediction files older than 5 days in dashboard
+          cd sports-analytics/public/data/basketball
+          ls -t universal_predictions_*.json 2>/dev/null | tail -n +9 | xargs rm -f || true
+          cd ../../../..
           
           # Copy leaderboards
           cp data/basketball/*leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true

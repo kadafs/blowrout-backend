@@ -53,13 +53,13 @@ def run(cmd: list[str], cwd: Path):
     return result.stdout.strip()
 
 
-def copy_sport_data(sport: str, date_filter: Optional[str] = None):
+def copy_sport_data(sport: str, date_filter: Optional[str] = None, keep_days: int = 5):
     """
     Copy prediction files for a sport from ncaa-api/data/{sport}
     into Sports Analytics/public/data/{sport}.
     
     If date_filter is provided (YYYY-MM-DD), only copies that date's file.
-    Otherwise copies the latest file.
+    Otherwise copies files corresponding to the latest keep_days unique dates.
     """
     src_dir  = NCAA_API_ROOT / "data" / sport
     dest_dir = DASHBOARD_ROOT / "public" / "data" / sport
@@ -82,8 +82,15 @@ def copy_sport_data(sport: str, date_filter: Optional[str] = None):
             print(f"  ⚠️ No file found for date {date_filter} in {src_dir}")
             return []
     else:
-        # Copy up to 7 recent files to ensure graded past games sync over
-        files_to_copy = all_files[:7]
+        # Group by date to copy files for the latest keep_days unique dates (includes v1 and v2)
+        date_groups = {}
+        for f in all_files:
+            clean_date = f.stem.replace("universal_predictions_", "").replace("_v2", "").replace("v2_", "")
+            date_groups.setdefault(clean_date, []).append(f)
+        sorted_dates = sorted(date_groups.keys(), reverse=True)[:keep_days]
+        files_to_copy = []
+        for d in sorted_dates:
+            files_to_copy.extend(date_groups[d])
 
     copied = []
     for src_file in files_to_copy:
@@ -117,13 +124,12 @@ def copy_sport_data(sport: str, date_filter: Optional[str] = None):
     return copied
 
 
-def cleanup_old_files(sport: str, keep_days: int = 7):
+def cleanup_old_files(sport: str, keep_days: int = 5):
     """
     Remove universal_predictions_*.json files older than keep_days
-    from the dashboard repo to prevent git history from ballooning.
+    from the dashboard repo to prevent git history and deployment storage from ballooning.
     Also purges any unauthorized or stray files not needed by the dashboard frontend.
     """
-    from datetime import timedelta
     dest_dir = DASHBOARD_ROOT / "public" / "data" / sport
     if not dest_dir.exists():
         return
@@ -140,31 +146,27 @@ def cleanup_old_files(sport: str, keep_days: int = 7):
     )
     removed = []
 
-    # 1. Purge stray/unused files (e.g. recent_*, standings_*, scrap logs)
+    # 1. Purge stray/unused files
     for f in dest_dir.glob("*"):
         if f.is_file() and not any(f.name.startswith(p) for p in allowed_prefixes):
             f.unlink()
             removed.append(f.name)
 
-    # 2. Purge prediction files older than keep_days
-    cutoff = date.today() - timedelta(days=keep_days)
-    for f in dest_dir.glob("universal_predictions_*.json"):
-        date_str = f.stem.replace("universal_predictions_", "")
-        try:
-            clean_date_str = date_str.replace("v2_", "").replace("_v2", "")
-            file_date = date.fromisoformat(clean_date_str)
-            if file_date < cutoff:
+    # 2. Group prediction files by unique calendar date and retain only latest keep_days dates
+    all_preds = sorted(dest_dir.glob("universal_predictions_*.json"), reverse=True)
+    date_to_files = {}
+    for f in all_preds:
+        clean_date_str = f.stem.replace("universal_predictions_", "").replace("_v2", "").replace("v2_", "")
+        date_to_files.setdefault(clean_date_str, []).append(f)
+
+    unique_dates = sorted(date_to_files.keys(), reverse=True)
+    allowed_dates = set(unique_dates[:keep_days])
+
+    for d_str, files in date_to_files.items():
+        if d_str not in allowed_dates:
+            for f in files:
                 f.unlink()
                 removed.append(f.name)
-        except ValueError:
-            pass  # skip files with unexpected naming
-
-    # 3. Safety cap: never retain more than keep_days unique prediction files
-    remaining_preds = sorted(dest_dir.glob("universal_predictions_*.json"), reverse=True)
-    if len(remaining_preds) > keep_days:
-        for excess in remaining_preds[keep_days:]:
-            excess.unlink()
-            removed.append(excess.name)
 
     if removed:
         print(f"  🗑️  Cleaned up {len(removed)} old/stray {sport} file(s): {', '.join(removed[:8])}{'...' if len(removed) > 8 else ''}")
@@ -172,7 +174,7 @@ def cleanup_old_files(sport: str, keep_days: int = 7):
         print(f"  ✅ No old {sport} files to clean up (keeping last {keep_days} days).")
 
 
-def update_dates_index(sport: str, keep_days: int = 7):
+def update_dates_index(sport: str, keep_days: int = 5):
     """
     Rebuild dates_index.json dynamically from whatever prediction files are present
     in Sports Analytics/public/data/{sport}, keeping it accurate and capped to keep_days.
@@ -313,8 +315,8 @@ def main():
         print(f"--- {sport.upper()} ---")
         copied = copy_sport_data(sport, date_filter=args.date)
         all_copied[sport] = copied
-        cleanup_old_files(sport, keep_days=7)
-        update_dates_index(sport, keep_days=7)
+        cleanup_old_files(sport, keep_days=5)
+        update_dates_index(sport, keep_days=5)
         print()
 
     if args.no_push:

@@ -116,7 +116,7 @@ jobs:
           python - <<'EOF'
           import json, os, glob
           DATA_DIR = 'data/football'
-          files = sorted(glob.glob(os.path.join(DATA_DIR, 'universal_predictions_*.json')), reverse=True)
+          files = sorted(glob.glob(os.path.join(DATA_DIR, 'universal_predictions_*.json')), reverse=True)[:5]
           result = []
           for f in files:
               date = os.path.basename(f).replace('universal_predictions_', '').replace('.json', '')
@@ -155,8 +155,13 @@ jobs:
           echo "Copying predictions to dashboard..."
           mkdir -p sports-analytics/public/data/football
           
-          # Copy up to 14 latest prediction files
-          ls -t data/football/universal_predictions_*.json 2>/dev/null | head -14 | xargs -I {} cp {} sports-analytics/public/data/football/ || true
+          # Copy up to 5 latest prediction files (5-day retention)
+          ls -t data/football/universal_predictions_*.json 2>/dev/null | head -5 | xargs -I {} cp {} sports-analytics/public/data/football/ || true
+          
+          # Clean up prediction files older than 5 days in dashboard
+          cd sports-analytics/public/data/football
+          ls -t universal_predictions_*.json 2>/dev/null | tail -n +6 | xargs rm -f || true
+          cd ../../../..
           
           # Copy dates index
           cp data/football/dates_index.json sports-analytics/public/data/football/ || true

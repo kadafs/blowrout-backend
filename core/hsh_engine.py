@@ -37,6 +37,7 @@ GLOBAL_RATE_TIE = 0.240  # P(TIE)
 
 MIN_EDGE_TO_PLAY = 0.08   # must beat baseline by 8pp to make a call
 HIGH_CONF_EDGE   = 0.15   # edge >= 15pp → HIGH confidence
+MIN_TEAM_GAMES   = 5      # min graded games per team to trust team_profile over league_prior
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
@@ -148,7 +149,10 @@ def _estimate_half_goals(xg_home: float, xg_away: float,
     a_ht_att = a_profile.get("avg_ht_goals_scored")
     a_sh_att = a_profile.get("avg_sh_goals_scored")
 
-    if all(v is not None for v in [h_ht_att, h_sh_att, a_ht_att, a_sh_att]):
+    h_games = h_profile.get("games", 0)
+    a_games = a_profile.get("games", 0)
+    if (all(v is not None for v in [h_ht_att, h_sh_att, a_ht_att, a_sh_att])
+            and h_games >= MIN_TEAM_GAMES and a_games >= MIN_TEAM_GAMES):
         h_ht_total = h_ht_att + a_profile.get("avg_ht_goals_conceded", h_ht_att)
         h_sh_total = h_sh_att + a_profile.get("avg_sh_goals_conceded", h_sh_att)
         a_ht_total = a_ht_att + h_profile.get("avg_ht_goals_conceded", a_ht_att)

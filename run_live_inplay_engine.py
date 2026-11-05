@@ -339,6 +339,19 @@ def run_inplay_cycle(date_str=None, limit=None, verbose=True):
     if not raw_games:
         if verbose:
             print(f"  [{datetime.now().strftime('%H:%M:%S')}] No active live games found right now.")
+        empty_payload = {
+            "updated_at": datetime.now().isoformat(),
+            "active_games_count": 0,
+            "alerts_count": 0,
+            "alerts": [],
+            "games": [],
+        }
+        os.makedirs(DATA_DIR, exist_ok=True)
+        with open(LIVE_OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(empty_payload, f, indent=2, ensure_ascii=False)
+        with open(ALERTS_OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(empty_payload, f, indent=2, ensure_ascii=False)
+        update_gist(empty_payload)
         return [], []
 
     analyzed_games = []

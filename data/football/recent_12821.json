@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1566404,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T13:00:00+00:00",
+      "timestamp": 1793538000,
+      "periods": {
+        "first": 1793538000,
+        "second": 1793541600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 745,
+      "name": "Oberliga - Hamburg",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/745.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Hamburg - 14",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12821,
+        "name": "Niendorfer TSV",
+        "logo": "https://media.api-sports.io/football/teams/12821.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19470,
+        "name": "Harksheide",
+        "logo": "https://media.api-sports.io/football/teams/19470.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1566393,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1566357,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T15:00:00+00:00",
-      "timestamp": 1790434800,
-      "periods": {
-        "first": 1790434800,
-        "second": 1790438400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 745,
-      "name": "Oberliga - Hamburg",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/745.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Hamburg - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 12878,
-        "name": "Teutonia Ottensen",
-        "logo": "https://media.api-sports.io/football/teams/12878.png",
-        "winner": null
-      },
-      "away": {
-        "id": 12821,
-        "name": "Niendorfer TSV",
-        "logo": "https://media.api-sports.io/football/teams/12821.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

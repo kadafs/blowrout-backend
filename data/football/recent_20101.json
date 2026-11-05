@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621384,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T13:00:00+00:00",
+      "timestamp": 1793624400,
+      "periods": {
+        "first": 1793624400,
+        "second": 1793628000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "North - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20110,
+        "name": "Tzeirey Tamra",
+        "logo": "https://media.api-sports.io/football/teams/20110.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20101,
+        "name": "Hapoel Ironi Karmiel",
+        "logo": "https://media.api-sports.io/football/teams/20101.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646145,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621353,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-08T15:00:00+00:00",
-      "timestamp": 1791471600,
-      "periods": {
-        "first": 1791471600,
-        "second": 1791475200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "North - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20101,
-        "name": "Hapoel Ironi Karmiel",
-        "logo": "https://media.api-sports.io/football/teams/20101.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6169,
-        "name": "Hapoel Tirat HaCarmel",
-        "logo": "https://media.api-sports.io/football/teams/6169.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

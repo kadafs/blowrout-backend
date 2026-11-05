@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575997,
+      "referee": "J. Walker",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:45:00+00:00",
+      "timestamp": 1793389500,
+      "periods": {
+        "first": 1793389500,
+        "second": 1793393100
+      },
+      "venue": {
+        "id": 19181,
+        "name": "Ammanford Recreation Ground",
+        "city": "Ammanford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2188,
+        "name": "Ammanford AFC",
+        "logo": "https://media.api-sports.io/football/teams/2188.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2194,
+        "name": "Haverfordwest County AFC",
+        "logo": "https://media.api-sports.io/football/teams/2194.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575988,
       "referee": "B. Williams",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575955,
-      "referee": "R. Kenny",
-      "timezone": "UTC",
-      "date": "2026-09-29T18:45:00+00:00",
-      "timestamp": 1790707500,
-      "periods": {
-        "first": 1790707500,
-        "second": 1790711100
-      },
-      "venue": {
-        "id": null,
-        "name": "Cyncoed Campus",
-        "city": "Cardiff"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 353,
-        "name": "Cardiff MET",
-        "logo": "https://media.api-sports.io/football/teams/353.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2194,
-        "name": "Haverfordwest County AFC",
-        "logo": "https://media.api-sports.io/football/teams/2194.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

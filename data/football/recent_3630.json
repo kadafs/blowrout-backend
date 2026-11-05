@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1565519,
+      "referee": "M. Balakin",
+      "timezone": "UTC",
+      "date": "2026-10-30T16:00:00+00:00",
+      "timestamp": 1793376000,
+      "periods": {
+        "first": 1793376000,
+        "second": 1793379600
+      },
+      "venue": {
+        "id": 8330,
+        "name": "Arena Lviv",
+        "city": "Lviv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3630,
+        "name": "Obolon'-Brovar",
+        "logo": "https://media.api-sports.io/football/teams/3630.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565510,
-      "referee": "Andrey Kovalenko, Ukraine",
+      "referee": "A. Kovalenko",
       "timezone": "UTC",
       "date": "2026-10-23T10:00:00+00:00",
       "timestamp": 1792749600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792749600,
+        "second": 1792753200
       },
       "venue": {
         "id": 11948,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1565502,
-      "referee": "Oleksandr Omelchenko, Ukraine",
+      "referee": "O. Omelchenko",
       "timezone": "UTC",
       "date": "2026-10-16T10:00:00+00:00",
       "timestamp": 1792144800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792144800,
+        "second": 1792148400
       },
       "venue": {
         "id": 8330,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565481,
-      "referee": "Jevgeny Tsybulko, Ukraine",
+      "referee": "E. Tsibulko",
       "timezone": "UTC",
       "date": "2026-09-18T10:00:00+00:00",
       "timestamp": 1789725600,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1565478,
-      "referee": "Dmytro Kubriak, Ukraine",
+      "referee": "D. Kubryak",
       "timezone": "UTC",
       "date": "2026-09-12T10:00:00+00:00",
       "timestamp": 1789207200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565468,
-      "referee": "O. Derevinskyi",
-      "timezone": "UTC",
-      "date": "2026-09-05T10:00:00+00:00",
-      "timestamp": 1788602400,
-      "periods": {
-        "first": 1788602400,
-        "second": 1788606000
-      },
-      "venue": {
-        "id": 20196,
-        "name": "Arena Livyi Bereg",
-        "city": "Kyiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3628,
-        "name": "FC Kharkiv",
-        "logo": "https://media.api-sports.io/football/teams/3628.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3630,
-        "name": "Obolon'-Brovar",
-        "logo": "https://media.api-sports.io/football/teams/3630.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

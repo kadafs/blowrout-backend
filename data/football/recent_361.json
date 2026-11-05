@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575998,
+      "referee": "T. Owen",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:45:00+00:00",
+      "timestamp": 1793389500,
+      "periods": {
+        "first": 1793389500,
+        "second": 1793393100
+      },
+      "venue": {
+        "id": null,
+        "name": "Jenner Park",
+        "city": "Barry"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 361,
+        "name": "Barry Town",
+        "logo": "https://media.api-sports.io/football/teams/361.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6479,
+        "name": "Trefelin",
+        "logo": "https://media.api-sports.io/football/teams/6479.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575988,
       "referee": "B. Williams",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575964,
-      "referee": "J. A. Jones",
-      "timezone": "UTC",
-      "date": "2026-09-26T13:30:00+00:00",
-      "timestamp": 1790429400,
-      "periods": {
-        "first": 1790429400,
-        "second": 1790433000
-      },
-      "venue": {
-        "id": null,
-        "name": "Jenner Park",
-        "city": "Barry"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 361,
-        "name": "Barry Town",
-        "logo": "https://media.api-sports.io/football/teams/361.png",
-        "winner": false
-      },
-      "away": {
-        "id": 357,
-        "name": "GAP Connah S Quay FC",
-        "logo": "https://media.api-sports.io/football/teams/357.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

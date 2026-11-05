@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647619,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T23:10:00+00:00",
+      "timestamp": 1793661000,
+      "periods": {
+        "first": 1793661000,
+        "second": 1793664600
+      },
+      "venue": {
+        "id": 387,
+        "name": "Estadio Sierra Nevada",
+        "city": "Santa Marta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - Quadrangular - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1465,
+        "name": "Union Magdalena",
+        "logo": "https://media.api-sports.io/football/teams/1465.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1129,
+        "name": "Envigado",
+        "logo": "https://media.api-sports.io/football/teams/1129.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647443,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549602,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-11T22:00:00+00:00",
-      "timestamp": 1791756000,
-      "periods": {
-        "first": 1791756000,
-        "second": 1791759600
-      },
-      "venue": {
-        "id": 387,
-        "name": "Estadio Sierra Nevada",
-        "city": "Santa Marta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 240,
-      "name": "Primera B",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/240.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Clausura - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1465,
-        "name": "Union Magdalena",
-        "logo": "https://media.api-sports.io/football/teams/1465.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1143,
-        "name": "Leones FC",
-        "logo": "https://media.api-sports.io/football/teams/1143.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

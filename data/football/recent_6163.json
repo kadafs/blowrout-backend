@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621658,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T10:35:00+00:00",
+      "timestamp": 1793356500,
+      "periods": {
+        "first": 1793356500,
+        "second": 1793360100
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6163,
+        "name": "Hapoel Mahane Yehuda",
+        "logo": "https://media.api-sports.io/football/teams/6163.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4500,
+        "name": "Hapoel Hadera",
+        "logo": "https://media.api-sports.io/football/teams/4500.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628903,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621613,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T14:00:00+00:00",
-      "timestamp": 1790172000,
-      "periods": {
-        "first": 1790172000,
-        "second": 1790175600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6146,
-        "name": "Hapoel Azor",
-        "logo": "https://media.api-sports.io/football/teams/6146.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6163,
-        "name": "Hapoel Mahane Yehuda",
-        "logo": "https://media.api-sports.io/football/teams/6163.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

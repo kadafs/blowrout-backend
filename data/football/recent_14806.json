@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646860,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T20:00:00+00:00",
+      "timestamp": 1793390400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1102,
+        "name": "Stade El Abdi",
+        "city": "El Jadida"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 964,
+        "name": "Difaa EL Jadida",
+        "logo": "https://media.api-sports.io/football/teams/964.png",
+        "winner": null
+      },
+      "away": {
+        "id": 14806,
+        "name": "UTS Rabat",
+        "logo": "https://media.api-sports.io/football/teams/14806.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646853,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636668,
-      "referee": "M. Kechchaf",
-      "timezone": "UTC",
-      "date": "2026-09-26T16:00:00+00:00",
-      "timestamp": 1790438400,
-      "periods": {
-        "first": 1790438400,
-        "second": 1790442000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Prince Moulay Hassan",
-        "city": "Rabat"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14806,
-        "name": "UTS Rabat",
-        "logo": "https://media.api-sports.io/football/teams/14806.png",
-        "winner": true
-      },
-      "away": {
-        "id": 977,
-        "name": "FUS Rabat",
-        "logo": "https://media.api-sports.io/football/teams/977.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

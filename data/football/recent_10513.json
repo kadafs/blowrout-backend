@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645610,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T18:00:00+00:00",
+      "timestamp": 1793728800,
+      "periods": {
+        "first": 1793728800,
+        "second": 1793732400
+      },
+      "venue": {
+        "id": null,
+        "name": "King Khalid Sports City",
+        "city": "Tabuk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1162,
+      "name": "AGCFF Gulf Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1162.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10513,
+        "name": "NEOM",
+        "logo": "https://media.api-sports.io/football/teams/10513.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2904,
+        "name": "Al-Duhail SC",
+        "logo": "https://media.api-sports.io/football/teams/2904.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603072,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603052,
-      "referee": "A. Al Rumaikhani",
-      "timezone": "UTC",
-      "date": "2026-10-17T15:40:00+00:00",
-      "timestamp": 1792251600,
-      "periods": {
-        "first": 1792251600,
-        "second": 1792255200
-      },
-      "venue": {
-        "id": 2903,
-        "name": "King Khalid Sports City",
-        "city": "Tabuk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 307,
-      "name": "Pro League",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/307.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10513,
-        "name": "NEOM",
-        "logo": "https://media.api-sports.io/football/teams/10513.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2934,
-        "name": "Al-Ettifaq",
-        "logo": "https://media.api-sports.io/football/teams/2934.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

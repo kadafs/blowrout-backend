@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553212,
+      "referee": "Pawel Raczkowski",
+      "timezone": "UTC",
+      "date": "2026-10-31T16:30:00+00:00",
+      "timestamp": 1793464200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20110,
+        "name": "Stadion Miejski",
+        "city": "Poznan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": true
+      },
+      "away": {
+        "id": 338,
+        "name": "Wisla Krakow",
+        "logo": "https://media.api-sports.io/football/teams/338.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553208,
       "referee": "Tomasz Kwiatkowski, Poland",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1553180,
-      "referee": "Lukasz Kuzma, Poland",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:30:00+00:00",
-      "timestamp": 1789756200,
-      "periods": {
-        "first": 1789756200,
-        "second": 1789759800
-      },
-      "venue": {
-        "id": 1258,
-        "name": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
-        "city": "Krakow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 106,
-      "name": "Ekstraklasa",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/106.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 338,
-        "name": "Wisla Krakow",
-        "logo": "https://media.api-sports.io/football/teams/338.png",
-        "winner": true
-      },
-      "away": {
-        "id": 337,
-        "name": "Slask Wroclaw",
-        "logo": "https://media.api-sports.io/football/teams/337.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

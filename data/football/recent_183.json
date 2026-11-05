@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
-      "id": 1638572,
-      "referee": "Wolfgang Haslberger",
+      "id": 1576219,
+      "referee": "Felix Weller",
       "timezone": "UTC",
-      "date": "2026-10-28T17:00:00+00:00",
-      "timestamp": 1793206800,
+      "date": "2026-11-01T12:30:00+00:00",
+      "timestamp": 1793536200,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 18858,
+        "name": "Heinz-von-Heiden-Arena ",
+        "city": "Hannover"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 166,
+        "name": "Hannover 96",
+        "logo": "https://media.api-sports.io/football/teams/166.png",
+        "winner": true
+      },
+      "away": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "logo": "https://media.api-sports.io/football/teams/183.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1638572,
+      "referee": "W. Haslberger",
+      "timezone": "UTC",
+      "date": "2026-10-28T17:00:00+00:00",
+      "timestamp": 1793206800,
+      "periods": {
+        "first": 1793206800,
+        "second": 1793210400
+      },
+      "venue": {
         "id": 707,
-        "name": "Rudolf-Harbig Stadion",
+        "name": "Rudolf-Harbig-Stadion",
         "city": "Dresden"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638579,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T16:00:00+00:00",
-      "timestamp": 1790956800,
-      "periods": {
-        "first": 1790956800,
-        "second": 1790960400
-      },
-      "venue": {
-        "id": null,
-        "name": "AGC Arena Na Stinadlech",
-        "city": "Teplice"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3720,
-        "name": "Teplice",
-        "logo": "https://media.api-sports.io/football/teams/3720.png",
-        "winner": true
-      },
-      "away": {
-        "id": 183,
-        "name": "Dynamo Dresden",
-        "logo": "https://media.api-sports.io/football/teams/183.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

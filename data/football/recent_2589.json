@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565288,
+      "referee": "M. Birsan",
+      "timezone": "UTC",
+      "date": "2026-11-01T18:30:00+00:00",
+      "timestamp": 1793557800,
+      "periods": {
+        "first": 1793557800,
+        "second": 1793561400
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Nationala",
+        "city": "Bucharest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 283,
+      "name": "Liga I",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/283.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 635,
+        "name": "Dinamo Bucuresti",
+        "logo": "https://media.api-sports.io/football/teams/635.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2589,
+        "name": "Uta Arad",
+        "logo": "https://media.api-sports.io/football/teams/2589.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632278,
       "referee": null,
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1565283,
-      "referee": "Gabriel Mihuleac, Romania",
+      "referee": "G. Mihuleac",
       "timezone": "UTC",
       "date": "2026-10-24T15:00:00+00:00",
       "timestamp": 1792854000,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565278,
-      "referee": "Marcel Birsan, Romania",
+      "referee": "M. Birsan",
       "timezone": "UTC",
       "date": "2026-10-18T15:15:00+00:00",
       "timestamp": 1792336500,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1565267,
-      "referee": "Szabolcs Kovacs, Romania",
+      "referee": "K. Szabolcs",
       "timezone": "UTC",
       "date": "2026-10-10T14:15:00+00:00",
       "timestamp": 1791641700,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565262,
-      "referee": "Radu Marian Petrescu, Romania",
-      "timezone": "UTC",
-      "date": "2026-09-18T15:00:00+00:00",
-      "timestamp": 1789743600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 11931,
-        "name": "Arena Francisc Neuman",
-        "city": "Arad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 283,
-      "name": "Liga I",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/283.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2589,
-        "name": "Uta Arad",
-        "logo": "https://media.api-sports.io/football/teams/2589.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2585,
-        "name": "Sepsi OSK Sfantu Gheorghe",
-        "logo": "https://media.api-sports.io/football/teams/2585.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

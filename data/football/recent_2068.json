@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575832,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": 1793383200,
+        "second": 1793386800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 122,
+      "name": "2. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/122.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2068,
+        "name": "Skive",
+        "logo": "https://media.api-sports.io/football/teams/2068.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6064,
+        "name": "VSK \u00c5rhus",
+        "logo": "https://media.api-sports.io/football/teams/6064.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575827,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575801,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T11:30:00+00:00",
-      "timestamp": 1790422200,
-      "periods": {
-        "first": 1790422200,
-        "second": 1790425800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 122,
-      "name": "2. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/122.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6064,
-        "name": "VSK \u00c5rhus",
-        "logo": "https://media.api-sports.io/football/teams/6064.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2068,
-        "name": "Skive",
-        "logo": "https://media.api-sports.io/football/teams/2068.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

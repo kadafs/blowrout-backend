@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642333,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "FC Bayern Campus",
+        "city": "Munich"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 947,
+      "name": "DFB Pokal - Women",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/947.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1860,
+        "name": "Bayern Munich W",
+        "logo": "https://media.api-sports.io/football/teams/1860.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1859,
+        "name": "Bayer Leverkusen W",
+        "logo": "https://media.api-sports.io/football/teams/1859.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638299,
       "referee": "Eleni Antoniou",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638337,
-      "referee": "Maria Sole Ferrieri Caputi",
-      "timezone": "UTC",
-      "date": "2026-09-30T19:00:00+00:00",
-      "timestamp": 1790794800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 3689,
-        "name": "Estadio da Tapadinha",
-        "city": "Lisbon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 525,
-      "name": "UEFA Champions League Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/525.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15495,
-        "name": "SL Benfica W",
-        "logo": "https://media.api-sports.io/football/teams/15495.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1860,
-        "name": "Bayern Munich W",
-        "logo": "https://media.api-sports.io/football/teams/1860.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

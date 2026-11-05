@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628904,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T10:00:00+00:00",
+      "timestamp": 1793354400,
+      "periods": {
+        "first": 1793354400,
+        "second": 1793358000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6167,
+        "name": "Hapoel Sderot",
+        "logo": "https://media.api-sports.io/football/teams/6167.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22856,
+        "name": "Ironi Beit Shemesh",
+        "logo": "https://media.api-sports.io/football/teams/22856.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628903,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1628899,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T16:00:00+00:00",
-      "timestamp": 1790179200,
-      "periods": {
-        "first": 1790179200,
-        "second": 1790182800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 22856,
-        "name": "Ironi Beit Shemesh",
-        "logo": "https://media.api-sports.io/football/teams/22856.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6201,
-        "name": "Nordia Jerusalem",
-        "logo": "https://media.api-sports.io/football/teams/6201.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

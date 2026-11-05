@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632117,
+      "referee": "M. Ryan",
+      "timezone": "UTC",
+      "date": "2026-11-01T10:45:00+00:00",
+      "timestamp": 1793529900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 128,
+        "name": "HBF Park",
+        "city": "Perth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1969,
+        "name": "Perth Glory FC W",
+        "logo": "https://media.api-sports.io/football/teams/1969.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17905,
+        "name": "Wellington Phoenix W",
+        "logo": "https://media.api-sports.io/football/teams/17905.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632111,
       "referee": "S. Jones",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484577,
-      "referee": "G. Ghirardello",
-      "timezone": "UTC",
-      "date": "2026-04-03T05:50:00+00:00",
-      "timestamp": 1775195400,
-      "periods": {
-        "first": 1775195400,
-        "second": 1775199000
-      },
-      "venue": {
-        "id": 123,
-        "name": "Coopers Stadium",
-        "city": "Adelaide"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1972,
-        "name": "Adelaide United W",
-        "logo": "https://media.api-sports.io/football/teams/1972.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17905,
-        "name": "Wellington Phoenix W",
-        "logo": "https://media.api-sports.io/football/teams/17905.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

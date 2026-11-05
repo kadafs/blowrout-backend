@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642339,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T17:00:00+00:00",
+      "timestamp": 1793638800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6454,
+        "name": "AOK Stadion",
+        "city": "Wolfsburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 947,
+      "name": "DFB Pokal - Women",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/947.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1863,
+        "name": "VfL Wolfsburg W",
+        "logo": "https://media.api-sports.io/football/teams/1863.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1858,
+        "name": "1899 Hoffenheim W",
+        "logo": "https://media.api-sports.io/football/teams/1858.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 8,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 5,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 8,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644156,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638425,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T16:30:00+00:00",
-      "timestamp": 1790785800,
-      "periods": {
-        "first": 1790785800,
-        "second": 1790789400
-      },
-      "venue": {
-        "id": null,
-        "name": "Bundesstadion Graz-Liebenau",
-        "city": "Graz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10232,
-        "name": "Sturm Graz W",
-        "logo": "https://media.api-sports.io/football/teams/10232.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1863,
-        "name": "VfL Wolfsburg W",
-        "logo": "https://media.api-sports.io/football/teams/1863.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

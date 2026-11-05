@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586621,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": 1793451600,
+        "second": 1793455200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Lubeck"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 84,
+      "name": "Regionalliga - Nord",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/84.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "North - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1625,
+        "name": "VfB L\u00fcbeck",
+        "logo": "https://media.api-sports.io/football/teams/1625.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1330,
+        "name": "Werder Bremen II",
+        "logo": "https://media.api-sports.io/football/teams/1330.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586605,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586568,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T12:00:00+00:00",
-      "timestamp": 1789819200,
-      "periods": {
-        "first": 1789819200,
-        "second": 1789822800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Lubeck"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 84,
-      "name": "Regionalliga - Nord",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/84.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "North - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1625,
-        "name": "VfB L\u00fcbeck",
-        "logo": "https://media.api-sports.io/football/teams/1625.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1630,
-        "name": "Bremer SV",
-        "logo": "https://media.api-sports.io/football/teams/1630.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

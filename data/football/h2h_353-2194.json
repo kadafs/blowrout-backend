@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575955,
+      "referee": "R. Kenny",
+      "timezone": "UTC",
+      "date": "2026-09-29T18:45:00+00:00",
+      "timestamp": 1790707500,
+      "periods": {
+        "first": 1790707500,
+        "second": 1790711100
+      },
+      "venue": {
+        "id": null,
+        "name": "Cyncoed Campus",
+        "city": "Cardiff"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 353,
+        "name": "Cardiff MET",
+        "logo": "https://media.api-sports.io/football/teams/353.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2194,
+        "name": "Haverfordwest County AFC",
+        "logo": "https://media.api-sports.io/football/teams/2194.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1509004,
       "referee": "R. Jenkins",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1338878,
-      "referee": "B. Williams",
-      "timezone": "UTC",
-      "date": "2025-04-11T18:45:00+00:00",
-      "timestamp": 1744397100,
-      "periods": {
-        "first": 1744397100,
-        "second": 1744400700
-      },
-      "venue": {
-        "id": 1686,
-        "name": "Cyncoed Campus Artificial Pitch",
-        "city": "Caerdydd"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2024,
-      "round": "Championship Round - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 353,
-        "name": "Cardiff MET",
-        "logo": "https://media.api-sports.io/football/teams/353.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2194,
-        "name": "Haverfordwest County AFC",
-        "logo": "https://media.api-sports.io/football/teams/2194.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642060,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:15:00+00:00",
+      "timestamp": 1793535300,
+      "periods": {
+        "first": 1793535300,
+        "second": 1793538900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 390,
+      "name": "Premier League",
+      "country": "Lebanon",
+      "logo": "https://media.api-sports.io/football/leagues/390.png",
+      "flag": "https://media.api-sports.io/flags/lb.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11880,
+        "name": "Al Mabarrah",
+        "logo": "https://media.api-sports.io/football/teams/11880.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22812,
+        "name": "Reyady Abaseya",
+        "logo": "https://media.api-sports.io/football/teams/22812.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642050,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592149,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-25T13:00:00+00:00",
-      "timestamp": 1784984400,
-      "periods": {
-        "first": 1784984400,
-        "second": 1784988000
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 390,
-      "name": "Premier League",
-      "country": "Lebanon",
-      "logo": "https://media.api-sports.io/football/leagues/390.png",
-      "flag": "https://media.api-sports.io/flags/lb.svg",
-      "season": 2025,
-      "round": "Relegation Quarterfinals - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4572,
-        "name": "Racing",
-        "logo": "https://media.api-sports.io/football/teams/4572.png",
-        "winner": false
-      },
-      "away": {
-        "id": 22812,
-        "name": "Reyady Abaseya",
-        "logo": "https://media.api-sports.io/football/teams/22812.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

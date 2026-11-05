@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580948,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T13:30:00+00:00",
+      "timestamp": 1793539800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12585,
+        "name": "Stade Jean-Bouin",
+        "city": "Paris"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1676,
+        "name": "Paris FC W",
+        "logo": "https://media.api-sports.io/football/teams/1676.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1667,
+        "name": "Paris Saint Germain W",
+        "logo": "https://media.api-sports.io/football/teams/1667.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638325,
       "referee": "Hristiyana Guteva",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638296,
-      "referee": "Michalina Diakow",
-      "timezone": "UTC",
-      "date": "2026-09-23T19:00:00+00:00",
-      "timestamp": 1790190000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19939,
-        "name": "Spotify Camp Nou",
-        "city": "Barcelona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 525,
-      "name": "UEFA Champions League Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/525.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1918,
-        "name": "Barcelona W",
-        "logo": "https://media.api-sports.io/football/teams/1918.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1676,
-        "name": "Paris FC W",
-        "logo": "https://media.api-sports.io/football/teams/1676.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
         "away": 2
       },
       "extratime": {

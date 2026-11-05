@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575963,
+      "referee": "R. Kenny",
+      "timezone": "UTC",
+      "date": "2026-09-19T16:30:00+00:00",
+      "timestamp": 1789835400,
+      "periods": {
+        "first": 1789835400,
+        "second": 1789839000
+      },
+      "venue": {
+        "id": null,
+        "name": "Park Hall",
+        "city": "Oswestry"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 354,
+        "name": "The New Saints",
+        "logo": "https://media.api-sports.io/football/teams/354.png",
+        "winner": true
+      },
+      "away": {
+        "id": 362,
+        "name": "Llandudno",
+        "logo": "https://media.api-sports.io/football/teams/362.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1489275,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 404698,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2017-11-17T19:45:00+00:00",
-      "timestamp": 1510947900,
-      "periods": {
-        "first": 1510947900,
-        "second": 1510951500
-      },
-      "venue": {
-        "id": 1679,
-        "name": "The Giant Hospitality Stadium",
-        "city": "Llandudno, Conwy County Borough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2017,
-      "round": "1st Phase - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 362,
-        "name": "Llandudno",
-        "logo": "https://media.api-sports.io/football/teams/362.png",
-        "winner": false
-      },
-      "away": {
-        "id": 354,
-        "name": "The New Saints",
-        "logo": "https://media.api-sports.io/football/teams/354.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

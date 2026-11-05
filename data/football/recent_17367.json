@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581798,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T19:00:00+00:00",
+      "timestamp": 1793473200,
+      "periods": {
+        "first": 1793473200,
+        "second": 1793476800
+      },
+      "venue": {
+        "id": null,
+        "name": "Espenmoos",
+        "city": "St. Gallen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 739,
+      "name": "AXA Women\u2019s Super League",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/739.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16041,
+        "name": "St. Gallen W",
+        "logo": "https://media.api-sports.io/football/teams/16041.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17367,
+        "name": "Young Boys W",
+        "logo": "https://media.api-sports.io/football/teams/17367.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581791,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581773,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-09T17:00:00+00:00",
-      "timestamp": 1788973200,
-      "periods": {
-        "first": 1788973200,
-        "second": 1788976800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 739,
-      "name": "AXA Women\u2019s Super League",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/739.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10909,
-        "name": "Z\u00fcrich W",
-        "logo": "https://media.api-sports.io/football/teams/10909.png",
-        "winner": null
-      },
-      "away": {
-        "id": 17367,
-        "name": "Young Boys W",
-        "logo": "https://media.api-sports.io/football/teams/17367.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

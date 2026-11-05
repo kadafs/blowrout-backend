@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1640670,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T11:00:00+00:00",
+      "timestamp": 1793098800,
+      "periods": {
+        "first": 1793098800,
+        "second": 1793102400
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Livyi Bereg",
+        "city": "Kyiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 335,
+      "name": "Cup",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/335.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 17162,
+        "name": "Livyi Bereh",
+        "logo": "https://media.api-sports.io/football/teams/17162.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6501,
+        "name": "Veres Rivne",
+        "logo": "https://media.api-sports.io/football/teams/6501.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565509,
-      "referee": "Sofiia Prychyna, Ukraine",
+      "referee": "S. Prychyna",
       "timezone": "UTC",
       "date": "2026-10-24T10:00:00+00:00",
       "timestamp": 1792836000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792836000,
+        "second": 1792839600
       },
       "venue": {
         "id": 20196,
-        "name": "Stadium Livyi Bereh",
+        "name": "Arena Livyi Bereg",
         "city": "Kyiv"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1565497,
-      "referee": "Dmytro Kubriak, Ukraine",
+      "referee": "D. Kubryak",
       "timezone": "UTC",
       "date": "2026-10-19T10:00:00+00:00",
       "timestamp": 1792404000,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": 20196,
-        "name": "Stadium Livyi Bereh",
+        "name": "Arena Livyi Bereg",
         "city": "Kyiv"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565493,
-      "referee": "Mykola Balakin, Ukraine",
+      "referee": "M. Balakin",
       "timezone": "UTC",
       "date": "2026-10-12T10:00:00+00:00",
       "timestamp": 1791799200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 20196,
-        "name": "Stadium Livyi Bereh",
+        "name": "Arena Livyi Bereg",
         "city": "Kyiv"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1565482,
-      "referee": "Oleksandr Afanasev, Ukraine",
+      "referee": "O. Afanasyev",
       "timezone": "UTC",
       "date": "2026-09-19T15:00:00+00:00",
       "timestamp": 1789830000,
@@ -222,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Roman Shukhevych Ternopil City Stadium",
-        "city": "Ternopil"
+        "name": "Tonkocheyev Stadium",
+        "city": "Kamianets-Podilskyi"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565477,
-      "referee": "Viktor Kopievskiy, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-13T12:30:00+00:00",
-      "timestamp": 1789302600,
-      "periods": {
-        "first": 1789302600,
-        "second": 1789306200
-      },
-      "venue": {
-        "id": 11948,
-        "name": "Tsentralnyi Stadion",
-        "city": "Zhytomyr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6496,
-        "name": "Polessya",
-        "logo": "https://media.api-sports.io/football/teams/6496.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17162,
-        "name": "Livyi Bereh",
-        "logo": "https://media.api-sports.io/football/teams/17162.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

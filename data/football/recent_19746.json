@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619517,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": 1793732400,
+        "second": 1793736000
+      },
+      "venue": {
+        "id": null,
+        "name": "The Shay",
+        "city": "Halifax"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1841,
+        "name": "FC Halifax Town",
+        "logo": "https://media.api-sports.io/football/teams/1841.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19746,
+        "name": "Nottingham Forest U21",
+        "logo": "https://media.api-sports.io/football/teams/19746.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627104,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588848,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:00:00+00:00",
-      "timestamp": 1791914400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 567,
-        "name": "Meadow Lane",
-        "city": "Nottingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group North - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1376,
-        "name": "Notts County",
-        "logo": "https://media.api-sports.io/football/teams/1376.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19746,
-        "name": "Nottingham Forest U21",
-        "logo": "https://media.api-sports.io/football/teams/19746.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 1
       },
       "extratime": {
         "home": null,

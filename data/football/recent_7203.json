@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619520,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": 1793732400,
+        "second": 1793736000
+      },
+      "venue": {
+        "id": 5552,
+        "name": "Hornchurch Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7690,
+        "name": "AFC Hornchurch",
+        "logo": "https://media.api-sports.io/football/teams/7690.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7203,
+        "name": "West Ham United U21",
+        "logo": "https://media.api-sports.io/football/teams/7203.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627108,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619511,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:30:00+00:00",
-      "timestamp": 1791916200,
-      "periods": {
-        "first": 1791916200,
-        "second": 1791919800
-      },
-      "venue": {
-        "id": null,
-        "name": "Rare Breed Meat Co. Stadium",
-        "city": "Braintree"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 1156,
-      "name": "National League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/1156.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1831,
-        "name": "Braintree",
-        "logo": "https://media.api-sports.io/football/teams/1831.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7203,
-        "name": "West Ham United U21",
-        "logo": "https://media.api-sports.io/football/teams/7203.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

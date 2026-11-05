@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1492431,
+      "referee": "A. Daronco",
+      "timezone": "UTC",
+      "date": "2026-10-29T00:30:00+00:00",
+      "timestamp": 1793233800,
+      "periods": {
+        "first": 1793233800,
+        "second": 1793237400
+      },
+      "venue": {
+        "id": 216,
+        "name": "Arena Fonte Nova",
+        "city": "Salvador"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 118,
+        "name": "Bahia",
+        "logo": "https://media.api-sports.io/football/teams/118.png",
+        "winner": true
+      },
+      "away": {
+        "id": 126,
+        "name": "Sao Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492427,
-      "referee": "Savio Pereira Sampaio",
+      "referee": "S. Sampaio",
       "timezone": "UTC",
       "date": "2026-10-25T00:00:00+00:00",
       "timestamp": 1792886400,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": 10494,
-        "name": "Est\u00e1dio Urbano Caldeira",
+        "name": "Estadio Urbano Caldeira",
         "city": "Santos"
       },
       "status": {
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1492412,
-      "referee": "Wilton Sampaio",
+      "referee": "W. Sampaio",
       "timezone": "UTC",
       "date": "2026-10-18T21:30:00+00:00",
       "timestamp": 1792359000,
@@ -83,7 +153,7 @@
       "venue": {
         "id": 216,
         "name": "Arena Fonte Nova",
-        "city": "El Salvador"
+        "city": "Salvador"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1492401,
-      "referee": "Ramon Abatti",
+      "referee": "Ramon Abatti Abel, Brazil",
       "timezone": "UTC",
       "date": "2026-10-11T22:30:00+00:00",
       "timestamp": 1791757800,
@@ -153,7 +223,7 @@
       "venue": {
         "id": 216,
         "name": "Arena Fonte Nova",
-        "city": "El Salvador"
+        "city": "Salvador"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492380,
-      "referee": "Anderson Daronco, Brazil",
-      "timezone": "UTC",
-      "date": "2026-09-20T22:30:00+00:00",
-      "timestamp": 1789943400,
-      "periods": {
-        "first": 1789943400,
-        "second": 1789947000
-      },
-      "venue": {
-        "id": 10493,
-        "name": "Arena da Baixada",
-        "city": "Curitiba"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 134,
-        "name": "Atletico Paranaense",
-        "logo": "https://media.api-sports.io/football/teams/134.png",
-        "winner": true
-      },
-      "away": {
-        "id": 118,
-        "name": "Bahia",
-        "logo": "https://media.api-sports.io/football/teams/118.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

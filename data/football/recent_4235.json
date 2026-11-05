@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1622823,
+      "referee": "Y. Yamamoto",
+      "timezone": "UTC",
+      "date": "2026-11-01T08:30:00+00:00",
+      "timestamp": 1793521800,
+      "periods": {
+        "first": 1793521800,
+        "second": 1793525400
+      },
+      "venue": {
+        "id": null,
+        "name": "Mandala Krida Stadium",
+        "city": "Yogyakarta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 274,
+      "name": "Liga 1",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/274.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4235,
+        "name": "PSIM Yogyakarta",
+        "logo": "https://media.api-sports.io/football/teams/4235.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2442,
+        "name": "Pusamania Borneo",
+        "logo": "https://media.api-sports.io/football/teams/2442.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622808,
       "referee": "R. Permana",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1622773,
-      "referee": "T. Alkatiri",
-      "timezone": "UTC",
-      "date": "2026-09-18T12:00:00+00:00",
-      "timestamp": 1789732800,
-      "periods": {
-        "first": 1789732800,
-        "second": 1789736400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gelora Ratu Pamelingan Stadium",
-        "city": "Pamekasan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 274,
-      "name": "Liga 1",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/274.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2444,
-        "name": "Persepam Madura Utd",
-        "logo": "https://media.api-sports.io/football/teams/2444.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4235,
-        "name": "PSIM Yogyakarta",
-        "logo": "https://media.api-sports.io/football/teams/4235.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

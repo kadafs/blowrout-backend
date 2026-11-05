@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549024,
+      "referee": "S. Putros",
+      "timezone": "UTC",
+      "date": "2026-09-18T17:00:00+00:00",
+      "timestamp": 1789750800,
+      "periods": {
+        "first": 1789750800,
+        "second": 1789754400
+      },
+      "venue": {
+        "id": 452,
+        "name": "Lyngby Stadion",
+        "city": "Kongens Lyngby"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 119,
+      "name": "Superliga",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/119.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 625,
+        "name": "Lyngby",
+        "logo": "https://media.api-sports.io/football/teams/625.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2073,
+        "name": "Silkeborg",
+        "logo": "https://media.api-sports.io/football/teams/2073.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1362808,
       "referee": "L. Graagaard",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1034977,
-      "referee": "J. Sundberg",
-      "timezone": "UTC",
-      "date": "2023-12-03T13:00:00+00:00",
-      "timestamp": 1701608400,
-      "periods": {
-        "first": 1701608400,
-        "second": 1701612000
-      },
-      "venue": {
-        "id": 452,
-        "name": "Lyngby Stadion",
-        "city": "Lyngby"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 119,
-      "name": "Superliga",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/119.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2023,
-      "round": "Regular Season - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 625,
-        "name": "Lyngby",
-        "logo": "https://media.api-sports.io/football/teams/625.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2073,
-        "name": "Silkeborg",
-        "logo": "https://media.api-sports.io/football/teams/2073.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

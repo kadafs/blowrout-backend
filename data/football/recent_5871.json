@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580000,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T19:00:00+00:00",
+      "timestamp": 1793386800,
+      "periods": {
+        "first": 1793386800,
+        "second": 1793390400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 487,
+      "name": "First Amateur Division",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/487.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "VV - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5871,
+        "name": "Merelbeke",
+        "logo": "https://media.api-sports.io/football/teams/5871.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16980,
+        "name": "Roeselare Daisel",
+        "logo": "https://media.api-sports.io/football/teams/16980.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579986,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579958,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:00:00+00:00",
-      "timestamp": 1790791200,
-      "periods": {
-        "first": 1790791200,
-        "second": 1790794800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 487,
-      "name": "First Amateur Division",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/487.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "VV - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5871,
-        "name": "Merelbeke",
-        "logo": "https://media.api-sports.io/football/teams/5871.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6216,
-        "name": "Dessel Sport",
-        "logo": "https://media.api-sports.io/football/teams/6216.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

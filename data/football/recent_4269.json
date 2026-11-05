@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555073,
+      "referee": "M. Londino",
+      "timezone": "UTC",
+      "date": "2026-10-30T18:30:00+00:00",
+      "timestamp": 1793385000,
+      "periods": {
+        "first": 1793385000,
+        "second": 1793388600
+      },
+      "venue": {
+        "id": 1535,
+        "name": "Stade Olympique de la Pontaise",
+        "city": "Lausanne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 208,
+      "name": "Challenge League",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/208.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4269,
+        "name": "Stade Lausanne-Ouchy",
+        "logo": "https://media.api-sports.io/football/teams/4269.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6653,
+        "name": "Yverdon Sport",
+        "logo": "https://media.api-sports.io/football/teams/6653.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555068,
       "referee": "A. Kanagasingam",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642877,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-24T09:00:00+00:00",
-      "timestamp": 1790240400,
-      "periods": {
-        "first": 1790240400,
-        "second": 1790244000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4269,
-        "name": "Stade Lausanne-Ouchy",
-        "logo": "https://media.api-sports.io/football/teams/4269.png",
-        "winner": true
-      },
-      "away": {
-        "id": 630,
-        "name": "FC Sion",
-        "logo": "https://media.api-sports.io/football/teams/630.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

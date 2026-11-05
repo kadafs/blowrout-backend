@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585810,
+      "referee": "Direnc Tonusluoglu",
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20424,
+        "name": "Bursa B\u00fcy\u00fck\u015fehir Stadyumu",
+        "city": "Bursa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 204,
+      "name": "1. Lig",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/204.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1003,
+        "name": "Bursaspor",
+        "logo": "https://media.api-sports.io/football/teams/1003.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3584,
+        "name": "Band\u0131rmaspor",
+        "logo": "https://media.api-sports.io/football/teams/3584.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585803,
       "referee": "Emre Kargin",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585761,
-      "referee": "Ali Yilmaz, T\u00fcrkiye",
-      "timezone": "UTC",
-      "date": "2026-09-19T17:00:00+00:00",
-      "timestamp": 1789837200,
-      "periods": {
-        "first": 1789837200,
-        "second": 1789840800
-      },
-      "venue": {
-        "id": null,
-        "name": "16 Mayis Sehir Stadyumu",
-        "city": "Batman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 204,
-      "name": "1. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/204.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7395,
-        "name": "Batman Petrolspor",
-        "logo": "https://media.api-sports.io/football/teams/7395.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1003,
-        "name": "Bursaspor",
-        "logo": "https://media.api-sports.io/football/teams/1003.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
       },
       "fulltime": {
         "home": 1,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559823,
+      "referee": "L. Nehasil",
+      "timezone": "UTC",
+      "date": "2026-10-30T16:00:00+00:00",
+      "timestamp": 1793376000,
+      "periods": {
+        "first": 1793376000,
+        "second": 1793379600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion v Kollarove ulici",
+        "city": "Vlasim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 346,
+      "name": "FNL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/346.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3730,
+        "name": "Vla\u0161im",
+        "logo": "https://media.api-sports.io/football/teams/3730.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3735,
+        "name": "\u00dast\u00ed nad Labem",
+        "logo": "https://media.api-sports.io/football/teams/3735.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559811,
       "referee": "A. Mach",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1559791,
-      "referee": "D. Lovetinsky",
-      "timezone": "UTC",
-      "date": "2026-09-20T14:30:00+00:00",
-      "timestamp": 1789914600,
-      "periods": {
-        "first": 1789914600,
-        "second": 1789918200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion v Kollarove ulici",
-        "city": "Vlasim"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 346,
-      "name": "FNL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/346.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3730,
-        "name": "Vla\u0161im",
-        "logo": "https://media.api-sports.io/football/teams/3730.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3726,
-        "name": "T\u00e1borsko",
-        "logo": "https://media.api-sports.io/football/teams/3726.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

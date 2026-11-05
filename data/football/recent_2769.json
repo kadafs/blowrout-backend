@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
-      "id": 1630389,
-      "referee": "Mederbek Taichiev",
+      "id": 1598063,
+      "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-29T12:15:00+00:00",
-      "timestamp": 1793276100,
+      "date": "2026-11-02T12:00:00+00:00",
+      "timestamp": 1793620800,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": null,
+        "name": "OBD Stadium",
+        "city": "Mueang Chon Buri"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 296,
+      "name": "Thai League 1",
+      "country": "Thailand",
+      "logo": "https://media.api-sports.io/football/leagues/296.png",
+      "flag": "https://media.api-sports.io/flags/th.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2772,
+        "name": "Chonburi FC",
+        "logo": "https://media.api-sports.io/football/teams/2772.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2769,
+        "name": "BG Pathum United",
+        "logo": "https://media.api-sports.io/football/teams/2769.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1630389,
+      "referee": "M. Taichev",
+      "timezone": "UTC",
+      "date": "2026-10-29T12:15:00+00:00",
+      "timestamp": 1793276100,
+      "periods": {
+        "first": 1793276100,
+        "second": 1793279700
+      },
+      "venue": {
         "id": 3384,
-        "name": "Mong Kok Stadium",
-        "city": "Hong Kong"
+        "name": "Tai Po Sports Ground",
+        "city": "Hongkong"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630372,
-      "referee": "Mohammed Ahmed Al-Shammari, Qatar",
-      "timezone": "UTC",
-      "date": "2026-10-15T12:15:00+00:00",
-      "timestamp": 1792066500,
-      "periods": {
-        "first": 1792066500,
-        "second": 1792070100
-      },
-      "venue": {
-        "id": 12708,
-        "name": "True BG Stadium",
-        "city": "Pathum Thani"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 18,
-      "name": "AFC Champions League Two",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/18.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2769,
-        "name": "BG Pathum United",
-        "logo": "https://media.api-sports.io/football/teams/2769.png",
-        "winner": false
-      },
-      "away": {
-        "id": 948,
-        "name": "Adelaide United",
-        "logo": "https://media.api-sports.io/football/teams/948.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

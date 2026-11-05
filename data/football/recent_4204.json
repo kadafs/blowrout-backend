@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1603481,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T11:30:00+00:00",
+      "timestamp": 1793532600,
+      "periods": {
+        "first": 1793532600,
+        "second": 1793536200
+      },
+      "venue": {
+        "id": 3205,
+        "name": "Bishan Stadium",
+        "city": "Singapore"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 368,
+      "name": "Premier League",
+      "country": "Singapore",
+      "logo": "https://media.api-sports.io/football/leagues/368.png",
+      "flag": "https://media.api-sports.io/flags/sg.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4201,
+        "name": "Balestier Khalsa",
+        "logo": "https://media.api-sports.io/football/teams/4201.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4204,
+        "name": "Home United",
+        "logo": "https://media.api-sports.io/football/teams/4204.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630384,
-      "referee": "Clifford Postanes Daypuyat",
+      "referee": "C. Daypuyat",
       "timezone": "UTC",
       "date": "2026-10-29T07:45:00+00:00",
       "timestamp": 1793259900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793259900,
+        "second": 1793263500
       },
       "venue": {
         "id": null,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1630370,
-      "referee": "Sang-Hyeop Chae, South Korea",
+      "referee": "Chae Sang-Hyeop",
       "timezone": "UTC",
       "date": "2026-10-15T10:00:00+00:00",
       "timestamp": 1792058400,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1603468,
-      "referee": "M. Hilmi Bin Mohammad Fuad",
-      "timezone": "UTC",
-      "date": "2026-10-11T11:30:00+00:00",
-      "timestamp": 1791718200,
-      "periods": {
-        "first": 1791718200,
-        "second": 1791721800
-      },
-      "venue": {
-        "id": null,
-        "name": "Jalan Besar Stadium",
-        "city": "Singapore"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 368,
-      "name": "Premier League",
-      "country": "Singapore",
-      "logo": "https://media.api-sports.io/football/leagues/368.png",
-      "flag": "https://media.api-sports.io/flags/sg.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4204,
-        "name": "Home United",
-        "logo": "https://media.api-sports.io/football/teams/4204.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4208,
-        "name": "Young Lions",
-        "logo": "https://media.api-sports.io/football/teams/4208.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
         "away": 1
       },
       "extratime": {

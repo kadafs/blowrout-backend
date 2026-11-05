@@ -2,13 +2,13 @@
   {
     "fixture": {
       "id": 1630384,
-      "referee": "Clifford Postanes Daypuyat",
+      "referee": "C. Daypuyat",
       "timezone": "UTC",
       "date": "2026-10-29T07:45:00+00:00",
       "timestamp": 1793259900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793259900,
+        "second": 1793263500
       },
       "venue": {
         "id": null,
@@ -16,9 +16,9 @@
         "city": "Adelaide"
       },
       "status": {
-        "long": "First Half",
-        "short": "1H",
-        "elapsed": 45,
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
         "extra": null
       }
     },
@@ -37,18 +37,18 @@
         "id": 948,
         "name": "Adelaide United",
         "logo": "https://media.api-sports.io/football/teams/948.png",
-        "winner": null
+        "winner": false
       },
       "away": {
         "id": 4204,
         "name": "Home United",
         "logo": "https://media.api-sports.io/football/teams/4204.png",
-        "winner": null
+        "winner": true
       }
     },
     "goals": {
       "home": 0,
-      "away": 0
+      "away": 2
     },
     "score": {
       "halftime": {
@@ -56,8 +56,8 @@
         "away": 0
       },
       "fulltime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639571,
+      "referee": "D. Dickinson",
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 2617,
+        "name": "Hampden Park",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 185,
+      "name": "League Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/185.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 254,
+        "name": "Heart Of Midlothian",
+        "logo": "https://media.api-sports.io/football/teams/254.png",
+        "winner": false
+      },
+      "away": {
+        "id": 249,
+        "name": "Hibernian",
+        "logo": "https://media.api-sports.io/football/teams/249.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556691,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 7,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636423,
-      "referee": "D. Kos",
-      "timezone": "UTC",
-      "date": "2026-10-15T19:00:00+00:00",
-      "timestamp": 1792090800,
-      "periods": {
-        "first": 1792090800,
-        "second": 1792094400
-      },
-      "venue": {
-        "id": null,
-        "name": "Tynecastle Park",
-        "city": "Edinburgh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 848,
-      "name": "UEFA Europa Conference League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/848.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 254,
-        "name": "Heart Of Midlothian",
-        "logo": "https://media.api-sports.io/football/teams/254.png",
-        "winner": null
-      },
-      "away": {
-        "id": 398,
-        "name": "FC Nordsjaelland",
-        "logo": "https://media.api-sports.io/football/teams/398.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

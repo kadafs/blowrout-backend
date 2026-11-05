@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1511713,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-25T20:30:00+00:00",
+      "timestamp": 1792960200,
+      "periods": {
+        "first": 1792960200,
+        "second": 1792963800
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Regional de Antofagasta",
+        "city": "Antofagasta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 266,
+      "name": "Primera B",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/266.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2327,
+        "name": "Antofagasta",
+        "logo": "https://media.api-sports.io/football/teams/2327.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2316,
+        "name": "Curico Unido",
+        "logo": "https://media.api-sports.io/football/teams/2316.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511705,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638391,
-      "referee": "G. Philippe",
-      "timezone": "UTC",
-      "date": "2026-09-27T15:30:00+00:00",
-      "timestamp": 1790523000,
-      "periods": {
-        "first": 1790523000,
-        "second": 1790526600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Regional de Antofagasta",
-        "city": "Antofagasta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 267,
-      "name": "Copa Chile",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/267.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Round of 16",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2327,
-        "name": "Antofagasta",
-        "logo": "https://media.api-sports.io/football/teams/2327.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2319,
-        "name": "Deportes Iquique",
-        "logo": "https://media.api-sports.io/football/teams/2319.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

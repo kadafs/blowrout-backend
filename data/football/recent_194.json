@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552210,
+      "referee": "Allard Lindhout",
+      "timezone": "UTC",
+      "date": "2026-10-31T20:00:00+00:00",
+      "timestamp": 1793476800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1117,
+        "name": "Johan Cruijff Arena",
+        "city": "Amsterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 194,
+        "name": "Ajax",
+        "logo": "https://media.api-sports.io/football/teams/194.png",
+        "winner": true
+      },
+      "away": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552205,
       "referee": "Danny Makkelie",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552183,
-      "referee": "Serdar Gozubuyuk, Netherlands",
-      "timezone": "UTC",
-      "date": "2026-10-10T19:00:00+00:00",
-      "timestamp": 1791658800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1117,
-        "name": "Johan Cruijff Arena",
-        "city": "Amsterdam"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 88,
-      "name": "Eredivisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/88.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 194,
-        "name": "Ajax",
-        "logo": "https://media.api-sports.io/football/teams/194.png",
-        "winner": null
-      },
-      "away": {
-        "id": 413,
-        "name": "NEC Nijmegen",
-        "logo": "https://media.api-sports.io/football/teams/413.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

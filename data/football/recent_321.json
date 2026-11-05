@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494794,
+      "referee": "Ola Hobber Nilsen",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:00:00+00:00",
+      "timestamp": 1793548800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1197,
+        "name": "S\u00f8r Arena",
+        "city": "Kristiansand"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 334,
+        "name": "Start",
+        "logo": "https://media.api-sports.io/football/teams/334.png",
+        "winner": false
+      },
+      "away": {
+        "id": 321,
+        "name": "Lillestrom",
+        "logo": "https://media.api-sports.io/football/teams/321.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643463,
       "referee": "M. Lien",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636338,
-      "referee": "Martin Matosa",
-      "timezone": "UTC",
-      "date": "2026-10-15T16:45:00+00:00",
-      "timestamp": 1792082700,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19513,
-        "name": "Stadion Letn\u00e1",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 3,
-      "name": "UEFA Europa League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/3.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 628,
-        "name": "Sparta Praha",
-        "logo": "https://media.api-sports.io/football/teams/628.png",
-        "winner": null
-      },
-      "away": {
-        "id": 321,
-        "name": "Lillestrom",
-        "logo": "https://media.api-sports.io/football/teams/321.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

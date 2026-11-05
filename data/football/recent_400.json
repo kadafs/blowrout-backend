@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549050,
+      "referee": "Mikkel Redder",
+      "timezone": "UTC",
+      "date": "2026-11-02T18:00:00+00:00",
+      "timestamp": 1793642400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 460,
+        "name": "Haderslev Fodbold Stadion",
+        "city": "Hadeslev"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 119,
+      "name": "Superliga",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/119.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 396,
+        "name": "Sonderjyske",
+        "logo": "https://media.api-sports.io/football/teams/396.png",
+        "winner": false
+      },
+      "away": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640475,
       "referee": "M. Krogh",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636406,
-      "referee": "J. Kooij",
-      "timezone": "UTC",
-      "date": "2026-10-15T19:00:00+00:00",
-      "timestamp": 1792090800,
-      "periods": {
-        "first": 1792090800,
-        "second": 1792094400
-      },
-      "venue": {
-        "id": null,
-        "name": "Parken Stadium",
-        "city": "Copenhagen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 848,
-      "name": "UEFA Europa Conference League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/848.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 400,
-        "name": "FC Copenhagen",
-        "logo": "https://media.api-sports.io/football/teams/400.png",
-        "winner": true
-      },
-      "away": {
-        "id": 217,
-        "name": "SC Braga",
-        "logo": "https://media.api-sports.io/football/teams/217.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

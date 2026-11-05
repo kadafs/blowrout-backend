@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558663,
+      "referee": "B. Put",
+      "timezone": "UTC",
+      "date": "2026-10-31T19:45:00+00:00",
+      "timestamp": 1793475900,
+      "periods": {
+        "first": 1793475900,
+        "second": 1793479500
+      },
+      "venue": {
+        "id": 189,
+        "name": "Freethiel Stadion",
+        "city": "Beveren"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 738,
+        "name": "SK Beveren",
+        "logo": "https://media.api-sports.io/football/teams/738.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1393,
+        "name": "Union St. Gilloise",
+        "logo": "https://media.api-sports.io/football/teams/1393.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558660,
       "referee": "W. De Cremer",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558649,
-      "referee": "N. Verboomen",
-      "timezone": "UTC",
-      "date": "2026-10-11T14:00:00+00:00",
-      "timestamp": 1791727200,
-      "periods": {
-        "first": 1791727200,
-        "second": 1791730800
-      },
-      "venue": {
-        "id": 194,
-        "name": "Stade Joseph Marien",
-        "city": "Brussels"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1393,
-        "name": "Union St. Gilloise",
-        "logo": "https://media.api-sports.io/football/teams/1393.png",
-        "winner": null
-      },
-      "away": {
-        "id": 260,
-        "name": "OH Leuven",
-        "logo": "https://media.api-sports.io/football/teams/260.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 1,

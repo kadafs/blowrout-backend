@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1642181,
+      "referee": "R. Venkatesh",
+      "timezone": "UTC",
+      "date": "2026-10-25T11:30:00+00:00",
+      "timestamp": 1792927800,
+      "periods": {
+        "first": 1792927800,
+        "second": 1792931400
+      },
+      "venue": {
+        "id": null,
+        "name": "Fatorda Stadium",
+        "city": "Margao"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 323,
+      "name": "Indian Super League",
+      "country": "India",
+      "logo": "https://media.api-sports.io/football/leagues/323.png",
+      "flag": "https://media.api-sports.io/flags/in.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3462,
+        "name": "Churchill Brothers",
+        "logo": "https://media.api-sports.io/football/teams/3462.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3466,
+        "name": "Minerva Punjab",
+        "logo": "https://media.api-sports.io/football/teams/3466.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642176,
-      "referee": "Harish Kundu, India",
+      "referee": "H. Kundu",
       "timezone": "UTC",
       "date": "2026-10-18T11:30:00+00:00",
       "timestamp": 1792323000,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1642170,
-      "referee": "Pratik Mondal, India",
+      "referee": "P. Mondal",
       "timezone": "UTC",
       "date": "2026-10-11T14:00:00+00:00",
       "timestamp": 1791727200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1313645,
-      "referee": "C. John",
-      "timezone": "UTC",
-      "date": "2025-03-23T11:00:00+00:00",
-      "timestamp": 1742727600,
-      "periods": {
-        "first": 1742727600,
-        "second": 1742731200
-      },
-      "venue": {
-        "id": 20358,
-        "name": "Raia Panchayat Ground",
-        "city": "Raia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 14
-      }
-    },
-    "league": {
-      "id": 324,
-      "name": "I-League",
-      "country": "India",
-      "logo": "https://media.api-sports.io/football/leagues/324.png",
-      "flag": "https://media.api-sports.io/flags/in.svg",
-      "season": 2024,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3462,
-        "name": "Churchill Brothers",
-        "logo": "https://media.api-sports.io/football/teams/3462.png",
-        "winner": null
-      },
-      "away": {
-        "id": 18305,
-        "name": "Sreenidi Deccan",
-        "logo": "https://media.api-sports.io/football/teams/18305.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

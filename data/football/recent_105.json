@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574770,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:45:00+00:00",
+      "timestamp": 1793454300,
+      "periods": {
+        "first": 1793454300,
+        "second": 1793457900
+      },
+      "venue": {
+        "id": 7001,
+        "name": "Stade Pierre de Coubertin",
+        "city": "Cannes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "Ligue 3",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9932,
+        "name": "Cannes",
+        "logo": "https://media.api-sports.io/football/teams/9932.png",
+        "winner": true
+      },
+      "away": {
+        "id": 105,
+        "name": "Valenciennes",
+        "logo": "https://media.api-sports.io/football/teams/105.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574766,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574730,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T12:45:00+00:00",
-      "timestamp": 1789217100,
-      "periods": {
-        "first": 1789217100,
-        "second": 1789220700
-      },
-      "venue": {
-        "id": 686,
-        "name": "Stade du Hainaut",
-        "city": "Valenciennes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 63,
-      "name": "Ligue 3",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/63.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 105,
-        "name": "Valenciennes",
-        "logo": "https://media.api-sports.io/football/teams/105.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3179,
-        "name": "Fleury 91",
-        "logo": "https://media.api-sports.io/football/teams/3179.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1550178,
+      "referee": "Valerio Crezzini",
+      "timezone": "UTC",
+      "date": "2026-11-02T19:45:00+00:00",
+      "timestamp": 1793648700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 879,
+        "name": "New Balance Arena",
+        "city": "Bergamo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 135,
+      "name": "Serie A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/135.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 499,
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png",
+        "winner": false
+      },
+      "away": {
+        "id": 523,
+        "name": "Parma",
+        "logo": "https://media.api-sports.io/football/teams/523.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1550169,
       "referee": "Federico La Penna",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636382,
-      "referee": "A. Ladeback",
-      "timezone": "UTC",
-      "date": "2026-10-15T19:00:00+00:00",
-      "timestamp": 1792090800,
-      "periods": {
-        "first": 1792090800,
-        "second": 1792094400
-      },
-      "venue": {
-        "id": null,
-        "name": "New Balance Arena",
-        "city": "Bergamo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 848,
-      "name": "UEFA Europa Conference League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/848.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 499,
-        "name": "Atalanta",
-        "logo": "https://media.api-sports.io/football/teams/499.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3403,
-        "name": "Pafos",
-        "logo": "https://media.api-sports.io/football/teams/3403.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

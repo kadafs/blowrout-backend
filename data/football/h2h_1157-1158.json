@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639722,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-05T00:00:00+00:00",
+      "timestamp": 1793836800,
+      "periods": {
+        "first": 1793836800,
+        "second": 1793840400
+      },
+      "venue": {
+        "id": 471,
+        "name": "Estadio Rodrigo Paz Delgado",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 917,
+      "name": "Copa Ecuador",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/917.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2025,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1158,
+        "name": "LDU de Quito",
+        "logo": "https://media.api-sports.io/football/teams/1158.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1157,
+        "name": "Universidad Catolica",
+        "logo": "https://media.api-sports.io/football/teams/1157.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639721,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1479593,
-      "referee": "Russell Macario Teran Leon, Ecuador",
-      "timezone": "UTC",
-      "date": "2025-12-21T21:30:00+00:00",
-      "timestamp": 1766352600,
-      "periods": {
-        "first": 1766352600,
-        "second": 1766356200
-      },
-      "venue": {
-        "id": 471,
-        "name": "Estadio Rodrigo Paz Delgado",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2025,
-      "round": "Championship Group - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1158,
-        "name": "LDU de Quito",
-        "logo": "https://media.api-sports.io/football/teams/1158.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1157,
-        "name": "Universidad Catolica",
-        "logo": "https://media.api-sports.io/football/teams/1157.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

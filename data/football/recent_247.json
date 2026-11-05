@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556695,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T13:00:00+00:00",
+      "timestamp": 1793538000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1390,
+        "name": "Falkirk Stadium",
+        "city": "Falkirk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1389,
+        "name": "Falkirk",
+        "logo": "https://media.api-sports.io/football/teams/1389.png",
+        "winner": true
+      },
+      "away": {
+        "id": 247,
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556689,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 7,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636228,
-      "referee": "Nikola Dabanovic",
-      "timezone": "UTC",
-      "date": "2026-10-15T19:00:00+00:00",
-      "timestamp": 1792090800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1265,
-        "name": "Est\u00e1dio da Luz",
-        "city": "Lisbon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 3,
-      "name": "UEFA Europa League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/3.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 211,
-        "name": "Benfica",
-        "logo": "https://media.api-sports.io/football/teams/211.png",
-        "winner": true
-      },
-      "away": {
-        "id": 247,
-        "name": "Celtic",
-        "logo": "https://media.api-sports.io/football/teams/247.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

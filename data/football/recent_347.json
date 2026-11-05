@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553212,
+      "referee": "Pawel Raczkowski",
+      "timezone": "UTC",
+      "date": "2026-10-31T16:30:00+00:00",
+      "timestamp": 1793464200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20110,
+        "name": "Stadion Miejski",
+        "city": "Poznan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": true
+      },
+      "away": {
+        "id": 338,
+        "name": "Wisla Krakow",
+        "logo": "https://media.api-sports.io/football/teams/338.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640572,
       "referee": "D. Stefanski",
       "timezone": "UTC",
@@ -13,7 +83,7 @@
       "venue": {
         "id": null,
         "name": "Stadion Miejski",
-        "city": null
+        "city": "Tarnobrzeg"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 6,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636279,
-      "referee": "Milos Milanovic",
-      "timezone": "UTC",
-      "date": "2026-10-15T16:45:00+00:00",
-      "timestamp": 1792082700,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20110,
-        "name": "Stadion Miejski",
-        "city": "Poznan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 3,
-      "name": "UEFA Europa League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/3.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 347,
-        "name": "Lech Poznan",
-        "logo": "https://media.api-sports.io/football/teams/347.png",
-        "winner": false
-      },
-      "away": {
-        "id": 168,
-        "name": "Bayer Leverkusen",
-        "logo": "https://media.api-sports.io/football/teams/168.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

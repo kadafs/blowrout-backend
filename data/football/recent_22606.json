@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648242,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T20:00:00+00:00",
+      "timestamp": 1793563200,
+      "periods": {
+        "first": 1793563200,
+        "second": 1793566800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 322,
+      "name": "Premier League",
+      "country": "Jamaica",
+      "logo": "https://media.api-sports.io/football/leagues/322.png",
+      "flag": "https://media.api-sports.io/flags/jm.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25020,
+        "name": "Racing United",
+        "logo": "https://media.api-sports.io/football/teams/25020.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22606,
+        "name": "Treasure Beach",
+        "logo": "https://media.api-sports.io/football/teams/22606.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647073,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639890,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T20:30:00+00:00",
-      "timestamp": 1789936200,
-      "periods": {
-        "first": 1789936200,
-        "second": 1789939800
-      },
-      "venue": {
-        "id": null,
-        "name": "Steths Sports Complex",
-        "city": "Santa Cruz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 322,
-      "name": "Premier League",
-      "country": "Jamaica",
-      "logo": "https://media.api-sports.io/football/leagues/322.png",
-      "flag": "https://media.api-sports.io/flags/jm.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22606,
-        "name": "Treasure Beach",
-        "logo": "https://media.api-sports.io/football/teams/22606.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3445,
-        "name": "Tivoli Gardens",
-        "logo": "https://media.api-sports.io/football/teams/3445.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

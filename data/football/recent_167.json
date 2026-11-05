@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575209,
+      "referee": "Tobias Reichel",
+      "timezone": "UTC",
+      "date": "2026-10-31T14:30:00+00:00",
+      "timestamp": 1793457000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22796,
+        "name": "Weser-Stadion",
+        "city": "Bremen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 78,
+      "name": "Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/78.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 162,
+        "name": "Werder Bremen",
+        "logo": "https://media.api-sports.io/football/teams/162.png",
+        "winner": true
+      },
+      "away": {
+        "id": 167,
+        "name": "1899 Hoffenheim",
+        "logo": "https://media.api-sports.io/football/teams/167.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575197,
       "referee": "Daniel Siebert",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575178,
-      "referee": "Harm Osmers, Germany",
-      "timezone": "UTC",
-      "date": "2026-10-10T13:30:00+00:00",
-      "timestamp": 1791639000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 724,
-        "name": "Prezero Arena",
-        "city": "Sinsheim"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 167,
-        "name": "1899 Hoffenheim",
-        "logo": "https://media.api-sports.io/football/teams/167.png",
-        "winner": false
-      },
-      "away": {
-        "id": 175,
-        "name": "Hamburger SV",
-        "logo": "https://media.api-sports.io/football/teams/175.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
       },
       "fulltime": {
         "home": 2,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1505548,
+      "referee": "Gaston Philippe",
+      "timezone": "UTC",
+      "date": "2026-10-30T22:00:00+00:00",
+      "timestamp": 1793397600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 319,
+        "name": "Monumental David Arellano",
+        "city": "San Diego"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 265,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/265.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2315,
+        "name": "Colo Colo",
+        "logo": "https://media.api-sports.io/football/teams/2315.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2324,
+        "name": "Universidad de Concepcion",
+        "logo": "https://media.api-sports.io/football/teams/2324.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 5,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505545,
       "referee": "Claudio Diaz Mera",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505469,
-      "referee": "Mario Salvo Sepulveda, Chile",
-      "timezone": "UTC",
-      "date": "2026-09-02T22:00:00+00:00",
-      "timestamp": 1788386400,
-      "periods": {
-        "first": 1788386400,
-        "second": 1788390000
-      },
-      "venue": {
-        "id": 324,
-        "name": "Francisco S\u00e1nchez Rumoroso",
-        "city": "Coquimbo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 265,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/265.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2330,
-        "name": "Coquimbo Unido",
-        "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2324,
-        "name": "Universidad de Concepcion",
-        "logo": "https://media.api-sports.io/football/teams/2324.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

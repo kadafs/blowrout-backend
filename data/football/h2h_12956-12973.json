@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647252,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T19:00:00+00:00",
+      "timestamp": 1793300400,
+      "periods": {
+        "first": 1793300400,
+        "second": 1793304000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 617,
+      "name": "Copa do Brasil U20",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/617.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12956,
+        "name": "Cear\u00e1 U20",
+        "logo": "https://media.api-sports.io/football/teams/12956.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12973,
+        "name": "S\u00e3o Paulo U20",
+        "logo": "https://media.api-sports.io/football/teams/12973.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1190254,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 12956,
         "name": "Cear\u00e1 U20",
         "logo": "https://media.api-sports.io/football/teams/12956.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 662770,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2020-12-06T18:00:00+00:00",
-      "timestamp": 1607277600,
-      "periods": {
-        "first": 1607277600,
-        "second": 1607281200
-      },
-      "venue": {
-        "id": null,
-        "name": "Cidade Voz\u00e3o",
-        "city": "Itaitinga, Cear\u00e1"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 740,
-      "name": "Brasileiro U20 A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/740.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2020,
-      "round": "1st Phase - 17",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 12956,
-        "name": "Cear\u00e1 U20",
-        "logo": "https://media.api-sports.io/football/teams/12956.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12973,
-        "name": "S\u00e3o Paulo U20",
-        "logo": "https://media.api-sports.io/football/teams/12973.png",
         "winner": true
       }
     },

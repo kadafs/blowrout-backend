@@ -119,13 +119,33 @@ def fetch_live_games():
         print("  [!] Error: API_BASKETBALL_KEY not configured.")
         return []
 
+    games = []
+    # 1. Try ?live=all endpoint
     try:
         r = requests.get(f"{BASE_URL}/games?live=all", headers=HEADERS, timeout=12)
         if r.status_code == 200:
-            return r.json().get("response", [])
+            games = r.json().get("response", [])
     except Exception as e:
         print(f"  [!] Error fetching live games: {e}")
-    return []
+
+    # 2. If live=all returned empty (API-Basketball often does not index in-play games under live=all),
+    # query today's fixtures date endpoint and extract active quarters.
+    if not games:
+        from datetime import datetime, timezone
+        now_utc = datetime.now(timezone.utc)
+        today_utc = now_utc.strftime("%Y-%m-%d")
+        try:
+            r = requests.get(f"{BASE_URL}/games?date={today_utc}", headers=HEADERS, timeout=15)
+            if r.status_code == 200:
+                day_games = r.json().get("response", [])
+                games = [
+                    g for g in day_games
+                    if g.get("status", {}).get("short") not in ("NS", "FT", "AOT", "POST", "CANC", "SUSP", "ABD")
+                ]
+        except Exception as e:
+            print(f"  [!] Error fetching today's active games: {e}")
+
+    return games
 
 
 def fetch_games_for_replay(date_str):
@@ -212,10 +232,10 @@ def analyze_game(game, pregame_map, odds_cache=None, is_replay=False):
     pre_market = pre_pred.get("market_total") if pre_pred else None
     confidence = pre_pred.get("confidence", "-") if pre_pred else "-"
 
-    # Calculate 1st Half totals
+    # Calculate 1st Half totals (only valid once 1H has actually finished: HT, Q3, Q4, OT)
     q1_total = q1_h + q1_a
     q2_total = q2_h + q2_a
-    has_full_1h = (q1_total > 0 and q2_total > 0)
+    has_full_1h = (status_short in ("HT", "Q3", "Q4", "OT", "FT", "AOT") and q1_total > 0 and q2_total > 0)
     ht_analysis = None
 
     if has_full_1h and pre_total:

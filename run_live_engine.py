@@ -28,27 +28,39 @@ def safe_int(val):
 
 def fetch_live_fixtures():
     url = "https://v3.football.api-sports.io/fixtures?live=all"
-    r = requests.get(url, headers=HEADERS)
-    if r.status_code != 200:
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=12)
+        if r.status_code != 200:
+            return []
+        data = r.json()
+        if data.get("errors"):
+            print("  [!] API-Football Notice:", data.get("errors"))
+        return data.get("response", [])
+    except Exception as e:
+        print("  [!] Error fetching live football fixtures:", e)
         return []
-    data = r.json()
-    return data.get("response", [])
 
 def fetch_statistics(fixture_id):
     url = f"https://v3.football.api-sports.io/fixtures/statistics?fixture={fixture_id}"
-    r = requests.get(url, headers=HEADERS)
-    if r.status_code != 200:
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return []
+        data = r.json()
+        return data.get("response", [])
+    except Exception:
         return []
-    data = r.json()
-    return data.get("response", [])
 
 def fetch_events(fixture_id):
     url = f"https://v3.football.api-sports.io/fixtures/events?fixture={fixture_id}"
-    r = requests.get(url, headers=HEADERS)
-    if r.status_code != 200:
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return []
+        data = r.json()
+        return data.get("response", [])
+    except Exception:
         return []
-    data = r.json()
-    return data.get("response", [])
 
 def parse_stats(stats_array):
     parsed = {
@@ -113,10 +125,15 @@ def get_predictions_dict(date_str):
     return preds
 
 def update_gist(payload):
+    # Always persist local copies for fallback
+    os.makedirs("data/football", exist_ok=True)
+    with open("data/football/live_momentum.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+    with open("live_momentum.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+
     if not GIST_ID or not GITHUB_TOKEN:
-        print("Missing GIST_ID or GH_PAT, saving to local live_momentum.json only.")
-        with open("live_momentum.json", "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2)
+        print("Missing GIST_ID or GH_PAT, saved to local live_momentum.json only.")
         return
         
     url = f"https://api.github.com/gists/{GIST_ID}"
@@ -131,15 +148,18 @@ def update_gist(payload):
             }
         }
     }
-    r = requests.patch(url, headers=headers, json=data)
-    if r.status_code == 200:
-        print("Gist updated successfully.")
-    else:
-        print("Failed to update gist:", r.status_code, r.text)
+    try:
+        r = requests.patch(url, headers=headers, json=data, timeout=10)
+        if r.status_code == 200:
+            print("Gist updated successfully.")
+        else:
+            print("Failed to update gist:", r.status_code, r.text)
+    except Exception as e:
+        print("Error updating gist:", e)
 
 def run():
     print("Running Live In-Play Engine...")
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.timezone.utc)
     preds = {}
     for delta in [-1, 0, 1]:
         d = now + datetime.timedelta(days=delta)
@@ -274,7 +294,7 @@ def run():
     live_data.sort(key=lambda x: abs(x["momentum_diff"]), reverse=True)
     
     payload = {
-        "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "active_games": len(live_data),
         "matches": live_data
     }

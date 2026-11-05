@@ -561,23 +561,37 @@ def get_or_calibrate_config(league_id, league_name, auto_calibrate=True):
 def get_advanced_stats(league_id, season=None):
     """Load cached [ADVANCED] matrix if available."""
     from fetch_universal_bball_stats import attach_prior_season_stats
-    matrix_path = f"data/bball_stats_{league_id}_adv_v2.json"
-    if not os.path.exists(matrix_path):
-        try:
-            lid_int = int(league_id)
-            if 11600 <= lid_int <= 11699:
-                matrix_path = "data/bball_stats_116_adv_v2.json"
-            elif 42300 <= lid_int <= 42399:
-                matrix_path = "data/bball_stats_423_adv_v2.json"
-        except Exception:
-            pass
-    if os.path.exists(matrix_path):
-        data = load_json(matrix_path)
-        if data.get("note") == "Insufficient box-score coverage; using SRS fallback": 
-            return None
-        teams = {t["team_name"]: t for t in data.get("teams", []) if t.get("team_name")}
-        return attach_prior_season_stats(teams, league_id, season)
+    candidates = []
+    try:
+        lid_int = int(league_id)
+        if lid_int == 11600:
+            candidates.extend(["data/bball_stats_116_adv_v2.json", "data/bball_stats_116_adv.json"])
+        elif lid_int == 42300:
+            candidates.extend(["data/bball_stats_423_adv_v2.json", "data/bball_stats_423_adv.json"])
+        elif 11600 <= lid_int <= 11699:
+            candidates.extend([f"data/bball_stats_{league_id}_adv_v2.json", "data/bball_stats_116_adv_v2.json"])
+        elif 42300 <= lid_int <= 42399:
+            candidates.extend([f"data/bball_stats_{league_id}_adv_v2.json", "data/bball_stats_423_adv_v2.json"])
+    except Exception:
+        pass
+    candidates.extend([
+        f"data/bball_stats_{league_id}_adv_v2.json",
+        f"data/bball_stats_{league_id}_adv.json",
+    ])
+    merged_teams = {}
+    for matrix_path in candidates:
+        if os.path.exists(matrix_path):
+            data = load_json(matrix_path)
+            if not data or data.get("note") == "Insufficient box-score coverage; using SRS fallback":
+                continue
+            teams_list = data.get("teams", [])
+            for t in teams_list:
+                if t.get("team_name") and t["team_name"] not in merged_teams:
+                    merged_teams[t["team_name"]] = t
+    if merged_teams:
+        return attach_prior_season_stats(merged_teams, league_id, season)
     return None
+
 
 def _load_teams_from_file(path):
     """Helper: load teams from a stats file, returning dict or {} on failure."""
@@ -592,29 +606,37 @@ def _load_teams_from_file(path):
         return teams_raw
     return {}
 
+
 def get_srs_stats(league_id, season, refresh=False):
     """Load cached [  SRS   ] matrix strictly from V2."""
     from fetch_universal_bball_stats import attach_prior_season_stats
-    matrix_path = f"data/bball_stats_{league_id}_srs_v2.json"
-    if not os.path.exists(matrix_path):
-        try:
-            lid_int = int(league_id)
-            if 11600 <= lid_int <= 11699:
-                matrix_path = "data/bball_stats_116_srs_v2.json"
-            elif 42300 <= lid_int <= 42399:
-                matrix_path = "data/bball_stats_423_srs_v2.json"
-        except Exception:
-            pass
-    if os.path.exists(matrix_path):
-        data = load_json(matrix_path)
-        raw_teams = data.get("teams", data)
-        if isinstance(raw_teams, list):
-            teams = {t["team_name"]: t for t in raw_teams if t.get("team_name")}
-        elif isinstance(raw_teams, dict):
-            teams = raw_teams
-        else:
-            teams = {}
-        return attach_prior_season_stats(teams, league_id, season)
+    srs_candidates = []
+    try:
+        lid_int = int(league_id)
+        if lid_int == 11600:
+            srs_candidates.extend(["data/bball_stats_116_srs_v2.json", "data/bball_stats_116_srs.json"])
+        elif lid_int == 42300:
+            srs_candidates.extend(["data/bball_stats_423_srs_v2.json", "data/bball_stats_423_srs.json"])
+        elif 11600 <= lid_int <= 11699:
+            srs_candidates.extend([f"data/bball_stats_{league_id}_srs_v2.json", "data/bball_stats_116_srs_v2.json"])
+        elif 42300 <= lid_int <= 42399:
+            srs_candidates.extend([f"data/bball_stats_{league_id}_srs_v2.json", "data/bball_stats_423_srs_v2.json"])
+    except Exception:
+        pass
+    srs_candidates.extend([
+        f"data/bball_stats_{league_id}_srs_v2.json",
+        f"data/bball_stats_{league_id}_srs.json",
+    ])
+    merged_teams = {}
+    for matrix_path in srs_candidates:
+        if os.path.exists(matrix_path):
+            teams = _load_teams_from_file(matrix_path)
+            if teams:
+                for k, v in teams.items():
+                    if k not in merged_teams:
+                        merged_teams[k] = v
+    if merged_teams:
+        return attach_prior_season_stats(merged_teams, league_id, season)
     return {}
 
 

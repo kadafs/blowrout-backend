@@ -625,15 +625,20 @@ def process_leagues():
             for primary in set(team_name_map.values()):
                 clean_pri = clean_team_name(primary)
                 
-                # Rule 1: Exact substring overlap on normalized names (min 4 chars to avoid tiny collisions)
-                if (clean_name in clean_pri or clean_pri in clean_name) and min(len(clean_name), len(clean_pri)) >= 4:
+                # Rule 1: Exact clean name equality (stripping diacritics/case/punctuation)
+                if clean_name == clean_pri:
                     team_name_map[name] = primary
                     matched = True
                     break
                 
-                # Rule 2: High character overlap ratio via difflib on normalized names
+                # Rule 2: High similarity via difflib, guarded against collapsing distinct schools (e.g. State, Tech, A&M, Baptist)
+                diff_words = {'state', 'tech', 'am', 'city', 'college', 'university', 'north', 'south', 'east', 'west', 'northern', 'southern', 'eastern', 'western', 'central', 'w', 'women', 'baptist'}
+                words1 = set(clean_name.split())
+                words2 = set(clean_pri.split())
+                if (words1 & diff_words) != (words2 & diff_words):
+                    continue
                 similarity = difflib.SequenceMatcher(None, clean_name, clean_pri).ratio()
-                if similarity >= 0.85:
+                if similarity >= 0.92:
                     team_name_map[name] = primary
                     matched = True
                     break
@@ -689,7 +694,7 @@ def process_leagues():
                 
         current_season_games = [g for g in merged_games if g["_parsed_date"] >= cutoff_date]
         # In early season (or autumn months for winter leagues), anchor with prior season
-        is_early_season = (len(current_season_games) < 40) or (not is_calendar_year and cur_month in (8, 9, 10))
+        is_early_season = (len(current_season_games) < 40) or (not is_calendar_year and cur_month in (8, 9, 10, 11)) or (league_id in (116, 423) and len(current_season_games) < 1000)
 
         # Build per-team current-season game count for UI display
         from collections import Counter as _Counter

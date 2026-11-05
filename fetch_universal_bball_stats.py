@@ -452,12 +452,31 @@ def attach_prior_season_stats(teams, league_id, season=None):
     except (ValueError, TypeError):
         prev_s = 2025
 
+    parent_lid = league_id
+    try:
+        lid_int = int(league_id)
+        if 11600 <= lid_int <= 11699:
+            parent_lid = 116
+        elif 42300 <= lid_int <= 42399:
+            parent_lid = 423
+    except (ValueError, TypeError):
+        pass
+
     # Load prior season matrix
     prior_teams = {}
     prior_candidates = [
         f"data/bball_stats_{league_id}_prior_srs.json",
+        f"data/bball_stats_{parent_lid}_prior_srs.json",
+        f"data/bball_stats_{league_id}_srs_v2.json",
+        f"data/bball_stats_{parent_lid}_srs_v2.json",
+        f"data/bball_stats_{league_id}_srs.json",
+        f"data/bball_stats_{parent_lid}_srs.json",
+        f"data/srs_stats_{league_id}.json",
+        f"data/srs_stats_{parent_lid}.json",
         f"data/bball_stats_{league_id}_{prev_s}_srs.json",
+        f"data/bball_stats_{parent_lid}_{prev_s}_srs.json",
         f"data/bball_stats_{league_id}_{prev_s}.json",
+        f"data/bball_stats_{parent_lid}_{prev_s}.json",
     ]
     for p in prior_candidates:
         if os.path.exists(p):

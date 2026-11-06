@@ -1073,13 +1073,18 @@ def main():
         season   = league_entry.get("season")
         games    = league_entry["games"]
 
-        # Skip already-finished games if they have scores
-        upcoming = [g for g in games if g.get("status") not in
-                    ("Game Finished", "Final", "AOT")]
-        if not upcoming:
-            upcoming = games  # Show all if all finished (useful for backtesting)
+        # Separate upcoming (not yet played) from already-finished games.
+        # Finished status strings from api-basketball: "Game Finished", "Final", "AOT"
+        FINISHED_STATUSES = {"Game Finished", "Final", "AOT", "FT", "After Over Time"}
+        upcoming = [g for g in games if g.get("status") not in FINISHED_STATUSES]
+        finished = [g for g in games if g.get("status") in FINISHED_STATUSES]
 
-        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s)")
+        # For pure backtesting runs (past date where every game is done), predict all.
+        is_backtest = not upcoming and bool(finished)
+        if is_backtest:
+            upcoming = games
+
+        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(finished)} finished]")
 
         # Step 2: config
         config_path, config = get_or_calibrate_config(
@@ -1113,8 +1118,8 @@ def main():
         # Step 5: pre-fetch league recents (saves calls vs per-team)
         # Removed API league recents fetch
 
-        # Step 6: predict each game
-        for game in games:
+        # Step 6: predict each game — only upcoming (pre-outcome) games
+        for game in upcoming:
             away = game["away"]
             home = game["home"]
             status = game.get("status", "")
@@ -1420,14 +1425,39 @@ def main():
                 f.write(f"{issue}\n")
         print(f"\n  Logged {len(skipped_issues)} issue(s) to {error_log_path}")
 
-    # Save
+    # Save — merge-preserve completed games from prior run so we never re-predict
+    # a game that has already finished (which would embed the outcome into accuracy).
     if all_predictions:
         out_path = f"data/basketball/universal_predictions_{date_str}_v2.json"
+
+        # Build a lookup key for the new predictions just generated
+        new_pred_keys = {
+            (p.get("home_team", ""), p.get("away_team", ""))
+            for p in all_predictions
+        }
+
+        # Load any existing predictions for this date to rescue already-graded rows
+        preserved = []
+        if os.path.exists(out_path):
+            try:
+                existing = load_json(out_path)
+                for p in existing.get("predictions", []):
+                    key = (p.get("home_team", ""), p.get("away_team", ""))
+                    # Keep the old prediction if it was for a game we did NOT
+                    # re-predict this run (i.e. it was already finished earlier).
+                    if key not in new_pred_keys:
+                        preserved.append(p)
+                if preserved:
+                    print(f"\n  Preserving {len(preserved)} already-completed prediction(s) from prior run.")
+            except Exception:
+                preserved = []
+
+        merged = preserved + all_predictions
         save_json(out_path, {
             "date": date_str,
             "mode": args.mode,
-            "total_predictions": total_predicted,
-            "predictions": all_predictions,
+            "total_predictions": len(merged),
+            "predictions": merged,
         })
         print(f"\n  Saved -> {out_path}")
 

@@ -1152,10 +1152,14 @@ def main():
 
         # Only predict upcoming / not yet finished
         upcoming = [g for g in games if not g.get("is_completed")]
-        if not upcoming:
-            upcoming = games  # useful for backtesting past dates
+        finished = [g for g in games if g.get("is_completed")]
 
-        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s)")
+        # For pure backtesting runs (past date where every game is done), predict all.
+        is_backtest = not upcoming and bool(finished)
+        if is_backtest:
+            upcoming = games
+
+        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(finished)} finished]")
 
         # Step 2: Team stats (refresh_stats only if explicitly requested)
         teams, league_avgs = get_or_fetch_stats(lid, season, games, refresh=args.refresh, refresh_stats=args.refresh_stats)
@@ -1456,13 +1460,35 @@ def main():
         print(f"  ({skipped_no_stats} leagues had no API stats — typical for obscure/regional competitions)")
     print("=" * 70)
 
+    # Merge-preserve: keep predictions from prior run for already-completed games
+    # so a mid-day re-run never overwrites clean (pre-outcome) predictions.
     if all_predictions:
         out_path = f"data/football/universal_predictions_{date_str}.json"
+
+        new_pred_keys = {
+            (p.get("home_team", ""), p.get("away_team", ""))
+            for p in all_predictions
+        }
+
+        preserved = []
+        if os.path.exists(out_path):
+            try:
+                existing = load_json(out_path)
+                for p in existing.get("predictions", []):
+                    key = (p.get("home_team", ""), p.get("away_team", ""))
+                    if key not in new_pred_keys:
+                        preserved.append(p)
+                if preserved:
+                    print(f"\n  Preserving {len(preserved)} already-completed prediction(s) from prior run.")
+            except Exception:
+                preserved = []
+
+        merged = preserved + all_predictions
         save_json(out_path, {
             "date":              date_str,
             "mode":              args.mode,
-            "total_predictions": total_predicted,
-            "predictions":       all_predictions,
+            "total_predictions": len(merged),
+            "predictions":       merged,
         })
         print(f"\n  Saved -> {out_path}")
 

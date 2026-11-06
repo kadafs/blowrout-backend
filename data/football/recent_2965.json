@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1634370,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T11:55:00+00:00",
+      "timestamp": 1793620500,
+      "periods": {
+        "first": 1793620500,
+        "second": 1793624100
+      },
+      "venue": {
+        "id": 3459,
+        "name": "Safa Stadium",
+        "city": "Beirut"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 309,
+      "name": "Division 2",
+      "country": "Saudi-Arabia",
+      "logo": "https://media.api-sports.io/football/leagues/309.png",
+      "flag": "https://media.api-sports.io/flags/sa.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2990,
+        "name": "Al Safa",
+        "logo": "https://media.api-sports.io/football/teams/2990.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2965,
+        "name": "Al-Wajj",
+        "logo": "https://media.api-sports.io/football/teams/2965.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634361,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1520156,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-09T13:00:00+00:00",
-      "timestamp": 1775739600,
-      "periods": {
-        "first": 1775739600,
-        "second": 1775743200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 309,
-      "name": "Division 2",
-      "country": "Saudi-Arabia",
-      "logo": "https://media.api-sports.io/football/leagues/309.png",
-      "flag": "https://media.api-sports.io/flags/sa.svg",
-      "season": 2025,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2965,
-        "name": "Al-Wajj",
-        "logo": "https://media.api-sports.io/football/teams/2965.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2978,
-        "name": "Hetten FC",
-        "logo": "https://media.api-sports.io/football/teams/2978.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1635651,
+      "referee": "Serdar Gozubuyuk, Netherlands",
+      "timezone": "UTC",
+      "date": "2026-11-04T20:00:00+00:00",
+      "timestamp": 1793822400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19381,
+        "name": "Signal Iduna Park",
+        "city": "Dortmund"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 165,
+        "name": "Borussia Dortmund",
+        "logo": "https://media.api-sports.io/football/teams/165.png",
+        "winner": true
+      },
+      "away": {
+        "id": 543,
+        "name": "Real Betis",
+        "logo": "https://media.api-sports.io/football/teams/543.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575203,
-      "referee": "Tobias Stieler",
+      "referee": "T. Stieler",
       "timezone": "UTC",
       "date": "2026-10-31T17:30:00+00:00",
       "timestamp": 1793467800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793467800,
+        "second": 1793471400
       },
       "venue": {
         "id": 700,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1575194,
-      "referee": "Sven Jablonski",
+      "referee": "S. Jablonski",
       "timezone": "UTC",
       "date": "2026-10-24T16:30:00+00:00",
       "timestamp": 1792859400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792859400,
+        "second": 1792863000
       },
       "venue": {
         "id": 19381,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1635719,
-      "referee": "Javier Alberola Rojas",
+      "referee": "Javier Alberola Rojas, Spain",
       "timezone": "UTC",
       "date": "2026-10-20T16:45:00+00:00",
       "timestamp": 1792514700,
@@ -222,7 +292,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Baku Olympic Stadium",
+        "name": "Baki Olimpiya Stadionu",
         "city": "Baku"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575188,
-      "referee": "Daniel Schlager, Germany",
-      "timezone": "UTC",
-      "date": "2026-10-17T13:30:00+00:00",
-      "timestamp": 1792243800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 748,
-        "name": "An der Alten F\u00f6rsterei",
-        "city": "Berlin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 182,
-        "name": "Union Berlin",
-        "logo": "https://media.api-sports.io/football/teams/182.png",
-        "winner": null
-      },
-      "away": {
-        "id": 165,
-        "name": "Borussia Dortmund",
-        "logo": "https://media.api-sports.io/football/teams/165.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

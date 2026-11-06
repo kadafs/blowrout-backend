@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561185,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Zvolen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10552,
+        "name": "Lokomot\u00edva Zvolen",
+        "logo": "https://media.api-sports.io/football/teams/10552.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15006,
+        "name": "MFK Byt\u010da",
+        "logo": "https://media.api-sports.io/football/teams/15006.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561180,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561154,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:00:00+00:00",
-      "timestamp": 1791032400,
-      "periods": {
-        "first": 1791032400,
-        "second": 1791036000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Zvolen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 506,
-      "name": "2. liga",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/506.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10552,
-        "name": "Lokomot\u00edva Zvolen",
-        "logo": "https://media.api-sports.io/football/teams/10552.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10544,
-        "name": "Slovan Bratislava II",
-        "logo": "https://media.api-sports.io/football/teams/10544.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

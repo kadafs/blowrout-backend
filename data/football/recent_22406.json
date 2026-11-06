@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623642,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T11:00:00+00:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": 1793444400,
+        "second": 1793448000
+      },
+      "venue": {
+        "id": null,
+        "name": "Campo Sportivo Tre Campanili",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15680,
+        "name": "Sampdoria U19",
+        "logo": "https://media.api-sports.io/football/teams/15680.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22406,
+        "name": "Sudtirol U19",
+        "logo": "https://media.api-sports.io/football/teams/22406.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642166,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632769,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T10:00:00+00:00",
-      "timestamp": 1790416800,
-      "periods": {
-        "first": 1790416800,
-        "second": 1790420400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 704,
-      "name": "Coppa Italia Primavera",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/704.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Round of 128",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 22406,
-        "name": "Sudtirol U19",
-        "logo": "https://media.api-sports.io/football/teams/22406.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15654,
-        "name": "Ascoli U19",
-        "logo": "https://media.api-sports.io/football/teams/15654.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

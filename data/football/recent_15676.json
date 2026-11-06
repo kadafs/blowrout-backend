@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623634,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:30:00+00:00",
+      "timestamp": 1793460600,
+      "periods": {
+        "first": 1793460600,
+        "second": 1793464200
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Stadio Rigamonti Ceppi",
+        "city": "Lecco"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26372,
+        "name": "Lecco U19",
+        "logo": "https://media.api-sports.io/football/teams/26372.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15676,
+        "name": "Reggiana U19",
+        "logo": "https://media.api-sports.io/football/teams/15676.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590033,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623576,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T13:00:00+00:00",
-      "timestamp": 1789822800,
-      "periods": {
-        "first": 1789822800,
-        "second": 1789826400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15676,
-        "name": "Reggiana U19",
-        "logo": "https://media.api-sports.io/football/teams/15676.png",
-        "winner": null
-      },
-      "away": {
-        "id": 22406,
-        "name": "Sudtirol U19",
-        "logo": "https://media.api-sports.io/football/teams/22406.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

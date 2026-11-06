@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1584062,
+      "referee": "Michael Nather",
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12696,
+        "name": "Eilenriedestadion",
+        "city": "Hannover"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 80,
+      "name": "3. Liga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/80.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9342,
+        "name": "Havelse",
+        "logo": "https://media.api-sports.io/football/teams/9342.png",
+        "winner": null
+      },
+      "away": {
+        "id": 184,
+        "name": "FC Ingolstadt 04",
+        "logo": "https://media.api-sports.io/football/teams/184.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1584051,
       "referee": "Maximilian Lotz",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643207,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-01T14:00:00+00:00",
-      "timestamp": 1790863200,
-      "periods": {
-        "first": 1790863200,
-        "second": 1790866800
-      },
-      "venue": {
-        "id": 752,
-        "name": "Volkswagen Arena",
-        "city": "Wolfsburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 161,
-        "name": "VfL Wolfsburg",
-        "logo": "https://media.api-sports.io/football/teams/161.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9342,
-        "name": "Havelse",
-        "logo": "https://media.api-sports.io/football/teams/9342.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

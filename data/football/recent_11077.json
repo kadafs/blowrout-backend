@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495597,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 7653,
+        "name": "LF Arena",
+        "city": "Pitea"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 549,
+      "name": "Damallsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/549.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10900,
+        "name": "Pite\u00e5 W",
+        "logo": "https://media.api-sports.io/football/teams/10900.png",
+        "winner": false
+      },
+      "away": {
+        "id": 11077,
+        "name": "Eskilstuna United W",
+        "logo": "https://media.api-sports.io/football/teams/11077.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495587,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495566,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T13:00:00+00:00",
-      "timestamp": 1790427600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20568,
-        "name": "Hammarby IP",
-        "city": "Stockholm"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 549,
-      "name": "Damallsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/549.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15630,
-        "name": "Hammarby W",
-        "logo": "https://media.api-sports.io/football/teams/15630.png",
-        "winner": true
-      },
-      "away": {
-        "id": 11077,
-        "name": "Eskilstuna United W",
-        "logo": "https://media.api-sports.io/football/teams/11077.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

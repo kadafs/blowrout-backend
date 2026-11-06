@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585224,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-15T18:45:00+00:00",
+      "timestamp": 1789497900,
+      "periods": {
+        "first": 1789497900,
+        "second": 1789501500
+      },
+      "venue": {
+        "id": null,
+        "name": "Exercise Stadium",
+        "city": "Harrogate"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 43,
+      "name": "National League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/43.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1839,
+        "name": "AFC Fylde",
+        "logo": "https://media.api-sports.io/football/teams/1839.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 211771,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 274664,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2018-12-29T15:00:00+00:00",
-      "timestamp": 1546095600,
-      "periods": {
-        "first": 1546095600,
-        "second": 1546099200
-      },
-      "venue": {
-        "id": null,
-        "name": "CNG Stadium (Harrogate, North Yorkshire)",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 43,
-      "name": "National League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/43.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2018,
-      "round": "Regular Season - 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1842,
-        "name": "Harrogate Town",
-        "logo": "https://media.api-sports.io/football/teams/1842.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1839,
-        "name": "AFC Fylde",
-        "logo": "https://media.api-sports.io/football/teams/1839.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

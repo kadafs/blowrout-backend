@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647438,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T21:00:00+00:00",
+      "timestamp": 1793566800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "CEPSUM Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 479,
+      "name": "Canadian Premier League",
+      "country": "Canada",
+      "logo": "https://media.api-sports.io/football/leagues/479.png",
+      "flag": "https://media.api-sports.io/flags/ca.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27461,
+        "name": "Supra du Quebec",
+        "logo": "https://media.api-sports.io/football/teams/27461.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2619,
+        "name": "Cavalry FC",
+        "logo": "https://media.api-sports.io/football/teams/2619.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1517371,
       "referee": "S. Noshinravani",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1517360,
-      "referee": "B. Hoskins",
-      "timezone": "UTC",
-      "date": "2026-10-04T20:00:00+00:00",
-      "timestamp": 1791144000,
-      "periods": {
-        "first": 1791144000,
-        "second": 1791147600
-      },
-      "venue": {
-        "id": null,
-        "name": "CEPSUM Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 479,
-      "name": "Canadian Premier League",
-      "country": "Canada",
-      "logo": "https://media.api-sports.io/football/leagues/479.png",
-      "flag": "https://media.api-sports.io/flags/ca.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27461,
-        "name": "Supra du Quebec",
-        "logo": "https://media.api-sports.io/football/teams/27461.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2622,
-        "name": "Pacific FC",
-        "logo": "https://media.api-sports.io/football/teams/2622.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

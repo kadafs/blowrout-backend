@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562807,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T09:15:00+00:00",
+      "timestamp": 1793438100,
+      "periods": {
+        "first": 1793438100,
+        "second": 1793441700
+      },
+      "venue": {
+        "id": 2504,
+        "name": "Stadion Za Vodojemem",
+        "city": "Chrudim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 685,
+      "name": "3. liga - CFL B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/685.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3722,
+        "name": "Chrudim",
+        "logo": "https://media.api-sports.io/football/teams/3722.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7372,
+        "name": "Velk\u00e9 Hamry",
+        "logo": "https://media.api-sports.io/football/teams/7372.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562801,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562769,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:30:00+00:00",
-      "timestamp": 1790433000,
-      "periods": {
-        "first": 1790433000,
-        "second": 1790436600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Velke Hamry",
-        "city": "Velke Hamry"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 685,
-      "name": "3. liga - CFL B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/685.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7372,
-        "name": "Velk\u00e9 Hamry",
-        "logo": "https://media.api-sports.io/football/teams/7372.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7349,
-        "name": "Sokol Brozany",
-        "logo": "https://media.api-sports.io/football/teams/7349.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

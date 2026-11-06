@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1618420,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-23T18:00:00+00:00",
+      "timestamp": 1792778400,
+      "periods": {
+        "first": 1792778400,
+        "second": 1792782000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 92,
+      "name": "Derde Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/92.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1235,
+        "name": "Eemdijk",
+        "logo": "https://media.api-sports.io/football/teams/1235.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3904,
+        "name": "Sportlust '46",
+        "logo": "https://media.api-sports.io/football/teams/3904.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618408,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638281,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 90,
-      "name": "KNVB Beker",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/90.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "2nd Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3904,
-        "name": "Sportlust '46",
-        "logo": "https://media.api-sports.io/football/teams/3904.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17129,
-        "name": "Excelsior Maassluis",
-        "logo": "https://media.api-sports.io/football/teams/17129.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

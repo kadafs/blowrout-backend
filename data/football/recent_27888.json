@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562324,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T13:00:00+00:00",
+      "timestamp": 1793538000,
+      "periods": {
+        "first": 1793538000,
+        "second": 1793541600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 350,
+      "name": "4. liga - Divizie A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/350.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26127,
+        "name": "Milevsko",
+        "logo": "https://media.api-sports.io/football/teams/26127.png",
+        "winner": true
+      },
+      "away": {
+        "id": 27888,
+        "name": "Nyrsko",
+        "logo": "https://media.api-sports.io/football/teams/27888.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562316,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562284,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:30:00+00:00",
-      "timestamp": 1790433000,
-      "periods": {
-        "first": 1790433000,
-        "second": 1790436600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 350,
-      "name": "4. liga - Divizie A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/350.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27888,
-        "name": "Nyrsko",
-        "logo": "https://media.api-sports.io/football/teams/27888.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7330,
-        "name": "Pet\u0159\u00edn Plze\u0148",
-        "logo": "https://media.api-sports.io/football/teams/7330.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
         "away": 4
       },
       "extratime": {

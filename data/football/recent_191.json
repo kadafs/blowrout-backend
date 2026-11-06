@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1576218,
+      "referee": "L. Erbst",
+      "timezone": "UTC",
+      "date": "2026-11-01T12:30:00+00:00",
+      "timestamp": 1793536200,
+      "periods": {
+        "first": 1793536200,
+        "second": 1793539800
+      },
+      "venue": {
+        "id": 718,
+        "name": "Sportpark Ronhof Thomas Sommer",
+        "city": "F\u00fcrth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 178,
+        "name": "SpVgg Greuther F\u00fcrth",
+        "logo": "https://media.api-sports.io/football/teams/178.png",
+        "winner": true
+      },
+      "away": {
+        "id": 191,
+        "name": "Holstein Kiel",
+        "logo": "https://media.api-sports.io/football/teams/191.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576211,
-      "referee": "Timo Gerach",
+      "referee": "T. Gerach",
       "timezone": "UTC",
       "date": "2026-10-25T12:30:00+00:00",
       "timestamp": 1792931400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792931400,
+        "second": 1792935000
       },
       "venue": {
         "id": 725,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576201,
-      "referee": "Jarno Wienefeld, Germany",
+      "referee": "J. Wienefeld",
       "timezone": "UTC",
       "date": "2026-10-16T16:30:00+00:00",
       "timestamp": 1792168200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792168200,
+        "second": 1792171800
       },
       "venue": {
         "id": 725,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1576189,
-      "referee": "Eric-Dominic Weisbach, Germany",
+      "referee": "E. Weisbach",
       "timezone": "UTC",
       "date": "2026-10-09T16:30:00+00:00",
       "timestamp": 1791563400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791563400,
+        "second": 1791567000
       },
       "venue": {
         "id": 708,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576183,
-      "referee": "Tom Bauer, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": 725,
-        "name": "Holstein-Stadion",
-        "city": "Kiel"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 191,
-        "name": "Holstein Kiel",
-        "logo": "https://media.api-sports.io/football/teams/191.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1324,
-        "name": "VfL Osnabr\u00fcck",
-        "logo": "https://media.api-sports.io/football/teams/1324.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

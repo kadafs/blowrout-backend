@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555075,
+      "referee": "L. Schelbli",
+      "timezone": "UTC",
+      "date": "2026-11-01T13:00:00+00:00",
+      "timestamp": 1793538000,
+      "periods": {
+        "first": 1793538000,
+        "second": 1793541600
+      },
+      "venue": {
+        "id": 19218,
+        "name": "Lidl Arena",
+        "city": "Wil"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 208,
+      "name": "Challenge League",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/208.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2179,
+        "name": "FC WIL 1900",
+        "logo": "https://media.api-sports.io/football/teams/2179.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2180,
+        "name": "FC Winterthur",
+        "logo": "https://media.api-sports.io/football/teams/2180.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555070,
       "referee": "A. Dudic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 7,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643203,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:00:00+00:00",
-      "timestamp": 1790791200,
-      "periods": {
-        "first": 1790791200,
-        "second": 1790794800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16374,
-        "name": "Seuzach",
-        "logo": "https://media.api-sports.io/football/teams/16374.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2180,
-        "name": "FC Winterthur",
-        "logo": "https://media.api-sports.io/football/teams/2180.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

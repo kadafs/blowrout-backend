@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610655,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T11:00:00+00:00",
+      "timestamp": 1793530800,
+      "periods": {
+        "first": 1793530800,
+        "second": 1793534400
+      },
+      "venue": {
+        "id": null,
+        "name": "RCAF Old Stadium",
+        "city": "Phnom Penh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      }
+    },
+    "league": {
+      "id": 410,
+      "name": "C-League",
+      "country": "Cambodia",
+      "logo": "https://media.api-sports.io/football/leagues/410.png",
+      "flag": "https://media.api-sports.io/flags/kh.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5391,
+        "name": "National Defense",
+        "logo": "https://media.api-sports.io/football/teams/5391.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24520,
+        "name": "Life Sihanoukville",
+        "logo": "https://media.api-sports.io/football/teams/24520.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610648,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1526306,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T08:45:00+00:00",
-      "timestamp": 1778316300,
-      "periods": {
-        "first": 1778316300,
-        "second": 1778319900
-      },
-      "venue": {
-        "id": null,
-        "name": "Kirivong Sok Sen Chey Stadium",
-        "city": "Takeo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 410,
-      "name": "C-League",
-      "country": "Cambodia",
-      "logo": "https://media.api-sports.io/football/leagues/410.png",
-      "flag": "https://media.api-sports.io/flags/kh.svg",
-      "season": 2025,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5389,
-        "name": "Kirivong Sok Sen Chey",
-        "logo": "https://media.api-sports.io/football/teams/5389.png",
-        "winner": false
-      },
-      "away": {
-        "id": 24520,
-        "name": "Life Sihanoukville",
-        "logo": "https://media.api-sports.io/football/teams/24520.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

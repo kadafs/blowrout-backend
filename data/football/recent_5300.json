@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639918,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": 1793541600,
+        "second": 1793545200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 404,
+      "name": "Campionato",
+      "country": "San-Marino",
+      "logo": "https://media.api-sports.io/football/leagues/404.png",
+      "flag": "https://media.api-sports.io/flags/sm.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5307,
+        "name": "San Giovanni",
+        "logo": "https://media.api-sports.io/football/teams/5307.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5300,
+        "name": "Faetano",
+        "logo": "https://media.api-sports.io/football/teams/5300.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627502,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619849,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
-      "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 404,
-      "name": "Campionato",
-      "country": "San-Marino",
-      "logo": "https://media.api-sports.io/football/leagues/404.png",
-      "flag": "https://media.api-sports.io/flags/sm.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22179,
-        "name": "San Marino Academy",
-        "logo": "https://media.api-sports.io/football/teams/22179.png",
-        "winner": null
-      },
-      "away": {
-        "id": 5300,
-        "name": "Faetano",
-        "logo": "https://media.api-sports.io/football/teams/5300.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

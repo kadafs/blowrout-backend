@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562449,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T09:15:00+00:00",
+      "timestamp": 1793438100,
+      "periods": {
+        "first": 1793438100,
+        "second": 1793441700
+      },
+      "venue": {
+        "id": null,
+        "name": "Mikulase z Husi",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 351,
+      "name": "4. liga - Divizie B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/351.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4258,
+        "name": "Slavoj Vy\u0161ehrad",
+        "logo": "https://media.api-sports.io/football/teams/4258.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24200,
+        "name": "Rapid Ps\u00e1ry",
+        "logo": "https://media.api-sports.io/football/teams/24200.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562440,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562408,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T14:30:00+00:00",
-      "timestamp": 1790346600,
-      "periods": {
-        "first": 1790346600,
-        "second": 1790350200
-      },
-      "venue": {
-        "id": null,
-        "name": "Mikulase z Husi",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 351,
-      "name": "4. liga - Divizie B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/351.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4258,
-        "name": "Slavoj Vy\u0161ehrad",
-        "logo": "https://media.api-sports.io/football/teams/4258.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7350,
-        "name": "Sokol Hostou\u0148",
-        "logo": "https://media.api-sports.io/football/teams/7350.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

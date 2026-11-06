@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564322,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 543,
+        "name": "John Smith's Stadium",
+        "city": "Huddersfield"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 41,
+      "name": "League One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/41.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 37,
+        "name": "Huddersfield",
+        "logo": "https://media.api-sports.io/football/teams/37.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1359,
+        "name": "Luton",
+        "logo": "https://media.api-sports.io/football/teams/1359.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564397,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564360,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T11:30:00+00:00",
-      "timestamp": 1792236600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 560,
-        "name": "Stadium MK",
-        "city": "Milton Keynes"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1348,
-        "name": "Milton Keynes Dons",
-        "logo": "https://media.api-sports.io/football/teams/1348.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1359,
-        "name": "Luton",
-        "logo": "https://media.api-sports.io/football/teams/1359.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

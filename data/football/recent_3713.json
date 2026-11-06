@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560062,
+      "referee": "Jan Vsetecka",
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2495,
+        "name": "M\u011bstsk\u00fd stadion ve V\u00edtkovic\u00edch",
+        "city": "Ostrava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": false
+      },
+      "away": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645413,
       "referee": "J. Wulkan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560032,
-      "referee": "J. Machalek",
-      "timezone": "UTC",
-      "date": "2026-09-19T16:00:00+00:00",
-      "timestamp": 1789833600,
-      "periods": {
-        "first": 1789833600,
-        "second": 1789837200
-      },
-      "venue": {
-        "id": null,
-        "name": "Mestsky stadion Miroslava Valenty",
-        "city": "Uherske Hradiste"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3719,
-        "name": "Slov\u00e1cko",
-        "logo": "https://media.api-sports.io/football/teams/3719.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3713,
-        "name": "Ban\u00edk Ostrava",
-        "logo": "https://media.api-sports.io/football/teams/3713.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

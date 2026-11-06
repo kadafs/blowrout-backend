@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641199,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T17:00:00+00:00",
+      "timestamp": 1793552400,
+      "periods": {
+        "first": 1793552400,
+        "second": 1793556000
+      },
+      "venue": {
+        "id": 1111,
+        "name": "Stade El Massira",
+        "city": "Safi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 201,
+      "name": "Botola 2",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/201.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 975,
+        "name": "Olympique Safi",
+        "logo": "https://media.api-sports.io/football/teams/975.png",
+        "winner": null
+      },
+      "away": {
+        "id": 972,
+        "name": "Olympique Khouribga",
+        "logo": "https://media.api-sports.io/football/teams/972.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641187,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1641157,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T16:00:00+00:00",
-      "timestamp": 1790438400,
-      "periods": {
-        "first": 1790438400,
-        "second": 1790442000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 201,
-      "name": "Botola 2",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/201.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26496,
-        "name": "Union Sportive Boujaad",
-        "logo": "https://media.api-sports.io/football/teams/26496.png",
-        "winner": null
-      },
-      "away": {
-        "id": 975,
-        "name": "Olympique Safi",
-        "logo": "https://media.api-sports.io/football/teams/975.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

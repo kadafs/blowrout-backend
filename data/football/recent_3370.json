@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645387,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T12:00:00+00:00",
+      "timestamp": 1793188800,
+      "periods": {
+        "first": 1793188800,
+        "second": 1793192400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 314,
+      "name": "Cup",
+      "country": "Bosnia",
+      "logo": "https://media.api-sports.io/football/leagues/314.png",
+      "flag": "https://media.api-sports.io/flags/ba.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 19561,
+        "name": "Famos Vojkovi\u0107i",
+        "logo": "https://media.api-sports.io/football/teams/19561.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3370,
+        "name": "Leotar",
+        "logo": "https://media.api-sports.io/football/teams/3370.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1609947,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609921,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:00:00+00:00",
-      "timestamp": 1791032400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 317,
-      "name": "1st League - RS",
-      "country": "Bosnia",
-      "logo": "https://media.api-sports.io/football/leagues/317.png",
-      "flag": "https://media.api-sports.io/flags/ba.svg",
-      "season": 2026,
-      "round": "RS - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3370,
-        "name": "Leotar",
-        "logo": "https://media.api-sports.io/football/teams/3370.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26989,
-        "name": "FK Majevica Lopare",
-        "logo": "https://media.api-sports.io/football/teams/26989.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 0
       },
       "extratime": {
         "home": null,

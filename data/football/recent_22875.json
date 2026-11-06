@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646894,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T18:00:00+00:00",
+      "timestamp": 1793469600,
+      "periods": {
+        "first": 1793469600,
+        "second": 1793473200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 14
+      }
+    },
+    "league": {
+      "id": 1114,
+      "name": "Carioca U20",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/1114.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22875,
+        "name": "Botafogo U20",
+        "logo": "https://media.api-sports.io/football/teams/22875.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22831,
+        "name": "Bangu U20",
+        "logo": "https://media.api-sports.io/football/teams/22831.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646891,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574996,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:00:00+00:00",
-      "timestamp": 1791914400,
-      "periods": {
-        "first": 1791914400,
-        "second": 1791918000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 1114,
-      "name": "Carioca U20",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1114.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22831,
-        "name": "Bangu U20",
-        "logo": "https://media.api-sports.io/football/teams/22831.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22875,
-        "name": "Botafogo U20",
-        "logo": "https://media.api-sports.io/football/teams/22875.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

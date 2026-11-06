@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1590447,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T10:00:00+00:00",
+      "timestamp": 1793527200,
+      "periods": {
+        "first": 1793527200,
+        "second": 1793530800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 552,
+      "name": "3. Lig - Group 1",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/552.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3. Lig Group 1 - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17261,
+        "name": "Orduspor 1967",
+        "logo": "https://media.api-sports.io/football/teams/17261.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7422,
+        "name": "Silivrispor",
+        "logo": "https://media.api-sports.io/football/teams/7422.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645447,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640701,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-07T11:30:00+00:00",
-      "timestamp": 1791372600,
-      "periods": {
-        "first": 1791372600,
-        "second": 1791376200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 206,
-      "name": "T\u00fcrkiye Kupas\u0131",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/206.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "2nd Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7422,
-        "name": "Silivrispor",
-        "logo": "https://media.api-sports.io/football/teams/7422.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19301,
-        "name": "Kartal Bulvarspor",
-        "logo": "https://media.api-sports.io/football/teams/19301.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

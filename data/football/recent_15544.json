@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628019,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T16:00:00+00:00",
+      "timestamp": 1793462400,
+      "periods": {
+        "first": 1793462400,
+        "second": 1793466000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 542,
+      "name": "Iraqi League",
+      "country": "Iraq",
+      "logo": "https://media.api-sports.io/football/leagues/542.png",
+      "flag": "https://media.api-sports.io/flags/iq.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15544,
+        "name": "Al Karkh",
+        "logo": "https://media.api-sports.io/football/teams/15544.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26600,
+        "name": "Gharraf",
+        "logo": "https://media.api-sports.io/football/teams/26600.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628011,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 3,
         "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627971,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T18:00:00+00:00",
-      "timestamp": 1789322400,
-      "periods": {
-        "first": 1789322400,
-        "second": 1789326000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 542,
-      "name": "Iraqi League",
-      "country": "Iraq",
-      "logo": "https://media.api-sports.io/football/leagues/542.png",
-      "flag": "https://media.api-sports.io/flags/iq.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15544,
-        "name": "Al Karkh",
-        "logo": "https://media.api-sports.io/football/teams/15544.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20463,
-        "name": "Duhok",
-        "logo": "https://media.api-sports.io/football/teams/20463.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
       },
       "fulltime": {
         "home": 3,

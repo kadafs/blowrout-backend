@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623632,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T10:00:00+00:00",
+      "timestamp": 1793440800,
+      "periods": {
+        "first": 1793440800,
+        "second": 1793444400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15688,
+        "name": "Virtus Entella U19",
+        "logo": "https://media.api-sports.io/football/teams/15688.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15660,
+        "name": "Cittadella U19",
+        "logo": "https://media.api-sports.io/football/teams/15660.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590032,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623569,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T09:00:00+00:00",
-      "timestamp": 1789808400,
-      "periods": {
-        "first": 1789808400,
-        "second": 1789812000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15688,
-        "name": "Virtus Entella U19",
-        "logo": "https://media.api-sports.io/football/teams/15688.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19856,
-        "name": "Padova U19",
-        "logo": "https://media.api-sports.io/football/teams/19856.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

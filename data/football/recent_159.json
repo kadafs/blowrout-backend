@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1576220,
+      "referee": "F. Bickel",
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": 728,
+        "name": "Fritz Walter Stadion",
+        "city": "Kaiserslautern"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 745,
+        "name": "1. FC Kaiserslautern",
+        "logo": "https://media.api-sports.io/football/teams/745.png",
+        "winner": false
+      },
+      "away": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638569,
-      "referee": "Justin Joel Hasmann",
+      "referee": "J. Hasmann",
       "timezone": "UTC",
       "date": "2026-10-28T17:00:00+00:00",
       "timestamp": 1793206800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793206800,
+        "second": 1793210400
       },
       "venue": {
         "id": null,
-        "name": "Sportplatz Jeddeloh",
-        "city": "Edewecht"
+        "name": "Marschweg-Stadion",
+        "city": "Oldenburg"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576210,
-      "referee": "Cristian Ballweg, Germany",
+      "referee": "C. Ballweg",
       "timezone": "UTC",
       "date": "2026-10-24T11:00:00+00:00",
       "timestamp": 1792839600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792839600,
+        "second": 1792843200
       },
       "venue": {
         "id": 694,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1576201,
-      "referee": "Jarno Wienefeld, Germany",
+      "referee": "J. Wienefeld",
       "timezone": "UTC",
       "date": "2026-10-16T16:30:00+00:00",
       "timestamp": 1792168200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792168200,
+        "second": 1792171800
       },
       "venue": {
         "id": 725,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1576192,
-      "referee": "Tobias Stieler, Germany",
+      "referee": "T. Stieler",
       "timezone": "UTC",
       "date": "2026-10-11T11:30:00+00:00",
       "timestamp": 1791718200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791718200,
+        "second": 1791721800
       },
       "venue": {
         "id": 694,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642911,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T11:00:00+00:00",
-      "timestamp": 1790938800,
-      "periods": {
-        "first": 1790938800,
-        "second": 1790942400
-      },
-      "venue": {
-        "id": 698,
-        "name": "WWK Arena",
-        "city": "Augsburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 170,
-        "name": "FC Augsburg",
-        "logo": "https://media.api-sports.io/football/teams/170.png",
-        "winner": null
-      },
-      "away": {
-        "id": 159,
-        "name": "Hertha BSC",
-        "logo": "https://media.api-sports.io/football/teams/159.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

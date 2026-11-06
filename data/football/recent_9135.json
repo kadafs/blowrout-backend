@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644276,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:55:00+00:00",
+      "timestamp": 1793537700,
+      "periods": {
+        "first": 1793537700,
+        "second": 1793541300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 303,
+      "name": "Division 1",
+      "country": "United-Arab-Emirates",
+      "logo": "https://media.api-sports.io/football/leagues/303.png",
+      "flag": "https://media.api-sports.io/flags/ae.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9135,
+        "name": "Al Arabi",
+        "logo": "https://media.api-sports.io/football/teams/9135.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9138,
+        "name": "Al Thaid",
+        "logo": "https://media.api-sports.io/football/teams/9138.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644269,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639567,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T14:40:00+00:00",
-      "timestamp": 1790174400,
-      "periods": {
-        "first": 1790174400,
-        "second": 1790178000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 560,
-      "name": "Presidents Cup",
-      "country": "United-Arab-Emirates",
-      "logo": "https://media.api-sports.io/football/leagues/560.png",
-      "flag": "https://media.api-sports.io/flags/ae.svg",
-      "season": 2026,
-      "round": "Round of 128",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 9135,
-        "name": "Al Arabi",
-        "logo": "https://media.api-sports.io/football/teams/9135.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2868,
-        "name": "Emirates Club",
-        "logo": "https://media.api-sports.io/football/teams/2868.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

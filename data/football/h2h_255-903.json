@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556856,
+      "referee": "C. Steven",
+      "timezone": "UTC",
+      "date": "2026-09-19T14:00:00+00:00",
+      "timestamp": 1789826400,
+      "periods": {
+        "first": 1789826400,
+        "second": 1789830000
+      },
+      "venue": {
+        "id": null,
+        "name": "The Home of the Set Fare Arena",
+        "city": "Livingston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 255,
+        "name": "Livingston",
+        "logo": "https://media.api-sports.io/football/teams/255.png",
+        "winner": null
+      },
+      "away": {
+        "id": 903,
+        "name": "Inverness CT",
+        "logo": "https://media.api-sports.io/football/teams/903.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1304469,
       "referee": "C. Steven",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 50520,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2018-04-24T18:45:00+00:00",
-      "timestamp": 1524595500,
-      "periods": {
-        "first": 1524595500,
-        "second": 1524599100
-      },
-      "venue": {
-        "id": null,
-        "name": "Tony Macaroni Arena (Livingston)",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2017,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 255,
-        "name": "Livingston",
-        "logo": "https://media.api-sports.io/football/teams/255.png",
-        "winner": false
-      },
-      "away": {
-        "id": 903,
-        "name": "Inverness CT",
-        "logo": "https://media.api-sports.io/football/teams/903.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

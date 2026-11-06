@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577816,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": 1793383200,
+        "second": 1793386800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 862,
+      "name": "3. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/862.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2062,
+        "name": "FC Helsingor",
+        "logo": "https://media.api-sports.io/football/teams/2062.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11532,
+        "name": "Ringsted",
+        "logo": "https://media.api-sports.io/football/teams/11532.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577811,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577787,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T11:00:00+00:00",
-      "timestamp": 1790420400,
-      "periods": {
-        "first": 1790420400,
-        "second": 1790424000
-      },
-      "venue": {
-        "id": 7602,
-        "name": "Ringsted Stadion",
-        "city": "Ringsted"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 862,
-      "name": "3. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/862.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11532,
-        "name": "Ringsted",
-        "logo": "https://media.api-sports.io/football/teams/11532.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8635,
-        "name": "N\u00e6sby",
-        "logo": "https://media.api-sports.io/football/teams/8635.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

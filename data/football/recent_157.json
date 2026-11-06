@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1635622,
+      "referee": "Fran\u00e7ois Letexier, France",
+      "timezone": "UTC",
+      "date": "2026-11-03T20:00:00+00:00",
+      "timestamp": 1793736000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19217,
+        "name": "Riyadh Air Metropolitano",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 530,
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png",
+        "winner": false
+      },
+      "away": {
+        "id": 157,
+        "name": "Bayern M\u00fcnchen",
+        "logo": "https://media.api-sports.io/football/teams/157.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575203,
-      "referee": "Tobias Stieler",
+      "referee": "T. Stieler",
       "timezone": "UTC",
       "date": "2026-10-31T17:30:00+00:00",
       "timestamp": 1793467800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793467800,
+        "second": 1793471400
       },
       "venue": {
         "id": 700,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1575198,
-      "referee": "Felix Zwayer",
+      "referee": "F. Zwayer",
       "timezone": "UTC",
       "date": "2026-10-25T16:30:00+00:00",
       "timestamp": 1792945800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792945800,
+        "second": 1792949400
       },
       "venue": {
         "id": 12717,
-        "name": "Europa-Park-Stadion",
+        "name": "Europa-Park Stadion",
         "city": "Freiburg"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1635630,
-      "referee": "Davide Massa",
+      "referee": "Davide Massa, Italy",
       "timezone": "UTC",
       "date": "2026-10-21T19:00:00+00:00",
       "timestamp": 1792609200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575185,
-      "referee": "Tobias Stieler, Germany",
-      "timezone": "UTC",
-      "date": "2026-10-17T16:30:00+00:00",
-      "timestamp": 1792254600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 700,
-        "name": "Allianz Arena",
-        "city": "Munich"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 157,
-        "name": "Bayern M\u00fcnchen",
-        "logo": "https://media.api-sports.io/football/teams/157.png",
-        "winner": true
-      },
-      "away": {
-        "id": 173,
-        "name": "RB Leipzig",
-        "logo": "https://media.api-sports.io/football/teams/173.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 1
       },
       "extratime": {
         "home": null,

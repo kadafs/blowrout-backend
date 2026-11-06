@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641970,
+      "referee": "A. Lindhout",
+      "timezone": "UTC",
+      "date": "2026-10-28T20:00:00+00:00",
+      "timestamp": 1793217600,
+      "periods": {
+        "first": 1793217600,
+        "second": 1793221200
+      },
+      "venue": {
+        "id": 2902,
+        "name": "Sportpark Dijkpolder",
+        "city": "Maassluis"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 90,
+      "name": "KNVB Beker",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/90.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Round of 64",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 17129,
+        "name": "Excelsior Maassluis",
+        "logo": "https://media.api-sports.io/football/teams/17129.png",
+        "winner": false
+      },
+      "away": {
+        "id": 210,
+        "name": "Heerenveen",
+        "logo": "https://media.api-sports.io/football/teams/210.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618421,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618349,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:30:00+00:00",
-      "timestamp": 1790425800,
-      "periods": {
-        "first": 1790425800,
-        "second": 1790429400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 92,
-      "name": "Derde Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/92.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17129,
-        "name": "Excelsior Maassluis",
-        "logo": "https://media.api-sports.io/football/teams/17129.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1263,
-        "name": "Blauw Geel",
-        "logo": "https://media.api-sports.io/football/teams/1263.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

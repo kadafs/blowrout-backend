@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556485,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T15:30:00+00:00",
+      "timestamp": 1793374200,
+      "periods": {
+        "first": 1793374200,
+        "second": 1793377800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 361,
+      "name": "1 Lyga",
+      "country": "Lithuania",
+      "logo": "https://media.api-sports.io/football/leagues/361.png",
+      "flag": "https://media.api-sports.io/flags/lt.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16747,
+        "name": "Be1 NFA",
+        "logo": "https://media.api-sports.io/football/teams/16747.png",
+        "winner": null
+      },
+      "away": {
+        "id": 14382,
+        "name": "Babrungas",
+        "logo": "https://media.api-sports.io/football/teams/14382.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556482,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556445,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-11T15:00:00+00:00",
-      "timestamp": 1789138800,
-      "periods": {
-        "first": 1789138800,
-        "second": 1789142400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 361,
-      "name": "1 Lyga",
-      "country": "Lithuania",
-      "logo": "https://media.api-sports.io/football/leagues/361.png",
-      "flag": "https://media.api-sports.io/flags/lt.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14382,
-        "name": "Babrungas",
-        "logo": "https://media.api-sports.io/football/teams/14382.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3856,
-        "name": "Atmosfera",
-        "logo": "https://media.api-sports.io/football/teams/3856.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561711,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": 1793451600,
+        "second": 1793455200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 109,
+      "name": "II Liga - East",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/109.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12900,
+        "name": "\u015al\u0105sk Wroc\u0142aw II",
+        "logo": "https://media.api-sports.io/football/teams/12900.png",
+        "winner": false
+      },
+      "away": {
+        "id": 13843,
+        "name": "Zawisza Bydgoszcz",
+        "logo": "https://media.api-sports.io/football/teams/13843.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640573,
       "referee": "M. Kuropatwa",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561683,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Stali Stalowa Wola",
-        "city": "Stalowa Wola"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6958,
-        "name": "Stal Stalowa Wola",
-        "logo": "https://media.api-sports.io/football/teams/6958.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12900,
-        "name": "\u015al\u0105sk Wroc\u0142aw II",
-        "logo": "https://media.api-sports.io/football/teams/12900.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

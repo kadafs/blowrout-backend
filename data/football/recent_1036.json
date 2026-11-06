@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640297,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T18:00:00+00:00",
+      "timestamp": 1793728800,
+      "periods": {
+        "first": 1793728800,
+        "second": 1793732400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 895,
+      "name": "League Cup",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/895.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1044,
+        "name": "Smouha SC",
+        "logo": "https://media.api-sports.io/football/teams/1044.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1036,
+        "name": "Pyramids FC",
+        "logo": "https://media.api-sports.io/football/teams/1036.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1612272,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612253,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-12T17:00:00+00:00",
-      "timestamp": 1791824400,
-      "periods": {
-        "first": 1791824400,
-        "second": 1791828000
-      },
-      "venue": {
-        "id": 22699,
-        "name": "30 June Stadium",
-        "city": "Cairo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 233,
-      "name": "Premier League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/233.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1036,
-        "name": "Pyramids FC",
-        "logo": "https://media.api-sports.io/football/teams/1036.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14651,
-        "name": "Ceramica Cleopatra",
-        "logo": "https://media.api-sports.io/football/teams/14651.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1561956,
+      "referee": "Isa Simsek",
+      "timezone": "UTC",
+      "date": "2026-10-30T18:30:00+00:00",
+      "timestamp": 1793385000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 150,
+        "name": "Stadion Graz-Liebenau",
+        "city": "Graz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 218,
+      "name": "Bundesliga",
+      "country": "Austria",
+      "logo": "https://media.api-sports.io/football/leagues/218.png",
+      "flag": "https://media.api-sports.io/flags/at.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4256,
+        "name": "Grazer AK",
+        "logo": "https://media.api-sports.io/football/teams/4256.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1072,
+        "name": "TSV Hartberg",
+        "logo": "https://media.api-sports.io/football/teams/1072.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638656,
-      "referee": null,
+      "referee": "F. Jager",
       "timezone": "UTC",
       "date": "2026-10-27T18:00:00+00:00",
       "timestamp": 1793124000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642894,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T16:00:00+00:00",
-      "timestamp": 1790784000,
-      "periods": {
-        "first": 1790784000,
-        "second": 1790787600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4946,
-        "name": "Kalsdorf",
-        "logo": "https://media.api-sports.io/football/teams/4946.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4256,
-        "name": "Grazer AK",
-        "logo": "https://media.api-sports.io/football/teams/4256.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

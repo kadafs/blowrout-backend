@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580789,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T14:00:00+00:00",
+      "timestamp": 1793455200,
+      "periods": {
+        "first": 1793455200,
+        "second": 1793458800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 111,
+      "name": "FAW Championship",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/111.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "South - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7601,
+        "name": "Ynyshir Albions",
+        "logo": "https://media.api-sports.io/football/teams/7601.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5626,
+        "name": "Swansea University",
+        "logo": "https://media.api-sports.io/football/teams/5626.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580767,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580724,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-28T18:30:00+00:00",
-      "timestamp": 1787941800,
-      "periods": {
-        "first": 1787941800,
-        "second": 1787945400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 111,
-      "name": "FAW Championship",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/111.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "South - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5626,
-        "name": "Swansea University",
-        "logo": "https://media.api-sports.io/football/teams/5626.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2192,
-        "name": "Pontypridd Town",
-        "logo": "https://media.api-sports.io/football/teams/2192.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 4
       },
       "extratime": {
         "home": null,

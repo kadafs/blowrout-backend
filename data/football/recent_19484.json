@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629099,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T11:00:00+00:00",
+      "timestamp": 1793530800,
+      "periods": {
+        "first": 1793530800,
+        "second": 1793534400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19484,
+        "name": "Migori Youth",
+        "logo": "https://media.api-sports.io/football/teams/19484.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19485,
+        "name": "Mombasa Elite",
+        "logo": "https://media.api-sports.io/football/teams/19485.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629095,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548399,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-07T12:00:00+00:00",
-      "timestamp": 1780833600,
-      "periods": {
-        "first": 1780833600,
-        "second": 1780837200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 277,
-      "name": "Super League",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/277.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2025,
-      "round": "Regular Season - 37",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19484,
-        "name": "Migori Youth",
-        "logo": "https://media.api-sports.io/football/teams/19484.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21214,
-        "name": "Equity Bank",
-        "logo": "https://media.api-sports.io/football/teams/21214.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

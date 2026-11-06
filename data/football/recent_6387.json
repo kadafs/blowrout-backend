@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641195,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 11546,
+        "name": "Stade El Bachir",
+        "city": "Mohammedia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 201,
+      "name": "Botola 2",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/201.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6387,
+        "name": "Chabab Mohamm\u00e9dia",
+        "logo": "https://media.api-sports.io/football/teams/6387.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15549,
+        "name": "Stade Marocain",
+        "logo": "https://media.api-sports.io/football/teams/15549.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641188,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1641158,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T18:00:00+00:00",
-      "timestamp": 1790445600,
-      "periods": {
-        "first": 1790445600,
-        "second": 1790449200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 201,
-      "name": "Botola 2",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/201.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25058,
-        "name": "Yacoub El Mansour",
-        "logo": "https://media.api-sports.io/football/teams/25058.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6387,
-        "name": "Chabab Mohamm\u00e9dia",
-        "logo": "https://media.api-sports.io/football/teams/6387.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

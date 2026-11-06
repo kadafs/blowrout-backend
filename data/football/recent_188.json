@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1576215,
+      "referee": "J. Wienefeld",
+      "timezone": "UTC",
+      "date": "2026-10-30T17:30:00+00:00",
+      "timestamp": 1793381400,
+      "periods": {
+        "first": 1793381400,
+        "second": 1793385000
+      },
+      "venue": {
+        "id": 697,
+        "name": "Sch\u00fcco-Arena",
+        "city": "Bielefeld"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png",
+        "winner": true
+      },
+      "away": {
+        "id": 744,
+        "name": "Eintracht Braunschweig",
+        "logo": "https://media.api-sports.io/football/teams/744.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576210,
-      "referee": "Cristian Ballweg, Germany",
+      "referee": "C. Ballweg",
       "timezone": "UTC",
       "date": "2026-10-24T11:00:00+00:00",
       "timestamp": 1792839600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792839600,
+        "second": 1792843200
       },
       "venue": {
         "id": 694,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576197,
-      "referee": "Michael Bacher, Germany",
+      "referee": "M. Bacher",
       "timezone": "UTC",
       "date": "2026-10-18T11:30:00+00:00",
       "timestamp": 1792323000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792323000,
+        "second": 1792326600
       },
       "venue": {
         "id": 697,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1576188,
-      "referee": "Konrad Oldhafer, Germany",
+      "referee": "K. Oldhafer",
       "timezone": "UTC",
       "date": "2026-10-11T11:30:00+00:00",
       "timestamp": 1791718200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791718200,
+        "second": 1791721800
       },
       "venue": {
         "id": 751,
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576179,
-      "referee": "Felix Wagner, Germany",
-      "timezone": "UTC",
-      "date": "2026-09-20T11:30:00+00:00",
-      "timestamp": 1789903800,
-      "periods": {
-        "first": 1789903800,
-        "second": 1789907400
-      },
-      "venue": {
-        "id": 697,
-        "name": "Sch\u00fcco-Arena",
-        "city": "Bielefeld"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 79,
-      "name": "2. Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/79.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 188,
-        "name": "Arminia Bielefeld",
-        "logo": "https://media.api-sports.io/football/teams/188.png",
-        "winner": null
-      },
-      "away": {
-        "id": 180,
-        "name": "1. FC Heidenheim",
-        "logo": "https://media.api-sports.io/football/teams/180.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
       },
       "fulltime": {
         "home": 2,

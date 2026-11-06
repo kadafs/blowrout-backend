@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563844,
+      "referee": "Z. Kennard-Kettle",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:45:00+00:00",
+      "timestamp": 1793389500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 563,
+        "name": "Rodney Parade",
+        "city": "Newport"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1367,
+        "name": "Newport County",
+        "logo": "https://media.api-sports.io/football/teams/1367.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1345,
+        "name": "Chesterfield",
+        "logo": "https://media.api-sports.io/football/teams/1345.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563830,
       "referee": "W. Davis",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563781,
-      "referee": "T. Parsons",
-      "timezone": "UTC",
-      "date": "2026-10-03T11:30:00+00:00",
-      "timestamp": 1791027000,
-      "periods": {
-        "first": 1791027000,
-        "second": 1791030600
-      },
-      "venue": {
-        "id": 19924,
-        "name": "SMH Group Stadium",
-        "city": "Chesterfield"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1345,
-        "name": "Chesterfield",
-        "logo": "https://media.api-sports.io/football/teams/1345.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1381,
-        "name": "Tranmere",
-        "logo": "https://media.api-sports.io/football/teams/1381.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 2
       },
       "extratime": {

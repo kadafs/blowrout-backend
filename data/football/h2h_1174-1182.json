@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1631993,
+      "referee": "Carlos P. Benitez, Paraguay",
+      "timezone": "UTC",
+      "date": "2026-09-02T21:30:00+00:00",
+      "timestamp": 1788384600,
+      "periods": {
+        "first": 1788384600,
+        "second": 1788388200
+      },
+      "venue": {
+        "id": 1213,
+        "name": "Estadio Osvaldo Dominguez Dibb",
+        "city": "Asuncion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1182,
+        "name": "Olimpia",
+        "logo": "https://media.api-sports.io/football/teams/1182.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1174,
+        "name": "Club Guarani",
+        "logo": "https://media.api-sports.io/football/teams/1174.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505025,
       "referee": "D. Ojeda",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1331903,
-      "referee": "Derlis Fabi\u00e1n L\u00f3pez L\u00f3pez",
-      "timezone": "UTC",
-      "date": "2025-04-06T21:15:00+00:00",
-      "timestamp": 1743974100,
-      "periods": {
-        "first": 1743974100,
-        "second": 1743977700
-      },
-      "venue": {
-        "id": 20705,
-        "name": "Estadio ueno Defensores del Chaco",
-        "city": "Asunci\u00f3n"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 250,
-      "name": "Division Profesional - Apertura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/250.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2025,
-      "round": "Apertura - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1174,
-        "name": "Club Guarani",
-        "logo": "https://media.api-sports.io/football/teams/1174.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1182,
-        "name": "Olimpia",
-        "logo": "https://media.api-sports.io/football/teams/1182.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

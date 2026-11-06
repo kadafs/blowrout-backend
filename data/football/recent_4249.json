@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646395,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": 3244,
+        "name": "Gayfield Park",
+        "city": "Arbroath"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4249,
+        "name": "Arbroath",
+        "logo": "https://media.api-sports.io/football/teams/4249.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1384,
+        "name": "Queen of the South",
+        "logo": "https://media.api-sports.io/football/teams/1384.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556886,
       "referee": "G. Irvine",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556868,
-      "referee": "J. Wilkie",
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": "Firhill Stadium",
-        "city": "Glasgow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 901,
-        "name": "Partick",
-        "logo": "https://media.api-sports.io/football/teams/901.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4249,
-        "name": "Arbroath",
-        "logo": "https://media.api-sports.io/football/teams/4249.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

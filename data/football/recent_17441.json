@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574407,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T16:00:00+00:00",
+      "timestamp": 1793462400,
+      "periods": {
+        "first": 1793462400,
+        "second": 1793466000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10591,
+        "name": "Z\u00fcrich II",
+        "logo": "https://media.api-sports.io/football/teams/10591.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17441,
+        "name": "Lugano II",
+        "logo": "https://media.api-sports.io/football/teams/17441.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574394,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574358,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T15:30:00+00:00",
-      "timestamp": 1790436600,
-      "periods": {
-        "first": 1790436600,
-        "second": 1790440200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17441,
-        "name": "Lugano II",
-        "logo": "https://media.api-sports.io/football/teams/17441.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6621,
-        "name": "Cham",
-        "logo": "https://media.api-sports.io/football/teams/6621.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

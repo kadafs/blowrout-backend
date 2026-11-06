@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640345,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T08:30:00+00:00",
+      "timestamp": 1793349000,
+      "periods": {
+        "first": 1793349000,
+        "second": 1793352600
+      },
+      "venue": {
+        "id": 7153,
+        "name": "Wanderers Oval",
+        "city": "Newcastle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10202,
+        "name": "Broadmeadow Magic",
+        "logo": "https://media.api-sports.io/football/teams/10202.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3785,
+        "name": "Adelaide City",
+        "logo": "https://media.api-sports.io/football/teams/3785.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640339,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 23502,
         "name": "Kahibah",
         "logo": "https://media.api-sports.io/football/teams/23502.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1523786,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-07-31T10:00:00+00:00",
-      "timestamp": 1785492000,
-      "periods": {
-        "first": 1785492000,
-        "second": 1785495600
-      },
-      "venue": {
-        "id": 0,
-        "name": "No. 2 Sportsground",
-        "city": "Newcastle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 481,
-      "name": "Northern NSW NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/481.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18313,
-        "name": "Cooks Hill United",
-        "logo": "https://media.api-sports.io/football/teams/18313.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10202,
-        "name": "Broadmeadow Magic",
-        "logo": "https://media.api-sports.io/football/teams/10202.png",
         "winner": true
       }
     },

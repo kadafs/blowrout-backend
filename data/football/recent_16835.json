@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1529656,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T11:00:00+00:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": 1793444400,
+        "second": 1793448000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 364,
+      "name": "1. Liga",
+      "country": "Latvia",
+      "logo": "https://media.api-sports.io/football/leagues/364.png",
+      "flag": "https://media.api-sports.io/flags/lv.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16835,
+        "name": "Skanste",
+        "logo": "https://media.api-sports.io/football/teams/16835.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4159,
+        "name": "Metta / LU",
+        "logo": "https://media.api-sports.io/football/teams/4159.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1529648,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1529623,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-14T14:00:00+00:00",
-      "timestamp": 1789394400,
-      "periods": {
-        "first": 1789394400,
-        "second": 1789398000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 364,
-      "name": "1. Liga",
-      "country": "Latvia",
-      "logo": "https://media.api-sports.io/football/leagues/364.png",
-      "flag": "https://media.api-sports.io/flags/lv.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18836,
-        "name": "R\u012bgas FS II",
-        "logo": "https://media.api-sports.io/football/teams/18836.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16835,
-        "name": "Skanste",
-        "logo": "https://media.api-sports.io/football/teams/16835.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

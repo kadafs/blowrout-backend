@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1576223,
+      "referee": "K. Oldhafer",
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": 752,
+        "name": "Volkswagen Arena",
+        "city": "Wolfsburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1324,
+        "name": "VfL Osnabr\u00fcck",
+        "logo": "https://media.api-sports.io/football/teams/1324.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638564,
-      "referee": "Soren Storks",
+      "referee": "S. Storks",
       "timezone": "UTC",
       "date": "2026-10-28T17:00:00+00:00",
       "timestamp": 1793206800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793206800,
+        "second": 1793210400
       },
       "venue": {
         "id": 12717,
-        "name": "Europa-Park-Stadion",
+        "name": "Europa-Park Stadion",
         "city": "Freiburg"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576206,
-      "referee": "Eric-Dominic Weisbach, Germany",
+      "referee": "E. Weisbach",
       "timezone": "UTC",
       "date": "2026-10-23T16:30:00+00:00",
       "timestamp": 1792773000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792773000,
+        "second": 1792776600
       },
       "venue": {
         "id": 751,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1576205,
-      "referee": "Tom Bauer, Germany",
+      "referee": "T. Bauer",
       "timezone": "UTC",
       "date": "2026-10-17T11:00:00+00:00",
       "timestamp": 1792234800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792234800,
+        "second": 1792238400
       },
       "venue": {
         "id": 752,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1576194,
-      "referee": "Lars Erbst, Germany",
+      "referee": "L. Erbst",
       "timezone": "UTC",
       "date": "2026-10-10T18:30:00+00:00",
       "timestamp": 1791657000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791657000,
+        "second": 1791660600
       },
       "venue": {
         "id": 713,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643207,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-01T14:00:00+00:00",
-      "timestamp": 1790863200,
-      "periods": {
-        "first": 1790863200,
-        "second": 1790866800
-      },
-      "venue": {
-        "id": 752,
-        "name": "Volkswagen Arena",
-        "city": "Wolfsburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 161,
-        "name": "VfL Wolfsburg",
-        "logo": "https://media.api-sports.io/football/teams/161.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9342,
-        "name": "Havelse",
-        "logo": "https://media.api-sports.io/football/teams/9342.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

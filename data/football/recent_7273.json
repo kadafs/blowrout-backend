@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562688,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T09:30:00+00:00",
+      "timestamp": 1793525400,
+      "periods": {
+        "first": 1793525400,
+        "second": 1793529000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Lucni",
+        "city": "Plzen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8620,
+        "name": "Viktoria Plze\u0148 II",
+        "logo": "https://media.api-sports.io/football/teams/8620.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7273,
+        "name": "Bene\u0161ov",
+        "logo": "https://media.api-sports.io/football/teams/7273.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562673,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562644,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T08:15:00+00:00",
-      "timestamp": 1790410500,
-      "periods": {
-        "first": 1790410500,
-        "second": 1790414100
-      },
-      "venue": {
-        "id": null,
-        "name": "Football Pitch Benesov",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7273,
-        "name": "Bene\u0161ov",
-        "logo": "https://media.api-sports.io/football/teams/7273.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26232,
-        "name": "Slavia III",
-        "logo": "https://media.api-sports.io/football/teams/26232.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

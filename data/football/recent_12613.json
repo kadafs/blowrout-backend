@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647187,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1053,
+      "name": "Division 2 - Play-offs",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/1053.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Promotion Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 25569,
+        "name": "Skara",
+        "logo": "https://media.api-sports.io/football/teams/25569.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12613,
+        "name": "Dalstorps",
+        "logo": "https://media.api-sports.io/football/teams/12613.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511427,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1511401,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T10:00:00+00:00",
-      "timestamp": 1789812000,
-      "periods": {
-        "first": 1789812000,
-        "second": 1789815600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 596,
-      "name": "Division 2 - V\u00e4stra G\u00f6taland",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/596.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "V\u00e4stra G\u00f6taland - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6693,
-        "name": "Qviding FIF",
-        "logo": "https://media.api-sports.io/football/teams/6693.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12613,
-        "name": "Dalstorps",
-        "logo": "https://media.api-sports.io/football/teams/12613.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

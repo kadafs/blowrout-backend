@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646394,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": 4939,
+        "name": "Galabank",
+        "city": "Annan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6757,
+        "name": "Annan Athletic",
+        "logo": "https://media.api-sports.io/football/teams/6757.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1387,
+        "name": "Ayr Utd",
+        "logo": "https://media.api-sports.io/football/teams/1387.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556887,
       "referee": "K. Clancy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556862,
-      "referee": "R. Lee",
-      "timezone": "UTC",
-      "date": "2026-09-25T18:45:00+00:00",
-      "timestamp": 1790361900,
-      "periods": {
-        "first": 1790361900,
-        "second": 1790365500
-      },
-      "venue": {
-        "id": 1385,
-        "name": "Somerset Park",
-        "city": "Ayr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1387,
-        "name": "Ayr Utd",
-        "logo": "https://media.api-sports.io/football/teams/1387.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6784,
-        "name": "Stenhousemuir",
-        "logo": "https://media.api-sports.io/football/teams/6784.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

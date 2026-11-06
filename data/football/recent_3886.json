@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1618422,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T12:30:00+00:00",
+      "timestamp": 1792845000,
+      "periods": {
+        "first": 1792845000,
+        "second": 1792848600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 92,
+      "name": "Derde Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/92.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1273,
+        "name": "SC Genemuiden",
+        "logo": "https://media.api-sports.io/football/teams/1273.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3886,
+        "name": "ADO '20",
+        "logo": "https://media.api-sports.io/football/teams/3886.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618408,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618345,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T12:00:00+00:00",
-      "timestamp": 1789905600,
-      "periods": {
-        "first": 1789905600,
-        "second": 1789909200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 92,
-      "name": "Derde Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/92.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3920,
-        "name": "Purmersteijn",
-        "logo": "https://media.api-sports.io/football/teams/3920.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3886,
-        "name": "ADO '20",
-        "logo": "https://media.api-sports.io/football/teams/3886.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

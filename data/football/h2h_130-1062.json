@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638239,
+      "referee": "Davi de Oliveira Lacerda",
+      "timezone": "UTC",
+      "date": "2026-11-01T21:30:00+00:00",
+      "timestamp": 1793568600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 241,
+        "name": "Arena do Gr\u00eamio",
+        "city": "Porto Alegre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 73,
+      "name": "Copa Do Brasil",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/73.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 130,
+        "name": "Gremio",
+        "logo": "https://media.api-sports.io/football/teams/130.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1062,
+        "name": "Atletico-MG",
+        "logo": "https://media.api-sports.io/football/teams/1062.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492331,
-      "referee": "Bruno Arleu de Araujo, Brazil",
+      "referee": "B. Arleu",
       "timezone": "UTC",
       "date": "2026-08-16T19:00:00+00:00",
       "timestamp": 1786906800,
@@ -12,7 +82,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Arena MRV",
+        "name": "MRV Arena",
         "city": "Belo Horizonte"
       },
       "status": {
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 2,
         "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1180406,
-      "referee": "Luiz Fl\u00e1vio",
-      "timezone": "UTC",
-      "date": "2024-10-09T22:30:00+00:00",
-      "timestamp": 1728513000,
-      "periods": {
-        "first": 1728513000,
-        "second": 1728516600
-      },
-      "venue": {
-        "id": 21427,
-        "name": "Arena MRV",
-        "city": "Belo Horizonte, Minas Gerais"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2024,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1062,
-        "name": "Atletico-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png",
-        "winner": true
-      },
-      "away": {
-        "id": 130,
-        "name": "Gremio",
-        "logo": "https://media.api-sports.io/football/teams/130.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
       },
       "fulltime": {
         "home": 2,

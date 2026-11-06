@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640346,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T08:30:00+00:00",
+      "timestamp": 1793349000,
+      "periods": {
+        "first": 1793349000,
+        "second": 1793352600
+      },
+      "venue": {
+        "id": null,
+        "name": "Sydney Olympic Park Athletic Centre",
+        "city": "Sydney"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3774,
+        "name": "Sydney Olympic",
+        "logo": "https://media.api-sports.io/football/teams/3774.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3768,
+        "name": "Marconi Stallions",
+        "logo": "https://media.api-sports.io/football/teams/3768.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640333,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1517630,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-16T05:00:00+00:00",
-      "timestamp": 1786856400,
-      "periods": {
-        "first": 1786856400,
-        "second": 1786860000
-      },
-      "venue": {
-        "id": 2550,
-        "name": "Marconi Stadium",
-        "city": "Sydney"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 192,
-      "name": "New South Wales NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/192.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3768,
-        "name": "Marconi Stallions",
-        "logo": "https://media.api-sports.io/football/teams/3768.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3771,
-        "name": "Sutherland Sharks",
-        "logo": "https://media.api-sports.io/football/teams/3771.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

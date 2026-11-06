@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638227,
+      "referee": "T. Thi",
+      "timezone": "UTC",
+      "date": "2026-11-04T12:30:00+00:00",
+      "timestamp": 1793795400,
+      "periods": {
+        "first": 1793795400,
+        "second": 1793799000
+      },
+      "venue": {
+        "id": null,
+        "name": "Thuwunna Stadium",
+        "city": "Yangon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1140,
+      "name": "AFC Women's Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1140.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 27914,
+        "name": "Ayeyawady W",
+        "logo": "https://media.api-sports.io/football/teams/27914.png",
+        "winner": false
+      },
+      "away": {
+        "id": 16947,
+        "name": "INAC Kobe Leonessa W",
+        "logo": "https://media.api-sports.io/football/teams/16947.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638223,
-      "referee": null,
+      "referee": "S. Park",
       "timezone": "UTC",
       "date": "2026-11-01T08:30:00+00:00",
       "timestamp": 1793521800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560939,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T08:00:00+00:00",
-      "timestamp": 1788681600,
-      "periods": {
-        "first": 1788681600,
-        "second": 1788685200
-      },
-      "venue": {
-        "id": 3306,
-        "name": "Sagamihara Gion Stadium",
-        "city": "Sagamihara"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 854,
-      "name": "WE League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/854.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16949,
-        "name": "Nojima Stella W",
-        "logo": "https://media.api-sports.io/football/teams/16949.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16947,
-        "name": "INAC Kobe Leonessa W",
-        "logo": "https://media.api-sports.io/football/teams/16947.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 4
       },
       "extratime": {

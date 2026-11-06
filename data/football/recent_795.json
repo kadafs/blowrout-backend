@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1598007,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": 1793556000,
+        "second": 1793559600
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Joinville",
+        "city": "Joinville"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 1036,
+      "name": "Copa Santa Catarina",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/1036.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Group Stage - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 795,
+        "name": "Joinville",
+        "logo": "https://media.api-sports.io/football/teams/795.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7860,
+        "name": "Metropolitano",
+        "logo": "https://media.api-sports.io/football/teams/7860.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1598003,
       "referee": null,
       "timezone": "UTC",
@@ -77,8 +147,8 @@
       "date": "2026-10-10T20:00:00+00:00",
       "timestamp": 1791662400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791662400,
+        "second": 1791666000
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1597984,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T18:00:00+00:00",
-      "timestamp": 1789236000,
-      "periods": {
-        "first": 1789236000,
-        "second": 1789239600
-      },
-      "venue": {
-        "id": null,
-        "name": "Arena Joinville",
-        "city": "Joinville"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 1036,
-      "name": "Copa Santa Catarina",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1036.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 795,
-        "name": "Joinville",
-        "logo": "https://media.api-sports.io/football/teams/795.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7828,
-        "name": "Herc\u00edlio Luz",
-        "logo": "https://media.api-sports.io/football/teams/7828.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

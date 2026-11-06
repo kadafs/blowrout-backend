@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560043,
+      "referee": "Lukas Nehasil",
+      "timezone": "UTC",
+      "date": "2026-11-04T17:00:00+00:00",
+      "timestamp": 1793811600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2514,
+        "name": "Mestsky Fotbalovy Stadion Srbska",
+        "city": "Brno"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4257,
+        "name": "Artis",
+        "logo": "https://media.api-sports.io/football/teams/4257.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3714,
+        "name": "Bohemians 1905",
+        "logo": "https://media.api-sports.io/football/teams/3714.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1560057,
       "referee": "Ondrej Pechanec",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 640,
         "name": "Mlada Boleslav",
         "logo": "https://media.api-sports.io/football/teams/640.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560033,
-      "referee": "Adam Trska, Czechia",
-      "timezone": "UTC",
-      "date": "2026-10-10T16:00:00+00:00",
-      "timestamp": 1791648000,
-      "periods": {
-        "first": 1791648000,
-        "second": 1791651600
-      },
-      "venue": {
-        "id": null,
-        "name": "Dolicek Stadium",
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 345,
-      "name": "Czech Liga",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/345.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3714,
-        "name": "Bohemians 1905",
-        "logo": "https://media.api-sports.io/football/teams/3714.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3713,
-        "name": "Ban\u00edk Ostrava",
-        "logo": "https://media.api-sports.io/football/teams/3713.png",
         "winner": false
       }
     },

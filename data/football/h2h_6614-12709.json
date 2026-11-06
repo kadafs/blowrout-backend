@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1430135,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-29T12:30:00+00:00",
+      "timestamp": 1774787400,
+      "periods": {
+        "first": 1774787400,
+        "second": 1774791000
+      },
+      "venue": {
+        "id": 4828,
+        "name": "Stade des Grands-Pr\u00e9s",
+        "city": "Bassecourt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 600,
+      "name": "1. Liga Classic - Group 2",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/600.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2025,
+      "round": "Group 2 - 21",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6614,
+        "name": "Bassecourt",
+        "logo": "https://media.api-sports.io/football/teams/6614.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12709,
+        "name": "Solothurn",
+        "logo": "https://media.api-sports.io/football/teams/12709.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1427580,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1058871,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-11-11T15:00:00+00:00",
-      "timestamp": 1699714800,
-      "periods": {
-        "first": 1699714800,
-        "second": 1699718400
-      },
-      "venue": {
-        "id": 8072,
-        "name": "Stadion FC Solothurn",
-        "city": "Solothurn"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 600,
-      "name": "1. Liga Classic - Group 2",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/600.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2023,
-      "round": "Group 2 - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12709,
-        "name": "Solothurn",
-        "logo": "https://media.api-sports.io/football/teams/12709.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6614,
-        "name": "Bassecourt",
-        "logo": "https://media.api-sports.io/football/teams/6614.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

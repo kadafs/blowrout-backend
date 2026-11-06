@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1638229,
+      "referee": "M. Mu",
+      "timezone": "UTC",
+      "date": "2026-11-04T14:30:00+00:00",
+      "timestamp": 1793802600,
+      "periods": {
+        "first": 1793802600,
+        "second": 1793806200
+      },
+      "venue": {
+        "id": null,
+        "name": "Kishore Bharati Krirangan",
+        "city": "Kolkata"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1140,
+      "name": "AFC Women's Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1140.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 26440,
+        "name": "East Bengal W",
+        "logo": "https://media.api-sports.io/football/teams/26440.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14376,
+        "name": "Hwacheon KSPO W",
+        "logo": "https://media.api-sports.io/football/teams/14376.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638222,
-      "referee": null,
+      "referee": "C. Reibelt",
       "timezone": "UTC",
       "date": "2026-11-01T08:30:00+00:00",
       "timestamp": 1793521800,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1533795,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T07:00:00+00:00",
-      "timestamp": 1790146800,
-      "periods": {
-        "first": 1790146800,
-        "second": 1790150400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 660,
-      "name": "WK-League",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/660.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14378,
-        "name": "Seoul W",
-        "logo": "https://media.api-sports.io/football/teams/14378.png",
-        "winner": null
-      },
-      "away": {
-        "id": 14376,
-        "name": "Hwacheon KSPO W",
-        "logo": "https://media.api-sports.io/football/teams/14376.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640347,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T04:00:00+00:00",
+      "timestamp": 1793419200,
+      "periods": {
+        "first": 1793419200,
+        "second": 1793422800
+      },
+      "venue": {
+        "id": null,
+        "name": "Darcy Street",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14106,
+        "name": "South Hobart",
+        "logo": "https://media.api-sports.io/football/teams/14106.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19705,
+        "name": "Preston Lions",
+        "logo": "https://media.api-sports.io/football/teams/19705.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640336,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1522005,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T07:00:00+00:00",
-      "timestamp": 1787382000,
-      "periods": {
-        "first": 1787382000,
-        "second": 1787385600
-      },
-      "venue": {
-        "id": 0,
-        "name": "Frank Holohan Soccer Complex",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 195,
-      "name": "Victoria NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/195.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3800,
-        "name": "Dandenong City",
-        "logo": "https://media.api-sports.io/football/teams/3800.png",
-        "winner": null
-      },
-      "away": {
-        "id": 19705,
-        "name": "Preston Lions",
-        "logo": "https://media.api-sports.io/football/teams/19705.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

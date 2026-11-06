@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1563846,
+      "referee": "E. Heaslip",
+      "timezone": "UTC",
+      "date": "2026-10-31T12:30:00+00:00",
+      "timestamp": 1793449800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 572,
+        "name": "Vale Park",
+        "city": "Stoke-On-Trent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1351,
+        "name": "Port Vale",
+        "logo": "https://media.api-sports.io/football/teams/1351.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1339,
+        "name": "Rochdale",
+        "logo": "https://media.api-sports.io/football/teams/1339.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1588838,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1345,
         "name": "Chesterfield",
         "logo": "https://media.api-sports.io/football/teams/1345.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563797,
-      "referee": "R. Martin",
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": 572,
-        "name": "Vale Park",
-        "city": "Stoke on Trent"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1351,
-        "name": "Port Vale",
-        "logo": "https://media.api-sports.io/football/teams/1351.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1365,
-        "name": "Grimsby",
-        "logo": "https://media.api-sports.io/football/teams/1365.png",
         "winner": false
       }
     },

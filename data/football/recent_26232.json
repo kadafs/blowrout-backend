@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562680,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T08:15:00+00:00",
+      "timestamp": 1792829700,
+      "periods": {
+        "first": 1792829700,
+        "second": 1792833300
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion FK Motorlet Praha",
+        "city": "Prague"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 12",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7319,
+        "name": "Motorlet Praha",
+        "logo": "https://media.api-sports.io/football/teams/7319.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26232,
+        "name": "Slavia III",
+        "logo": "https://media.api-sports.io/football/teams/26232.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562674,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 26232,
         "name": "Slavia III",
         "logo": "https://media.api-sports.io/football/teams/26232.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562642,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T08:15:00+00:00",
-      "timestamp": 1789805700,
-      "periods": {
-        "first": 1789805700,
-        "second": 1789809300
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Prague"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 7",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 26232,
-        "name": "Slavia III",
-        "logo": "https://media.api-sports.io/football/teams/26232.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7304,
-        "name": "Jiskra Doma\u017elice",
-        "logo": "https://media.api-sports.io/football/teams/7304.png",
         "winner": true
       }
     },

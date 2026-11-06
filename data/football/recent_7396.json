@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1590748,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": 1793534400,
+        "second": 1793538000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 553,
+      "name": "3. Lig - Group 2",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/553.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "3. Lig Group 2 - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13407,
+        "name": "Ayvalikgucu",
+        "logo": "https://media.api-sports.io/football/teams/13407.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7396,
+        "name": "Bucaspor 1928",
+        "logo": "https://media.api-sports.io/football/teams/7396.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1590741,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1590704,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T16:00:00+00:00",
-      "timestamp": 1790524800,
-      "periods": {
-        "first": 1790524800,
-        "second": 1790528400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 553,
-      "name": "3. Lig - Group 2",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/553.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "3. Lig Group 2 - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7396,
-        "name": "Bucaspor 1928",
-        "logo": "https://media.api-sports.io/football/teams/7396.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3566,
-        "name": "Altay",
-        "logo": "https://media.api-sports.io/football/teams/3566.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

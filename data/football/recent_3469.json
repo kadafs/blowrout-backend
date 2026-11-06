@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646613,
+      "referee": "J. Singh",
+      "timezone": "UTC",
+      "date": "2026-10-30T13:00:00+00:00",
+      "timestamp": 1793365200,
+      "periods": {
+        "first": 1793365200,
+        "second": 1793368800
+      },
+      "venue": {
+        "id": null,
+        "name": "TRC Polo Synthetic Turf Ground",
+        "city": "Srinagar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 324,
+      "name": "I-League",
+      "country": "India",
+      "logo": "https://media.api-sports.io/football/leagues/324.png",
+      "flag": "https://media.api-sports.io/flags/in.svg",
+      "season": 2026,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3469,
+        "name": "Real Kashmir",
+        "logo": "https://media.api-sports.io/football/teams/3469.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28559,
+        "name": "Nagaland United",
+        "logo": "https://media.api-sports.io/football/teams/28559.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1544313,
       "referee": "D. Roy",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1527483,
-      "referee": "D. Roy",
-      "timezone": "UTC",
-      "date": "2026-04-12T10:30:00+00:00",
-      "timestamp": 1775989800,
-      "periods": {
-        "first": 1775989800,
-        "second": 1775993400
-      },
-      "venue": {
-        "id": null,
-        "name": "TRC Polo Synthetic Turf Ground",
-        "city": "Srinagar"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 12
-      }
-    },
-    "league": {
-      "id": 324,
-      "name": "I-League",
-      "country": "India",
-      "logo": "https://media.api-sports.io/football/leagues/324.png",
-      "flag": "https://media.api-sports.io/flags/in.svg",
-      "season": 2025,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3469,
-        "name": "Real Kashmir",
-        "logo": "https://media.api-sports.io/football/teams/3469.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3464,
-        "name": "Gokulam",
-        "logo": "https://media.api-sports.io/football/teams/3464.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 2
       },
       "extratime": {
         "home": null,

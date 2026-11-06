@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629103,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T12:00:00+00:00",
+      "timestamp": 1793620800,
+      "periods": {
+        "first": 1793620800,
+        "second": 1793624400
+      },
+      "venue": {
+        "id": 996,
+        "name": "Moi International Sports Centre",
+        "city": "Nairobi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2475,
+        "name": "Tusker",
+        "logo": "https://media.api-sports.io/football/teams/2475.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19483,
+        "name": "Mara Sugar",
+        "logo": "https://media.api-sports.io/football/teams/19483.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629091,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1470842,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-31T12:00:00+00:00",
-      "timestamp": 1780228800,
-      "periods": {
-        "first": 1780228800,
-        "second": 1780232400
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 276,
-      "name": "FKF Premier League",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/276.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2025,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19486,
-        "name": "Murang'a SEAL",
-        "logo": "https://media.api-sports.io/football/teams/19486.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19483,
-        "name": "Mara Sugar",
-        "logo": "https://media.api-sports.io/football/teams/19483.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580787,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T14:00:00+00:00",
+      "timestamp": 1793455200,
+      "periods": {
+        "first": 1793455200,
+        "second": 1793458800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 111,
+      "name": "FAW Championship",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/111.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "South - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7598,
+        "name": "Pontardawe Town",
+        "logo": "https://media.api-sports.io/football/teams/7598.png",
+        "winner": true
+      },
+      "away": {
+        "id": 359,
+        "name": "Carmarthen Town",
+        "logo": "https://media.api-sports.io/football/teams/359.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580775,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580752,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T18:30:00+00:00",
-      "timestamp": 1790361000,
-      "periods": {
-        "first": 1790361000,
-        "second": 1790364600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 111,
-      "name": "FAW Championship",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/111.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "South - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20358,
-        "name": "Baglan Dragons",
-        "logo": "https://media.api-sports.io/football/teams/20358.png",
-        "winner": false
-      },
-      "away": {
-        "id": 359,
-        "name": "Carmarthen Town",
-        "logo": "https://media.api-sports.io/football/teams/359.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 1
       },
       "fulltime": {

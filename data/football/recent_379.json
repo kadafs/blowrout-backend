@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534495,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": 1793534400,
+        "second": 1793538000
+      },
+      "venue": {
+        "id": null,
+        "name": "City Stadium",
+        "city": "Ostrovets"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 117,
+      "name": "1. Division",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/117.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13149,
+        "name": "Ostrovets FC",
+        "logo": "https://media.api-sports.io/football/teams/13149.png",
+        "winner": true
+      },
+      "away": {
+        "id": 379,
+        "name": "FC Slutsk",
+        "logo": "https://media.api-sports.io/football/teams/379.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534489,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1534457,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:30:00+00:00",
-      "timestamp": 1790425800,
-      "periods": {
-        "first": 1790425800,
-        "second": 1790429400
-      },
-      "venue": {
-        "id": 169,
-        "name": "Stadyen Haradski",
-        "city": "Slutsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 117,
-      "name": "1. Division",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/117.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 379,
-        "name": "FC Slutsk",
-        "logo": "https://media.api-sports.io/football/teams/379.png",
-        "winner": true
-      },
-      "away": {
-        "id": 23433,
-        "name": "Gomel II",
-        "logo": "https://media.api-sports.io/football/teams/23433.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 3
       },
       "extratime": {
         "home": null,

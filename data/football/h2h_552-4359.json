@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557996,
+      "referee": "M. Matosa",
+      "timezone": "UTC",
+      "date": "2026-08-23T18:15:00+00:00",
+      "timestamp": 1787508900,
+      "periods": {
+        "first": 1787508900,
+        "second": 1787512500
+      },
+      "venue": {
+        "id": 1441,
+        "name": "Ljudski vrt",
+        "city": "Maribor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 373,
+      "name": "1. SNL",
+      "country": "Slovenia",
+      "logo": "https://media.api-sports.io/football/leagues/373.png",
+      "flag": "https://media.api-sports.io/flags/si.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 552,
+        "name": "Maribor",
+        "logo": "https://media.api-sports.io/football/teams/552.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4359,
+        "name": "Bravo",
+        "logo": "https://media.api-sports.io/football/teams/4359.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1384386,
       "referee": "D. Smajc",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1220743,
-      "referee": "M. Anti\u010d",
-      "timezone": "UTC",
-      "date": "2025-04-13T18:15:00+00:00",
-      "timestamp": 1744568100,
-      "periods": {
-        "first": 1744568100,
-        "second": 1744571700
-      },
-      "venue": {
-        "id": 1442,
-        "name": "Stadion Sto\u017eice",
-        "city": "Ljubljana"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 373,
-      "name": "1. SNL",
-      "country": "Slovenia",
-      "logo": "https://media.api-sports.io/football/leagues/373.png",
-      "flag": "https://media.api-sports.io/flags/si.svg",
-      "season": 2024,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4359,
-        "name": "Bravo",
-        "logo": "https://media.api-sports.io/football/teams/4359.png",
-        "winner": null
-      },
-      "away": {
-        "id": 552,
-        "name": "Maribor",
-        "logo": "https://media.api-sports.io/football/teams/552.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

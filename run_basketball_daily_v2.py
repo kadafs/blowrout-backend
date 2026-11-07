@@ -721,17 +721,43 @@ def _fuzzy_match(name, stats_dict):
         if k.lower() == name_lower:
             return k, stats_dict[k]
 
-    # Partial: name contains key or key contains name
+    # Word boundary prefix match: stats key starts with name + space (e.g. 'Duke' -> 'Duke Blue Devils')
+    # Guarded against collapsing distinct schools (e.g. Michigan -> Michigan State, Kansas -> Kansas State)
+    diff_words = {'state', 'tech', 'am', 'a&m', 'city', 'college', 'university', 'north', 'south', 'east', 'west', 'northern', 'southern', 'eastern', 'western', 'central', 'w', 'women', 'christian'}
+    n_words = set(name_clean.split())
+    
+    prefix_candidates = []
     for k in stats_dict:
-        k_lower = k.lower()
-        if k_lower in name_lower or name_lower in k_lower:
-            return k, stats_dict[k]
+        k_clean = _strip_accents(k)
+        if k_clean.startswith(name_clean + ' '):
+            k_words = set(k_clean.split())
+            if not any(dw in k_words and dw not in n_words for dw in diff_words):
+                prefix_candidates.append(k)
+
+    if prefix_candidates:
+        prefix_candidates.sort(key=len)
+        return prefix_candidates[0], stats_dict[prefix_candidates[0]]
+
+    # Word boundary suffix match (e.g. 'SC Vasco da Gama' stats key matching 'Vasco da Gama' query)
+    rev_candidates = []
+    for k in stats_dict:
+        k_clean = _strip_accents(k)
+        if name_clean.startswith(k_clean + ' '):
+            k_words = set(k_clean.split())
+            if not any(dw in n_words and dw not in k_words for dw in diff_words):
+                rev_candidates.append(k)
+
+    if rev_candidates:
+        rev_candidates.sort(key=len, reverse=True)
+        return rev_candidates[0], stats_dict[rev_candidates[0]]
 
     # Accent-stripped partial match (e.g. Plzen vs BK Lokomotiva Plzeň)
     for k in stats_dict:
         k_clean = _strip_accents(k)
         if k_clean in name_clean or name_clean in k_clean:
-            return k, stats_dict[k]
+            k_words = set(k_clean.split())
+            if not any(dw in k_words and dw not in n_words for dw in diff_words) and not any(dw in n_words and dw not in k_words for dw in diff_words):
+                return k, stats_dict[k]
 
     # High character overlap via difflib (Safer than single word overlaps)
     import difflib

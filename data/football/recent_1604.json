@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490589,
+      "referee": "T. Ford",
+      "timezone": "UTC",
+      "date": "2026-10-31T18:00:00+00:00",
+      "timestamp": 1793469600,
+      "periods": {
+        "first": 1793469600,
+        "second": 1793473200
+      },
+      "venue": {
+        "id": null,
+        "name": "Yankee Stadium",
+        "city": "Flushing"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1604,
+        "name": "New York City FC",
+        "logo": "https://media.api-sports.io/football/teams/1604.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1614,
+        "name": "CF Montreal",
+        "logo": "https://media.api-sports.io/football/teams/1614.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490572,
-      "referee": "Tori Penso",
+      "referee": "T. Penso",
       "timezone": "UTC",
       "date": "2026-10-28T23:30:00+00:00",
       "timestamp": 1793230200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793230200,
+        "second": 1793233800
       },
       "venue": {
         "id": null,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490559,
-      "referee": "Elijio Arreguin, USA",
+      "referee": "E. Arreguin",
       "timezone": "UTC",
       "date": "2026-10-24T23:30:00+00:00",
       "timestamp": 1792884600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792884600,
+        "second": 1792888200
       },
       "venue": {
         "id": 20500,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1490544,
-      "referee": "Rosendo Mendoza, USA",
+      "referee": "R. Mendoza",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792279800,
+        "second": 1792283400
       },
       "venue": {
         "id": null,
-        "name": "Citi Field",
+        "name": "Yankee Stadium",
         "city": "New York"
       },
       "status": {
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490526,
-      "referee": "Lorenzo Hernandez, USA",
+      "referee": "L. Hernandez",
       "timezone": "UTC",
       "date": "2026-10-14T23:30:00+00:00",
       "timestamp": 1792020600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792020600,
+        "second": 1792024200
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490511,
-      "referee": "Brandon Stevis, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T18:30:00+00:00",
-      "timestamp": 1791657000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1609,
-        "name": "Soldier Field",
-        "city": "Chicago"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1607,
-        "name": "Chicago Fire",
-        "logo": "https://media.api-sports.io/football/teams/1607.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1604,
-        "name": "New York City FC",
-        "logo": "https://media.api-sports.io/football/teams/1604.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

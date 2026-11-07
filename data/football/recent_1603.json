@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490591,
+      "referee": "Alexis Da Silva",
+      "timezone": "UTC",
+      "date": "2026-11-01T20:30:00+00:00",
+      "timestamp": 1793565000,
+      "periods": {
+        "first": 1793565000,
+        "second": 1793568600
+      },
+      "venue": {
+        "id": 19445,
+        "name": "BC Place",
+        "city": "Vancouver"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1603,
+        "name": "Vancouver Whitecaps",
+        "logo": "https://media.api-sports.io/football/teams/1603.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1595,
+        "name": "Seattle Sounders",
+        "logo": "https://media.api-sports.io/football/teams/1595.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490582,
-      "referee": "Joseph Dickerson",
+      "referee": "J. Dickerson",
       "timezone": "UTC",
       "date": "2026-10-29T02:30:00+00:00",
       "timestamp": 1793241000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793241000,
+        "second": 1793244600
       },
       "venue": {
         "id": 19445,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490566,
-      "referee": "Jair Marrufo",
+      "referee": "J. Marrufo",
       "timezone": "UTC",
-      "date": "2026-10-25T02:30:00+00:00",
-      "timestamp": 1792895400,
+      "date": "2026-10-25T00:30:00+00:00",
+      "timestamp": 1792888200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792888200,
+        "second": 1792891800
       },
       "venue": {
         "id": 1610,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1490548,
-      "referee": "Tori Penso",
+      "referee": "T. Penso",
       "timezone": "UTC",
       "date": "2026-10-18T00:30:00+00:00",
       "timestamp": 1792283400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792283400,
+        "second": 1792287000
       },
       "venue": {
         "id": 11535,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1490534,
-      "referee": "Filip Dujic, Canada",
+      "referee": "F. Dujic",
       "timezone": "UTC",
       "date": "2026-10-15T00:30:00+00:00",
       "timestamp": 1792024200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792024200,
+        "second": 1792027800
       },
       "venue": {
         "id": 19408,
-        "name": "Citypark",
+        "name": "CITYPARK",
         "city": "Saint Louis"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490524,
-      "referee": "Guido Gonzales Jr, USA",
-      "timezone": "UTC",
-      "date": "2026-10-11T02:30:00+00:00",
-      "timestamp": 1791685800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "BMO Stadium",
-        "city": "Los Angeles"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1616,
-        "name": "Los Angeles FC",
-        "logo": "https://media.api-sports.io/football/teams/1616.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1603,
-        "name": "Vancouver Whitecaps",
-        "logo": "https://media.api-sports.io/football/teams/1603.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

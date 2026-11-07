@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490585,
+      "referee": "A. Chapman",
+      "timezone": "UTC",
+      "date": "2026-10-31T18:00:00+00:00",
+      "timestamp": 1793469600,
+      "periods": {
+        "first": 1793469600,
+        "second": 1793473200
+      },
+      "venue": {
+        "id": 19229,
+        "name": "TQL Stadium",
+        "city": "Cincinnati"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2242,
+        "name": "FC Cincinnati",
+        "logo": "https://media.api-sports.io/football/teams/2242.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1599,
+        "name": "Philadelphia Union",
+        "logo": "https://media.api-sports.io/football/teams/1599.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490576,
-      "referee": "Pierre Luce Lauziere",
+      "referee": "P. Lauziere",
       "timezone": "UTC",
       "date": "2026-10-29T00:30:00+00:00",
       "timestamp": 1793233800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793233800,
+        "second": 1793237400
       },
       "venue": {
         "id": 19357,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1490561,
-      "referee": "Malik Badawi",
+      "referee": "M. Badawi",
       "timezone": "UTC",
       "date": "2026-10-24T23:30:00+00:00",
       "timestamp": 1792884600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792884600,
+        "second": 1792888200
       },
       "venue": {
         "id": 1620,
-        "name": "Talen Energy Stadium",
+        "name": "Subaru Park",
         "city": "Philadelphia"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1490541,
-      "referee": "Jon Freemon, USA",
+      "referee": "J. Freemon",
       "timezone": "UTC",
       "date": "2026-10-17T18:30:00+00:00",
       "timestamp": 1792261800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792261800,
+        "second": 1792265400
       },
       "venue": {
         "id": 1620,
-        "name": "Talen Energy Stadium",
+        "name": "Subaru Park",
         "city": "Philadelphia"
       },
       "status": {
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490533,
-      "referee": "Ricardo Fierro, USA",
+      "referee": "R. Fierro",
       "timezone": "UTC",
       "date": "2026-10-15T00:30:00+00:00",
       "timestamp": 1792024200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792024200,
+        "second": 1792027800
       },
       "venue": {
         "id": 1609,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490517,
-      "referee": "Elijio Arreguin, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:30:00+00:00",
-      "timestamp": 1791675000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1620,
-        "name": "Talen Energy Stadium",
-        "city": "Philadelphia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1599,
-        "name": "Philadelphia Union",
-        "logo": "https://media.api-sports.io/football/teams/1599.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1606,
-        "name": "Real Salt Lake",
-        "logo": "https://media.api-sports.io/football/teams/1606.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

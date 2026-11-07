@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1493219,
+      "referee": "Leandro Rey Hilfer",
+      "timezone": "UTC",
+      "date": "2026-10-30T22:00:00+00:00",
+      "timestamp": 1793397600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 82,
+        "name": "Estadio Tomas Adolfo Duco",
+        "city": "Buenos Aires"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 445,
+        "name": "Huracan",
+        "logo": "https://media.api-sports.io/football/teams/445.png",
+        "winner": false
+      },
+      "away": {
+        "id": 452,
+        "name": "Tigre",
+        "logo": "https://media.api-sports.io/football/teams/452.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493207,
       "referee": "Yael Falcon Perez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493147,
-      "referee": "Facundo Raul Tello Figueroa, Argentina",
-      "timezone": "UTC",
-      "date": "2026-09-19T22:00:00+00:00",
-      "timestamp": 1789855200,
-      "periods": {
-        "first": 1789855200,
-        "second": 1789858800
-      },
-      "venue": {
-        "id": 46,
-        "name": "Estadio Monumental",
-        "city": "Buenos Aires"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 435,
-        "name": "River Plate",
-        "logo": "https://media.api-sports.io/football/teams/435.png",
-        "winner": false
-      },
-      "away": {
-        "id": 445,
-        "name": "Huracan",
-        "logo": "https://media.api-sports.io/football/teams/445.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

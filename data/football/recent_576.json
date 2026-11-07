@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560269,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T14:45:00+00:00",
+      "timestamp": 1793457900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11902,
+        "name": "Bozsik J\u00f3zsef Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 576,
+        "name": "Budapest Honved",
+        "logo": "https://media.api-sports.io/football/teams/576.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2394,
+        "name": "Kisvarda FC",
+        "logo": "https://media.api-sports.io/football/teams/2394.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639728,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560247,
-      "referee": "M. Rusz",
-      "timezone": "UTC",
-      "date": "2026-09-18T17:30:00+00:00",
-      "timestamp": 1789752600,
-      "periods": {
-        "first": 1789752600,
-        "second": 1789756200
-      },
-      "venue": {
-        "id": 1764,
-        "name": "Pancho Arena",
-        "city": "Felcsut"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2391,
-        "name": "Puskas Academy",
-        "logo": "https://media.api-sports.io/football/teams/2391.png",
-        "winner": true
-      },
-      "away": {
-        "id": 576,
-        "name": "Budapest Honved",
-        "logo": "https://media.api-sports.io/football/teams/576.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

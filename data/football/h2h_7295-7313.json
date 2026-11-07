@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562558,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T09:30:00+00:00",
+      "timestamp": 1794043800,
+      "periods": {
+        "first": 1794043800,
+        "second": 1794047400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Second Half",
+        "short": "2H",
+        "elapsed": 88,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 352,
+      "name": "4. liga - Divizie C",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/352.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group C - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7295,
+        "name": "Hlinsko",
+        "logo": "https://media.api-sports.io/football/teams/7295.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7313,
+        "name": "Letohrad",
+        "logo": "https://media.api-sports.io/football/teams/7313.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1142721,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 921809,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2022-11-12T13:00:00+00:00",
-      "timestamp": 1668258000,
-      "periods": {
-        "first": 1668258000,
-        "second": 1668261600
-      },
-      "venue": {
-        "id": 5310,
-        "name": "Stadion FK OEZ Letohrad",
-        "city": "Letohrad"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 352,
-      "name": "4. liga - Divizie C",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/352.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2022,
-      "round": "Division C - 15",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7313,
-        "name": "Letohrad",
-        "logo": "https://media.api-sports.io/football/teams/7313.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7295,
-        "name": "Hlinsko",
-        "logo": "https://media.api-sports.io/football/teams/7295.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

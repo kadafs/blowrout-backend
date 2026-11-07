@@ -1,8 +1,218 @@
 [
   {
     "fixture": {
-      "id": 1562094,
+      "id": 1562105,
+      "referee": "T. Marshall",
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": 1169,
+        "name": "Solitude",
+        "city": "Belfast"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2266,
+        "name": "Cliftonville FC",
+        "logo": "https://media.api-sports.io/football/teams/2266.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1562099,
+      "referee": "E. Boyce",
+      "timezone": "UTC",
+      "date": "2026-10-24T14:00:00+00:00",
+      "timestamp": 1792850400,
+      "periods": {
+        "first": 1792850400,
+        "second": 1792854000
+      },
+      "venue": {
+        "id": 12606,
+        "name": "Loughview Leisure Arena",
+        "city": "Carrickfergus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": null
+      },
+      "away": {
+        "id": 11114,
+        "name": "Limavady United",
+        "logo": "https://media.api-sports.io/football/teams/11114.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1639276,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-20T18:45:00+00:00",
+      "timestamp": 1792521900,
+      "periods": {
+        "first": 1792521900,
+        "second": 1792525500
+      },
+      "venue": {
+        "id": 12606,
+        "name": "Loughview Leisure Arena",
+        "city": "Carrickfergus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 559,
+      "name": "League Cup",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/559.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5346,
+        "name": "Newry City AFC",
+        "logo": "https://media.api-sports.io/football/teams/5346.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1562094,
+      "referee": "S. Andrews",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
@@ -12,7 +222,7 @@
       },
       "venue": {
         "id": 12606,
-        "name": "Taylors Avenue",
+        "name": "Loughview Leisure Arena",
         "city": "Carrickfergus"
       },
       "status": {
@@ -72,7 +282,7 @@
   {
     "fixture": {
       "id": 1562088,
-      "referee": null,
+      "referee": "M. Dillon",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
@@ -128,216 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562081,
-      "referee": "M. McKenna",
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 12606,
-        "name": "Taylors Avenue",
-        "city": "Carrickfergus"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5350,
-        "name": "Carrick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/5350.png",
-        "winner": true
-      },
-      "away": {
-        "id": 697,
-        "name": "Crusaders FC",
-        "logo": "https://media.api-sports.io/football/teams/697.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562077,
-      "referee": "T. Clarke",
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": 18636,
-        "name": "The Oval",
-        "city": "Belfast"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5352,
-        "name": "Glentoran",
-        "logo": "https://media.api-sports.io/football/teams/5352.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5350,
-        "name": "Carrick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/5350.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562069,
-      "referee": "N. Devlin",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 12606,
-        "name": "Taylors Avenue",
-        "city": "Carrickfergus"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5350,
-        "name": "Carrick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/5350.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5354,
-        "name": "Larne",
-        "logo": "https://media.api-sports.io/football/teams/5354.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

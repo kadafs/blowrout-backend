@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490593,
+      "referee": "Malik Badawi",
+      "timezone": "UTC",
+      "date": "2026-11-01T01:30:00+00:00",
+      "timestamp": 1793496600,
+      "periods": {
+        "first": 1793496600,
+        "second": 1793500200
+      },
+      "venue": {
+        "id": 1610,
+        "name": "Dick's Sporting Goods Park",
+        "city": "Trade City"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1610,
+        "name": "Colorado Rapids",
+        "logo": "https://media.api-sports.io/football/teams/1610.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1607,
+        "name": "Chicago Fire",
+        "logo": "https://media.api-sports.io/football/teams/1607.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490578,
-      "referee": "Marcos De Oliveira",
+      "referee": "M. De Oliveira",
       "timezone": "UTC",
       "date": "2026-10-29T00:30:00+00:00",
       "timestamp": 1793233800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793233800,
+        "second": 1793237400
       },
       "venue": {
         "id": 1609,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1490562,
-      "referee": "Victor Rivas, USA",
+      "referee": "V. Rivas",
       "timezone": "UTC",
       "date": "2026-10-24T23:30:00+00:00",
       "timestamp": 1792884600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792884600,
+        "second": 1792888200
       },
       "venue": {
         "id": 1898,
-        "name": "Atlanta Stadium",
+        "name": "Mercedes-Benz Stadium",
         "city": "Atlanta"
       },
       "status": {
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1490547,
-      "referee": "Nabil Bensalah, USA",
+      "referee": "N. Bensalah",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792279800,
+        "second": 1792283400
       },
       "venue": {
         "id": 1618,
-        "name": "Boston Stadium",
+        "name": "Gillette Stadium",
         "city": "Boston"
       },
       "status": {
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490533,
-      "referee": "Ricardo Fierro, USA",
+      "referee": "R. Fierro",
       "timezone": "UTC",
       "date": "2026-10-15T00:30:00+00:00",
       "timestamp": 1792024200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792024200,
+        "second": 1792027800
       },
       "venue": {
         "id": 1609,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490511,
-      "referee": "Brandon Stevis, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T18:30:00+00:00",
-      "timestamp": 1791657000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1609,
-        "name": "Soldier Field",
-        "city": "Chicago"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1607,
-        "name": "Chicago Fire",
-        "logo": "https://media.api-sports.io/football/teams/1607.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1604,
-        "name": "New York City FC",
-        "logo": "https://media.api-sports.io/football/teams/1604.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

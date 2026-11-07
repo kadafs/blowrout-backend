@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571192,
+      "referee": "J. Caballero",
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": null,
+        "name": "Nou Estadi Municipal de Palamos",
+        "city": "Palamos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 436,
+      "name": "Primera Divisi\u00f3n RFEF - Group 2",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/436.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 2 - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5277,
+        "name": "Sant Andreu",
+        "logo": "https://media.api-sports.io/football/teams/5277.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5278,
+        "name": "Teruel",
+        "logo": "https://media.api-sports.io/football/teams/5278.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571182,
       "referee": "D. Manrique",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571141,
-      "referee": "S. Escriche",
-      "timezone": "UTC",
-      "date": "2026-09-26T16:45:00+00:00",
-      "timestamp": 1790441100,
-      "periods": {
-        "first": 1790441100,
-        "second": 1790444700
-      },
-      "venue": {
-        "id": null,
-        "name": "Nou Estadi de Tarragona",
-        "city": "Tarragona"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 436,
-      "name": "Primera Divisi\u00f3n RFEF - Group 2",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/436.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 2 - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 714,
-        "name": "Gimnastic",
-        "logo": "https://media.api-sports.io/football/teams/714.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5277,
-        "name": "Sant Andreu",
-        "logo": "https://media.api-sports.io/football/teams/5277.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560269,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T14:45:00+00:00",
+      "timestamp": 1793457900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11902,
+        "name": "Bozsik J\u00f3zsef Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 271,
+      "name": "NB I",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/271.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 576,
+        "name": "Budapest Honved",
+        "logo": "https://media.api-sports.io/football/teams/576.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2394,
+        "name": "Kisvarda FC",
+        "logo": "https://media.api-sports.io/football/teams/2394.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639733,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1560244,
-      "referee": "M. Zimmermann",
-      "timezone": "UTC",
-      "date": "2026-09-19T15:00:00+00:00",
-      "timestamp": 1789830000,
-      "periods": {
-        "first": 1789830000,
-        "second": 1789833600
-      },
-      "venue": {
-        "id": 10569,
-        "name": "Varkert Stadium",
-        "city": "Kisvarda"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 271,
-      "name": "NB I",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/271.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2394,
-        "name": "Kisvarda FC",
-        "logo": "https://media.api-sports.io/football/teams/2394.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2390,
-        "name": "Paks",
-        "logo": "https://media.api-sports.io/football/teams/2390.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

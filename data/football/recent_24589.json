@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581960,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T11:30:00+00:00",
+      "timestamp": 1793619000,
+      "periods": {
+        "first": 1793619000,
+        "second": 1793622600
+      },
+      "venue": {
+        "id": 11948,
+        "name": "Tsentralnyi Stadion",
+        "city": "Zhytomyr"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24589,
+        "name": "Polissya II",
+        "logo": "https://media.api-sports.io/football/teams/24589.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3619,
+        "name": "Oleksandria",
+        "logo": "https://media.api-sports.io/football/teams/3619.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581952,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581920,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T10:00:00+00:00",
-      "timestamp": 1790589600,
-      "periods": {
-        "first": 1790589600,
-        "second": 1790593200
-      },
-      "venue": {
-        "id": 11948,
-        "name": "Tsentralnyi Stadion",
-        "city": "Zhytomyr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 334,
-      "name": "Persha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/334.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24589,
-        "name": "Polissya II",
-        "logo": "https://media.api-sports.io/football/teams/24589.png",
-        "winner": false
-      },
-      "away": {
-        "id": 24585,
-        "name": "Kolos Kovalivka II",
-        "logo": "https://media.api-sports.io/football/teams/24585.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 3
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623658,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T10:30:00+00:00",
+      "timestamp": 1794047400,
+      "periods": {
+        "first": 1794047400,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Halftime",
+        "short": "HT",
+        "elapsed": 45,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 706,
+      "name": "Campionato Primavera - 2",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/706.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15679,
+        "name": "Salernitana U19",
+        "logo": "https://media.api-sports.io/football/teams/15679.png",
+        "winner": null
+      },
+      "away": {
+        "id": 15674,
+        "name": "Pisa U19",
+        "logo": "https://media.api-sports.io/football/teams/15674.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1467890,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1131526,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2024-02-03T10:00:00+00:00",
-      "timestamp": 1706954400,
-      "periods": {
-        "first": 1706954400,
-        "second": 1706958000
-      },
-      "venue": {
-        "id": null,
-        "name": "Campo Vincenzo Volpe",
-        "city": "Salerno"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 706,
-      "name": "Campionato Primavera - 2",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/706.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2023,
-      "round": "Group B - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15679,
-        "name": "Salernitana U19",
-        "logo": "https://media.api-sports.io/football/teams/15679.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15674,
-        "name": "Pisa U19",
-        "logo": "https://media.api-sports.io/football/teams/15674.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

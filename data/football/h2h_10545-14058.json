@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561195,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T10:00:00+00:00",
+      "timestamp": 1794045600,
+      "periods": {
+        "first": 1794045600,
+        "second": 1794049200
+      },
+      "venue": {
+        "id": null,
+        "name": "Obecny futbalovy stadion Malzenice",
+        "city": null
+      },
+      "status": {
+        "long": "Second Half",
+        "short": "2H",
+        "elapsed": 63,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14058,
+        "name": "Mal\u017eenice",
+        "logo": "https://media.api-sports.io/football/teams/14058.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10545,
+        "name": "\u0160amor\u00edn",
+        "logo": "https://media.api-sports.io/football/teams/10545.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561074,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1245692,
-      "referee": "F. Matej",
-      "timezone": "UTC",
-      "date": "2025-03-30T08:30:00+00:00",
-      "timestamp": 1743323400,
-      "periods": {
-        "first": 1743323400,
-        "second": 1743327000
-      },
-      "venue": {
-        "id": 7244,
-        "name": "Mestsk\u00fd \u0161tadi\u00f3n",
-        "city": "\u0160amor\u00edn"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 506,
-      "name": "2. liga",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/506.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2024,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10545,
-        "name": "\u0160amor\u00edn",
-        "logo": "https://media.api-sports.io/football/teams/10545.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14058,
-        "name": "Mal\u017eenice",
-        "logo": "https://media.api-sports.io/football/teams/14058.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

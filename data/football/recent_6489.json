@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1565516,
+      "referee": "Aleksandr Shandor",
+      "timezone": "UTC",
+      "date": "2026-11-02T11:00:00+00:00",
+      "timestamp": 1793617200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hirnyk Stadium",
+        "city": "Kryvyi Rih"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6489,
+        "name": "Kryvbas KR",
+        "logo": "https://media.api-sports.io/football/teams/6489.png",
+        "winner": false
+      },
+      "away": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565505,
-      "referee": "Klim Zabroda",
+      "referee": "K. Zabroda",
       "timezone": "UTC",
       "date": "2026-10-25T11:00:00+00:00",
       "timestamp": 1792926000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792926000,
+        "second": 1792929600
       },
       "venue": {
         "id": 4761,
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1565500,
-      "referee": "Oleksandr Afanasev, Ukraine",
+      "referee": "O. Afanasyev",
       "timezone": "UTC",
       "date": "2026-10-18T10:00:00+00:00",
       "timestamp": 1792317600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792317600,
+        "second": 1792321200
       },
       "venue": {
         "id": null,
-        "name": "Hirnyk Stadium",
-        "city": "Kryvyi Rih"
+        "name": "Girnyk",
+        "city": "Kryvyj Rih"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635877,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-08T10:00:00+00:00",
-      "timestamp": 1788861600,
-      "periods": {
-        "first": 1788861600,
-        "second": 1788865200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 335,
-      "name": "Cup",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/335.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14438,
-        "name": "Olimpiya Savyntsi",
-        "logo": "https://media.api-sports.io/football/teams/14438.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6489,
-        "name": "Kryvbas KR",
-        "logo": "https://media.api-sports.io/football/teams/6489.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

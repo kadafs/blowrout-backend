@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549543,
+      "referee": "Jordi Espinoza",
+      "timezone": "UTC",
+      "date": "2026-11-02T16:00:00+00:00",
+      "timestamp": 1793635200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1239,
+        "name": "Estadio Huancayo",
+        "city": "Huancayo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 281,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Peru",
+      "logo": "https://media.api-sports.io/football/leagues/281.png",
+      "flag": "https://media.api-sports.io/flags/pe.svg",
+      "season": 2026,
+      "round": "Clausura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2555,
+        "name": "Sport Huancayo",
+        "logo": "https://media.api-sports.io/football/teams/2555.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2554,
+        "name": "FBC Melgar",
+        "logo": "https://media.api-sports.io/football/teams/2554.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549530,
       "referee": "Rudy Mendez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549495,
-      "referee": "K. Ortega",
-      "timezone": "UTC",
-      "date": "2026-09-20T01:15:00+00:00",
-      "timestamp": 1789866900,
-      "periods": {
-        "first": 1789866900,
-        "second": 1789870500
-      },
-      "venue": {
-        "id": 1235,
-        "name": "Estadio Monumental de la UNSA",
-        "city": "Arequipa"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 281,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Peru",
-      "logo": "https://media.api-sports.io/football/leagues/281.png",
-      "flag": "https://media.api-sports.io/flags/pe.svg",
-      "season": 2026,
-      "round": "Clausura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2554,
-        "name": "FBC Melgar",
-        "logo": "https://media.api-sports.io/football/teams/2554.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2544,
-        "name": "Sport Boys",
-        "logo": "https://media.api-sports.io/football/teams/2544.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638552,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T06:30:00+00:00",
+      "timestamp": 1794033000,
+      "periods": {
+        "first": 1794033000,
+        "second": 1794036600
+      },
+      "venue": {
+        "id": 19664,
+        "name": "Haimen Sports Center Stadium",
+        "city": "Nantong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 929,
+      "name": "League Two",
+      "country": "China",
+      "logo": "https://media.api-sports.io/football/leagues/929.png",
+      "flag": "https://media.api-sports.io/flags/cn.svg",
+      "season": 2026,
+      "round": "Relegation Group - 30",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 19319,
+        "name": "Nantong Haimen Codion",
+        "logo": "https://media.api-sports.io/football/teams/19319.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19320,
+        "name": "Shangyu Pterosaur",
+        "logo": "https://media.api-sports.io/football/teams/19320.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638533,
       "referee": "D. Bingyue",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638505,
-      "referee": "Yi Jiajin",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": null,
-        "name": "Dingnan Football Youth Training Center",
-        "city": "Dingnan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 929,
-      "name": "League Two",
-      "country": "China",
-      "logo": "https://media.api-sports.io/football/leagues/929.png",
-      "flag": "https://media.api-sports.io/flags/cn.svg",
-      "season": 2026,
-      "round": "Relegation Group - 24",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 19320,
-        "name": "Shangyu Pterosaur",
-        "logo": "https://media.api-sports.io/football/teams/19320.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5679,
-        "name": "Qingdao Red Lions",
-        "logo": "https://media.api-sports.io/football/teams/5679.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

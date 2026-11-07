@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647596,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:30:00+00:00",
+      "timestamp": 1793460600,
+      "periods": {
+        "first": 1793460600,
+        "second": 1793464200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Municipal",
+        "city": "Ouagadougou"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8566,
+        "name": "Majestic",
+        "logo": "https://media.api-sports.io/football/teams/8566.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26633,
+        "name": "CFFEB",
+        "logo": "https://media.api-sports.io/football/teams/26633.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646773,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1641846,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T15:30:00+00:00",
-      "timestamp": 1790436600,
-      "periods": {
-        "first": 1790436600,
-        "second": 1790440200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26633,
-        "name": "CFFEB",
-        "logo": "https://media.api-sports.io/football/teams/26633.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6430,
-        "name": "Rahimo",
-        "logo": "https://media.api-sports.io/football/teams/6430.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1635627,
+      "referee": "Davide Massa, Italy",
+      "timezone": "UTC",
+      "date": "2026-11-03T20:00:00+00:00",
+      "timestamp": 1793736000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19939,
+        "name": "Spotify Camp Nou",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557447,
-      "referee": "Samuel Barrott",
+      "referee": "S. Barrott",
       "timezone": "UTC",
       "date": "2026-10-31T20:00:00+00:00",
       "timestamp": 1793476800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793476800,
+        "second": 1793480400
       },
       "venue": {
         "id": 495,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1557438,
-      "referee": "Peter Bankes, England",
+      "referee": "P. Bankes",
       "timezone": "UTC",
       "date": "2026-10-24T11:30:00+00:00",
       "timestamp": 1792841400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792841400,
+        "second": 1792845000
       },
       "venue": {
         "id": 495,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1635621,
-      "referee": "Sebastian Gishamer",
+      "referee": "Sebastian Gishamer, Austria",
       "timezone": "UTC",
       "date": "2026-10-21T19:00:00+00:00",
       "timestamp": 1792609200,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557434,
-      "referee": "Jarred Gillett",
-      "timezone": "UTC",
-      "date": "2026-10-17T16:30:00+00:00",
-      "timestamp": 1792254600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 562,
-        "name": "St James' Park",
-        "city": "Newcastle upon Tyne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 34,
-        "name": "Newcastle",
-        "logo": "https://media.api-sports.io/football/teams/34.png",
-        "winner": false
-      },
-      "away": {
-        "id": 66,
-        "name": "Aston Villa",
-        "logo": "https://media.api-sports.io/football/teams/66.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

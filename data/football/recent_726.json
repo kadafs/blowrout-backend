@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571189,
+      "referee": "M. Pacheco",
+      "timezone": "UTC",
+      "date": "2026-11-02T19:30:00+00:00",
+      "timestamp": 1793647800,
+      "periods": {
+        "first": 1793647800,
+        "second": 1793651400
+      },
+      "venue": {
+        "id": 1480,
+        "name": "Estadio El Alcoraz",
+        "city": "Huesca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 436,
+      "name": "Primera Divisi\u00f3n RFEF - Group 2",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/436.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 2 - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 726,
+        "name": "Huesca",
+        "logo": "https://media.api-sports.io/football/teams/726.png",
+        "winner": true
+      },
+      "away": {
+        "id": 714,
+        "name": "Gimnastic",
+        "logo": "https://media.api-sports.io/football/teams/714.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644366,
       "referee": "Francisco Jose Ortega Herrera, Spain",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571150,
-      "referee": "A. Arbaiza",
-      "timezone": "UTC",
-      "date": "2026-10-04T12:15:00+00:00",
-      "timestamp": 1791116100,
-      "periods": {
-        "first": 1791116100,
-        "second": 1791119700
-      },
-      "venue": {
-        "id": 1480,
-        "name": "Estadio El Alcoraz",
-        "city": "Huesca"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 436,
-      "name": "Primera Divisi\u00f3n RFEF - Group 2",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/436.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 2 - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 726,
-        "name": "Huesca",
-        "logo": "https://media.api-sports.io/football/teams/726.png",
-        "winner": true
-      },
-      "away": {
-        "id": 593,
-        "name": "Europa Fc",
-        "logo": "https://media.api-sports.io/football/teams/593.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

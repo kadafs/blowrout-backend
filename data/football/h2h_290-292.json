@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556133,
+      "referee": "Akihiko Ikeuchi",
+      "timezone": "UTC",
+      "date": "2026-11-07T06:00:00+00:00",
+      "timestamp": 1794031200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 960,
+        "name": "Ajinomoto Stadium",
+        "city": "Chofu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 98,
+      "name": "J1 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/98.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2027,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 292,
+        "name": "FC Tokyo",
+        "logo": "https://media.api-sports.io/football/teams/292.png",
+        "winner": true
+      },
+      "away": {
+        "id": 290,
+        "name": "Kashima",
+        "logo": "https://media.api-sports.io/football/teams/290.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1504822,
       "referee": "H. Kimura",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1166363,
-      "referee": "Y. Yamamoto",
-      "timezone": "UTC",
-      "date": "2024-07-20T09:00:00+00:00",
-      "timestamp": 1721466000,
-      "periods": {
-        "first": 1721466000,
-        "second": 1721469600
-      },
-      "venue": {
-        "id": 964,
-        "name": "Kashima Soccer Stadium",
-        "city": "Kashima"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2024,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 290,
-        "name": "Kashima",
-        "logo": "https://media.api-sports.io/football/teams/290.png",
-        "winner": true
-      },
-      "away": {
-        "id": 292,
-        "name": "FC Tokyo",
-        "logo": "https://media.api-sports.io/football/teams/292.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

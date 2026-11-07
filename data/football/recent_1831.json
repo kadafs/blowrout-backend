@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619525,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:30:00+00:00",
+      "timestamp": 1793734200,
+      "periods": {
+        "first": 1793734200,
+        "second": 1793737800
+      },
+      "venue": {
+        "id": null,
+        "name": "Rare Breed Meat Co. Stadium",
+        "city": "Braintree"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1831,
+        "name": "Braintree",
+        "logo": "https://media.api-sports.io/football/teams/1831.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7200,
+        "name": "Norwich City U21",
+        "logo": "https://media.api-sports.io/football/teams/7200.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1588427,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588379,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": null,
-        "name": "Rare Breed Meat Co. Stadium",
-        "city": "Braintree"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 51,
-      "name": "National League - South",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/51.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "National League South - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1831,
-        "name": "Braintree",
-        "logo": "https://media.api-sports.io/football/teams/1831.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4699,
-        "name": "Truro City",
-        "logo": "https://media.api-sports.io/football/teams/4699.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

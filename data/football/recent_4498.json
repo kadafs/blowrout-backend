@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621665,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T18:00:00+00:00",
+      "timestamp": 1793296800,
+      "periods": {
+        "first": 1793296800,
+        "second": 1793300400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 496,
+      "name": "Liga Alef",
+      "country": "Israel",
+      "logo": "https://media.api-sports.io/football/leagues/496.png",
+      "flag": "https://media.api-sports.io/flags/il.svg",
+      "season": 2026,
+      "round": "South - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7609,
+        "name": "Tzeirey Tira",
+        "logo": "https://media.api-sports.io/football/teams/7609.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4498,
+        "name": "Hapoel Marmorek",
+        "logo": "https://media.api-sports.io/football/teams/4498.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621652,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621616,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T16:00:00+00:00",
-      "timestamp": 1790179200,
-      "periods": {
-        "first": 1790179200,
-        "second": 1790182800
-      },
-      "venue": {
-        "id": 21191,
-        "name": "Itztoni Stadium",
-        "city": "Rehovot"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 496,
-      "name": "Liga Alef",
-      "country": "Israel",
-      "logo": "https://media.api-sports.io/football/leagues/496.png",
-      "flag": "https://media.api-sports.io/flags/il.svg",
-      "season": 2026,
-      "round": "South - 4",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4498,
-        "name": "Hapoel Marmorek",
-        "logo": "https://media.api-sports.io/football/teams/4498.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6208,
-        "name": "Shimshon Tel Aviv",
-        "logo": "https://media.api-sports.io/football/teams/6208.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

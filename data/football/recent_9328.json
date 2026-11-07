@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586288,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": 1793383200,
+        "second": 1793386800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 83,
+      "name": "Regionalliga - Bayern",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/83.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Bayern - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9330,
+        "name": "Illertissen",
+        "logo": "https://media.api-sports.io/football/teams/9330.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9328,
+        "name": "Greuther F\u00fcrth II",
+        "logo": "https://media.api-sports.io/football/teams/9328.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586280,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586243,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:00:00+00:00",
-      "timestamp": 1791028800,
-      "periods": {
-        "first": 1791028800,
-        "second": 1791032400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 83,
-      "name": "Regionalliga - Bayern",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/83.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Bayern - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9328,
-        "name": "Greuther F\u00fcrth II",
-        "logo": "https://media.api-sports.io/football/teams/9328.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4674,
-        "name": "Bayern M\u00fcnchen II",
-        "logo": "https://media.api-sports.io/football/teams/4674.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

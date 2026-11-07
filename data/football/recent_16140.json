@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1634929,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T20:00:00+00:00",
+      "timestamp": 1793563200,
+      "periods": {
+        "first": 1793563200,
+        "second": 1793566800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 759,
+      "name": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/759.png",
+      "flag": "https://media.api-sports.io/flags/do.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25556,
+        "name": "Salcedo",
+        "logo": "https://media.api-sports.io/football/teams/25556.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16140,
+        "name": "Jarabacoa",
+        "logo": "https://media.api-sports.io/football/teams/16140.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1634926,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1634910,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T22:00:00+00:00",
-      "timestamp": 1790546400,
-      "periods": {
-        "first": 1790546400,
-        "second": 1790550000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Cibao FC",
-        "city": "Santiago"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 759,
-      "name": "Liga Mayor",
-      "country": "Dominican-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/759.png",
-      "flag": "https://media.api-sports.io/flags/do.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8004,
-        "name": "Cibao",
-        "logo": "https://media.api-sports.io/football/teams/8004.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16140,
-        "name": "Jarabacoa",
-        "logo": "https://media.api-sports.io/football/teams/16140.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

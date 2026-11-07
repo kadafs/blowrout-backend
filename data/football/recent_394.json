@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1526017,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2606,
+        "name": "Dinamo Stadium",
+        "city": "Minsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 116,
+      "name": "Premier League",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/116.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 394,
+        "name": "Dinamo Minsk",
+        "logo": "https://media.api-sports.io/football/teams/394.png",
+        "winner": false
+      },
+      "away": {
+        "id": 387,
+        "name": "Neman",
+        "logo": "https://media.api-sports.io/football/teams/387.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1525936,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1525993,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-11T16:30:00+00:00",
-      "timestamp": 1791736200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 2595,
-        "name": "Spartak Stadium",
-        "city": "Mahilyow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 116,
-      "name": "Premier League",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/116.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 384,
-        "name": "FC Dnepr Mogilev",
-        "logo": "https://media.api-sports.io/football/teams/384.png",
-        "winner": false
-      },
-      "away": {
-        "id": 394,
-        "name": "Dinamo Minsk",
-        "logo": "https://media.api-sports.io/football/teams/394.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

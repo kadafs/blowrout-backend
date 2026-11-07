@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637697,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": 11157,
+        "name": "Stadion Gelora Delta",
+        "city": "Sidoarjo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 275,
+      "name": "Liga 2",
+      "country": "Indonesia",
+      "logo": "https://media.api-sports.io/football/leagues/275.png",
+      "flag": "https://media.api-sports.io/flags/id.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15771,
+        "name": "Deltras",
+        "logo": "https://media.api-sports.io/football/teams/15771.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24994,
+        "name": "Dejan",
+        "logo": "https://media.api-sports.io/football/teams/24994.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637687,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637649,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T08:30:00+00:00",
-      "timestamp": 1790497800,
-      "periods": {
-        "first": 1790497800,
-        "second": 1790501400
-      },
-      "venue": {
-        "id": null,
-        "name": "Pakansari Stadium",
-        "city": "Cibinong"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 275,
-      "name": "Liga 2",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/275.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4229,
-        "name": "RANS Nusantara",
-        "logo": "https://media.api-sports.io/football/teams/4229.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15771,
-        "name": "Deltras",
-        "logo": "https://media.api-sports.io/football/teams/15771.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

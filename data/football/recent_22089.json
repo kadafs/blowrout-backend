@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1597806,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Trofa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 865,
+      "name": "Liga 3",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/865.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4801,
+        "name": "Trofense",
+        "logo": "https://media.api-sports.io/football/teams/4801.png",
+        "winner": false
+      },
+      "away": {
+        "id": 22089,
+        "name": "AD Marco 09",
+        "logo": "https://media.api-sports.io/football/teams/22089.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597788,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1597768,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T15:00:00+00:00",
-      "timestamp": 1789225200,
-      "periods": {
-        "first": 1789225200,
-        "second": 1789228800
-      },
-      "venue": {
-        "id": null,
-        "name": "Municipal de Marco de Canaveses",
-        "city": "Marco de Canaveses"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 865,
-      "name": "Liga 3",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/865.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22089,
-        "name": "AD Marco 09",
-        "logo": "https://media.api-sports.io/football/teams/22089.png",
-        "winner": true
-      },
-      "away": {
-        "id": 232,
-        "name": "Guimaraes B",
-        "logo": "https://media.api-sports.io/football/teams/232.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574776,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:45:00+00:00",
+      "timestamp": 1793454300,
+      "periods": {
+        "first": 1793454300,
+        "second": 1793457900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Saint-Germain-en-Laye"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "Ligue 3",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3131,
+        "name": "Versailles",
+        "logo": "https://media.api-sports.io/football/teams/3131.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9930,
+        "name": "Aubagne",
+        "logo": "https://media.api-sports.io/football/teams/9930.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574759,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574723,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T12:45:00+00:00",
-      "timestamp": 1789217100,
-      "periods": {
-        "first": 1789217100,
-        "second": 1789220700
-      },
-      "venue": {
-        "id": 6999,
-        "name": "Stade de Lattre-de-Tassigny",
-        "city": "Aubagne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 63,
-      "name": "Ligue 3",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/63.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9930,
-        "name": "Aubagne",
-        "logo": "https://media.api-sports.io/football/teams/9930.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1300,
-        "name": "Concarneau",
-        "logo": "https://media.api-sports.io/football/teams/1300.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602533,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T09:00:00+00:00",
+      "timestamp": 1793523600,
+      "periods": {
+        "first": 1793523600,
+        "second": 1793527200
+      },
+      "venue": {
+        "id": null,
+        "name": "May 1 Stadium",
+        "city": "Slatina"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 284,
+      "name": "Liga II",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/284.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6898,
+        "name": "Slatina",
+        "logo": "https://media.api-sports.io/football/teams/6898.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2580,
+        "name": "Concordia",
+        "logo": "https://media.api-sports.io/football/teams/2580.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602520,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642932,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T08:00:00+00:00",
-      "timestamp": 1791014400,
-      "periods": {
-        "first": 1791014400,
-        "second": 1791018000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2592,
-        "name": "Arges Pitesti",
-        "logo": "https://media.api-sports.io/football/teams/2592.png",
-        "winner": null
-      },
-      "away": {
-        "id": 6898,
-        "name": "Slatina",
-        "logo": "https://media.api-sports.io/football/teams/6898.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

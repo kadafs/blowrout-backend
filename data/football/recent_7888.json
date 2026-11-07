@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638856,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T12:00:00+00:00",
+      "timestamp": 1793793600,
+      "periods": {
+        "first": 1793793600,
+        "second": 1793797200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stelios Kyriakides Stadium",
+        "city": "Pafos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22397,
+        "name": "Pafos U19",
+        "logo": "https://media.api-sports.io/football/teams/22397.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7888,
+        "name": "Benfica U19",
+        "logo": "https://media.api-sports.io/football/teams/7888.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638842,
       "referee": "H. M. Jonasson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592011,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1041,
-      "name": "J\u00faniores U19",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/1041.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24444,
-        "name": "Mafra U19",
-        "logo": "https://media.api-sports.io/football/teams/24444.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7888,
-        "name": "Benfica U19",
-        "logo": "https://media.api-sports.io/football/teams/7888.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

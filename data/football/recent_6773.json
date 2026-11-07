@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646403,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": 1391,
+        "name": "Cappielow Park",
+        "city": "Greenock"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1383,
+        "name": "Morton",
+        "logo": "https://media.api-sports.io/football/teams/1383.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6773,
+        "name": "Kelty Hearts",
+        "logo": "https://media.api-sports.io/football/teams/6773.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557805,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 1,
         "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557798,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": 3520,
-        "name": "Forthbank Stadium",
-        "city": "Stirling"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 184,
-      "name": "League Two",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/184.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4669,
-        "name": "Stirling Albion",
-        "logo": "https://media.api-sports.io/football/teams/4669.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6773,
-        "name": "Kelty Hearts",
-        "logo": "https://media.api-sports.io/football/teams/6773.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
       },
       "fulltime": {
         "home": 2,

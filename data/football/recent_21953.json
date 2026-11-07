@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
-      "id": 1565507,
-      "referee": "Mykhailo Mykhailovych Raida, Ukraine",
+      "id": 1565514,
+      "referee": "Artem Mihaylyuk",
       "timezone": "UTC",
-      "date": "2026-10-23T10:00:00+00:00",
-      "timestamp": 1792749600,
+      "date": "2026-11-02T16:00:00+00:00",
+      "timestamp": 1793635200,
       "periods": {
         "first": null,
         "second": null
       },
       "venue": {
+        "id": 20119,
+        "name": "Ukraina Stadium",
+        "city": "Lviv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3617,
+        "name": "Karpaty",
+        "logo": "https://media.api-sports.io/football/teams/3617.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21953,
+        "name": "Kudrivka",
+        "logo": "https://media.api-sports.io/football/teams/21953.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1565507,
+      "referee": "M. Raida",
+      "timezone": "UTC",
+      "date": "2026-10-23T10:00:00+00:00",
+      "timestamp": 1792749600,
+      "periods": {
+        "first": 1792749600,
+        "second": 1792753200
+      },
+      "venue": {
         "id": 22335,
-        "name": "Valeriy Lobanovsky Dynamo Stadium",
-        "city": "Kiev"
+        "name": "Stadion Valerija Lobanovskoho",
+        "city": "Kyiv"
       },
       "status": {
         "long": "Match Finished",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1565501,
-      "referee": "Sergei Zadyran, Ukraine",
+      "referee": "S. Zadyran",
       "timezone": "UTC",
       "date": "2026-10-17T12:30:00+00:00",
       "timestamp": 1792240200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792240200,
+        "second": 1792243800
       },
       "venue": {
         "id": 8330,
-        "name": "Obolon Arena",
-        "city": "Kyiv"
+        "name": "Avangard",
+        "city": "Rivne"
       },
       "status": {
         "long": "Match Finished",
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1565494,
-      "referee": "Yevtukhov Dmytro, Ukraine",
+      "referee": "D. Yevtukhov",
       "timezone": "UTC",
       "date": "2026-10-11T10:00:00+00:00",
       "timestamp": 1791712800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791712800,
+        "second": 1791716400
       },
       "venue": {
         "id": 12063,
-        "name": "Tsentralnyi Stadium",
+        "name": "Cherkasy Arena",
         "city": "Cherkasy"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565486,
-      "referee": "Klim Zabroda, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-20T10:00:00+00:00",
-      "timestamp": 1789898400,
-      "periods": {
-        "first": 1789898400,
-        "second": 1789902000
-      },
-      "venue": {
-        "id": 8330,
-        "name": "Avangard",
-        "city": "Rivne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21953,
-        "name": "Kudrivka",
-        "logo": "https://media.api-sports.io/football/teams/21953.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3627,
-        "name": "Kolos Kovalivka",
-        "logo": "https://media.api-sports.io/football/teams/3627.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

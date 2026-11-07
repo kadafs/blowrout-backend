@@ -43,14 +43,16 @@ GLOBAL_RATE_TIE = 0.240  # P(TIE)
 BREAKEVEN_2H = 0.485
 BREAKEVEN_1H = 0.315
 
-# Edge hurdles to trigger active plays
-MIN_EDGE_2H       = 0.035  # P(2H) >= 52.0% -> ~54.7% historical win rate, +12.1% ROI
-HIGH_CONF_EDGE_2H = 0.055  # P(2H) >= 54.0% -> ~55.2% historical win rate, +13.1% ROI
+# Edge hurdles to trigger active plays (HIGH confidence only - Recommendation B)
+# Only HIGH conviction picks trigger PLAY 2H (P(2H) >= 54.0%, +5.5pp edge over market)
+# Sub-54.0% matches are classified as PASS to protect win rate and eliminate marginal bets.
+HIGH_CONF_EDGE_2H = 0.055  # P(2H) >= 54.0% -> 55.2% historical win rate, +13.1% ROI
+MODERATE_EDGE_2H  = 0.035  # P(2H) >= 52.0% -> informational MODERATE tier (decision: PASS)
 
 # 1H is heavily restricted because football mechanics strongly favor 2H (fatigue, subs, stoppage time).
 # 1H calls require verified empirical team profile support and significant positive edge.
-MIN_EDGE_1H       = 0.085  # P(1H) >= 40.0%
 HIGH_CONF_EDGE_1H = 0.115  # P(1H) >= 43.0%
+MODERATE_EDGE_1H  = 0.085  # P(1H) >= 40.0%
 
 MIN_TEAM_GAMES    = 3      # Lowered from 5 to 3 so teams with 3+ games activate team_profile
 
@@ -280,20 +282,22 @@ def compute_hsh(prediction: dict) -> dict:
 
     # 1H is heavily restricted: only permitted when supported by empirical team profiles
     # with a proven 1H skew, avoiding negative EV traps on global priors.
-    allow_1h = (source == "team_profile" and edge_1h >= MIN_EDGE_1H and prob_1h > prob_2h)
+    allow_1h = (source == "team_profile" and edge_1h >= HIGH_CONF_EDGE_1H and prob_1h > prob_2h)
 
-    if edge_2h >= MIN_EDGE_2H and prob_2h >= prob_1h:
+    # Recommendation B: Promote ONLY HIGH confidence to active PLAY calls.
+    # Matches with moderate edge are labeled PASS (with MODERATE confidence) to safeguard profit.
+    if edge_2h >= HIGH_CONF_EDGE_2H and prob_2h >= prob_1h:
         decision = "2H"
         edge = edge_2h
-        confidence = "HIGH" if edge_2h >= HIGH_CONF_EDGE_2H else "MODERATE"
+        confidence = "HIGH"
     elif allow_1h:
         decision = "1H"
         edge = edge_1h
-        confidence = "HIGH" if edge_1h >= HIGH_CONF_EDGE_1H else "MODERATE"
+        confidence = "HIGH"
     else:
         decision = "PASS"
         edge = max(edge_1h, edge_2h)
-        confidence = "LOW"
+        confidence = "MODERATE" if (edge_2h >= MODERATE_EDGE_2H or edge_1h >= MODERATE_EDGE_1H) else "LOW"
 
     h_games = h_profile.get("games", 0)
     a_games = a_profile.get("games", 0)

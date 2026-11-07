@@ -8,6 +8,9 @@ import datetime
 # which would otherwise create two separate ghost entries in the matrix.
 # Key = API name, Value = Proballers (canonical) name.
 CROSS_SOURCE_CANONICAL_MAP = {
+    # Portugal Proliga (261)
+    "Vasco Da Gama":       "SC Vasco da Gama",
+    "SC Vasco Da Gama":    "SC Vasco da Gama",
     # Iceland Premier League
     "KR Basket":           "KR Reykjavik",
     # Poland Energa Basket Liga (72)
@@ -702,6 +705,23 @@ def process_leagues():
                 if c_at and c_at != at:
                     current_season_team_counts[c_at] += 1
 
+        def _resolve_season_games(t_name):
+            if not t_name: return 0
+            if t_name in current_season_team_counts:
+                return current_season_team_counts[t_name]
+            c_name = CROSS_SOURCE_CANONICAL_MAP.get(t_name)
+            if c_name and c_name in current_season_team_counts:
+                return current_season_team_counts[c_name]
+            for k, v in CROSS_SOURCE_CANONICAL_MAP.items():
+                if v == t_name and k in current_season_team_counts:
+                    return current_season_team_counts[k]
+            cln = clean_team_name(t_name)
+            for k, cnt in current_season_team_counts.items():
+                ck = clean_team_name(k)
+                if cln == ck or (len(ck) >= 4 and (ck in cln or cln in ck)):
+                    return cnt
+            return 0
+
         if is_early_season:
             # Look back 365 days to anchor with the prior season
             prior_cutoff = cutoff_date - datetime.timedelta(days=365)
@@ -786,7 +806,7 @@ def process_leagues():
                 "adj_t": round(pace_pivot, 1),
                 "std_dev_totals": std_dev_totals,
                 "games_played": data["games"],
-                "current_season_games": current_season_team_counts.get(team_name, 0),
+                "current_season_games": _resolve_season_games(team_name),
                 "wins": data["wins"],
                 "win_pct": win_pct,
                 "srs_rating": round(data["srs"], 2)
@@ -819,7 +839,7 @@ def process_leagues():
         adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=pace_pivot) if advanced_eligible else []
         if adv_stats:
             for t in adv_stats:
-                t["current_season_games"] = current_season_team_counts.get(t["team_name"], 0)
+                t["current_season_games"] = _resolve_season_games(t["team_name"])
             payload_adv = {
                 "league_id": league_id,
                 "season": season,

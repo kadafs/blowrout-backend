@@ -78,6 +78,81 @@ TEAM_NAME_OVERRIDES = {
     "Mandurah Magic": "Mandurah",
     "Cockburn Cougars": "Cockburn",
     "Turan Turkistan": "Turan",
+    # --- NCAA Division 1 (Irregular Acronyms & Nicknames) ---
+    "NC State":                    "North Carolina State Wolfpack",
+    "Miami (FL)":                  "Miami Hurricanes",
+    "Miami FL":                    "Miami Hurricanes",
+    "Miami (OH)":                  "Miami (OH) RedHawks",
+    "Miami OH":                    "Miami (OH) RedHawks",
+    "Loyola Chicago":              "Loyola (IL) Ramblers",
+    "Loyola-Chicago":              "Loyola (IL) Ramblers",
+    "Loyola Marymount":            "Loyola Marymount Lions",
+    "Loyola MD":                   "Loyola (MD) Greyhounds",
+    "Texas A&M-CC":                "Texas A&M-Corpus Christi Islanders",
+    "Texas A&M-Corpus":            "Texas A&M-Corpus Christi Islanders",
+    "Texas A&M-Commerce":          "Texas A&M-Commerce Lions",
+    "TAMU-Commerce":               "Texas A&M-Commerce Lions",
+    "Prairie View":                "Prairie View A&M Panthers",
+    "Grambling":                   "Grambling State Tigers",
+    "Florida A&M":                 "Florida A&M Rattlers",
+    "St. John's":                  "St. John's Red Storm",
+    "Saint John's":                "St. John's Red Storm",
+    "St. Thomas (MN)":             "St. Thomas (MN) Tommies",
+    "St. Mary's":                  "Saint Mary's Gaels",
+    "Saint Mary's":                "Saint Mary's Gaels",
+    "St. Bonaventure":             "St. Bonaventure Bonnies",
+    "Saint Bonaventure":           "St. Bonaventure Bonnies",
+    "St. Peter's":                 "Saint Peter's Peacocks",
+    "Saint Peter's":               "Saint Peter's Peacocks",
+    "St. Joseph's":                "Saint Joseph's Hawks",
+    "Saint Joseph's":              "Saint Joseph's Hawks",
+    "Mount St. Mary's":            "Mount St. Mary's Mountaineers",
+    "UMKC":                        "Kansas City Roos",
+    "Kansas City":                 "Kansas City Roos",
+    "Omaha":                       "Nebraska Omaha Mavericks",
+    "Nebraska-Omaha":              "Nebraska Omaha Mavericks",
+    "UL Monroe":                   "Louisiana-Monroe Warhawks",
+    "Louisiana-Monroe":            "Louisiana-Monroe Warhawks",
+    "Louisiana":                   "Louisiana Ragin' Cajuns",
+    "Louisiana-Lafayette":         "Louisiana Ragin' Cajuns",
+    "ULL":                         "Louisiana Ragin' Cajuns",
+    "SIU Edwardsville":            "SIU-Edwardsville Cougars",
+    "SIUE":                        "SIU-Edwardsville Cougars",
+    "UIC":                         "UIC Flames",
+    "Cal Poly":                    "Cal Poly Mustangs",
+    "UC Santa Barbara":            "UC Santa Barbara Gauchos",
+    "UCSB":                        "UC Santa Barbara Gauchos",
+    "UC Irvine":                   "UC Irvine Anteaters",
+    "UC Davis":                    "UC Davis Aggies",
+    "UC Riverside":                "UC Riverside Highlanders",
+    "UC San Diego":                "UC San Diego Tritons",
+    "CSU Bakersfield":             "Cal State Bakersfield Roadrunners",
+    "CS Fullerton":                "Cal State Fullerton Titans",
+    "CS Northridge":               "Cal State Northridge Matadors",
+    "CSUN":                        "Cal State Northridge Matadors",
+    "Long Beach State":            "Long Beach State Beach",
+    "Hawai'i":                     "Hawaii Rainbow Warriors",
+    "Hawaii":                      "Hawaii Rainbow Warriors",
+    "Penn":                        "Pennsylvania Quakers",
+    "Pitt":                        "Pittsburgh Panthers",
+    "UConn":                       "UConn Huskies",
+    "Connecticut":                 "UConn Huskies",
+    "Ole Miss":                    "Ole Miss Rebels",
+    "Southern Miss":               "Southern Miss Golden Eagles",
+    "USC":                         "USC Trojans",
+    "LSU":                         "LSU Tigers",
+    "SMU":                         "SMU Mustangs",
+    "TCU":                         "TCU Horned Frogs",
+    "BYU":                         "BYU Cougars",
+    "Brigham Young":               "BYU Cougars",
+    "UCF":                         "UCF Knights",
+    "UNLV":                        "UNLV Rebels",
+    "UTSA":                        "UTSA Roadrunners",
+    "UTEP":                        "UTEP Miners",
+    "UT Arlington":                "UT Arlington Mavericks",
+    "UT Rio Grande Valley":        "UT Rio Grande Valley Vaqueros",
+    "UTRGV":                       "UT Rio Grande Valley Vaqueros",
+
     # --- Australia NBL1 (Multiple Regions) ---
     "Penrith P.":                  "Penrith Panthers",
     "Penrith P. W":                "Penrith Panthers",
@@ -751,11 +826,13 @@ def _fuzzy_match(name, stats_dict):
         rev_candidates.sort(key=len, reverse=True)
         return rev_candidates[0], stats_dict[rev_candidates[0]]
 
-    # Accent-stripped partial match (e.g. Plzen vs BK Lokomotiva Plzeň)
+    # Accent-stripped partial match (whole-word boundary check to prevent 'Kansas' matching 'Arkansas')
+    import re
     for k in stats_dict:
         k_clean = _strip_accents(k)
-        if k_clean in name_clean or name_clean in k_clean:
-            k_words = set(k_clean.split())
+        is_word_match = bool(re.search(r'\b' + re.escape(name_clean) + r'\b', k_clean)) or bool(re.search(r'\b' + re.escape(k_clean) + r'\b', name_clean))
+        if is_word_match:
+            k_words = set(re.findall(r'\b\w+\b', k_clean))
             if not any(dw in k_words and dw not in n_words for dw in diff_words) and not any(dw in n_words and dw not in k_words for dw in diff_words):
                 return k, stats_dict[k]
 

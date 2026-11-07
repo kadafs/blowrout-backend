@@ -781,6 +781,7 @@ def find_team(name, stats_dict):
 
 def _fuzzy_match(name, stats_dict):
     import unicodedata
+    import re
     def _strip_accents(s):
         return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c)).lower().strip()
 
@@ -796,17 +797,51 @@ def _fuzzy_match(name, stats_dict):
         if k.lower() == name_lower:
             return k, stats_dict[k]
 
+    # Critical differentiating keywords across college & international basketball
+    diff_words = {
+        'state', 'tech', 'am', 'a&m', 'city', 'college', 'university', 'univ',
+        'north', 'south', 'east', 'west',
+        'northern', 'southern', 'eastern', 'western',
+        'central', 'centre', 'middle', 'midwestern',
+        'northeastern', 'northwestern', 'southeastern', 'southwestern',
+        'northwest', 'northeast', 'southwest', 'southeast',
+        'institute', 'poly', 'polytechnic', 'academy', 'international', 'national',
+        'valley', 'coast', 'coastal', 'gulf', 'pacific', 'atlantic',
+        'lake', 'island', 'mount', 'mt', 'fort', 'ft',
+        'corpus', 'christi', 'cc', 'md', 'fl', 'il', 'oh', 'pa', 'ny', 'ca', 'tx',
+        'christian', 'baptist', 'methodist', 'catholic', 'lutheran', 'presbyterian', 'wesleyan',
+        'w', 'women', 'mens', 'men', 'u20', 'u19', 'u18'
+    }
+
+    def _extract_words(s):
+        s_sub = re.sub(r'[\-\/\(\)\.,]', ' ', s.lower()).strip()
+        raw_tokens = s_sub.split()
+        tokens = []
+        for i, tok in enumerate(raw_tokens):
+            if tok == 'st':
+                # Distinguish trailing 'St' (State) vs leading 'St' (Saint)
+                if i > 0:
+                    tokens.append('state')
+                else:
+                    tokens.append('saint')
+            else:
+                tokens.append(tok)
+        words = set(tokens)
+        if 'a&m' in words or 'am' in words:
+            words.add('am')
+            words.add('a&m')
+        return words
+
+    n_words = _extract_words(name_clean)
+
     # Word boundary prefix match: stats key starts with name + space (e.g. 'Duke' -> 'Duke Blue Devils')
     # Guarded against collapsing distinct schools (e.g. Michigan -> Michigan State, Kansas -> Kansas State)
-    diff_words = {'state', 'tech', 'am', 'a&m', 'city', 'college', 'university', 'north', 'south', 'east', 'west', 'northern', 'southern', 'eastern', 'western', 'central', 'w', 'women', 'christian'}
-    n_words = set(name_clean.split())
-    
     prefix_candidates = []
     for k in stats_dict:
         k_clean = _strip_accents(k)
         if k_clean.startswith(name_clean + ' '):
-            k_words = set(k_clean.split())
-            if not any(dw in k_words and dw not in n_words for dw in diff_words):
+            k_words = _extract_words(k_clean)
+            if not any(dw in k_words and dw not in n_words for dw in diff_words) and not any(dw in n_words and dw not in k_words for dw in diff_words):
                 prefix_candidates.append(k)
 
     if prefix_candidates:
@@ -818,8 +853,8 @@ def _fuzzy_match(name, stats_dict):
     for k in stats_dict:
         k_clean = _strip_accents(k)
         if name_clean.startswith(k_clean + ' '):
-            k_words = set(k_clean.split())
-            if not any(dw in n_words and dw not in k_words for dw in diff_words):
+            k_words = _extract_words(k_clean)
+            if not any(dw in n_words and dw not in k_words for dw in diff_words) and not any(dw in k_words and dw not in n_words for dw in diff_words):
                 rev_candidates.append(k)
 
     if rev_candidates:
@@ -827,24 +862,27 @@ def _fuzzy_match(name, stats_dict):
         return rev_candidates[0], stats_dict[rev_candidates[0]]
 
     # Accent-stripped partial match (whole-word boundary check to prevent 'Kansas' matching 'Arkansas')
-    import re
     for k in stats_dict:
         k_clean = _strip_accents(k)
         is_word_match = bool(re.search(r'\b' + re.escape(name_clean) + r'\b', k_clean)) or bool(re.search(r'\b' + re.escape(k_clean) + r'\b', name_clean))
         if is_word_match:
-            k_words = set(re.findall(r'\b\w+\b', k_clean))
+            k_words = _extract_words(k_clean)
             if not any(dw in k_words and dw not in n_words for dw in diff_words) and not any(dw in n_words and dw not in k_words for dw in diff_words):
                 return k, stats_dict[k]
 
-    # High character overlap via difflib (Safer than single word overlaps)
+    # High character overlap via difflib (Guarded against school collisions & differentiating words)
     import difflib
     best_key, best_score = None, 0.0
     for k in stats_dict:
-        similarity = difflib.SequenceMatcher(None, name_clean, _strip_accents(k)).ratio()
+        k_clean = _strip_accents(k)
+        k_words = _extract_words(k_clean)
+        if any(dw in k_words and dw not in n_words for dw in diff_words) or any(dw in n_words and dw not in k_words for dw in diff_words):
+            continue
+        similarity = difflib.SequenceMatcher(None, name_clean, k_clean).ratio()
         if similarity > best_score:
             best_key, best_score = k, similarity
             
-    if best_score >= 0.85:
+    if best_score >= 0.92:
         return best_key, stats_dict[best_key]
 
     return None, None
@@ -861,6 +899,10 @@ def global_find_team(name):
     canonical_name = TEAM_NAME_OVERRIDES.get(name, name)
     
     for fpath in files:
+        # Exclude NCAA matrices (116 and 423) from global search so European/domestic clubs never match NCAA college profiles!
+        base_name = os.path.basename(fpath)
+        if "_116_" in base_name or "_423_" in base_name:
+            continue
         try:
             with open(fpath, encoding="utf-8") as f:
                 data = json.load(f)
@@ -899,6 +941,19 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     away_key, sA = find_team(away_name, team_stats)
     home_key, sH = find_team(home_name, team_stats)
 
+    # Detect NCAA league to strictly isolate college basketball from international/club matrixes
+    cfg = config or {}
+    cfg_lid = cfg.get("league_id") or cfg.get("_league_id")
+    if not cfg_lid and config_path:
+        base = os.path.basename(config_path).split(".")[0]
+        try:
+            cfg_lid = int(base)
+        except Exception:
+            pass
+    is_ncaa = is_ncaa_league(cfg_lid) if cfg_lid else False
+    if not is_ncaa and config_path and ("ncaa" in config_path.lower() or "116" in config_path or "423" in config_path):
+        is_ncaa = True
+
     # In-league SRS fallback if team is missing from stats_adv (e.g. newly promoted team without box scores)
     if not sA and fallback_stats:
         _, sA = find_team(away_name, fallback_stats)
@@ -911,17 +966,18 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             sH = dict(sH)
             sH["source"] = "SRS"
 
-    # GLOBAL FALLBACK
-    if not sA:
-        sA, src = global_find_team(away_name)
-        if sA:
-            sA = dict(sA)
-            sA["source"] = f"GLOBAL ({os.path.basename(src)})"
-    if not sH:
-        sH, src = global_find_team(home_name)
-        if sH:
-            sH = dict(sH)
-            sH["source"] = f"GLOBAL ({os.path.basename(src)})"
+    # GLOBAL FALLBACK (Strictly disabled for NCAA so college teams never borrow foreign club stats)
+    if not is_ncaa:
+        if not sA:
+            sA, src = global_find_team(away_name)
+            if sA:
+                sA = dict(sA)
+                sA["source"] = f"GLOBAL ({os.path.basename(src)})"
+        if not sH:
+            sH, src = global_find_team(home_name)
+            if sH:
+                sH = dict(sH)
+                sH["source"] = f"GLOBAL ({os.path.basename(src)})"
 
     if not sA or not sH:
         missing = []
@@ -930,7 +986,6 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
         return None, f"Team stats not found: {', '.join(missing)}"
 
     # Build game_data in the format the engine expects
-    cfg = config
     config_pace = cfg.get("pace_pivot", 76)
 
     MIN_GAMES_TRUST = 8
@@ -942,8 +997,8 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     a_prev_gp = prev_a.get("games_played", prev_a.get("games", 0)) if prev_a else 0
     h_prev_gp = prev_h.get("games_played", prev_h.get("games", 0)) if prev_h else 0
 
-    # Cross-league baseline fallback for international cups/tournaments (e.g. Besiktas in Euroleague with only 1 game)
-    if a_gp < 2 and not (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None)):
+    # Cross-league baseline fallback for international cups/tournaments (strictly non-NCAA)
+    if not is_ncaa and a_gp < 2 and not (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None)):
         g_team, g_src = global_find_team(away_name)
         if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
             sA = dict(sA)
@@ -951,7 +1006,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             prev_a = g_team
             a_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
-    if h_gp < 2 and not (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None)):
+    if not is_ncaa and h_gp < 2 and not (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None)):
         g_team, g_src = global_find_team(home_name)
         if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
             sH = dict(sH)

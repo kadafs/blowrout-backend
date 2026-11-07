@@ -95,6 +95,7 @@ TEAM_NAME_OVERRIDES = {
     "Prairie View":                "Prairie View A&M Panthers",
     "Grambling":                   "Grambling State Tigers",
     "Florida A&M":                 "Florida A&M Rattlers",
+    "Nicholls State":              "Nicholls Colonels",
     "St. John's":                  "St. John's Red Storm",
     "Saint John's":                "St. John's Red Storm",
     "St. Thomas (MN)":             "St. Thomas (MN) Tommies",

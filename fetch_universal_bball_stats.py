@@ -462,13 +462,13 @@ def attach_prior_season_stats(teams, league_id, season=None):
     except (ValueError, TypeError):
         pass
 
-    # Load prior season matrix
+    # Load prior season matrix — prioritize srs_v2 and merge across sources
     prior_teams = {}
     prior_candidates = [
-        f"data/bball_stats_{league_id}_prior_srs.json",
-        f"data/bball_stats_{parent_lid}_prior_srs.json",
         f"data/bball_stats_{league_id}_srs_v2.json",
         f"data/bball_stats_{parent_lid}_srs_v2.json",
+        f"data/bball_stats_{league_id}_prior_srs.json",
+        f"data/bball_stats_{parent_lid}_prior_srs.json",
         f"data/bball_stats_{league_id}_srs.json",
         f"data/bball_stats_{parent_lid}_srs.json",
         f"data/srs_stats_{league_id}.json",
@@ -484,12 +484,14 @@ def attach_prior_season_stats(teams, league_id, season=None):
                 with open(p, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     raw_teams = data.get("teams", data)
+                    new_dict = {}
                     if isinstance(raw_teams, list):
-                        prior_teams = {t["team_name"]: t for t in raw_teams if t.get("team_name")}
+                        new_dict = {t["team_name"]: t for t in raw_teams if t.get("team_name")}
                     elif isinstance(raw_teams, dict):
-                        prior_teams = raw_teams
-                    if prior_teams:
-                        break
+                        new_dict = raw_teams
+                    for tk, tv in new_dict.items():
+                        if tk not in prior_teams:
+                            prior_teams[tk] = tv
             except Exception:
                 pass
 
@@ -514,21 +516,29 @@ def attach_prior_season_stats(teams, league_id, season=None):
         c_name = name.lower().strip()
         matched = None
 
-        # 1. Exact or case-insensitive match
-        if name in prior_teams:
-            matched = prior_teams[name]
-        elif c_name in prior_lower:
-            matched = prior_lower[c_name]
-        else:
-            # 2. Fuzzy match
-            best_k, best_score = None, 0.0
-            for pk in prior_teams:
-                sim = difflib.SequenceMatcher(None, c_name, pk.lower().strip()).ratio()
-                if sim > best_score:
-                    best_score = sim
-                    best_k = pk
-            if best_score >= 0.85:
-                matched = prior_teams[best_k]
+        # 1. Use the robust find_team matcher (handles [School] [Mascot] -> [School] and overrides)
+        try:
+            from run_basketball_daily_v2 import find_team
+            _, matched = find_team(name, prior_teams)
+        except Exception:
+            matched = None
+
+        # 2. Exact or case-insensitive match
+        if not matched:
+            if name in prior_teams:
+                matched = prior_teams[name]
+            elif c_name in prior_lower:
+                matched = prior_lower[c_name]
+            else:
+                # 3. Fuzzy fallback
+                best_k, best_score = None, 0.0
+                for pk in prior_teams:
+                    sim = difflib.SequenceMatcher(None, c_name, pk.lower().strip()).ratio()
+                    if sim > best_score:
+                        best_score = sim
+                        best_k = pk
+                if best_score >= 0.85:
+                    matched = prior_teams[best_k]
 
         if matched and (matched.get("games_played", matched.get("games", 0)) >= 3 or matched.get("srs_rating") is not None):
             t["previous_season"] = dict(matched)

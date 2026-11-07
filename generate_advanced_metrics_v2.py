@@ -435,6 +435,9 @@ def clean_team_name(text: str) -> str:
 def parse_date(date_str):
     """Parse dates from multiple sources: YYYY-MM-DD (API), Dec 12, 2025 (Proballers), DD.MM. HH:MM (Flashscore)"""
     if not date_str: return datetime.datetime.min
+    if date_str == "Unknown":
+        # Proballers box-scores scraped without explicit title timestamps are fresh active-season games
+        return NOW
     try:
         # ISO format: YYYY-MM-DD...
         if "-" in date_str and len(date_str) >= 10:
@@ -462,7 +465,7 @@ def parse_date(date_str):
         pass
     return datetime.datetime.min
 
-def process_leagues():
+def process_leagues(target_league_id=None):
     print(f"\n===========================================================")
     print("  INITIALIZING [SRS] & [ADVANCED] MATH RANKING ENGINE")
     print(f"===========================================================")
@@ -582,6 +585,8 @@ def process_leagues():
     
     for league_id, all_games in games_by_league.items():
         league_id = re.sub(r'[^a-zA-Z0-9_-]', '', str(league_id))
+        if target_league_id and str(league_id) != str(target_league_id):
+            continue
         if len(all_games) < 5:
             continue
             
@@ -927,4 +932,8 @@ def process_leagues():
     print(f"===========================================================")
 
 if __name__ == "__main__":
-    process_leagues()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--league_id", type=str, default=None, help="Process single league ID")
+    args = parser.parse_args()
+    process_leagues(target_league_id=args.league_id)

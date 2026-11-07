@@ -78,6 +78,12 @@ jobs:
           python build_player_props.py
           echo "Player props build complete."
 
+      - name: Build Highest-Scoring Half (HSH) profiles
+        run: |
+          echo "Aggregating historical HSH team & league profiles..."
+          python aggregate_hsh_stats.py --min_games 3
+          echo "HSH profiles build complete."
+
       - name: Run football predictions (full mode)
         env:
           API_BASKETBALL_KEY: ${{ secrets.API_BASKETBALL_KEY }}

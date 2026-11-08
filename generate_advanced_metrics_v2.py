@@ -233,10 +233,11 @@ def calculate_iterative_srs(games):
     return teams
 
 
-def calculate_advanced_ratings(games, pace_pivot=76.0):
+def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
     """
-    Compute efficiency-adjusted ratings from Proballers box-score stats.
-    Integrates True Four Factors (eFG/TS%, TOV%, ORB/DRB%, FTR) + Time Decay Bias.
+    Compute true KenPom/Barttorvik-equivalent Opponent-Adjusted Efficiency ratings (AdjO & AdjD)
+    with Gauss-Seidel iterative solver, decaying Bayesian prior anchor,
+    and Dean Oliver's Four Factors.
     """
     import math
     import datetime
@@ -246,164 +247,211 @@ def calculate_advanced_ratings(games, pace_pivot=76.0):
     max_date = max((g.get("_parsed_date", datetime.datetime.min) for g in games), default=datetime.datetime.now())
     if max_date == datetime.datetime.min: max_date = datetime.datetime.now()
 
-    for g in games:
-        stats = g.get("stats") or g.get("advanced_stats")
-        if not stats or not isinstance(stats, dict):
-            continue
+    def get_poss(t_s, o_s, pace_p):
+        if t_s and o_s:
+            fga = t_s.get("FGA", 0) + o_s.get("FGA", 0)
+            fta = t_s.get("FTA", 0) + o_s.get("FTA", 0)
+            tov = t_s.get("TOV", 0) + o_s.get("TOV", 0)
+            orb = t_s.get("ORB", 0) + o_s.get("ORB", 0)
+            poss = 0.5 * (fga - orb + tov + 0.44 * fta)
+            if 40 <= poss <= 100:
+                return poss
+        return pace_p
 
-        home_team = CROSS_SOURCE_CANONICAL_MAP.get(g.get("home_team"), g.get("home_team"))
-        away_team = CROSS_SOURCE_CANONICAL_MAP.get(g.get("away_team"), g.get("away_team"))
+    # PASS 1: Build schedules and extract Four Factors
+    for g in games:
+        ht = CROSS_SOURCE_CANONICAL_MAP.get(g.get("home_team"), g.get("home_team"))
+        at = CROSS_SOURCE_CANONICAL_MAP.get(g.get("away_team"), g.get("away_team"))
         hs = g.get("home_score", 0)
         as_ = g.get("away_score", 0)
-        if not home_team or not away_team or not hs or not as_:
+        if not ht or not at or hs <= 0 or as_ <= 0:
             continue
 
-        home_s = stats.get("home", {})
-        away_s = stats.get("away", {})
-        if not home_s or not away_s:
-            continue
-            
         g_date = g.get("_parsed_date", max_date)
         if g_date == datetime.datetime.min: g_date = max_date
         days_old = (max_date - g_date).days
+
         if g.get("is_prior_season"):
             weight = 0.35
         else:
             weight = 1.0 if days_old <= 14 else math.exp(-0.030 * (days_old - 14))
             if weight < 0.01: continue
 
-        for team, pts, opp_pts, t_s, o_s in [
-            (home_team, hs, as_, home_s, away_s),
-            (away_team, as_, hs, away_s, home_s),
+        st = g.get("stats") or g.get("advanced_stats") or {}
+        home_s = st.get("home", {}) if isinstance(st, dict) else {}
+        away_s = st.get("away", {}) if isinstance(st, dict) else {}
+        poss = get_poss(home_s, away_s, pace_pivot)
+
+        # Raw possession efficiencies (pts per 100 poss)
+        h_eff = (hs / poss) * 100.0
+        a_eff = (as_ / poss) * 100.0
+
+        # Neutral-site normalization (HCA ~ 1.75 pts per 100 poss)
+        hca_eff = 1.75
+        h_eff_n = h_eff - hca_eff
+        a_eff_n = a_eff + hca_eff
+
+        for team, opp, pts, opp_pts, off_eff, def_eff, t_s, o_s, is_home in [
+            (ht, at, hs, as_, h_eff_n, a_eff_n, home_s, away_s, True),
+            (at, ht, as_, hs, a_eff_n, h_eff_n, away_s, home_s, False),
         ]:
             if team not in teams:
                 teams[team] = {
-                    "games": 0, "weight_sum": 0.0, "wins": 0,
+                    "games": 0, "curr_games": 0, "weight_sum": 0.0, "wins": 0,
                     "pts_for": 0, "pts_against": 0, "game_totals": [],
-                    "fga": 0, "fta": 0, "tov": 0, "orb": 0, "drb": 0, "trb": 0,
-                    "opp_fga": 0, "opp_fta": 0, "opp_pts": 0,
-                    "opp_tov": 0, "opp_orb": 0,
+                    "schedule": [], "sum_off_eff": 0.0, "sum_def_eff": 0.0,
+                    # Four Factors accumulators
+                    "box_weight": 0.0, "fga": 0, "fta": 0, "tov": 0, "orb": 0, "drb": 0, "trb": 0,
+                    "opp_fga": 0, "opp_fta": 0, "opp_pts": 0, "opp_tov": 0, "opp_orb": 0,
                 }
             td = teams[team]
-            td["games"]       += 1
-            td["weight_sum"]  += weight
-            td["pts_for"]     += (pts * weight)
+            td["games"] += 1
+            if not g.get("is_prior_season"):
+                td["curr_games"] += 1
+            td["weight_sum"] += weight
+            td["pts_for"] += (pts * weight)
             td["pts_against"] += (opp_pts * weight)
+            td["sum_off_eff"] += (off_eff * weight)
+            td["sum_def_eff"] += (def_eff * weight)
             td["game_totals"].append(pts + opp_pts)
+            td["schedule"].append((opp, off_eff, def_eff, weight))
             if pts > opp_pts:
                 td["wins"] += 1
 
-            def get_stat(s_dict, key):
-                # Try uppercase first (Proballers), then lowercase (NBL1)
-                return s_dict.get(key.upper(), s_dict.get(key.lower(), 0))
-
-            td["fga"] += (get_stat(t_s, "FGA") * weight)
-            td["fta"] += (get_stat(t_s, "FTA") * weight)
-            td["tov"] += (get_stat(t_s, "TOV") * weight)
-            td["orb"] += (get_stat(t_s, "ORB") * weight)
-            
-            # Handle DRB/TRB logic with case-insensitivity
-            t_drb = get_stat(t_s, "DRB")
-            t_trb = get_stat(t_s, "TRB")
-            t_orb = get_stat(t_s, "ORB")
-            if not t_drb and t_trb:
-                t_drb = max(0, t_trb - t_orb)
-            td["drb"] += (t_drb * weight)
-            td["trb"] += (t_trb * weight)
-
-            td["opp_fga"] += (get_stat(o_s, "FGA") * weight)
-            td["opp_fta"] += (get_stat(o_s, "FTA") * weight)
-            td["opp_pts"] += (opp_pts * weight)
-            td["opp_tov"] += (get_stat(o_s, "TOV") * weight)
-            td["opp_orb"] += (get_stat(o_s, "ORB") * weight)
+            if t_s and o_s:
+                td["box_weight"] += weight
+                def get_stat(s_dict, key):
+                    return s_dict.get(key.upper(), s_dict.get(key.lower(), 0))
+                td["fga"] += (get_stat(t_s, "FGA") * weight)
+                td["fta"] += (get_stat(t_s, "FTA") * weight)
+                td["tov"] += (get_stat(t_s, "TOV") * weight)
+                td["orb"] += (get_stat(t_s, "ORB") * weight)
+                t_drb = get_stat(t_s, "DRB")
+                t_trb = get_stat(t_s, "TRB")
+                t_orb = get_stat(t_s, "ORB")
+                if not t_drb and t_trb:
+                    t_drb = max(0, t_trb - t_orb)
+                td["drb"] += (t_drb * weight)
+                td["trb"] += (t_trb * weight)
+                td["opp_fga"] += (get_stat(o_s, "FGA") * weight)
+                td["opp_fta"] += (get_stat(o_s, "FTA") * weight)
+                td["opp_pts"] += (opp_pts * weight)
+                td["opp_tov"] += (get_stat(o_s, "TOV") * weight)
+                td["opp_orb"] += (get_stat(o_s, "ORB") * weight)
 
     if not teams:
         return []
 
-    # Per-team efficiency metrics
+    # Initialize ratings with raw neutral efficiencies
     for td in teams.values():
-        fga  = max(td["fga"], 0.001)
-        ofga = max(td["opp_fga"], 0.001)
-        drb_opp = td["drb"] + td["opp_orb"]
-        
-        td["ts_pct"]   = td["pts_for"]  / (2.0 * (fga  + 0.44 * td["fta"])) if (fga + 0.44 * td["fta"]) > 0 else 0
-        td["tov_rate"] = td["tov"]  / fga
-        td["orb_rate"] = td["orb"]  / (td["orb"] + max((td["trb"]-td["orb"]), 0.001))
-        td["ft_rate"]  = td["fta"] / fga
-        td["drb_rate"] = td["drb"] / drb_opp if drb_opp > 0 else 0.5
-        
-        td["opp_ts_pct"]  = td["opp_pts"] / (2.0 * (ofga + 0.44 * td["opp_fta"])) if (ofga + 0.44 * td["opp_fta"]) > 0 else 0
-        td["opp_tov_rate"]= td["opp_tov"] / ofga
-        td["opp_ft_rate"] = td["opp_fta"] / ofga
+        if td["weight_sum"] > 0:
+            td["raw_off"] = td["sum_off_eff"] / td["weight_sum"]
+            td["raw_def"] = td["sum_def_eff"] / td["weight_sum"]
+        else:
+            td["raw_off"] = eff_pivot
+            td["raw_def"] = eff_pivot
+        td["adj_off"] = td["raw_off"]
+        td["adj_def"] = td["raw_def"]
 
-    valid = [td for td in teams.values() if td["weight_sum"] >= 1.5]
-    if not valid:
-        return []
+    # PASS 2: Gauss-Seidel Iterative Opponent Adjustment Loop (KenPom)
+    for iteration in range(30):
+        max_delta = 0.0
+        for td in teams.values():
+            if td["weight_sum"] <= 0:
+                continue
 
-    # League averages (used as the neutral baseline)
-    lg_ts      = sum(t["ts_pct"]       for t in valid) / len(valid)
-    lg_tov     = sum(t["tov_rate"]     for t in valid) / len(valid)
-    lg_orb     = sum(t["orb_rate"]     for t in valid) / len(valid)
-    lg_ftr     = sum(t["ft_rate"]      for t in valid) / len(valid)
-    
-    lg_opp_ts  = sum(t["opp_ts_pct"]   for t in valid) / len(valid)
-    lg_opp_tov = sum(t["opp_tov_rate"] for t in valid) / len(valid)
-    lg_drb     = sum(t["drb_rate"]     for t in valid) / len(valid)
-    lg_opp_ftr = sum(t["opp_ft_rate"]  for t in valid) / len(valid)
+            # Bayesian Preseason/Prior Anchor: decays as games accumulate
+            curr_g = td["curr_games"]
+            w_prior = max(0.0, (10.0 - curr_g) * 0.5) if td["games"] < 10 else 0.0
 
+            sum_adj_o = eff_pivot * w_prior
+            sum_adj_d = eff_pivot * w_prior
+            tot_w = w_prior
+
+            for opp, off_eff, def_eff, w in td["schedule"]:
+                if opp in teams:
+                    opp_d = teams[opp]["adj_def"]
+                    opp_o = teams[opp]["adj_off"]
+                else:
+                    opp_d = eff_pivot
+                    opp_o = eff_pivot
+
+                # KenPom opponent adjustment equations
+                sum_adj_o += (off_eff + (eff_pivot - opp_d)) * w
+                sum_adj_d += (def_eff + (eff_pivot - opp_o)) * w
+                tot_w += w
+
+            new_off = sum_adj_o / tot_w
+            new_def = sum_adj_d / tot_w
+
+            delta = max(abs(new_off - td["adj_off"]), abs(new_def - td["adj_def"]))
+            if delta > max_delta:
+                max_delta = delta
+
+            td["adj_off"] = new_off
+            td["adj_def"] = new_def
+
+        # Re-center distribution around eff_pivot
+        avg_o = sum(td["adj_off"] for td in teams.values()) / len(teams)
+        avg_d = sum(td["adj_def"] for td in teams.values()) / len(teams)
+        for td in teams.values():
+            td["adj_off"] += (eff_pivot - avg_o)
+            td["adj_def"] += (eff_pivot - avg_d)
+
+        if max_delta < 0.005:
+            break
+
+    # PASS 3: Format output records with Four Factors
     output_stats = []
     for team_name, td in teams.items():
         w = td["weight_sum"]
         g = td["games"]
-        if w < 1.0:
+        if w < 0.5 or g < 1:
             continue
-
-        raw_off = td["pts_for"]     / w
-        raw_def = td["pts_against"] / w
-
-        # True Four Factors Offensive Adjustment
-        ts_delta  = (td["ts_pct"]   - lg_ts)  * 60
-        tov_delta = (lg_tov - td["tov_rate"]) * 50
-        orb_delta = (td["orb_rate"] - lg_orb) * 20
-        ftr_delta = (td["ft_rate"]  - lg_ftr) * 15
-        off_adj   = 0.40 * ts_delta + 0.25 * tov_delta + 0.20 * orb_delta + 0.15 * ftr_delta
-
-        # True Four Factors Defensive Adjustment
-        opp_ts_delta  = (lg_opp_ts  - td["opp_ts_pct"])   * 60
-        opp_tov_delta = (td["opp_tov_rate"] - lg_opp_tov) * 50
-        drb_delta     = (td["drb_rate"] - lg_drb)         * 20
-        opp_ftr_delta = (lg_opp_ftr - td["opp_ft_rate"])  * 15
-        def_adj       = 0.40 * opp_ts_delta + 0.25 * opp_tov_delta + 0.20 * drb_delta + 0.15 * opp_ftr_delta
-
-        # Apply as PPG adjustments, then pace-scale (same convention as SRS output)
-        adj_off = round((raw_off + off_adj) / (pace_pivot / 100), 1) if pace_pivot > 0 else round(raw_off + off_adj, 1)
-        adj_def = round((raw_def - def_adj) / (pace_pivot / 100), 1) if pace_pivot > 0 else round(raw_def - def_adj, 1)
 
         std_dev_totals = 15.0
         n_totals = len(td["game_totals"])
         if n_totals > 1:
             mean_tot = sum(td["game_totals"]) / n_totals
             variance = sum((x - mean_tot) ** 2 for x in td["game_totals"]) / (n_totals - 1)
-            import math
             std_dev_totals = round(math.sqrt(variance), 2)
+
+        # Four Factors (if box score coverage available)
+        ts_pct = None
+        tov_rate = None
+        orb_rate = None
+        opp_ts_pct = None
+        if td["box_weight"] >= 1.0:
+            fga = max(td["fga"], 0.001)
+            ofga = max(td["opp_fga"], 0.001)
+            drb_opp = td["drb"] + td["opp_orb"]
+            ts_denom = 2.0 * (fga + 0.44 * td["fta"])
+            ts_pct = round(td["pts_for"] / ts_denom, 4) if ts_denom > 0 else None
+            tov_rate = round(td["tov"] / fga, 4)
+            orb_denom = td["orb"] + max(td["trb"] - td["orb"], 0.001)
+            orb_rate = round(td["orb"] / orb_denom, 4) if orb_denom > 0 else None
+            ots_denom = 2.0 * (ofga + 0.44 * td["opp_fta"])
+            opp_ts_pct = round(td["opp_pts"] / ots_denom, 4) if ots_denom > 0 else None
+
+        net_margin = round(td["adj_off"] - td["adj_def"], 2)
 
         output_stats.append({
             "team_name":   team_name,
             "team_id":     0,
-            "adj_off":     adj_off,
-            "adj_def":     adj_def,
+            "adj_off":     round(td["adj_off"], 1),
+            "adj_def":     round(td["adj_def"], 1),
             "adj_t":       round(pace_pivot, 1),
             "std_dev_totals": std_dev_totals,
             "games_played": g,
             "wins":        td["wins"],
-            "win_pct":     round(td["wins"] / g, 3),
-            "srs_rating":  0.0,
+            "win_pct":     round(td["wins"] / g, 3) if g > 0 else 0.0,
+            "srs_rating":  net_margin,
             "source":      "ADVANCED",
             # Expose efficiency metrics for display / audit
-            "ts_pct":      round(td["ts_pct"], 4),
-            "tov_rate":    round(td["tov_rate"], 4),
-            "orb_rate":    round(td["orb_rate"], 4),
-            "opp_ts_pct":  round(td["opp_ts_pct"], 4),
+            "ts_pct":      ts_pct,
+            "tov_rate":    tov_rate,
+            "orb_rate":    orb_rate,
+            "opp_ts_pct":  opp_ts_pct,
         })
 
     return output_stats
@@ -762,10 +810,13 @@ def process_leagues(target_league_id=None):
         
         config_path = f"configs/leagues_v2/{league_id}.json"
         pace_pivot = 76.0
+        eff_pivot = 108.0
         if os.path.exists(config_path):
             try:
                 with open(config_path, encoding="utf-8") as f:
-                    pace_pivot = json.load(f).get("pace_pivot", 76.0)
+                    cfg_data = json.load(f)
+                    pace_pivot = cfg_data.get("pace_pivot", 76.0)
+                    eff_pivot = cfg_data.get("eff_pivot", 108.0)
             except: pass
                 
         output_stats = []
@@ -840,8 +891,8 @@ def process_leagues(target_league_id=None):
             with open(f"data/bball_stats_{league_id}_prior_srs.json", "w", encoding="utf-8") as f:
                 json.dump(payload_srs, f, indent=4)
 
-        # Write [ADVANCED] — uses GENUINE efficiency ratings, not SRS clone
-        adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=pace_pivot) if advanced_eligible else []
+        # Write [ADVANCED] — uses GENUINE KenPom-equivalent opponent-adjusted efficiency ratings
+        adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=pace_pivot, eff_pivot=eff_pivot) if advanced_eligible else []
         if adv_stats:
             for t in adv_stats:
                 t["current_season_games"] = _resolve_season_games(t["team_name"])

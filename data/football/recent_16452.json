@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1569859,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T05:00:00+00:00",
+      "timestamp": 1793422800,
+      "periods": {
+        "first": 1793422800,
+        "second": 1793426400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1234,
+      "name": "K4 League",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/1234.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27863,
+        "name": "Jincheon",
+        "logo": "https://media.api-sports.io/football/teams/27863.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16452,
+        "name": "Jinju Citizen",
+        "logo": "https://media.api-sports.io/football/teams/16452.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569856,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569831,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T08:00:00+00:00",
-      "timestamp": 1788076800,
-      "periods": {
-        "first": 1788076800,
-        "second": 1788080400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 1234,
-      "name": "K4 League",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/1234.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27858,
-        "name": "Geumsan Insam",
-        "logo": "https://media.api-sports.io/football/teams/27858.png",
-        "winner": null
-      },
-      "away": {
-        "id": 16452,
-        "name": "Jinju Citizen",
-        "logo": "https://media.api-sports.io/football/teams/16452.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1558034,
+      "referee": "D. Sabanagic",
+      "timezone": "UTC",
+      "date": "2026-10-31T17:00:00+00:00",
+      "timestamp": 1793466000,
+      "periods": {
+        "first": 1793466000,
+        "second": 1793469600
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportni park Aluminij",
+        "city": "Kidricevo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 373,
+      "name": "1. SNL",
+      "country": "Slovenia",
+      "logo": "https://media.api-sports.io/football/leagues/373.png",
+      "flag": "https://media.api-sports.io/flags/si.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4358,
+        "name": "Aluminij",
+        "logo": "https://media.api-sports.io/football/teams/4358.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4378,
+        "name": "Radomlje",
+        "logo": "https://media.api-sports.io/football/teams/4378.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558031,
       "referee": "D. Novarlic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558017,
-      "referee": "M. Matosa",
-      "timezone": "UTC",
-      "date": "2026-09-19T18:15:00+00:00",
-      "timestamp": 1789841700,
-      "periods": {
-        "first": 1789841700,
-        "second": 1789845300
-      },
-      "venue": {
-        "id": 1441,
-        "name": "Ljudski vrt",
-        "city": "Maribor"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 373,
-      "name": "1. SNL",
-      "country": "Slovenia",
-      "logo": "https://media.api-sports.io/football/leagues/373.png",
-      "flag": "https://media.api-sports.io/flags/si.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 552,
-        "name": "Maribor",
-        "logo": "https://media.api-sports.io/football/teams/552.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4358,
-        "name": "Aluminij",
-        "logo": "https://media.api-sports.io/football/teams/4358.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

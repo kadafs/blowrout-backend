@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1576221,
+      "referee": "S. Storks",
+      "timezone": "UTC",
+      "date": "2026-10-31T19:30:00+00:00",
+      "timestamp": 1793475000,
+      "periods": {
+        "first": 1793475000,
+        "second": 1793478600
+      },
+      "venue": {
+        "id": 11900,
+        "name": "BBBank Wildpark",
+        "city": "Karlsruhe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "logo": "https://media.api-sports.io/football/teams/785.png",
+        "winner": true
+      },
+      "away": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576209,
-      "referee": "Patrick Schwengers, Germany",
+      "referee": "P. Schwengers",
       "timezone": "UTC",
       "date": "2026-10-24T11:00:00+00:00",
       "timestamp": 1792839600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792839600,
+        "second": 1792843200
       },
       "venue": {
         "id": 21553,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576205,
-      "referee": "Tom Bauer, Germany",
+      "referee": "T. Bauer",
       "timezone": "UTC",
       "date": "2026-10-17T11:00:00+00:00",
       "timestamp": 1792234800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792234800,
+        "second": 1792238400
       },
       "venue": {
         "id": 752,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1576191,
-      "referee": "Florian Lechner, Germany",
+      "referee": "F. Lechner",
       "timezone": "UTC",
       "date": "2026-10-09T16:30:00+00:00",
       "timestamp": 1791563400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791563400,
+        "second": 1791567000
       },
       "venue": {
         "id": 21553,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640045,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T14:30:00+00:00",
-      "timestamp": 1790346600,
-      "periods": {
-        "first": 1790346600,
-        "second": 1790350200
-      },
-      "venue": {
-        "id": 20473,
-        "name": "MHP Arena",
-        "city": "Stuttgart"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 172,
-        "name": "VfB Stuttgart",
-        "logo": "https://media.api-sports.io/football/teams/172.png",
-        "winner": true
-      },
-      "away": {
-        "id": 180,
-        "name": "1. FC Heidenheim",
-        "logo": "https://media.api-sports.io/football/teams/180.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639106,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T12:30:00+00:00",
+      "timestamp": 1793795400,
+      "periods": {
+        "first": 1793795400,
+        "second": 1793799000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 765,
+      "name": "PFL",
+      "country": "Philippines",
+      "logo": "https://media.api-sports.io/football/leagues/765.png",
+      "flag": "https://media.api-sports.io/flags/ph.svg",
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 21576,
+        "name": "Manila Digger",
+        "logo": "https://media.api-sports.io/football/teams/21576.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21580,
+        "name": "Tuloy",
+        "logo": "https://media.api-sports.io/football/teams/21580.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1637620,
       "referee": "A. Khorkashev",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639094,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T07:00:00+00:00",
-      "timestamp": 1791097200,
-      "periods": {
-        "first": 1791097200,
-        "second": 1791100800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 765,
-      "name": "PFL",
-      "country": "Philippines",
-      "logo": "https://media.api-sports.io/football/leagues/765.png",
-      "flag": "https://media.api-sports.io/flags/ph.svg",
-      "season": 2027,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 21576,
-        "name": "Manila Digger",
-        "logo": "https://media.api-sports.io/football/teams/21576.png",
-        "winner": true
-      },
-      "away": {
-        "id": 18265,
-        "name": "Dynamic Herb Cebu",
-        "logo": "https://media.api-sports.io/football/teams/18265.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

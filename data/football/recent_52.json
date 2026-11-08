@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1636254,
+      "referee": "Horatiu Fesnic",
+      "timezone": "UTC",
+      "date": "2026-11-05T17:45:00+00:00",
+      "timestamp": 1793900700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 525,
+        "name": "Selhurst Park",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": null
+      },
+      "away": {
+        "id": 167,
+        "name": "1899 Hoffenheim",
+        "logo": "https://media.api-sports.io/football/teams/167.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557456,
-      "referee": "Michael Oliver",
+      "referee": "M. Oliver",
       "timezone": "UTC",
       "date": "2026-10-31T17:30:00+00:00",
       "timestamp": 1793467800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793467800,
+        "second": 1793471400
       },
       "venue": {
         "id": 593,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1557441,
-      "referee": "Paul Tierney",
+      "referee": "P. Tierney",
       "timezone": "UTC",
       "date": "2026-10-25T14:00:00+00:00",
       "timestamp": 1792936800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792936800,
+        "second": 1792940400
       },
       "venue": {
         "id": 525,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557429,
-      "referee": "Robert Jones",
-      "timezone": "UTC",
-      "date": "2026-10-18T13:00:00+00:00",
-      "timestamp": 1792328400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 508,
-        "name": "American Express Stadium",
-        "city": "Falmer"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 51,
-        "name": "Brighton",
-        "logo": "https://media.api-sports.io/football/teams/51.png",
-        "winner": true
-      },
-      "away": {
-        "id": 52,
-        "name": "Crystal Palace",
-        "logo": "https://media.api-sports.io/football/teams/52.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

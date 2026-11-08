@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645457,
+      "referee": "C. Condori",
+      "timezone": "UTC",
+      "date": "2026-11-05T23:00:00+00:00",
+      "timestamp": 1793919600,
+      "periods": {
+        "first": 1793919600,
+        "second": 1793923200
+      },
+      "venue": {
+        "id": 198,
+        "name": "Estadio Hernando Siles",
+        "city": "La Paz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 964,
+      "name": "Copa de la Divisi\u00f3n Profesional",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/964.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3702,
+        "name": "Bol\u00edvar",
+        "logo": "https://media.api-sports.io/football/teams/3702.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3708,
+        "name": "Real Potos\u00ed",
+        "logo": "https://media.api-sports.io/football/teams/3708.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645526,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619323,
-      "referee": "G. A. Vargas Carreno",
-      "timezone": "UTC",
-      "date": "2026-10-11T19:00:00+00:00",
-      "timestamp": 1791745200,
-      "periods": {
-        "first": 1791745200,
-        "second": 1791748800
-      },
-      "venue": {
-        "id": 22322,
-        "name": "Estadio Victor Agust\u00edn Ugarte",
-        "city": "Potosi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 344,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/344.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Apertura - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3708,
-        "name": "Real Potos\u00ed",
-        "logo": "https://media.api-sports.io/football/teams/3708.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3711,
-        "name": "The Strongest",
-        "logo": "https://media.api-sports.io/football/teams/3711.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

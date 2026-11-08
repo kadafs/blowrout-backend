@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1636345,
+      "referee": "Andrea Colombo",
+      "timezone": "UTC",
+      "date": "2026-11-05T20:00:00+00:00",
+      "timestamp": 1793908800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 589,
+        "name": "Stadium of Light",
+        "city": "Sunderland"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 746,
+        "name": "Sunderland",
+        "logo": "https://media.api-sports.io/football/teams/746.png",
+        "winner": false
+      },
+      "away": {
+        "id": 620,
+        "name": "Dinamo Zagreb",
+        "logo": "https://media.api-sports.io/football/teams/620.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557451,
-      "referee": "Simon Hooper",
+      "referee": "S. Hooper",
       "timezone": "UTC",
       "date": "2026-10-31T15:00:00+00:00",
       "timestamp": 1793458800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793458800,
+        "second": 1793462400
       },
       "venue": {
         "id": 11896,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1557446,
-      "referee": "Stuart Attwell",
+      "referee": "S. Attwell",
       "timezone": "UTC",
       "date": "2026-10-25T16:30:00+00:00",
       "timestamp": 1792945800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792945800,
+        "second": 1792949400
       },
       "venue": {
         "id": 589,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557427,
-      "referee": "Craig Pawson, England",
-      "timezone": "UTC",
-      "date": "2026-10-18T13:00:00+00:00",
-      "timestamp": 1792328400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 504,
-        "name": "Vitality Stadium",
-        "city": "Bournemouth"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 35,
-        "name": "Bournemouth",
-        "logo": "https://media.api-sports.io/football/teams/35.png",
-        "winner": true
-      },
-      "away": {
-        "id": 746,
-        "name": "Sunderland",
-        "logo": "https://media.api-sports.io/football/teams/746.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

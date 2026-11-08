@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562687,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T18:00:00+00:00",
+      "timestamp": 1793383200,
+      "periods": {
+        "first": 1793383200,
+        "second": 1793386800
+      },
+      "venue": {
+        "id": null,
+        "name": "Sports facility Pisek",
+        "city": "Pisek"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7334,
+        "name": "P\u00edsek",
+        "logo": "https://media.api-sports.io/football/teams/7334.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7269,
+        "name": "Aritma Praha",
+        "logo": "https://media.api-sports.io/football/teams/7269.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562675,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562643,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T08:15:00+00:00",
-      "timestamp": 1790410500,
-      "periods": {
-        "first": 1790410500,
-        "second": 1790414100
-      },
-      "venue": {
-        "id": null,
-        "name": "Aritma Praha - Artifical Grass",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7269,
-        "name": "Aritma Praha",
-        "logo": "https://media.api-sports.io/football/teams/7269.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7268,
-        "name": "Admira Praha",
-        "logo": "https://media.api-sports.io/football/teams/7268.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

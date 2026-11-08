@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1490614,
+      "referee": "Allen Chapman",
+      "timezone": "UTC",
+      "date": "2026-11-08T00:00:00+00:00",
+      "timestamp": 1794096000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19418,
+        "name": "BBVA Compass Stadium",
+        "city": "Houston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1600,
+        "name": "Houston Dynamo",
+        "logo": "https://media.api-sports.io/football/teams/1600.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20787,
+        "name": "St. Louis City",
+        "logo": "https://media.api-sports.io/football/teams/20787.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490414,
-      "referee": "Alexis Da Silva, USA",
+      "referee": "A. Da Silva",
       "timezone": "UTC",
       "date": "2026-08-23T00:30:00+00:00",
       "timestamp": 1787445000,
@@ -12,14 +82,14 @@
       },
       "venue": {
         "id": null,
-        "name": "Energizer Park",
+        "name": "CITYPARK",
         "city": "St. Louis"
       },
       "status": {
-        "long": "Second Half",
-        "short": "2H",
-        "elapsed": 74,
-        "extra": null
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
       }
     },
     "league": {
@@ -47,8 +117,8 @@
       }
     },
     "goals": {
-      "home": 1,
-      "away": 0
+      "home": 2,
+      "away": 1
     },
     "score": {
       "halftime": {
@@ -56,8 +126,8 @@
         "away": 0
       },
       "fulltime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "extratime": {
         "home": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1151228,
-      "referee": "T. Penso",
-      "timezone": "UTC",
-      "date": "2024-10-06T00:30:00+00:00",
-      "timestamp": 1728174600,
-      "periods": {
-        "first": 1728174600,
-        "second": 1728178200
-      },
-      "venue": {
-        "id": 19408,
-        "name": "CITYPARK",
-        "city": "St. Louis, Missouri"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2024,
-      "round": "Regular Season - 48",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20787,
-        "name": "St. Louis City",
-        "logo": "https://media.api-sports.io/football/teams/20787.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1600,
-        "name": "Houston Dynamo",
-        "logo": "https://media.api-sports.io/football/teams/1600.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

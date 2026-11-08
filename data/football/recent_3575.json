@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1591364,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": 1793534400,
+        "second": 1793538000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Izmir"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 205,
+      "name": "2. Lig",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/205.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "2. Lig White Group - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3599,
+        "name": "Menemen FK",
+        "logo": "https://media.api-sports.io/football/teams/3599.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3575,
+        "name": "Hatayspor",
+        "logo": "https://media.api-sports.io/football/teams/3575.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591356,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591327,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T16:00:00+00:00",
-      "timestamp": 1791043200,
-      "periods": {
-        "first": 1791043200,
-        "second": 1791046800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 205,
-      "name": "2. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/205.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "2. Lig White Group - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6523,
-        "name": "Isparta 32 Spor",
-        "logo": "https://media.api-sports.io/football/teams/6523.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3575,
-        "name": "Hatayspor",
-        "logo": "https://media.api-sports.io/football/teams/3575.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

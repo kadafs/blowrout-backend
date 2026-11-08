@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1505315,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": null,
+        "name": "Midgardsvallen",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 563,
+      "name": "Ettan - Norra",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/563.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Norra - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16597,
+        "name": "Arlanda",
+        "logo": "https://media.api-sports.io/football/teams/16597.png",
+        "winner": true
+      },
+      "away": {
+        "id": 765,
+        "name": "AFC Eskilstuna",
+        "logo": "https://media.api-sports.io/football/teams/765.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505308,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505275,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T11:00:00+00:00",
-      "timestamp": 1790506800,
-      "periods": {
-        "first": 1790506800,
-        "second": 1790510400
-      },
-      "venue": {
-        "id": null,
-        "name": "Midgardsvallen",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 563,
-      "name": "Ettan - Norra",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/563.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Norra - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16597,
-        "name": "Arlanda",
-        "logo": "https://media.api-sports.io/football/teams/16597.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12578,
-        "name": "Enk\u00f6ping",
-        "logo": "https://media.api-sports.io/football/teams/12578.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

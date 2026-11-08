@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1597802,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 20174,
+        "name": "Campo Estrela",
+        "city": "Evora"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 865,
+      "name": "Liga 3",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/865.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15207,
+        "name": "Lusitano \u00c9vora 1911",
+        "logo": "https://media.api-sports.io/football/teams/15207.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4816,
+        "name": "Vit\u00f3ria de Sernache",
+        "logo": "https://media.api-sports.io/football/teams/4816.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597795,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1597769,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T16:00:00+00:00",
-      "timestamp": 1789315200,
-      "periods": {
-        "first": 1789315200,
-        "second": 1789318800
-      },
-      "venue": {
-        "id": 3581,
-        "name": "Campo da Mata",
-        "city": "Caldas da Rainha"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 865,
-      "name": "Liga 3",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/865.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4733,
-        "name": "Caldas",
-        "logo": "https://media.api-sports.io/football/teams/4733.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4816,
-        "name": "Vit\u00f3ria de Sernache",
-        "logo": "https://media.api-sports.io/football/teams/4816.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

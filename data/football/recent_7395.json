@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585816,
+      "referee": "Emre Kargin",
+      "timezone": "UTC",
+      "date": "2026-10-31T16:00:00+00:00",
+      "timestamp": 1793462400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2399,
+        "name": "Mumin Ozkasap Spor Tesisleri",
+        "city": "Manisa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 204,
+      "name": "1. Lig",
+      "country": "Turkey",
+      "logo": "https://media.api-sports.io/football/leagues/204.png",
+      "flag": "https://media.api-sports.io/flags/tr.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3597,
+        "name": "Manisa F.K.",
+        "logo": "https://media.api-sports.io/football/teams/3597.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7395,
+        "name": "Batman Petrolspor",
+        "logo": "https://media.api-sports.io/football/teams/7395.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585801,
       "referee": "Oguzhan Aksu",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585761,
-      "referee": "Ali Yilmaz, T\u00fcrkiye",
-      "timezone": "UTC",
-      "date": "2026-09-19T17:00:00+00:00",
-      "timestamp": 1789837200,
-      "periods": {
-        "first": 1789837200,
-        "second": 1789840800
-      },
-      "venue": {
-        "id": null,
-        "name": "16 Mayis Sehir Stadyumu",
-        "city": "Batman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 204,
-      "name": "1. Lig",
-      "country": "Turkey",
-      "logo": "https://media.api-sports.io/football/leagues/204.png",
-      "flag": "https://media.api-sports.io/flags/tr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7395,
-        "name": "Batman Petrolspor",
-        "logo": "https://media.api-sports.io/football/teams/7395.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1003,
-        "name": "Bursaspor",
-        "logo": "https://media.api-sports.io/football/teams/1003.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

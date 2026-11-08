@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639830,
+      "referee": "Alex Fabricio Cajas Torres",
+      "timezone": "UTC",
+      "date": "2026-10-31T16:30:00+00:00",
+      "timestamp": 1793464200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 467,
+        "name": "Estadio Jocay",
+        "city": "Manta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 242,
+      "name": "Liga Pro",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/242.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Relegation Group - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1149,
+        "name": "Delfin SC",
+        "logo": "https://media.api-sports.io/football/teams/1149.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1154,
+        "name": "Deportivo Cuenca",
+        "logo": "https://media.api-sports.io/football/teams/1154.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639827,
       "referee": "J. C. Andrade Arreaga",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1162,
         "name": "Mushuc Runa SC",
         "logo": "https://media.api-sports.io/football/teams/1162.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1519490,
-      "referee": "L. Quinonez",
-      "timezone": "UTC",
-      "date": "2026-09-13T00:00:00+00:00",
-      "timestamp": 1789257600,
-      "periods": {
-        "first": 1789257600,
-        "second": 1789261200
-      },
-      "venue": {
-        "id": 471,
-        "name": "Estadio Rodrigo Paz Delgado",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2026,
-      "round": "Regular Season - 30",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1158,
-        "name": "LDU de Quito",
-        "logo": "https://media.api-sports.io/football/teams/1158.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1154,
-        "name": "Deportivo Cuenca",
-        "logo": "https://media.api-sports.io/football/teams/1154.png",
         "winner": null
       }
     },

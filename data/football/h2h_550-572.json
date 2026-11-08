@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640674,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T16:00:00+00:00",
+      "timestamp": 1793116800,
+      "periods": {
+        "first": 1793116800,
+        "second": 1793120400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 335,
+      "name": "Cup",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/335.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": true
+      },
+      "away": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1391606,
       "referee": "O. Afanasyev",
       "timezone": "UTC",
@@ -272,76 +342,6 @@
       "extratime": {
         "home": 0,
         "away": 0
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1221068,
-      "referee": "V. Romanov",
-      "timezone": "UTC",
-      "date": "2025-04-27T15:00:00+00:00",
-      "timestamp": 1745766000,
-      "periods": {
-        "first": 1745766000,
-        "second": 1745769600
-      },
-      "venue": {
-        "id": 20124,
-        "name": "Arena Lviv",
-        "city": "Lviv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2024,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 550,
-        "name": "Shakhtar Donetsk",
-        "logo": "https://media.api-sports.io/football/teams/550.png",
-        "winner": null
-      },
-      "away": {
-        "id": 572,
-        "name": "Dynamo Kyiv",
-        "logo": "https://media.api-sports.io/football/teams/572.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
       },
       "penalty": {
         "home": null,

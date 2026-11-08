@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575527,
+      "referee": "Joao Goncalves",
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1264,
+        "name": "Estadio do Fontelo",
+        "city": "Viseu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 94,
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/94.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 238,
+        "name": "Academico Viseu",
+        "logo": "https://media.api-sports.io/football/teams/238.png",
+        "winner": true
+      },
+      "away": {
+        "id": 226,
+        "name": "Rio Ave",
+        "logo": "https://media.api-sports.io/football/teams/226.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575523,
       "referee": "H. Carvalho",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575499,
-      "referee": "G. Correia",
-      "timezone": "UTC",
-      "date": "2026-09-14T17:45:00+00:00",
-      "timestamp": 1789407900,
-      "periods": {
-        "first": 1789407900,
-        "second": 1789411500
-      },
-      "venue": {
-        "id": null,
-        "name": "Est\u00e1dio do Rio Ave FC",
-        "city": "Vila do Conde"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 94,
-      "name": "Primeira Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/94.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 226,
-        "name": "Rio Ave",
-        "logo": "https://media.api-sports.io/football/teams/226.png",
-        "winner": null
-      },
-      "away": {
-        "id": 15130,
-        "name": "Estrela",
-        "logo": "https://media.api-sports.io/football/teams/15130.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

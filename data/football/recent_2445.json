@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1637494,
+      "referee": "Clifford Postanes Daypuyat, Philippines",
+      "timezone": "UTC",
+      "date": "2026-11-04T07:45:00+00:00",
+      "timestamp": 1793778300,
+      "periods": {
+        "first": 1793778300,
+        "second": 1793781900
+      },
+      "venue": {
+        "id": 20807,
+        "name": "AAMI Park",
+        "city": "Melbourne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 18,
+      "name": "AFC Champions League Two",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/18.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 944,
+        "name": "Melbourne Victory",
+        "logo": "https://media.api-sports.io/football/teams/944.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2445,
+        "name": "Persib Bandung",
+        "logo": "https://media.api-sports.io/football/teams/2445.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1622825,
-      "referee": null,
+      "referee": "R. Permana",
       "timezone": "UTC",
       "date": "2026-11-01T08:30:00+00:00",
       "timestamp": 1793521800,
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1637493,
-      "referee": "Mohammed Sami Al-Ismail",
+      "referee": "Mohammed Sami Taher Al Ismail, Saudi Arabia",
       "timezone": "UTC",
       "date": "2026-10-28T12:15:00+00:00",
       "timestamp": 1793189700,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793189700,
+        "second": 1793193300
       },
       "venue": {
         "id": null,
-        "name": "Jalak Harupat Soreang Stadium ",
+        "name": "Jalak Harupat Soreang Stadium",
         "city": "Bandung"
       },
       "status": {
@@ -253,76 +323,6 @@
         "id": 2445,
         "name": "Persib Bandung",
         "logo": "https://media.api-sports.io/football/teams/2445.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1622798,
-      "referee": "M. Iqballuddin",
-      "timezone": "UTC",
-      "date": "2026-10-18T12:00:00+00:00",
-      "timestamp": 1792324800,
-      "periods": {
-        "first": 1792324800,
-        "second": 1792328400
-      },
-      "venue": {
-        "id": null,
-        "name": "Gelora Bandung Lautan Api Stadium",
-        "city": "Bandung"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 274,
-      "name": "Liga 1",
-      "country": "Indonesia",
-      "logo": "https://media.api-sports.io/football/leagues/274.png",
-      "flag": "https://media.api-sports.io/flags/id.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2445,
-        "name": "Persib Bandung",
-        "logo": "https://media.api-sports.io/football/teams/2445.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4241,
-        "name": "Persik Kediri",
-        "logo": "https://media.api-sports.io/football/teams/4241.png",
         "winner": false
       }
     },

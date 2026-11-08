@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552809,
+      "referee": "Azzedine Souifi",
+      "timezone": "UTC",
+      "date": "2026-10-31T19:45:00+00:00",
+      "timestamp": 1793475900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 684,
+        "name": "Stade de l'Aube",
+        "city": "Troyes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1298,
+        "name": "Le Mans",
+        "logo": "https://media.api-sports.io/football/teams/1298.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552793,
       "referee": "Willy Delajod",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552767,
-      "referee": "Geoffrey Kubler, French Guiana",
-      "timezone": "UTC",
-      "date": "2026-09-19T18:45:00+00:00",
-      "timestamp": 1789843500,
-      "periods": {
-        "first": 1789843500,
-        "second": 1789847100
-      },
-      "venue": {
-        "id": 19206,
-        "name": "Stade Marie-Marvingt",
-        "city": "Le Mans"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1298,
-        "name": "Le Mans",
-        "logo": "https://media.api-sports.io/football/teams/1298.png",
-        "winner": true
-      },
-      "away": {
-        "id": 97,
-        "name": "Lorient",
-        "logo": "https://media.api-sports.io/football/teams/97.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
         "away": 0
       },
       "fulltime": {

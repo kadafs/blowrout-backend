@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645380,
+      "referee": "J. Cabero",
+      "timezone": "UTC",
+      "date": "2026-11-04T22:00:00+00:00",
+      "timestamp": 1793829600,
+      "periods": {
+        "first": 1793829600,
+        "second": 1793833200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "La Calera"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2326,
+        "name": "Union La Calera",
+        "logo": "https://media.api-sports.io/football/teams/2326.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2330,
+        "name": "Coquimbo Unido",
+        "logo": "https://media.api-sports.io/football/teams/2330.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505549,
       "referee": "Franco Esteban Jimenez Lazo",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638382,
-      "referee": "N. Millas",
-      "timezone": "UTC",
-      "date": "2026-09-22T23:30:00+00:00",
-      "timestamp": 1790119800,
-      "periods": {
-        "first": 1790119800,
-        "second": 1790123400
-      },
-      "venue": {
-        "id": 322,
-        "name": "Estadio Zorros del Desierto",
-        "city": "Calama"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 267,
-      "name": "Copa Chile",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/267.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Round of 16",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2332,
-        "name": "Cobreloa",
-        "logo": "https://media.api-sports.io/football/teams/2332.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2330,
-        "name": "Coquimbo Unido",
-        "logo": "https://media.api-sports.io/football/teams/2330.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

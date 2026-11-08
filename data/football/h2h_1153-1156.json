@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639791,
+      "referee": "G. Araujo",
+      "timezone": "UTC",
+      "date": "2026-10-10T16:30:00+00:00",
+      "timestamp": 1791649800,
+      "periods": {
+        "first": 1791649800,
+        "second": 1791653400
+      },
+      "venue": {
+        "id": 18580,
+        "name": "Estadio Banco Guayaquil",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 242,
+      "name": "Liga Pro",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/242.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Championship Group - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1153,
+        "name": "Independiente del Valle",
+        "logo": "https://media.api-sports.io/football/teams/1153.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1156,
+        "name": "Aucas",
+        "logo": "https://media.api-sports.io/football/teams/1156.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519400,
       "referee": "R. Cabrera",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1167571,
-      "referee": "G. Guerrero",
-      "timezone": "UTC",
-      "date": "2024-09-01T20:30:00+00:00",
-      "timestamp": 1725222600,
-      "periods": {
-        "first": 1725222600,
-        "second": 1725226200
-      },
-      "venue": {
-        "id": 19380,
-        "name": "Estadio Cooprogreso Gonzalo Pozo Ripalda",
-        "city": "Quito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2024,
-      "round": "2nd Round - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1156,
-        "name": "Aucas",
-        "logo": "https://media.api-sports.io/football/teams/1156.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1153,
-        "name": "Independiente del Valle",
-        "logo": "https://media.api-sports.io/football/teams/1153.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

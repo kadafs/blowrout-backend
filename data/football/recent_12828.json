@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1566400,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T09:45:00+00:00",
+      "timestamp": 1793526300,
+      "periods": {
+        "first": 1793526300,
+        "second": 1793529900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 745,
+      "name": "Oberliga - Hamburg",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/745.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Hamburg - 14",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12828,
+        "name": "Paloma",
+        "logo": "https://media.api-sports.io/football/teams/12828.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28012,
+        "name": "Norderstedt II",
+        "logo": "https://media.api-sports.io/football/teams/28012.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1566390,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1566352,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": 1790514000,
-        "second": 1790517600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 745,
-      "name": "Oberliga - Hamburg",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/745.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Hamburg - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16085,
-        "name": "Concordia",
-        "logo": "https://media.api-sports.io/football/teams/16085.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12828,
-        "name": "Paloma",
-        "logo": "https://media.api-sports.io/football/teams/12828.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

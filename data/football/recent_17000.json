@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1588892,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 563,
+        "name": "Rodney Parade",
+        "city": "Newport"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group South - 5",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1367,
+        "name": "Newport County",
+        "logo": "https://media.api-sports.io/football/teams/1367.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17000,
+        "name": "Crystal Palace U21",
+        "logo": "https://media.api-sports.io/football/teams/17000.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621070,
       "referee": "C. Walchester",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621038,
-      "referee": "E. Swallow",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": null,
-        "name": "Borough Sports Ground",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17000,
-        "name": "Crystal Palace U21",
-        "logo": "https://media.api-sports.io/football/teams/17000.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19744,
-        "name": "Blackburn Rovers U21",
-        "logo": "https://media.api-sports.io/football/teams/19744.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

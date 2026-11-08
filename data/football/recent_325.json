@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494795,
+      "referee": "Marius Hansen Grotta",
+      "timezone": "UTC",
+      "date": "2026-11-01T18:15:00+00:00",
+      "timestamp": 1793556900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1203,
+        "name": "Intility Arena",
+        "city": "Oslo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 103,
+      "name": "Eliteserien",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/103.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 326,
+        "name": "Valerenga",
+        "logo": "https://media.api-sports.io/football/teams/326.png",
+        "winner": true
+      },
+      "away": {
+        "id": 325,
+        "name": "Tromso",
+        "logo": "https://media.api-sports.io/football/teams/325.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640474,
       "referee": "M. Hafezi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494769,
-      "referee": "Mathias Stofringshaug, Norway",
-      "timezone": "UTC",
-      "date": "2026-09-20T15:00:00+00:00",
-      "timestamp": 1789916400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 19681,
-        "name": "Alfheim",
-        "city": "Tromso"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 103,
-      "name": "Eliteserien",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/103.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 325,
-        "name": "Tromso",
-        "logo": "https://media.api-sports.io/football/teams/325.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2159,
-        "name": "Ham-Kam",
-        "logo": "https://media.api-sports.io/football/teams/2159.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

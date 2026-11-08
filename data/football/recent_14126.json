@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642284,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-05T18:00:00+00:00",
+      "timestamp": 1793901600,
+      "periods": {
+        "first": 1793901600,
+        "second": 1793905200
+      },
+      "venue": {
+        "id": null,
+        "name": "Katokopia Stadium",
+        "city": "Peristerona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 321,
+      "name": "Cup",
+      "country": "Cyprus",
+      "logo": "https://media.api-sports.io/football/leagues/321.png",
+      "flag": "https://media.api-sports.io/flags/cy.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14126,
+        "name": "Omonia 29is Maiou",
+        "logo": "https://media.api-sports.io/football/teams/14126.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28054,
+        "name": "Polemidion",
+        "logo": "https://media.api-sports.io/football/teams/28054.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1603597,
       "referee": "Panagiotis Hadjigeorghiou, Cyprus",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642862,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3408,
-        "name": "Aris",
-        "logo": "https://media.api-sports.io/football/teams/3408.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14126,
-        "name": "Omonia 29is Maiou",
-        "logo": "https://media.api-sports.io/football/teams/14126.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

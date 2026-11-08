@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628860,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T11:00:00+00:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": 1793444400,
+        "second": 1793448000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Queluz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 460,
+      "name": "Campeonato de Portugal Prio - Group D",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/460.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group D - 7",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10149,
+        "name": "Real",
+        "logo": "https://media.api-sports.io/football/teams/10149.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4718,
+        "name": "1\u00ba Dezembro",
+        "logo": "https://media.api-sports.io/football/teams/4718.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628859,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627588,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T16:00:00+00:00",
-      "timestamp": 1788105600,
-      "periods": {
-        "first": 1788105600,
-        "second": 1788109200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 96,
-      "name": "Ta\u00e7a de Portugal",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/96.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "1/128-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4718,
-        "name": "1\u00ba Dezembro",
-        "logo": "https://media.api-sports.io/football/teams/4718.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10149,
-        "name": "Real",
-        "logo": "https://media.api-sports.io/football/teams/10149.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

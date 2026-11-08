@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1553211,
+      "referee": "Marcin Szczerbowicz",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:30:00+00:00",
+      "timestamp": 1793388600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18625,
+        "name": "Arena Zabrze",
+        "city": "Zabrze"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 106,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/106.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 340,
+        "name": "Gornik Zabrze",
+        "logo": "https://media.api-sports.io/football/teams/340.png",
+        "winner": null
+      },
+      "away": {
+        "id": 339,
+        "name": "Legia Warszawa",
+        "logo": "https://media.api-sports.io/football/teams/339.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1553202,
       "referee": "Szymon Marciniak",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642855,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:00:00+00:00",
-      "timestamp": 1790424000,
-      "periods": {
-        "first": 1790424000,
-        "second": 1790427600
-      },
-      "venue": {
-        "id": null,
-        "name": "ArcelorMittal Park",
-        "city": "Sosnowiec"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendly",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 342,
-        "name": "Zaglebie Sosnowiec",
-        "logo": "https://media.api-sports.io/football/teams/342.png",
-        "winner": false
-      },
-      "away": {
-        "id": 339,
-        "name": "Legia Warszawa",
-        "logo": "https://media.api-sports.io/football/teams/339.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

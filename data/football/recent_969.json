@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636664,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T20:00:00+00:00",
+      "timestamp": 1793822400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1103,
+        "name": "Stade Prince Moulay Abdallah",
+        "city": "Rabat"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 969,
+        "name": "FAR Rabat",
+        "logo": "https://media.api-sports.io/football/teams/969.png",
+        "winner": false
+      },
+      "away": {
+        "id": 976,
+        "name": "Raja Casablanca",
+        "logo": "https://media.api-sports.io/football/teams/976.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646865,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644210,
-      "referee": "Y. Triki",
-      "timezone": "UTC",
-      "date": "2026-10-12T20:00:00+00:00",
-      "timestamp": 1791835200,
-      "periods": {
-        "first": 1791835200,
-        "second": 1791838800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Adrar",
-        "city": "Agadir"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 973,
-        "name": "Hassania Agadir",
-        "logo": "https://media.api-sports.io/football/teams/973.png",
-        "winner": null
-      },
-      "away": {
-        "id": 969,
-        "name": "FAR Rabat",
-        "logo": "https://media.api-sports.io/football/teams/969.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

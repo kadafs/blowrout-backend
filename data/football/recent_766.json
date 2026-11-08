@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1494327,
+      "referee": "Sars Joakim",
+      "timezone": "UTC",
+      "date": "2026-11-03T18:00:00+00:00",
+      "timestamp": 1793728800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1524,
+        "name": "Studenternas IP",
+        "city": "Uppsala"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 370,
+        "name": "Sirius",
+        "logo": "https://media.api-sports.io/football/teams/370.png",
+        "winner": true
+      },
+      "away": {
+        "id": 766,
+        "name": "Halmstad",
+        "logo": "https://media.api-sports.io/football/teams/766.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494317,
       "referee": "Kristoffer Karlsson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638580,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T11:00:00+00:00",
-      "timestamp": 1791025200,
-      "periods": {
-        "first": 1791025200,
-        "second": 1791028800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 766,
-        "name": "Halmstad",
-        "logo": "https://media.api-sports.io/football/teams/766.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2174,
-        "name": "Osters IF",
-        "logo": "https://media.api-sports.io/football/teams/2174.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

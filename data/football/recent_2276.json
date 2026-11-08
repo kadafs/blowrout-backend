@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581553,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T15:00:00+00:00",
+      "timestamp": 1793372400,
+      "periods": {
+        "first": 1793372400,
+        "second": 1793376000
+      },
+      "venue": {
+        "id": 21934,
+        "name": "Junior Sport Stadium",
+        "city": "Yerevan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 342,
+      "name": "Premier League",
+      "country": "Armenia",
+      "logo": "https://media.api-sports.io/football/leagues/342.png",
+      "flag": "https://media.api-sports.io/flags/am.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 709,
+        "name": "Pyunik Yerevan",
+        "logo": "https://media.api-sports.io/football/teams/709.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2276,
+        "name": "FC Urartu",
+        "logo": "https://media.api-sports.io/football/teams/2276.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641903,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581530,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T14:00:00+00:00",
-      "timestamp": 1789740000,
-      "periods": {
-        "first": 1789740000,
-        "second": 1789743600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Gandzasar",
-        "city": "Kapan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 342,
-      "name": "Premier League",
-      "country": "Armenia",
-      "logo": "https://media.api-sports.io/football/leagues/342.png",
-      "flag": "https://media.api-sports.io/flags/am.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 688,
-        "name": "Gandzasar",
-        "logo": "https://media.api-sports.io/football/teams/688.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2276,
-        "name": "FC Urartu",
-        "logo": "https://media.api-sports.io/football/teams/2276.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

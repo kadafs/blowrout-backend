@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1635658,
+      "referee": "Clement Turpin, France",
+      "timezone": "UTC",
+      "date": "2026-11-04T17:45:00+00:00",
+      "timestamp": 1793814300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22760,
+        "name": "Chobani Stadium",
+        "city": "Istanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 611,
+        "name": "Fenerbah\u00e7e",
+        "logo": "https://media.api-sports.io/football/teams/611.png",
+        "winner": true
+      },
+      "away": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557453,
-      "referee": "Andrew Madley",
+      "referee": "A. Madley",
       "timezone": "UTC",
       "date": "2026-11-01T16:30:00+00:00",
       "timestamp": 1793550600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793550600,
+        "second": 1793554200
       },
       "venue": {
         "id": 550,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1557444,
-      "referee": "Samuel Barrott",
+      "referee": "S. Barrott",
       "timezone": "UTC",
       "date": "2026-10-25T14:00:00+00:00",
       "timestamp": 1792936800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792936800,
+        "second": 1792940400
       },
       "venue": {
         "id": 550,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1635688,
-      "referee": "Szymon Marciniak",
+      "referee": "Szymon Marciniak, Poland",
       "timezone": "UTC",
       "date": "2026-10-20T19:00:00+00:00",
       "timestamp": 1792522800,
@@ -212,17 +282,17 @@
   {
     "fixture": {
       "id": 1557428,
-      "referee": "John Brooks, England",
+      "referee": "J. Brooks",
       "timezone": "UTC",
       "date": "2026-10-17T14:00:00+00:00",
       "timestamp": 1792245600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792245600,
+        "second": 1792249200
       },
       "venue": {
         "id": 10503,
-        "name": "Gtech Community Stadium",
+        "name": "Brentford Community Stadium",
         "city": "London"
       },
       "status": {
@@ -262,82 +332,12 @@
     },
     "score": {
       "halftime": {
-        "home": 1,
-        "away": 0
+        "home": 0,
+        "away": 1
       },
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635674,
-      "referee": "Tobias Stieler",
-      "timezone": "UTC",
-      "date": "2026-10-14T16:45:00+00:00",
-      "timestamp": 1791996300,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 143,
-        "name": "Raiffeisen Arena",
-        "city": "Linz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 2,
-      "name": "UEFA Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/2.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1026,
-        "name": "Lask Linz",
-        "logo": "https://media.api-sports.io/football/teams/1026.png",
-        "winner": false
-      },
-      "away": {
-        "id": 40,
-        "name": "Liverpool",
-        "logo": "https://media.api-sports.io/football/teams/40.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 6
       },
       "extratime": {
         "home": null,

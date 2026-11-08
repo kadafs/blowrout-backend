@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1548554,
+      "referee": "Duje Strukan",
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 423,
+        "name": "Stadion Rujevica",
+        "city": "Rijeka"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 210,
+      "name": "HNL",
+      "country": "Croatia",
+      "logo": "https://media.api-sports.io/football/leagues/210.png",
+      "flag": "https://media.api-sports.io/flags/hr.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 561,
+        "name": "HNK Rijeka",
+        "logo": "https://media.api-sports.io/football/teams/561.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1483,
+        "name": "NK Varazdin",
+        "logo": "https://media.api-sports.io/football/teams/1483.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1548551,
       "referee": "Ante Terzi\u0107, Croatia",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1483,
         "name": "NK Varazdin",
         "logo": "https://media.api-sports.io/football/teams/1483.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1548536,
-      "referee": "Ante \u010culina, Croatia",
-      "timezone": "UTC",
-      "date": "2026-09-19T15:00:00+00:00",
-      "timestamp": 1789830000,
-      "periods": {
-        "first": 1789830000,
-        "second": 1789833600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Varteks",
-        "city": "Vara\u017edin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 210,
-      "name": "HNL",
-      "country": "Croatia",
-      "logo": "https://media.api-sports.io/football/leagues/210.png",
-      "flag": "https://media.api-sports.io/flags/hr.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1483,
-        "name": "NK Varazdin",
-        "logo": "https://media.api-sports.io/football/teams/1483.png",
-        "winner": null
-      },
-      "away": {
-        "id": 616,
-        "name": "NK Osijek",
-        "logo": "https://media.api-sports.io/football/teams/616.png",
         "winner": null
       }
     },

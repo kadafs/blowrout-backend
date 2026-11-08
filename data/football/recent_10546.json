@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561182,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T15:00:00+00:00",
+      "timestamp": 1793372400,
+      "periods": {
+        "first": 1793372400,
+        "second": 1793376000
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky futbalovy stadion Milana Janeka",
+        "city": "Liptovsky Mikulas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10536,
+        "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
+        "logo": "https://media.api-sports.io/football/teams/10536.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10546,
+        "name": "\u017dilina II",
+        "logo": "https://media.api-sports.io/football/teams/10546.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561180,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561148,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T15:00:00+00:00",
-      "timestamp": 1790607600,
-      "periods": {
-        "first": 1790607600,
-        "second": 1790611200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 506,
-      "name": "2. liga",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/506.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10546,
-        "name": "\u017dilina II",
-        "logo": "https://media.api-sports.io/football/teams/10546.png",
-        "winner": null
-      },
-      "away": {
-        "id": 14068,
-        "name": "Humenn\u00e9",
-        "logo": "https://media.api-sports.io/football/teams/14068.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1636476,
+      "referee": "Kristo Tohver, Estonia",
+      "timezone": "UTC",
+      "date": "2026-11-05T17:45:00+00:00",
+      "timestamp": 1793900700,
+      "periods": {
+        "first": 1793900700,
+        "second": 1793904300
+      },
+      "venue": {
+        "id": null,
+        "name": "Papara Park",
+        "city": "Trabzon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 998,
+        "name": "Trabzonspor",
+        "logo": "https://media.api-sports.io/football/teams/998.png",
+        "winner": false
+      },
+      "away": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575206,
-      "referee": "Christian Dingert",
+      "referee": "C. Dingert",
       "timezone": "UTC",
       "date": "2026-10-31T14:30:00+00:00",
       "timestamp": 1793457000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793457000,
+        "second": 1793460600
       },
       "venue": {
         "id": 698,
@@ -142,17 +212,17 @@
   {
     "fixture": {
       "id": 1575198,
-      "referee": "Felix Zwayer",
+      "referee": "F. Zwayer",
       "timezone": "UTC",
       "date": "2026-10-25T16:30:00+00:00",
       "timestamp": 1792945800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792945800,
+        "second": 1792949400
       },
       "venue": {
         "id": 12717,
-        "name": "Europa-Park-Stadion",
+        "name": "Europa-Park Stadion",
         "city": "Freiburg"
       },
       "status": {
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1636454,
-      "referee": "S. Barrott",
+      "referee": "Samuel Barrott, England",
       "timezone": "UTC",
       "date": "2026-10-22T19:00:00+00:00",
       "timestamp": 1792695600,
@@ -223,7 +293,7 @@
       "venue": {
         "id": null,
         "name": "Stade Louis II",
-        "city": "Monaco"
+        "city": "Fontvieille"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575186,
-      "referee": "Florian Badstubner, Germany",
-      "timezone": "UTC",
-      "date": "2026-10-18T13:30:00+00:00",
-      "timestamp": 1792330200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 699,
-        "name": "BayArena",
-        "city": "Bayer Leverkusen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 78,
-      "name": "Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/78.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 168,
-        "name": "Bayer Leverkusen",
-        "logo": "https://media.api-sports.io/football/teams/168.png",
-        "winner": true
-      },
-      "away": {
-        "id": 160,
-        "name": "SC Freiburg",
-        "logo": "https://media.api-sports.io/football/teams/160.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

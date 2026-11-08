@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579408,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T09:15:00+00:00",
+      "timestamp": 1793524500,
+      "periods": {
+        "first": 1793524500,
+        "second": 1793528100
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 686,
+      "name": "4. liga - Divizie F",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/686.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group F - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15135,
+        "name": "Opava II",
+        "logo": "https://media.api-sports.io/football/teams/15135.png",
+        "winner": false
+      },
+      "away": {
+        "id": 26129,
+        "name": "Zabreh",
+        "logo": "https://media.api-sports.io/football/teams/26129.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579401,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579369,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:30:00+00:00",
-      "timestamp": 1790515800,
-      "periods": {
-        "first": 1790515800,
-        "second": 1790519400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 686,
-      "name": "4. liga - Divizie F",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/686.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group F - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 26129,
-        "name": "Zabreh",
-        "logo": "https://media.api-sports.io/football/teams/26129.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7305,
-        "name": "Jiskra R\u00fdma\u0159ov",
-        "logo": "https://media.api-sports.io/football/teams/7305.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645455,
+      "referee": "J. Aleman",
+      "timezone": "UTC",
+      "date": "2026-11-04T22:00:00+00:00",
+      "timestamp": 1793829600,
+      "periods": {
+        "first": 1793829600,
+        "second": 1793833200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 964,
+      "name": "Copa de la Divisi\u00f3n Profesional",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/964.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3706,
+        "name": "Nacional Potos\u00ed",
+        "logo": "https://media.api-sports.io/football/teams/3706.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3707,
+        "name": "Oriente Petrolero",
+        "logo": "https://media.api-sports.io/football/teams/3707.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645527,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619322,
-      "referee": "J. Revollo",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:30:00+00:00",
-      "timestamp": 1791675000,
-      "periods": {
-        "first": 1791675000,
-        "second": 1791678600
-      },
-      "venue": {
-        "id": 2488,
-        "name": "Estadio Ramon Tahuichi Aguilera Costas",
-        "city": "Santa Cruz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 344,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/344.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Apertura - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3707,
-        "name": "Oriente Petrolero",
-        "logo": "https://media.api-sports.io/football/teams/3707.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17743,
-        "name": "ABB",
-        "logo": "https://media.api-sports.io/football/teams/17743.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

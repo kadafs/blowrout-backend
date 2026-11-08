@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1501519,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T11:00:00+00:00",
+      "timestamp": 1793530800,
+      "periods": {
+        "first": 1793530800,
+        "second": 1793534400
+      },
+      "venue": {
+        "id": null,
+        "name": "Umea Energi Arena",
+        "city": "Umea"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 736,
+      "name": "Elitettan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/736.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 24",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11081,
+        "name": "Ume\u00e5 W",
+        "logo": "https://media.api-sports.io/football/teams/11081.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16028,
+        "name": "\u00d6rebro SK W",
+        "logo": "https://media.api-sports.io/football/teams/16028.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1501510,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1501489,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T17:00:00+00:00",
-      "timestamp": 1790355600,
-      "periods": {
-        "first": 1790355600,
-        "second": 1790359200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 736,
-      "name": "Elitettan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/736.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16028,
-        "name": "\u00d6rebro SK W",
-        "logo": "https://media.api-sports.io/football/teams/16028.png",
-        "winner": true
-      },
-      "away": {
-        "id": 11080,
-        "name": "Link\u00f6ping W",
-        "logo": "https://media.api-sports.io/football/teams/11080.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

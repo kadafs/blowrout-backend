@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640345,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T08:30:00+00:00",
+      "timestamp": 1793349000,
+      "periods": {
+        "first": 1793349000,
+        "second": 1793352600
+      },
+      "venue": {
+        "id": 7153,
+        "name": "Wanderers Oval",
+        "city": "Newcastle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10202,
+        "name": "Broadmeadow Magic",
+        "logo": "https://media.api-sports.io/football/teams/10202.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3785,
+        "name": "Adelaide City",
+        "logo": "https://media.api-sports.io/football/teams/3785.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640337,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1527121,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-07T10:00:00+00:00",
-      "timestamp": 1786096800,
-      "periods": {
-        "first": 1786096800,
-        "second": 1786100400
-      },
-      "venue": {
-        "id": null,
-        "name": "Adelaide City Park",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 194,
-      "name": "South Australia NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/194.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3785,
-        "name": "Adelaide City",
-        "logo": "https://media.api-sports.io/football/teams/3785.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16768,
-        "name": "Playford City Patriots",
-        "logo": "https://media.api-sports.io/football/teams/16768.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

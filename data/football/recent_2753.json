@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1510485,
+      "referee": "Choi Kwang-Ho",
+      "timezone": "UTC",
+      "date": "2026-10-31T07:30:00+00:00",
+      "timestamp": 1793431800,
+      "periods": {
+        "first": 1793431800,
+        "second": 1793435400
+      },
+      "venue": {
+        "id": 2841,
+        "name": "Yishunsin Stadium",
+        "city": "Asan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2753,
+        "name": "Asan Mugunghwa",
+        "logo": "https://media.api-sports.io/football/teams/2753.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7078,
+        "name": "Gimpo Citizen",
+        "logo": "https://media.api-sports.io/football/teams/7078.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510477,
       "referee": "D. Jeong",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510446,
-      "referee": "H. Kim",
-      "timezone": "UTC",
-      "date": "2026-09-12T10:00:00+00:00",
-      "timestamp": 1789207200,
-      "periods": {
-        "first": 1789207200,
-        "second": 1789210800
-      },
-      "venue": {
-        "id": 2841,
-        "name": "Yishunsin Stadium",
-        "city": "Asan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 10
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2753,
-        "name": "Asan Mugunghwa",
-        "logo": "https://media.api-sports.io/football/teams/2753.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7061,
-        "name": "Cheongju",
-        "logo": "https://media.api-sports.io/football/teams/7061.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

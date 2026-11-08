@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571805,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T16:00:00+00:00",
+      "timestamp": 1793808000,
+      "periods": {
+        "first": 1793808000,
+        "second": 1793811600
+      },
+      "venue": {
+        "id": 2742,
+        "name": "Szent Gellert Forum",
+        "city": "Szeged"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 272,
+      "name": "NB II",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/272.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2418,
+        "name": "Szeged 2011",
+        "logo": "https://media.api-sports.io/football/teams/2418.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5071,
+        "name": "BVSC",
+        "logo": "https://media.api-sports.io/football/teams/5071.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571882,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571859,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T15:00:00+00:00",
-      "timestamp": 1791644400,
-      "periods": {
-        "first": 1791644400,
-        "second": 1791648000
-      },
-      "venue": {
-        "id": null,
-        "name": "Mezokovesdi Varosi Stadion",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 272,
-      "name": "NB II",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/272.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2389,
-        "name": "Mezokovesd-zsory",
-        "logo": "https://media.api-sports.io/football/teams/2389.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2418,
-        "name": "Szeged 2011",
-        "logo": "https://media.api-sports.io/football/teams/2418.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1592051,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1041,
+      "name": "J\u00faniores U19",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/1041.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22522,
+        "name": "Vizela U19",
+        "logo": "https://media.api-sports.io/football/teams/22522.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22520,
+        "name": "Vitoria Guimaraes U19",
+        "logo": "https://media.api-sports.io/football/teams/22520.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592042,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592004,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": 1789221600,
-        "second": 1789225200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 1041,
-      "name": "J\u00faniores U19",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/1041.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22512,
-        "name": "Gil Vicente U19",
-        "logo": "https://media.api-sports.io/football/teams/22512.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22522,
-        "name": "Vizela U19",
-        "logo": "https://media.api-sports.io/football/teams/22522.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

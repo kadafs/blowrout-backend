@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605604,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": 1793458800,
+        "second": 1793462400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 458,
+      "name": "Campeonato de Portugal Prio - Group B",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/458.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group B - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4864,
+        "name": "Uni\u00e3o Lamas",
+        "logo": "https://media.api-sports.io/football/teams/4864.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4792,
+        "name": "Sanjoanense",
+        "logo": "https://media.api-sports.io/football/teams/4792.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605593,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 24535,
         "name": "Guarda",
         "logo": "https://media.api-sports.io/football/teams/24535.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605567,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T16:00:00+00:00",
-      "timestamp": 1787500800,
-      "periods": {
-        "first": 1787500800,
-        "second": 1787504400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 458,
-      "name": "Campeonato de Portugal Prio - Group B",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/458.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Group B - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15363,
-        "name": "Ovarense",
-        "logo": "https://media.api-sports.io/football/teams/15363.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4864,
-        "name": "Uni\u00e3o Lamas",
-        "logo": "https://media.api-sports.io/football/teams/4864.png",
         "winner": false
       }
     },

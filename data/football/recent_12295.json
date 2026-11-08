@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605304,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": 1793556000,
+        "second": 1793559600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 1155,
+      "name": "Carioca B2",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/1155.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Group Stage - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12295,
+        "name": "Friburguense",
+        "logo": "https://media.api-sports.io/football/teams/12295.png",
+        "winner": null
+      },
+      "away": {
+        "id": 23640,
+        "name": "Santa Cruz RJ",
+        "logo": "https://media.api-sports.io/football/teams/23640.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605297,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605271,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T18:00:00+00:00",
-      "timestamp": 1790964000,
-      "periods": {
-        "first": 1790964000,
-        "second": 1790967600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 1155,
-      "name": "Carioca B2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1155.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Group Stage - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17736,
-        "name": "7 de Abril",
-        "logo": "https://media.api-sports.io/football/teams/17736.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12295,
-        "name": "Friburguense",
-        "logo": "https://media.api-sports.io/football/teams/12295.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

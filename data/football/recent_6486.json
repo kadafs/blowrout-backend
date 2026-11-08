@@ -1,19 +1,89 @@
 [
   {
     "fixture": {
+      "id": 1565505,
+      "referee": "K. Zabroda",
+      "timezone": "UTC",
+      "date": "2026-10-25T11:00:00+00:00",
+      "timestamp": 1792926000,
+      "periods": {
+        "first": 1792926000,
+        "second": 1792929600
+      },
+      "venue": {
+        "id": 4761,
+        "name": "Bukovyna Stadium",
+        "city": "Chernivtsi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6486,
+        "name": "Bukovyna",
+        "logo": "https://media.api-sports.io/football/teams/6486.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6489,
+        "name": "Kryvbas KR",
+        "logo": "https://media.api-sports.io/football/teams/6489.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565501,
-      "referee": "Sergei Zadyran, Ukraine",
+      "referee": "S. Zadyran",
       "timezone": "UTC",
       "date": "2026-10-17T12:30:00+00:00",
       "timestamp": 1792240200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792240200,
+        "second": 1792243800
       },
       "venue": {
         "id": 8330,
-        "name": "Obolon Arena",
-        "city": "Kyiv"
+        "name": "Avangard",
+        "city": "Rivne"
       },
       "status": {
         "long": "Match Finished",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1565489,
-      "referee": "Oleksiy Derevinskyi, Ukraine",
+      "referee": "O. Derevinskyi",
       "timezone": "UTC",
       "date": "2026-10-11T15:00:00+00:00",
       "timestamp": 1791730800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791730800,
+        "second": 1791734400
       },
       "venue": {
         "id": 4761,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565483,
-      "referee": "R. Blavatsky",
-      "timezone": "UTC",
-      "date": "2026-09-19T10:00:00+00:00",
-      "timestamp": 1789812000,
-      "periods": {
-        "first": 1789812000,
-        "second": 1789815600
-      },
-      "venue": {
-        "id": 11948,
-        "name": "Arena Livyi Bereg",
-        "city": "Kyiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3628,
-        "name": "FC Kharkiv",
-        "logo": "https://media.api-sports.io/football/teams/3628.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6486,
-        "name": "Bukovyna",
-        "logo": "https://media.api-sports.io/football/teams/6486.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

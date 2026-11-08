@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555794,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T05:00:00+00:00",
+      "timestamp": 1794027600,
+      "periods": {
+        "first": 1794027600,
+        "second": 1794031200
+      },
+      "venue": {
+        "id": null,
+        "name": "Gifu Memorial Center Nagaragawa Ball Field",
+        "city": "Gifu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 297,
+        "name": "FC Gifu",
+        "logo": "https://media.api-sports.io/football/teams/297.png",
+        "winner": true
+      },
+      "away": {
+        "id": 805,
+        "name": "Kitakyushu",
+        "logo": "https://media.api-sports.io/football/teams/805.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1325148,
       "referee": "Masashi Harada",
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 995735,
-      "referee": "K. Karashima",
-      "timezone": "UTC",
-      "date": "2023-12-02T05:00:00+00:00",
-      "timestamp": 1701493200,
-      "periods": {
-        "first": 1701493200,
-        "second": 1701496800
-      },
-      "venue": {
-        "id": 958,
-        "name": "Nagaragawa Stadium",
-        "city": "Gifu"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2023,
-      "round": "Regular Season - 38",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 297,
-        "name": "FC Gifu",
-        "logo": "https://media.api-sports.io/football/teams/297.png",
-        "winner": false
-      },
-      "away": {
-        "id": 805,
-        "name": "Kitakyushu",
-        "logo": "https://media.api-sports.io/football/teams/805.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
       },
       "fulltime": {
         "home": 0,

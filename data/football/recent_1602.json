@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1490586,
+      "referee": "Sergii Demianchuk",
+      "timezone": "UTC",
+      "date": "2026-11-01T21:30:00+00:00",
+      "timestamp": 1793568600,
+      "periods": {
+        "first": 1793568600,
+        "second": 1793572200
+      },
+      "venue": {
+        "id": 19357,
+        "name": "Geodis Park",
+        "city": "Nashville"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9569,
+        "name": "Nashville SC",
+        "logo": "https://media.api-sports.io/football/teams/9569.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1602,
+        "name": "New York Red Bulls",
+        "logo": "https://media.api-sports.io/football/teams/1602.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490573,
-      "referee": "Christopher Penso",
+      "referee": "C. Penso",
       "timezone": "UTC",
       "date": "2026-10-28T23:30:00+00:00",
       "timestamp": 1793230200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793230200,
+        "second": 1793233800
       },
       "venue": {
         "id": 1618,
-        "name": "Boston Stadium",
+        "name": "Gillette Stadium",
         "city": "Boston"
       },
       "status": {
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490558,
-      "referee": "Filip Dujic, Canada",
+      "referee": "F. Dujic",
       "timezone": "UTC",
       "date": "2026-10-24T21:30:00+00:00",
       "timestamp": 1792877400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792877400,
+        "second": 1792881000
       },
       "venue": {
         "id": 21544,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1490545,
-      "referee": "Marcos de Oliveira, USA",
+      "referee": "M. De Oliveira",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792279800,
+        "second": 1792283400
       },
       "venue": {
         "id": 21544,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490531,
-      "referee": "Guido Gonzales Jr, USA",
+      "referee": "G. Gonzales",
       "timezone": "UTC",
       "date": "2026-10-14T23:30:00+00:00",
       "timestamp": 1792020600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792020600,
+        "second": 1792024200
       },
       "venue": {
         "id": 1613,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490518,
-      "referee": "Malik Badawi, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:30:00+00:00",
-      "timestamp": 1791675000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 21544,
-        "name": "Sports Illustrated Stadium",
-        "city": "Harrison"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1602,
-        "name": "New York Red Bulls",
-        "logo": "https://media.api-sports.io/football/teams/1602.png",
-        "winner": true
-      },
-      "away": {
-        "id": 25484,
-        "name": "San Diego",
-        "logo": "https://media.api-sports.io/football/teams/25484.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

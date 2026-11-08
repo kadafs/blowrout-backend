@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574388,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T19:00:00+00:00",
+      "timestamp": 1793818800,
+      "periods": {
+        "first": 1793818800,
+        "second": 1793822400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2182,
+        "name": "FC Schaffhausen",
+        "logo": "https://media.api-sports.io/football/teams/2182.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12700,
+        "name": "Biel-Bienne",
+        "logo": "https://media.api-sports.io/football/teams/12700.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574404,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574356,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T17:00:00+00:00",
-      "timestamp": 1790442000,
-      "periods": {
-        "first": 1790442000,
-        "second": 1790445600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12700,
-        "name": "Biel-Bienne",
-        "logo": "https://media.api-sports.io/football/teams/12700.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6615,
-        "name": "Bavois",
-        "logo": "https://media.api-sports.io/football/teams/6615.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

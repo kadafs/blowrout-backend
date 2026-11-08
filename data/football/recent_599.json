@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1565513,
+      "referee": "Yevtukhov Dmytro",
+      "timezone": "UTC",
+      "date": "2026-11-02T11:00:00+00:00",
+      "timestamp": 1793617200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1597,
+        "name": "Slavutych-Arena",
+        "city": "Zaporizhzhia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 599,
+        "name": "Zorya Luhansk",
+        "logo": "https://media.api-sports.io/football/teams/599.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14434,
+        "name": "Epitsentr Dunayivtsi",
+        "logo": "https://media.api-sports.io/football/teams/14434.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1565511,
-      "referee": "Roman Blavatskiy, Ukraine",
+      "referee": "R. Blavatsky",
       "timezone": "UTC",
       "date": "2026-10-24T15:00:00+00:00",
       "timestamp": 1792854000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792854000,
+        "second": 1792857600
       },
       "venue": {
         "id": 20124,
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1565498,
-      "referee": "Oleksandr Shandor, Ukraine",
+      "referee": "O. Shandor",
       "timezone": "UTC",
       "date": "2026-10-17T10:00:00+00:00",
       "timestamp": 1792231200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792231200,
+        "second": 1792234800
       },
       "venue": {
         "id": 1597,
-        "name": "Slavutych-Arena",
-        "city": "Zaporizhzhia"
+        "name": "Stadion Valerija Lobanovskoho",
+        "city": "Kyiv"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1565493,
-      "referee": "Mykola Balakin, Ukraine",
+      "referee": "M. Balakin",
       "timezone": "UTC",
       "date": "2026-10-12T10:00:00+00:00",
       "timestamp": 1791799200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": 20196,
-        "name": "Stadium Livyi Bereh",
+        "name": "Arena Livyi Bereg",
         "city": "Kyiv"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565484,
-      "referee": "Dmytro Panchyshyn, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-19T12:30:00+00:00",
-      "timestamp": 1789821000,
-      "periods": {
-        "first": 1789821000,
-        "second": 1789824600
-      },
-      "venue": {
-        "id": 1597,
-        "name": "Stadion Valerija Lobanovskoho",
-        "city": "Kyiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 599,
-        "name": "Zorya Luhansk",
-        "logo": "https://media.api-sports.io/football/teams/599.png",
-        "winner": false
-      },
-      "away": {
-        "id": 572,
-        "name": "Dynamo Kyiv",
-        "logo": "https://media.api-sports.io/football/teams/572.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

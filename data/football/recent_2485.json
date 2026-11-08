@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629102,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T13:15:00+00:00",
+      "timestamp": 1793625300,
+      "periods": {
+        "first": 1793625300,
+        "second": 1793628900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19489,
+        "name": "Shabana",
+        "logo": "https://media.api-sports.io/football/teams/19489.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2485,
+        "name": "Kenya Police",
+        "logo": "https://media.api-sports.io/football/teams/2485.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629094,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545402,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-14T12:00:00+00:00",
-      "timestamp": 1781438400,
-      "periods": {
-        "first": 1781438400,
-        "second": 1781442000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 971,
-      "name": "Shield Cup",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/971.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2026,
-      "round": "Final",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2475,
-        "name": "Tusker",
-        "logo": "https://media.api-sports.io/football/teams/2475.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2485,
-        "name": "Kenya Police",
-        "logo": "https://media.api-sports.io/football/teams/2485.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

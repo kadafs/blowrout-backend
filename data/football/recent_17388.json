@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605784,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 12161,
+        "name": "Campo Domingos Carrilho Patalino",
+        "city": "Elvas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 459,
+      "name": "Campeonato de Portugal Prio - Group C",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/459.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Group C - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17388,
+        "name": "O Elvas",
+        "logo": "https://media.api-sports.io/football/teams/17388.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4664,
+        "name": "Naval 1893",
+        "logo": "https://media.api-sports.io/football/teams/4664.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605777,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605760,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T14:00:00+00:00",
-      "timestamp": 1789308000,
-      "periods": {
-        "first": 1789308000,
-        "second": 1789311600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 459,
-      "name": "Campeonato de Portugal Prio - Group C",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/459.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Group C - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4883,
-        "name": "Fazendense",
-        "logo": "https://media.api-sports.io/football/teams/4883.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17388,
-        "name": "O Elvas",
-        "logo": "https://media.api-sports.io/football/teams/17388.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

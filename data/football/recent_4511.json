@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647003,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-05T15:30:00+00:00",
+      "timestamp": 1793892600,
+      "periods": {
+        "first": 1793892600,
+        "second": 1793896200
+      },
+      "venue": {
+        "id": 3421,
+        "name": "Stade Robert-Champroux",
+        "city": "Abidjan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 386,
+      "name": "Ligue 1",
+      "country": "Ivory-Coast",
+      "logo": "https://media.api-sports.io/football/leagues/386.png",
+      "flag": "https://media.api-sports.io/flags/ci.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16588,
+        "name": "Stella",
+        "logo": "https://media.api-sports.io/football/teams/16588.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4511,
+        "name": "AFAD",
+        "logo": "https://media.api-sports.io/football/teams/4511.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647184,
       "referee": null,
       "timezone": "UTC",
@@ -264,76 +334,6 @@
       "halftime": {
         "home": 0,
         "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643803,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T15:30:00+00:00",
-      "timestamp": 1791127800,
-      "periods": {
-        "first": 1791127800,
-        "second": 1791131400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 386,
-      "name": "Ligue 1",
-      "country": "Ivory-Coast",
-      "logo": "https://media.api-sports.io/football/leagues/386.png",
-      "flag": "https://media.api-sports.io/flags/ci.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4511,
-        "name": "AFAD",
-        "logo": "https://media.api-sports.io/football/teams/4511.png",
-        "winner": null
-      },
-      "away": {
-        "id": 4520,
-        "name": "SOA",
-        "logo": "https://media.api-sports.io/football/teams/4520.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
       },
       "fulltime": {
         "home": 1,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556641,
+      "referee": "J. Beaton",
+      "timezone": "UTC",
+      "date": "2026-09-15T18:45:00+00:00",
+      "timestamp": 1789497900,
+      "periods": {
+        "first": 1789497900,
+        "second": 1789501500
+      },
+      "venue": {
+        "id": null,
+        "name": "Falkirk Stadium",
+        "city": "Falkirk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 179,
+      "name": "Premiership",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/179.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1389,
+        "name": "Falkirk",
+        "logo": "https://media.api-sports.io/football/teams/1389.png",
+        "winner": true
+      },
+      "away": {
+        "id": 254,
+        "name": "Heart Of Midlothian",
+        "logo": "https://media.api-sports.io/football/teams/254.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1540029,
       "referee": "N. Walsh",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1382698,
-      "referee": "Lloyd Wilson, Scotland",
-      "timezone": "UTC",
-      "date": "2025-09-27T14:00:00+00:00",
-      "timestamp": 1758981600,
-      "periods": {
-        "first": 1758981600,
-        "second": 1758985200
-      },
-      "venue": {
-        "id": 1393,
-        "name": "Tynecastle Park",
-        "city": "Edinburgh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 179,
-      "name": "Premiership",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/179.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2025,
-      "round": "1st Phase - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 254,
-        "name": "Heart Of Midlothian",
-        "logo": "https://media.api-sports.io/football/teams/254.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1389,
-        "name": "Falkirk",
-        "logo": "https://media.api-sports.io/football/teams/1389.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

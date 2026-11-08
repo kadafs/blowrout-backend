@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1577573,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2834,
+        "name": "Fisht Olympic Stadium",
+        "city": "Sochi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 236,
+      "name": "First League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/236.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2012,
+        "name": "FC Sochi",
+        "logo": "https://media.api-sports.io/football/teams/2012.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1084,
+        "name": "Ural",
+        "logo": "https://media.api-sports.io/football/teams/1084.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577559,
       "referee": "D. S. Tsurkov",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577532,
-      "referee": "N. Voloshin",
-      "timezone": "UTC",
-      "date": "2026-09-18T15:00:00+00:00",
-      "timestamp": 1789743600,
-      "periods": {
-        "first": 1789743600,
-        "second": 1789747200
-      },
-      "venue": {
-        "id": 2836,
-        "name": "Neftekhimik Stadium",
-        "city": "Nizhnekamsk"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 236,
-      "name": "First League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/236.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2001,
-        "name": "FK Neftekhimik",
-        "logo": "https://media.api-sports.io/football/teams/2001.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1084,
-        "name": "Ural",
-        "logo": "https://media.api-sports.io/football/teams/1084.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

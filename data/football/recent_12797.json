@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562809,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T09:15:00+00:00",
+      "timestamp": 1793524500,
+      "periods": {
+        "first": 1793524500,
+        "second": 1793528100
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Pod Vinici",
+        "city": "Pardubice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 685,
+      "name": "3. liga - CFL B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/685.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 13",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14747,
+        "name": "Pardubice II",
+        "logo": "https://media.api-sports.io/football/teams/14747.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12797,
+        "name": "Jablonec II",
+        "logo": "https://media.api-sports.io/football/teams/12797.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562796,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562765,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T08:15:00+00:00",
-      "timestamp": 1790496900,
-      "periods": {
-        "first": 1790496900,
-        "second": 1790500500
-      },
-      "venue": {
-        "id": null,
-        "name": "Fotbalovy stadion Brizky",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 685,
-      "name": "3. liga - CFL B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/685.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 8",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 12797,
-        "name": "Jablonec II",
-        "logo": "https://media.api-sports.io/football/teams/12797.png",
-        "winner": false
-      },
-      "away": {
-        "id": 14495,
-        "name": "Hradec Kr\u00e1lov\u00e9 II",
-        "logo": "https://media.api-sports.io/football/teams/14495.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

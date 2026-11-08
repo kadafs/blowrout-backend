@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608342,
+      "referee": "S. Gasperotti",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:30:00+00:00",
+      "timestamp": 1793550600,
+      "periods": {
+        "first": 1793550600,
+        "second": 1793554200
+      },
+      "venue": {
+        "id": 884,
+        "name": "Stadio Sandro Cabassi",
+        "city": "Carpi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17825,
+        "name": "Athletic Carpi",
+        "logo": "https://media.api-sports.io/football/teams/17825.png",
+        "winner": false
+      },
+      "away": {
+        "id": 875,
+        "name": "Renate",
+        "logo": "https://media.api-sports.io/football/teams/875.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608331,
       "referee": "A. Bortolussi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608293,
-      "referee": "M. Faye",
-      "timezone": "UTC",
-      "date": "2026-09-27T15:30:00+00:00",
-      "timestamp": 1790523000,
-      "periods": {
-        "first": 1790523000,
-        "second": 1790526600
-      },
-      "venue": {
-        "id": 884,
-        "name": "Stadio Sandro Cabassi",
-        "city": "Carpi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17825,
-        "name": "Athletic Carpi",
-        "logo": "https://media.api-sports.io/football/teams/17825.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6378,
-        "name": "Arzignano Valchiampo",
-        "logo": "https://media.api-sports.io/football/teams/6378.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

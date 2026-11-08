@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646404,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": 1402,
+        "name": "Global Energy Stadium",
+        "city": "Dingwall"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 182,
+      "name": "Challenge Cup",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/182.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Round of 32",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 902,
+        "name": "Ross County",
+        "logo": "https://media.api-sports.io/football/teams/902.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16845,
+        "name": "Celtic II",
+        "logo": "https://media.api-sports.io/football/teams/16845.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557068,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593645,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:45:00+00:00",
-      "timestamp": 1791917100,
-      "periods": {
-        "first": 1791917100,
-        "second": 1791920700
-      },
-      "venue": {
-        "id": 1402,
-        "name": "Global Energy Stadium",
-        "city": "Dingwall"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 902,
-        "name": "Ross County",
-        "logo": "https://media.api-sports.io/football/teams/902.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4250,
-        "name": "Forfar Athletic",
-        "logo": "https://media.api-sports.io/football/teams/4250.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

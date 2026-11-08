@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1557450,
+      "referee": "P. Bankes",
+      "timezone": "UTC",
+      "date": "2026-10-31T12:30:00+00:00",
+      "timestamp": 1793449800,
+      "periods": {
+        "first": 1793449800,
+        "second": 1793453400
+      },
+      "venue": {
+        "id": 519,
+        "name": "Stamford Bridge",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/39.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png",
+        "winner": true
+      },
+      "away": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557439,
-      "referee": "Chris Kavanagh, England",
+      "referee": "C. Kavanagh",
       "timezone": "UTC",
       "date": "2026-10-24T16:30:00+00:00",
       "timestamp": 1792859400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792859400,
+        "second": 1792863000
       },
       "venue": {
         "id": 519,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1557430,
-      "referee": "Paul Tierney, England",
+      "referee": "P. Tierney",
       "timezone": "UTC",
       "date": "2026-10-17T11:30:00+00:00",
       "timestamp": 1792236600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792236600,
+        "second": 1792240200
       },
       "venue": {
         "id": 22033,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1557419,
-      "referee": "Samuel Barrott, England",
+      "referee": "S. Barrott",
       "timezone": "UTC",
       "date": "2026-10-10T14:00:00+00:00",
       "timestamp": 1791640800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791640800,
+        "second": 1791644400
       },
       "venue": {
         "id": 519,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1557408,
-      "referee": "Andy Madley, England",
+      "referee": "A. Madley",
       "timezone": "UTC",
       "date": "2026-09-18T19:00:00+00:00",
       "timestamp": 1789758000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557399,
-      "referee": "Farai Hallam, England",
-      "timezone": "UTC",
-      "date": "2026-09-12T14:00:00+00:00",
-      "timestamp": 1789221600,
-      "periods": {
-        "first": 1789221600,
-        "second": 1789225200
-      },
-      "venue": {
-        "id": 519,
-        "name": "Stamford Bridge",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 49,
-        "name": "Chelsea",
-        "logo": "https://media.api-sports.io/football/teams/49.png",
-        "winner": null
-      },
-      "away": {
-        "id": 64,
-        "name": "Hull City",
-        "logo": "https://media.api-sports.io/football/teams/64.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

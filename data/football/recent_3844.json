@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647908,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 2639,
+        "name": "Tolka Park",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 358,
+      "name": "First Division",
+      "country": "Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/358.png",
+      "flag": "https://media.api-sports.io/flags/ie.svg",
+      "season": 2026,
+      "round": "Final",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3847,
+        "name": "Bray Wanderers",
+        "logo": "https://media.api-sports.io/football/teams/3847.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3844,
+        "name": "UCD",
+        "logo": "https://media.api-sports.io/football/teams/3844.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646612,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492988,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T19:15:00+00:00",
-      "timestamp": 1790968500,
-      "periods": {
-        "first": 1790968500,
-        "second": 1790972100
-      },
-      "venue": {
-        "id": 2637,
-        "name": "Markets Field",
-        "city": "Limerick"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 358,
-      "name": "First Division",
-      "country": "Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/358.png",
-      "flag": "https://media.api-sports.io/flags/ie.svg",
-      "season": 2026,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16498,
-        "name": "Treaty United",
-        "logo": "https://media.api-sports.io/football/teams/16498.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3844,
-        "name": "UCD",
-        "logo": "https://media.api-sports.io/football/teams/3844.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

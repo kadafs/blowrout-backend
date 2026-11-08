@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552803,
+      "referee": "Jeremie Pignard",
+      "timezone": "UTC",
+      "date": "2026-11-02T19:45:00+00:00",
+      "timestamp": 1793648700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21430,
+        "name": "Stade du Moustoir",
+        "city": "Lorient"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 97,
+        "name": "Lorient",
+        "logo": "https://media.api-sports.io/football/teams/97.png",
+        "winner": false
+      },
+      "away": {
+        "id": 106,
+        "name": "Stade Brestois 29",
+        "logo": "https://media.api-sports.io/football/teams/106.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552794,
       "referee": "G. Paradis",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552766,
-      "referee": "Guillaume Paradis, France",
-      "timezone": "UTC",
-      "date": "2026-09-20T13:00:00+00:00",
-      "timestamp": 1789909200,
-      "periods": {
-        "first": 1789909200,
-        "second": 1789912800
-      },
-      "venue": {
-        "id": 636,
-        "name": "Stade de l'Abb\u00e9-Deschamps",
-        "city": "Auxerre"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 108,
-        "name": "Auxerre",
-        "logo": "https://media.api-sports.io/football/teams/108.png",
-        "winner": true
-      },
-      "away": {
-        "id": 106,
-        "name": "Stade Brestois 29",
-        "logo": "https://media.api-sports.io/football/teams/106.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561427,
+      "referee": "Kirill Levnikov",
+      "timezone": "UTC",
+      "date": "2026-11-01T14:30:00+00:00",
+      "timestamp": 1793543400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20188,
+        "name": "Rostec Arena",
+        "city": "Kaliningrad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 235,
+      "name": "Premier League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/235.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2006,
+        "name": "Baltika",
+        "logo": "https://media.api-sports.io/football/teams/2006.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6786,
+        "name": "Akron",
+        "logo": "https://media.api-sports.io/football/teams/6786.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563667,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561403,
-      "referee": "Aleksei Suchkov, Russia",
-      "timezone": "UTC",
-      "date": "2026-10-11T11:00:00+00:00",
-      "timestamp": 1791716400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Akhmat-Arena",
-        "city": "Grozny"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1085,
-        "name": "Akhmat",
-        "logo": "https://media.api-sports.io/football/teams/1085.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2006,
-        "name": "Baltika",
-        "logo": "https://media.api-sports.io/football/teams/2006.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

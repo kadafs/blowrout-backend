@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1560058,
+      "referee": "Pavel Orel",
+      "timezone": "UTC",
+      "date": "2026-10-31T14:00:00+00:00",
+      "timestamp": 1793455200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Letni Stadion",
+        "city": "Pardubice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 345,
+      "name": "Czech Liga",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/345.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3724,
+        "name": "Pardubice",
+        "logo": "https://media.api-sports.io/football/teams/3724.png",
+        "winner": false
+      },
+      "away": {
+        "id": 782,
+        "name": "Slovan Liberec",
+        "logo": "https://media.api-sports.io/football/teams/782.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645412,
       "referee": "D. Stary",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643210,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T09:00:00+00:00",
-      "timestamp": 1790931600,
-      "periods": {
-        "first": 1790931600,
-        "second": 1790935200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3724,
-        "name": "Pardubice",
-        "logo": "https://media.api-sports.io/football/teams/3724.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3729,
-        "name": "Viktoria \u017di\u017ekov",
-        "logo": "https://media.api-sports.io/football/teams/3729.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 4,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

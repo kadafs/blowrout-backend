@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602175,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 4727,
+        "name": "Baba Yara Stadium",
+        "city": "Kumasi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 570,
+      "name": "Premier League",
+      "country": "Ghana",
+      "logo": "https://media.api-sports.io/football/leagues/570.png",
+      "flag": "https://media.api-sports.io/flags/gh.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6411,
+        "name": "Asante Kotoko",
+        "logo": "https://media.api-sports.io/football/teams/6411.png",
+        "winner": null
+      },
+      "away": {
+        "id": 12255,
+        "name": "Medeama",
+        "logo": "https://media.api-sports.io/football/teams/12255.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602165,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602129,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T15:00:00+00:00",
-      "timestamp": 1790521200,
-      "periods": {
-        "first": 1790521200,
-        "second": 1790524800
-      },
-      "venue": {
-        "id": 4727,
-        "name": "Baba Yara Stadium",
-        "city": "Kumasi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 570,
-      "name": "Premier League",
-      "country": "Ghana",
-      "logo": "https://media.api-sports.io/football/leagues/570.png",
-      "flag": "https://media.api-sports.io/flags/gh.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6411,
-        "name": "Asante Kotoko",
-        "logo": "https://media.api-sports.io/football/teams/6411.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8079,
-        "name": "Aduana Stars",
-        "logo": "https://media.api-sports.io/football/teams/8079.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

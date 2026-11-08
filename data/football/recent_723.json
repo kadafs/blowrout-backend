@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1569996,
+      "referee": "D. Miranda",
+      "timezone": "UTC",
+      "date": "2026-10-31T15:15:00+00:00",
+      "timestamp": 1793459700,
+      "periods": {
+        "first": 1793459700,
+        "second": 1793463300
+      },
+      "venue": {
+        "id": 1472,
+        "name": "Estadio Municipal de Ipurua",
+        "city": "Eibar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 545,
+        "name": "Eibar",
+        "logo": "https://media.api-sports.io/football/teams/545.png",
+        "winner": null
+      },
+      "away": {
+        "id": 723,
+        "name": "Almeria",
+        "logo": "https://media.api-sports.io/football/teams/723.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569982,
-      "referee": "German Cid Camacho",
+      "referee": "G. Cid",
       "timezone": "UTC",
       "date": "2026-10-24T19:00:00+00:00",
       "timestamp": 1792868400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792868400,
+        "second": 1792872000
       },
       "venue": {
         "id": 19216,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1569979,
-      "referee": "Alejandro Ojaos Valera, Spain",
+      "referee": "A. Ojaos",
       "timezone": "UTC",
       "date": "2026-10-17T12:00:00+00:00",
       "timestamp": 1792238400,
@@ -82,7 +152,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Estadio Ciudad Deportiva Zubieta",
+        "name": "Estadio Zubieta",
         "city": "San Sebastian"
       },
       "status": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1569959,
-      "referee": "Gonzalo Romero Freixas, Spain",
+      "referee": "G. Romero",
       "timezone": "UTC",
       "date": "2026-10-11T14:15:00+00:00",
       "timestamp": 1791728100,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1569949,
-      "referee": "Iosu Galech Apezteguia, Spain",
+      "referee": "I. Galech",
       "timezone": "UTC",
       "date": "2026-10-03T14:15:00+00:00",
       "timestamp": 1791036900,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569944,
-      "referee": "Daniel Palencia Caballero, Spain",
-      "timezone": "UTC",
-      "date": "2026-09-27T14:15:00+00:00",
-      "timestamp": 1790518500,
-      "periods": {
-        "first": 1790518500,
-        "second": 1790522100
-      },
-      "venue": {
-        "id": 19940,
-        "name": "Estadi Mallorca Son Moix",
-        "city": "Palma de Mallorca"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 798,
-        "name": "Mallorca",
-        "logo": "https://media.api-sports.io/football/teams/798.png",
-        "winner": false
-      },
-      "away": {
-        "id": 723,
-        "name": "Almeria",
-        "logo": "https://media.api-sports.io/football/teams/723.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

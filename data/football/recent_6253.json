@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647414,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:30:00+00:00",
+      "timestamp": 1793453400,
+      "periods": {
+        "first": 1793453400,
+        "second": 1793457000
+      },
+      "venue": {
+        "id": null,
+        "name": "Gabes Municipal Stadium",
+        "city": "Gabes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 828,
+      "name": "Ligue 2",
+      "country": "Tunisia",
+      "logo": "https://media.api-sports.io/football/leagues/828.png",
+      "flag": "https://media.api-sports.io/flags/tn.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 987,
+        "name": "AS Gabes",
+        "logo": "https://media.api-sports.io/football/teams/987.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6253,
+        "name": "AS Soliman",
+        "logo": "https://media.api-sports.io/football/teams/6253.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646973,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638377,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T14:00:00+00:00",
-      "timestamp": 1790431200,
-      "periods": {
-        "first": 1790431200,
-        "second": 1790434800
-      },
-      "venue": {
-        "id": null,
-        "name": "Soliman Municipal Stadium",
-        "city": "Soliman"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 828,
-      "name": "Ligue 2",
-      "country": "Tunisia",
-      "logo": "https://media.api-sports.io/football/leagues/828.png",
-      "flag": "https://media.api-sports.io/flags/tn.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6253,
-        "name": "AS Soliman",
-        "logo": "https://media.api-sports.io/football/teams/6253.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1190,
-        "name": "US Tataouine",
-        "logo": "https://media.api-sports.io/football/teams/1190.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

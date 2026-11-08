@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559186,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:15:00+00:00",
+      "timestamp": 1793556900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20333,
+        "name": "Kehrweg Stadium",
+        "city": "Eupen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 145,
+      "name": "Challenger Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/145.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 739,
+        "name": "AS Eupen",
+        "logo": "https://media.api-sports.io/football/teams/739.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4715,
+        "name": "Excelsior Virton",
+        "logo": "https://media.api-sports.io/football/teams/4715.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1559177,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1635528,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:00:00+00:00",
-      "timestamp": 1790517600,
-      "periods": {
-        "first": 1790517600,
-        "second": 1790521200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 147,
-      "name": "Cup",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/147.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5871,
-        "name": "Merelbeke",
-        "logo": "https://media.api-sports.io/football/teams/5871.png",
-        "winner": false
-      },
-      "away": {
-        "id": 739,
-        "name": "AS Eupen",
-        "logo": "https://media.api-sports.io/football/teams/739.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

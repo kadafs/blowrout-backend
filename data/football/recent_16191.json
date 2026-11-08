@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639099,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T09:45:00+00:00",
+      "timestamp": 1792316700,
+      "periods": {
+        "first": 1792316700,
+        "second": 1792320300
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 765,
+      "name": "PFL",
+      "country": "Philippines",
+      "logo": "https://media.api-sports.io/football/leagues/765.png",
+      "flag": "https://media.api-sports.io/flags/ph.svg",
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16191,
+        "name": "Maharlika",
+        "logo": "https://media.api-sports.io/football/teams/16191.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22754,
+        "name": "Davao Aguilas",
+        "logo": "https://media.api-sports.io/football/teams/22754.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639092,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636619,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T09:45:00+00:00",
-      "timestamp": 1788687900,
-      "periods": {
-        "first": 1788687900,
-        "second": 1788691500
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 765,
-      "name": "PFL",
-      "country": "Philippines",
-      "logo": "https://media.api-sports.io/football/leagues/765.png",
-      "flag": "https://media.api-sports.io/flags/ph.svg",
-      "season": 2027,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16191,
-        "name": "Maharlika",
-        "logo": "https://media.api-sports.io/football/teams/16191.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21580,
-        "name": "Tuloy",
-        "logo": "https://media.api-sports.io/football/teams/21580.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 2
       },
       "extratime": {
         "home": null,

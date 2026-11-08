@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1637372,
+      "referee": "F. Lata",
+      "timezone": "UTC",
+      "date": "2026-11-04T12:00:00+00:00",
+      "timestamp": 1793793600,
+      "periods": {
+        "first": 1793793600,
+        "second": 1793797200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Luis Filipe Menezes",
+        "city": "Vila Nova de Gaia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 14,
+      "name": "UEFA Youth League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/14.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 4",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7922,
+        "name": "Porto U19",
+        "logo": "https://media.api-sports.io/football/teams/7922.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7917,
+        "name": "Napoli U19",
+        "logo": "https://media.api-sports.io/football/teams/7917.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592046,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 22512,
         "name": "Gil Vicente U19",
         "logo": "https://media.api-sports.io/football/teams/22512.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1637336,
-      "referee": "M. Marcenaro",
-      "timezone": "UTC",
-      "date": "2026-10-14T14:00:00+00:00",
-      "timestamp": 1791986400,
-      "periods": {
-        "first": 1791986400,
-        "second": 1791990000
-      },
-      "venue": {
-        "id": null,
-        "name": "Ciudad Deportiva Luis de Sol",
-        "city": "Sevilla"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 14,
-      "name": "UEFA Youth League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/14.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Phase - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 25195,
-        "name": "Real Betis U19",
-        "logo": "https://media.api-sports.io/football/teams/25195.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7922,
-        "name": "Porto U19",
-        "logo": "https://media.api-sports.io/football/teams/7922.png",
         "winner": false
       }
     },

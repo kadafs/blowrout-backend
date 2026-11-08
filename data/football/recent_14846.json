@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627660,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T10:00:00+00:00",
+      "timestamp": 1793440800,
+      "periods": {
+        "first": 1793440800,
+        "second": 1793444400
+      },
+      "venue": {
+        "id": null,
+        "name": "Satalice Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 669,
+      "name": "1. Liga Women",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/669.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 28234,
+        "name": "Prague Raptors W",
+        "logo": "https://media.api-sports.io/football/teams/28234.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14846,
+        "name": "Slovan Liberec W",
+        "logo": "https://media.api-sports.io/football/teams/14846.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627656,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638405,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T15:00:00+00:00",
-      "timestamp": 1790175600,
-      "periods": {
-        "first": 1790175600,
-        "second": 1790179200
-      },
-      "venue": {
-        "id": 2493,
-        "name": "Town Stadium Usti",
-        "city": "Usti nad Labem"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14846,
-        "name": "Slovan Liberec W",
-        "logo": "https://media.api-sports.io/football/teams/14846.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15956,
-        "name": "Rosenborg W",
-        "logo": "https://media.api-sports.io/football/teams/15956.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

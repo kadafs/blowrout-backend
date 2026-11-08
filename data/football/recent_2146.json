@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496004,
+      "referee": "A. Al Fahad",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:00:00+00:00",
+      "timestamp": 1793548800,
+      "periods": {
+        "first": 1793548800,
+        "second": 1793552400
+      },
+      "venue": {
+        "id": 1187,
+        "name": "Skagerak Arena",
+        "city": "Skien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 330,
+        "name": "ODD Ballklubb",
+        "logo": "https://media.api-sports.io/football/teams/330.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2146,
+        "name": "Sandnes ULF",
+        "logo": "https://media.api-sports.io/football/teams/2146.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495995,
       "referee": "C. Moen",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495965,
-      "referee": "S. Hauge",
-      "timezone": "UTC",
-      "date": "2026-10-03T12:30:00+00:00",
-      "timestamp": 1791030600,
-      "periods": {
-        "first": 1791030600,
-        "second": 1791034200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2147,
-        "name": "Strommen",
-        "logo": "https://media.api-sports.io/football/teams/2147.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2146,
-        "name": "Sandnes ULF",
-        "logo": "https://media.api-sports.io/football/teams/2146.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1565516,
+      "referee": "Aleksandr Shandor",
+      "timezone": "UTC",
+      "date": "2026-11-02T11:00:00+00:00",
+      "timestamp": 1793617200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hirnyk Stadium",
+        "city": "Kryvyi Rih"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 333,
+      "name": "Premier League",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/333.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6489,
+        "name": "Kryvbas KR",
+        "logo": "https://media.api-sports.io/football/teams/6489.png",
+        "winner": false
+      },
+      "away": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640674,
       "referee": null,
       "timezone": "UTC",
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1565507,
-      "referee": "Mykhailo Mykhailovych Raida, Ukraine",
+      "referee": "M. Raida",
       "timezone": "UTC",
       "date": "2026-10-23T10:00:00+00:00",
       "timestamp": 1792749600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792749600,
+        "second": 1792753200
       },
       "venue": {
         "id": 22335,
-        "name": "Valeriy Lobanovsky Dynamo Stadium",
-        "city": "Kiev"
+        "name": "Stadion Valerija Lobanovskoho",
+        "city": "Kyiv"
       },
       "status": {
         "long": "Match Finished",
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1565503,
-      "referee": "Maksim Koziryatskiy, Ukraine",
+      "referee": "M. Kozyryatskiy",
       "timezone": "UTC",
       "date": "2026-10-18T10:00:00+00:00",
       "timestamp": 1792317600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792317600,
+        "second": 1792321200
       },
       "venue": {
         "id": 11948,
@@ -212,18 +282,18 @@
   {
     "fixture": {
       "id": 1565491,
-      "referee": "Denys Shurman, Ukraine",
+      "referee": "D. Shurman",
       "timezone": "UTC",
       "date": "2026-10-11T10:00:00+00:00",
       "timestamp": 1791712800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791712800,
+        "second": 1791716400
       },
       "venue": {
         "id": 22335,
-        "name": "Valeriy Lobanovsky Dynamo Stadium",
-        "city": "Kiev"
+        "name": "Stadion Valerija Lobanovskoho",
+        "city": "Kyiv"
       },
       "status": {
         "long": "Match Finished",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1565484,
-      "referee": "Dmytro Panchyshyn, Ukraine",
-      "timezone": "UTC",
-      "date": "2026-09-19T12:30:00+00:00",
-      "timestamp": 1789821000,
-      "periods": {
-        "first": 1789821000,
-        "second": 1789824600
-      },
-      "venue": {
-        "id": 1597,
-        "name": "Stadion Valerija Lobanovskoho",
-        "city": "Kyiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 333,
-      "name": "Premier League",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/333.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 599,
-        "name": "Zorya Luhansk",
-        "logo": "https://media.api-sports.io/football/teams/599.png",
-        "winner": false
-      },
-      "away": {
-        "id": 572,
-        "name": "Dynamo Kyiv",
-        "logo": "https://media.api-sports.io/football/teams/572.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

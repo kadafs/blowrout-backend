@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629972,
+      "referee": "Adham Makhadmeh",
+      "timezone": "UTC",
+      "date": "2026-11-03T18:15:00+00:00",
+      "timestamp": 1793729700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20744,
+        "name": "Kingdom Arena",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 17,
+      "name": "AFC Champions League Elite",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/17.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Phase - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2932,
+        "name": "Al-Hilal Saudi FC",
+        "logo": "https://media.api-sports.io/football/teams/2932.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2870,
+        "name": "Shabab Al Ahli Dubai",
+        "logo": "https://media.api-sports.io/football/teams/2870.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629955,
       "referee": "Khalid Al-Turais",
       "timezone": "UTC",
@@ -72,17 +142,17 @@
   {
     "fixture": {
       "id": 1639010,
-      "referee": null,
+      "referee": "Y. Perez",
       "timezone": "UTC",
       "date": "2026-10-17T15:45:00+00:00",
       "timestamp": 1792251900,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792251900,
+        "second": 1792255500
       },
       "venue": {
         "id": 8344,
-        "name": "Al-Rashid Stadium",
+        "name": "Al Rashid Stadium",
         "city": "Dubai"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636375,
-      "referee": "Z. Al Nuaimi",
-      "timezone": "UTC",
-      "date": "2026-10-02T15:45:00+00:00",
-      "timestamp": 1790955900,
-      "periods": {
-        "first": 1790955900,
-        "second": 1790959500
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Rashid Stadium",
-        "city": "Dubai"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 302,
-      "name": "League Cup",
-      "country": "United-Arab-Emirates",
-      "logo": "https://media.api-sports.io/football/leagues/302.png",
-      "flag": "https://media.api-sports.io/flags/ae.svg",
-      "season": 2026,
-      "round": "Group Stage - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2870,
-        "name": "Shabab Al Ahli Dubai",
-        "logo": "https://media.api-sports.io/football/teams/2870.png",
-        "winner": null
-      },
-      "away": {
-        "id": 10155,
-        "name": "Al Nasr",
-        "logo": "https://media.api-sports.io/football/teams/10155.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

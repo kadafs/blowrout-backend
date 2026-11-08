@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1515603,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-04T13:00:00+00:00",
+      "timestamp": 1775307600,
+      "periods": {
+        "first": 1775307600,
+        "second": 1775311200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 813,
+      "name": "Elite Two",
+      "country": "Cameroon",
+      "logo": "https://media.api-sports.io/football/leagues/813.png",
+      "flag": "https://media.api-sports.io/flags/cm.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5557,
+        "name": "Bamboutos",
+        "logo": "https://media.api-sports.io/football/teams/5557.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5399,
+        "name": "Avion Academy",
+        "logo": "https://media.api-sports.io/football/teams/5399.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1515549,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-01-31T14:30:00+00:00",
       "timestamp": 1769869800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1769869800,
+        "second": 1769873400
       },
       "venue": {
         "id": null,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 722492,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2021-07-21T14:30:00+00:00",
-      "timestamp": 1626877800,
-      "periods": {
-        "first": 1626877800,
-        "second": 1626881400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Annexe de la Reunification",
-        "city": "Douala"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 411,
-      "name": "Elite One",
-      "country": "Cameroon",
-      "logo": "https://media.api-sports.io/football/leagues/411.png",
-      "flag": "https://media.api-sports.io/flags/cm.svg",
-      "season": 2021,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5399,
-        "name": "Avion Academy",
-        "logo": "https://media.api-sports.io/football/teams/5399.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5557,
-        "name": "Bamboutos",
-        "logo": "https://media.api-sports.io/football/teams/5557.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

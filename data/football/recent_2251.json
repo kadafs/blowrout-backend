@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1554324,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T12:00:00+00:00",
+      "timestamp": 1793620800,
+      "periods": {
+        "first": 1793620800,
+        "second": 1793624400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 287,
+      "name": "Prva Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/287.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26409,
+        "name": "OFK Bor 1919",
+        "logo": "https://media.api-sports.io/football/teams/26409.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2251,
+        "name": "FK Spartak Zdrepceva KRV",
+        "logo": "https://media.api-sports.io/football/teams/2251.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1554199,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 6
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1554172,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-28T18:00:00+00:00",
-      "timestamp": 1790618400,
-      "periods": {
-        "first": 1790618400,
-        "second": 1790622000
-      },
-      "venue": {
-        "id": null,
-        "name": "Lagator Stadium",
-        "city": "Loznica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 287,
-      "name": "Prva Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/287.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12323,
-        "name": "Loznica",
-        "logo": "https://media.api-sports.io/football/teams/12323.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2251,
-        "name": "FK Spartak Zdrepceva KRV",
-        "logo": "https://media.api-sports.io/football/teams/2251.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

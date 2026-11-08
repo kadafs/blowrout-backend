@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607718,
+      "referee": "William Davis",
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 598,
+        "name": "London Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 44,
+      "name": "FA WSL",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/44.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1856,
+        "name": "West Ham W",
+        "logo": "https://media.api-sports.io/football/teams/1856.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1847,
+        "name": "Liverpool W",
+        "logo": "https://media.api-sports.io/football/teams/1847.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607710,
       "referee": "Melissa Burgin",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612640,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:00:00+00:00",
-      "timestamp": 1790791200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "The DCS Stadium",
-        "city": "Birmingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1845,
-        "name": "Birmingham City W",
-        "logo": "https://media.api-sports.io/football/teams/1845.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1847,
-        "name": "Liverpool W",
-        "logo": "https://media.api-sports.io/football/teams/1847.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

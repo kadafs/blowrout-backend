@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490589,
+      "referee": "T. Ford",
+      "timezone": "UTC",
+      "date": "2026-10-31T18:00:00+00:00",
+      "timestamp": 1793469600,
+      "periods": {
+        "first": 1793469600,
+        "second": 1793473200
+      },
+      "venue": {
+        "id": null,
+        "name": "Yankee Stadium",
+        "city": "Flushing"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1604,
+        "name": "New York City FC",
+        "logo": "https://media.api-sports.io/football/teams/1604.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1614,
+        "name": "CF Montreal",
+        "logo": "https://media.api-sports.io/football/teams/1614.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490574,
-      "referee": "Ricardo Fierro",
+      "referee": "R. Fierro",
       "timezone": "UTC",
       "date": "2026-10-28T23:30:00+00:00",
       "timestamp": 1793230200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793230200,
+        "second": 1793233800
       },
       "venue": {
         "id": 18659,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490557,
-      "referee": "Lukasz Szpala, USA",
+      "referee": "L. Szpala",
       "timezone": "UTC",
       "date": "2026-10-24T17:30:00+00:00",
       "timestamp": 1792863000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792863000,
+        "second": 1792866600
       },
       "venue": {
         "id": 310,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1490552,
-      "referee": "Fotis Bazakos",
+      "referee": "F. Bazakos",
       "timezone": "UTC",
       "date": "2026-10-18T02:30:00+00:00",
       "timestamp": 1792290600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792290600,
+        "second": 1792294200
       },
       "venue": {
         "id": 11534,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490530,
-      "referee": "Ricardo Montero, Costa Rica",
+      "referee": "P. Lauziere",
       "timezone": "UTC",
       "date": "2026-10-14T23:30:00+00:00",
       "timestamp": 1792020600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792020600,
+        "second": 1792024200
       },
       "venue": {
         "id": 310,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490512,
-      "referee": "Allen Chapman, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T17:00:00+00:00",
-      "timestamp": 1791651600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 312,
-        "name": "BMO Field",
-        "city": "Toronto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1601,
-        "name": "Toronto FC",
-        "logo": "https://media.api-sports.io/football/teams/1601.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1614,
-        "name": "CF Montreal",
-        "logo": "https://media.api-sports.io/football/teams/1614.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

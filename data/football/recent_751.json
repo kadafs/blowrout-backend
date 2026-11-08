@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1526020,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T10:00:00+00:00",
+      "timestamp": 1793527200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 163,
+        "name": "FC Minsk Stadium",
+        "city": "Minsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 116,
+      "name": "Premier League",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/116.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 391,
+        "name": "FC Isloch Minsk R.",
+        "logo": "https://media.api-sports.io/football/teams/391.png",
+        "winner": true
+      },
+      "away": {
+        "id": 751,
+        "name": "Slavia Mozyr",
+        "logo": "https://media.api-sports.io/football/teams/751.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1526013,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1525989,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 168,
-        "name": "Yunost Stadium",
-        "city": "Mozyr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 116,
-      "name": "Premier League",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/116.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 751,
-        "name": "Slavia Mozyr",
-        "logo": "https://media.api-sports.io/football/teams/751.png",
-        "winner": false
-      },
-      "away": {
-        "id": 750,
-        "name": "Naftan",
-        "logo": "https://media.api-sports.io/football/teams/750.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

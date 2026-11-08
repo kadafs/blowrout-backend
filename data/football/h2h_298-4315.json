@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606751,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T05:00:00+00:00",
+      "timestamp": 1794027600,
+      "periods": {
+        "first": 1794027600,
+        "second": 1794031200
+      },
+      "venue": {
+        "id": 0,
+        "name": "Soyu Stadium",
+        "city": "Akita"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4315,
+        "name": "Blaublitz Akita",
+        "logo": "https://media.api-sports.io/football/teams/4315.png",
+        "winner": true
+      },
+      "away": {
+        "id": 298,
+        "name": "Oita Trinita",
+        "logo": "https://media.api-sports.io/football/teams/298.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1324824,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 995345,
-      "referee": "H. Otsubo",
-      "timezone": "UTC",
-      "date": "2023-10-29T04:00:00+00:00",
-      "timestamp": 1698552000,
-      "periods": {
-        "first": 1698552000,
-        "second": 1698555600
-      },
-      "venue": {
-        "id": 973,
-        "name": "Resonac Dome Oita",
-        "city": "Oita"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2023,
-      "round": "Regular Season - 40",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 298,
-        "name": "Oita Trinita",
-        "logo": "https://media.api-sports.io/football/teams/298.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4315,
-        "name": "Blaublitz Akita",
-        "logo": "https://media.api-sports.io/football/teams/4315.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

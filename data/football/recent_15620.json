@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1583804,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T21:00:00+00:00",
+      "timestamp": 1794085200,
+      "periods": {
+        "first": 1794085200,
+        "second": 1794088800
+      },
+      "venue": {
+        "id": null,
+        "name": "Universidad Latina de Panama Field",
+        "city": "Penonome"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 304,
+      "name": "Liga Paname\u00f1a de F\u00fatbol",
+      "country": "Panama",
+      "logo": "https://media.api-sports.io/football/leagues/304.png",
+      "flag": "https://media.api-sports.io/flags/pa.svg",
+      "season": 2026,
+      "round": "Apertura - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2888,
+        "name": "Deportivo Universitario",
+        "logo": "https://media.api-sports.io/football/teams/2888.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15620,
+        "name": "Veraguas",
+        "logo": "https://media.api-sports.io/football/teams/15620.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1583796,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583775,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T23:15:00+00:00",
-      "timestamp": 1790550900,
-      "periods": {
-        "first": 1790550900,
-        "second": 1790554500
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Aristocles Castillo",
-        "city": "Santiago de Veraguas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 304,
-      "name": "Liga Paname\u00f1a de F\u00fatbol",
-      "country": "Panama",
-      "logo": "https://media.api-sports.io/football/leagues/304.png",
-      "flag": "https://media.api-sports.io/flags/pa.svg",
-      "season": 2026,
-      "round": "Apertura - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15620,
-        "name": "Veraguas",
-        "logo": "https://media.api-sports.io/football/teams/15620.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2889,
-        "name": "Sporting San Miguelito",
-        "logo": "https://media.api-sports.io/football/teams/2889.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

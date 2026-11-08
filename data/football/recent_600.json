@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1558670,
+      "referee": "Lawrence Visser, Belgium",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:45:00+00:00",
+      "timestamp": 1793389500,
+      "periods": {
+        "first": 1793389500,
+        "second": 1793393100
+      },
+      "venue": {
+        "id": 11891,
+        "name": "Elindus Arena",
+        "city": "Waregem"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 144,
+      "name": "Jupiler Pro League",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/144.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 600,
+        "name": "Zulte Waregem",
+        "logo": "https://media.api-sports.io/football/teams/600.png",
+        "winner": false
+      },
+      "away": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1558659,
-      "referee": "M. Ledda",
+      "referee": "Massimiliano Ledda, Belgium",
       "timezone": "UTC",
       "date": "2026-10-24T18:45:00+00:00",
       "timestamp": 1792867500,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1558651,
-      "referee": "N. Laforge",
+      "referee": "Nicolas Laforge, Belgium",
       "timezone": "UTC",
       "date": "2026-10-10T18:45:00+00:00",
       "timestamp": 1791657900,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1558638,
-      "referee": "Simon Bourdeaud'hui, Belgium",
-      "timezone": "UTC",
-      "date": "2026-09-19T18:45:00+00:00",
-      "timestamp": 1789843500,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 174,
-        "name": "Lotto Park",
-        "city": "Anderlecht"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 144,
-      "name": "Jupiler Pro League",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/144.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 554,
-        "name": "Anderlecht",
-        "logo": "https://media.api-sports.io/football/teams/554.png",
-        "winner": true
-      },
-      "away": {
-        "id": 600,
-        "name": "Zulte Waregem",
-        "logo": "https://media.api-sports.io/football/teams/600.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

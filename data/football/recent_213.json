@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1576517,
+      "referee": "J. P. Costa Teixeira Afonso",
+      "timezone": "UTC",
+      "date": "2026-11-02T18:00:00+00:00",
+      "timestamp": 1793642400,
+      "periods": {
+        "first": 1793642400,
+        "second": 1793646000
+      },
+      "venue": {
+        "id": 1284,
+        "name": "Estadio Municipal 25 de Abril",
+        "city": "Penafiel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 95,
+      "name": "Segunda Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/95.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 235,
+        "name": "Penafiel",
+        "logo": "https://media.api-sports.io/football/teams/235.png",
+        "winner": true
+      },
+      "away": {
+        "id": 213,
+        "name": "Feirense",
+        "logo": "https://media.api-sports.io/football/teams/213.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576507,
-      "referee": "David Rafael Oliveira da Silva, Portugal",
+      "referee": "D. Silva",
       "timezone": "UTC",
       "date": "2026-10-24T13:00:00+00:00",
       "timestamp": 1792846800,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1576500,
-      "referee": "Antonio Nobre, Portugal",
+      "referee": "A. Nobre",
       "timezone": "UTC",
       "date": "2026-10-11T13:00:00+00:00",
       "timestamp": 1791723600,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1576488,
-      "referee": "Diogo Rosa, Portugal",
+      "referee": "D. Rosa",
       "timezone": "UTC",
       "date": "2026-09-13T13:00:00+00:00",
       "timestamp": 1789304400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576477,
-      "referee": "Miguel Andre Monteiro Fonseca, Portugal",
-      "timezone": "UTC",
-      "date": "2026-09-05T14:30:00+00:00",
-      "timestamp": 1788618600,
-      "periods": {
-        "first": 1788618600,
-        "second": 1788622200
-      },
-      "venue": {
-        "id": 1277,
-        "name": "Estadio Marcolino de Castro",
-        "city": "Santa Maria da Feira"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 95,
-      "name": "Segunda Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/95.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 213,
-        "name": "Feirense",
-        "logo": "https://media.api-sports.io/football/teams/213.png",
-        "winner": false
-      },
-      "away": {
-        "id": 761,
-        "name": "Sporting CP B",
-        "logo": "https://media.api-sports.io/football/teams/761.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

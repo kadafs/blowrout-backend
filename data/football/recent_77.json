@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552804,
+      "referee": "Marc Bollengier",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:15:00+00:00",
+      "timestamp": 1793549700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 666,
+        "name": "Groupama Stadium",
+        "city": "Lyon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/61.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png",
+        "winner": true
+      },
+      "away": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552792,
       "referee": "Azzedine Souifi",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552758,
-      "referee": "R. Buquet",
-      "timezone": "UTC",
-      "date": "2026-09-12T18:45:00+00:00",
-      "timestamp": 1789238700,
-      "periods": {
-        "first": 1789238700,
-        "second": 1789242300
-      },
-      "venue": {
-        "id": 652,
-        "name": "Stade Oc\u00e9ane",
-        "city": "Le Havre"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 61,
-      "name": "Ligue 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/61.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 111,
-        "name": "Le Havre",
-        "logo": "https://media.api-sports.io/football/teams/111.png",
-        "winner": null
-      },
-      "away": {
-        "id": 77,
-        "name": "Angers",
-        "logo": "https://media.api-sports.io/football/teams/77.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

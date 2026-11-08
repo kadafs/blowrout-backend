@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646866,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1106,
+        "name": "Grand Stade de Tanger",
+        "city": "Tangier"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 200,
+      "name": "Botola Pro",
+      "country": "Morocco",
+      "logo": "https://media.api-sports.io/football/leagues/200.png",
+      "flag": "https://media.api-sports.io/flags/ma.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 974,
+        "name": "Ittihad Tanger",
+        "logo": "https://media.api-sports.io/football/teams/974.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3449,
+        "name": "CR Khemis Zemamra",
+        "logo": "https://media.api-sports.io/football/teams/3449.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646858,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636662,
-      "referee": "A. Boulfaid",
-      "timezone": "UTC",
-      "date": "2026-09-24T20:00:00+00:00",
-      "timestamp": 1790280000,
-      "periods": {
-        "first": 1790280000,
-        "second": 1790283600
-      },
-      "venue": {
-        "id": 11546,
-        "name": "Stade El Bachir",
-        "city": "Mohammedia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 200,
-      "name": "Botola Pro",
-      "country": "Morocco",
-      "logo": "https://media.api-sports.io/football/leagues/200.png",
-      "flag": "https://media.api-sports.io/flags/ma.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18753,
-        "name": "Amal Tiznit",
-        "logo": "https://media.api-sports.io/football/teams/18753.png",
-        "winner": false
-      },
-      "away": {
-        "id": 974,
-        "name": "Ittihad Tanger",
-        "logo": "https://media.api-sports.io/football/teams/974.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

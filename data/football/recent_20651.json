@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639050,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T03:00:00+00:00",
+      "timestamp": 1794106800,
+      "periods": {
+        "first": 1794106800,
+        "second": 1794110400
+      },
+      "venue": {
+        "id": 2788,
+        "name": "Madills Farm",
+        "city": "Kohimarama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 955,
+      "name": "National League - National",
+      "country": "New-Zealand",
+      "logo": "https://media.api-sports.io/football/leagues/955.png",
+      "flag": "https://media.api-sports.io/flags/nz.svg",
+      "season": 2026,
+      "round": "Championship Group - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13977,
+        "name": "Eastern Suburbs",
+        "logo": "https://media.api-sports.io/football/teams/13977.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20651,
+        "name": "Cashmere Technical",
+        "logo": "https://media.api-sports.io/football/teams/20651.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639044,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639025,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T01:00:00+00:00",
-      "timestamp": 1791075600,
-      "periods": {
-        "first": 1791075600,
-        "second": 1791079200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 955,
-      "name": "National League - National",
-      "country": "New-Zealand",
-      "logo": "https://media.api-sports.io/football/leagues/955.png",
-      "flag": "https://media.api-sports.io/flags/nz.svg",
-      "season": 2026,
-      "round": "Championship Group - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20651,
-        "name": "Cashmere Technical",
-        "logo": "https://media.api-sports.io/football/teams/20651.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2535,
-        "name": "Wellington Phoenix II",
-        "logo": "https://media.api-sports.io/football/teams/2535.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 10,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 6,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 10,
-        "away": 0
       },
       "extratime": {
         "home": null,

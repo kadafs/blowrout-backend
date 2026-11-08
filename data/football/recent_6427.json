@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648023,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T19:50:00+00:00",
+      "timestamp": 1793649000,
+      "periods": {
+        "first": 1793649000,
+        "second": 1793652600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 762,
+      "name": "Premier League",
+      "country": "Mauritania",
+      "logo": "https://media.api-sports.io/football/leagues/762.png",
+      "flag": "https://media.api-sports.io/flags/mr.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17924,
+        "name": "AC Douane",
+        "logo": "https://media.api-sports.io/football/teams/17924.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6427,
+        "name": "Nouadhibou",
+        "logo": "https://media.api-sports.io/football/teams/6427.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645352,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 26812,
         "name": "Nouakchott Academie",
         "logo": "https://media.api-sports.io/football/teams/26812.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619094,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T17:00:00+00:00",
-      "timestamp": 1789318800,
-      "periods": {
-        "first": 1789318800,
-        "second": 1789322400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 12,
-      "name": "CAF Champions League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/12.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6427,
-        "name": "Nouadhibou",
-        "logo": "https://media.api-sports.io/football/teams/6427.png",
-        "winner": null
-      },
-      "away": {
-        "id": 8114,
-        "name": "Vipers",
-        "logo": "https://media.api-sports.io/football/teams/8114.png",
         "winner": null
       }
     },

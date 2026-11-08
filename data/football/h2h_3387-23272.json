@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534499,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T10:00:00+00:00",
+      "timestamp": 1794045600,
+      "periods": {
+        "first": 1794045600,
+        "second": 1794049200
+      },
+      "venue": {
+        "id": null,
+        "name": "Yunost Stadium",
+        "city": "Lida"
+      },
+      "status": {
+        "long": "Second Half",
+        "short": "2H",
+        "elapsed": 57,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 117,
+      "name": "1. Division",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/117.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3387,
+        "name": "Lida",
+        "logo": "https://media.api-sports.io/football/teams/3387.png",
+        "winner": true
+      },
+      "away": {
+        "id": 23272,
+        "name": "BATE II",
+        "logo": "https://media.api-sports.io/football/teams/23272.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534362,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1185255,
-      "referee": "D. Zhakhovskiy",
-      "timezone": "UTC",
-      "date": "2024-05-24T13:00:00+00:00",
-      "timestamp": 1716555600,
-      "periods": {
-        "first": 1716555600,
-        "second": 1716559200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadyen Haradski",
-        "city": "Borisov"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 117,
-      "name": "1. Division",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/117.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2024,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 23272,
-        "name": "BATE II",
-        "logo": "https://media.api-sports.io/football/teams/23272.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3387,
-        "name": "Lida",
-        "logo": "https://media.api-sports.io/football/teams/3387.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

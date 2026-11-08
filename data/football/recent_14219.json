@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1607713,
+      "referee": "Megan Wilson",
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 503,
+        "name": "Meadow Park",
+        "city": "Borehamwood"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 44,
+      "name": "FA WSL",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/44.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1850,
+        "name": "Arsenal W",
+        "logo": "https://media.api-sports.io/football/teams/1850.png",
+        "winner": null
+      },
+      "away": {
+        "id": 14219,
+        "name": "Aston Villa W",
+        "logo": "https://media.api-sports.io/football/teams/14219.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607709,
       "referee": "Abigail Byrne",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612644,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:30:00+00:00",
-      "timestamp": 1790793000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Keys Park",
-        "city": "Hednesford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14219,
-        "name": "Aston Villa W",
-        "logo": "https://media.api-sports.io/football/teams/14219.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15515,
-        "name": "Newcastle United W",
-        "logo": "https://media.api-sports.io/football/teams/15515.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

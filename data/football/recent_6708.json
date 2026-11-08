@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1505322,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": 4901,
+        "name": "Skytteholms IP",
+        "city": "Solna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 563,
+      "name": "Ettan - Norra",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/563.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Norra - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6708,
+        "name": "Vasalund",
+        "logo": "https://media.api-sports.io/football/teams/6708.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11659,
+        "name": "IF Karlstad",
+        "logo": "https://media.api-sports.io/football/teams/11659.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505314,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1505277,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:00:00+00:00",
-      "timestamp": 1790517600,
-      "periods": {
-        "first": 1790517600,
-        "second": 1790521200
-      },
-      "venue": {
-        "id": null,
-        "name": "Gavlevallen",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 15
-      }
-    },
-    "league": {
-      "id": 563,
-      "name": "Ettan - Norra",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/563.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Norra - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 813,
-        "name": "Gefle IF",
-        "logo": "https://media.api-sports.io/football/teams/813.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6708,
-        "name": "Vasalund",
-        "logo": "https://media.api-sports.io/football/teams/6708.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1562107,
+      "referee": "L. Thompson",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:45:00+00:00",
+      "timestamp": 1793389500,
+      "periods": {
+        "first": 1793389500,
+        "second": 1793393100
+      },
+      "venue": {
+        "id": 4045,
+        "name": "Inver Park",
+        "city": "Larne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5354,
+        "name": "Larne",
+        "logo": "https://media.api-sports.io/football/teams/5354.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5348,
+        "name": "Portadown",
+        "logo": "https://media.api-sports.io/football/teams/5348.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562103,
-      "referee": null,
+      "referee": "T. Clarke",
       "timezone": "UTC",
       "date": "2026-10-23T18:45:00+00:00",
       "timestamp": 1792781100,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1562095,
-      "referee": null,
+      "referee": "I. McNabb",
       "timezone": "UTC",
       "date": "2026-10-17T17:00:00+00:00",
       "timestamp": 1792256400,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1562091,
-      "referee": null,
+      "referee": "N. Devlin",
       "timezone": "UTC",
       "date": "2026-10-09T18:45:00+00:00",
       "timestamp": 1791571500,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562085,
-      "referee": "S. McGonigle",
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 4040,
-        "name": "Shamrock Park",
-        "city": "Portadown"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5348,
-        "name": "Portadown",
-        "logo": "https://media.api-sports.io/football/teams/5348.png",
-        "winner": true
-      },
-      "away": {
-        "id": 11114,
-        "name": "Limavady United",
-        "logo": "https://media.api-sports.io/football/teams/11114.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

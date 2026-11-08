@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1604287,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T14:00:00+00:00",
+      "timestamp": 1793541600,
+      "periods": {
+        "first": 1793541600,
+        "second": 1793545200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 749,
+      "name": "Oberliga - Bremen",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/749.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Bremen - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16097,
+        "name": "Werder Bremen III",
+        "logo": "https://media.api-sports.io/football/teams/16097.png",
+        "winner": null
+      },
+      "away": {
+        "id": 19756,
+        "name": "Woltmershausen",
+        "logo": "https://media.api-sports.io/football/teams/19756.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604280,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604248,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T13:00:00+00:00",
-      "timestamp": 1789822800,
-      "periods": {
-        "first": 1789822800,
-        "second": 1789826400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 749,
-      "name": "Oberliga - Bremen",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/749.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Bremen - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19756,
-        "name": "Woltmershausen",
-        "logo": "https://media.api-sports.io/football/teams/19756.png",
-        "winner": false
-      },
-      "away": {
-        "id": 13937,
-        "name": "Aumund-Vegesack",
-        "logo": "https://media.api-sports.io/football/teams/13937.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 7
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 7
       },
       "extratime": {
         "home": null,

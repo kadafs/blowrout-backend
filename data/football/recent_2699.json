@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648166,
+      "referee": "C. Kistoor",
+      "timezone": "UTC",
+      "date": "2026-11-03T17:00:00+00:00",
+      "timestamp": 1793725200,
+      "periods": {
+        "first": 1793725200,
+        "second": 1793728800
+      },
+      "venue": {
+        "id": null,
+        "name": "Lucas Masterpieces Moripe Stadium",
+        "city": "Pretoria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 508,
+      "name": "League Cup",
+      "country": "South-Africa",
+      "logo": "https://media.api-sports.io/football/leagues/508.png",
+      "flag": "https://media.api-sports.io/flags/za.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2699,
+        "name": "Mamelodi Sundowns",
+        "logo": "https://media.api-sports.io/football/teams/2699.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2690,
+        "name": "Golden Arrows",
+        "logo": "https://media.api-sports.io/football/teams/2690.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600367,
       "referee": "Cedrick Muvhali",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600358,
-      "referee": "Moreki Lekwape, South Africa",
-      "timezone": "UTC",
-      "date": "2026-10-13T17:30:00+00:00",
-      "timestamp": 1791912600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1445,
-        "name": "Richards Bay Stadium (Umhlathuze)",
-        "city": "Richards Bay"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 288,
-      "name": "Premier Soccer League",
-      "country": "South-Africa",
-      "logo": "https://media.api-sports.io/football/leagues/288.png",
-      "flag": "https://media.api-sports.io/flags/za.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10567,
-        "name": "Richards Bay",
-        "logo": "https://media.api-sports.io/football/teams/10567.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2699,
-        "name": "Mamelodi Sundowns",
-        "logo": "https://media.api-sports.io/football/teams/2699.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

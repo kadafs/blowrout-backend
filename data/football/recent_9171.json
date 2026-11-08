@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1510484,
+      "referee": "H. Jung",
+      "timezone": "UTC",
+      "date": "2026-10-31T05:00:00+00:00",
+      "timestamp": 1793422800,
+      "periods": {
+        "first": 1793422800,
+        "second": 1793426400
+      },
+      "venue": {
+        "id": 22429,
+        "name": "Yongin Mireu Stadium",
+        "city": "Yongin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 293,
+      "name": "K League 2",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/293.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9171,
+        "name": "Yongin City",
+        "logo": "https://media.api-sports.io/football/teams/9171.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2749,
+        "name": "Seoul E-Land FC",
+        "logo": "https://media.api-sports.io/football/teams/2749.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1510481,
       "referee": "Go Min-Guk",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510443,
-      "referee": "Oh Hyun-Jung",
-      "timezone": "UTC",
-      "date": "2026-09-12T07:30:00+00:00",
-      "timestamp": 1789198200,
-      "periods": {
-        "first": 1789198200,
-        "second": 1789201800
-      },
-      "venue": {
-        "id": null,
-        "name": "DGB Daegu Bank Park",
-        "city": "Daegu"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 293,
-      "name": "K League 2",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/293.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 26",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2747,
-        "name": "Daegu FC",
-        "logo": "https://media.api-sports.io/football/teams/2747.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9171,
-        "name": "Yongin City",
-        "logo": "https://media.api-sports.io/football/teams/9171.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

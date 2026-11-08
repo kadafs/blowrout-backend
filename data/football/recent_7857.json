@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643321,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T18:00:00+00:00",
+      "timestamp": 1793642400,
+      "periods": {
+        "first": 1793642400,
+        "second": 1793646000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7857,
+        "name": "Guarany de Sobral",
+        "logo": "https://media.api-sports.io/football/teams/7857.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9129,
+        "name": "Sete de Setembro",
+        "logo": "https://media.api-sports.io/football/teams/9129.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643309,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1533266,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-13T23:00:00+00:00",
-      "timestamp": 1778713200,
-      "periods": {
-        "first": 1778713200,
-        "second": 1778716800
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 620,
-      "name": "Cearense - 2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/620.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7857,
-        "name": "Guarany de Sobral",
-        "logo": "https://media.api-sports.io/football/teams/7857.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15506,
-        "name": "Itapipoca",
-        "logo": "https://media.api-sports.io/football/teams/15506.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

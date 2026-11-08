@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606750,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T05:00:00+00:00",
+      "timestamp": 1794027600,
+      "periods": {
+        "first": 1794027600,
+        "second": 1794031200
+      },
+      "venue": {
+        "id": 0,
+        "name": "Ekimae Real Estate Stadium",
+        "city": "Tosu"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 295,
+        "name": "Sagan Tosu",
+        "logo": "https://media.api-sports.io/football/teams/295.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4322,
+        "name": "Kataller Toyama",
+        "logo": "https://media.api-sports.io/football/teams/4322.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606737,
       "referee": "Y. Hori",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606709,
-      "referee": "Y. Tanabe",
-      "timezone": "UTC",
-      "date": "2026-10-21T10:00:00+00:00",
-      "timestamp": 1792576800,
-      "periods": {
-        "first": 1792576800,
-        "second": 1792580400
-      },
-      "venue": {
-        "id": 0,
-        "name": "Denka Big Swan Stadium",
-        "city": "Niigata"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 311,
-        "name": "Albirex Niigata",
-        "logo": "https://media.api-sports.io/football/teams/311.png",
-        "winner": true
-      },
-      "away": {
-        "id": 295,
-        "name": "Sagan Tosu",
-        "logo": "https://media.api-sports.io/football/teams/295.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639672,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T13:00:00+00:00",
+      "timestamp": 1793451600,
+      "periods": {
+        "first": 1793451600,
+        "second": 1793455200
+      },
+      "venue": {
+        "id": null,
+        "name": "Vatani Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 290,
+      "name": "Persian Gulf Pro League",
+      "country": "Iran",
+      "logo": "https://media.api-sports.io/football/leagues/290.png",
+      "flag": "https://media.api-sports.io/flags/ir.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2719,
+        "name": "Nassaji Mazandaran",
+        "logo": "https://media.api-sports.io/football/teams/2719.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2742,
+        "name": "Persepolis FC",
+        "logo": "https://media.api-sports.io/football/teams/2742.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639667,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1631584,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-07T15:30:00+00:00",
-      "timestamp": 1788795000,
-      "periods": {
-        "first": 1788795000,
-        "second": 1788798600
-      },
-      "venue": {
-        "id": null,
-        "name": "Vatani Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 290,
-      "name": "Persian Gulf Pro League",
-      "country": "Iran",
-      "logo": "https://media.api-sports.io/football/leagues/290.png",
-      "flag": "https://media.api-sports.io/flags/ir.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2719,
-        "name": "Nassaji Mazandaran",
-        "logo": "https://media.api-sports.io/football/teams/2719.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2716,
-        "name": "Kheybar Khorramabad",
-        "logo": "https://media.api-sports.io/football/teams/2716.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

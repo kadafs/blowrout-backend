@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619527,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": null,
+        "name": "The Lamb Ground",
+        "city": "Tamworth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7752,
+        "name": "Tamworth",
+        "logo": "https://media.api-sports.io/football/teams/7752.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7193,
+        "name": "Everton U21",
+        "logo": "https://media.api-sports.io/football/teams/7193.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1588844,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621040,
-      "referee": "S. Mulhall",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": null,
-        "name": "Bearwood Park",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11914,
-        "name": "Reading U21",
-        "logo": "https://media.api-sports.io/football/teams/11914.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7193,
-        "name": "Everton U21",
-        "logo": "https://media.api-sports.io/football/teams/7193.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

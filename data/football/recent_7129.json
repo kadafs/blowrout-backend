@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1555798,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T05:00:00+00:00",
+      "timestamp": 1794027600,
+      "periods": {
+        "first": 1794027600,
+        "second": 1794031200
+      },
+      "venue": {
+        "id": null,
+        "name": "Konoike Athletic Stadium",
+        "city": "Nara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 100,
+      "name": "J3 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/100.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7135,
+        "name": "Nara Club",
+        "logo": "https://media.api-sports.io/football/teams/7135.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7129,
+        "name": "Kochi United",
+        "logo": "https://media.api-sports.io/football/teams/7129.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1555785,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1555749,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-18T05:00:00+00:00",
-      "timestamp": 1792299600,
-      "periods": {
-        "first": 1792299600,
-        "second": 1792303200
-      },
-      "venue": {
-        "id": 1697,
-        "name": "Ishin Me-Life Stadium",
-        "city": "Yamaguchi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 100,
-      "name": "J3 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/100.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 309,
-        "name": "Renofa Yamaguchi",
-        "logo": "https://media.api-sports.io/football/teams/309.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7129,
-        "name": "Kochi United",
-        "logo": "https://media.api-sports.io/football/teams/7129.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632052,
+      "referee": "David Ojeda",
+      "timezone": "UTC",
+      "date": "2026-11-04T22:00:00+00:00",
+      "timestamp": 1793829600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19515,
+        "name": "Dr. Nicol\u00e1s Leoz",
+        "city": "Asunci\u00f3n"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1179,
+        "name": "Libertad Asuncion",
+        "logo": "https://media.api-sports.io/football/teams/1179.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1176,
+        "name": "Cerro Porteno",
+        "logo": "https://media.api-sports.io/football/teams/1176.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632044,
       "referee": "Juan Gabriel Benitez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632021,
-      "referee": "Mario Diaz De Vivar, Paraguay",
-      "timezone": "UTC",
-      "date": "2026-10-05T22:15:00+00:00",
-      "timestamp": 1791238500,
-      "periods": {
-        "first": 1791238500,
-        "second": 1791242100
-      },
-      "venue": {
-        "id": 22161,
-        "name": "Estadio General Pablo Rojas",
-        "city": "Asunci\u00f3n"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 252,
-      "name": "Division Profesional - Clausura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/252.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Clausura - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1176,
-        "name": "Cerro Porteno",
-        "logo": "https://media.api-sports.io/football/teams/1176.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2140,
-        "name": "2 de Mayo",
-        "logo": "https://media.api-sports.io/football/teams/2140.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

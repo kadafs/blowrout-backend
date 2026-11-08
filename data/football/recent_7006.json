@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496003,
+      "referee": "H. Nervik",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:00:00+00:00",
+      "timestamp": 1793548800,
+      "periods": {
+        "first": 1793548800,
+        "second": 1793552400
+      },
+      "venue": {
+        "id": null,
+        "name": "Bislett Stadium",
+        "city": "Oslo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7006,
+        "name": "Lyn",
+        "logo": "https://media.api-sports.io/football/teams/7006.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2153,
+        "name": "Raufoss",
+        "logo": "https://media.api-sports.io/football/teams/2153.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640473,
       "referee": "A. Al Hatem",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495970,
-      "referee": "M. Berg",
-      "timezone": "UTC",
-      "date": "2026-10-11T15:00:00+00:00",
-      "timestamp": 1791730800,
-      "periods": {
-        "first": 1791730800,
-        "second": 1791734400
-      },
-      "venue": {
-        "id": null,
-        "name": "Bislett Stadium",
-        "city": "Oslo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7006,
-        "name": "Lyn",
-        "logo": "https://media.api-sports.io/football/teams/7006.png",
-        "winner": false
-      },
-      "away": {
-        "id": 324,
-        "name": "Stromsgodset",
-        "logo": "https://media.api-sports.io/football/teams/324.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

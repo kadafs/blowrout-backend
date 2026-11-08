@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1496005,
+      "referee": "M. Tennoy",
+      "timezone": "UTC",
+      "date": "2026-11-01T13:30:00+00:00",
+      "timestamp": 1793539800,
+      "periods": {
+        "first": 1793539800,
+        "second": 1793543400
+      },
+      "venue": {
+        "id": null,
+        "name": "EXTRA Arena",
+        "city": "Trondheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 104,
+      "name": "1. Division",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/104.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 322,
+        "name": "Ranheim",
+        "logo": "https://media.api-sports.io/football/teams/322.png",
+        "winner": true
+      },
+      "away": {
+        "id": 758,
+        "name": "Sogndal",
+        "logo": "https://media.api-sports.io/football/teams/758.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640470,
       "referee": "S. Sletner",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495969,
-      "referee": "O. Valen",
-      "timezone": "UTC",
-      "date": "2026-10-11T15:00:00+00:00",
-      "timestamp": 1791730800,
-      "periods": {
-        "first": 1791730800,
-        "second": 1791734400
-      },
-      "venue": {
-        "id": 1180,
-        "name": "Gjemselund Stadion",
-        "city": "Kongsvinger"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 104,
-      "name": "1. Division",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/104.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 25",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2144,
-        "name": "Kongsvinger",
-        "logo": "https://media.api-sports.io/football/teams/2144.png",
-        "winner": true
-      },
-      "away": {
-        "id": 322,
-        "name": "Ranheim",
-        "logo": "https://media.api-sports.io/football/teams/322.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 2
       },
       "extratime": {
         "home": null,

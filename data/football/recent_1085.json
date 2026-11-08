@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561429,
+      "referee": "Sergey Karasev",
+      "timezone": "UTC",
+      "date": "2026-10-31T14:30:00+00:00",
+      "timestamp": 1793457000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1334,
+        "name": "VTB Arena",
+        "city": "Moscow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 235,
+      "name": "Premier League",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/235.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1088,
+        "name": "Dynamo",
+        "logo": "https://media.api-sports.io/football/teams/1088.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1085,
+        "name": "Akhmat",
+        "logo": "https://media.api-sports.io/football/teams/1085.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561419,
       "referee": "Evgeniy Bulanov, Russia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561395,
-      "referee": "Matvey Zaika, Russia",
-      "timezone": "UTC",
-      "date": "2026-09-17T15:30:00+00:00",
-      "timestamp": 1789659000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 20983,
-        "name": "Solidarnost Samara Arena",
-        "city": "Samara"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 235,
-      "name": "Premier League",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/235.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6786,
-        "name": "Akron",
-        "logo": "https://media.api-sports.io/football/teams/6786.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1085,
-        "name": "Akhmat",
-        "logo": "https://media.api-sports.io/football/teams/1085.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

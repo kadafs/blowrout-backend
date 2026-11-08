@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1569858,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T05:00:00+00:00",
+      "timestamp": 1793422800,
+      "periods": {
+        "first": 1793422800,
+        "second": 1793426400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1234,
+      "name": "K4 League",
+      "country": "South-Korea",
+      "logo": "https://media.api-sports.io/football/leagues/1234.png",
+      "flag": "https://media.api-sports.io/flags/kr.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27858,
+        "name": "Geumsan Insam",
+        "logo": "https://media.api-sports.io/football/teams/27858.png",
+        "winner": null
+      },
+      "away": {
+        "id": 25720,
+        "name": "Sejong SA",
+        "logo": "https://media.api-sports.io/football/teams/25720.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569854,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569833,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-30T10:00:00+00:00",
-      "timestamp": 1788084000,
-      "periods": {
-        "first": 1788084000,
-        "second": 1788087600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 1234,
-      "name": "K4 League",
-      "country": "South-Korea",
-      "logo": "https://media.api-sports.io/football/leagues/1234.png",
-      "flag": "https://media.api-sports.io/flags/kr.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25720,
-        "name": "Sejong SA",
-        "logo": "https://media.api-sports.io/football/teams/25720.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7092,
-        "name": "Jungnang Chorus Mustang",
-        "logo": "https://media.api-sports.io/football/teams/7092.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643319,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T19:00:00+00:00",
+      "timestamp": 1793559600,
+      "periods": {
+        "first": 1793559600,
+        "second": 1793563200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1205,
+        "name": "Salgueiro",
+        "logo": "https://media.api-sports.io/football/teams/1205.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28463,
+        "name": "Facilnet",
+        "logo": "https://media.api-sports.io/football/teams/28463.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643305,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1020400,
-      "referee": "Michelangelo Martins de Almeida Junior",
-      "timezone": "UTC",
-      "date": "2023-04-05T23:00:00+00:00",
-      "timestamp": 1680735600,
-      "periods": {
-        "first": 1680735600,
-        "second": 1680739200
-      },
-      "venue": {
-        "id": 12670,
-        "name": "Est\u00e1dio El\u00e1dio de Barros Carvalho",
-        "city": "Recife, Pernambuco"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 622,
-      "name": "Pernambucano - 1",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/622.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2023,
-      "round": "Play-off",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 755,
-        "name": "Nautico Recife",
-        "logo": "https://media.api-sports.io/football/teams/755.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1205,
-        "name": "Salgueiro",
-        "logo": "https://media.api-sports.io/football/teams/1205.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557455,
+      "referee": "J. Brooks",
+      "timezone": "UTC",
+      "date": "2026-11-02T20:00:00+00:00",
+      "timestamp": 1793649600,
+      "periods": {
+        "first": 1793649600,
+        "second": 1793653200
+      },
+      "venue": {
+        "id": 562,
+        "name": "St James' Park",
+        "city": "Newcastle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/39.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png",
+        "winner": false
+      },
+      "away": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640385,
       "referee": "F. Hallam",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1557441,
-      "referee": "Paul Tierney",
+      "referee": "P. Tierney",
       "timezone": "UTC",
       "date": "2026-10-25T14:00:00+00:00",
       "timestamp": 1792936800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792936800,
+        "second": 1792940400
       },
       "venue": {
         "id": 525,
@@ -142,18 +212,18 @@
   {
     "fixture": {
       "id": 1557434,
-      "referee": "Jarred Gillett",
+      "referee": "J. Gillett",
       "timezone": "UTC",
       "date": "2026-10-17T16:30:00+00:00",
       "timestamp": 1792254600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792254600,
+        "second": 1792258200
       },
       "venue": {
         "id": 562,
         "name": "St James' Park",
-        "city": "Newcastle upon Tyne"
+        "city": "Newcastle"
       },
       "status": {
         "long": "Match Finished",
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1557420,
-      "referee": "John Brooks, England",
+      "referee": "J. Brooks",
       "timezone": "UTC",
       "date": "2026-10-12T19:00:00+00:00",
       "timestamp": 1791831600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1791831600,
+        "second": 1791835200
       },
       "venue": {
         "id": 11896,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557414,
-      "referee": "Tony Harrington, England",
-      "timezone": "UTC",
-      "date": "2026-09-19T14:00:00+00:00",
-      "timestamp": 1789826400,
-      "periods": {
-        "first": 1789826400,
-        "second": 1789830000
-      },
-      "venue": {
-        "id": 562,
-        "name": "St James' Park",
-        "city": "Newcastle"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 39,
-      "name": "Premier League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/39.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 34,
-        "name": "Newcastle",
-        "logo": "https://media.api-sports.io/football/teams/34.png",
-        "winner": true
-      },
-      "away": {
-        "id": 64,
-        "name": "Hull City",
-        "logo": "https://media.api-sports.io/football/teams/64.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

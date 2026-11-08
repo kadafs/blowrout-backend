@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608349,
+      "referee": "D. Kovacevic",
+      "timezone": "UTC",
+      "date": "2026-11-02T19:30:00+00:00",
+      "timestamp": 1793647800,
+      "periods": {
+        "first": 1793647800,
+        "second": 1793651400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Silvio Piola",
+        "city": "Novara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 513,
+        "name": "Novara",
+        "logo": "https://media.api-sports.io/football/teams/513.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17816,
+        "name": "Desenzano Calvina",
+        "logo": "https://media.api-sports.io/football/teams/17816.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1638204,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608305,
-      "referee": "A. Colelli",
-      "timezone": "UTC",
-      "date": "2026-10-03T18:30:00+00:00",
-      "timestamp": 1791052200,
-      "periods": {
-        "first": 1791052200,
-        "second": 1791055800
-      },
-      "venue": {
-        "id": null,
-        "name": "AlbinoLeffe",
-        "city": "Zanica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9450,
-        "name": "Folgore Caratese",
-        "logo": "https://media.api-sports.io/football/teams/9450.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17816,
-        "name": "Desenzano Calvina",
-        "logo": "https://media.api-sports.io/football/teams/17816.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

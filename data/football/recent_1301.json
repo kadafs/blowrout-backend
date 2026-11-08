@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552521,
+      "referee": "Eddy Rosier",
+      "timezone": "UTC",
+      "date": "2026-10-30T19:00:00+00:00",
+      "timestamp": 1793386800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 675,
+        "name": "Stade Paul Lignon",
+        "city": "Rodez"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552506,
       "referee": "Pierre Retail, France",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1552485,
-      "referee": "Gael Angoula, France",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:00:00+00:00",
-      "timestamp": 1789754400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 675,
-        "name": "Stade Paul Lignon",
-        "city": "Rodez"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 62,
-      "name": "Ligue 2",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/62.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1301,
-        "name": "Rodez",
-        "logo": "https://media.api-sports.io/football/teams/1301.png",
-        "winner": false
-      },
-      "away": {
-        "id": 102,
-        "name": "Nancy",
-        "logo": "https://media.api-sports.io/football/teams/102.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 4
       },
       "extratime": {
         "home": null,

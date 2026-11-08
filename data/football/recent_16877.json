@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579402,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T09:15:00+00:00",
+      "timestamp": 1793438100,
+      "periods": {
+        "first": 1793438100,
+        "second": 1793441700
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 686,
+      "name": "4. liga - Divizie F",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/686.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group F - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16877,
+        "name": "Vratimov",
+        "logo": "https://media.api-sports.io/football/teams/16877.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21912,
+        "name": "Kravare",
+        "logo": "https://media.api-sports.io/football/teams/21912.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579398,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579365,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": 1790514000,
-        "second": 1790517600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 686,
-      "name": "4. liga - Divizie F",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/686.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group F - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7277,
-        "name": "Bospor Bohum\u00edn",
-        "logo": "https://media.api-sports.io/football/teams/7277.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16877,
-        "name": "Vratimov",
-        "logo": "https://media.api-sports.io/football/teams/16877.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

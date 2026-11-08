@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575531,
+      "referee": "Miguel Andre Monteiro Fonseca",
+      "timezone": "UTC",
+      "date": "2026-10-30T20:15:00+00:00",
+      "timestamp": 1793391300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3565,
+        "name": "Estadio Municipal de Rio Maior",
+        "city": "Rio Mayor"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 94,
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/94.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4716,
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png",
+        "winner": false
+      },
+      "away": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575520,
       "referee": "B. J. Costa",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575495,
-      "referee": "J. Bessa",
-      "timezone": "UTC",
-      "date": "2026-09-12T17:00:00+00:00",
-      "timestamp": 1789232400,
-      "periods": {
-        "first": 1789232400,
-        "second": 1789236000
-      },
-      "venue": {
-        "id": 3565,
-        "name": "Est\u00e1dio Municipal de Rio Maior",
-        "city": "Rio Maior"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 94,
-      "name": "Primeira Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/94.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4716,
-        "name": "Casa Pia",
-        "logo": "https://media.api-sports.io/football/teams/4716.png",
-        "winner": false
-      },
-      "away": {
-        "id": 212,
-        "name": "FC Porto",
-        "logo": "https://media.api-sports.io/football/teams/212.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

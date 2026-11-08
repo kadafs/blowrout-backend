@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490597,
+      "referee": "Filip Dujic",
+      "timezone": "UTC",
+      "date": "2026-11-01T21:30:00+00:00",
+      "timestamp": 1793568600,
+      "periods": {
+        "first": 1793568600,
+        "second": 1793572200
+      },
+      "venue": {
+        "id": 1898,
+        "name": "Atlanta Stadium",
+        "city": "Atlanta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1608,
+        "name": "Atlanta United FC",
+        "logo": "https://media.api-sports.io/football/teams/1608.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1601,
+        "name": "Toronto FC",
+        "logo": "https://media.api-sports.io/football/teams/1601.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490575,
-      "referee": "Alexis Da Silva",
+      "referee": "A. Da Silva",
       "timezone": "UTC",
       "date": "2026-10-28T23:30:00+00:00",
       "timestamp": 1793230200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793230200,
+        "second": 1793233800
       },
       "venue": {
         "id": 312,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490556,
-      "referee": "Chris Penso, USA",
+      "referee": "C. Penso",
       "timezone": "UTC",
       "date": "2026-10-24T19:30:00+00:00",
       "timestamp": 1792870200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792870200,
+        "second": 1792873800
       },
       "venue": {
         "id": 12667,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1490545,
-      "referee": "Marcos de Oliveira, USA",
+      "referee": "M. De Oliveira",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792279800,
+        "second": 1792283400
       },
       "venue": {
         "id": 21544,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490529,
-      "referee": "Armando Villarrea, USA",
+      "referee": "A. Villarreal",
       "timezone": "UTC",
       "date": "2026-10-14T23:30:00+00:00",
       "timestamp": 1792020600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792020600,
+        "second": 1792024200
       },
       "venue": {
         "id": 312,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490512,
-      "referee": "Allen Chapman, USA",
-      "timezone": "UTC",
-      "date": "2026-10-10T17:00:00+00:00",
-      "timestamp": 1791651600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 312,
-        "name": "BMO Field",
-        "city": "Toronto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 28",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1601,
-        "name": "Toronto FC",
-        "logo": "https://media.api-sports.io/football/teams/1601.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1614,
-        "name": "CF Montreal",
-        "logo": "https://media.api-sports.io/football/teams/1614.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

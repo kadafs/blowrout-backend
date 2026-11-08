@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1490588,
+      "referee": "E. Arreguin",
+      "timezone": "UTC",
+      "date": "2026-10-31T18:00:00+00:00",
+      "timestamp": 1793469600,
+      "periods": {
+        "first": 1793469600,
+        "second": 1793473200
+      },
+      "venue": {
+        "id": 12667,
+        "name": "ScottsMiracle-Gro Field",
+        "city": "Columbus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 253,
+      "name": "Major League Soccer",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/253.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1613,
+        "name": "Columbus Crew",
+        "logo": "https://media.api-sports.io/football/teams/1613.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1615,
+        "name": "DC United",
+        "logo": "https://media.api-sports.io/football/teams/1615.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1490575,
-      "referee": "Alexis Da Silva",
+      "referee": "A. Da Silva",
       "timezone": "UTC",
       "date": "2026-10-28T23:30:00+00:00",
       "timestamp": 1793230200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793230200,
+        "second": 1793233800
       },
       "venue": {
         "id": 312,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1490560,
-      "referee": "Jon Freemon",
+      "referee": "J. Freemon",
       "timezone": "UTC",
       "date": "2026-10-24T23:30:00+00:00",
       "timestamp": 1792884600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792884600,
+        "second": 1792888200
       },
       "venue": {
         "id": 1613,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1490439,
-      "referee": "Tim Ford, USA",
+      "referee": "T. Ford",
       "timezone": "UTC",
       "date": "2026-10-21T23:00:00+00:00",
       "timestamp": 1792623600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792623600,
+        "second": 1792627200
       },
       "venue": {
         "id": 19229,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1490546,
-      "referee": "Pierre-Luc Lauziere, USA",
+      "referee": "P. Lauziere",
       "timezone": "UTC",
       "date": "2026-10-17T23:30:00+00:00",
       "timestamp": 1792279800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792279800,
+        "second": 1792283400
       },
       "venue": {
         "id": 20500,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1490531,
-      "referee": "Guido Gonzales Jr, USA",
-      "timezone": "UTC",
-      "date": "2026-10-14T23:30:00+00:00",
-      "timestamp": 1792020600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1613,
-        "name": "Audi Field",
-        "city": "Washington"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 253,
-      "name": "Major League Soccer",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/253.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1615,
-        "name": "DC United",
-        "logo": "https://media.api-sports.io/football/teams/1615.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1602,
-        "name": "New York Red Bulls",
-        "logo": "https://media.api-sports.io/football/teams/1602.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

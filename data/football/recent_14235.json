@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1618427,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T13:00:00+00:00",
+      "timestamp": 1792846800,
+      "periods": {
+        "first": 1792846800,
+        "second": 1792850400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 92,
+      "name": "Derde Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/92.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1274,
+        "name": "Sparta Nijkerk",
+        "logo": "https://media.api-sports.io/football/teams/1274.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14235,
+        "name": "Hoogeveen",
+        "logo": "https://media.api-sports.io/football/teams/14235.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1618413,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638266,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": null,
-        "name": "Sportpark ICT Specialist",
-        "city": "Assen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 90,
-      "name": "KNVB Beker",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/90.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "2nd Preliminary Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 3911,
-        "name": "ACV",
-        "logo": "https://media.api-sports.io/football/teams/3911.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14235,
-        "name": "Hoogeveen",
-        "logo": "https://media.api-sports.io/football/teams/14235.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

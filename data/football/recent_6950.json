@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561706,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T12:00:00+00:00",
+      "timestamp": 1793448000,
+      "periods": {
+        "first": 1793448000,
+        "second": 1793451600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Suche Stawy",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 109,
+      "name": "II Liga - East",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/109.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6942,
+        "name": "Hutnik Krak\u00f3w",
+        "logo": "https://media.api-sports.io/football/teams/6942.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6950,
+        "name": "Rekord Bielsko-Bia\u0142a",
+        "logo": "https://media.api-sports.io/football/teams/6950.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561697,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561660,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-18T14:30:00+00:00",
-      "timestamp": 1789741800,
-      "periods": {
-        "first": 1789741800,
-        "second": 1789745400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion BTS Rekord",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6950,
-        "name": "Rekord Bielsko-Bia\u0142a",
-        "logo": "https://media.api-sports.io/football/teams/6950.png",
-        "winner": true
-      },
-      "away": {
-        "id": 12902,
-        "name": "\u015awit Skolwin",
-        "logo": "https://media.api-sports.io/football/teams/12902.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

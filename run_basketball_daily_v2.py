@@ -1237,7 +1237,7 @@ def main():
         lname    = league_entry["league_name"]
         country  = league_entry.get("country", "")
         season   = league_entry.get("season")
-        games    = league_entry["games"]
+        games    = league_entry.get("games", [])
 
         # Separate upcoming (not yet played) from already-finished games.
         # Finished status strings from api-basketball: "Game Finished", "Final", "AOT"

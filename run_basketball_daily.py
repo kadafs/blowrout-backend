@@ -1320,6 +1320,8 @@ def main():
                 )
 
                 # Build record
+                _h_csg = sH.get("current_season_games", sH.get("played", sH.get("games_played", 0))) if sH else 0
+                _a_csg = sA.get("current_season_games", sA.get("played", sA.get("games_played", 0))) if sA else 0
                 all_predictions.append({
                     "is_mismatch":  mismatch_info["is_mismatch"],
                     "mismatch_info": mismatch_info,
@@ -1328,6 +1330,9 @@ def main():
                     "clash_trigger":    clash_trigger,
                     "is_shootout":      is_shootout,
                     "shootout_trigger": shootout_trigger,
+                    "early_season_flag": (_h_csg < 8 or _a_csg < 8),
+                    "home_season_games": _h_csg,
+                    "away_season_games": _a_csg,
                     "league_id":    lid,
                     "league":       lname,
                     "country":      country,

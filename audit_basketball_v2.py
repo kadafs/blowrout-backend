@@ -97,8 +97,13 @@ def load_predictions(start: str, end: str):
     all_preds = []
     dates_loaded = []
     for date in date_range(start, end):
-        path = DATA_DIR / f"universal_predictions_v2_{date}.json"
-        if not path.exists():
+        # Try both filename conventions
+        candidates = [
+            DATA_DIR / f"universal_predictions_{date}_v2.json",
+            DATA_DIR / f"universal_predictions_v2_{date}.json",
+        ]
+        path = next((p for p in candidates if p.exists()), None)
+        if not path:
             continue
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
@@ -391,7 +396,234 @@ def print_game_log(games, sort_mode, filter_result, filter_tier, filter_league):
         print(f"  {col(num_s, DIM)}  {date_s}  {home_s}  {away_s}"
               f"  {model_s}  {actual_s}  {result_c}  {col(tier_s, tc)}  {delta_s}  {signed_c}")
 
+# ── Frontend Filter Audit ──────────────────────────────────────────────────────
+
+def _filter_stats(games, label, icon, over_key=None, under_key=None):
+    """
+    Compute Under/Over hit-rates for a subset of graded games.
+    over_key  — if set, games where model > market → we're betting OVER
+    under_key — if set, games where model < market → we're betting UNDER
+    By default (no key), report total hit-rate and market bias.
+    """
+    graded = [p for p in games if p.get("actual_result") is not None
+              and p.get("actual_home_score") is not None
+              and p.get("actual_away_score") is not None
+              and p.get("market_total") is not None
+              and "OT" not in (p.get("accuracy_tier") or "")]
+
+    n = len(graded)
+    if not n:
+        return None
+
+    actual_totals = [p["actual_home_score"] + p["actual_away_score"] for p in graded]
+    markets       = [p["market_total"]  for p in graded]
+    model_totals  = [get_model_total(p) for p in graded]
+
+    # Under market = actual < market
+    under_mkt = sum(1 for a, m in zip(actual_totals, markets) if a < m)
+    over_mkt  = sum(1 for a, m in zip(actual_totals, markets) if a > m)
+
+    # Under model = actual < model
+    under_mod = sum(1 for a, m in zip(actual_totals, model_totals) if m and a < m)
+    over_mod  = sum(1 for a, m in zip(actual_totals, model_totals) if m and a > m)
+
+    # Avg market delta (actual - market, negative = went Under)
+    deltas_mkt = [a - m for a, m in zip(actual_totals, markets)]
+    avg_delta_mkt = sum(deltas_mkt) / len(deltas_mkt) if deltas_mkt else 0
+
+    deltas_mod = [a - m for a, m in zip(actual_totals, model_totals) if m]
+    avg_delta_mod = sum(deltas_mod) / len(deltas_mod) if deltas_mod else 0
+
+    # Winner prediction accuracy
+    wins = sum(1 for p in graded if p.get("predicted_result") == p.get("actual_result"))
+
+    return {
+        "n": n, "wins": wins,
+        "under_mkt": under_mkt, "over_mkt": over_mkt,
+        "under_mod": under_mod, "over_mod": over_mod,
+        "avg_delta_mkt": avg_delta_mkt,
+        "avg_delta_mod": avg_delta_mod,
+    }
+
+
+def _print_filter_row(label, icon, stats, baseline_under_mkt=None):
+    if not stats:
+        print(f"  {icon}  {col(label[:32].ljust(32), DIM)}  {col('no graded data', DIM)}")
+        return
+    n             = stats["n"]
+    wins          = stats["wins"]
+    wr            = round(wins / n * 100) if n else 0
+    under_mkt_pct = round(stats["under_mkt"] / n * 100) if n else 0
+    under_mod_pct = round(stats["under_mod"] / n * 100) if n else 0
+    avg_dmkt      = stats["avg_delta_mkt"]
+    avg_dmod      = stats["avg_delta_mod"]
+
+    # Edge vs baseline (baseline is overall Under-market rate)
+    edge_vs_base = (f" [{under_mkt_pct - baseline_under_mkt:+d}pp vs baseline]"
+                    if baseline_under_mkt is not None else "")
+
+    wr_c   = pct_color(wr)
+    umk_c  = pct_color(under_mkt_pct)
+    umd_c  = pct_color(under_mod_pct)
+    dm_c   = G if avg_dmkt < 0 else R
+    dd_c   = G if avg_dmod < 0 else R
+
+    print(
+        f"  {icon}  {col(label[:32].ljust(32), BO)}"
+        f"  n={col(str(n).rjust(4), DIM)}"
+        f"  WR:{col(f'{wr}%'.rjust(4), wr_c)}"
+        f"  Und-Mkt:{col(f'{under_mkt_pct}%'.rjust(4), umk_c)}"
+        f"  Und-Mod:{col(f'{under_mod_pct}%'.rjust(4), umd_c)}"
+        f"  ΔMkt:{col(f'{avg_dmkt:+.1f}'.rjust(6), dm_c)}"
+        f"  ΔMod:{col(f'{avg_dmod:+.1f}'.rjust(6), dd_c)}"
+        f"{col(edge_vs_base, DIM)}"
+    )
+
+
+def print_filter_audit(graded):
+    """
+    Audit every frontend signal/filter shown in the dashboard:
+    CLASH, SHARP OVER, SHOOTOUT, SHARP SHOOTOUT, DRAG DOWN,
+    MISMATCH, ELITE/STRONG BUFFER, CONF BANDS, PLAY UNDER, PLAY OVER,
+    EARLY SEASON, SRS vs ADV.
+    """
+    # Baseline — all graded with market data
+    base_stats = _filter_stats(graded, "ALL", "")
+    baseline_under_mkt = round(base_stats["under_mkt"] / base_stats["n"] * 100) if base_stats else None
+
+    def gs(subset, label, icon):
+        return _filter_stats(subset, label, icon)
+
+    filters = []
+
+    # ── Signal Filters ───────────────────────────────────────────────────────
+    filters.append(("── SIGNAL INDICATORS ──────────────────────────────", "", None, None))
+
+    clash_all    = [p for p in graded if p.get("is_clash")]
+    clash_sharp  = [p for p in graded if p.get("clash_trigger") == "SHARP OVER"]
+    clash_norm   = [p for p in graded if p.get("is_clash") and p.get("clash_trigger") != "SHARP OVER"]
+    shootout_all = [p for p in graded if p.get("is_shootout")]
+    shootout_sh  = [p for p in graded if p.get("shootout_trigger") == "SHARP SHOOTOUT"]
+    drag         = [p for p in graded if p.get("is_drag_down")]
+    mismatch     = [p for p in graded if p.get("is_mismatch")]
+
+    filters.append(("⚠️  CLASH  (all)",         "⚔️",  clash_all,   "clash"))
+    filters.append(("   CLASH  (normal)",        "⚔️",  clash_norm,  "clash"))
+    filters.append(("   CLASH  (SHARP OVER)",    "🔥",  clash_sharp, "clash_sharp"))
+    filters.append(("🎯 SHOOTOUT  (all)",         "🏀",  shootout_all,"shootout"))
+    filters.append(("   SHOOTOUT  (SHARP)",       "💥",  shootout_sh, "shootout_sharp"))
+    filters.append(("📉 DRAG-DOWN UNDER",         "🪨",  drag,        "drag"))
+    filters.append(("🏷️  MISMATCH",               "🏷️",  mismatch,    "mismatch"))
+
+    # ── Confidence Bands ─────────────────────────────────────────────────────
+    filters.append(("── CONFIDENCE BANDS ───────────────────────────────", "", None, None))
+    for band in ["[ELITE]", "[STRONG]", "[STANDARD]", "[LOW]", "[AVOID]"]:
+        subset = [p for p in graded if band in (p.get("confidence_score_band") or "")]
+        filters.append((f"Conf: {band}", "📊", subset, None))
+
+    # ── Buffer Tiers ─────────────────────────────────────────────────────────
+    filters.append(("── BUFFER TIERS ───────────────────────────────────", "", None, None))
+    for tier in ["[ELITE BUFFER]", "[STRONG BUFFER]", "[NEUTRAL]", "[MARGINAL]", "[AVOID]"]:
+        subset = [p for p in graded if tier in (p.get("buffer_tier") or "")]
+        filters.append((f"Buffer: {tier}", "🛡️", subset, None))
+
+    # ── Decision Filters ─────────────────────────────────────────────────────
+    filters.append(("── DECISION FILTERS ───────────────────────────────", "", None, None))
+    play_over  = [p for p in graded if (p.get("decision") or "").startswith("PLAY OVER")]
+    play_under = [p for p in graded if (p.get("decision") or "").startswith("PLAY UNDER")]
+    play_pass  = [p for p in graded if (p.get("decision") or "") == "PASS"]
+    filters.append(("Decision: PLAY OVER",  "📈", play_over,  None))
+    filters.append(("Decision: PLAY UNDER", "📉", play_under, None))
+    filters.append(("Decision: PASS",       "✋", play_pass,  None))
+
+    # ── Model Architecture ────────────────────────────────────────────────────
+    filters.append(("── MODEL ARCHITECTURE ─────────────────────────────", "", None, None))
+    adv_preds = [p for p in graded if "ADVANCED" in (p.get("model_architecture") or "")]
+    srs_preds = [p for p in graded if "ADVANCED" not in (p.get("model_architecture") or "")]
+    filters.append(("ADV  (KenPom-equivalent)",  "🧠", adv_preds, None))
+    filters.append(("SRS  (Iterative Gauss-Seidel)", "📐", srs_preds, None))
+
+    # ── Early Season ──────────────────────────────────────────────────────────
+    filters.append(("── EARLY SEASON ───────────────────────────────────", "", None, None))
+    early  = [p for p in graded if p.get("early_season_flag") is True]
+    stable = [p for p in graded if p.get("early_season_flag") is False]
+    # Fallback: infer from match_center if flag not yet written
+    if not early and not stable:
+        for p in graded:
+            mc = p.get("match_center") or {}
+            sh = mc.get("statsH") or {}
+            sa = mc.get("statsA") or {}
+            hg = sh.get("current_season_games") or 0
+            ag = sa.get("current_season_games") or 0
+            if hg < 8 or ag < 8:
+                early.append(p)
+            else:
+                stable.append(p)
+    filters.append(("📊 EARLY SEASON  (<8 gp either team)", "📊", early,  None))
+    filters.append(("✅ STABLE  (both teams ≥8 gp)",         "✅", stable, None))
+
+    # ── Print ─────────────────────────────────────────────────────────────────
+    hdr = (f"  {'FILTER':<36}  {'N':>5}  {'WR':>5}  {'Und-Mkt':>8}  "
+           f"{'Und-Mod':>8}  {'ΔMkt':>7}  {'ΔMod':>7}")
+    print(col(hdr, DIM))
+    print(col("  " + "─" * 95, DIM))
+
+    # Baseline row
+    if base_stats:
+        _print_filter_row("⬜ BASELINE (all graded)", "🔢", base_stats, None)
+        print(col("  " + "─" * 95, DIM))
+
+    for entry in filters:
+        label, icon, subset, _kind = entry
+        if subset is None:
+            # Section divider
+            print(f"\n  {col(label, DIM, BO)}")
+            continue
+        stats = _filter_stats(subset, label, icon) if subset else None
+        _print_filter_row(label, icon, stats, baseline_under_mkt)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────────
+
+
+# ── Gender / GP helpers ────────────────────────────────────────────────────────
+
+# Keywords that reliably identify women's leagues in name or stage fields
+_WOMEN_TOKENS = {
+    "women", " w ", "wnba", "lnbf", "lfb", "lwbl", "wbl",
+    "kbsl w", "nbbl", "nbl w", "wkbl", "dbbl w", "primera w",
+    "superliga w", "superleague w", "premier league w", "blno w",
+    "enbl w", "cewl w", "tauihi", "moteru", "korisliiga w",
+}
+
+def _is_womens(pred: dict) -> bool:
+    """Return True if this prediction is for a women's competition."""
+    league = (pred.get("league") or "").lower()
+    # Direct suffix/keyword match
+    if league.endswith(" w") or league.endswith(" women"):
+        return True
+    if "women" in league:
+        return True
+    for tok in _WOMEN_TOKENS:
+        if tok in league:
+            return True
+    # Fallback: team name heuristics (W suffix in brackets is unreliable; skip)
+    return False
+
+def _get_min_gp(pred: dict) -> int:
+    """Return the minimum current-season games played across both teams."""
+    # Prefer top-level fields (written by our new code)
+    h = pred.get("home_season_games")
+    a = pred.get("away_season_games")
+    if h is None or a is None:
+        # Fall back to match_center
+        mc  = pred.get("match_center") or {}
+        sh  = mc.get("statsH") or {}
+        sa  = mc.get("statsA") or {}
+        h   = sh.get("current_season_games") or sh.get("played") or 0
+        a   = sa.get("current_season_games") or sa.get("played") or 0
+    return min(int(h or 0), int(a or 0))
+
 
 def main():
     parser = argparse.ArgumentParser(description="Audit basketball prediction performance (terminal only)")
@@ -403,6 +635,10 @@ def main():
     parser.add_argument("--result", choices=["win", "loss", "pending"], help="Filter game log by outcome")
     parser.add_argument("--sort",   choices=["date", "delta", "tier"], default="date", help="Sort game log")
     parser.add_argument("--no-log", action="store_true", help="Skip the full game log (faster summary-only view)")
+    parser.add_argument("--filters-only", action="store_true", help="Show only the frontend filter breakdown, skip game log")
+    parser.add_argument("--men-only", action="store_true", help="Exclude women's leagues")
+    parser.add_argument("--min-gp",   type=int, default=0, metavar="N",
+                        help="Exclude games where either team has < N current-season games (e.g. --min-gp 8)")
     parser.add_argument("--model",  choices=["srs", "adv", "all"], default="all",
                         help="Filter by model: srs | adv | all (default: all — note: 'all' double-counts dual-model games)")
     args = parser.parse_args()
@@ -436,7 +672,6 @@ def main():
         all_preds = [p for p in all_preds if "ADVANCED" in (p.get("model_architecture") or "")]
         print(col(f"  Model filter: [ADVANCED] → {len(all_preds)} predictions", M))
     else:
-        # 'all' — warn about double-counting
         has_dual = any("ADVANCED" in (p.get("model_architecture") or "") for p in all_preds)
         if has_dual:
             print(col("  ⚠️  --model all: dual-model games counted twice. Use --model srs or --model adv for clean stats.", Y))
@@ -446,6 +681,18 @@ def main():
         all_preds = [p for p in all_preds if args.league.lower() in (p.get("league") or "").lower()]
         print(col(f"  League filter: '{args.league}' → {len(all_preds)} predictions", Y))
 
+    # ── Men-only filter ────────────────────────────────────────────────────────
+    if args.men_only:
+        before = len(all_preds)
+        all_preds = [p for p in all_preds if not _is_womens(p)]
+        print(col(f"  Gender filter: men-only → removed {before - len(all_preds)} women's games, {len(all_preds)} remain", Y))
+
+    # ── Minimum GP filter ──────────────────────────────────────────────────────
+    if args.min_gp > 0:
+        before = len(all_preds)
+        all_preds = [p for p in all_preds if _get_min_gp(p) >= args.min_gp]
+        print(col(f"  Min-GP filter: ≥{args.min_gp} games → removed {before - len(all_preds)} early-season games, {len(all_preds)} remain", Y))
+
     graded  = [p for p in all_preds if p.get("actual_result") is not None]
     pending = [p for p in all_preds if p.get("actual_result") is None]
 
@@ -453,24 +700,29 @@ def main():
         print(col("\n  ⚠️  No graded games in this range. Run grade_basketball.py first.", Y))
         return
 
-    # Section 1: KPIs
-    section("📊  OVERALL PERFORMANCE")
-    print_kpis(graded, pending)
+    if not args.filters_only:
+        # Section 1: KPIs
+        section("📊  OVERALL PERFORMANCE")
+        print_kpis(graded, pending)
 
-    # Section 2: Tier distribution
-    section("🎯  TOTAL ACCURACY DISTRIBUTION")
-    print_tier_distribution(graded)
+        # Section 2: Tier distribution
+        section("🎯  TOTAL ACCURACY DISTRIBUTION")
+        print_tier_distribution(graded)
 
-    # Section 3: League breakdown
-    section("🏆  LEAGUE BREAKDOWN")
-    print_league_breakdown(graded)
+        # Section 3: League breakdown
+        section("🏆  LEAGUE BREAKDOWN")
+        print_league_breakdown(graded)
 
-    # Section 4: Team breakdown
-    section("👤  TEAM BREAKDOWN")
-    print_team_breakdown(graded)
+        # Section 4: Team breakdown
+        section("👤  TEAM BREAKDOWN")
+        print_team_breakdown(graded)
 
-    # Section 5: Game log
-    if not args.no_log:
+    # Section 5: Frontend filter audit (always shown)
+    section("🔍  FRONTEND FILTER AUDIT  (Under-market / model hit-rates per signal)")
+    print_filter_audit(graded)
+
+    # Section 6: Game log
+    if not args.no_log and not args.filters_only:
         section("📋  GAME LOG")
         print_game_log(all_preds, args.sort, args.result, args.tier, None)
 

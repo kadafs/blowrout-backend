@@ -1015,9 +1015,9 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             prev_h = g_team
             h_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
-    # STRICT GUARD: Require either 2+ current games OR a valid prior season baseline (>= 3 games or SRS rating)
-    a_has_baseline = (a_gp >= 2) or (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None))
-    h_has_baseline = (h_gp >= 2) or (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None))
+    # STRICT GUARD: Require either 2+ current games OR a valid prior season baseline (>= 8 games)
+    a_has_baseline = (a_gp >= 2) or (prev_a and a_prev_gp >= 8)
+    h_has_baseline = (h_gp >= 2) or (prev_h and h_prev_gp >= 8)
 
     if not a_has_baseline or not h_has_baseline:
         return None, f"Insufficient games played & no prior season baseline. {away_name} (curr={a_gp}, prev={a_prev_gp}), {home_name} (curr={h_gp}, prev={h_prev_gp}). Skipping."
@@ -1028,8 +1028,9 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     def smooth_team_ratings(team_s, eff_pivot, config_pace, name):
         gp = team_s.get("games_played", team_s.get("games", 0))
         prev_s = team_s.get("previous_season")
+        prev_gp = prev_s.get("games_played", prev_s.get("games", 0)) if prev_s else 0
         
-        if prev_s and gp < MIN_GAMES_TRUST:
+        if prev_s and prev_gp >= 8 and gp < MIN_GAMES_TRUST:
             # Shift smoothly from prior to current over MIN_GAMES_TRUST (8) games
             w_curr = max(0.0, min(1.0, gp / float(MIN_GAMES_TRUST)))
             w_prev = 1.0 - w_curr
@@ -1046,15 +1047,21 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             team_s["adj_def"] = round((raw_def * w_curr) + (prev_def * w_prev), 1)
             team_s["adj_t"]   = round((raw_t   * w_curr) + (prev_t   * w_prev), 1)
             team_s["prior_blended"] = True
-            print(f"    ⭐ PRIOR BLEND: {name} (curr {gp}g, prior {prev_s.get('games_played', prev_s.get('games', '?'))}g) -> Off={team_s['adj_off']}, Def={team_s['adj_def']}, Pace={team_s['adj_t']}")
+            print(f"    ⭐ PRIOR BLEND: {name} (curr {gp}g, prior {prev_gp}g) -> Off={team_s['adj_off']}, Def={team_s['adj_def']}, Pace={team_s['adj_t']}")
         elif gp < MIN_GAMES_TRUST:
             # Fallback to standard Bayesian blend toward generic league default
-            weight_team = gp / float(MIN_GAMES_TRUST)
+            weight_team = max(0.0, min(1.0, gp / float(MIN_GAMES_TRUST)))
             weight_league = 1.0 - weight_team
             team_s["adj_off"] = round((team_s.get("adj_off", eff_pivot) * weight_team) + (eff_pivot * weight_league), 1)
             team_s["adj_def"] = round((team_s.get("adj_def", eff_pivot) * weight_team) + (eff_pivot * weight_league), 1)
             team_s["adj_t"]   = round((team_s.get("adj_t", config_pace) * weight_team) + (config_pace * weight_league), 1)
-            print(f"    ⚠ SMALL SAMPLE: {name} ({gp} games) — Bayesian blending toward league average")
+            print(f"    ⚠ SMALL SAMPLE: {name} ({gp} games) — Bayesian blending toward league average ({eff_pivot:.1f})")
+
+        # Early-season safety clamp: for small samples (gp < 5), prevent runaway outliers from distorting projections
+        if gp < 5:
+            MAX_EARLY_DELTA = 16.0
+            team_s["adj_off"] = round(max(eff_pivot - MAX_EARLY_DELTA, min(eff_pivot + MAX_EARLY_DELTA, team_s.get("adj_off", eff_pivot))), 1)
+            team_s["adj_def"] = round(max(eff_pivot - MAX_EARLY_DELTA, min(eff_pivot + MAX_EARLY_DELTA, team_s.get("adj_def", eff_pivot))), 1)
 
     if a_gp < MIN_GAMES_TRUST:
         smooth_team_ratings(sA, eff_pivot, config_pace, away_name)

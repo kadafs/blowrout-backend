@@ -462,21 +462,19 @@ def attach_prior_season_stats(teams, league_id, season=None):
     except (ValueError, TypeError):
         pass
 
-    # Load prior season matrix — prioritize srs_v2 and merge across sources
+    # Load prior season matrix — exclude current-season matrices and merge across genuine prior sources
     prior_teams = {}
     prior_candidates = [
-        f"data/bball_stats_{league_id}_srs_v2.json",
-        f"data/bball_stats_{parent_lid}_srs_v2.json",
         f"data/bball_stats_{league_id}_prior_srs.json",
         f"data/bball_stats_{parent_lid}_prior_srs.json",
-        f"data/bball_stats_{league_id}_srs.json",
-        f"data/bball_stats_{parent_lid}_srs.json",
-        f"data/srs_stats_{league_id}.json",
-        f"data/srs_stats_{parent_lid}.json",
         f"data/bball_stats_{league_id}_{prev_s}_srs.json",
         f"data/bball_stats_{parent_lid}_{prev_s}_srs.json",
         f"data/bball_stats_{league_id}_{prev_s}.json",
         f"data/bball_stats_{parent_lid}_{prev_s}.json",
+        f"data/srs_stats_{league_id}.json",
+        f"data/srs_stats_{parent_lid}.json",
+        f"data/bball_stats_{league_id}_srs.json",
+        f"data/bball_stats_{parent_lid}_srs.json",
     ]
     for p in prior_candidates:
         if os.path.exists(p):
@@ -490,7 +488,9 @@ def attach_prior_season_stats(teams, league_id, season=None):
                     elif isinstance(raw_teams, dict):
                         new_dict = raw_teams
                     for tk, tv in new_dict.items():
-                        if tk not in prior_teams:
+                        # Only accept genuine prior season entries with sufficient game history
+                        pg = tv.get("games_played", tv.get("games", 0))
+                        if tk not in prior_teams and pg >= 8:
                             prior_teams[tk] = tv
             except Exception:
                 pass

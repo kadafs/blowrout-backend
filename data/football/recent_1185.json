@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632055,
+      "referee": "Juan Gabriel Benitez",
+      "timezone": "UTC",
+      "date": "2026-11-05T22:00:00+00:00",
+      "timestamp": 1793916000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20815,
+        "name": "Estadio La Arboleda",
+        "city": "Asuncion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1185,
+        "name": "Rubio NU",
+        "logo": "https://media.api-sports.io/football/teams/1185.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1183,
+        "name": "Sportivo Luqueno",
+        "logo": "https://media.api-sports.io/football/teams/1183.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632049,
       "referee": "Alipio Colman",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632020,
-      "referee": "B. Romero",
-      "timezone": "UTC",
-      "date": "2026-10-06T20:00:00+00:00",
-      "timestamp": 1791316800,
-      "periods": {
-        "first": 1791316800,
-        "second": 1791320400
-      },
-      "venue": {
-        "id": 7215,
-        "name": "Estadio Ameliano Villeta",
-        "city": "Naranjaisy"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 252,
-      "name": "Division Profesional - Clausura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/252.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Clausura - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10487,
-        "name": "Sportivo Ameliano",
-        "logo": "https://media.api-sports.io/football/teams/10487.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1185,
-        "name": "Rubio NU",
-        "logo": "https://media.api-sports.io/football/teams/1185.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

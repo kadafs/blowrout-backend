@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1636347,
+      "referee": "Milos Milanovic",
+      "timezone": "UTC",
+      "date": "2026-11-05T20:00:00+00:00",
+      "timestamp": 1793908800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3514,
+        "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+        "city": "Leiria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 3,
+      "name": "UEFA Europa League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/3.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4799,
+        "name": "Torreense",
+        "logo": "https://media.api-sports.io/football/teams/4799.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3683,
+        "name": "Ararat-Armenia",
+        "logo": "https://media.api-sports.io/football/teams/3683.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1576518,
-      "referee": "Goncalo Rafael dos Santos Neves",
+      "referee": "G. Neves",
       "timezone": "UTC",
       "date": "2026-10-31T14:00:00+00:00",
       "timestamp": 1793455200,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793455200,
+        "second": 1793458800
       },
       "venue": {
         "id": 1285,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1576511,
-      "referee": "Miguel Andre Monteiro Fonseca",
+      "referee": "M. Fonseca",
       "timezone": "UTC",
       "date": "2026-10-26T20:45:00+00:00",
       "timestamp": 1793047500,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793047500,
+        "second": 1793051100
       },
       "venue": {
         "id": 3638,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1576501,
-      "referee": "Vitor Ferreira, Portugal",
-      "timezone": "UTC",
-      "date": "2026-10-10T10:00:00+00:00",
-      "timestamp": 1791626400,
-      "periods": {
-        "first": 1791626400,
-        "second": 1791630000
-      },
-      "venue": {
-        "id": 1271,
-        "name": "Est\u00e1dio Jo\u00e3o Cardoso",
-        "city": "Tondela"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 95,
-      "name": "Segunda Liga",
-      "country": "Portugal",
-      "logo": "https://media.api-sports.io/football/leagues/95.png",
-      "flag": "https://media.api-sports.io/flags/pt.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 218,
-        "name": "Tondela",
-        "logo": "https://media.api-sports.io/football/teams/218.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4799,
-        "name": "Torreense",
-        "logo": "https://media.api-sports.io/football/teams/4799.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

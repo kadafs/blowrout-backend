@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1636408,
+      "referee": "Robert Hennessy, Ireland",
+      "timezone": "UTC",
+      "date": "2026-11-05T20:00:00+00:00",
+      "timestamp": 1793908800,
+      "periods": {
+        "first": 1793908800,
+        "second": 1793912400
+      },
+      "venue": {
+        "id": null,
+        "name": "Parken",
+        "city": "Copenhagen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3502,
+        "name": "FC Iberia 1999",
+        "logo": "https://media.api-sports.io/football/teams/3502.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1509209,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636471,
-      "referee": "M. Turkmen",
-      "timezone": "UTC",
-      "date": "2026-10-15T19:00:00+00:00",
-      "timestamp": 1792090800,
-      "periods": {
-        "first": 1792090800,
-        "second": 1792094400
-      },
-      "venue": {
-        "id": null,
-        "name": "Daio Wasabi Stayen",
-        "city": "Sint-Truiden"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 848,
-      "name": "UEFA Europa Conference League",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/848.png",
-      "flag": null,
-      "season": 2026,
-      "round": "League Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 735,
-        "name": "St. Truiden",
-        "logo": "https://media.api-sports.io/football/teams/735.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3502,
-        "name": "FC Iberia 1999",
-        "logo": "https://media.api-sports.io/football/teams/3502.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

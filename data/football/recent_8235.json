@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647121,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-09T00:00:00+00:00",
+      "timestamp": 1794182400,
+      "periods": {
+        "first": 1794182400,
+        "second": 1794186000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 421,
+      "name": "Division di Honor",
+      "country": "Aruba",
+      "logo": "https://media.api-sports.io/football/leagues/421.png",
+      "flag": "https://media.api-sports.io/flags/aw.svg",
+      "season": 2026,
+      "round": "Regular Season - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 26895,
+        "name": "Sporting",
+        "logo": "https://media.api-sports.io/football/teams/26895.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8235,
+        "name": "Bubali",
+        "logo": "https://media.api-sports.io/football/teams/8235.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647117,
       "referee": null,
       "timezone": "UTC",
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "fulltime": {
         "home": 2,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1530513,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-09T22:30:00+00:00",
-      "timestamp": 1778365800,
-      "periods": {
-        "first": 1778365800,
-        "second": 1778369400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 421,
-      "name": "Division di Honor",
-      "country": "Aruba",
-      "logo": "https://media.api-sports.io/football/leagues/421.png",
-      "flag": "https://media.api-sports.io/flags/aw.svg",
-      "season": 2025,
-      "round": "Winners Stage - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8235,
-        "name": "Bubali",
-        "logo": "https://media.api-sports.io/football/teams/8235.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8237,
-        "name": "Dakota",
-        "logo": "https://media.api-sports.io/football/teams/8237.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

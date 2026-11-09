@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619523,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": 1793732400,
+        "second": 1793736000
+      },
+      "venue": {
+        "id": null,
+        "name": "Truro Sports Hub",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4699,
+        "name": "Truro City",
+        "logo": "https://media.api-sports.io/football/teams/4699.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11913,
+        "name": "West Bromwich Albion U21",
+        "logo": "https://media.api-sports.io/football/teams/11913.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621068,
       "referee": "J. Callum",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621036,
-      "referee": "T. Sangowawa",
-      "timezone": "UTC",
-      "date": "2026-09-18T18:00:00+00:00",
-      "timestamp": 1789754400,
-      "periods": {
-        "first": 1789754400,
-        "second": 1789758000
-      },
-      "venue": {
-        "id": null,
-        "name": "Alexander Stadium",
-        "city": "Birmingham"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11913,
-        "name": "West Bromwich Albion U21",
-        "logo": "https://media.api-sports.io/football/teams/11913.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19746,
-        "name": "Nottingham Forest U21",
-        "logo": "https://media.api-sports.io/football/teams/19746.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1631995,
+      "referee": "D. Ojeda",
+      "timezone": "UTC",
+      "date": "2026-09-01T19:00:00+00:00",
+      "timestamp": 1788289200,
+      "periods": {
+        "first": 1788289200,
+        "second": 1788292800
+      },
+      "venue": {
+        "id": 20815,
+        "name": "La Arboleda",
+        "city": "Asuncion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1185,
+        "name": "Rubio NU",
+        "logo": "https://media.api-sports.io/football/teams/1185.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2125,
+        "name": "Club Sp. San Lorenzo",
+        "logo": "https://media.api-sports.io/football/teams/2125.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505065,
       "referee": "J. Benitez",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1185,
         "name": "Rubio NU",
         "logo": "https://media.api-sports.io/football/teams/1185.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1283731,
-      "referee": "C. Herebia",
-      "timezone": "UTC",
-      "date": "2024-09-02T21:00:00+00:00",
-      "timestamp": 1725310800,
-      "periods": {
-        "first": 1725310800,
-        "second": 1725314400
-      },
-      "venue": {
-        "id": 20815,
-        "name": "Estadio La Arboleda",
-        "city": "Asunci\u00f3n"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 251,
-      "name": "Division Intermedia",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/251.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2024,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1185,
-        "name": "Rubio NU",
-        "logo": "https://media.api-sports.io/football/teams/1185.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2125,
-        "name": "Club Sp. San Lorenzo",
-        "logo": "https://media.api-sports.io/football/teams/2125.png",
         "winner": true
       }
     },

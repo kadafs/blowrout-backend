@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1493956,
+      "id": 1648322,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-09T00:00:00+00:00",
+      "timestamp": 1794182400,
+      "periods": {
+        "first": 1794182400,
+        "second": 1794186000
+      },
+      "venue": {
+        "id": null,
+        "name": "American Legion Memorial Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 489,
+      "name": "USL League One",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/489.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3991,
+        "name": "Charlotte Independence",
+        "logo": "https://media.api-sports.io/football/teams/3991.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9025,
+        "name": "Forward Madison",
+        "logo": "https://media.api-sports.io/football/teams/9025.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1493956,
+      "referee": "J. Metz",
       "timezone": "UTC",
       "date": "2026-08-23T00:00:00+00:00",
       "timestamp": 1787443200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1314191,
-      "referee": "C. Radosav",
-      "timezone": "UTC",
-      "date": "2024-11-02T23:00:00+00:00",
-      "timestamp": 1730588400,
-      "periods": {
-        "first": 1730588400,
-        "second": 1730592000
-      },
-      "venue": {
-        "id": 6267,
-        "name": "Breese Stevens Field",
-        "city": "Madison, Wisconsin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 489,
-      "name": "USL League One",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/489.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2024,
-      "round": "Championship - Quarter-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9025,
-        "name": "Forward Madison",
-        "logo": "https://media.api-sports.io/football/teams/9025.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3991,
-        "name": "Charlotte Independence",
-        "logo": "https://media.api-sports.io/football/teams/3991.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1623283,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": 1793732400,
+        "second": 1793736000
+      },
+      "venue": {
+        "id": null,
+        "name": "Riverside Stadium",
+        "city": "Middlesbrough"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1039,
+      "name": "Premier League International Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/1039.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 11910,
+        "name": "Middlesbrough U21",
+        "logo": "https://media.api-sports.io/football/teams/11910.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22422,
+        "name": "Valencia U21",
+        "logo": "https://media.api-sports.io/football/teams/22422.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621072,
       "referee": "G. Rhodes",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1623269,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-23T18:00:00+00:00",
-      "timestamp": 1790186400,
-      "periods": {
-        "first": 1790186400,
-        "second": 1790190000
-      },
-      "venue": {
-        "id": null,
-        "name": "Riverside Stadium",
-        "city": "Middlesbrough"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 1039,
-      "name": "Premier League International Cup",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1039.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 11910,
-        "name": "Middlesbrough U21",
-        "logo": "https://media.api-sports.io/football/teams/11910.png",
-        "winner": null
-      },
-      "away": {
-        "id": 10846,
-        "name": "Genk U21",
-        "logo": "https://media.api-sports.io/football/teams/10846.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

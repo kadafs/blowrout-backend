@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627110,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T19:00:00+00:00",
+      "timestamp": 1793646000,
+      "periods": {
+        "first": 1793646000,
+        "second": 1793649600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 19877,
+        "name": "Bolton Wanderers Res.",
+        "logo": "https://media.api-sports.io/football/teams/19877.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20085,
+        "name": "Queens Park Rangers U21",
+        "logo": "https://media.api-sports.io/football/teams/20085.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619181,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619254,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T12:00:00+00:00",
-      "timestamp": 1791288000,
-      "periods": {
-        "first": 1791288000,
-        "second": 1791291600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20085,
-        "name": "Queens Park Rangers U21",
-        "logo": "https://media.api-sports.io/football/teams/20085.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20092,
-        "name": "Coventry City U21",
-        "logo": "https://media.api-sports.io/football/teams/20092.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

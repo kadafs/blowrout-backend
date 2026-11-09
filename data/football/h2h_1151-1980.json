@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1639822,
+      "referee": "R. Leon",
+      "timezone": "UTC",
+      "date": "2026-10-10T19:00:00+00:00",
+      "timestamp": 1791658800,
+      "periods": {
+        "first": 1791658800,
+        "second": 1791662400
+      },
+      "venue": {
+        "id": 467,
+        "name": "Estadio Jocay",
+        "city": "Manta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 242,
+      "name": "Liga Pro",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/242.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2026,
+      "round": "Relegation Group - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1980,
+        "name": "Manta FC",
+        "logo": "https://media.api-sports.io/football/teams/1980.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1151,
+        "name": "Tecnico Universitario",
+        "logo": "https://media.api-sports.io/football/teams/1151.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1519431,
       "referee": "G. Araujo",
       "timezone": "UTC",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1519310,
-      "referee": "P. Parra",
+      "referee": "Parra Leon Patricio Javier, Ecuador",
       "timezone": "UTC",
       "date": "2026-04-05T20:30:00+00:00",
       "timestamp": 1775421000,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1338479,
-      "referee": "Anthony Diaz, Ecuador",
-      "timezone": "UTC",
-      "date": "2025-08-03T20:30:00+00:00",
-      "timestamp": 1754253000,
-      "periods": {
-        "first": 1754253000,
-        "second": 1754256600
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Bellavista",
-        "city": "Ambato"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2025,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1151,
-        "name": "Tecnico Universitario",
-        "logo": "https://media.api-sports.io/football/teams/1151.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1980,
-        "name": "Manta FC",
-        "logo": "https://media.api-sports.io/football/teams/1980.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

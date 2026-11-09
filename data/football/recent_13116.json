@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605302,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T18:00:00+00:00",
+      "timestamp": 1793556000,
+      "periods": {
+        "first": 1793556000,
+        "second": 1793559600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1155,
+      "name": "Carioca B2",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/1155.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Group Stage - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13110,
+        "name": "Campos AA",
+        "logo": "https://media.api-sports.io/football/teams/13110.png",
+        "winner": false
+      },
+      "away": {
+        "id": 13116,
+        "name": "Serra Macaense",
+        "logo": "https://media.api-sports.io/football/teams/13116.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605300,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605274,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-01T18:00:00+00:00",
-      "timestamp": 1790877600,
-      "periods": {
-        "first": 1790877600,
-        "second": 1790881200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1155,
-      "name": "Carioca B2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1155.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Group Stage - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27826,
-        "name": "Cardoso Moreira",
-        "logo": "https://media.api-sports.io/football/teams/27826.png",
-        "winner": false
-      },
-      "away": {
-        "id": 13116,
-        "name": "Serra Macaense",
-        "logo": "https://media.api-sports.io/football/teams/13116.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

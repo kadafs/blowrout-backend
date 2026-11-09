@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1631990,
+      "referee": "B. Romero",
+      "timezone": "UTC",
+      "date": "2026-09-01T21:30:00+00:00",
+      "timestamp": 1788298200,
+      "periods": {
+        "first": 1788298200,
+        "second": 1788301800
+      },
+      "venue": {
+        "id": 1212,
+        "name": "Estadio Monumental Rio Parapiti",
+        "city": "Pedro Juan Caballero"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2140,
+        "name": "2 de Mayo",
+        "logo": "https://media.api-sports.io/football/teams/2140.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1183,
+        "name": "Sportivo Luqueno",
+        "logo": "https://media.api-sports.io/football/teams/1183.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505029,
       "referee": "D. Lopez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1331932,
-      "referee": "Giancarlo Juliadoza",
-      "timezone": "UTC",
-      "date": "2025-05-02T21:00:00+00:00",
-      "timestamp": 1746219600,
-      "periods": {
-        "first": 1746219600,
-        "second": 1746223200
-      },
-      "venue": {
-        "id": 1212,
-        "name": "Estadio Monumental R\u00edo Parapit\u00ed",
-        "city": "Pedro Juan Caballero"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 250,
-      "name": "Division Profesional - Apertura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/250.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2025,
-      "round": "Apertura - 17",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2140,
-        "name": "2 de Mayo",
-        "logo": "https://media.api-sports.io/football/teams/2140.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1183,
-        "name": "Sportivo Luqueno",
-        "logo": "https://media.api-sports.io/football/teams/1183.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

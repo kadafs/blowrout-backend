@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1554209,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T12:00:00+00:00",
+      "timestamp": 1793620800,
+      "periods": {
+        "first": 1793620800,
+        "second": 1793624400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 287,
+      "name": "Prva Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/287.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2645,
+        "name": "Teleoptik",
+        "logo": "https://media.api-sports.io/football/teams/2645.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2653,
+        "name": "Javor",
+        "logo": "https://media.api-sports.io/football/teams/2653.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645814,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1554176,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T14:00:00+00:00",
-      "timestamp": 1791122400,
-      "periods": {
-        "first": 1791122400,
-        "second": 1791126000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Kraj Moravice",
-        "city": "Ivanjica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 287,
-      "name": "Prva Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/287.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2653,
-        "name": "Javor",
-        "logo": "https://media.api-sports.io/football/teams/2653.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2649,
-        "name": "Borac Cacak",
-        "logo": "https://media.api-sports.io/football/teams/2649.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

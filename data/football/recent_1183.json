@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632055,
+      "referee": "Juan Gabriel Benitez",
+      "timezone": "UTC",
+      "date": "2026-11-05T22:00:00+00:00",
+      "timestamp": 1793916000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20815,
+        "name": "Estadio La Arboleda",
+        "city": "Asuncion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 252,
+      "name": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "logo": "https://media.api-sports.io/football/leagues/252.png",
+      "flag": "https://media.api-sports.io/flags/py.svg",
+      "season": 2026,
+      "round": "Clausura - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1185,
+        "name": "Rubio NU",
+        "logo": "https://media.api-sports.io/football/teams/1185.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1183,
+        "name": "Sportivo Luqueno",
+        "logo": "https://media.api-sports.io/football/teams/1183.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632048,
       "referee": "David Ojeda",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1632031,
-      "referee": "J. Benitez",
-      "timezone": "UTC",
-      "date": "2026-10-10T22:20:00+00:00",
-      "timestamp": 1791670800,
-      "periods": {
-        "first": 1791670800,
-        "second": 1791674400
-      },
-      "venue": {
-        "id": 1226,
-        "name": "Estadio Feliciano C\u00e1ceres",
-        "city": "Luque"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 252,
-      "name": "Division Profesional - Clausura",
-      "country": "Paraguay",
-      "logo": "https://media.api-sports.io/football/leagues/252.png",
-      "flag": "https://media.api-sports.io/flags/py.svg",
-      "season": 2026,
-      "round": "Clausura - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1183,
-        "name": "Sportivo Luqueno",
-        "logo": "https://media.api-sports.io/football/teams/1183.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1176,
-        "name": "Cerro Porteno",
-        "logo": "https://media.api-sports.io/football/teams/1176.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

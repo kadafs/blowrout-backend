@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1605108,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T11:00:00+00:00",
+      "timestamp": 1793617200,
+      "periods": {
+        "first": 1793617200,
+        "second": 1793620800
+      },
+      "venue": {
+        "id": null,
+        "name": "Araks Stadium",
+        "city": "Ararat"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 343,
+      "name": "First League",
+      "country": "Armenia",
+      "logo": "https://media.api-sports.io/football/leagues/343.png",
+      "flag": "https://media.api-sports.io/flags/am.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 25114,
+        "name": "Araks Ararat",
+        "logo": "https://media.api-sports.io/football/teams/25114.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3690,
+        "name": "Banants II",
+        "logo": "https://media.api-sports.io/football/teams/3690.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1605104,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1605078,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-15T12:00:00+00:00",
-      "timestamp": 1789473600,
-      "periods": {
-        "first": 1789473600,
-        "second": 1789477200
-      },
-      "venue": {
-        "id": 120,
-        "name": "Yerevan Football Academy",
-        "city": "Yerevan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 343,
-      "name": "First League",
-      "country": "Armenia",
-      "logo": "https://media.api-sports.io/football/leagues/343.png",
-      "flag": "https://media.api-sports.io/flags/am.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3696,
-        "name": "Pyunik II",
-        "logo": "https://media.api-sports.io/football/teams/3696.png",
-        "winner": false
-      },
-      "away": {
-        "id": 25114,
-        "name": "Araks Ararat",
-        "logo": "https://media.api-sports.io/football/teams/25114.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

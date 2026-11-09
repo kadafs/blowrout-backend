@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1641899,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T00:00:00+00:00",
+      "timestamp": 1793923200,
+      "periods": {
+        "first": 1793923200,
+        "second": 1793926800
+      },
+      "venue": {
+        "id": 18580,
+        "name": "Estadio Banco Guayaquil",
+        "city": "Quito"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 917,
+      "name": "Copa Ecuador",
+      "country": "Ecuador",
+      "logo": "https://media.api-sports.io/football/leagues/917.png",
+      "flag": "https://media.api-sports.io/flags/ec.svg",
+      "season": 2025,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1153,
+        "name": "Independiente del Valle",
+        "logo": "https://media.api-sports.io/football/teams/1153.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1149,
+        "name": "Delfin SC",
+        "logo": "https://media.api-sports.io/football/teams/1149.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639830,
       "referee": "Alex Fabricio Cajas Torres",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 4,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639821,
-      "referee": "G. Guerrero",
-      "timezone": "UTC",
-      "date": "2026-10-09T20:30:00+00:00",
-      "timestamp": 1791577800,
-      "periods": {
-        "first": 1791577800,
-        "second": 1791581400
-      },
-      "venue": {
-        "id": 467,
-        "name": "Estadio Jocay",
-        "city": "Manta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 242,
-      "name": "Liga Pro",
-      "country": "Ecuador",
-      "logo": "https://media.api-sports.io/football/leagues/242.png",
-      "flag": "https://media.api-sports.io/flags/ec.svg",
-      "season": 2026,
-      "round": "Relegation Group - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1149,
-        "name": "Delfin SC",
-        "logo": "https://media.api-sports.io/football/teams/1149.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1162,
-        "name": "Mushuc Runa SC",
-        "logo": "https://media.api-sports.io/football/teams/1162.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
         "away": 2
       },
       "extratime": {

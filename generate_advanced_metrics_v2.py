@@ -484,8 +484,7 @@ def parse_date(date_str):
     """Parse dates from multiple sources: YYYY-MM-DD (API), Dec 12, 2025 (Proballers), DD.MM. HH:MM (Flashscore)"""
     if not date_str: return datetime.datetime.min
     if date_str == "Unknown":
-        # Proballers box-scores scraped without explicit title timestamps are fresh active-season games
-        return NOW
+        return datetime.datetime.min
     try:
         # ISO format: YYYY-MM-DD...
         if "-" in date_str and len(date_str) >= 10:
@@ -697,21 +696,105 @@ def process_leagues(target_league_id=None):
             g["home_team"] = team_name_map.get(g.get("home_team"), g.get("home_team"))
             g["away_team"] = team_name_map.get(g.get("away_team"), g.get("away_team"))
             
-        # 3. Deduplicate using normalized identifiers
-        unique_games = {}
+        # Helper for matching teams during cross-source deduplication
+        def _teams_match(t1, t2):
+            if not t1 or not t2: return False
+            if t1 == t2: return True
+            c1 = clean_team_name(t1)
+            c2 = clean_team_name(t2)
+            if c1 == c2: return True
+            if c1 in c2 or c2 in c1:
+                diff_words = {'state', 'tech', 'am', 'city', 'college', 'university', 'north', 'south', 'east', 'west'}
+                w1 = set(c1.split()) - diff_words
+                w2 = set(c2.split()) - diff_words
+                if w1 and w2 and (w1 & w2):
+                    return True
+            if difflib.SequenceMatcher(None, c1, c2).ratio() >= 0.75:
+                return True
+            return False
+
+        # 3. Deduplicate using normalized identifiers + score-indexed cross-source tolerance
+        unique_games = []
+        score_index = {}
+        exact_index = {}
+
+        # Sort: prefer official API games with standard ISO dates (YYYY-MM-DD) first
+        def _dedupe_sort_key(g):
+            d_str = str(g.get("date", ""))
+            is_iso = ("-" in d_str and len(d_str) >= 10)
+            has_stats = bool(g.get("stats") or g.get("advanced_stats"))
+            return (1 if is_iso else 0, 1 if has_stats else 0)
+
+        valid_games.sort(key=_dedupe_sort_key, reverse=True)
+
         for g in valid_games:
-            # Semantic dedupe key: Date + Standardized Home vs Away
-            gid = f"{g['_parsed_date'].strftime('%Y-%m-%d')}_{g['home_team']}_{g['away_team']}"
-            
-            if gid not in unique_games:
-                unique_games[gid] = g
-            else:
-                old_adv = unique_games[gid].get("advanced_stats") or unique_games[gid].get("stats")
+            g_date = g["_parsed_date"]
+            g_ht = g.get("home_team", "")
+            g_at = g.get("away_team", "")
+            g_hs = g.get("home_score")
+            g_as = g.get("away_score")
+
+            # 3a. Exact Date + Team match
+            exact_key = f"{g_date.strftime('%Y-%m-%d')}_{g_ht}_{g_at}"
+            if exact_key in exact_index:
+                existing = exact_index[exact_key]
                 new_adv = g.get("advanced_stats") or g.get("stats")
+                old_adv = existing.get("advanced_stats") or existing.get("stats")
                 if new_adv and not old_adv:
-                    unique_games[gid] = g
-                    
-        merged_games = list(unique_games.values())
+                    existing["stats"] = new_adv
+                continue
+
+            # 3b. Score + Near-Date (±2 days) tolerance match (e.g. Proballers US-ET vs API UTC)
+            matched_existing = None
+            if g_hs is not None and g_as is not None:
+                try:
+                    cand_list = score_index.get((int(g_hs), int(g_as)), [])
+                    for ug in cand_list:
+                        u_date = ug["_parsed_date"]
+                        if abs((g_date - u_date).total_seconds()) <= 86400 * 2:
+                            if _teams_match(g_ht, ug.get("home_team", "")) and _teams_match(g_at, ug.get("away_team", "")):
+                                matched_existing = ug
+                                break
+                except (ValueError, TypeError):
+                    pass
+
+            if matched_existing:
+                new_adv = g.get("advanced_stats") or g.get("stats")
+                old_adv = matched_existing.get("advanced_stats") or matched_existing.get("stats")
+                if new_adv and not old_adv:
+                    matched_existing["stats"] = new_adv
+            else:
+                unique_games.append(g)
+                exact_index[exact_key] = g
+                if g_hs is not None and g_as is not None:
+                    try:
+                        score_key = (int(g_hs), int(g_as))
+                        if score_key not in score_index:
+                            score_index[score_key] = []
+                        score_index[score_key].append(g)
+                    except (ValueError, TypeError):
+                        pass
+
+        # 3c. Attach any unparsed/unknown date games by exact score + team match without duplicating
+        for g in all_games:
+            d_str = str(g.get("date", ""))
+            if d_str == "Unknown" or not d_str:
+                g_hs = g.get("home_score")
+                g_as = g.get("away_score")
+                if g_hs is not None and g_as is not None:
+                    try:
+                        cand_list = score_index.get((int(g_hs), int(g_as)), [])
+                        for ug in cand_list:
+                            if _teams_match(g.get("home_team", ""), ug.get("home_team", "")) and _teams_match(g.get("away_team", ""), ug.get("away_team", "")):
+                                new_adv = g.get("advanced_stats") or g.get("stats")
+                                old_adv = ug.get("advanced_stats") or ug.get("stats")
+                                if new_adv and not old_adv:
+                                    ug["stats"] = new_adv
+                                break
+                    except (ValueError, TypeError):
+                        pass
+
+        merged_games = unique_games
         
         # Sort by date for chronological math
         merged_games.sort(key=lambda x: x["_parsed_date"])

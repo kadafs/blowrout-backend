@@ -720,6 +720,22 @@ def get_srs_stats(league_id, season, refresh=False):
 # STEP 4: FUZZY TEAM MATCHING
 # ------------------------------------------------------------------
 
+MASCOT_AND_GENERIC_WORDS = {
+    "basket", "basketball", "club", "team", "women", "baskets", "aviv", "milan", "bologna",
+    # College & Sports Mascots
+    "hawks", "redhawks", "skyhawks", "seahawks", "river", "wildcats", "tigers", "bulldogs",
+    "bears", "golden", "black", "eagles", "panthers", "rams", "spartans", "knights", "lions",
+    "cougars", "huskies", "cardinals", "cowboys", "pirates", "rebels", "bobcats", "flames",
+    "mountaineers", "warriors", "braves", "titans", "colonials", "terriers", "raiders",
+    "jaguars", "lakers", "bulls", "falcons", "flyers", "wolves", "mustangs", "patriots",
+    "bison", "bisons", "flashes", "peacocks", "monarchs", "jaspers", "pioneers", "broncs",
+    "aggies", "mocs", "hoyas", "anteaters", "tarpons", "catamounts", "vaqueros", "paladins",
+    # Geographic & Institution Types
+    "state", "tech", "college", "university", "north", "south", "east", "west", "central",
+    "city", "saint", "point", "mount", "valley", "green", "fort", "polytechnic", "institute",
+    "united", "stars", "storm", "kings", "royals"
+}
+
 def resolve_split_season_games(team_stats, stats_dict):
     """
     If a matched team profile has current_season_games == 0, search stats_dict
@@ -731,23 +747,24 @@ def resolve_split_season_games(team_stats, stats_dict):
     if team_stats.get("current_season_games", 0) > 0:
         return team_stats
     
-    import re
+    import re, difflib
     t_name = team_stats.get("team_name", "")
-    t_tokens = set(re.findall(r'[a-zA-Z]{4,}', t_name.lower())) - {
-        "basket", "basketball", "club", "team", "women", "baskets", "aviv", "milan", "bologna"
-    }
+    clean_t = re.sub(r'[^a-zA-Z0-9\s]', ' ', t_name).lower()
+    t_tokens = set(re.findall(r'[a-zA-Z]{4,}', clean_t)) - MASCOT_AND_GENERIC_WORDS
     if not t_tokens:
         return team_stats
         
     for k, v in stats_dict.items():
         if v.get("current_season_games", 0) > 0:
-            k_tokens = set(re.findall(r'[a-zA-Z]{4,}', k.lower())) - {
-                "basket", "basketball", "club", "team", "women", "baskets", "aviv", "milan", "bologna"
-            }
+            clean_k = re.sub(r'[^a-zA-Z0-9\s]', ' ', k).lower()
+            k_tokens = set(re.findall(r'[a-zA-Z]{4,}', clean_k)) - MASCOT_AND_GENERIC_WORDS
             if t_tokens & k_tokens:
-                team_stats = dict(team_stats)
-                team_stats["current_season_games"] = v["current_season_games"]
-                break
+                # Require significant substring overlap or high fuzzy ratio so distinct clubs sharing a word don't collide
+                if (clean_t.strip() in clean_k.strip() or clean_k.strip() in clean_t.strip() or 
+                    difflib.SequenceMatcher(None, clean_t.strip(), clean_k.strip()).ratio() >= 0.70):
+                    team_stats = dict(team_stats)
+                    team_stats["current_season_games"] = v["current_season_games"]
+                    break
     return team_stats
 
 def find_team(name, stats_dict):

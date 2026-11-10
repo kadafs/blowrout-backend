@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1585116,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T17:00:00+00:00",
+      "timestamp": 1794070800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Degouve-Brabant Stadium",
+        "city": "Arras"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 64,
+      "name": "Feminine Division 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/64.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26234,
+        "name": "Lens W",
+        "logo": "https://media.api-sports.io/football/teams/26234.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1674,
+        "name": "Lyon W",
+        "logo": "https://media.api-sports.io/football/teams/1674.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 5
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580947,
       "referee": "Goncalves, Clemence",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581005,
-      "referee": "Fournier, Romy",
-      "timezone": "UTC",
-      "date": "2026-10-03T16:00:00+00:00",
-      "timestamp": 1791043200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 666,
-        "name": "Groupama Stadium",
-        "city": "Lyon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1674,
-        "name": "Lyon W",
-        "logo": "https://media.api-sports.io/football/teams/1674.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27933,
-        "name": "Toulouse W",
-        "logo": "https://media.api-sports.io/football/teams/27933.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
       },
       "extratime": {
         "home": null,

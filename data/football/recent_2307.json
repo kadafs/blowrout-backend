@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1648269,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T18:00:00+00:00",
+      "timestamp": 1794160800,
+      "periods": {
+        "first": 1794160800,
+        "second": 1794164400
+      },
+      "venue": {
+        "id": 1071,
+        "name": "Estadio Jalisco",
+        "city": "Guadalajara"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 263,
+      "name": "Liga de Expansi\u00f3n MX",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/263.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2307,
+        "name": "Leones Negros UDG",
+        "logo": "https://media.api-sports.io/football/teams/2307.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15941,
+        "name": "Durango",
+        "logo": "https://media.api-sports.io/football/teams/15941.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1648263,
-      "referee": "Fernando Alexander Cruz Garatachea",
+      "referee": "F. Cruz Garatachea",
       "timezone": "UTC",
       "date": "2026-11-06T03:05:00+00:00",
       "timestamp": 1793934300,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581443,
-      "referee": "A. Rodriguez",
-      "timezone": "UTC",
-      "date": "2026-10-10T23:00:00+00:00",
-      "timestamp": 1791673200,
-      "periods": {
-        "first": 1791673200,
-        "second": 1791676800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Carlos Iturralde Rivero",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 263,
-      "name": "Liga de Expansi\u00f3n MX",
-      "country": "Mexico",
-      "logo": "https://media.api-sports.io/football/leagues/263.png",
-      "flag": "https://media.api-sports.io/flags/mx.svg",
-      "season": 2026,
-      "round": "Apertura - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2311,
-        "name": "Venados FC",
-        "logo": "https://media.api-sports.io/football/teams/2311.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2307,
-        "name": "Leones Negros UDG",
-        "logo": "https://media.api-sports.io/football/teams/2307.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

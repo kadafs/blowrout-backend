@@ -1,19 +1,19 @@
 [
   {
     "fixture": {
-      "id": 1609388,
+      "id": 1609408,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-20T14:00:00+00:00",
-      "timestamp": 1789912800,
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
       "periods": {
-        "first": 1789912800,
-        "second": 1789916400
+        "first": 1794146400,
+        "second": 1794150000
       },
       "venue": {
         "id": null,
-        "name": "King Power Stadium",
-        "city": "Leicester"
+        "name": null,
+        "city": "Colchester"
       },
       "status": {
         "long": "Match Finished",
@@ -29,14 +29,84 @@
       "logo": "https://media.api-sports.io/football/leagues/699.png",
       "flag": "https://media.api-sports.io/flags/gb-eng.svg",
       "season": 2026,
-      "round": "Regular Season - 3",
+      "round": "Regular Season - 7",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 15404,
-        "name": "Leicester City FC W",
-        "logo": "https://media.api-sports.io/football/teams/15404.png",
+        "id": 15422,
+        "name": "Ipswich Town W",
+        "logo": "https://media.api-sports.io/football/teams/15422.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1846,
+        "name": "Bristol City W",
+        "logo": "https://media.api-sports.io/football/teams/1846.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612667,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T15:00:00+00:00",
+      "timestamp": 1793458800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 496,
+        "name": "The Hive Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15457,
+        "name": "Watford W",
+        "logo": "https://media.api-sports.io/football/teams/15457.png",
         "winner": false
       },
       "away": {
@@ -47,17 +117,17 @@
       }
     },
     "goals": {
-      "home": 0,
-      "away": 1
+      "home": 1,
+      "away": 4
     },
     "score": {
       "halftime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "fulltime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 4
       },
       "extratime": {
         "home": null,
@@ -71,84 +141,14 @@
   },
   {
     "fixture": {
-      "id": 1609380,
-      "referee": "F. Roque",
+      "id": 1609404,
+      "referee": "R. Atkin",
       "timezone": "UTC",
-      "date": "2026-09-13T13:00:00+00:00",
-      "timestamp": 1789304400,
+      "date": "2026-10-25T14:00:00+00:00",
+      "timestamp": 1792936800,
       "periods": {
-        "first": 1789304400,
-        "second": 1789308000
-      },
-      "venue": {
-        "id": null,
-        "name": "Silverlake Stadium",
-        "city": "Eastleigh"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 699,
-      "name": "Women's Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/699.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15454,
-        "name": "Southampton W",
-        "logo": "https://media.api-sports.io/football/teams/15454.png",
-        "winner": null
-      },
-      "away": {
-        "id": 15422,
-        "name": "Ipswich Town W",
-        "logo": "https://media.api-sports.io/football/teams/15422.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609373,
-      "referee": "J. Horwood",
-      "timezone": "UTC",
-      "date": "2026-09-06T13:00:00+00:00",
-      "timestamp": 1788699600,
-      "periods": {
-        "first": 1788699600,
-        "second": 1788703200
+        "first": 1792936800,
+        "second": 1792940400
       },
       "venue": {
         "id": null,
@@ -159,7 +159,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 5
+        "extra": 6
       }
     },
     "league": {
@@ -169,77 +169,7 @@
       "logo": "https://media.api-sports.io/football/leagues/699.png",
       "flag": "https://media.api-sports.io/flags/gb-eng.svg",
       "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15422,
-        "name": "Ipswich Town W",
-        "logo": "https://media.api-sports.io/football/teams/15422.png",
-        "winner": null
-      },
-      "away": {
-        "id": 15450,
-        "name": "Nottingham Forest W",
-        "logo": "https://media.api-sports.io/football/teams/15450.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1417192,
-      "referee": "L. Gray",
-      "timezone": "UTC",
-      "date": "2026-05-02T14:00:00+00:00",
-      "timestamp": 1777730400,
-      "periods": {
-        "first": 1777730400,
-        "second": 1777734000
-      },
-      "venue": {
-        "id": 522,
-        "name": "AGL Arena",
-        "city": "Colchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 699,
-      "name": "Women's Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/699.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2025,
-      "round": "Regular Season - 22",
+      "round": "Regular Season - 6",
       "standings": true
     },
     "teams": {
@@ -257,16 +187,16 @@
       }
     },
     "goals": {
-      "home": 2,
+      "home": 3,
       "away": 1
     },
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "fulltime": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "extratime": {
@@ -281,25 +211,25 @@
   },
   {
     "fixture": {
-      "id": 1417185,
-      "referee": null,
+      "id": 1609398,
+      "referee": "J. Horwood",
       "timezone": "UTC",
-      "date": "2026-04-26T13:00:00+00:00",
-      "timestamp": 1777208400,
+      "date": "2026-10-04T13:00:00+00:00",
+      "timestamp": 1791118800,
       "periods": {
-        "first": 1777208400,
-        "second": 1777212000
+        "first": 1791118800,
+        "second": 1791122400
       },
       "venue": {
-        "id": 0,
-        "name": "St. Andrew's @ Knighthead Park",
-        "city": "Birmingham"
+        "id": 581,
+        "name": "Bramall Lane",
+        "city": "Sheffield"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 9
+        "extra": 3
       }
     },
     "league": {
@@ -308,15 +238,15 @@
       "country": "England",
       "logo": "https://media.api-sports.io/football/leagues/699.png",
       "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2025,
-      "round": "Regular Season - 21",
+      "season": 2026,
+      "round": "Regular Season - 5",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 1845,
-        "name": "Birmingham City W",
-        "logo": "https://media.api-sports.io/football/teams/1845.png",
+        "id": 15407,
+        "name": "Sheffield United W",
+        "logo": "https://media.api-sports.io/football/teams/15407.png",
         "winner": false
       },
       "away": {
@@ -327,17 +257,87 @@
       }
     },
     "goals": {
-      "home": 0,
-      "away": 3
+      "home": 1,
+      "away": 2
     },
     "score": {
       "halftime": {
         "home": 0,
-        "away": 3
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1612645,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-30T18:30:00+00:00",
+      "timestamp": 1790793000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Colchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15422,
+        "name": "Ipswich Town W",
+        "logo": "https://media.api-sports.io/football/teams/15422.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15406,
+        "name": "London City Lionesses W",
+        "logo": "https://media.api-sports.io/football/teams/15406.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
       },
       "fulltime": {
         "home": 0,
-        "away": 3
+        "away": 1
       },
       "extratime": {
         "home": null,

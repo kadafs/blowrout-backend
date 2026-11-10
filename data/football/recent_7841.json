@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643331,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T18:00:00+00:00",
+      "timestamp": 1794160800,
+      "periods": {
+        "first": 1794160800,
+        "second": 1794164400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2210,
+        "name": "Central SC",
+        "logo": "https://media.api-sports.io/football/teams/2210.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7841,
+        "name": "Belo Jardim",
+        "logo": "https://media.api-sports.io/football/teams/7841.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643317,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1453435,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-10-19T18:00:00+00:00",
-      "timestamp": 1760896800,
-      "periods": {
-        "first": 1760896800,
-        "second": 1760900400
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 1125,
-      "name": "Pernambucano - 2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/1125.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2025,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7841,
-        "name": "Belo Jardim",
-        "logo": "https://media.api-sports.io/football/teams/7841.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24120,
-        "name": "Centro Limoeirense",
-        "logo": "https://media.api-sports.io/football/teams/24120.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

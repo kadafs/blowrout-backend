@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643329,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T18:00:00+00:00",
+      "timestamp": 1794160800,
+      "periods": {
+        "first": 1794160800,
+        "second": 1794164400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9995,
+        "name": "Afogados",
+        "logo": "https://media.api-sports.io/football/teams/9995.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1205,
+        "name": "Salgueiro",
+        "logo": "https://media.api-sports.io/football/teams/1205.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643319,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1020760,
-      "referee": "Gilberto Rodrigues Castro Junior",
-      "timezone": "UTC",
-      "date": "2023-04-08T19:30:00+00:00",
-      "timestamp": 1680982200,
-      "periods": {
-        "first": 1680982200,
-        "second": 1680985800
-      },
-      "venue": {
-        "id": 253,
-        "name": "Itaipava Arena Pernambuco",
-        "city": "Recife, Pernambuco"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 622,
-      "name": "Pernambucano - 1",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/622.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2023,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13098,
-        "name": "Retr\u00f4",
-        "logo": "https://media.api-sports.io/football/teams/13098.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1205,
-        "name": "Salgueiro",
-        "logo": "https://media.api-sports.io/football/teams/1205.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

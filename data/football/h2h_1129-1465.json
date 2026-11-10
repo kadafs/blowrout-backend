@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647619,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T23:10:00+00:00",
+      "timestamp": 1793661000,
+      "periods": {
+        "first": 1793661000,
+        "second": 1793664600
+      },
+      "venue": {
+        "id": 387,
+        "name": "Estadio Sierra Nevada",
+        "city": "Santa Marta"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - Quadrangular - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1465,
+        "name": "Union Magdalena",
+        "logo": "https://media.api-sports.io/football/teams/1465.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1129,
+        "name": "Envigado",
+        "logo": "https://media.api-sports.io/football/teams/1129.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549582,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 990330,
-      "referee": "S. Camargo",
-      "timezone": "UTC",
-      "date": "2023-07-31T21:00:00+00:00",
-      "timestamp": 1690837200,
-      "periods": {
-        "first": 1690837200,
-        "second": 1690840800
-      },
-      "venue": {
-        "id": 379,
-        "name": "Estadio Polideportivo Sur",
-        "city": "Envigado"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 239,
-      "name": "Primera A",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/239.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2023,
-      "round": "Clausura - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1129,
-        "name": "Envigado",
-        "logo": "https://media.api-sports.io/football/teams/1129.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1465,
-        "name": "Union Magdalena",
-        "logo": "https://media.api-sports.io/football/teams/1465.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

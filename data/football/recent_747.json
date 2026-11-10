@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646906,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": 497,
+        "name": "Oakwell",
+        "city": "Barnsley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 747,
+        "name": "Barnsley",
+        "logo": "https://media.api-sports.io/football/teams/747.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1818,
+        "name": "Aldershot Town",
+        "logo": "https://media.api-sports.io/football/teams/1818.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564391,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564353,
-      "referee": "Martin Coy",
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 3535,
-        "name": "Edgeley Park",
-        "city": "Stockport"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4686,
-        "name": "Stockport County",
-        "logo": "https://media.api-sports.io/football/teams/4686.png",
-        "winner": true
-      },
-      "away": {
-        "id": 747,
-        "name": "Barnsley",
-        "logo": "https://media.api-sports.io/football/teams/747.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

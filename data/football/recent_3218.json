@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599528,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T17:00:00+00:00",
+      "timestamp": 1794070800,
+      "periods": {
+        "first": 1794070800,
+        "second": 1794074400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Alphonse Le Gallo",
+        "city": "Paris - Colombes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 67,
+      "name": "National 2 - Group A",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/67.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group A - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3218,
+        "name": "Racing Colombes 92",
+        "logo": "https://media.api-sports.io/football/teams/3218.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9293,
+        "name": "Montlouis",
+        "logo": "https://media.api-sports.io/football/teams/9293.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599512,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599480,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 67,
-      "name": "National 2 - Group A",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/67.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group A - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3058,
-        "name": "Haguenau",
-        "logo": "https://media.api-sports.io/football/teams/3058.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3218,
-        "name": "Racing Colombes 92",
-        "logo": "https://media.api-sports.io/football/teams/3218.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647446,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T19:00:00+00:00",
+      "timestamp": 1793559600,
+      "periods": {
+        "first": 1793559600,
+        "second": 1793563200
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Municipal de Mosquera",
+        "city": "Mosquera"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 240,
+      "name": "Primera B",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/240.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - Quadrangular - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22099,
+        "name": "Real Cundinamarca",
+        "logo": "https://media.api-sports.io/football/teams/22099.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1145,
+        "name": "Tigres FC",
+        "logo": "https://media.api-sports.io/football/teams/1145.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549674,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1234374,
-      "referee": "J. Pe\u00f1a",
-      "timezone": "UTC",
-      "date": "2024-08-22T21:00:00+00:00",
-      "timestamp": 1724360400,
-      "periods": {
-        "first": 1724360400,
-        "second": 1724364000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Enrique Olaya Herrera",
-        "city": "Bogot\u00e1, D.C."
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 240,
-      "name": "Primera B",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/240.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2024,
-      "round": "Clausura - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22099,
-        "name": "Real Cundinamarca",
-        "logo": "https://media.api-sports.io/football/teams/22099.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1145,
-        "name": "Tigres FC",
-        "logo": "https://media.api-sports.io/football/teams/1145.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

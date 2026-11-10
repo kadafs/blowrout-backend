@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593165,
+      "referee": "Selina Menzel",
+      "timezone": "UTC",
+      "date": "2026-11-06T17:30:00+00:00",
+      "timestamp": 1793986200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12295,
+        "name": "Stadion am Brentanobad",
+        "city": "Frankfurt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14014,
+        "name": "Eintracht Frankfurt W",
+        "logo": "https://media.api-sports.io/football/teams/14014.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1863,
+        "name": "VfL Wolfsburg W",
+        "logo": "https://media.api-sports.io/football/teams/1863.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1644152,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1638418,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T16:30:00+00:00",
-      "timestamp": 1790785800,
-      "periods": {
-        "first": 1790785800,
-        "second": 1790789400
-      },
-      "venue": {
-        "id": 12295,
-        "name": "Stadion am Brentanobad",
-        "city": "Frankfurt"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 1191,
-      "name": "UEFA Europa Cup - Women",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1191.png",
-      "flag": null,
-      "season": 2026,
-      "round": "1st Qualifying Round - Finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14014,
-        "name": "Eintracht Frankfurt W",
-        "logo": "https://media.api-sports.io/football/teams/14014.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14848,
-        "name": "FH W",
-        "logo": "https://media.api-sports.io/football/teams/14848.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

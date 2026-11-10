@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600005,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T17:00:00+00:00",
+      "timestamp": 1794070800,
+      "periods": {
+        "first": 1794070800,
+        "second": 1794074400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 69,
+      "name": "National 2 - Group C",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/69.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group C - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3187,
+        "name": "Hauts Lyonnais",
+        "logo": "https://media.api-sports.io/football/teams/3187.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17360,
+        "name": "Bourges Foot 18",
+        "logo": "https://media.api-sports.io/football/teams/17360.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599996,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 17360,
         "name": "Bourges Foot 18",
         "logo": "https://media.api-sports.io/football/teams/17360.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599955,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 69,
-      "name": "National 2 - Group C",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/69.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group C - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17360,
-        "name": "Bourges Foot 18",
-        "logo": "https://media.api-sports.io/football/teams/17360.png",
-        "winner": null
-      },
-      "away": {
-        "id": 9254,
-        "name": "Chasselay MDA",
-        "logo": "https://media.api-sports.io/football/teams/9254.png",
         "winner": null
       }
     },

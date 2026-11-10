@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600009,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T17:00:00+00:00",
+      "timestamp": 1794070800,
+      "periods": {
+        "first": 1794070800,
+        "second": 1794074400
+      },
+      "venue": {
+        "id": 657,
+        "name": "Stade de Balmont",
+        "city": "Lyon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 69,
+      "name": "National 2 - Group C",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/69.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group C - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1295,
+        "name": "Lyon Duchere",
+        "logo": "https://media.api-sports.io/football/teams/1295.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3051,
+        "name": "Fr\u00e9jus St-Rapha\u00ebl",
+        "logo": "https://media.api-sports.io/football/teams/3051.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599988,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599957,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-05T16:00:00+00:00",
-      "timestamp": 1788624000,
-      "periods": {
-        "first": 1788624000,
-        "second": 1788627600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 69,
-      "name": "National 2 - Group C",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/69.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group C - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3051,
-        "name": "Fr\u00e9jus St-Rapha\u00ebl",
-        "logo": "https://media.api-sports.io/football/teams/3051.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3009,
-        "name": "Andr\u00e9zieux",
-        "logo": "https://media.api-sports.io/football/teams/3009.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1621078,
+      "referee": "L. Doughty",
+      "timezone": "UTC",
+      "date": "2026-11-06T19:00:00+00:00",
+      "timestamp": 1793991600,
+      "periods": {
+        "first": 1793991600,
+        "second": 1793995200
+      },
+      "venue": {
+        "id": null,
+        "name": "Clayton Wood",
+        "city": "Stoke on Trent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 702,
+      "name": "Premier League 2 Division One",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/702.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11911,
+        "name": "Stoke City U21",
+        "logo": "https://media.api-sports.io/football/teams/11911.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7194,
+        "name": "Fulham U21",
+        "logo": "https://media.api-sports.io/football/teams/7194.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619529,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1588871,
-      "referee": "L. Sandoe",
-      "timezone": "UTC",
-      "date": "2026-09-22T18:00:00+00:00",
-      "timestamp": 1790100000,
-      "periods": {
-        "first": 1790100000,
-        "second": 1790103600
-      },
-      "venue": {
-        "id": 547,
-        "name": "King Power Stadium",
-        "city": "Leicester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 46,
-      "name": "EFL Trophy",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/46.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group South - 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 46,
-        "name": "Leicester",
-        "logo": "https://media.api-sports.io/football/teams/46.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7194,
-        "name": "Fulham U21",
-        "logo": "https://media.api-sports.io/football/teams/7194.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 5,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 1
       },
       "extratime": {
         "home": null,

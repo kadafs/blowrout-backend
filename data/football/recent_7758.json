@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646817,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10653,
+        "name": "The Cuthbury",
+        "city": "Wimborne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7758,
+        "name": "Wimborne Town",
+        "logo": "https://media.api-sports.io/football/teams/7758.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1362,
+        "name": "Crawley Town",
+        "logo": "https://media.api-sports.io/football/teams/1362.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1597441,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644492,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T14:00:00+00:00",
-      "timestamp": 1792245600,
-      "periods": {
-        "first": 1792245600,
-        "second": 1792249200
-      },
-      "venue": {
-        "id": 10653,
-        "name": "The Cuthbury",
-        "city": "Wimborne"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 45,
-      "name": "FA Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/45.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "4th Round Qualifying",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7758,
-        "name": "Wimborne Town",
-        "logo": "https://media.api-sports.io/football/teams/7758.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4689,
-        "name": "Chelmsford City",
-        "logo": "https://media.api-sports.io/football/teams/4689.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

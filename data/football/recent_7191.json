@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1588901,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 515,
+        "name": "Abbey Stadium",
+        "city": "Cambridge"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group South - 7",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1370,
+        "name": "Cambridge United",
+        "logo": "https://media.api-sports.io/football/teams/1370.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7191,
+        "name": "Brighton U21",
+        "logo": "https://media.api-sports.io/football/teams/7191.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1621060,
       "referee": "A. Farmer",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1621039,
-      "referee": "D. Watson",
-      "timezone": "UTC",
-      "date": "2026-09-19T11:00:00+00:00",
-      "timestamp": 1789815600,
-      "periods": {
-        "first": 1789815600,
-        "second": 1789819200
-      },
-      "venue": {
-        "id": null,
-        "name": "Liverpool Academy",
-        "city": "Liverpool"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 702,
-      "name": "Premier League 2 Division One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/702.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7196,
-        "name": "Liverpool U21",
-        "logo": "https://media.api-sports.io/football/teams/7196.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7191,
-        "name": "Brighton U21",
-        "logo": "https://media.api-sports.io/football/teams/7191.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
         "away": 1
       },
       "extratime": {

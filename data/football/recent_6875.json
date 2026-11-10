@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602537,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-31T09:00:00+00:00",
+      "timestamp": 1793437200,
+      "periods": {
+        "first": 1793437200,
+        "second": 1793440800
+      },
+      "venue": {
+        "id": 11909,
+        "name": "Stadionul Clinceni",
+        "city": "Clinceni"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 284,
+      "name": "Liga II",
+      "country": "Romania",
+      "logo": "https://media.api-sports.io/football/leagues/284.png",
+      "flag": "https://media.api-sports.io/flags/ro.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6891,
+        "name": "Pope\u0219ti-Leordeni",
+        "logo": "https://media.api-sports.io/football/teams/6891.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6875,
+        "name": "Metalul Buz\u0103u",
+        "logo": "https://media.api-sports.io/football/teams/6875.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602526,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602484,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T10:00:00+00:00",
-      "timestamp": 1789293600,
-      "periods": {
-        "first": 1789293600,
-        "second": 1789297200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadionul Cornel Negoescu - artificial grass",
-        "city": "Buzau"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 284,
-      "name": "Liga II",
-      "country": "Romania",
-      "logo": "https://media.api-sports.io/football/leagues/284.png",
-      "flag": "https://media.api-sports.io/flags/ro.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6875,
-        "name": "Metalul Buz\u0103u",
-        "logo": "https://media.api-sports.io/football/teams/6875.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6916,
-        "name": "Unirea Slobozia",
-        "logo": "https://media.api-sports.io/football/teams/6916.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

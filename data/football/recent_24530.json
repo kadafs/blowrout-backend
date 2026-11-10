@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600649,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T21:00:00+00:00",
+      "timestamp": 1794085200,
+      "periods": {
+        "first": 1794085200,
+        "second": 1794088800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 370,
+      "name": "Primera Division",
+      "country": "El-Salvador",
+      "logo": "https://media.api-sports.io/football/leagues/370.png",
+      "flag": "https://media.api-sports.io/flags/sv.svg",
+      "season": 2026,
+      "round": "Apertura - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19763,
+        "name": "Platense",
+        "logo": "https://media.api-sports.io/football/teams/19763.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24530,
+        "name": "Cacahuatique",
+        "logo": "https://media.api-sports.io/football/teams/24530.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600643,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600618,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T21:00:00+00:00",
-      "timestamp": 1791061200,
-      "periods": {
-        "first": 1791061200,
-        "second": 1791064800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 370,
-      "name": "Primera Division",
-      "country": "El-Salvador",
-      "logo": "https://media.api-sports.io/football/leagues/370.png",
-      "flag": "https://media.api-sports.io/flags/sv.svg",
-      "season": 2026,
-      "round": "Apertura - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4310,
-        "name": "\u00c1guila",
-        "logo": "https://media.api-sports.io/football/teams/4310.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24530,
-        "name": "Cacahuatique",
-        "logo": "https://media.api-sports.io/football/teams/24530.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1646901,
+      "referee": "J. Burgos",
+      "timezone": "UTC",
+      "date": "2026-11-01T16:00:00+00:00",
+      "timestamp": 1793548800,
+      "periods": {
+        "first": 1793548800,
+        "second": 1793552400
+      },
+      "venue": {
+        "id": null,
+        "name": "Parque Artigas",
+        "city": "Las Piedras"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 268,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Uruguay",
+      "logo": "https://media.api-sports.io/football/leagues/268.png",
+      "flag": "https://media.api-sports.io/flags/uy.svg",
+      "season": 2026,
+      "round": "Clausura - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2361,
+        "name": "Boston River",
+        "logo": "https://media.api-sports.io/football/teams/2361.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2365,
+        "name": "Atletico Torque",
+        "logo": "https://media.api-sports.io/football/teams/2365.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1540896,
-      "referee": "Leondro Nicolas Lasso Gonzalez, Uruguay",
+      "referee": "L. Lasso",
       "timezone": "UTC",
       "date": "2026-04-24T22:30:00+00:00",
       "timestamp": 1777069800,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1099776,
-      "referee": "B. Sacarelo",
-      "timezone": "UTC",
-      "date": "2023-11-24T19:30:00+00:00",
-      "timestamp": 1700854200,
-      "periods": {
-        "first": 1700854200,
-        "second": 1700857800
-      },
-      "venue": {
-        "id": 1635,
-        "name": "Estadio Municipal Parque Artigas",
-        "city": "Las Piedras"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 270,
-      "name": "Primera Divisi\u00f3n - Clausura",
-      "country": "Uruguay",
-      "logo": "https://media.api-sports.io/football/leagues/270.png",
-      "flag": "https://media.api-sports.io/flags/uy.svg",
-      "season": 2023,
-      "round": "Clausura - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2361,
-        "name": "Boston River",
-        "logo": "https://media.api-sports.io/football/teams/2361.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2365,
-        "name": "Atletico Torque",
-        "logo": "https://media.api-sports.io/football/teams/2365.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619181,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-27T19:30:00+00:00",
+      "timestamp": 1793129400,
+      "periods": {
+        "first": 1793129400,
+        "second": 1793133000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 703,
+      "name": "Professional Development League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/703.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20083,
+        "name": "Colchester United U21",
+        "logo": "https://media.api-sports.io/football/teams/20083.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20085,
+        "name": "Queens Park Rangers U21",
+        "logo": "https://media.api-sports.io/football/teams/20085.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619162,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619131,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-01T18:00:00+00:00",
-      "timestamp": 1788285600,
-      "periods": {
-        "first": 1788285600,
-        "second": 1788289200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20083,
-        "name": "Colchester United U21",
-        "logo": "https://media.api-sports.io/football/teams/20083.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20091,
-        "name": "Barnsley U21",
-        "logo": "https://media.api-sports.io/football/teams/20091.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 3,
         "away": 4
       },
       "extratime": {

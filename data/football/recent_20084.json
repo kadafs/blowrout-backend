@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627114,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T19:00:00+00:00",
+      "timestamp": 1793646000,
+      "periods": {
+        "first": 1793646000,
+        "second": 1793649600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20084,
+        "name": "Hull City U21",
+        "logo": "https://media.api-sports.io/football/teams/20084.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19745,
+        "name": "Derby County U21",
+        "logo": "https://media.api-sports.io/football/teams/19745.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627162,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619145,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-22T17:00:00+00:00",
-      "timestamp": 1790096400,
-      "periods": {
-        "first": 1790096400,
-        "second": 1790100000
-      },
-      "venue": {
-        "id": 20106,
-        "name": "Ashton Gate Stadium",
-        "city": "Bristol"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20080,
-        "name": "Bristol City U21",
-        "logo": "https://media.api-sports.io/football/teams/20080.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20084,
-        "name": "Hull City U21",
-        "logo": "https://media.api-sports.io/football/teams/20084.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

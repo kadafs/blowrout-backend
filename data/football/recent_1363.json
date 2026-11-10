@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646799,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11876,
+        "name": "Alexandra Stadium",
+        "city": "Crewe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1363,
+        "name": "Crewe",
+        "logo": "https://media.api-sports.io/football/teams/1363.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1333,
+        "name": "AFC Wimbledon",
+        "logo": "https://media.api-sports.io/football/teams/1333.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1563841,
       "referee": "H. Blair",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1563800,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T11:30:00+00:00",
-      "timestamp": 1791631800,
-      "periods": {
-        "first": 1791631800,
-        "second": 1791635400
-      },
-      "venue": {
-        "id": 592,
-        "name": "County Ground",
-        "city": "Swindon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 42,
-      "name": "League Two",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/42.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1353,
-        "name": "Swindon Town",
-        "logo": "https://media.api-sports.io/football/teams/1353.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1363,
-        "name": "Crewe",
-        "logo": "https://media.api-sports.io/football/teams/1363.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643327,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T18:00:00+00:00",
+      "timestamp": 1794074400,
+      "periods": {
+        "first": 1794074400,
+        "second": 1794078000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16446,
+        "name": "Vera Cruz",
+        "logo": "https://media.api-sports.io/football/teams/16446.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7857,
+        "name": "Guarany de Sobral",
+        "logo": "https://media.api-sports.io/football/teams/7857.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643321,
       "referee": null,
       "timezone": "UTC",
@@ -147,8 +217,8 @@
       "date": "2026-10-24T18:00:00+00:00",
       "timestamp": 1792864800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792864800,
+        "second": 1792868400
       },
       "venue": {
         "id": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1545134,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-19T23:00:00+00:00",
-      "timestamp": 1779231600,
-      "periods": {
-        "first": 1779231600,
-        "second": 1779235200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 620,
-      "name": "Cearense - 2",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/620.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 13092,
-        "name": "Crato",
-        "logo": "https://media.api-sports.io/football/teams/13092.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7857,
-        "name": "Guarany de Sobral",
-        "logo": "https://media.api-sports.io/football/teams/7857.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

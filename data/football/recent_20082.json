@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627116,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:00:00+00:00",
+      "timestamp": 1793732400,
+      "periods": {
+        "first": 1793732400,
+        "second": 1793736000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 871,
+      "name": "Premier League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/871.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 20082,
+        "name": "Charlton Athletic U21",
+        "logo": "https://media.api-sports.io/football/teams/20082.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24849,
+        "name": "Stockport County U21",
+        "logo": "https://media.api-sports.io/football/teams/24849.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619176,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619151,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T12:00:00+00:00",
-      "timestamp": 1790683200,
-      "periods": {
-        "first": 1790683200,
-        "second": 1790686800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20082,
-        "name": "Charlton Athletic U21",
-        "logo": "https://media.api-sports.io/football/teams/20082.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20095,
-        "name": "Millwall U21",
-        "logo": "https://media.api-sports.io/football/teams/20095.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646813,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T20:00:00+00:00",
+      "timestamp": 1794081600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 570,
+        "name": "ABAX Stadium",
+        "city": "Peterborough"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "1/128-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": false
+      },
+      "away": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564266,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 1373,
         "name": "Leyton Orient",
         "logo": "https://media.api-sports.io/football/teams/1373.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564365,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T14:00:00+00:00",
-      "timestamp": 1792245600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 599,
-        "name": "DW Stadium",
-        "city": "Wigan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 61,
-        "name": "Wigan",
-        "logo": "https://media.api-sports.io/football/teams/61.png",
-        "winner": true
-      },
-      "away": {
-        "id": 53,
-        "name": "Reading",
-        "logo": "https://media.api-sports.io/football/teams/53.png",
         "winner": false
       }
     },

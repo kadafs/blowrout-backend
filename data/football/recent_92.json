@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599987,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T18:30:00+00:00",
+      "timestamp": 1793989800,
+      "periods": {
+        "first": 1793989800,
+        "second": 1793993400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Gaston Petit",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 69,
+      "name": "National 2 - Group C",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/69.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Group C - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 107,
+        "name": "Chateauroux",
+        "logo": "https://media.api-sports.io/football/teams/107.png",
+        "winner": null
+      },
+      "away": {
+        "id": 92,
+        "name": "Nimes",
+        "logo": "https://media.api-sports.io/football/teams/92.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599984,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599968,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
-      "periods": {
-        "first": 1789228800,
-        "second": 1789232400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade des Antonins",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 69,
-      "name": "National 2 - Group C",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/69.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Group C - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 92,
-        "name": "Nimes",
-        "logo": "https://media.api-sports.io/football/teams/92.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9945,
-        "name": "Troyes II",
-        "logo": "https://media.api-sports.io/football/teams/9945.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

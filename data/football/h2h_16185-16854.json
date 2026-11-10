@@ -1,13 +1,13 @@
 [
   {
     "fixture": {
-      "id": 1646986,
+      "id": 1646998,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-29T08:00:00+00:00",
-      "timestamp": 1793260800,
+      "date": "2026-11-10T08:00:00+00:00",
+      "timestamp": 1794297600,
       "periods": {
-        "first": 1793260800,
+        "first": 1794297600,
         "second": null
       },
       "venue": {
@@ -18,8 +18,78 @@
       "status": {
         "long": "First Half",
         "short": "1H",
-        "elapsed": 37,
+        "elapsed": 8,
         "extra": null
+      }
+    },
+    "league": {
+      "id": 764,
+      "name": "Premier League",
+      "country": "Mongolia",
+      "logo": "https://media.api-sports.io/football/leagues/764.png",
+      "flag": "https://media.api-sports.io/flags/mn.svg",
+      "season": 2027,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16185,
+        "name": "Deren",
+        "logo": "https://media.api-sports.io/football/teams/16185.png",
+        "winner": null
+      },
+      "away": {
+        "id": 16854,
+        "name": "Ulaanbaatar",
+        "logo": "https://media.api-sports.io/football/teams/16854.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1646986,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T08:00:00+00:00",
+      "timestamp": 1793260800,
+      "periods": {
+        "first": 1793260800,
+        "second": 1793264400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
       }
     },
     "league": {
@@ -37,17 +107,17 @@
         "id": 16854,
         "name": "Ulaanbaatar",
         "logo": "https://media.api-sports.io/football/teams/16854.png",
-        "winner": null
+        "winner": true
       },
       "away": {
         "id": 16185,
         "name": "Deren",
         "logo": "https://media.api-sports.io/football/teams/16185.png",
-        "winner": null
+        "winner": false
       }
     },
     "goals": {
-      "home": 0,
+      "home": 1,
       "away": 0
     },
     "score": {
@@ -56,8 +126,8 @@
         "away": 0
       },
       "fulltime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "extratime": {
         "home": null,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1542408,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-05-23T10:00:00+00:00",
-      "timestamp": 1779530400,
-      "periods": {
-        "first": 1779530400,
-        "second": 1779534000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 764,
-      "name": "Premier League",
-      "country": "Mongolia",
-      "logo": "https://media.api-sports.io/football/leagues/764.png",
-      "flag": "https://media.api-sports.io/flags/mn.svg",
-      "season": 2026,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16854,
-        "name": "Ulaanbaatar",
-        "logo": "https://media.api-sports.io/football/teams/16854.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16185,
-        "name": "Deren",
-        "logo": "https://media.api-sports.io/football/teams/16185.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -125,7 +125,13 @@ def get_sdi_record(team_name, sdi_index):
         
     for k in generate_team_keys(team_name):
         if k in sdi_index:
-            return sdi_index[k]
+            rec = sdi_index[k]
+            # Guard against single-word key matching a multi-word foreign team (e.g. "brescia" -> "Germani Brescia")
+            rec_words = [w for w in normalize_name(rec.get("team", "")).split() 
+                         if w not in {'bc', 'bk', 'sk', 'fc', 'ac', 'sc', 'club', 'basket', 'basketball', 'w', 'women'}]
+            if len(k.split()) == 1 and len(rec_words) > 1 and k != rec_words[0]:
+                continue
+            return rec
 
     # Try unique bigram (2-word) matching
     norm = normalize_name(team_name)
@@ -135,9 +141,15 @@ def get_sdi_record(team_name, sdi_index):
         if bg in sdi_index:
             return sdi_index[bg]
 
-    # Try unique significant word lookup
-    for w in words:
-        if len(w) >= 5 and w in sdi_index:
-            return sdi_index[w]
+    # Try unique significant word lookup ONLY if input has multiple words
+    # (prevents single-word college/city names like 'Brescia' from grabbing foreign multi-word pro teams like 'Germani Brescia')
+    if len(words) > 1:
+        for w in words:
+            if len(w) >= 5 and w in sdi_index:
+                rec = sdi_index[w]
+                rec_words = [x for x in normalize_name(rec.get("team", "")).split() 
+                             if x not in {'bc', 'bk', 'sk', 'fc', 'ac', 'sc', 'club', 'basket', 'basketball', 'w', 'women'}]
+                if set(words) & set(rec_words):
+                    return rec
 
     return None

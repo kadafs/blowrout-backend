@@ -730,10 +730,12 @@ MASCOT_AND_GENERIC_WORDS = {
     "jaguars", "lakers", "bulls", "falcons", "flyers", "wolves", "mustangs", "patriots",
     "bison", "bisons", "flashes", "peacocks", "monarchs", "jaspers", "pioneers", "broncs",
     "aggies", "mocs", "hoyas", "anteaters", "tarpons", "catamounts", "vaqueros", "paladins",
+    "grizzlies", "bearcats", "danes", "great", "spiders", "red", "sharks",
     # Geographic & Institution Types
     "state", "tech", "college", "university", "north", "south", "east", "west", "central",
+    "southern", "northern", "eastern", "western", "northeastern", "northwestern", "southeastern", "southwestern",
     "city", "saint", "point", "mount", "valley", "green", "fort", "polytechnic", "institute",
-    "united", "stars", "storm", "kings", "royals"
+    "united", "stars", "storm", "kings", "royals", "univ"
 }
 
 def resolve_split_season_games(team_stats, stats_dict):
@@ -750,21 +752,30 @@ def resolve_split_season_games(team_stats, stats_dict):
     import re, difflib
     t_name = team_stats.get("team_name", "")
     clean_t = re.sub(r'[^a-zA-Z0-9\s]', ' ', t_name).lower()
-    t_tokens = set(re.findall(r'[a-zA-Z]{4,}', clean_t)) - MASCOT_AND_GENERIC_WORDS
-    if not t_tokens:
+    core_t = " ".join([w for w in clean_t.split() if w not in MASCOT_AND_GENERIC_WORDS])
+    if not core_t:
         return team_stats
         
     for k, v in stats_dict.items():
         if v.get("current_season_games", 0) > 0:
             clean_k = re.sub(r'[^a-zA-Z0-9\s]', ' ', k).lower()
-            k_tokens = set(re.findall(r'[a-zA-Z]{4,}', clean_k)) - MASCOT_AND_GENERIC_WORDS
-            if t_tokens & k_tokens:
-                # Require significant substring overlap or high fuzzy ratio so distinct clubs sharing a word don't collide
-                if (clean_t.strip() in clean_k.strip() or clean_k.strip() in clean_t.strip() or 
-                    difflib.SequenceMatcher(None, clean_t.strip(), clean_k.strip()).ratio() >= 0.70):
-                    team_stats = dict(team_stats)
-                    team_stats["current_season_games"] = v["current_season_games"]
-                    break
+            core_k = " ".join([w for w in clean_k.split() if w not in MASCOT_AND_GENERIC_WORDS])
+            if not core_k:
+                continue
+            
+            # Exact match of core institution name
+            if core_t == core_k:
+                team_stats = dict(team_stats)
+                team_stats["current_season_games"] = v["current_season_games"]
+                break
+                
+            # Or high similarity between core institution names (>= 0.85)
+            ratio = difflib.SequenceMatcher(None, core_t, core_k).ratio()
+            if (core_t in core_k or core_k in core_t) and ratio >= 0.85:
+                team_stats = dict(team_stats)
+                team_stats["current_season_games"] = v["current_season_games"]
+                break
+                
     return team_stats
 
 def find_team(name, stats_dict):

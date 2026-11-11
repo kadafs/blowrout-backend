@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1537365,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-31T14:00:00+00:00",
+      "timestamp": 1774965600,
+      "periods": {
+        "first": 1774965600,
+        "second": 1774969200
+      },
+      "venue": {
+        "id": null,
+        "name": "Somholo National Stadium",
+        "city": "Lobamba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 36,
+      "name": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/36.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Preliminary Round",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2995,
+        "name": "Eswatini",
+        "logo": "https://media.api-sports.io/football/teams/2995.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1498,
+        "name": "Eritrea",
+        "logo": "https://media.api-sports.io/football/teams/1498.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1537375,
       "referee": null,
       "timezone": "UTC",
@@ -29,8 +99,8 @@
       "logo": "https://media.api-sports.io/football/leagues/36.png",
       "flag": null,
       "season": 2027,
-      "round": "Qualification - Preliminary",
-      "standings": false
+      "round": "Preliminary Round",
+      "standings": true
     },
     "teams": {
       "home": {
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1126073,
-      "referee": null,
+      "referee": "D. Mimisa",
       "timezone": "UTC",
       "date": "2025-10-08T13:00:00+00:00",
       "timestamp": 1759928400,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1126046,
-      "referee": "Adalbert Diouf",
+      "referee": "A. Diouf",
       "timezone": "UTC",
       "date": "2025-09-08T19:00:00+00:00",
       "timestamp": 1757358000,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1126019,
-      "referee": "Dahane Beida",
-      "timezone": "UTC",
-      "date": "2025-09-04T19:00:00+00:00",
-      "timestamp": 1757012400,
-      "periods": {
-        "first": 1757012400,
-        "second": 1757016000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade Ahmadou Ahidjo",
-        "city": "Yaounde"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 29,
-      "name": "World Cup - Qualification Africa",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/29.png",
-      "flag": null,
-      "season": 2023,
-      "round": "Group Stage - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1530,
-        "name": "Cameroon",
-        "logo": "https://media.api-sports.io/football/teams/1530.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2995,
-        "name": "Eswatini",
-        "logo": "https://media.api-sports.io/football/teams/2995.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 0
       },
       "extratime": {

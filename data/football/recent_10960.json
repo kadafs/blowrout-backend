@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1649006,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T12:00:00+00:00",
+      "timestamp": 1794312000,
+      "periods": {
+        "first": 1794312000,
+        "second": 1794315600
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 10,
+      "name": "Friendlies",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/10.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Friendly International",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10964,
+        "name": "Vietnam U23",
+        "logo": "https://media.api-sports.io/football/teams/10964.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10960,
+        "name": "Thailand U23",
+        "logo": "https://media.api-sports.io/football/teams/10960.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641726,
       "referee": "Hiroki Kasahara",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1546503,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-09T10:00:00+00:00",
-      "timestamp": 1780999200,
-      "periods": {
-        "first": 1780999200,
-        "second": 1781002800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10960,
-        "name": "Thailand U23",
-        "logo": "https://media.api-sports.io/football/teams/10960.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10184,
-        "name": "UAE U23",
-        "logo": "https://media.api-sports.io/football/teams/10184.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

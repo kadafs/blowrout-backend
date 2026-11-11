@@ -229,6 +229,14 @@ def calculate_iterative_srs(games):
             data["srs"] = data["raw_margin"] + (sos_sum / data["weight_sum"])
             max_delta = max(max_delta, abs(data["srs"] - old_srs))
         if max_delta < 0.001: break
+
+    # Store explicit Strength of Schedule (SOS) for each team
+    for t, data in teams.items():
+        if data["weight_sum"] > 0:
+            sos_sum = sum(teams[opp_name]["srs"] * opp_weight for opp_name, opp_weight in data["opponents"])
+            data["sos"] = sos_sum / data["weight_sum"]
+        else:
+            data["sos"] = 0.0
             
     return teams
 
@@ -435,6 +443,17 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
 
         net_margin = round(td["adj_off"] - td["adj_def"], 2)
 
+        # Strength of Schedule (SOS) calculation
+        opp_w_sum = sum(w for opp, _, _, w in td["schedule"] if opp in teams)
+        if opp_w_sum > 0:
+            sos_opp_off = sum(teams[opp]["adj_off"] * w for opp, _, _, w in td["schedule"] if opp in teams) / opp_w_sum
+            sos_opp_def = sum(teams[opp]["adj_def"] * w for opp, _, _, w in td["schedule"] if opp in teams) / opp_w_sum
+            sos_net = round(sos_opp_off - sos_opp_def, 2)
+        else:
+            sos_opp_off = eff_pivot
+            sos_opp_def = eff_pivot
+            sos_net = 0.0
+
         output_stats.append({
             "team_name":   team_name,
             "team_id":     0,
@@ -447,6 +466,10 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             "win_pct":     round(td["wins"] / g, 3) if g > 0 else 0.0,
             "srs_rating":  net_margin,
             "source":      "ADVANCED",
+            # Strength of Schedule metrics
+            "sos":         sos_net,
+            "sos_opp_off": round(sos_opp_off, 1),
+            "sos_opp_def": round(sos_opp_def, 1),
             # Expose efficiency metrics for display / audit
             "ts_pct":      ts_pct,
             "tov_rate":    tov_rate,
@@ -948,7 +971,8 @@ def process_leagues(target_league_id=None):
                 "current_season_games": _resolve_season_games(team_name),
                 "wins": data["wins"],
                 "win_pct": win_pct,
-                "srs_rating": round(data["srs"], 2)
+                "srs_rating": round(data["srs"], 2),
+                "sos": round(data.get("sos", 0.0), 2)
             }
             
             if advanced_eligible:

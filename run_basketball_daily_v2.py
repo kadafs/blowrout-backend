@@ -1111,11 +1111,52 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     h_off = sH.get("adj_off", lg_avg_eff)
     h_def = sH.get("adj_def", lg_avg_eff)
 
+    # S.O.S. (Strength of Schedule) Residual Modifier (Proposal B)
+    # Corrects for early/mid-season schedule bias when a team has played fewer than 16 games.
+    # Teams facing tough opposition get a corrective credit, while teams padding stats get normalized.
+    a_gp = sA.get("current_season_games") or sA.get("games_played", 0)
+    h_gp = sH.get("current_season_games") or sH.get("games_played", 0)
+
+    sos_def_a = sA.get("sos_opp_def")
+    sos_def_h = sH.get("sos_opp_def")
+    sos_off_a = sA.get("sos_opp_off")
+    sos_off_h = sH.get("sos_opp_off")
+
+    a_sos_off_adj = 0.0
+    h_sos_off_adj = 0.0
+    a_sos_def_adj = 0.0
+    h_sos_def_adj = 0.0
+
+    if a_gp < 16:
+        damp_a = max(0.0, (16 - a_gp) / 16.0) * 0.25
+        if sos_def_a is not None:
+            a_sos_off_adj = max(-2.5, min(2.5, (lg_avg_eff - sos_def_a) * damp_a))
+        if sos_off_a is not None:
+            a_sos_def_adj = max(-2.5, min(2.5, (sos_off_a - lg_avg_eff) * damp_a))
+        elif sA.get("sos") is not None:
+            a_sos_off_adj = max(-2.0, min(2.0, sA["sos"] * damp_a * 0.4))
+            a_sos_def_adj = -a_sos_off_adj
+
+    if h_gp < 16:
+        damp_h = max(0.0, (16 - h_gp) / 16.0) * 0.25
+        if sos_def_h is not None:
+            h_sos_off_adj = max(-2.5, min(2.5, (lg_avg_eff - sos_def_h) * damp_h))
+        if sos_off_h is not None:
+            h_sos_def_adj = max(-2.5, min(2.5, (sos_off_h - lg_avg_eff) * damp_h))
+        elif sH.get("sos") is not None:
+            h_sos_off_adj = max(-2.0, min(2.0, sH["sos"] * damp_h * 0.4))
+            h_sos_def_adj = -h_sos_off_adj
+
+    eff_a_off = a_off + a_sos_off_adj
+    eff_a_def = a_def - a_sos_def_adj
+    eff_h_off = h_off + h_sos_off_adj
+    eff_h_def = h_def - h_sos_def_adj
+
     # v4.2 Fix: Additive Model (eliminates exponential overshoot)
-    a_off_delta = a_off - lg_avg_eff
-    h_def_delta = h_def - lg_avg_eff
-    h_off_delta = h_off - lg_avg_eff
-    a_def_delta = a_def - lg_avg_eff
+    a_off_delta = eff_a_off - lg_avg_eff
+    h_def_delta = eff_h_def - lg_avg_eff
+    h_off_delta = eff_h_off - lg_avg_eff
+    a_def_delta = eff_a_def - lg_avg_eff
 
     exp_a_eff = lg_avg_eff + a_off_delta + h_def_delta
     exp_h_eff = lg_avg_eff + h_off_delta + a_def_delta
@@ -1565,6 +1606,7 @@ def main():
                             "win_pct": sH.get("win_pct", 0) if sH else 0,
                             "scored": sH.get("adj_off", 0) if sH else 0,
                             "conceded": sH.get("adj_def", 0) if sH else 0,
+                            "sos": sH.get("sos", 0.0) if sH else 0.0,
                             "rank": sH.get("rank") if sH else None,
                             "prior_blended": bool(sH.get("prior_blended")) if sH else False,
                         },
@@ -1575,6 +1617,7 @@ def main():
                             "win_pct": sA.get("win_pct", 0) if sA else 0,
                             "scored": sA.get("adj_off", 0) if sA else 0,
                             "conceded": sA.get("adj_def", 0) if sA else 0,
+                            "sos": sA.get("sos", 0.0) if sA else 0.0,
                             "rank": sA.get("rank") if sA else None,
                             "prior_blended": bool(sA.get("prior_blended")) if sA else False,
                         },

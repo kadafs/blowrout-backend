@@ -356,8 +356,20 @@ def main():
         "total_leagues": len(leaderboard),
         "leaderboard": leaderboard
     }
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    # Save to primary V2 destination as well as legacy/mirror paths
+    # Ensures both v1/v2 consumers and frontend dashboards always have updated leaderboards
+    league_paths = [
+        OUTPUT_FILE,
+        os.path.join(DATA_DIR, "league_leaderboard.json"),
+        "league_leaderboard_v2.json",
+        "league_leaderboard.json"
+    ]
+    for lp in league_paths:
+        try:
+            with open(lp, "w", encoding="utf-8") as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+        except Exception:
+            pass
         
     # Build Team Leaderboard exactly the same way
     team_leaderboard = []
@@ -399,12 +411,23 @@ def main():
         "total_teams": len(team_leaderboard),
         "leaderboard": team_leaderboard
     }
-    with open(TEAM_OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(team_output_data, f, indent=2, ensure_ascii=False)
+    
+    team_paths = [
+        TEAM_OUTPUT_FILE,
+        os.path.join(DATA_DIR, "basketball_leaderboard.json"),
+        "basketball_leaderboard_v2.json",
+        "basketball_leaderboard.json"
+    ]
+    for tp in team_paths:
+        try:
+            with open(tp, "w", encoding="utf-8") as f:
+                json.dump(team_output_data, f, indent=2, ensure_ascii=False)
+        except Exception:
+            pass
         
     print(f"Successfully aggregated {len(files)} files.")
-    print(f"Tracked {len(leaderboard)} leagues into league_leaderboard.json.")
-    print(f"Tracked {len(team_leaderboard)} teams into basketball_leaderboard.json.")
+    print(f"Tracked {len(leaderboard)} leagues into league_leaderboard.json and league_leaderboard_v2.json.")
+    print(f"Tracked {len(team_leaderboard)} teams into basketball_leaderboard.json and basketball_leaderboard_v2.json.")
 
 if __name__ == "__main__":
     main()

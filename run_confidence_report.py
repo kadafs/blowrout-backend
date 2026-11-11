@@ -54,13 +54,17 @@ DEFAULT_BIAS = 0.0    # no direction assumed
 def load_leaderboard() -> dict:
     """
     Load and index the leaderboard by normalised team name + league_id.
+    Prefers basketball_leaderboard_v2.json if available, fallback to basketball_leaderboard.json.
     Returns  { (name_lower, league_id): entry }
     """
-    if not os.path.exists(LEADERBOARD_PATH):
-        print(f"  [WARN] Leaderboard not found: {LEADERBOARD_PATH}")
+    path = "data/basketball/basketball_leaderboard_v2.json"
+    if not os.path.exists(path):
+        path = LEADERBOARD_PATH
+    if not os.path.exists(path):
+        print(f"  [WARN] Leaderboard not found: {path}")
         return {}
 
-    data = json.load(open(LEADERBOARD_PATH, encoding="utf-8"))
+    data = json.load(open(path, encoding="utf-8"))
     entries = data.get("leaderboard", [])
 
     index = {}

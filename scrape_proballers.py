@@ -216,8 +216,10 @@ def extract_league_schedule(url, context=None, session=None):
     if session:
         try:
             resp = session.get(url, timeout=15)
-            if "Just a moment..." in resp.text:
-                print("  [!] Cloudflare verification challenge encountered. Please refresh cf_clearance in data/proballers_session.json.")
+            if resp.status_code == 403 or "Just a moment..." in resp.text:
+                print("  [!] Cloudflare verification challenge encountered (HTTP 403 / Turnstile).")
+                print("  [!] Stored session in data/proballers_session.json has expired.")
+                print("  [!] Please run: python scrape_proballers.py --refresh to solve the challenge in a browser window.")
                 return []
             soup = BeautifulSoup(resp.text, 'html.parser')
             for a in soup.find_all('a', href=True):
@@ -255,8 +257,8 @@ def scrape_match(url, context=None, session=None):
     if session:
         try:
             resp = session.get(url, timeout=15)
-            if "Just a moment..." in resp.text:
-                print("      [!] Cloudflare challenge encountered during match fetch.")
+            if resp.status_code == 403 or "Just a moment..." in resp.text:
+                print("      [!] Cloudflare challenge encountered during match fetch (HTTP 403).")
                 return {}
             return parse_boxscore(resp.text) or {}
         except Exception as e:
@@ -284,7 +286,21 @@ import argparse
 import random
 
 def run_proballers_scraper(target_url, max_games=None, cutoff_date=None, session=None):
-    domain_slug = target_url.strip('/').split('/')[-2]
+    import re
+    # Normalize URL: if pointing to root league page, append /schedule
+    target_clean = target_url.strip().rstrip('/')
+    if not target_clean.endswith('/schedule'):
+        target_clean = f"{target_clean}/schedule"
+    target_url = target_clean
+
+    # Robust slug extraction: /league/221/g-league/schedule -> g-league
+    m = re.search(r'/league/\d+/([^/]+)', target_url)
+    if m:
+        domain_slug = m.group(1)
+    else:
+        parts = target_url.strip('/').split('/')
+        domain_slug = parts[-2] if parts[-1] == "schedule" and len(parts) >= 2 else parts[-1]
+
     out_file = f"data/historical/proballers_{domain_slug}.json"
     
     existing_data = []

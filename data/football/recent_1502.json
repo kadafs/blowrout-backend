@@ -1,6 +1,216 @@
 [
   {
     "fixture": {
+      "id": 1640514,
+      "referee": "Jose Cabero Rebolledo, Chile",
+      "timezone": "UTC",
+      "date": "2026-10-04T00:00:00+00:00",
+      "timestamp": 1791072000,
+      "periods": {
+        "first": 1791072000,
+        "second": 1791075600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio M\u00e2s Monumental",
+        "city": "Buenos Aires"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 10,
+      "name": "Friendlies",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/10.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Friendly International",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 26,
+        "name": "Argentina",
+        "logo": "https://media.api-sports.io/football/teams/26.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1502,
+        "name": "Burkina Faso",
+        "logo": "https://media.api-sports.io/football/teams/1502.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 5,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1545843,
+      "referee": "A. A. Lopes Grabe",
+      "timezone": "UTC",
+      "date": "2026-09-28T16:00:00+00:00",
+      "timestamp": 1790611200,
+      "periods": {
+        "first": 1790611200,
+        "second": 1790614800
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Larbi Zaouli",
+        "city": "Casablanca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 36,
+      "name": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/36.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1527,
+        "name": "Central African Republic",
+        "logo": "https://media.api-sports.io/football/teams/1527.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1502,
+        "name": "Burkina Faso",
+        "logo": "https://media.api-sports.io/football/teams/1502.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1545815,
+      "referee": "O. A. Artan",
+      "timezone": "UTC",
+      "date": "2026-09-25T19:00:00+00:00",
+      "timestamp": 1790362800,
+      "periods": {
+        "first": 1790362800,
+        "second": 1790366400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade du 4 Aout",
+        "city": "Ouagadougou"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 36,
+      "name": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/36.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1502,
+        "name": "Burkina Faso",
+        "logo": "https://media.api-sports.io/football/teams/1502.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1516,
+        "name": "Benin",
+        "logo": "https://media.api-sports.io/football/teams/1516.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1544364,
       "referee": null,
       "timezone": "UTC",
@@ -107,216 +317,6 @@
         "id": 4,
         "name": "Russia",
         "logo": "https://media.api-sports.io/football/teams/4.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1502,
-        "name": "Burkina Faso",
-        "logo": "https://media.api-sports.io/football/teams/1502.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1537179,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-03-31T19:00:00+00:00",
-      "timestamp": 1774983600,
-      "periods": {
-        "first": 1774983600,
-        "second": 1774987200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade du 4 Aout",
-        "city": "Ouagadougou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1502,
-        "name": "Burkina Faso",
-        "logo": "https://media.api-sports.io/football/teams/1502.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1513,
-        "name": "Guinea-Bissau",
-        "logo": "https://media.api-sports.io/football/teams/1513.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1537196,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-03-28T18:00:00+00:00",
-      "timestamp": 1774720800,
-      "periods": {
-        "first": 1774720800,
-        "second": 1774724400
-      },
-      "venue": {
-        "id": null,
-        "name": "Stade du 4 Aout",
-        "city": "Ouagadougou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1502,
-        "name": "Burkina Faso",
-        "logo": "https://media.api-sports.io/football/teams/1502.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1513,
-        "name": "Guinea-Bissau",
-        "logo": "https://media.api-sports.io/football/teams/1513.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1501841,
-      "referee": "Ali Mahmood Mahmood Ismail, Sudan",
-      "timezone": "UTC",
-      "date": "2026-01-06T19:00:00+00:00",
-      "timestamp": 1767726000,
-      "periods": {
-        "first": 1767726000,
-        "second": 1767729600
-      },
-      "venue": {
-        "id": null,
-        "name": "Grand Stade de Marrakech",
-        "city": "Marrakech"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 6,
-      "name": "Africa Cup of Nations",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/6.png",
-      "flag": null,
-      "season": 2025,
-      "round": "Round of 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1501,
-        "name": "Ivory Coast",
-        "logo": "https://media.api-sports.io/football/teams/1501.png",
         "winner": true
       },
       "away": {

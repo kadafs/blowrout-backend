@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556894,
+      "referee": "C. Stirling",
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": null,
+        "name": "The City Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6778,
+        "name": "Queen's Park",
+        "logo": "https://media.api-sports.io/football/teams/6778.png",
+        "winner": false
+      },
+      "away": {
+        "id": 901,
+        "name": "Partick",
+        "logo": "https://media.api-sports.io/football/teams/901.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646399,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556876,
-      "referee": "M. MacDermid",
-      "timezone": "UTC",
-      "date": "2026-10-16T18:30:00+00:00",
-      "timestamp": 1792175400,
-      "periods": {
-        "first": 1792175400,
-        "second": 1792179000
-      },
-      "venue": {
-        "id": 1385,
-        "name": "Somerset Park",
-        "city": "Ayr"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1387,
-        "name": "Ayr Utd",
-        "logo": "https://media.api-sports.io/football/teams/1387.png",
-        "winner": false
-      },
-      "away": {
-        "id": 901,
-        "name": "Partick",
-        "logo": "https://media.api-sports.io/football/teams/901.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

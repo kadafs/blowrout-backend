@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552523,
+      "referee": "Henry Gabriel",
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21429,
+        "name": "Stade Gabriel Montpied",
+        "city": "Clermont-Ferrand"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552521,
       "referee": "Eddy Rosier",
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642952,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:00:00+00:00",
-      "timestamp": 1791032400,
-      "periods": {
-        "first": 1791032400,
-        "second": 1791036000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1301,
-        "name": "Rodez",
-        "logo": "https://media.api-sports.io/football/teams/1301.png",
-        "winner": true
-      },
-      "away": {
-        "id": 3342,
-        "name": "Inter Club d'Escaldes",
-        "logo": "https://media.api-sports.io/football/teams/3342.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

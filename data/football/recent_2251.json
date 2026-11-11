@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1554216,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": 1794150000,
+        "second": 1794153600
+      },
+      "venue": {
+        "id": 1429,
+        "name": "Gradski stadion",
+        "city": "Subotica"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 287,
+      "name": "Prva Liga",
+      "country": "Serbia",
+      "logo": "https://media.api-sports.io/football/leagues/287.png",
+      "flag": "https://media.api-sports.io/flags/rs.svg",
+      "season": 2026,
+      "round": "Regular Season - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2251,
+        "name": "FK Spartak Zdrepceva KRV",
+        "logo": "https://media.api-sports.io/football/teams/2251.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2647,
+        "name": "Metalac GM",
+        "logo": "https://media.api-sports.io/football/teams/2647.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1554324,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1554180,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T16:00:00+00:00",
-      "timestamp": 1791129600,
-      "periods": {
-        "first": 1791129600,
-        "second": 1791133200
-      },
-      "venue": {
-        "id": 1429,
-        "name": "Gradski stadion",
-        "city": "Subotica"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 287,
-      "name": "Prva Liga",
-      "country": "Serbia",
-      "logo": "https://media.api-sports.io/football/leagues/287.png",
-      "flag": "https://media.api-sports.io/flags/rs.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2251,
-        "name": "FK Spartak Zdrepceva KRV",
-        "logo": "https://media.api-sports.io/football/teams/2251.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19839,
-        "name": "Naftagas",
-        "logo": "https://media.api-sports.io/football/teams/19839.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 6
       },
       "extratime": {
         "home": null,

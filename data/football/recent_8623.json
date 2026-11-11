@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1578002,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T09:15:00+00:00",
+      "timestamp": 1794129300,
+      "periods": {
+        "first": 1794129300,
+        "second": 1794132900
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Na Belince",
+        "city": "Kunovice - UH"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 349,
+      "name": "3. liga - MSFL",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/349.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "MSFL - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8623,
+        "name": "Slov\u00e1cko II",
+        "logo": "https://media.api-sports.io/football/teams/8623.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7293,
+        "name": "Hav\u00ed\u0159ov",
+        "logo": "https://media.api-sports.io/football/teams/7293.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1577993,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1577959,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:00:00+00:00",
-      "timestamp": 1791028800,
-      "periods": {
-        "first": 1791028800,
-        "second": 1791032400
-      },
-      "venue": {
-        "id": null,
-        "name": "Football pitch Lhota u Vsetina",
-        "city": "Vsetin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 349,
-      "name": "3. liga - MSFL",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/349.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "MSFL - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7377,
-        "name": "Vset\u00edn",
-        "logo": "https://media.api-sports.io/football/teams/7377.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8623,
-        "name": "Slov\u00e1cko II",
-        "logo": "https://media.api-sports.io/football/teams/8623.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

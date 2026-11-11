@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561720,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": 8242,
+        "name": "Stadion Miejski Skolwin",
+        "city": "Szczecin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 109,
+      "name": "II Liga - East",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/109.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12902,
+        "name": "\u015awit Skolwin",
+        "logo": "https://media.api-sports.io/football/teams/12902.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12900,
+        "name": "\u015al\u0105sk Wroc\u0142aw II",
+        "logo": "https://media.api-sports.io/football/teams/12900.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561709,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561677,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 8242,
-        "name": "Stadion Miejski Skolwin",
-        "city": "Szczecin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 109,
-      "name": "II Liga - East",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/109.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12902,
-        "name": "\u015awit Skolwin",
-        "logo": "https://media.api-sports.io/football/teams/12902.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16255,
-        "name": "Sok\u00f3\u0142 Kleczew",
-        "logo": "https://media.api-sports.io/football/teams/16255.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

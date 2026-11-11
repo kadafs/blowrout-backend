@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1618441,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:30:00+00:00",
+      "timestamp": 1794058200,
+      "periods": {
+        "first": 1794058200,
+        "second": 1794061800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 92,
+      "name": "Derde Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/92.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1234,
+        "name": "Dovo",
+        "logo": "https://media.api-sports.io/football/teams/1234.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1274,
+        "name": "Sparta Nijkerk",
+        "logo": "https://media.api-sports.io/football/teams/1274.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1641976,
       "referee": "Y. Kuipers",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 14241,
         "name": "VV Scherpenzeel",
         "logo": "https://media.api-sports.io/football/teams/14241.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1618369,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:45:00+00:00",
-      "timestamp": 1791031500,
-      "periods": {
-        "first": 1791031500,
-        "second": 1791035100
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 92,
-      "name": "Derde Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/92.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3936,
-        "name": "SVZW",
-        "logo": "https://media.api-sports.io/football/teams/3936.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1274,
-        "name": "Sparta Nijkerk",
-        "logo": "https://media.api-sports.io/football/teams/1274.png",
         "winner": true
       }
     },

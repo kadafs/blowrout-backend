@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638328,
+      "referee": "Frida Mia Klarlund Nielsen",
+      "timezone": "UTC",
+      "date": "2026-11-10T20:00:00+00:00",
+      "timestamp": 1794340800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 671,
+        "name": "Parc des Princes",
+        "city": "Paris"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 525,
+      "name": "UEFA Champions League Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/525.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1667,
+        "name": "Paris Saint Germain W",
+        "logo": "https://media.api-sports.io/football/teams/1667.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1860,
+        "name": "Bayern Munich W",
+        "logo": "https://media.api-sports.io/football/teams/1860.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580952,
       "referee": "Ma\u00efka Vanderstichel",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580942,
-      "referee": "Alexandra Collin",
-      "timezone": "UTC",
-      "date": "2026-10-17T19:05:00+00:00",
-      "timestamp": 1792263900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 6398,
-        "name": "Stade Georges Lefevre",
-        "city": "Paris"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 64,
-      "name": "Feminine Division 1",
-      "country": "France",
-      "logo": "https://media.api-sports.io/football/leagues/64.png",
-      "flag": "https://media.api-sports.io/flags/fr.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1667,
-        "name": "Paris Saint Germain W",
-        "logo": "https://media.api-sports.io/football/teams/1667.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1674,
-        "name": "Lyon W",
-        "logo": "https://media.api-sports.io/football/teams/1674.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580283,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 744,
+      "name": "Oberliga - Schleswig-Holstein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/744.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Schleswig-Holstein - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14500,
+        "name": "Kilia Kiel",
+        "logo": "https://media.api-sports.io/football/teams/14500.png",
+        "winner": true
+      },
+      "away": {
+        "id": 26175,
+        "name": "Kaltenkirchen",
+        "logo": "https://media.api-sports.io/football/teams/26175.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580278,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580245,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:00:00+00:00",
-      "timestamp": 1791028800,
-      "periods": {
-        "first": 1791028800,
-        "second": 1791032400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 744,
-      "name": "Oberliga - Schleswig-Holstein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/744.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Schleswig-Holstein - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16068,
-        "name": "Eckernf\u00f6rder SV",
-        "logo": "https://media.api-sports.io/football/teams/16068.png",
-        "winner": false
-      },
-      "away": {
-        "id": 14500,
-        "name": "Kilia Kiel",
-        "logo": "https://media.api-sports.io/football/teams/14500.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 6
       },
       "extratime": {
         "home": null,

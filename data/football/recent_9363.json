@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1587224,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": null,
+        "name": "Bieberer Berg Stadion",
+        "city": "Offenbach am Main"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 86,
+      "name": "Regionalliga - SudWest",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/86.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Sudwest - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1628,
+        "name": "Kickers Offenbach",
+        "logo": "https://media.api-sports.io/football/teams/1628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9363,
+        "name": "Freiburg II",
+        "logo": "https://media.api-sports.io/football/teams/9363.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1587213,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1587183,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-11T12:00:00+00:00",
-      "timestamp": 1791720000,
-      "periods": {
-        "first": 1791720000,
-        "second": 1791723600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 86,
-      "name": "Regionalliga - SudWest",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/86.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Sudwest - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9363,
-        "name": "Freiburg II",
-        "logo": "https://media.api-sports.io/football/teams/9363.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12846,
-        "name": "SGV Freiberg",
-        "logo": "https://media.api-sports.io/football/teams/12846.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

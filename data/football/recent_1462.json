@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549855,
+      "referee": "Wilmar Hernando Montano Guevara, Colombia",
+      "timezone": "UTC",
+      "date": "2026-11-07T23:10:00+00:00",
+      "timestamp": 1794093000,
+      "periods": {
+        "first": 1794093000,
+        "second": 1794096600
+      },
+      "venue": {
+        "id": 380,
+        "name": "Estadio Atanasio Girardot",
+        "city": "Medellin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 239,
+      "name": "Primera A",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/239.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1137,
+        "name": "Atletico Nacional",
+        "logo": "https://media.api-sports.io/football/teams/1137.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1462,
+        "name": "Deportivo Pereira",
+        "logo": "https://media.api-sports.io/football/teams/1462.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549852,
       "referee": "Carlos Betancur, Colombia",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549721,
-      "referee": "Carlos Andr\u00e9s M\u00e1rquez Ortega, Colombia",
-      "timezone": "UTC",
-      "date": "2026-10-14T21:30:00+00:00",
-      "timestamp": 1792013400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Romelio Martinez",
-        "city": "Barranquilla"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 239,
-      "name": "Primera A",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/239.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Clausura - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1135,
-        "name": "Junior",
-        "logo": "https://media.api-sports.io/football/teams/1135.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1462,
-        "name": "Deportivo Pereira",
-        "logo": "https://media.api-sports.io/football/teams/1462.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

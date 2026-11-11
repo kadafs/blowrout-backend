@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1596505,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:45:00+00:00",
+      "timestamp": 1794339900,
+      "periods": {
+        "first": 1794339900,
+        "second": 1794343500
+      },
+      "venue": {
+        "id": 21340,
+        "name": "Gorsey Lane",
+        "city": "Warrington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 59,
+      "name": "Non League Premier - Northern",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/59.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8918,
+        "name": "Rylands",
+        "logo": "https://media.api-sports.io/football/teams/8918.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1824,
+        "name": "Guiseley AFC",
+        "logo": "https://media.api-sports.io/football/teams/1824.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646803,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-11-07T15:00:00+00:00",
       "timestamp": 1794063600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1794063600,
+        "second": 1794067200
       },
       "venue": {
         "id": 2691,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1596490,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-20T18:45:00+00:00",
-      "timestamp": 1792521900,
-      "periods": {
-        "first": 1792521900,
-        "second": 1792525500
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 59,
-      "name": "Non League Premier - Northern",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/59.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1824,
-        "name": "Guiseley AFC",
-        "logo": "https://media.api-sports.io/football/teams/1824.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7631,
-        "name": "Cleethorpes Town",
-        "logo": "https://media.api-sports.io/football/teams/7631.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

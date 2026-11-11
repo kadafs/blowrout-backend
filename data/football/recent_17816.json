@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608353,
+      "referee": "G. Castellano",
+      "timezone": "UTC",
+      "date": "2026-11-08T16:30:00+00:00",
+      "timestamp": 1794155400,
+      "periods": {
+        "first": 1794155400,
+        "second": 1794159000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Comunale Gino Corioni",
+        "city": "Ospitaletto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17816,
+        "name": "Desenzano Calvina",
+        "logo": "https://media.api-sports.io/football/teams/17816.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24696,
+        "name": "Ospitaletto",
+        "logo": "https://media.api-sports.io/football/teams/24696.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608349,
       "referee": "D. Kovacevic",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608313,
-      "referee": "M. Melloni",
-      "timezone": "UTC",
-      "date": "2026-10-10T15:30:00+00:00",
-      "timestamp": 1791646200,
-      "periods": {
-        "first": 1791646200,
-        "second": 1791649800
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Comunale Gino Corioni",
-        "city": "Ospitaletto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17816,
-        "name": "Desenzano Calvina",
-        "logo": "https://media.api-sports.io/football/teams/17816.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17820,
-        "name": "Dolomiti Bellunesi",
-        "logo": "https://media.api-sports.io/football/teams/17820.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

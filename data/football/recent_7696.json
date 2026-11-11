@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1597000,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:45:00+00:00",
+      "timestamp": 1794339900,
+      "periods": {
+        "first": 1794339900,
+        "second": 1794343500
+      },
+      "venue": {
+        "id": 5608,
+        "name": "Knights Lane",
+        "city": "Tiddington"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 931,
+      "name": "Non League Premier - Southern Central",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/931.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7750,
+        "name": "Stratford Town",
+        "logo": "https://media.api-sports.io/football/teams/7750.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7696,
+        "name": "Banbury United",
+        "logo": "https://media.api-sports.io/football/teams/7696.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1596981,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 7696,
         "name": "Banbury United",
         "logo": "https://media.api-sports.io/football/teams/7696.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1596949,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-20T18:45:00+00:00",
-      "timestamp": 1792521900,
-      "periods": {
-        "first": 1792521900,
-        "second": 1792525500
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 931,
-      "name": "Non League Premier - Southern Central",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/931.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7696,
-        "name": "Banbury United",
-        "logo": "https://media.api-sports.io/football/teams/7696.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8846,
-        "name": "Leighton Town",
-        "logo": "https://media.api-sports.io/football/teams/8846.png",
         "winner": false
       }
     },

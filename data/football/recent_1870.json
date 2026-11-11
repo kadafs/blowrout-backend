@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593164,
+      "referee": "Karoline Wacker",
+      "timezone": "UTC",
+      "date": "2026-11-06T17:30:00+00:00",
+      "timestamp": 1793986200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "FC Bayern Campus",
+        "city": "Munich"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1860,
+        "name": "Bayern Munich W",
+        "logo": "https://media.api-sports.io/football/teams/1860.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1870,
+        "name": "Werder Bremen W",
+        "logo": "https://media.api-sports.io/football/teams/1870.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593155,
       "referee": "Davina Lutz",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593141,
-      "referee": "L. Wolf",
-      "timezone": "UTC",
-      "date": "2026-09-21T16:00:00+00:00",
-      "timestamp": 1790006400,
-      "periods": {
-        "first": 1790006400,
-        "second": 1790010000
-      },
-      "venue": {
-        "id": 20997,
-        "name": "Weserstadion Platz 11",
-        "city": "Bremen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1870,
-        "name": "Werder Bremen W",
-        "logo": "https://media.api-sports.io/football/teams/1870.png",
-        "winner": null
-      },
-      "away": {
-        "id": 24130,
-        "name": "Stuttgart W",
-        "logo": "https://media.api-sports.io/football/teams/24130.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646619,
+      "referee": "A. Kanungo",
+      "timezone": "UTC",
+      "date": "2026-11-06T10:30:00+00:00",
+      "timestamp": 1793961000,
+      "periods": {
+        "first": 1793961000,
+        "second": 1793964600
+      },
+      "venue": {
+        "id": null,
+        "name": "Bangalore Football Stadium",
+        "city": "Bengaluru"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 324,
+      "name": "I-League",
+      "country": "India",
+      "logo": "https://media.api-sports.io/football/leagues/324.png",
+      "flag": "https://media.api-sports.io/flags/in.svg",
+      "season": 2026,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15748,
+        "name": "Bengaluru United",
+        "logo": "https://media.api-sports.io/football/teams/15748.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15585,
+        "name": "Mohammedan",
+        "logo": "https://media.api-sports.io/football/teams/15585.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646617,
       "referee": "R. Gupta",
       "timezone": "UTC",
@@ -11,8 +81,8 @@
         "second": 1793541600
       },
       "venue": {
-        "id": null,
-        "name": null,
+        "id": 20358,
+        "name": "Pandit Jawaharlal Nehru Stadium",
         "city": "Margao"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1538150,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-04-27T10:30:00+00:00",
-      "timestamp": 1777285800,
-      "periods": {
-        "first": 1777285800,
-        "second": 1777289400
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 717,
-      "name": "I-League - 2nd Division",
-      "country": "India",
-      "logo": "https://media.api-sports.io/football/leagues/717.png",
-      "flag": "https://media.api-sports.io/flags/in.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15586,
-        "name": "Sudeva",
-        "logo": "https://media.api-sports.io/football/teams/15586.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15748,
-        "name": "Bengaluru United",
-        "logo": "https://media.api-sports.io/football/teams/15748.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

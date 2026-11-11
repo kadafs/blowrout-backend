@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1575798,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-19T12:00:00+00:00",
+      "timestamp": 1789819200,
+      "periods": {
+        "first": 1789819200,
+        "second": 1789822800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 122,
+      "name": "2. Division",
+      "country": "Denmark",
+      "logo": "https://media.api-sports.io/football/leagues/122.png",
+      "flag": "https://media.api-sports.io/flags/dk.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6042,
+        "name": "Middelfart",
+        "logo": "https://media.api-sports.io/football/teams/6042.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6064,
+        "name": "VSK \u00c5rhus",
+        "logo": "https://media.api-sports.io/football/teams/6064.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1591879,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 883744,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2023-03-18T12:30:00+00:00",
-      "timestamp": 1679142600,
-      "periods": {
-        "first": 1679142600,
-        "second": 1679146200
-      },
-      "venue": {
-        "id": 4511,
-        "name": "Vejlby Stadion",
-        "city": "Risskov"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 862,
-      "name": "3. Division",
-      "country": "Denmark",
-      "logo": "https://media.api-sports.io/football/leagues/862.png",
-      "flag": "https://media.api-sports.io/flags/dk.svg",
-      "season": 2022,
-      "round": "Regular Season - 18",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6064,
-        "name": "VSK \u00c5rhus",
-        "logo": "https://media.api-sports.io/football/teams/6064.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6042,
-        "name": "Middelfart",
-        "logo": "https://media.api-sports.io/football/teams/6042.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

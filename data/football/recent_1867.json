@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593166,
+      "referee": "Anna-Lena Heidenreich",
+      "timezone": "UTC",
+      "date": "2026-11-07T11:00:00+00:00",
+      "timestamp": 1794049200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12274,
+        "name": "Schwarzwald-Stadion",
+        "city": "Freiburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 82,
+      "name": "Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/82.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1867,
+        "name": "SC Freiburg W",
+        "logo": "https://media.api-sports.io/football/teams/1867.png",
+        "winner": false
+      },
+      "away": {
+        "id": 20487,
+        "name": "N\u00fcrnberg W",
+        "logo": "https://media.api-sports.io/football/teams/20487.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642334,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1629367,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:00:00+00:00",
-      "timestamp": 1790424000,
-      "periods": {
-        "first": 1790424000,
-        "second": 1790427600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 947,
-      "name": "DFB Pokal - Women",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/947.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Round of 32",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 20495,
-        "name": "Andernach W",
-        "logo": "https://media.api-sports.io/football/teams/20495.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1867,
-        "name": "SC Freiburg W",
-        "logo": "https://media.api-sports.io/football/teams/1867.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

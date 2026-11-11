@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579297,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": null,
+        "name": "Fotbalovy stadion Na Slajsi",
+        "city": "Lanzhot"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 354,
+      "name": "4. liga - Divizie E",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/354.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group E - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7351,
+        "name": "Sokol Lan\u017ehot",
+        "logo": "https://media.api-sports.io/football/teams/7351.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7322,
+        "name": "Nov\u00e9 Sady",
+        "logo": "https://media.api-sports.io/football/teams/7322.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579287,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579253,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T13:00:00+00:00",
-      "timestamp": 1791118800,
-      "periods": {
-        "first": 1791118800,
-        "second": 1791122400
-      },
-      "venue": {
-        "id": null,
-        "name": "Fotbalovy stadion Na Slajsi",
-        "city": "Lanzhot"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 354,
-      "name": "4. liga - Divizie E",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/354.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group E - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7351,
-        "name": "Sokol Lan\u017ehot",
-        "logo": "https://media.api-sports.io/football/teams/7351.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16876,
-        "name": "Hole\u0161ov",
-        "logo": "https://media.api-sports.io/football/teams/16876.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

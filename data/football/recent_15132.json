@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562691,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T09:15:00+00:00",
+      "timestamp": 1794042900,
+      "periods": {
+        "first": 1794042900,
+        "second": 1794046500
+      },
+      "venue": {
+        "id": null,
+        "name": "Football Pitch Benesov",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 14",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7273,
+        "name": "Bene\u0161ov",
+        "logo": "https://media.api-sports.io/football/teams/7273.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15132,
+        "name": "Dukla Praha II",
+        "logo": "https://media.api-sports.io/football/teams/15132.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562686,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562656,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T08:30:00+00:00",
-      "timestamp": 1791102600,
-      "periods": {
-        "first": 1791102600,
-        "second": 1791106200
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadion Lucni",
-        "city": "Plzen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 8620,
-        "name": "Viktoria Plze\u0148 II",
-        "logo": "https://media.api-sports.io/football/teams/8620.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15132,
-        "name": "Dukla Praha II",
-        "logo": "https://media.api-sports.io/football/teams/15132.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

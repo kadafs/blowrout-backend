@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1493239,
+      "referee": "M. Macheroni",
+      "timezone": "UTC",
+      "date": "2026-11-07T18:00:00+00:00",
+      "timestamp": 1794074400,
+      "periods": {
+        "first": 1794074400,
+        "second": 1794078000
+      },
+      "venue": {
+        "id": 110,
+        "name": "Estadio Mario Alberto Kempes",
+        "city": "Cordoba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 128,
+      "name": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/128.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Clausura - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 456,
+        "name": "Talleres Cordoba",
+        "logo": "https://media.api-sports.io/football/teams/456.png",
+        "winner": null
+      },
+      "away": {
+        "id": 450,
+        "name": "Estudiantes L.P.",
+        "logo": "https://media.api-sports.io/football/teams/450.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493217,
-      "referee": "Hernan Mastrangelo",
+      "referee": "H. Mastrangelo",
       "timezone": "UTC",
       "date": "2026-11-01T00:30:00+00:00",
       "timestamp": 1793493000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793493000,
+        "second": 1793496600
       },
       "venue": {
         "id": null,
@@ -72,18 +142,18 @@
   {
     "fixture": {
       "id": 1493211,
-      "referee": "Pablo Dovalo",
+      "referee": "P. Dovalo",
       "timezone": "UTC",
       "date": "2026-10-26T22:00:00+00:00",
       "timestamp": 1793052000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793052000,
+        "second": 1793055600
       },
       "venue": {
         "id": 1933,
         "name": "Estadio 15 de Abril",
-        "city": "Santa Fe de la Vera Cruz"
+        "city": "Santa Fe"
       },
       "status": {
         "long": "Match Finished",
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1493188,
-      "referee": "Sebastian Nicolas Martinez, Argentina",
+      "referee": "S. Martinez",
       "timezone": "UTC",
       "date": "2026-10-18T21:00:00+00:00",
       "timestamp": 1792357200,
@@ -152,7 +222,7 @@
       },
       "venue": {
         "id": null,
-        "name": "Estadio Ciudad de La Plata",
+        "name": "Estadio Jorge Luis Hirschi",
         "city": "La Plata"
       },
       "status": {
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493169,
-      "referee": "Carlos Andres Gariano, Argentina",
-      "timezone": "UTC",
-      "date": "2026-10-10T20:00:00+00:00",
-      "timestamp": 1791662400,
-      "periods": {
-        "first": 1791662400,
-        "second": 1791666000
-      },
-      "venue": {
-        "id": 2997,
-        "name": "Estadio Unico Madre de Ciudades",
-        "city": "Santiago del Estero"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 128,
-      "name": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/128.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Clausura - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1065,
-        "name": "Central Cordoba de Santiago",
-        "logo": "https://media.api-sports.io/football/teams/1065.png",
-        "winner": null
-      },
-      "away": {
-        "id": 450,
-        "name": "Estudiantes L.P.",
-        "logo": "https://media.api-sports.io/football/teams/450.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

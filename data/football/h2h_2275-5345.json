@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564873,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-25T18:45:00+00:00",
+      "timestamp": 1790361900,
+      "periods": {
+        "first": 1790361900,
+        "second": 1790365500
+      },
+      "venue": {
+        "id": 1173,
+        "name": "Mourneview Park",
+        "city": "Lurgan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 407,
+      "name": "Championship",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/407.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2275,
+        "name": "Glenavon FC",
+        "logo": "https://media.api-sports.io/football/teams/2275.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5345,
+        "name": "Loughgall",
+        "logo": "https://media.api-sports.io/football/teams/5345.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1403412,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1221883,
-      "referee": "B. McMaster",
-      "timezone": "UTC",
-      "date": "2024-09-07T14:00:00+00:00",
-      "timestamp": 1725717600,
-      "periods": {
-        "first": 1725717600,
-        "second": 1725721200
-      },
-      "venue": {
-        "id": 1173,
-        "name": "Mourneview Park",
-        "city": "Lurgan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2024,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2275,
-        "name": "Glenavon FC",
-        "logo": "https://media.api-sports.io/football/teams/2275.png",
-        "winner": null
-      },
-      "away": {
-        "id": 5345,
-        "name": "Loughgall",
-        "logo": "https://media.api-sports.io/football/teams/5345.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

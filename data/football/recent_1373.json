@@ -1,18 +1,88 @@
 [
   {
     "fixture": {
+      "id": 1588896,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:00:00+00:00",
+      "timestamp": 1794337200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 496,
+        "name": "The Hive Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group South - 6",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1369,
+        "name": "Barnet",
+        "logo": "https://media.api-sports.io/football/teams/1369.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1373,
+        "name": "Leyton Orient",
+        "logo": "https://media.api-sports.io/football/teams/1373.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646807,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-11-07T15:00:00+00:00",
       "timestamp": 1794063600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1794063600,
+        "second": 1794067200
       },
       "venue": {
         "id": 18618,
-        "name": "Matchroom Stadium",
+        "name": "Brisbane Road",
         "city": "London"
       },
       "status": {
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564358,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T14:00:00+00:00",
-      "timestamp": 1792245600,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 18618,
-        "name": "Matchroom Stadium",
-        "city": "London"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1373,
-        "name": "Leyton Orient",
-        "logo": "https://media.api-sports.io/football/teams/1373.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1356,
-        "name": "Blackpool",
-        "logo": "https://media.api-sports.io/football/teams/1356.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

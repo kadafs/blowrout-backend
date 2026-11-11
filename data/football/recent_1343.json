@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1588832,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:30:00+00:00",
+      "timestamp": 1794339000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19198,
+        "name": "Valley Parade",
+        "city": "Bradford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group North - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1343,
+        "name": "Bradford",
+        "logo": "https://media.api-sports.io/football/teams/1343.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1828,
+        "name": "York",
+        "logo": "https://media.api-sports.io/football/teams/1828.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646793,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-11-07T15:00:00+00:00",
       "timestamp": 1794063600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1794063600,
+        "second": 1794067200
       },
       "venue": {
         "id": 19198,
@@ -247,76 +317,6 @@
         "id": 1338,
         "name": "Oxford United",
         "logo": "https://media.api-sports.io/football/teams/1338.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1343,
-        "name": "Bradford",
-        "logo": "https://media.api-sports.io/football/teams/1343.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564370,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-20T18:45:00+00:00",
-      "timestamp": 1792521900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 513,
-        "name": "Pirelli Stadium",
-        "city": "Burton upon Trent"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 748,
-        "name": "Burton Albion",
-        "logo": "https://media.api-sports.io/football/teams/748.png",
         "winner": null
       },
       "away": {

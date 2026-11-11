@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644362,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:00:00+00:00",
+      "timestamp": 1794337200,
+      "periods": {
+        "first": 1794337200,
+        "second": 1794340800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Estepona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 22569,
+        "name": "Mijas Las Lagunas",
+        "logo": "https://media.api-sports.io/football/teams/22569.png",
+        "winner": false
+      },
+      "away": {
+        "id": 5274,
+        "name": "Real Ja\u00e9n",
+        "logo": "https://media.api-sports.io/football/teams/5274.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571197,
       "referee": "M. Gil",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1571161,
-      "referee": "J. Campos",
-      "timezone": "UTC",
-      "date": "2026-10-10T16:45:00+00:00",
-      "timestamp": 1791650700,
-      "periods": {
-        "first": 1791650700,
-        "second": 1791654300
-      },
-      "venue": {
-        "id": null,
-        "name": "Nuevo Estadio de La Victoria",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 436,
-      "name": "Primera Divisi\u00f3n RFEF - Group 2",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/436.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 2 - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5274,
-        "name": "Real Ja\u00e9n",
-        "logo": "https://media.api-sports.io/football/teams/5274.png",
-        "winner": null
-      },
-      "away": {
-        "id": 9595,
-        "name": "Villarreal II",
-        "logo": "https://media.api-sports.io/football/teams/9595.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 3
       },
       "extratime": {
         "home": null,

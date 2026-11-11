@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1556895,
+      "referee": "C. Scott",
+      "timezone": "UTC",
+      "date": "2026-11-06T19:30:00+00:00",
+      "timestamp": 1793993400,
+      "periods": {
+        "first": 1793993400,
+        "second": 1793997000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Kirkcaldy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 180,
+      "name": "Championship",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/180.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1385,
+        "name": "Raith Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1385.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1388,
+        "name": "Dunfermline",
+        "logo": "https://media.api-sports.io/football/teams/1388.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556886,
       "referee": "G. Irvine",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556867,
-      "referee": "S. Murdoch",
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 1391,
-        "name": "Cappielow Park",
-        "city": "Greenock"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 180,
-      "name": "Championship",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/180.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1383,
-        "name": "Morton",
-        "logo": "https://media.api-sports.io/football/teams/1383.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1385,
-        "name": "Raith Rovers",
-        "logo": "https://media.api-sports.io/football/teams/1385.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

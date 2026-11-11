@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586295,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 83,
+      "name": "Regionalliga - Bayern",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/83.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Bayern - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12762,
+        "name": "Eltersdorf",
+        "logo": "https://media.api-sports.io/football/teams/12762.png",
+        "winner": false
+      },
+      "away": {
+        "id": 786,
+        "name": "TSV 1860 M\u00fcnchen",
+        "logo": "https://media.api-sports.io/football/teams/786.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586291,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586251,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T12:00:00+00:00",
-      "timestamp": 1791633600,
-      "periods": {
-        "first": 1791633600,
-        "second": 1791637200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 83,
-      "name": "Regionalliga - Bayern",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/83.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Bayern - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9330,
-        "name": "Illertissen",
-        "logo": "https://media.api-sports.io/football/teams/9330.png",
-        "winner": null
-      },
-      "away": {
-        "id": 786,
-        "name": "TSV 1860 M\u00fcnchen",
-        "logo": "https://media.api-sports.io/football/teams/786.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

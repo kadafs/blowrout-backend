@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648690,
+      "referee": "Jose Alexander Ortiz Novoa",
+      "timezone": "UTC",
+      "date": "2026-11-10T23:30:00+00:00",
+      "timestamp": 1794353400,
+      "periods": {
+        "first": 1794353400,
+        "second": 1794357000
+      },
+      "venue": {
+        "id": 371,
+        "name": "Estadio Metropolitano de Techo",
+        "city": "Bogota"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 241,
+      "name": "Copa Colombia",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/241.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1134,
+        "name": "Internacional de Bogota",
+        "logo": "https://media.api-sports.io/football/teams/1134.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1138,
+        "name": "America de Cali",
+        "logo": "https://media.api-sports.io/football/teams/1138.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549856,
       "referee": "Carlos Ortega, Colombia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1644751,
-      "referee": "C. Colmenares",
-      "timezone": "UTC",
-      "date": "2026-10-15T23:00:00+00:00",
-      "timestamp": 1792105200,
-      "periods": {
-        "first": 1792105200,
-        "second": 1792108800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Metropolitano de Techo",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 241,
-      "name": "Copa Colombia",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/241.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1134,
-        "name": "Internacional de Bogota",
-        "logo": "https://media.api-sports.io/football/teams/1134.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1464,
-        "name": "Llaneros",
-        "logo": "https://media.api-sports.io/football/teams/1464.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

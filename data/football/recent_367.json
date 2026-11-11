@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1494329,
+      "referee": "Granit Maqedonci",
+      "timezone": "UTC",
+      "date": "2026-11-08T15:30:00+00:00",
+      "timestamp": 1794151800,
+      "periods": {
+        "first": 1794151800,
+        "second": 1794155400
+      },
+      "venue": {
+        "id": 1501,
+        "name": "Strawberry Arena",
+        "city": "Solna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 113,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/113.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 377,
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png",
+        "winner": true
+      },
+      "away": {
+        "id": 367,
+        "name": "BK Hacken",
+        "logo": "https://media.api-sports.io/football/teams/367.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1494324,
-      "referee": "Fredrik Klitte",
+      "referee": "F. Klitte",
       "timezone": "UTC",
       "date": "2026-11-01T15:30:00+00:00",
       "timestamp": 1793547000,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793547000,
+        "second": 1793550600
       },
       "venue": {
         "id": 1511,
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1494314,
-      "referee": "Richard Sundell",
+      "referee": "R. Sundell",
       "timezone": "UTC",
       "date": "2026-10-28T18:00:00+00:00",
       "timestamp": 1793210400,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793210400,
+        "second": 1793214000
       },
       "venue": {
         "id": 1503,
@@ -142,13 +212,13 @@
   {
     "fixture": {
       "id": 1494308,
-      "referee": "Joakim Ostling, Sweden",
+      "referee": "J. Sars",
       "timezone": "UTC",
       "date": "2026-10-24T13:00:00+00:00",
       "timestamp": 1792846800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792846800,
+        "second": 1792850400
       },
       "venue": {
         "id": 1511,
@@ -212,13 +282,13 @@
   {
     "fixture": {
       "id": 1494301,
-      "referee": "Glenn Nyberg, Sweden",
+      "referee": "G. Nyberg",
       "timezone": "UTC",
       "date": "2026-10-18T14:30:00+00:00",
       "timestamp": 1792333800,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1792333800,
+        "second": 1792337400
       },
       "venue": {
         "id": 1518,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1494293,
-      "referee": "Kristoffer Karlsson",
-      "timezone": "UTC",
-      "date": "2026-10-11T14:30:00+00:00",
-      "timestamp": 1791729000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1511,
-        "name": "Nordic Wellness Arena",
-        "city": "Gothenburg"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 113,
-      "name": "Allsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/113.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 367,
-        "name": "BK Hacken",
-        "logo": "https://media.api-sports.io/football/teams/367.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2166,
-        "name": "Orgryte IS",
-        "logo": "https://media.api-sports.io/football/teams/2166.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

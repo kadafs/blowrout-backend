@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574411,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12700,
+        "name": "Biel-Bienne",
+        "logo": "https://media.api-sports.io/football/teams/12700.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14504,
+        "name": "Kreuzlingen",
+        "logo": "https://media.api-sports.io/football/teams/14504.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574388,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574371,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T15:00:00+00:00",
-      "timestamp": 1791039600,
-      "periods": {
-        "first": 1791039600,
-        "second": 1791043200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16316,
-        "name": "Amical Saint-Prex",
-        "logo": "https://media.api-sports.io/football/teams/16316.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12700,
-        "name": "Biel-Bienne",
-        "logo": "https://media.api-sports.io/football/teams/12700.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

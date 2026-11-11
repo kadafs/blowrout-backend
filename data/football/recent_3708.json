@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1645538,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T19:00:00+00:00",
+      "timestamp": 1794164400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22322,
+        "name": "Estadio Victor Agust\u00edn Ugarte",
+        "city": "Potosi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 344,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Bolivia",
+      "logo": "https://media.api-sports.io/football/leagues/344.png",
+      "flag": "https://media.api-sports.io/flags/bo.svg",
+      "season": 2026,
+      "round": "Apertura - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3706,
+        "name": "Nacional Potos\u00ed",
+        "logo": "https://media.api-sports.io/football/teams/3706.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3708,
+        "name": "Real Potos\u00ed",
+        "logo": "https://media.api-sports.io/football/teams/3708.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645457,
       "referee": "C. Condori",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619328,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-16T19:00:00+00:00",
-      "timestamp": 1792177200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "El Alto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 344,
-      "name": "Primera Divisi\u00f3n",
-      "country": "Bolivia",
-      "logo": "https://media.api-sports.io/football/leagues/344.png",
-      "flag": "https://media.api-sports.io/flags/bo.svg",
-      "season": 2026,
-      "round": "Apertura - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17743,
-        "name": "ABB",
-        "logo": "https://media.api-sports.io/football/teams/17743.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3708,
-        "name": "Real Potos\u00ed",
-        "logo": "https://media.api-sports.io/football/teams/3708.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648509,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:30:00+00:00",
+      "timestamp": 1794065400,
+      "periods": {
+        "first": 1794065400,
+        "second": 1794069000
+      },
+      "venue": {
+        "id": 4740,
+        "name": "Stade Wobi",
+        "city": "Bobo Dioulasso"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20029,
+        "name": "R\u00e9al du Faso",
+        "logo": "https://media.api-sports.io/football/teams/20029.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17923,
+        "name": "Vitesse",
+        "logo": "https://media.api-sports.io/football/teams/17923.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647598,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643340,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T15:30:00+00:00",
-      "timestamp": 1790955000,
-      "periods": {
-        "first": 1790955000,
-        "second": 1790958600
-      },
-      "venue": {
-        "id": 306,
-        "name": "Stade du 4 Aout",
-        "city": "Ouagadougou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8072,
-        "name": "Salitas",
-        "logo": "https://media.api-sports.io/football/teams/8072.png",
-        "winner": false
-      },
-      "away": {
-        "id": 20029,
-        "name": "R\u00e9al du Faso",
-        "logo": "https://media.api-sports.io/football/teams/20029.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

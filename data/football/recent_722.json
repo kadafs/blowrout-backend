@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570012,
+      "referee": "J. M. Gordillo",
+      "timezone": "UTC",
+      "date": "2026-11-07T17:30:00+00:00",
+      "timestamp": 1794072600,
+      "periods": {
+        "first": 1794072600,
+        "second": 1794076200
+      },
+      "venue": {
+        "id": 1464,
+        "name": "Estadio Municipal de Butarque",
+        "city": "Leganes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 537,
+        "name": "Leganes",
+        "logo": "https://media.api-sports.io/football/teams/537.png",
+        "winner": false
+      },
+      "away": {
+        "id": 722,
+        "name": "Albacete",
+        "logo": "https://media.api-sports.io/football/teams/722.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569992,
       "referee": "A. Fuentes",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569948,
-      "referee": "J. Sanchez",
-      "timezone": "UTC",
-      "date": "2026-10-03T12:00:00+00:00",
-      "timestamp": 1791028800,
-      "periods": {
-        "first": 1791028800,
-        "second": 1791032400
-      },
-      "venue": {
-        "id": 1458,
-        "name": "Estadio Carlos Belmonte",
-        "city": "Albacete"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 722,
-        "name": "Albacete",
-        "logo": "https://media.api-sports.io/football/teams/722.png",
-        "winner": false
-      },
-      "away": {
-        "id": 545,
-        "name": "Eibar",
-        "logo": "https://media.api-sports.io/football/teams/545.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

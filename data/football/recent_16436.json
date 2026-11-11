@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594891,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-29T12:30:00+00:00",
+      "timestamp": 1793277000,
+      "periods": {
+        "first": 1793277000,
+        "second": 1793280600
+      },
+      "venue": {
+        "id": null,
+        "name": "Al Assiouty Sport Stadium",
+        "city": "Asyut"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 887,
+      "name": "Second League",
+      "country": "Egypt",
+      "logo": "https://media.api-sports.io/football/leagues/887.png",
+      "flag": "https://media.api-sports.io/flags/eg.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16436,
+        "name": "La Viena FC",
+        "logo": "https://media.api-sports.io/football/teams/16436.png",
+        "winner": null
+      },
+      "away": {
+        "id": 18022,
+        "name": "Dayrout",
+        "logo": "https://media.api-sports.io/football/teams/18022.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594882,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594849,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T13:30:00+00:00",
-      "timestamp": 1790343000,
-      "periods": {
-        "first": 1790343000,
-        "second": 1790346600
-      },
-      "venue": {
-        "id": null,
-        "name": "Telecom Egypt Club Stadium",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 887,
-      "name": "Second League",
-      "country": "Egypt",
-      "logo": "https://media.api-sports.io/football/leagues/887.png",
-      "flag": "https://media.api-sports.io/flags/eg.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18032,
-        "name": "Itesalat",
-        "logo": "https://media.api-sports.io/football/teams/18032.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16436,
-        "name": "La Viena FC",
-        "logo": "https://media.api-sports.io/football/teams/16436.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

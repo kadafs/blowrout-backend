@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1588906,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:30:00+00:00",
+      "timestamp": 1794339000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20413,
+        "name": "Copperjax Community Stadium",
+        "city": "Bromley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group South - 8",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1348,
+        "name": "Milton Keynes Dons",
+        "logo": "https://media.api-sports.io/football/teams/1348.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646808,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-11-07T15:00:00+00:00",
       "timestamp": 1794063600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1794063600,
+        "second": 1794067200
       },
       "venue": {
         "id": 560,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564368,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-20T18:45:00+00:00",
-      "timestamp": 1792521900,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 501,
-        "name": "Bloomfield Road",
-        "city": "Blackpool"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1356,
-        "name": "Blackpool",
-        "logo": "https://media.api-sports.io/football/teams/1356.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1348,
-        "name": "Milton Keynes Dons",
-        "logo": "https://media.api-sports.io/football/teams/1348.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559639,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-09-13T17:00:00+00:00",
+      "timestamp": 1789318800,
+      "periods": {
+        "first": 1789318800,
+        "second": 1789322400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Mixco"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 339,
+      "name": "Liga Nacional",
+      "country": "Guatemala",
+      "logo": "https://media.api-sports.io/football/leagues/339.png",
+      "flag": "https://media.api-sports.io/flags/gt.svg",
+      "season": 2026,
+      "round": "Regular Season - 9",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3645,
+        "name": "Mixco",
+        "logo": "https://media.api-sports.io/football/teams/3645.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10154,
+        "name": "Aurora",
+        "logo": "https://media.api-sports.io/football/teams/10154.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1499243,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 831965,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2022-03-19T21:00:00+00:00",
-      "timestamp": 1647723600,
-      "periods": {
-        "first": 1647723600,
-        "second": 1647727200
-      },
-      "venue": {
-        "id": 2441,
-        "name": "Estadio Cementos Progreso",
-        "city": "Ciudad de Guatemala"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 338,
-      "name": "Primera Division",
-      "country": "Guatemala",
-      "logo": "https://media.api-sports.io/football/leagues/338.png",
-      "flag": "https://media.api-sports.io/flags/gt.svg",
-      "season": 2021,
-      "round": "Clausura - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10154,
-        "name": "Aurora",
-        "logo": "https://media.api-sports.io/football/teams/10154.png",
-        "winner": false
-      },
-      "away": {
-        "id": 3645,
-        "name": "Mixco",
-        "logo": "https://media.api-sports.io/football/teams/3645.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

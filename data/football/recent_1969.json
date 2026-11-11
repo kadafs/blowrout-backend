@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632121,
+      "referee": "C. Flynn",
+      "timezone": "UTC",
+      "date": "2026-11-07T08:00:00+00:00",
+      "timestamp": 1794038400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 128,
+        "name": "HBF Park",
+        "city": "Perth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1969,
+        "name": "Perth Glory FC W",
+        "logo": "https://media.api-sports.io/football/teams/1969.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1970,
+        "name": "Canberra United W",
+        "logo": "https://media.api-sports.io/football/teams/1970.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632117,
       "referee": "M. Ryan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1484572,
-      "referee": "R. Mitchenson",
-      "timezone": "UTC",
-      "date": "2026-03-27T09:00:00+00:00",
-      "timestamp": 1774602000,
-      "periods": {
-        "first": 1774602000,
-        "second": 1774605600
-      },
-      "venue": {
-        "id": null,
-        "name": "Spencer Park",
-        "city": "Brisbane"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1973,
-        "name": "Brisbane Roar FC W",
-        "logo": "https://media.api-sports.io/football/teams/1973.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1969,
-        "name": "Perth Glory FC W",
-        "logo": "https://media.api-sports.io/football/teams/1969.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 5,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 5,
-        "away": 2
       },
       "extratime": {
         "home": null,

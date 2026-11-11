@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1599278,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T10:00:00+00:00",
+      "timestamp": 1794132000,
+      "periods": {
+        "first": 1794132000,
+        "second": 1794135600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 676,
+      "name": "Central Youth League",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/676.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7958,
+        "name": "Lech Pozna\u0144 U19",
+        "logo": "https://media.api-sports.io/football/teams/7958.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24519,
+        "name": "Stal Rzesz\u00f3w U19",
+        "logo": "https://media.api-sports.io/football/teams/24519.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1599268,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1599249,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T09:00:00+00:00",
-      "timestamp": 1791622800,
-      "periods": {
-        "first": 1791622800,
-        "second": 1791626400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 676,
-      "name": "Central Youth League",
-      "country": "Poland",
-      "logo": "https://media.api-sports.io/football/leagues/676.png",
-      "flag": "https://media.api-sports.io/flags/pl.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7905,
-        "name": "Korona Kielce U19",
-        "logo": "https://media.api-sports.io/football/teams/7905.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7958,
-        "name": "Lech Pozna\u0144 U19",
-        "logo": "https://media.api-sports.io/football/teams/7958.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646464,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 813,
+      "name": "Elite Two",
+      "country": "Cameroon",
+      "logo": "https://media.api-sports.io/football/leagues/813.png",
+      "flag": "https://media.api-sports.io/flags/cm.svg",
+      "season": 2027,
+      "round": "Regular Season - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5405,
+        "name": "Fortuna Mfou",
+        "logo": "https://media.api-sports.io/football/teams/5405.png",
+        "winner": false
+      },
+      "away": {
+        "id": 27458,
+        "name": "Sable",
+        "logo": "https://media.api-sports.io/football/teams/27458.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646461,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1547545,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-16T12:00:00+00:00",
-      "timestamp": 1781611200,
-      "periods": {
-        "first": 1781611200,
-        "second": 1781614800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 813,
-      "name": "Elite Two",
-      "country": "Cameroon",
-      "logo": "https://media.api-sports.io/football/leagues/813.png",
-      "flag": "https://media.api-sports.io/flags/cm.svg",
-      "season": 2026,
-      "round": "Relegation Group - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 27458,
-        "name": "Sable",
-        "logo": "https://media.api-sports.io/football/teams/27458.png",
-        "winner": true
-      },
-      "away": {
-        "id": 16527,
-        "name": "Foncha ST",
-        "logo": "https://media.api-sports.io/football/teams/16527.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

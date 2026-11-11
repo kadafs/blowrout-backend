@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1501522,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T12:00:00+00:00",
+      "timestamp": 1794052800,
+      "periods": {
+        "first": 1794052800,
+        "second": 1794056400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 736,
+      "name": "Elitettan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/736.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16005,
+        "name": "Jitex W",
+        "logo": "https://media.api-sports.io/football/teams/16005.png",
+        "winner": false
+      },
+      "away": {
+        "id": 21693,
+        "name": "Elfsborg W",
+        "logo": "https://media.api-sports.io/football/teams/21693.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1501515,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1636790,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T17:00:00+00:00",
-      "timestamp": 1790701200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 22300,
-        "name": "Abyvallen",
-        "city": "Valbo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 737,
-      "name": "Svenska Cupen - Women",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/737.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Round 2",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 16005,
-        "name": "Jitex W",
-        "logo": "https://media.api-sports.io/football/teams/16005.png",
-        "winner": false
-      },
-      "away": {
-        "id": 11083,
-        "name": "Vittsj\u00f6 W",
-        "logo": "https://media.api-sports.io/football/teams/11083.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

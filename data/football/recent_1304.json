@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1552525,
+      "referee": "Pierre Gaillouste",
+      "timezone": "UTC",
+      "date": "2026-11-06T19:00:00+00:00",
+      "timestamp": 1793991600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 646,
+        "name": "Stade Marcel Tribut",
+        "city": "Dunkirk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": true
+      },
+      "away": {
+        "id": 90,
+        "name": "Guingamp",
+        "logo": "https://media.api-sports.io/football/teams/90.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1552521,
       "referee": "Eddy Rosier",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643471,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-02T10:00:00+00:00",
-      "timestamp": 1790935200,
-      "periods": {
-        "first": 1790935200,
-        "second": 1790938800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 667,
-      "name": "Friendlies Clubs",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/667.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Club Friendlies",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1304,
-        "name": "Dunkerque",
-        "logo": "https://media.api-sports.io/football/teams/1304.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5902,
-        "name": "RAAL La Louvi\u00e8re",
-        "logo": "https://media.api-sports.io/football/teams/5902.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

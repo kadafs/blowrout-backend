@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1597001,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:45:00+00:00",
+      "timestamp": 1794339900,
+      "periods": {
+        "first": 1794339900,
+        "second": 1794343500
+      },
+      "venue": {
+        "id": null,
+        "name": "St. George's Lane",
+        "city": "Worcester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 931,
+      "name": "Non League Premier - Southern Central",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/931.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9010,
+        "name": "Worcester City",
+        "logo": "https://media.api-sports.io/football/teams/9010.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8904,
+        "name": "Racing Club Warwick",
+        "logo": "https://media.api-sports.io/football/teams/8904.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1596989,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1596937,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-17T14:00:00+00:00",
-      "timestamp": 1792245600,
-      "periods": {
-        "first": 1792245600,
-        "second": 1792249200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 931,
-      "name": "Non League Premier - Southern Central",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/931.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7701,
-        "name": "Bishop's Stortford",
-        "logo": "https://media.api-sports.io/football/teams/7701.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8904,
-        "name": "Racing Club Warwick",
-        "logo": "https://media.api-sports.io/football/teams/8904.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

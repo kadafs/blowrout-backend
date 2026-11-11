@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1601282,
+      "referee": "M. Maccorin",
+      "timezone": "UTC",
+      "date": "2026-11-08T11:30:00+00:00",
+      "timestamp": 1794137400,
+      "periods": {
+        "first": 1794137400,
+        "second": 1794141000
+      },
+      "venue": {
+        "id": 921,
+        "name": "Stadio Ennio Tardini",
+        "city": "Parma"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 139,
+      "name": "Serie A Women",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/139.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19748,
+        "name": "Parma W",
+        "logo": "https://media.api-sports.io/football/teams/19748.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19747,
+        "name": "Como W",
+        "logo": "https://media.api-sports.io/football/teams/19747.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601276,
-      "referee": "Mario Picardi, Italy",
+      "referee": "M. Picardi",
       "timezone": "UTC",
       "date": "2026-10-31T15:45:00+00:00",
       "timestamp": 1793461500,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1601271,
-      "referee": "Cosimo Papi, Italy",
+      "referee": "C. Papi",
       "timezone": "UTC",
       "date": "2026-10-25T17:00:00+00:00",
       "timestamp": 1792947600,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601251,
-      "referee": "G. Ambrosino",
-      "timezone": "UTC",
-      "date": "2026-09-26T13:00:00+00:00",
-      "timestamp": 1790427600,
-      "periods": {
-        "first": 1790427600,
-        "second": 1790431200
-      },
-      "venue": {
-        "id": null,
-        "name": "Campo Mirko Fersini",
-        "city": "Rome"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 139,
-      "name": "Serie A Women",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/139.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17369,
-        "name": "Lazio W",
-        "logo": "https://media.api-sports.io/football/teams/17369.png",
-        "winner": null
-      },
-      "away": {
-        "id": 19748,
-        "name": "Parma W",
-        "logo": "https://media.api-sports.io/football/teams/19748.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

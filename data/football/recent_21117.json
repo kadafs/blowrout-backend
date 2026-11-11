@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1600722,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-30T15:30:00+00:00",
+      "timestamp": 1793374200,
+      "periods": {
+        "first": 1793374200,
+        "second": 1793377800
+      },
+      "venue": {
+        "id": 325,
+        "name": "Estadio Municipal de Lo Barnechea",
+        "city": "Santiago de Chile"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 711,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/711.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Promotion Group - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 21117,
+        "name": "Santiago City",
+        "logo": "https://media.api-sports.io/football/teams/21117.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15717,
+        "name": "Linares Unido",
+        "logo": "https://media.api-sports.io/football/teams/15717.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600719,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600714,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-13T19:00:00+00:00",
-      "timestamp": 1789326000,
-      "periods": {
-        "first": 1789326000,
-        "second": 1789329600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Osorno"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 11
-      }
-    },
-    "league": {
-      "id": 711,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/711.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Promotion Group - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5643,
-        "name": "Provincial Osorno",
-        "logo": "https://media.api-sports.io/football/teams/5643.png",
-        "winner": false
-      },
-      "away": {
-        "id": 21117,
-        "name": "Santiago City",
-        "logo": "https://media.api-sports.io/football/teams/21117.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

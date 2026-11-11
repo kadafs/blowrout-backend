@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1561190,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-09T16:00:00+00:00",
+      "timestamp": 1794240000,
+      "periods": {
+        "first": 1794240000,
+        "second": 1794243600
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky futbalovy stadion Milana Janeka",
+        "city": "Liptovsky Mikulas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 506,
+      "name": "2. liga",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/506.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10536,
+        "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
+        "logo": "https://media.api-sports.io/football/teams/10536.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15006,
+        "name": "MFK Byt\u010da",
+        "logo": "https://media.api-sports.io/football/teams/15006.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1561182,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 10536,
         "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
         "logo": "https://media.api-sports.io/football/teams/10536.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1561149,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-05T15:00:00+00:00",
-      "timestamp": 1791212400,
-      "periods": {
-        "first": 1791212400,
-        "second": 1791216000
-      },
-      "venue": {
-        "id": null,
-        "name": "Mestsky futbalovy stadion Milana Janeka",
-        "city": "Liptovsky Mikulas"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 506,
-      "name": "2. liga",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/506.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10536,
-        "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
-        "logo": "https://media.api-sports.io/football/teams/10536.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10545,
-        "name": "\u0160amor\u00edn",
-        "logo": "https://media.api-sports.io/football/teams/10545.png",
         "winner": false
       }
     },

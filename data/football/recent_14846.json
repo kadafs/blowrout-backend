@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1627666,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:30:00+00:00",
+      "timestamp": 1794144600,
+      "periods": {
+        "first": 1794144600,
+        "second": 1794148200
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky stadion Miroslava Valenty",
+        "city": "Uherske Hradiste"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 669,
+      "name": "1. Liga Women",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/669.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14847,
+        "name": "Slov\u00e1cko W",
+        "logo": "https://media.api-sports.io/football/teams/14847.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14846,
+        "name": "Slovan Liberec W",
+        "logo": "https://media.api-sports.io/football/teams/14846.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627660,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1627648,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T09:00:00+00:00",
-      "timestamp": 1790413200,
-      "periods": {
-        "first": 1790413200,
-        "second": 1790416800
-      },
-      "venue": {
-        "id": null,
-        "name": "Bazaly",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 669,
-      "name": "1. Liga Women",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/669.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19197,
-        "name": "Ban\u00edk Ostrava W",
-        "logo": "https://media.api-sports.io/football/teams/19197.png",
-        "winner": false
-      },
-      "away": {
-        "id": 14846,
-        "name": "Slovan Liberec W",
-        "logo": "https://media.api-sports.io/football/teams/14846.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

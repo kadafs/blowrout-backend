@@ -1114,6 +1114,9 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     # S.O.S. (Strength of Schedule) Residual Modifier (Proposal B)
     # Corrects for early/mid-season schedule bias when a team has played fewer than 16 games.
     # Teams facing tough opposition get a corrective credit, while teams padding stats get normalized.
+    # NOTE: Intentionally disabled for NCAA (league_id 116/423 and conferences 11600-11699).
+    # NCAA teams already have dedicated Bayesian prior-blending and conference partitioning;
+    # the raw SRS margin scale (~±30 pts) is not comparable to international per-possession efficiency.
     a_gp = sA.get("current_season_games") or sA.get("games_played", 0)
     h_gp = sH.get("current_season_games") or sH.get("games_played", 0)
 
@@ -1127,7 +1130,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     a_sos_def_adj = 0.0
     h_sos_def_adj = 0.0
 
-    if a_gp < 16:
+    if not is_ncaa and a_gp < 16:
         damp_a = max(0.0, (16 - a_gp) / 16.0) * 0.25
         if sos_def_a is not None:
             a_sos_off_adj = max(-2.5, min(2.5, (lg_avg_eff - sos_def_a) * damp_a))
@@ -1137,7 +1140,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             a_sos_off_adj = max(-2.0, min(2.0, sA["sos"] * damp_a * 0.4))
             a_sos_def_adj = -a_sos_off_adj
 
-    if h_gp < 16:
+    if not is_ncaa and h_gp < 16:
         damp_h = max(0.0, (16 - h_gp) / 16.0) * 0.25
         if sos_def_h is not None:
             h_sos_off_adj = max(-2.5, min(2.5, (lg_avg_eff - sos_def_h) * damp_h))

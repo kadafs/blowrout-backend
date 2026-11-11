@@ -1018,16 +1018,22 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
     config_pace = cfg.get("pace_pivot", 76)
 
     MIN_GAMES_TRUST = 8
-    a_gp = sA.get("games_played", sA.get("games", 0))
-    h_gp = sH.get("games_played", sH.get("games", 0))
+    a_tot_gp = sA.get("games_played", sA.get("games", 0))
+    h_tot_gp = sH.get("games_played", sH.get("games", 0))
+
+    a_curr_gp = sA.get("current_season_games") if sA.get("current_season_games") is not None else a_tot_gp
+    h_curr_gp = sH.get("current_season_games") if sH.get("current_season_games") is not None else h_tot_gp
 
     prev_a = sA.get("previous_season")
     prev_h = sH.get("previous_season")
-    a_prev_gp = prev_a.get("games_played", prev_a.get("games", 0)) if prev_a else 0
-    h_prev_gp = prev_h.get("games_played", prev_h.get("games", 0)) if prev_h else 0
+    a_prev_gp = prev_a.get("games_played", prev_a.get("games", 0)) if prev_a else max(0, a_tot_gp - a_curr_gp)
+    h_prev_gp = prev_h.get("games_played", prev_h.get("games", 0)) if prev_h else max(0, h_tot_gp - h_curr_gp)
+
+    a_gp = a_curr_gp
+    h_gp = h_curr_gp
 
     # Cross-league baseline fallback for international cups/tournaments (strictly non-NCAA)
-    if not is_ncaa and a_gp < 2 and not (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None)):
+    if not is_ncaa and a_curr_gp < 2 and not (prev_a and (a_prev_gp >= 3 or prev_a.get("srs_rating") is not None)):
         g_team, g_src = global_find_team(away_name)
         if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
             sA = dict(sA)
@@ -1035,7 +1041,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             prev_a = g_team
             a_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
-    if not is_ncaa and h_gp < 2 and not (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None)):
+    if not is_ncaa and h_curr_gp < 2 and not (prev_h and (h_prev_gp >= 3 or prev_h.get("srs_rating") is not None)):
         g_team, g_src = global_find_team(home_name)
         if g_team and g_team.get("games_played", g_team.get("games", 0)) >= 3:
             sH = dict(sH)
@@ -1044,19 +1050,20 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             h_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
     # STRICT GUARD: Require either 2+ current games OR a valid prior season baseline (>= 8 games)
-    a_has_baseline = (a_gp >= 2) or (prev_a and a_prev_gp >= 8)
-    h_has_baseline = (h_gp >= 2) or (prev_h and h_prev_gp >= 8)
+    a_has_baseline = (a_curr_gp >= 2) or (a_prev_gp >= 8)
+    h_has_baseline = (h_curr_gp >= 2) or (h_prev_gp >= 8)
 
     if not a_has_baseline or not h_has_baseline:
-        return None, f"Insufficient games played & no prior season baseline. {away_name} (curr={a_gp}, prev={a_prev_gp}), {home_name} (curr={h_gp}, prev={h_prev_gp}). Skipping."
+        return None, f"Insufficient games played & no prior season baseline. {away_name} (curr={a_curr_gp}, prev={a_prev_gp}), {home_name} (curr={h_curr_gp}, prev={h_prev_gp}). Skipping."
 
     eff_pivot = cfg.get("eff_pivot", 108.0)
 
     # Dynamic Bayesian & Prior-Season Smoothing
     def smooth_team_ratings(team_s, eff_pivot, config_pace, name):
-        gp = team_s.get("games_played", team_s.get("games", 0))
+        tot_gp = team_s.get("games_played", team_s.get("games", 0))
+        gp = team_s.get("current_season_games") if team_s.get("current_season_games") is not None else tot_gp
         prev_s = team_s.get("previous_season")
-        prev_gp = prev_s.get("games_played", prev_s.get("games", 0)) if prev_s else 0
+        prev_gp = prev_s.get("games_played", prev_s.get("games", 0)) if prev_s else max(0, tot_gp - gp)
         
         if prev_s and prev_gp >= 8 and gp < MIN_GAMES_TRUST:
             # Shift smoothly from prior to current over MIN_GAMES_TRUST (8) games

@@ -1,48 +1,48 @@
 [
   {
     "fixture": {
-      "id": 1615524,
+      "id": 1573036,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-10-25T16:00:00+00:00",
-      "timestamp": 1792944000,
+      "date": "2026-11-07T17:00:00+00:00",
+      "timestamp": 1794070800,
       "periods": {
-        "first": 1792944000,
-        "second": 1792947600
+        "first": 1794070800,
+        "second": 1794074400
       },
       "venue": {
         "id": null,
-        "name": null,
-        "city": null
+        "name": "Nuevo Colombino",
+        "city": "Huelva"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 5
+        "extra": 6
       }
     },
     "league": {
-      "id": 448,
-      "name": "Tercera Divisi\u00f3n RFEF - Group 10",
+      "id": 878,
+      "name": "Segunda Divisi\u00f3n RFEF - Group 4",
       "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/448.png",
+      "logo": "https://media.api-sports.io/football/leagues/878.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 10 - 8",
+      "round": "Group 4 - 10",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 9596,
-        "name": "Linense",
-        "logo": "https://media.api-sports.io/football/teams/9596.png",
-        "winner": null
-      },
-      "away": {
         "id": 9410,
         "name": "Recreativo Huelva",
         "logo": "https://media.api-sports.io/football/teams/9410.png",
+        "winner": null
+      },
+      "away": {
+        "id": 22569,
+        "name": "Mijas Las Lagunas",
+        "logo": "https://media.api-sports.io/football/teams/22569.png",
         "winner": null
       }
     },
@@ -53,11 +53,81 @@
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
         "home": 1,
         "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1573021,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": 1793534400,
+        "second": 1793538000
+      },
+      "venue": {
+        "id": 6849,
+        "name": "Ciudad Deportiva Luis de Sol",
+        "city": "Sevilla"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 878,
+      "name": "Segunda Divisi\u00f3n RFEF - Group 4",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/878.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 4 - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9765,
+        "name": "Real Betis II",
+        "logo": "https://media.api-sports.io/football/teams/9765.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9410,
+        "name": "Recreativo Huelva",
+        "logo": "https://media.api-sports.io/football/teams/9410.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
       },
       "extratime": {
         "home": null,
@@ -128,76 +198,6 @@
       "fulltime": {
         "home": 5,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1615511,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-18T15:00:00+00:00",
-      "timestamp": 1792335600,
-      "periods": {
-        "first": 1792335600,
-        "second": 1792339200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 448,
-      "name": "Tercera Divisi\u00f3n RFEF - Group 10",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/448.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 10 - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9410,
-        "name": "Recreativo Huelva",
-        "logo": "https://media.api-sports.io/football/teams/9410.png",
-        "winner": false
-      },
-      "away": {
-        "id": 9767,
-        "name": "San Roque Lepe",
-        "logo": "https://media.api-sports.io/football/teams/9767.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

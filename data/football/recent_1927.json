@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1499706,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-02T18:00:00+00:00",
+      "timestamp": 1793642400,
+      "periods": {
+        "first": 1793642400,
+        "second": 1793646000
+      },
+      "venue": {
+        "id": null,
+        "name": "Alfredo Ramos stadium",
+        "city": "Buenos Aires"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 131,
+      "name": "Primera B Metropolitana",
+      "country": "Argentina",
+      "logo": "https://media.api-sports.io/football/leagues/131.png",
+      "flag": "https://media.api-sports.io/flags/ar.svg",
+      "season": 2026,
+      "round": "Regular Season - 42",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 8008,
+        "name": "Comunicaciones",
+        "logo": "https://media.api-sports.io/football/teams/8008.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1927,
+        "name": "Talleres Remedios",
+        "logo": "https://media.api-sports.io/football/teams/1927.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1499702,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1499659,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T18:00:00+00:00",
-      "timestamp": 1790445600,
-      "periods": {
-        "first": 1790445600,
-        "second": 1790449200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio de Talleres de Remedios de Escalada",
-        "city": "Buenos Aires"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 131,
-      "name": "Primera B Metropolitana",
-      "country": "Argentina",
-      "logo": "https://media.api-sports.io/football/leagues/131.png",
-      "flag": "https://media.api-sports.io/flags/ar.svg",
-      "season": 2026,
-      "round": "Regular Season - 37",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1927,
-        "name": "Talleres Remedios",
-        "logo": "https://media.api-sports.io/football/teams/1927.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8387,
-        "name": "San Mart\u00edn Burzaco",
-        "logo": "https://media.api-sports.io/football/teams/8387.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

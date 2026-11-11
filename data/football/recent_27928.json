@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1579291,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T14:00:00+00:00",
+      "timestamp": 1794060000,
+      "periods": {
+        "first": 1794060000,
+        "second": 1794063600
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadion Za Mistnim nadrazim",
+        "city": "Prostejov"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 354,
+      "name": "4. liga - Divizie E",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/354.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group E - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 27928,
+        "name": "Prostejov B",
+        "logo": "https://media.api-sports.io/football/teams/27928.png",
+        "winner": null
+      },
+      "away": {
+        "id": 27929,
+        "name": "SK Krumvir",
+        "logo": "https://media.api-sports.io/football/teams/27929.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1579285,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1579257,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T13:00:00+00:00",
-      "timestamp": 1791118800,
-      "periods": {
-        "first": 1791118800,
-        "second": 1791122400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 354,
-      "name": "4. liga - Divizie E",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/354.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group E - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7366,
-        "name": "Tatran V\u0161echovice",
-        "logo": "https://media.api-sports.io/football/teams/7366.png",
-        "winner": true
-      },
-      "away": {
-        "id": 27928,
-        "name": "Prostejov B",
-        "logo": "https://media.api-sports.io/football/teams/27928.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

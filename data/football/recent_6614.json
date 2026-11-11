@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610145,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 600,
+      "name": "1. Liga Classic - Group 2",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/600.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Group 2 - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12709,
+        "name": "Solothurn",
+        "logo": "https://media.api-sports.io/football/teams/12709.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6614,
+        "name": "Bassecourt",
+        "logo": "https://media.api-sports.io/football/teams/6614.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610140,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610116,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T12:30:00+00:00",
-      "timestamp": 1791117000,
-      "periods": {
-        "first": 1791117000,
-        "second": 1791120600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 600,
-      "name": "1. Liga Classic - Group 2",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/600.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 2 - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6614,
-        "name": "Bassecourt",
-        "logo": "https://media.api-sports.io/football/teams/6614.png",
-        "winner": false
-      },
-      "away": {
-        "id": 16348,
-        "name": "Thun II",
-        "logo": "https://media.api-sports.io/football/teams/16348.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

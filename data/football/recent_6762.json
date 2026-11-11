@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557810,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": null,
+        "name": "New Douglas Park",
+        "city": "Hamilton"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 184,
+      "name": "League Two",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/184.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6762,
+        "name": "Clyde",
+        "logo": "https://media.api-sports.io/football/teams/6762.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6781,
+        "name": "Spartans",
+        "logo": "https://media.api-sports.io/football/teams/6781.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557808,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557791,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 4947,
-        "name": "Borough Briggs",
-        "city": "Elgin"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 184,
-      "name": "League Two",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/184.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6767,
-        "name": "Elgin City",
-        "logo": "https://media.api-sports.io/football/teams/6767.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6762,
-        "name": "Clyde",
-        "logo": "https://media.api-sports.io/football/teams/6762.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 6,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 6,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1535670,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-24T11:00:00+00:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": 1792839600,
+        "second": 1792843200
+      },
+      "venue": {
+        "id": 0,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 915,
+      "name": "1. Division Women",
+      "country": "Norway",
+      "logo": "https://media.api-sports.io/football/leagues/915.png",
+      "flag": "https://media.api-sports.io/flags/no.svg",
+      "season": 2026,
+      "round": "Regular Season - 22",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15952,
+        "name": "Kolbotn W",
+        "logo": "https://media.api-sports.io/football/teams/15952.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15954,
+        "name": "Arna-Bj\u00f8rnar W",
+        "logo": "https://media.api-sports.io/football/teams/15954.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1535657,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1535660,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T13:00:00+00:00",
-      "timestamp": 1790427600,
-      "periods": {
-        "first": 1790427600,
-        "second": 1790431200
-      },
-      "venue": {
-        "id": 0,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 915,
-      "name": "1. Division Women",
-      "country": "Norway",
-      "logo": "https://media.api-sports.io/football/leagues/915.png",
-      "flag": "https://media.api-sports.io/flags/no.svg",
-      "season": 2026,
-      "round": "Regular Season - 19",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22859,
-        "name": "Odd W",
-        "logo": "https://media.api-sports.io/football/teams/22859.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15952,
-        "name": "Kolbotn W",
-        "logo": "https://media.api-sports.io/football/teams/15952.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

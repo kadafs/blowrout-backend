@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1570008,
+      "referee": "Daniel Palencia Caballero",
+      "timezone": "UTC",
+      "date": "2026-11-08T17:30:00+00:00",
+      "timestamp": 1794159000,
+      "periods": {
+        "first": 1794159000,
+        "second": 1794162600
+      },
+      "venue": {
+        "id": 1495,
+        "name": "El Molin\u00f3n-Enrique Castro Quini",
+        "city": "Gijon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 141,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/141.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 731,
+        "name": "Sporting Gijon",
+        "logo": "https://media.api-sports.io/football/teams/731.png",
+        "winner": false
+      },
+      "away": {
+        "id": 720,
+        "name": "Valladolid",
+        "logo": "https://media.api-sports.io/football/teams/720.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569995,
-      "referee": "Ojaos Valera, Alejandro",
+      "referee": "A. Ojaos",
       "timezone": "UTC",
       "date": "2026-11-01T15:15:00+00:00",
       "timestamp": 1793546100,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569962,
-      "referee": "S. Ais",
-      "timezone": "UTC",
-      "date": "2026-10-11T19:00:00+00:00",
-      "timestamp": 1791745200,
-      "periods": {
-        "first": 1791745200,
-        "second": 1791748800
-      },
-      "venue": {
-        "id": 11915,
-        "name": "JP Financial Estadio",
-        "city": "Cadiz"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 724,
-        "name": "Cadiz",
-        "logo": "https://media.api-sports.io/football/teams/724.png",
-        "winner": false
-      },
-      "away": {
-        "id": 731,
-        "name": "Sporting Gijon",
-        "logo": "https://media.api-sports.io/football/teams/731.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1501526,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T12:00:00+00:00",
+      "timestamp": 1794139200,
+      "periods": {
+        "first": 1794139200,
+        "second": 1794142800
+      },
+      "venue": {
+        "id": null,
+        "name": "Umea Energi Arena",
+        "city": "Umea"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 736,
+      "name": "Elitettan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/736.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11081,
+        "name": "Ume\u00e5 W",
+        "logo": "https://media.api-sports.io/football/teams/11081.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16001,
+        "name": "Alings\u00e5s W",
+        "logo": "https://media.api-sports.io/football/teams/16001.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1501519,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1501490,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:00:00+00:00",
-      "timestamp": 1790424000,
-      "periods": {
-        "first": 1790424000,
-        "second": 1790427600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 736,
-      "name": "Elitettan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/736.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15957,
-        "name": "Sandviken W",
-        "logo": "https://media.api-sports.io/football/teams/15957.png",
-        "winner": false
-      },
-      "away": {
-        "id": 11081,
-        "name": "Ume\u00e5 W",
-        "logo": "https://media.api-sports.io/football/teams/11081.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

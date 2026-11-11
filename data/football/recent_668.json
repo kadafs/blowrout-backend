@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562115,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": 4040,
+        "name": "Shamrock Park",
+        "city": "Portadown"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5348,
+        "name": "Portadown",
+        "logo": "https://media.api-sports.io/football/teams/5348.png",
+        "winner": null
+      },
+      "away": {
+        "id": 668,
+        "name": "Ballymena United",
+        "logo": "https://media.api-sports.io/football/teams/668.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562104,
       "referee": "M. McKenna",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562082,
-      "referee": "S. Gregg",
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": 1169,
-        "name": "Solitude",
-        "city": "Belfast"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2266,
-        "name": "Cliftonville FC",
-        "logo": "https://media.api-sports.io/football/teams/2266.png",
-        "winner": false
-      },
-      "away": {
-        "id": 668,
-        "name": "Ballymena United",
-        "logo": "https://media.api-sports.io/football/teams/668.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

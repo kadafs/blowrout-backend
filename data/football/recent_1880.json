@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1601283,
+      "referee": "M. Maresca",
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": 942,
+        "name": "Stadio Libero Liberati",
+        "city": "Terni"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 139,
+      "name": "Serie A Women",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/139.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 23669,
+        "name": "Ternana W",
+        "logo": "https://media.api-sports.io/football/teams/23669.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1880,
+        "name": "Fiorentina W",
+        "logo": "https://media.api-sports.io/football/teams/1880.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601274,
-      "referee": "Marco Melloni, Italy",
+      "referee": "M. Melloni",
       "timezone": "UTC",
       "date": "2026-11-02T19:30:00+00:00",
       "timestamp": 1793647800,
@@ -12,8 +82,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Stadio Gino Bozzi",
-        "city": "Florence"
+        "name": "Curva Fiesole - Viola Park",
+        "city": "Bagno a Ripoli"
       },
       "status": {
         "long": "Match Finished",
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1601271,
-      "referee": "Cosimo Papi, Italy",
+      "referee": "C. Papi",
       "timezone": "UTC",
       "date": "2026-10-25T17:00:00+00:00",
       "timestamp": 1792947600,
@@ -142,7 +212,7 @@
   {
     "fixture": {
       "id": 1601261,
-      "referee": "Francesco Aloise, Italy",
+      "referee": "F. Aloise",
       "timezone": "UTC",
       "date": "2026-10-17T13:00:00+00:00",
       "timestamp": 1792242000,
@@ -212,7 +282,7 @@
   {
     "fixture": {
       "id": 1601257,
-      "referee": "Cataldo Zito, Italy",
+      "referee": "C. Zito",
       "timezone": "UTC",
       "date": "2026-10-03T13:00:00+00:00",
       "timestamp": 1791032400,
@@ -222,8 +292,8 @@
       },
       "venue": {
         "id": null,
-        "name": "Stadio Gino Bozzi",
-        "city": "Florence"
+        "name": "Curva Fiesole - Viola Park",
+        "city": "Bagno a Ripoli"
       },
       "status": {
         "long": "Match Finished",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601249,
-      "referee": "L. Massari",
-      "timezone": "UTC",
-      "date": "2026-09-27T11:00:00+00:00",
-      "timestamp": 1790506800,
-      "periods": {
-        "first": 1790506800,
-        "second": 1790510400
-      },
-      "venue": {
-        "id": 6550,
-        "name": "Stadio Ernesto Breda",
-        "city": "Sesto San Giovanni"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 139,
-      "name": "Serie A Women",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/139.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7533,
-        "name": "Inter Milano W",
-        "logo": "https://media.api-sports.io/football/teams/7533.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1880,
-        "name": "Fiorentina W",
-        "logo": "https://media.api-sports.io/football/teams/1880.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
         "away": 0
       },
       "fulltime": {

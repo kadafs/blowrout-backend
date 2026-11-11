@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1551870,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T19:00:00+00:00",
+      "timestamp": 1793991600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11906,
+        "name": "Polman Stadion",
+        "city": "Armello"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 89,
+      "name": "Eerste Divisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/89.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 206,
+        "name": "Heracles",
+        "logo": "https://media.api-sports.io/football/teams/206.png",
+        "winner": true
+      },
+      "away": {
+        "id": 414,
+        "name": "Roda",
+        "logo": "https://media.api-sports.io/football/teams/414.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1551861,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1551836,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-09T18:00:00+00:00",
-      "timestamp": 1791568800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 1146,
-        "name": "Parkstad Limburg",
-        "city": "Kerkrade"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 89,
-      "name": "Eerste Divisie",
-      "country": "Netherlands",
-      "logo": "https://media.api-sports.io/football/leagues/89.png",
-      "flag": "https://media.api-sports.io/flags/nl.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 414,
-        "name": "Roda",
-        "logo": "https://media.api-sports.io/football/teams/414.png",
-        "winner": null
-      },
-      "away": {
-        "id": 411,
-        "name": "Jong PSV U21",
-        "logo": "https://media.api-sports.io/football/teams/411.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

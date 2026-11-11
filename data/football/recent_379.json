@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1534504,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T10:00:00+00:00",
+      "timestamp": 1794045600,
+      "periods": {
+        "first": 1794045600,
+        "second": 1794049200
+      },
+      "venue": {
+        "id": 169,
+        "name": "RCOP-BGU Stadium",
+        "city": "Minsk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 117,
+      "name": "1. Division",
+      "country": "Belarus",
+      "logo": "https://media.api-sports.io/football/leagues/117.png",
+      "flag": "https://media.api-sports.io/flags/by.svg",
+      "season": 2026,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11266,
+        "name": "Dinamo Minsk II",
+        "logo": "https://media.api-sports.io/football/teams/11266.png",
+        "winner": false
+      },
+      "away": {
+        "id": 379,
+        "name": "FC Slutsk",
+        "logo": "https://media.api-sports.io/football/teams/379.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1534495,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1534461,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T12:30:00+00:00",
-      "timestamp": 1791030600,
-      "periods": {
-        "first": 1791030600,
-        "second": 1791034200
-      },
-      "venue": {
-        "id": null,
-        "name": "Molodechno Haradzki Stadion",
-        "city": "Molodechno"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 117,
-      "name": "1. Division",
-      "country": "Belarus",
-      "logo": "https://media.api-sports.io/football/leagues/117.png",
-      "flag": "https://media.api-sports.io/flags/by.svg",
-      "season": 2026,
-      "round": "Regular Season - 27",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7798,
-        "name": "Molodechno-DYuSSh 4",
-        "logo": "https://media.api-sports.io/football/teams/7798.png",
-        "winner": false
-      },
-      "away": {
-        "id": 379,
-        "name": "FC Slutsk",
-        "logo": "https://media.api-sports.io/football/teams/379.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

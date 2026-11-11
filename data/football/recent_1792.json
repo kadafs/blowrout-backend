@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557312,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T19:00:00+00:00",
+      "timestamp": 1793991600,
+      "periods": {
+        "first": 1793991600,
+        "second": 1793995200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 146,
+      "name": "Super League Women",
+      "country": "Belgium",
+      "logo": "https://media.api-sports.io/football/leagues/146.png",
+      "flag": "https://media.api-sports.io/flags/be.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1786,
+        "name": "Genk W",
+        "logo": "https://media.api-sports.io/football/teams/1786.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1792,
+        "name": "Anderlecht W",
+        "logo": "https://media.api-sports.io/football/teams/1792.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557310,
       "referee": null,
       "timezone": "UTC",
@@ -263,76 +333,6 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557294,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-19T17:00:00+00:00",
-      "timestamp": 1789837200,
-      "periods": {
-        "first": 1789837200,
-        "second": 1789840800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 146,
-      "name": "Super League Women",
-      "country": "Belgium",
-      "logo": "https://media.api-sports.io/football/leagues/146.png",
-      "flag": "https://media.api-sports.io/flags/be.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1792,
-        "name": "Anderlecht W",
-        "logo": "https://media.api-sports.io/football/teams/1792.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14035,
-        "name": "Zulte-Waregem W",
-        "logo": "https://media.api-sports.io/football/teams/14035.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
         "away": 0
       },
       "fulltime": {

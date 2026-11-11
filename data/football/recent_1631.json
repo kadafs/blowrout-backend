@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586631,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": 2702,
+        "name": "Edmund-Plambeck-Stadion",
+        "city": "Norderstedt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 84,
+      "name": "Regionalliga - Nord",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/84.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "North - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1631,
+        "name": "Eintracht Norderstedt",
+        "logo": "https://media.api-sports.io/football/teams/1631.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1623,
+        "name": "SV Drochtersen/Assel",
+        "logo": "https://media.api-sports.io/football/teams/1623.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586625,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586569,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-20T12:00:00+00:00",
-      "timestamp": 1789905600,
-      "periods": {
-        "first": 1789905600,
-        "second": 1789909200
-      },
-      "venue": {
-        "id": 2702,
-        "name": "Edmund-Plambeck-Stadion",
-        "city": "Norderstedt"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 84,
-      "name": "Regionalliga - Nord",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/84.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "North - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1631,
-        "name": "Eintracht Norderstedt",
-        "logo": "https://media.api-sports.io/football/teams/1631.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1330,
-        "name": "Werder Bremen II",
-        "logo": "https://media.api-sports.io/football/teams/1330.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610146,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 600,
+      "name": "1. Liga Classic - Group 2",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/600.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Group 2 - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12710,
+        "name": "Zug",
+        "logo": "https://media.api-sports.io/football/teams/12710.png",
+        "winner": false
+      },
+      "away": {
+        "id": 12708,
+        "name": "Sch\u00f6tz",
+        "logo": "https://media.api-sports.io/football/teams/12708.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610136,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610113,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:15:00+00:00",
-      "timestamp": 1790792100,
-      "periods": {
-        "first": 1790792100,
-        "second": 1790795700
-      },
-      "venue": {
-        "id": 2922,
-        "name": "Stadion Niedermatten",
-        "city": "Wohlen"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 600,
-      "name": "1. Liga Classic - Group 2",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/600.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 2 - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2183,
-        "name": "FC Wohlen",
-        "logo": "https://media.api-sports.io/football/teams/2183.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12708,
-        "name": "Sch\u00f6tz",
-        "logo": "https://media.api-sports.io/football/teams/12708.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 5
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 5
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1586630,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 84,
+      "name": "Regionalliga - Nord",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/84.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "North - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9339,
+        "name": "HSC Hannover",
+        "logo": "https://media.api-sports.io/football/teams/9339.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1655,
+        "name": "SSV Jeddeloh",
+        "logo": "https://media.api-sports.io/football/teams/1655.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1586619,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1586586,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T12:00:00+00:00",
-      "timestamp": 1791115200,
-      "periods": {
-        "first": 1791115200,
-        "second": 1791118800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 84,
-      "name": "Regionalliga - Nord",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/84.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "North - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9339,
-        "name": "HSC Hannover",
-        "logo": "https://media.api-sports.io/football/teams/9339.png",
-        "winner": true
-      },
-      "away": {
-        "id": 19475,
-        "name": "Sch\u00f6ningen",
-        "logo": "https://media.api-sports.io/football/teams/19475.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

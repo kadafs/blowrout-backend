@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1567389,
+      "referee": "R. Eley",
+      "timezone": "UTC",
+      "date": "2026-08-08T14:00:00+00:00",
+      "timestamp": 1786197600,
+      "periods": {
+        "first": 1786197600,
+        "second": 1786201200
+      },
+      "venue": {
+        "id": null,
+        "name": "Oakwell",
+        "city": "Barnsley"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 48,
+      "name": "League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/48.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 747,
+        "name": "Barnsley",
+        "logo": "https://media.api-sports.io/football/teams/747.png",
+        "winner": true
+      },
+      "away": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": 6,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1387548,
       "referee": "R. Martin",
       "timezone": "UTC",
@@ -11,7 +81,7 @@
         "second": 1773781200
       },
       "venue": {
-        "id": 497,
+        "id": null,
         "name": "Oakwell",
         "city": "Barnsley"
       },
@@ -81,7 +151,7 @@
         "second": 1767283200
       },
       "venue": {
-        "id": 0,
+        "id": null,
         "name": "The Brick Community Stadium",
         "city": "Wigan"
       },
@@ -276,76 +346,6 @@
       "penalty": {
         "home": null,
         "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1218737,
-      "referee": "W. Finnie",
-      "timezone": "UTC",
-      "date": "2024-08-13T18:45:00+00:00",
-      "timestamp": 1723574700,
-      "periods": {
-        "first": 1723574700,
-        "second": 1723578300
-      },
-      "venue": {
-        "id": null,
-        "name": "The Brick Community Stadium",
-        "city": "Wigan"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "PEN",
-        "elapsed": 120,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 48,
-      "name": "League Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/48.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2024,
-      "round": "1st Round",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 61,
-        "name": "Wigan",
-        "logo": "https://media.api-sports.io/football/teams/61.png",
-        "winner": false
-      },
-      "away": {
-        "id": 747,
-        "name": "Barnsley",
-        "logo": "https://media.api-sports.io/football/teams/747.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalty": {
-        "home": 2,
-        "away": 4
       }
     }
   }

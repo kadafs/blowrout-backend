@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638240,
+      "referee": "R. Abatti",
+      "timezone": "UTC",
+      "date": "2026-11-07T21:00:00+00:00",
+      "timestamp": 1794085200,
+      "periods": {
+        "first": 1794085200,
+        "second": 1794088800
+      },
+      "venue": {
+        "id": 21427,
+        "name": "MRV Arena",
+        "city": "Belo Horizonte"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 73,
+      "name": "Copa Do Brasil",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/73.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1062,
+        "name": "Atletico-MG",
+        "logo": "https://media.api-sports.io/football/teams/1062.png",
+        "winner": null
+      },
+      "away": {
+        "id": 130,
+        "name": "Gremio",
+        "logo": "https://media.api-sports.io/football/teams/130.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492441,
       "referee": "L. Casagrande",
       "timezone": "UTC",
@@ -72,13 +142,13 @@
   {
     "fixture": {
       "id": 1638239,
-      "referee": "Davi de Oliveira Lacerda",
+      "referee": "D. Lacerda",
       "timezone": "UTC",
       "date": "2026-11-01T21:30:00+00:00",
       "timestamp": 1793568600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1793568600,
+        "second": 1793572200
       },
       "venue": {
         "id": 241,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1640558,
-      "referee": "Cristian Garay",
-      "timezone": "UTC",
-      "date": "2026-10-21T22:00:00+00:00",
-      "timestamp": 1792620000,
-      "periods": {
-        "first": 1792620000,
-        "second": 1792623600
-      },
-      "venue": {
-        "id": 1624,
-        "name": "Estadio Centenario",
-        "city": "Montevideo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 11,
-      "name": "CONMEBOL Sudamericana",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/11.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Semi-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2365,
-        "name": "Atletico Torque",
-        "logo": "https://media.api-sports.io/football/teams/2365.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1062,
-        "name": "Atletico-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

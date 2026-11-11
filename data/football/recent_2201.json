@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1576004,
+      "referee": "M. James",
+      "timezone": "UTC",
+      "date": "2026-11-06T19:45:00+00:00",
+      "timestamp": 1793994300,
+      "periods": {
+        "first": 1793994300,
+        "second": 1793997900
+      },
+      "venue": {
+        "id": 19181,
+        "name": "Ammanford Recreation Ground",
+        "city": "Ammanford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 110,
+      "name": "Premier League",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/110.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2188,
+        "name": "Ammanford AFC",
+        "logo": "https://media.api-sports.io/football/teams/2188.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2201,
+        "name": "Briton Ferry",
+        "logo": "https://media.api-sports.io/football/teams/2201.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1575999,
       "referee": "N. Pratt",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1575974,
-      "referee": "S. Davies",
-      "timezone": "UTC",
-      "date": "2026-10-03T13:30:00+00:00",
-      "timestamp": 1791034200,
-      "periods": {
-        "first": 1791034200,
-        "second": 1791037800
-      },
-      "venue": {
-        "id": 1671,
-        "name": "Old Road",
-        "city": "Briton Ferry"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 110,
-      "name": "Premier League",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/110.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "Regular Season - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2201,
-        "name": "Briton Ferry",
-        "logo": "https://media.api-sports.io/football/teams/2201.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5611,
-        "name": "Colwyn Bay",
-        "logo": "https://media.api-sports.io/football/teams/5611.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

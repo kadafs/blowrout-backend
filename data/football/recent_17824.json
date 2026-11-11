@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608351,
+      "referee": "M. Melloni",
+      "timezone": "UTC",
+      "date": "2026-11-06T19:30:00+00:00",
+      "timestamp": 1793993400,
+      "periods": {
+        "first": 1793993400,
+        "second": 1793997000
+      },
+      "venue": {
+        "id": 6550,
+        "name": "Stadio Ferruccio",
+        "city": "Seregno"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17824,
+        "name": "Alcione",
+        "logo": "https://media.api-sports.io/football/teams/17824.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1689,
+        "name": "Lumezzane",
+        "logo": "https://media.api-sports.io/football/teams/1689.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608346,
       "referee": "G. Caruso",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608301,
-      "referee": "E. Gianquinto",
-      "timezone": "UTC",
-      "date": "2026-10-04T18:30:00+00:00",
-      "timestamp": 1791138600,
-      "periods": {
-        "first": 1791138600,
-        "second": 1791142200
-      },
-      "venue": {
-        "id": 6550,
-        "name": "Stadio Ernesto Breda",
-        "city": "Sesto San Giovanni"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17824,
-        "name": "Alcione",
-        "logo": "https://media.api-sports.io/football/teams/17824.png",
-        "winner": null
-      },
-      "away": {
-        "id": 17147,
-        "name": "Trento",
-        "logo": "https://media.api-sports.io/football/teams/17147.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 2
       },
       "extratime": {
         "home": null,

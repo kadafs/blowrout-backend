@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1564919,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T19:45:00+00:00",
+      "timestamp": 1793994300,
+      "periods": {
+        "first": 1793994300,
+        "second": 1793997900
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 407,
+      "name": "Championship",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/407.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5339,
+        "name": "Ballinamallard United",
+        "logo": "https://media.api-sports.io/football/teams/5339.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17241,
+        "name": "Rathfriland",
+        "logo": "https://media.api-sports.io/football/teams/17241.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1564912,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564878,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 407,
-      "name": "Championship",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/407.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5339,
-        "name": "Ballinamallard United",
-        "logo": "https://media.api-sports.io/football/teams/5339.png",
-        "winner": null
-      },
-      "away": {
-        "id": 5338,
-        "name": "Ards",
-        "logo": "https://media.api-sports.io/football/teams/5338.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1580558,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T14:30:00+00:00",
+      "timestamp": 1794061800,
+      "periods": {
+        "first": 1794061800,
+        "second": 1794065400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 111,
+      "name": "FAW Championship",
+      "country": "Wales",
+      "logo": "https://media.api-sports.io/football/leagues/111.png",
+      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
+      "season": 2026,
+      "round": "North - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5621,
+        "name": "Porthmadog",
+        "logo": "https://media.api-sports.io/football/teams/5621.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11303,
+        "name": "Llanuwchllyn",
+        "logo": "https://media.api-sports.io/football/teams/11303.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1580548,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1580522,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:30:00+00:00",
-      "timestamp": 1791034200,
-      "periods": {
-        "first": 1791034200,
-        "second": 1791037800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 111,
-      "name": "FAW Championship",
-      "country": "Wales",
-      "logo": "https://media.api-sports.io/football/leagues/111.png",
-      "flag": "https://media.api-sports.io/flags/gb-wls.svg",
-      "season": 2026,
-      "round": "North - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5616,
-        "name": "Guilsfield",
-        "logo": "https://media.api-sports.io/football/teams/5616.png",
-        "winner": true
-      },
-      "away": {
-        "id": 11303,
-        "name": "Llanuwchllyn",
-        "logo": "https://media.api-sports.io/football/teams/11303.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

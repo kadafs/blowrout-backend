@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648510,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:30:00+00:00",
+      "timestamp": 1794065400,
+      "periods": {
+        "first": 1794065400,
+        "second": 1794069000
+      },
+      "venue": {
+        "id": 21393,
+        "name": "Stade Banfora",
+        "city": "Banfora"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 423,
+      "name": "Ligue 1",
+      "country": "Burkina-Faso",
+      "logo": "https://media.api-sports.io/football/leagues/423.png",
+      "flag": "https://media.api-sports.io/flags/bf.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22017,
+        "name": "Sporting Cascades",
+        "logo": "https://media.api-sports.io/football/teams/22017.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8561,
+        "name": "RCK",
+        "logo": "https://media.api-sports.io/football/teams/8561.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647602,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643346,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T15:30:00+00:00",
-      "timestamp": 1791127800,
-      "periods": {
-        "first": 1791127800,
-        "second": 1791131400
-      },
-      "venue": {
-        "id": 21393,
-        "name": "Stade Banfora",
-        "city": "Banfora"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 423,
-      "name": "Ligue 1",
-      "country": "Burkina-Faso",
-      "logo": "https://media.api-sports.io/football/leagues/423.png",
-      "flag": "https://media.api-sports.io/flags/bf.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 22017,
-        "name": "Sporting Cascades",
-        "logo": "https://media.api-sports.io/football/teams/22017.png",
-        "winner": false
-      },
-      "away": {
-        "id": 28437,
-        "name": "FocuSport",
-        "logo": "https://media.api-sports.io/football/teams/28437.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 2,
         "away": 3
       },
       "extratime": {

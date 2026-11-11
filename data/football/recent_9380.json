@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644335,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:00:00+00:00",
+      "timestamp": 1794337200,
+      "periods": {
+        "first": 1794337200,
+        "second": 1794340800
+      },
+      "venue": {
+        "id": 12288,
+        "name": "Campo Municipal de Urritxe",
+        "city": "Amorebieta-Etxano"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 9380,
+        "name": "Amorebieta",
+        "logo": "https://media.api-sports.io/football/teams/9380.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5280,
+        "name": "UD Logro\u00f1\u00e9s",
+        "logo": "https://media.api-sports.io/football/teams/5280.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1572112,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 9380,
         "name": "Amorebieta",
         "logo": "https://media.api-sports.io/football/teams/9380.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1572076,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T16:00:00+00:00",
-      "timestamp": 1791648000,
-      "periods": {
-        "first": 1791648000,
-        "second": 1791651600
-      },
-      "venue": {
-        "id": null,
-        "name": "Campo Municipal de Urritxe",
-        "city": "Amorebieta-Etxano"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 875,
-      "name": "Segunda Divisi\u00f3n RFEF - Group 1",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/875.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 1 - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9380,
-        "name": "Amorebieta",
-        "logo": "https://media.api-sports.io/football/teams/9380.png",
-        "winner": false
-      },
-      "away": {
-        "id": 9408,
-        "name": "Portugalete",
-        "logo": "https://media.api-sports.io/football/teams/9408.png",
         "winner": true
       }
     },

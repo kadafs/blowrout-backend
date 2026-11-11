@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574413,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T16:30:00+00:00",
+      "timestamp": 1794069000,
+      "periods": {
+        "first": 1794069000,
+        "second": 1794072600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17441,
+        "name": "Lugano II",
+        "logo": "https://media.api-sports.io/football/teams/17441.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6652,
+        "name": "YF Juventus",
+        "logo": "https://media.api-sports.io/football/teams/6652.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574406,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574368,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17415,
-        "name": "Grand-Saconnex",
-        "logo": "https://media.api-sports.io/football/teams/17415.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6652,
-        "name": "YF Juventus",
-        "logo": "https://media.api-sports.io/football/teams/6652.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

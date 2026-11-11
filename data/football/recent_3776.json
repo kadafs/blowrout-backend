@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640353,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T08:30:00+00:00",
+      "timestamp": 1793953800,
+      "periods": {
+        "first": 1793953800,
+        "second": 1793957400
+      },
+      "venue": {
+        "id": 1940,
+        "name": "Deakin Stadium",
+        "city": "Canberra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1448,
+        "name": "Canberra FC",
+        "logo": "https://media.api-sports.io/football/teams/1448.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3776,
+        "name": "Sydney United",
+        "logo": "https://media.api-sports.io/football/teams/3776.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640348,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 6,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1517638,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-23T04:30:00+00:00",
-      "timestamp": 1787459400,
-      "periods": {
-        "first": 1787459400,
-        "second": 1787463000
-      },
-      "venue": {
-        "id": null,
-        "name": "Sydney United Sports Centre",
-        "city": "Sydney"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 192,
-      "name": "New South Wales NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/192.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3776,
-        "name": "Sydney United",
-        "logo": "https://media.api-sports.io/football/teams/3776.png",
-        "winner": null
-      },
-      "away": {
-        "id": 3764,
-        "name": "APIA Leichhardt Tigers",
-        "logo": "https://media.api-sports.io/football/teams/3764.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

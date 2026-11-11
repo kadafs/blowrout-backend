@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1549861,
+      "referee": "Jhon Alexander Ospina Londono, Colombia",
+      "timezone": "UTC",
+      "date": "2026-11-07T21:05:00+00:00",
+      "timestamp": 1794085500,
+      "periods": {
+        "first": 1794085500,
+        "second": 1794089100
+      },
+      "venue": {
+        "id": 384,
+        "name": "Estadio Palogrande",
+        "city": "Manizales"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 239,
+      "name": "Primera A",
+      "country": "Colombia",
+      "logo": "https://media.api-sports.io/football/leagues/239.png",
+      "flag": "https://media.api-sports.io/flags/co.svg",
+      "season": 2026,
+      "round": "Clausura - 18",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1136,
+        "name": "Once Caldas",
+        "logo": "https://media.api-sports.io/football/teams/1136.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1144,
+        "name": "\u00c1guilas Doradas",
+        "logo": "https://media.api-sports.io/football/teams/1144.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1549843,
       "referee": "Carlos Alberto Diaz Vargas, Colombia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1549745,
-      "referee": "J. Ortiz",
-      "timezone": "UTC",
-      "date": "2026-10-13T23:30:00+00:00",
-      "timestamp": 1791934200,
-      "periods": {
-        "first": 1791934200,
-        "second": 1791937800
-      },
-      "venue": {
-        "id": 21805,
-        "name": "Estadio Am\u00e9rico Montanini",
-        "city": "Bucaramanga"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 239,
-      "name": "Primera A",
-      "country": "Colombia",
-      "logo": "https://media.api-sports.io/football/leagues/239.png",
-      "flag": "https://media.api-sports.io/flags/co.svg",
-      "season": 2026,
-      "round": "Clausura - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1131,
-        "name": "Bucaramanga",
-        "logo": "https://media.api-sports.io/football/teams/1131.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1144,
-        "name": "\u00c1guilas Doradas",
-        "logo": "https://media.api-sports.io/football/teams/1144.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

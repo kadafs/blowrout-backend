@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1574409,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 510,
+      "name": "1. Liga Promotion",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/510.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10587,
+        "name": "Br\u00fchl",
+        "logo": "https://media.api-sports.io/football/teams/10587.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10586,
+        "name": "Breitenrain",
+        "logo": "https://media.api-sports.io/football/teams/10586.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1574406,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1574372,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 510,
-      "name": "1. Liga Promotion",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/510.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10587,
-        "name": "Br\u00fchl",
-        "logo": "https://media.api-sports.io/football/teams/10587.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17415,
-        "name": "Grand-Saconnex",
-        "logo": "https://media.api-sports.io/football/teams/17415.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1520960,
+      "referee": "Rafael Rodrigo Klein",
+      "timezone": "UTC",
+      "date": "2026-11-08T19:00:00+00:00",
+      "timestamp": 1794164400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10545,
+        "name": "Estadio Joaquim Portugal",
+        "city": "Sao Joao del-Rei"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 72,
+      "name": "Serie B",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/72.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 37",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 13975,
+        "name": "Athletic Club",
+        "logo": "https://media.api-sports.io/football/teams/13975.png",
+        "winner": false
+      },
+      "away": {
+        "id": 144,
+        "name": "Atletico Goianiense",
+        "logo": "https://media.api-sports.io/football/teams/144.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1520954,
       "referee": "Bruno Arleu",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1520913,
-      "referee": "Pierry Dias dos Santos, Brazil",
-      "timezone": "UTC",
-      "date": "2026-10-07T23:30:00+00:00",
-      "timestamp": 1791415800,
-      "periods": {
-        "first": 1791415800,
-        "second": 1791419400
-      },
-      "venue": {
-        "id": 232,
-        "name": "Est\u00e1dio Rei Pel\u00e9",
-        "city": "Maceio"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 72,
-      "name": "Serie B",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/72.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 32",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 146,
-        "name": "CRB",
-        "logo": "https://media.api-sports.io/football/teams/146.png",
-        "winner": true
-      },
-      "away": {
-        "id": 144,
-        "name": "Atletico Goianiense",
-        "logo": "https://media.api-sports.io/football/teams/144.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643059,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T12:55:00+00:00",
+      "timestamp": 1794142500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 7142,
+        "name": "Al Maktoum Stadium",
+        "city": "Dubai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 301,
+      "name": "Pro League",
+      "country": "United-Arab-Emirates",
+      "logo": "https://media.api-sports.io/football/leagues/301.png",
+      "flag": "https://media.api-sports.io/flags/ae.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10155,
+        "name": "Al Nasr",
+        "logo": "https://media.api-sports.io/football/teams/10155.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22321,
+        "name": "Dubai United",
+        "logo": "https://media.api-sports.io/football/teams/22321.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1645611,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639243,
-      "referee": "M. Alharmoodi",
-      "timezone": "UTC",
-      "date": "2026-10-08T15:45:00+00:00",
-      "timestamp": 1791474300,
-      "periods": {
-        "first": 1791474300,
-        "second": 1791477900
-      },
-      "venue": {
-        "id": 7142,
-        "name": "Al Maktoum Stadium",
-        "city": "Dubai"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 302,
-      "name": "League Cup",
-      "country": "United-Arab-Emirates",
-      "logo": "https://media.api-sports.io/football/leagues/302.png",
-      "flag": "https://media.api-sports.io/flags/ae.svg",
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10155,
-        "name": "Al Nasr",
-        "logo": "https://media.api-sports.io/football/teams/10155.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2869,
-        "name": "Hatta SC",
-        "logo": "https://media.api-sports.io/football/teams/2869.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

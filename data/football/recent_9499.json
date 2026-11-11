@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608734,
+      "referee": "S. Striamo",
+      "timezone": "UTC",
+      "date": "2026-11-08T11:30:00+00:00",
+      "timestamp": 1794137400,
+      "periods": {
+        "first": 1794137400,
+        "second": 1794141000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Carlo Zecchini",
+        "city": "Grosseto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 942,
+      "name": "Serie C - Girone B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/942.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone B - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9499,
+        "name": "Grosseto",
+        "logo": "https://media.api-sports.io/football/teams/9499.png",
+        "winner": false
+      },
+      "away": {
+        "id": 525,
+        "name": "Pescara",
+        "logo": "https://media.api-sports.io/football/teams/525.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608730,
       "referee": "A. Di Reda",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608683,
-      "referee": "G. Totaro",
-      "timezone": "UTC",
-      "date": "2026-10-03T15:30:00+00:00",
-      "timestamp": 1791041400,
-      "periods": {
-        "first": 1791041400,
-        "second": 1791045000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Carlo Zecchini",
-        "city": "Grosseto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 942,
-      "name": "Serie C - Girone B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/942.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone B - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9499,
-        "name": "Grosseto",
-        "logo": "https://media.api-sports.io/football/teams/9499.png",
-        "winner": false
-      },
-      "away": {
-        "id": 871,
-        "name": "Sambenedettese",
-        "logo": "https://media.api-sports.io/football/teams/871.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
         "away": 3
       },
       "extratime": {

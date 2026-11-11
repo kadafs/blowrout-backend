@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1649439,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T18:00:00+00:00",
+      "timestamp": 1794333600,
+      "periods": {
+        "first": 1794333600,
+        "second": 1794337200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 622,
+      "name": "Pernambucano - 1",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/622.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2027,
+      "round": "Semi-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 22821,
+        "name": "Jaguar\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/22821.png",
+        "winner": false
+      },
+      "away": {
+        "id": 24121,
+        "name": "Ipojuca",
+        "logo": "https://media.api-sports.io/football/teams/24121.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643323,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643278,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-21T18:30:00+00:00",
-      "timestamp": 1792607400,
-      "periods": {
-        "first": 1792607400,
-        "second": 1792611000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 622,
-      "name": "Pernambucano - 1",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/622.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2027,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24121,
-        "name": "Ipojuca",
-        "logo": "https://media.api-sports.io/football/teams/24121.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7857,
-        "name": "Guarany de Sobral",
-        "logo": "https://media.api-sports.io/football/teams/7857.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

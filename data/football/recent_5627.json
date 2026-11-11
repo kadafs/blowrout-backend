@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593009,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-04T08:30:00+00:00",
+      "timestamp": 1793781000,
+      "periods": {
+        "first": 1793781000,
+        "second": 1793784600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 336,
+      "name": "Druha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/336.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17167,
+        "name": "Trostianets",
+        "logo": "https://media.api-sports.io/football/teams/17167.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5627,
+        "name": "Metalurh Zaporizhya",
+        "logo": "https://media.api-sports.io/football/teams/5627.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593065,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593033,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T11:30:00+00:00",
-      "timestamp": 1791113400,
-      "periods": {
-        "first": 1791113400,
-        "second": 1791117000
-      },
-      "venue": {
-        "id": null,
-        "name": "Slavutych-Arena",
-        "city": "Zaporizhia"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 336,
-      "name": "Druha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/336.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5627,
-        "name": "Metalurh Zaporizhya",
-        "logo": "https://media.api-sports.io/football/teams/5627.png",
-        "winner": false
-      },
-      "away": {
-        "id": 26451,
-        "name": "Karbon Cherkasy",
-        "logo": "https://media.api-sports.io/football/teams/26451.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

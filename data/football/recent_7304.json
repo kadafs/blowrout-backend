@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562692,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky stadion Strelnice",
+        "city": "Domazlice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 348,
+      "name": "3. liga - CFL A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/348.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 14",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7304,
+        "name": "Jiskra Doma\u017elice",
+        "logo": "https://media.api-sports.io/football/teams/7304.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7334,
+        "name": "P\u00edsek",
+        "logo": "https://media.api-sports.io/football/teams/7334.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562686,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562651,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T08:15:00+00:00",
-      "timestamp": 1791101700,
-      "periods": {
-        "first": 1791101700,
-        "second": 1791105300
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadium Admira Prague",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 348,
-      "name": "3. liga - CFL A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/348.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 7268,
-        "name": "Admira Praha",
-        "logo": "https://media.api-sports.io/football/teams/7268.png",
-        "winner": null
-      },
-      "away": {
-        "id": 7304,
-        "name": "Jiskra Doma\u017elice",
-        "logo": "https://media.api-sports.io/football/teams/7304.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 4
       },
       "extratime": {
         "home": null,

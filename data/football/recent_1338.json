@@ -1,14 +1,84 @@
 [
   {
     "fixture": {
+      "id": 1588866,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:00:00+00:00",
+      "timestamp": 1794337200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 569,
+        "name": "Kassam Stadium",
+        "city": "Oxford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group South - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1338,
+        "name": "Oxford United",
+        "logo": "https://media.api-sports.io/football/teams/1338.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1372,
+        "name": "Cheltenham",
+        "logo": "https://media.api-sports.io/football/teams/1372.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646812,
       "referee": null,
       "timezone": "UTC",
       "date": "2026-11-07T15:00:00+00:00",
       "timestamp": 1794063600,
       "periods": {
-        "first": null,
-        "second": null
+        "first": 1794063600,
+        "second": 1794067200
       },
       "venue": {
         "id": 569,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1564388,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-24T14:00:00+00:00",
-      "timestamp": 1792850400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 569,
-        "name": "Kassam Stadium",
-        "city": "Oxford"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 41,
-      "name": "League One",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/41.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1338,
-        "name": "Oxford United",
-        "logo": "https://media.api-sports.io/football/teams/1338.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1343,
-        "name": "Bradford",
-        "logo": "https://media.api-sports.io/football/teams/1343.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

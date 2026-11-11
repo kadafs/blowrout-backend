@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1492443,
+      "referee": "Lucas Paulo Torezin, Brazil",
+      "timezone": "UTC",
+      "date": "2026-11-03T22:30:00+00:00",
+      "timestamp": 1793745000,
+      "periods": {
+        "first": 1793745000,
+        "second": 1793748600
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Cond\u00e1",
+        "city": "Chapec\u00f3"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 71,
+      "name": "Serie A",
+      "country": "Brazil",
+      "logo": "https://media.api-sports.io/football/leagues/71.png",
+      "flag": "https://media.api-sports.io/flags/br.svg",
+      "season": 2026,
+      "round": "Regular Season - 34",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 132,
+        "name": "Chapecoense-sc",
+        "logo": "https://media.api-sports.io/football/teams/132.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7848,
+        "name": "Mirassol",
+        "logo": "https://media.api-sports.io/football/teams/7848.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1492432,
       "referee": "Wagner do Nascimento Magalhaes, Brazil",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1492399,
-      "referee": "Edina Alves Batista, Brazil",
-      "timezone": "UTC",
-      "date": "2026-10-07T23:00:00+00:00",
-      "timestamp": 1791414000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 281,
-        "name": "Barradao",
-        "city": "Salvador"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 71,
-      "name": "Serie A",
-      "country": "Brazil",
-      "logo": "https://media.api-sports.io/football/leagues/71.png",
-      "flag": "https://media.api-sports.io/flags/br.svg",
-      "season": 2026,
-      "round": "Regular Season - 29",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 136,
-        "name": "Vitoria",
-        "logo": "https://media.api-sports.io/football/teams/136.png",
-        "winner": true
-      },
-      "away": {
-        "id": 132,
-        "name": "Chapecoense-sc",
-        "logo": "https://media.api-sports.io/football/teams/132.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 0
       },
       "extratime": {
         "home": null,

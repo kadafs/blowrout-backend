@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562329,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T09:15:00+00:00",
+      "timestamp": 1794042900,
+      "periods": {
+        "first": 1794042900,
+        "second": 1794046500
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 350,
+      "name": "4. liga - Divizie A",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/350.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group A - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19432,
+        "name": "Slavoj \u010cesk\u00fd Krumlov",
+        "logo": "https://media.api-sports.io/football/teams/19432.png",
+        "winner": false
+      },
+      "away": {
+        "id": 19639,
+        "name": "Jiskra Doma\u017elice II",
+        "logo": "https://media.api-sports.io/football/teams/19639.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562325,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562286,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T14:30:00+00:00",
-      "timestamp": 1790519400,
-      "periods": {
-        "first": 1790519400,
-        "second": 1790523000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 350,
-      "name": "4. liga - Divizie A",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/350.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group A - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21499,
-        "name": "Strakonice",
-        "logo": "https://media.api-sports.io/football/teams/21499.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19432,
-        "name": "Slavoj \u010cesk\u00fd Krumlov",
-        "logo": "https://media.api-sports.io/football/teams/19432.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 3
       },
       "extratime": {
         "home": null,

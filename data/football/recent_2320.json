@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1505561,
+      "referee": "Francisco Gilabert",
+      "timezone": "UTC",
+      "date": "2026-11-08T23:00:00+00:00",
+      "timestamp": 1794178800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 346,
+        "name": "Estadio Municipal Ester Roa Concepcion",
+        "city": "Concepcion"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 265,
+      "name": "Primera Divisi\u00f3n",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/265.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Regular Season - 27",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2324,
+        "name": "Universidad de Concepcion",
+        "logo": "https://media.api-sports.io/football/teams/2324.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2320,
+        "name": "O'Higgins",
+        "logo": "https://media.api-sports.io/football/teams/2320.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1505553,
       "referee": "Mathias Riquelme",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1643184,
-      "referee": "C. Garay",
-      "timezone": "UTC",
-      "date": "2026-09-30T23:00:00+00:00",
-      "timestamp": 1790809200,
-      "periods": {
-        "first": 1790809200,
-        "second": 1790812800
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Ester Roa",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 267,
-      "name": "Copa Chile",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/267.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 5635,
-        "name": "Concepci\u00f3n",
-        "logo": "https://media.api-sports.io/football/teams/5635.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2320,
-        "name": "O'Higgins",
-        "logo": "https://media.api-sports.io/football/teams/2320.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

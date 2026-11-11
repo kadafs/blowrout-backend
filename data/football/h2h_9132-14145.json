@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1410932,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-04-01T17:00:00+00:00",
+      "timestamp": 1775062800,
+      "periods": {
+        "first": 1775062800,
+        "second": 1775066400
+      },
+      "venue": {
+        "id": 11355,
+        "name": "Stadion KS Polonia Nysa",
+        "city": "Nysa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 782,
+      "name": "III Liga - Group 3",
+      "country": "Poland",
+      "logo": "https://media.api-sports.io/football/leagues/782.png",
+      "flag": "https://media.api-sports.io/flags/pl.svg",
+      "season": 2025,
+      "round": "Group III - 19",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14145,
+        "name": "Polonia Nysa",
+        "logo": "https://media.api-sports.io/football/teams/14145.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9132,
+        "name": "G\u00f3rnik Polkowice",
+        "logo": "https://media.api-sports.io/football/teams/9132.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1508228,
       "referee": null,
       "timezone": "UTC",
@@ -29,7 +99,7 @@
       "logo": "https://media.api-sports.io/football/leagues/667.png",
       "flag": null,
       "season": 2026,
-      "round": "Club Friendlies",
+      "round": "Club Friendly",
       "standings": false
     },
     "teams": {

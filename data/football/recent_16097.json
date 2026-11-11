@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1604298,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 749,
+      "name": "Oberliga - Bremen",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/749.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Bremen - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12783,
+        "name": "Hemelingen",
+        "logo": "https://media.api-sports.io/football/teams/12783.png",
+        "winner": true
+      },
+      "away": {
+        "id": 16097,
+        "name": "Werder Bremen III",
+        "logo": "https://media.api-sports.io/football/teams/16097.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604287,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604253,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-25T17:30:00+00:00",
-      "timestamp": 1790357400,
-      "periods": {
-        "first": 1790357400,
-        "second": 1790361000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 749,
-      "name": "Oberliga - Bremen",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/749.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Bremen - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16097,
-        "name": "Werder Bremen III",
-        "logo": "https://media.api-sports.io/football/teams/16097.png",
-        "winner": null
-      },
-      "away": {
-        "id": 1644,
-        "name": "Leher TS",
-        "logo": "https://media.api-sports.io/football/teams/1644.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

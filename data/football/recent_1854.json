@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638308,
+      "referee": "Marta Huerta de Aza",
+      "timezone": "UTC",
+      "date": "2026-11-10T20:00:00+00:00",
+      "timestamp": 1794340800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Felice Chinetti Stadium",
+        "city": "Varese"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 525,
+      "name": "UEFA Champions League Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/525.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7533,
+        "name": "Inter Milano W",
+        "logo": "https://media.api-sports.io/football/teams/7533.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1854,
+        "name": "Manchester City W",
+        "logo": "https://media.api-sports.io/football/teams/1854.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1607723,
       "referee": "Megan Wilson",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1607704,
-      "referee": "Leigh Doughty",
-      "timezone": "UTC",
-      "date": "2026-10-18T13:30:00+00:00",
-      "timestamp": 1792330200,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 11118,
-        "name": "Manchester Regional Arena",
-        "city": "Manchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 44,
-      "name": "FA WSL",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/44.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1854,
-        "name": "Manchester City W",
-        "logo": "https://media.api-sports.io/football/teams/1854.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1857,
-        "name": "Brighton W",
-        "logo": "https://media.api-sports.io/football/teams/1857.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 3,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

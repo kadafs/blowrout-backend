@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562562,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": 1794056400,
+        "second": 1794060000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 352,
+      "name": "4. liga - Divizie C",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/352.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group C - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7367,
+        "name": "Trutnov",
+        "logo": "https://media.api-sports.io/football/teams/7367.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7281,
+        "name": "Chlumec nad Cidlinou",
+        "logo": "https://media.api-sports.io/football/teams/7281.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562550,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562522,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T08:15:00+00:00",
-      "timestamp": 1791101700,
-      "periods": {
-        "first": 1791101700,
-        "second": 1791105300
-      },
-      "venue": {
-        "id": null,
-        "name": "Mestsky Stadion Chlumec",
-        "city": "Chlumec nad Cidlinou"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 352,
-      "name": "4. liga - Divizie C",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/352.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group C - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 7281,
-        "name": "Chlumec nad Cidlinou",
-        "logo": "https://media.api-sports.io/football/teams/7281.png",
-        "winner": true
-      },
-      "away": {
-        "id": 7295,
-        "name": "Hlinsko",
-        "logo": "https://media.api-sports.io/football/teams/7295.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 0
       },
       "extratime": {

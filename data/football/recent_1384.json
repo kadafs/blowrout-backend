@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557074,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": 1400,
+        "name": "Palmerston Park",
+        "city": "Dumfries"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 183,
+      "name": "League One",
+      "country": "Scotland",
+      "logo": "https://media.api-sports.io/football/leagues/183.png",
+      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1384,
+        "name": "Queen of the South",
+        "logo": "https://media.api-sports.io/football/teams/1384.png",
+        "winner": false
+      },
+      "away": {
+        "id": 6765,
+        "name": "East Kilbride",
+        "logo": "https://media.api-sports.io/football/teams/6765.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646395,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593632,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-13T18:45:00+00:00",
-      "timestamp": 1791917100,
-      "periods": {
-        "first": 1791917100,
-        "second": 1791920700
-      },
-      "venue": {
-        "id": null,
-        "name": "Shielfield Park",
-        "city": "Berwick"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 182,
-      "name": "Challenge Cup",
-      "country": "Scotland",
-      "logo": "https://media.api-sports.io/football/leagues/182.png",
-      "flag": "https://media.api-sports.io/flags/gb-sct.svg",
-      "season": 2026,
-      "round": "Group Stage - 6",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6759,
-        "name": "Berwick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/6759.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1384,
-        "name": "Queen of the South",
-        "logo": "https://media.api-sports.io/football/teams/1384.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

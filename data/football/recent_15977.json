@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1566631,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:30:00+00:00",
+      "timestamp": 1794058200,
+      "periods": {
+        "first": 1794058200,
+        "second": 1794061800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 733,
+      "name": "I Liga - Women",
+      "country": "Slovakia",
+      "logo": "https://media.api-sports.io/football/leagues/733.png",
+      "flag": "https://media.api-sports.io/flags/sk.svg",
+      "season": 2026,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 15977,
+        "name": "Dukla Bansk\u00e1 Bystrica W",
+        "logo": "https://media.api-sports.io/football/teams/15977.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10924,
+        "name": "Slovan Bratislava W",
+        "logo": "https://media.api-sports.io/football/teams/10924.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1566626,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1566611,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-26T12:30:00+00:00",
-      "timestamp": 1790425800,
-      "periods": {
-        "first": 1790425800,
-        "second": 1790429400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Bratislava"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 733,
-      "name": "I Liga - Women",
-      "country": "Slovakia",
-      "logo": "https://media.api-sports.io/football/leagues/733.png",
-      "flag": "https://media.api-sports.io/flags/sk.svg",
-      "season": 2026,
-      "round": "Regular Season - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 15980,
-        "name": "Petr\u017ealka W",
-        "logo": "https://media.api-sports.io/football/teams/15980.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15977,
-        "name": "Dukla Bansk\u00e1 Bystrica W",
-        "logo": "https://media.api-sports.io/football/teams/15977.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

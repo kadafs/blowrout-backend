@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562559,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportovni areal Brankovicka",
+        "city": "Kolin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 352,
+      "name": "4. liga - Divizie C",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/352.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group C - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 7309,
+        "name": "Kol\u00edn",
+        "logo": "https://media.api-sports.io/football/teams/7309.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21648,
+        "name": "Slavia Hradec Kr\u00e1lov\u00e9",
+        "logo": "https://media.api-sports.io/football/teams/21648.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562552,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562523,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 352,
-      "name": "4. liga - Divizie C",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/352.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group C - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14004,
-        "name": "Kosmonosy",
-        "logo": "https://media.api-sports.io/football/teams/14004.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21648,
-        "name": "Slavia Hradec Kr\u00e1lov\u00e9",
-        "logo": "https://media.api-sports.io/football/teams/21648.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
         "away": 1
       },
       "extratime": {

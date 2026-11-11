@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1628582,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": 1794150000,
+        "second": 1794153600
+      },
+      "venue": {
+        "id": 3908,
+        "name": "Umuahia Township Stadium",
+        "city": "Umuahia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 399,
+      "name": "NPFL",
+      "country": "Nigeria",
+      "logo": "https://media.api-sports.io/football/leagues/399.png",
+      "flag": "https://media.api-sports.io/flags/ng.svg",
+      "season": 2027,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5171,
+        "name": "Abia Warriors",
+        "logo": "https://media.api-sports.io/football/teams/5171.png",
+        "winner": null
+      },
+      "away": {
+        "id": 20809,
+        "name": "Doma United",
+        "logo": "https://media.api-sports.io/football/teams/20809.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1628571,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1628525,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T15:00:00+00:00",
-      "timestamp": 1790521200,
-      "periods": {
-        "first": 1790521200,
-        "second": 1790524800
-      },
-      "venue": {
-        "id": 3918,
-        "name": "Muhammadu Dikko Stadium",
-        "city": "Katsina"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 399,
-      "name": "NPFL",
-      "country": "Nigeria",
-      "logo": "https://media.api-sports.io/football/leagues/399.png",
-      "flag": "https://media.api-sports.io/flags/ng.svg",
-      "season": 2027,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5184,
-        "name": "Katsina United",
-        "logo": "https://media.api-sports.io/football/teams/5184.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20809,
-        "name": "Doma United",
-        "logo": "https://media.api-sports.io/football/teams/20809.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

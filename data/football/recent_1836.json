@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619528,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-03T19:45:00+00:00",
+      "timestamp": 1793735100,
+      "periods": {
+        "first": 1793735100,
+        "second": 1793738700
+      },
+      "venue": {
+        "id": null,
+        "name": "Kingfield Stadium",
+        "city": "Woking"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 1156,
+      "name": "National League Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/1156.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1836,
+        "name": "Woking",
+        "logo": "https://media.api-sports.io/football/teams/1836.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20078,
+        "name": "Birmingham City U21",
+        "logo": "https://media.api-sports.io/football/teams/20078.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1585325,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1585290,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": null,
-        "name": "Kingfield Stadium",
-        "city": "Woking"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 43,
-      "name": "National League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/43.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 13",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1836,
-        "name": "Woking",
-        "logo": "https://media.api-sports.io/football/teams/1836.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1842,
-        "name": "Harrogate Town",
-        "logo": "https://media.api-sports.io/football/teams/1842.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

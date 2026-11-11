@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562081,
+      "referee": "M. McKenna",
+      "timezone": "UTC",
+      "date": "2026-10-03T14:00:00+00:00",
+      "timestamp": 1791036000,
+      "periods": {
+        "first": 1791036000,
+        "second": 1791039600
+      },
+      "venue": {
+        "id": 12606,
+        "name": "Loughview Leisure Arena",
+        "city": "Carrickfergus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": true
+      },
+      "away": {
+        "id": 697,
+        "name": "Crusaders FC",
+        "logo": "https://media.api-sports.io/football/teams/697.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1535917,
       "referee": "S. McGonigle",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1221989,
-      "referee": "T. Marshall",
-      "timezone": "UTC",
-      "date": "2024-12-30T19:45:00+00:00",
-      "timestamp": 1735587900,
-      "periods": {
-        "first": 1735587900,
-        "second": 1735591500
-      },
-      "venue": {
-        "id": 12606,
-        "name": "Loughview Leisure Arena",
-        "city": "Carrickfergus"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 1
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2024,
-      "round": "Regular Season - 24",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5350,
-        "name": "Carrick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/5350.png",
-        "winner": null
-      },
-      "away": {
-        "id": 697,
-        "name": "Crusaders FC",
-        "logo": "https://media.api-sports.io/football/teams/697.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

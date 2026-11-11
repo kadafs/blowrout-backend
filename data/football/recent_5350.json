@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562111,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:00:00+00:00",
+      "timestamp": 1794063600,
+      "periods": {
+        "first": 1794063600,
+        "second": 1794067200
+      },
+      "venue": {
+        "id": 12606,
+        "name": "Loughview Leisure Arena",
+        "city": "Carrickfergus"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 408,
+      "name": "Premiership",
+      "country": "Northern-Ireland",
+      "logo": "https://media.api-sports.io/football/leagues/408.png",
+      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5350,
+        "name": "Carrick Rangers",
+        "logo": "https://media.api-sports.io/football/teams/5350.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5352,
+        "name": "Glentoran",
+        "logo": "https://media.api-sports.io/football/teams/5352.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562105,
       "referee": "T. Marshall",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562088,
-      "referee": "M. Dillon",
-      "timezone": "UTC",
-      "date": "2026-10-10T14:00:00+00:00",
-      "timestamp": 1791640800,
-      "periods": {
-        "first": 1791640800,
-        "second": 1791644400
-      },
-      "venue": {
-        "id": 4043,
-        "name": "Stangmore Park",
-        "city": "Dungannon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 408,
-      "name": "Premiership",
-      "country": "Northern-Ireland",
-      "logo": "https://media.api-sports.io/football/leagues/408.png",
-      "flag": "https://media.api-sports.io/flags/gb-nir.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5351,
-        "name": "Dungannon Swifts",
-        "logo": "https://media.api-sports.io/football/teams/5351.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5350,
-        "name": "Carrick Rangers",
-        "logo": "https://media.api-sports.io/football/teams/5350.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

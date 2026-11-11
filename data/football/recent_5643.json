@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610604,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T22:00:00+00:00",
+      "timestamp": 1794175200,
+      "periods": {
+        "first": 1794175200,
+        "second": 1794178800
+      },
+      "venue": {
+        "id": 4226,
+        "name": "Estadio Regional de Los Andes",
+        "city": "Los Andes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 711,
+      "name": "Segunda Divisi\u00f3n",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/711.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Promotion Group - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 5646,
+        "name": "Trasandino",
+        "logo": "https://media.api-sports.io/football/teams/5646.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5643,
+        "name": "Provincial Osorno",
+        "logo": "https://media.api-sports.io/football/teams/5643.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1600720,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1600710,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T15:00:00+00:00",
-      "timestamp": 1788706800,
-      "periods": {
-        "first": 1788706800,
-        "second": 1788710400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Municipal de Salamanca",
-        "city": "Salamanca"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 711,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/711.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Promotion Group - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 18775,
-        "name": "Municipal Salamanca",
-        "logo": "https://media.api-sports.io/football/teams/18775.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5643,
-        "name": "Provincial Osorno",
-        "logo": "https://media.api-sports.io/football/teams/5643.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

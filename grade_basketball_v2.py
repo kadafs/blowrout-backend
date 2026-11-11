@@ -147,8 +147,8 @@ def resolve_target_date(date_arg: Optional[str] = None) -> str:
         if os.path.exists(predictions_path(yesterday_str)):
             print(f"  [Auto-Date] Today's file ({today_str}) not found. Defaulting to yesterday ({yesterday_str}).")
             return yesterday_str
-    # If running in early morning (hours 0-6) and yesterday's file has ungraded predictions
-    elif now.hour < 6 and os.path.exists(predictions_path(yesterday_str)):
+    # If running in morning hours (0-11 UTC) and yesterday's file has ungraded predictions
+    elif now.hour < 12 and os.path.exists(predictions_path(yesterday_str)):
         try:
             with open(predictions_path(yesterday_str), encoding="utf-8") as f:
                 ydata = json.load(f)

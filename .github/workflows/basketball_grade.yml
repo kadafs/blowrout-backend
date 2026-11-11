@@ -2,7 +2,8 @@ name: 🏀 Basketball Grade Results
 
 on:
   schedule:
-    - cron: '15 22 * * *'  # 22:15 UTC
+    - cron: '15 22 * * *'  # 22:15 UTC (Evening run - grades European & afternoon games)
+    - cron: '0 6 * * *'    # 06:00 UTC (Morning run - grades late-night US NBA/G-League/NCAA games)
   workflow_dispatch:
     inputs:
       date:

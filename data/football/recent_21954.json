@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1581963,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T10:00:00+00:00",
+      "timestamp": 1794045600,
+      "periods": {
+        "first": 1794045600,
+        "second": 1794049200
+      },
+      "venue": {
+        "id": null,
+        "name": "OSC Metalist",
+        "city": "Kharkiv"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 334,
+      "name": "Persha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/334.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14437,
+        "name": "Metal Kharkiv",
+        "logo": "https://media.api-sports.io/football/teams/14437.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21954,
+        "name": "Lokomotiv Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/21954.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1581957,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1581925,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T09:30:00+00:00",
-      "timestamp": 1791019800,
-      "periods": {
-        "first": 1791019800,
-        "second": 1791023400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 334,
-      "name": "Persha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/334.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21954,
-        "name": "Lokomotiv Kyiv",
-        "logo": "https://media.api-sports.io/football/teams/21954.png",
-        "winner": null
-      },
-      "away": {
-        "id": 24589,
-        "name": "Polissya II",
-        "logo": "https://media.api-sports.io/football/teams/24589.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 3
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1593066,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T11:00:00+00:00",
+      "timestamp": 1794135600,
+      "periods": {
+        "first": 1794135600,
+        "second": 1794139200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 336,
+      "name": "Druha Liga",
+      "country": "Ukraine",
+      "logo": "https://media.api-sports.io/football/leagues/336.png",
+      "flag": "https://media.api-sports.io/flags/ua.svg",
+      "season": 2026,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24570,
+        "name": "Vilkhivtsi",
+        "logo": "https://media.api-sports.io/football/teams/24570.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6487,
+        "name": "Dinaz Vyshhorod",
+        "logo": "https://media.api-sports.io/football/teams/6487.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1593059,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1593026,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T09:15:00+00:00",
-      "timestamp": 1791018900,
-      "periods": {
-        "first": 1791018900,
-        "second": 1791022500
-      },
-      "venue": {
-        "id": null,
-        "name": "Dinaz Stadium",
-        "city": "Demydiv"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 336,
-      "name": "Druha Liga",
-      "country": "Ukraine",
-      "logo": "https://media.api-sports.io/football/leagues/336.png",
-      "flag": "https://media.api-sports.io/flags/ua.svg",
-      "season": 2026,
-      "round": "Regular Season - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24587,
-        "name": "Nyva Ternopil II",
-        "logo": "https://media.api-sports.io/football/teams/24587.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6487,
-        "name": "Dinaz Vyshhorod",
-        "logo": "https://media.api-sports.io/football/teams/6487.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

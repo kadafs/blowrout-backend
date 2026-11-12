@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1493711,
+      "referee": "R. Albuquerque",
+      "timezone": "UTC",
+      "date": "2026-09-27T01:00:00+00:00",
+      "timestamp": 1790470800,
+      "periods": {
+        "first": 1790470800,
+        "second": 1790474400
+      },
+      "venue": {
+        "id": null,
+        "name": "Rio Grande Credit Union Field at Isotopes Park",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4003,
+        "name": "New Mexico United",
+        "logo": "https://media.api-sports.io/football/teams/4003.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4015,
+        "name": "Sacramento Republic",
+        "logo": "https://media.api-sports.io/football/teams/4015.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1493553,
       "referee": "N. Bensalah",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 4,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1149975,
-      "referee": "G. Dopka",
-      "timezone": "UTC",
-      "date": "2024-09-19T01:00:00+00:00",
-      "timestamp": 1726707600,
-      "periods": {
-        "first": 1726707600,
-        "second": 1726711200
-      },
-      "venue": {
-        "id": 22767,
-        "name": "Rio Grande Credit Union Field at Isotopes Park",
-        "city": "Albuquerque, New Mexico"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 255,
-      "name": "USL Championship",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/255.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2024,
-      "round": "Regular Season - 34",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4003,
-        "name": "New Mexico United",
-        "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": true
-      },
-      "away": {
-        "id": 4015,
-        "name": "Sacramento Republic",
-        "logo": "https://media.api-sports.io/football/teams/4015.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1571612,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-09T12:30:00+00:00",
+      "timestamp": 1794227400,
+      "periods": {
+        "first": 1794227400,
+        "second": 1794231000
+      },
+      "venue": {
+        "id": 304,
+        "name": "Stadion Dragalevtsi",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 173,
+      "name": "Second League",
+      "country": "Bulgaria",
+      "logo": "https://media.api-sports.io/football/leagues/173.png",
+      "flag": "https://media.api-sports.io/flags/bg.svg",
+      "season": 2026,
+      "round": "Regular Season - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1415,
+        "name": "CSKA Sofia II",
+        "logo": "https://media.api-sports.io/football/teams/1415.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8547,
+        "name": "Rilski Sportist",
+        "logo": "https://media.api-sports.io/football/teams/8547.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1571607,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1641782,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T12:00:00+00:00",
-      "timestamp": 1791115200,
-      "periods": {
-        "first": 1791115200,
-        "second": 1791118800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 174,
-      "name": "Cup",
-      "country": "Bulgaria",
-      "logo": "https://media.api-sports.io/football/leagues/174.png",
-      "flag": "https://media.api-sports.io/flags/bg.svg",
-      "season": 2026,
-      "round": "Round of 64",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 6399,
-        "name": "Zagorets",
-        "logo": "https://media.api-sports.io/football/teams/6399.png",
-        "winner": false
-      },
-      "away": {
-        "id": 8547,
-        "name": "Rilski Sportist",
-        "logo": "https://media.api-sports.io/football/teams/8547.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 4
       },
       "extratime": {
         "home": null,

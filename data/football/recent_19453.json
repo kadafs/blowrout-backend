@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1583901,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-09T11:00:00+00:00",
+      "timestamp": 1794222000,
+      "periods": {
+        "first": 1794222000,
+        "second": 1794225600
+      },
+      "venue": {
+        "id": null,
+        "name": "Central Stadium",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1025,
+      "name": "Second League A - Division A Gold",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/1025.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Fall Season Gold - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6814,
+        "name": "Mashuk-KMV",
+        "logo": "https://media.api-sports.io/football/teams/6814.png",
+        "winner": true
+      },
+      "away": {
+        "id": 19453,
+        "name": "Rodina Moskva II",
+        "logo": "https://media.api-sports.io/football/teams/19453.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1583896,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583876,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T14:00:00+00:00",
-      "timestamp": 1791122400,
-      "periods": {
-        "first": 1791122400,
-        "second": 1791126000
-      },
-      "venue": {
-        "id": null,
-        "name": "Spartakovets imeni N.P. Starostina",
-        "city": "Moscow"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 1025,
-      "name": "Second League A - Division A Gold",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/1025.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Fall Season Gold - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19453,
-        "name": "Rodina Moskva II",
-        "logo": "https://media.api-sports.io/football/teams/19453.png",
-        "winner": true
-      },
-      "away": {
-        "id": 6802,
-        "name": "Kaluga",
-        "logo": "https://media.api-sports.io/football/teams/6802.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

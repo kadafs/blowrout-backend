@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1583899,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T04:00:00+00:00",
+      "timestamp": 1794110400,
+      "periods": {
+        "first": 1794110400,
+        "second": 1794114000
+      },
+      "venue": {
+        "id": 4960,
+        "name": "Stadion Dinamo",
+        "city": "Vladivostok"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 1025,
+      "name": "Second League A - Division A Gold",
+      "country": "Russia",
+      "logo": "https://media.api-sports.io/football/leagues/1025.png",
+      "flag": "https://media.api-sports.io/flags/ru.svg",
+      "season": 2026,
+      "round": "Fall Season Gold - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 16856,
+        "name": "Dinamo Vladivostok",
+        "logo": "https://media.api-sports.io/football/teams/16856.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6802,
+        "name": "Kaluga",
+        "logo": "https://media.api-sports.io/football/teams/6802.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1583894,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1583874,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T04:00:00+00:00",
-      "timestamp": 1791086400,
-      "periods": {
-        "first": 1791086400,
-        "second": 1791090000
-      },
-      "venue": {
-        "id": 1345,
-        "name": "Stadion Dinamo",
-        "city": "Vladivostok"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 1025,
-      "name": "Second League A - Division A Gold",
-      "country": "Russia",
-      "logo": "https://media.api-sports.io/football/leagues/1025.png",
-      "flag": "https://media.api-sports.io/flags/ru.svg",
-      "season": 2026,
-      "round": "Fall Season Gold - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 16856,
-        "name": "Dinamo Vladivostok",
-        "logo": "https://media.api-sports.io/football/teams/16856.png",
-        "winner": null
-      },
-      "away": {
-        "id": 2004,
-        "name": "Volgar Astrakhan",
-        "logo": "https://media.api-sports.io/football/teams/2004.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

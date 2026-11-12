@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1625650,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:30:00+00:00",
+      "timestamp": 1794144600,
+      "periods": {
+        "first": 1794144600,
+        "second": 1794148200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 430,
+      "name": "Serie D - Girone E",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/430.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group E - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9500,
+        "name": "Montevarchi Calcio",
+        "logo": "https://media.api-sports.io/football/teams/9500.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9490,
+        "name": "Sasso Marconi Zola",
+        "logo": "https://media.api-sports.io/football/teams/9490.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1625644,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1625610,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T13:00:00+00:00",
-      "timestamp": 1791118800,
-      "periods": {
-        "first": 1791118800,
-        "second": 1791122400
-      },
-      "venue": {
-        "id": 942,
-        "name": "Stadio Libero Liberati",
-        "city": "Terni"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 430,
-      "name": "Serie D - Girone E",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/430.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group E - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 516,
-        "name": "Ternana",
-        "logo": "https://media.api-sports.io/football/teams/516.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9500,
-        "name": "Montevarchi Calcio",
-        "logo": "https://media.api-sports.io/football/teams/9500.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

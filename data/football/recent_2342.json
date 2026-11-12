@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1642247,
+      "referee": "F. Bascur",
+      "timezone": "UTC",
+      "date": "2026-11-02T22:00:00+00:00",
+      "timestamp": 1793656800,
+      "periods": {
+        "first": 1793656800,
+        "second": 1793660400
+      },
+      "venue": {
+        "id": 319,
+        "name": "Estadio Monumental David Arellano",
+        "city": "Santiago de Chile"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2315,
+        "name": "Colo Colo",
+        "logo": "https://media.api-sports.io/football/teams/2315.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2342,
+        "name": "D. Puerto Montt",
+        "logo": "https://media.api-sports.io/football/teams/2342.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511717,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1642246,
-      "referee": "F. Jimenez Lazo",
-      "timezone": "UTC",
-      "date": "2026-09-29T21:00:00+00:00",
-      "timestamp": 1790715600,
-      "periods": {
-        "first": 1790715600,
-        "second": 1790719200
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Regional de Chinquihue",
-        "city": "Puerto Montt"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 267,
-      "name": "Copa Chile",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/267.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Quarter-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2342,
-        "name": "D. Puerto Montt",
-        "logo": "https://media.api-sports.io/football/teams/2342.png",
-        "winner": false
-      },
-      "away": {
-        "id": 2315,
-        "name": "Colo Colo",
-        "logo": "https://media.api-sports.io/football/teams/2315.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

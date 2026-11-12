@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610149,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 600,
+      "name": "1. Liga Classic - Group 2",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/600.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Group 2 - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12705,
+        "name": "Langenthal",
+        "logo": "https://media.api-sports.io/football/teams/12705.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17480,
+        "name": "Court\u00e9telle",
+        "logo": "https://media.api-sports.io/football/teams/17480.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610135,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610115,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T14:00:00+00:00",
-      "timestamp": 1791036000,
-      "periods": {
-        "first": 1791036000,
-        "second": 1791039600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 600,
-      "name": "1. Liga Classic - Group 2",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/600.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 2 - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 12710,
-        "name": "Zug",
-        "logo": "https://media.api-sports.io/football/teams/12710.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17480,
-        "name": "Court\u00e9telle",
-        "logo": "https://media.api-sports.io/football/teams/17480.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608356,
+      "referee": "F. Tassano",
+      "timezone": "UTC",
+      "date": "2026-11-08T13:30:00+00:00",
+      "timestamp": 1794144600,
+      "periods": {
+        "first": 1794144600,
+        "second": 1794148200
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Stadio Rigamonti Ceppi",
+        "city": "Lecco"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone A - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6379,
+        "name": "Lecco",
+        "logo": "https://media.api-sports.io/football/teams/6379.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1715,
+        "name": "Juventus U23",
+        "logo": "https://media.api-sports.io/football/teams/1715.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608347,
       "referee": "C. Esposito",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608311,
-      "referee": "B. Tierno",
-      "timezone": "UTC",
-      "date": "2026-10-10T15:30:00+00:00",
-      "timestamp": 1791646200,
-      "periods": {
-        "first": 1791646200,
-        "second": 1791649800
-      },
-      "venue": {
-        "id": null,
-        "name": "Tommaso Dal Molin",
-        "city": "Arzignano"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 138,
-      "name": "Serie C - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/138.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone A - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 6378,
-        "name": "Arzignano Valchiampo",
-        "logo": "https://media.api-sports.io/football/teams/6378.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1715,
-        "name": "Juventus U23",
-        "logo": "https://media.api-sports.io/football/teams/1715.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

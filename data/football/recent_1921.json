@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1573634,
+      "referee": "L. Trujillano",
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": 1794150000,
+        "second": 1794153600
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadi Johan Cruyff",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 142,
+      "name": "Primera Divisi\u00f3n Femenina",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/142.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1918,
+        "name": "Barcelona W",
+        "logo": "https://media.api-sports.io/football/teams/1918.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1921,
+        "name": "Madrid CFF W",
+        "logo": "https://media.api-sports.io/football/teams/1921.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1573629,
       "referee": "M. Planes",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1573596,
-      "referee": "B. Cuesta",
-      "timezone": "UTC",
-      "date": "2026-09-26T16:30:00+00:00",
-      "timestamp": 1790440200,
-      "periods": {
-        "first": 1790440200,
-        "second": 1790443800
-      },
-      "venue": {
-        "id": 3707,
-        "name": "Estadio Fernando Torres",
-        "city": "Fuenlabrada"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 142,
-      "name": "Primera Divisi\u00f3n Femenina",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/142.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1921,
-        "name": "Madrid CFF W",
-        "logo": "https://media.api-sports.io/football/teams/1921.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17168,
-        "name": "Deportivo Alav\u00e9s W",
-        "logo": "https://media.api-sports.io/football/teams/17168.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643187,
+      "referee": "M. Riquelme",
+      "timezone": "UTC",
+      "date": "2026-11-05T22:00:00+00:00",
+      "timestamp": 1793916000,
+      "periods": {
+        "first": 1793916000,
+        "second": 1793919600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Santiago de Chile"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 267,
+      "name": "Copa Chile",
+      "country": "Chile",
+      "logo": "https://media.api-sports.io/football/leagues/267.png",
+      "flag": "https://media.api-sports.io/flags/cl.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2323,
+        "name": "Universidad de Chile",
+        "logo": "https://media.api-sports.io/football/teams/2323.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2327,
+        "name": "Antofagasta",
+        "logo": "https://media.api-sports.io/football/teams/2327.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1511713,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 2323,
         "name": "Universidad de Chile",
         "logo": "https://media.api-sports.io/football/teams/2323.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1511609,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T15:30:00+00:00",
-      "timestamp": 1791127800,
-      "periods": {
-        "first": 1791127800,
-        "second": 1791131400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Regional de Antofagasta",
-        "city": "Antofagasta"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 266,
-      "name": "Primera B",
-      "country": "Chile",
-      "logo": "https://media.api-sports.io/football/leagues/266.png",
-      "flag": "https://media.api-sports.io/flags/cl.svg",
-      "season": 2026,
-      "round": "Regular Season - 16",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2327,
-        "name": "Antofagasta",
-        "logo": "https://media.api-sports.io/football/teams/2327.png",
-        "winner": true
-      },
-      "away": {
-        "id": 2344,
-        "name": "Rangers de Talca",
-        "logo": "https://media.api-sports.io/football/teams/2344.png",
         "winner": false
       }
     },

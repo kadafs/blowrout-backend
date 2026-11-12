@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
+      "id": 1643058,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T12:55:00+00:00",
+      "timestamp": 1794142500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1604,
+        "name": "Mohammad Bin Zayed Stadium",
+        "city": "Abu Dhabi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 301,
+      "name": "Pro League",
+      "country": "United-Arab-Emirates",
+      "logo": "https://media.api-sports.io/football/leagues/301.png",
+      "flag": "https://media.api-sports.io/flags/ae.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2871,
+        "name": "Al-Jazira",
+        "logo": "https://media.api-sports.io/football/teams/2871.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2872,
+        "name": "Al-Wasl FC",
+        "logo": "https://media.api-sports.io/football/teams/2872.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630397,
-      "referee": "Ryo Tanimoto, Japan",
+      "referee": "R. Tanimoto",
       "timezone": "UTC",
       "date": "2026-11-04T18:15:00+00:00",
       "timestamp": 1793816100,
@@ -72,7 +142,7 @@
   {
     "fixture": {
       "id": 1630380,
-      "referee": "Mohammed Khled Hoish, Saudi Arabia",
+      "referee": "M. K. Al Hoish",
       "timezone": "UTC",
       "date": "2026-10-28T16:00:00+00:00",
       "timestamp": 1793203200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630364,
-      "referee": "Abdullah Jamali, Kuwait",
-      "timezone": "UTC",
-      "date": "2026-10-14T16:00:00+00:00",
-      "timestamp": 1791993600,
-      "periods": {
-        "first": 1791993600,
-        "second": 1791997200
-      },
-      "venue": {
-        "id": 1604,
-        "name": "Mohammed Bin Zayed Stadium",
-        "city": "Abu Dhabi"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 18,
-      "name": "AFC Champions League Two",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/18.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 2",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2871,
-        "name": "Al-Jazira",
-        "logo": "https://media.api-sports.io/football/teams/2871.png",
-        "winner": true
-      },
-      "away": {
-        "id": 21232,
-        "name": "Arkadag",
-        "logo": "https://media.api-sports.io/football/teams/21232.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

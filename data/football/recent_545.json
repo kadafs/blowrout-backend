@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644365,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T18:00:00+00:00",
+      "timestamp": 1794333600,
+      "periods": {
+        "first": 1794333600,
+        "second": 1794337200
+      },
+      "venue": {
+        "id": 6934,
+        "name": "Campo de Futbol Beitikuntzea",
+        "city": "Navarre"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 9854,
+        "name": "Pamplona",
+        "logo": "https://media.api-sports.io/football/teams/9854.png",
+        "winner": false
+      },
+      "away": {
+        "id": 545,
+        "name": "Eibar",
+        "logo": "https://media.api-sports.io/football/teams/545.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1569996,
       "referee": "D. Miranda",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1569948,
-      "referee": "J. Sanchez",
-      "timezone": "UTC",
-      "date": "2026-10-03T12:00:00+00:00",
-      "timestamp": 1791028800,
-      "periods": {
-        "first": 1791028800,
-        "second": 1791032400
-      },
-      "venue": {
-        "id": 1458,
-        "name": "Estadio Carlos Belmonte",
-        "city": "Albacete"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 141,
-      "name": "Segunda Divisi\u00f3n",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/141.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Regular Season - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 722,
-        "name": "Albacete",
-        "logo": "https://media.api-sports.io/football/teams/722.png",
-        "winner": false
-      },
-      "away": {
-        "id": 545,
-        "name": "Eibar",
-        "logo": "https://media.api-sports.io/football/teams/545.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

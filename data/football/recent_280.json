@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606754,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T05:00:00+00:00",
+      "timestamp": 1794114000,
+      "periods": {
+        "first": 1794114000,
+        "second": 1794117600
+      },
+      "venue": {
+        "id": 963,
+        "name": "Yamaha Stadium",
+        "city": "Iwata"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 280,
+        "name": "Jubilo Iwata",
+        "logo": "https://media.api-sports.io/football/teams/280.png",
+        "winner": null
+      },
+      "away": {
+        "id": 284,
+        "name": "Shonan Bellmare",
+        "logo": "https://media.api-sports.io/football/teams/284.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606739,
       "referee": "Y. Ohashi",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606704,
-      "referee": "T. Nakai",
-      "timezone": "UTC",
-      "date": "2026-10-17T10:00:00+00:00",
-      "timestamp": 1792231200,
-      "periods": {
-        "first": 1792231200,
-        "second": 1792234800
-      },
-      "venue": {
-        "id": 0,
-        "name": "Unilever Stadium Shintomi",
-        "city": "Miyazaki"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10409,
-        "name": "Tegevajaro Miyazaki",
-        "logo": "https://media.api-sports.io/football/teams/10409.png",
-        "winner": null
-      },
-      "away": {
-        "id": 280,
-        "name": "Jubilo Iwata",
-        "logo": "https://media.api-sports.io/football/teams/280.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
       },
       "extratime": {
         "home": null,

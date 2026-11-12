@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570822,
+      "referee": "J. Lopez",
+      "timezone": "UTC",
+      "date": "2026-11-07T15:30:00+00:00",
+      "timestamp": 1794065400,
+      "periods": {
+        "first": 1794065400,
+        "second": 1794069000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Pontevedra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 435,
+      "name": "Primera Divisi\u00f3n RFEF - Group 1",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/435.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 1 - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9407,
+        "name": "Pontevedra",
+        "logo": "https://media.api-sports.io/football/teams/9407.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9617,
+        "name": "UD Ourense",
+        "logo": "https://media.api-sports.io/football/teams/9617.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570807,
       "referee": "A. Ramo Andres",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570784,
-      "referee": "N. Holgueras Castellanos",
-      "timezone": "UTC",
-      "date": "2026-10-11T14:30:00+00:00",
-      "timestamp": 1791729000,
-      "periods": {
-        "first": 1791729000,
-        "second": 1791732600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Pontevedra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 435,
-      "name": "Primera Divisi\u00f3n RFEF - Group 1",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/435.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 1 - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9407,
-        "name": "Pontevedra",
-        "logo": "https://media.api-sports.io/football/teams/9407.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10140,
-        "name": "M\u00e9rida AD",
-        "logo": "https://media.api-sports.io/football/teams/10140.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

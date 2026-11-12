@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619183,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T19:00:00+00:00",
+      "timestamp": 1793991600,
+      "periods": {
+        "first": 1793991600,
+        "second": 1793995200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 703,
+      "name": "Professional Development League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/703.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11912,
+        "name": "Swansea City U21",
+        "logo": "https://media.api-sports.io/football/teams/11912.png",
+        "winner": true
+      },
+      "away": {
+        "id": 20080,
+        "name": "Bristol City U21",
+        "logo": "https://media.api-sports.io/football/teams/20080.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1619179,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619158,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-06T12:00:00+00:00",
-      "timestamp": 1791288000,
-      "periods": {
-        "first": 1791288000,
-        "second": 1791291600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20080,
-        "name": "Bristol City U21",
-        "logo": "https://media.api-sports.io/football/teams/20080.png",
-        "winner": true
-      },
-      "away": {
-        "id": 20082,
-        "name": "Charlton Athletic U21",
-        "logo": "https://media.api-sports.io/football/teams/20082.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

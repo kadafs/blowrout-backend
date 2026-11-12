@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1644335,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T19:00:00+00:00",
+      "timestamp": 1794337200,
+      "periods": {
+        "first": 1794337200,
+        "second": 1794340800
+      },
+      "venue": {
+        "id": 12288,
+        "name": "Campo Municipal de Urritxe",
+        "city": "Amorebieta-Etxano"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Round of 128",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 9380,
+        "name": "Amorebieta",
+        "logo": "https://media.api-sports.io/football/teams/9380.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5280,
+        "name": "UD Logro\u00f1\u00e9s",
+        "logo": "https://media.api-sports.io/football/teams/5280.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570823,
       "referee": "M. Garcia",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570781,
-      "referee": "A. Sanchez",
-      "timezone": "UTC",
-      "date": "2026-10-12T18:30:00+00:00",
-      "timestamp": 1791829800,
-      "periods": {
-        "first": 1791829800,
-        "second": 1791833400
-      },
-      "venue": {
-        "id": 1465,
-        "name": "Estadio Anxo Carro",
-        "city": "Lugo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 435,
-      "name": "Primera Divisi\u00f3n RFEF - Group 1",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/435.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 1 - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 716,
-        "name": "Lugo",
-        "logo": "https://media.api-sports.io/football/teams/716.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5280,
-        "name": "UD Logro\u00f1\u00e9s",
-        "logo": "https://media.api-sports.io/football/teams/5280.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

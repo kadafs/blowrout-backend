@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1495604,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T13:00:00+00:00",
+      "timestamp": 1794056400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 7998,
+        "name": "Malmo Stadion",
+        "city": "Malmo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 549,
+      "name": "Damallsvenskan",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/549.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Regular Season - 25",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 11075,
+        "name": "Roseng\u00e5rd W",
+        "logo": "https://media.api-sports.io/football/teams/11075.png",
+        "winner": false
+      },
+      "away": {
+        "id": 15630,
+        "name": "Hammarby W",
+        "logo": "https://media.api-sports.io/football/teams/15630.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1495598,
       "referee": null,
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 11075,
         "name": "Roseng\u00e5rd W",
         "logo": "https://media.api-sports.io/football/teams/11075.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1495570,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T11:00:00+00:00",
-      "timestamp": 1790506800,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 7998,
-        "name": "Malmo Stadion",
-        "city": "Malmo"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 549,
-      "name": "Damallsvenskan",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/549.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Regular Season - 20",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 11075,
-        "name": "Roseng\u00e5rd W",
-        "logo": "https://media.api-sports.io/football/teams/11075.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10900,
-        "name": "Pite\u00e5 W",
-        "logo": "https://media.api-sports.io/football/teams/10900.png",
         "winner": false
       }
     },

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647359,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-12T17:30:00+00:00",
+      "timestamp": 1794504600,
+      "periods": {
+        "first": 1794504600,
+        "second": 1794508200
+      },
+      "venue": {
+        "id": null,
+        "name": "Ta'Qali National Stadium",
+        "city": "Ta' Qali"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 10,
+      "name": "Friendlies",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/10.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Friendly International",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1112,
+        "name": "Malta",
+        "logo": "https://media.api-sports.io/football/teams/1112.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2995,
+        "name": "Eswatini",
+        "logo": "https://media.api-sports.io/football/teams/2995.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1545610,
       "referee": "Mikkel Redder, Denmark",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1544810,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-05T18:00:00+00:00",
-      "timestamp": 1780682400,
-      "periods": {
-        "first": 1780682400,
-        "second": 1780686000
-      },
-      "venue": {
-        "id": null,
-        "name": "Halad\u00e1s Sportkomplexum",
-        "city": "Szombathely"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 1096,
-        "name": "Azerbaijan",
-        "logo": "https://media.api-sports.io/football/teams/1096.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1112,
-        "name": "Malta",
-        "logo": "https://media.api-sports.io/football/teams/1112.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

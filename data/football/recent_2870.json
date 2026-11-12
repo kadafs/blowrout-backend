@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1643056,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T15:30:00+00:00",
+      "timestamp": 1794065400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 1608,
+        "name": "Sharjah Stadium",
+        "city": "Sharjah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 301,
+      "name": "Pro League",
+      "country": "United-Arab-Emirates",
+      "logo": "https://media.api-sports.io/football/leagues/301.png",
+      "flag": "https://media.api-sports.io/flags/ae.svg",
+      "season": 2026,
+      "round": "Regular Season - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2874,
+        "name": "Sharjah FC",
+        "logo": "https://media.api-sports.io/football/teams/2874.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2870,
+        "name": "Shabab Al Ahli Dubai",
+        "logo": "https://media.api-sports.io/football/teams/2870.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629972,
       "referee": "Adham Makhadmeh",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1639239,
-      "referee": "Q. E. Almansoori R.",
-      "timezone": "UTC",
-      "date": "2026-10-08T13:10:00+00:00",
-      "timestamp": 1791465000,
-      "periods": {
-        "first": 1791465000,
-        "second": 1791468600
-      },
-      "venue": {
-        "id": null,
-        "name": "Al Rashid Stadium",
-        "city": "Dubai"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 302,
-      "name": "League Cup",
-      "country": "United-Arab-Emirates",
-      "logo": "https://media.api-sports.io/football/leagues/302.png",
-      "flag": "https://media.api-sports.io/flags/ae.svg",
-      "season": 2026,
-      "round": "Group Stage - 3",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 2870,
-        "name": "Shabab Al Ahli Dubai",
-        "logo": "https://media.api-sports.io/football/teams/2870.png",
-        "winner": true
-      },
-      "away": {
-        "id": 22321,
-        "name": "Dubai United",
-        "logo": "https://media.api-sports.io/football/teams/22321.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

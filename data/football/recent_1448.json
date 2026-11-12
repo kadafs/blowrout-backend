@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640353,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-06T08:30:00+00:00",
+      "timestamp": 1793953800,
+      "periods": {
+        "first": 1793953800,
+        "second": 1793957400
+      },
+      "venue": {
+        "id": 1940,
+        "name": "Deakin Stadium",
+        "city": "Canberra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 1202,
+      "name": "Australian Championship",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/1202.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Group Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1448,
+        "name": "Canberra FC",
+        "logo": "https://media.api-sports.io/football/teams/1448.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3776,
+        "name": "Sydney United",
+        "logo": "https://media.api-sports.io/football/teams/3776.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640344,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1537519,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-08-22T05:00:00+00:00",
-      "timestamp": 1787374800,
-      "periods": {
-        "first": 1787374800,
-        "second": 1787378400
-      },
-      "venue": {
-        "id": 1940,
-        "name": "Deakin Stadium",
-        "city": "Canberra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 189,
-      "name": "Capital Territory NPL",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/189.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2026,
-      "round": "Regular Season - 22",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1448,
-        "name": "Canberra FC",
-        "logo": "https://media.api-sports.io/football/teams/1448.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1449,
-        "name": "Belconnen United",
-        "logo": "https://media.api-sports.io/football/teams/1449.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 4,
         "away": 0
       },
       "extratime": {

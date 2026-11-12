@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1442357,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-19T16:00:00+00:00",
+      "timestamp": 1773936000,
+      "periods": {
+        "first": 1773936000,
+        "second": 1773939600
+      },
+      "venue": {
+        "id": 2713,
+        "name": "Karl-Liebknecht-Stadion",
+        "city": "Potsdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 1034,
+      "name": "2. Frauen Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/1034.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1869,
+        "name": "Turbine Potsdam W",
+        "logo": "https://media.api-sports.io/football/teams/1869.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1862,
+        "name": "SC Sand W",
+        "logo": "https://media.api-sports.io/football/teams/1862.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1442267,
       "referee": "Anna-Lena Weiss",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 725727,
-      "referee": "K. Rafalski",
-      "timezone": "UTC",
-      "date": "2021-10-17T11:00:00+00:00",
-      "timestamp": 1634468400,
-      "periods": {
-        "first": 1634468400,
-        "second": 1634472000
-      },
-      "venue": {
-        "id": null,
-        "name": "Adams Arena",
-        "city": "Willst\u00e4tt"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 82,
-      "name": "Frauen Bundesliga",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/82.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2021,
-      "round": "Regular Season - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1862,
-        "name": "SC Sand W",
-        "logo": "https://media.api-sports.io/football/teams/1862.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1869,
-        "name": "Turbine Potsdam W",
-        "logo": "https://media.api-sports.io/football/teams/1869.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

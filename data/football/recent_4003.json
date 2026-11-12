@@ -1,25 +1,25 @@
 [
   {
     "fixture": {
-      "id": 1493693,
-      "referee": "C. May",
+      "id": 1648447,
+      "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-20T01:00:00+00:00",
-      "timestamp": 1789866000,
+      "date": "2026-11-08T02:30:00+00:00",
+      "timestamp": 1794105000,
       "periods": {
-        "first": 1789866000,
-        "second": 1789869600
+        "first": 1794105000,
+        "second": 1794108600
       },
       "venue": {
-        "id": null,
-        "name": "Weidner Field",
-        "city": null
+        "id": 22767,
+        "name": "Rio Grande Credit Union Field at Isotopes Park",
+        "city": "Albuquerque"
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 10
+        "extra": 5
       }
     },
     "league": {
@@ -29,34 +29,34 @@
       "logo": "https://media.api-sports.io/football/leagues/255.png",
       "flag": "https://media.api-sports.io/flags/us.svg",
       "season": 2026,
-      "round": "Group Stage",
+      "round": "Quarter-finals",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 3992,
-        "name": "Colorado Springs",
-        "logo": "https://media.api-sports.io/football/teams/3992.png",
-        "winner": null
-      },
-      "away": {
         "id": 4003,
         "name": "New Mexico United",
         "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": null
+        "winner": true
+      },
+      "away": {
+        "id": 3992,
+        "name": "Colorado Springs",
+        "logo": "https://media.api-sports.io/football/teams/3992.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 0,
+      "home": 4,
       "away": 0
     },
     "score": {
       "halftime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "fulltime": {
-        "home": 0,
+        "home": 4,
         "away": 0
       },
       "extratime": {
@@ -71,18 +71,158 @@
   },
   {
     "fixture": {
-      "id": 1493587,
-      "referee": "B. Stevis",
+      "id": 1647331,
+      "referee": "M. Hassan",
       "timezone": "UTC",
-      "date": "2026-09-17T00:30:00+00:00",
-      "timestamp": 1789605000,
+      "date": "2026-11-01T23:00:00+00:00",
+      "timestamp": 1793574000,
       "periods": {
-        "first": 1789605000,
-        "second": 1789608600
+        "first": 1793574000,
+        "second": 1793577600
       },
       "venue": {
         "id": null,
-        "name": "Protective Stadium",
+        "name": "Rio Grande Credit Union Field at Isotopes Park",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Round of 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 4003,
+        "name": "New Mexico United",
+        "logo": "https://media.api-sports.io/football/teams/4003.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4009,
+        "name": "Phoenix Rising",
+        "logo": "https://media.api-sports.io/football/teams/4009.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1493759,
+      "referee": "C. Radosav",
+      "timezone": "UTC",
+      "date": "2026-10-25T00:00:00+00:00",
+      "timestamp": 1792886400,
+      "periods": {
+        "first": 1792886400,
+        "second": 1792890000
+      },
+      "venue": {
+        "id": null,
+        "name": "Southwest University Park",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 255,
+      "name": "USL Championship",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/255.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3993,
+        "name": "El Paso Locomotive",
+        "logo": "https://media.api-sports.io/football/teams/3993.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4003,
+        "name": "New Mexico United",
+        "logo": "https://media.api-sports.io/football/teams/4003.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1493754,
+      "referee": "M. Kaleia",
+      "timezone": "UTC",
+      "date": "2026-10-18T00:30:00+00:00",
+      "timestamp": 1792283400,
+      "periods": {
+        "first": 1792283400,
+        "second": 1792287000
+      },
+      "venue": {
+        "id": null,
+        "name": "Toyota Field",
         "city": null
       },
       "status": {
@@ -104,30 +244,30 @@
     },
     "teams": {
       "home": {
-        "id": 3989,
-        "name": "Birmingham Legion",
-        "logo": "https://media.api-sports.io/football/teams/3989.png",
-        "winner": null
+        "id": 4017,
+        "name": "San Antonio",
+        "logo": "https://media.api-sports.io/football/teams/4017.png",
+        "winner": true
       },
       "away": {
         "id": 4003,
         "name": "New Mexico United",
         "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": null
+        "winner": false
       }
     },
     "goals": {
-      "home": 4,
-      "away": 4
+      "home": 1,
+      "away": 0
     },
     "score": {
       "halftime": {
         "home": 1,
-        "away": 2
+        "away": 0
       },
       "fulltime": {
-        "home": 4,
-        "away": 4
+        "home": 1,
+        "away": 0
       },
       "extratime": {
         "home": null,
@@ -141,14 +281,14 @@
   },
   {
     "fixture": {
-      "id": 1493689,
-      "referee": "I. Bych",
+      "id": 1493739,
+      "referee": "C. Hernandez",
       "timezone": "UTC",
-      "date": "2026-09-12T01:30:00+00:00",
-      "timestamp": 1789176600,
+      "date": "2026-10-11T01:00:00+00:00",
+      "timestamp": 1791680400,
       "periods": {
-        "first": 1789176600,
-        "second": 1789180200
+        "first": 1791680400,
+        "second": 1791684000
       },
       "venue": {
         "id": null,
@@ -159,7 +299,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 6
+        "extra": 5
       }
     },
     "league": {
@@ -177,18 +317,18 @@
         "id": 4003,
         "name": "New Mexico United",
         "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": null
+        "winner": true
       },
       "away": {
-        "id": 3996,
-        "name": "Indy Eleven",
-        "logo": "https://media.api-sports.io/football/teams/3996.png",
-        "winner": null
+        "id": 18375,
+        "name": "Monterey Bay",
+        "logo": "https://media.api-sports.io/football/teams/18375.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 2,
-      "away": 2
+      "home": 3,
+      "away": 1
     },
     "score": {
       "halftime": {
@@ -196,148 +336,8 @@
         "away": 0
       },
       "fulltime": {
-        "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493670,
-      "referee": "M. Kaleia",
-      "timezone": "UTC",
-      "date": "2026-09-06T02:30:00+00:00",
-      "timestamp": 1788661800,
-      "periods": {
-        "first": 1788661800,
-        "second": 1788665400
-      },
-      "venue": {
-        "id": null,
-        "name": "Cashman Field",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 255,
-      "name": "USL Championship",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/255.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 3998,
-        "name": "Las Vegas Lights",
-        "logo": "https://media.api-sports.io/football/teams/3998.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4003,
-        "name": "New Mexico United",
-        "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
+        "home": 3,
         "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1493662,
-      "referee": "M. Corrigan",
-      "timezone": "UTC",
-      "date": "2026-08-30T01:30:00+00:00",
-      "timestamp": 1788053400,
-      "periods": {
-        "first": 1788053400,
-        "second": 1788057000
-      },
-      "venue": {
-        "id": null,
-        "name": "Rio Grande Credit Union Field at Isotopes Park",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 255,
-      "name": "USL Championship",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/255.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 4003,
-        "name": "New Mexico United",
-        "logo": "https://media.api-sports.io/football/teams/4003.png",
-        "winner": false
-      },
-      "away": {
-        "id": 4017,
-        "name": "San Antonio",
-        "logo": "https://media.api-sports.io/football/teams/4017.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

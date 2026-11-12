@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1592567,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:30:00+00:00",
+      "timestamp": 1794144600,
+      "periods": {
+        "first": 1794144600,
+        "second": 1794148200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 751,
+      "name": "Oberliga - Niederrhein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/751.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Niederrhein - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 19657,
+        "name": "B\u00fcderich",
+        "logo": "https://media.api-sports.io/football/teams/19657.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14523,
+        "name": "SW Essen",
+        "logo": "https://media.api-sports.io/football/teams/14523.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592560,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592527,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": 1790514000,
-        "second": 1790517600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 751,
-      "name": "Oberliga - Niederrhein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/751.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Niederrhein - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14523,
-        "name": "SW Essen",
-        "logo": "https://media.api-sports.io/football/teams/14523.png",
-        "winner": false
-      },
-      "away": {
-        "id": 23678,
-        "name": "Viktoria J\u00fcchen-Garz.",
-        "logo": "https://media.api-sports.io/football/teams/23678.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 3
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

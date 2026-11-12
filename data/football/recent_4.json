@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647358,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-12T15:00:00+00:00",
+      "timestamp": 1794495600,
+      "periods": {
+        "first": 1794495600,
+        "second": 1794499200
+      },
+      "venue": {
+        "id": null,
+        "name": "Pakhtakor Markaziy Stadium",
+        "city": "Tashkent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 10,
+      "name": "Friendlies",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/10.png",
+      "flag": null,
+      "season": 2026,
+      "round": "Friendly International",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1568,
+        "name": "Uzbekistan",
+        "logo": "https://media.api-sports.io/football/teams/1568.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4,
+        "name": "Russia",
+        "logo": "https://media.api-sports.io/football/teams/4.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640080,
       "referee": "N. Dabanovic",
       "timezone": "UTC",
@@ -253,76 +323,6 @@
         "id": 5168,
         "name": "Trinidad and Tobago",
         "logo": "https://media.api-sports.io/football/teams/5168.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1543827,
-      "referee": "N. Minakovic",
-      "timezone": "UTC",
-      "date": "2026-06-05T17:00:00+00:00",
-      "timestamp": 1780678800,
-      "periods": {
-        "first": 1780678800,
-        "second": 1780682400
-      },
-      "venue": {
-        "id": null,
-        "name": "Volgograd Arena",
-        "city": "Volgograd"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 4,
-        "name": "Russia",
-        "logo": "https://media.api-sports.io/football/teams/4.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1502,
-        "name": "Burkina Faso",
-        "logo": "https://media.api-sports.io/football/teams/1502.png",
         "winner": false
       }
     },

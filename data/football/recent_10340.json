@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635769,
+      "referee": "P. Gryckiewicz",
+      "timezone": "UTC",
+      "date": "2026-11-11T13:00:00+00:00",
+      "timestamp": 1794402000,
+      "periods": {
+        "first": 1794402000,
+        "second": 1794405600
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportski Park Granicar Kotoriba",
+        "city": "Kotoriba"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 893,
+      "name": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/893.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10330,
+        "name": "Czechia U19",
+        "logo": "https://media.api-sports.io/football/teams/10330.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10340,
+        "name": "Netherlands U19",
+        "logo": "https://media.api-sports.io/football/teams/10340.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632354,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1491179,
-      "referee": "M. Redder",
-      "timezone": "UTC",
-      "date": "2026-03-31T16:00:00+00:00",
-      "timestamp": 1774972800,
-      "periods": {
-        "first": 1774972800,
-        "second": 1774976400
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Municipal Guillermo Amor",
-        "city": "Benidorm"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 893,
-      "name": "UEFA U19 Championship - Qualification",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/893.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Elite Round - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10340,
-        "name": "Netherlands U19",
-        "logo": "https://media.api-sports.io/football/teams/10340.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10349,
-        "name": "Spain U19",
-        "logo": "https://media.api-sports.io/football/teams/10349.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 3
       },
       "extratime": {
         "home": null,

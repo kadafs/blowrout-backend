@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1608738,
+      "referee": "A. Diop",
+      "timezone": "UTC",
+      "date": "2026-11-08T16:30:00+00:00",
+      "timestamp": 1794155400,
+      "periods": {
+        "first": 1794155400,
+        "second": 1794159000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Comunale Riviera delle Palme",
+        "city": "San Benedetto del Tronto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 942,
+      "name": "Serie C - Girone B",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/942.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Girone B - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 871,
+        "name": "Sambenedettese",
+        "logo": "https://media.api-sports.io/football/teams/871.png",
+        "winner": false
+      },
+      "away": {
+        "id": 882,
+        "name": "Guidonia Montecelio 1937",
+        "logo": "https://media.api-sports.io/football/teams/882.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1608723,
       "referee": "L. Maccarini",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1608685,
-      "referee": "G. Guitaldi",
-      "timezone": "UTC",
-      "date": "2026-10-04T12:30:00+00:00",
-      "timestamp": 1791117000,
-      "periods": {
-        "first": 1791117000,
-        "second": 1791120600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Citta dell Aria",
-        "city": "Guidonia Montecelio"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 942,
-      "name": "Serie C - Girone B",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/942.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Girone B - 8",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 882,
-        "name": "Guidonia Montecelio 1937",
-        "logo": "https://media.api-sports.io/football/teams/882.png",
-        "winner": true
-      },
-      "away": {
-        "id": 9514,
-        "name": "Pineto",
-        "logo": "https://media.api-sports.io/football/teams/9514.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

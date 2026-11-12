@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528962,
+      "referee": "Morten Krogh",
+      "timezone": "UTC",
+      "date": "2026-11-12T19:45:00+00:00",
+      "timestamp": 1794512700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 566,
+        "name": "Wembley Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 5,
+      "name": "UEFA Nations League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/5.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League A - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10,
+        "name": "England",
+        "logo": "https://media.api-sports.io/football/teams/10.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3,
+        "name": "Croatia",
+        "logo": "https://media.api-sports.io/football/teams/3.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528953,
       "referee": "Serdar Gozubuyuk",
       "timezone": "UTC",
@@ -41,7 +111,7 @@
       },
       "away": {
         "id": 770,
-        "name": "Czechia",
+        "name": "Czech Republic",
         "logo": "https://media.api-sports.io/football/teams/770.png",
         "winner": false
       }
@@ -175,7 +245,7 @@
     "teams": {
       "home": {
         "id": 770,
-        "name": "Czechia",
+        "name": "Czech Republic",
         "logo": "https://media.api-sports.io/football/teams/770.png",
         "winner": false
       },
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1591865,
-      "referee": "Jes\u00fas Valenzuela, Venezuela",
-      "timezone": "UTC",
-      "date": "2026-07-18T21:00:00+00:00",
-      "timestamp": 1784408400,
-      "periods": {
-        "first": 1784408400,
-        "second": 1784412000
-      },
-      "venue": {
-        "id": 0,
-        "name": "Hard Rock Stadium, Miami Garden",
-        "city": "Miami"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 9
-      }
-    },
-    "league": {
-      "id": 1,
-      "name": "World Cup",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/1.png",
-      "flag": null,
-      "season": 2026,
-      "round": "3rd Place Final",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2,
-        "name": "France",
-        "logo": "https://media.api-sports.io/football/teams/2.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10,
-        "name": "England",
-        "logo": "https://media.api-sports.io/football/teams/10.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 6
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 4
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 6
       },
       "extratime": {
         "home": null,

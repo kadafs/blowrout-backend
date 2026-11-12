@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1570824,
+      "referee": "M. B. Torres",
+      "timezone": "UTC",
+      "date": "2026-11-06T20:15:00+00:00",
+      "timestamp": 1793996100,
+      "periods": {
+        "first": 1793996100,
+        "second": 1793999700
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Roman Suarez Puerta",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 15
+      }
+    },
+    "league": {
+      "id": 435,
+      "name": "Primera Divisi\u00f3n RFEF - Group 1",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/435.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 1 - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9632,
+        "name": "Real Avil\u00e9s",
+        "logo": "https://media.api-sports.io/football/teams/9632.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24612,
+        "name": "Extremadura 1924",
+        "logo": "https://media.api-sports.io/football/teams/24612.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1570812,
       "referee": "A. T. Alonso",
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1570771,
-      "referee": "M. Cotero",
-      "timezone": "UTC",
-      "date": "2026-10-02T17:00:00+00:00",
-      "timestamp": 1790960400,
-      "periods": {
-        "first": 1790960400,
-        "second": 1790964000
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio Roman Suarez Puerta",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 14
-      }
-    },
-    "league": {
-      "id": 435,
-      "name": "Primera Divisi\u00f3n RFEF - Group 1",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/435.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 1 - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9632,
-        "name": "Real Avil\u00e9s",
-        "logo": "https://media.api-sports.io/football/teams/9632.png",
-        "winner": false
-      },
-      "away": {
-        "id": 716,
-        "name": "Lugo",
-        "logo": "https://media.api-sports.io/football/teams/716.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

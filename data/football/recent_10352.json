@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635789,
+      "referee": "T. Owen",
+      "timezone": "UTC",
+      "date": "2026-11-11T11:00:00+00:00",
+      "timestamp": 1794394800,
+      "periods": {
+        "first": 1794394800,
+        "second": 1794398400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Bruno Recchioni",
+        "city": "Fermo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 893,
+      "name": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/893.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10352,
+        "name": "Ukraine U19",
+        "logo": "https://media.api-sports.io/football/teams/10352.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10366,
+        "name": "Israel U19",
+        "logo": "https://media.api-sports.io/football/teams/10366.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1642975,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1543341,
-      "referee": "B. Csonka",
-      "timezone": "UTC",
-      "date": "2026-07-05T15:00:00+00:00",
-      "timestamp": 1783263600,
-      "periods": {
-        "first": 1783263600,
-        "second": 1783267200
-      },
-      "venue": {
-        "id": null,
-        "name": "Nantporth Stadium",
-        "city": "Bangor"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 493,
-      "name": "UEFA U19 Championship",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/493.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10352,
-        "name": "Ukraine U19",
-        "logo": "https://media.api-sports.io/football/teams/10352.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10338,
-        "name": "Italy U19",
-        "logo": "https://media.api-sports.io/football/teams/10338.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 0
       },
       "extratime": {
         "home": null,

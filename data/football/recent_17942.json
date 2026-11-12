@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1559454,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T11:30:00+00:00",
+      "timestamp": 1794396600,
+      "periods": {
+        "first": 1794396600,
+        "second": 1794400200
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 886,
+      "name": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/886.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17942,
+        "name": "Belgium U17",
+        "logo": "https://media.api-sports.io/football/teams/17942.png",
+        "winner": true
+      },
+      "away": {
+        "id": 17959,
+        "name": "Kosovo U17",
+        "logo": "https://media.api-sports.io/football/teams/17959.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 8,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 8,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632356,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1540161,
-      "referee": "F. Lata",
-      "timezone": "UTC",
-      "date": "2026-05-25T11:30:00+00:00",
-      "timestamp": 1779708600,
-      "periods": {
-        "first": 1779708600,
-        "second": 1779712200
-      },
-      "venue": {
-        "id": null,
-        "name": "Rakvere Linnastaadion",
-        "city": "Rakvere"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 921,
-      "name": "UEFA U17 Championship",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/921.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 17945,
-        "name": "Croatia U17",
-        "logo": "https://media.api-sports.io/football/teams/17945.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17942,
-        "name": "Belgium U17",
-        "logo": "https://media.api-sports.io/football/teams/17942.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1557232,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-12T00:00:00+00:00",
+      "timestamp": 1794441600,
+      "periods": {
+        "first": 1794441600,
+        "second": 1794445200
+      },
+      "venue": {
+        "id": null,
+        "name": "Audi Field",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 1130,
+      "name": "USL Super League",
+      "country": "USA",
+      "logo": "https://media.api-sports.io/football/leagues/1130.png",
+      "flag": "https://media.api-sports.io/flags/us.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24659,
+        "name": "DC Power W",
+        "logo": "https://media.api-sports.io/football/teams/24659.png",
+        "winner": true
+      },
+      "away": {
+        "id": 24657,
+        "name": "Brooklyn W",
+        "logo": "https://media.api-sports.io/football/teams/24657.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1557230,
       "referee": "L. Black",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1557208,
-      "referee": "M. Durr",
-      "timezone": "UTC",
-      "date": "2026-09-22T15:00:00+00:00",
-      "timestamp": 1790089200,
-      "periods": {
-        "first": 1790089200,
-        "second": 1790092800
-      },
-      "venue": {
-        "id": null,
-        "name": "Audi Field",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 8
-      }
-    },
-    "league": {
-      "id": 1130,
-      "name": "USL Super League",
-      "country": "USA",
-      "logo": "https://media.api-sports.io/football/leagues/1130.png",
-      "flag": "https://media.api-sports.io/flags/us.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 24659,
-        "name": "DC Power W",
-        "logo": "https://media.api-sports.io/football/teams/24659.png",
-        "winner": true
-      },
-      "away": {
-        "id": 24661,
-        "name": "Fort Lauderdale United W",
-        "logo": "https://media.api-sports.io/football/teams/24661.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

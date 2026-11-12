@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1602190,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": 1794150000,
+        "second": 1794153600
+      },
+      "venue": {
+        "id": 20198,
+        "name": "TNA Park",
+        "city": "Tarkwa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 570,
+      "name": "Premier League",
+      "country": "Ghana",
+      "logo": "https://media.api-sports.io/football/leagues/570.png",
+      "flag": "https://media.api-sports.io/flags/gh.svg",
+      "season": 2026,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12255,
+        "name": "Medeama",
+        "logo": "https://media.api-sports.io/football/teams/12255.png",
+        "winner": true
+      },
+      "away": {
+        "id": 21093,
+        "name": "Swedru All Blacks",
+        "logo": "https://media.api-sports.io/football/teams/21093.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1602175,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1602140,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T15:00:00+00:00",
-      "timestamp": 1791126000,
-      "periods": {
-        "first": 1791126000,
-        "second": 1791129600
-      },
-      "venue": {
-        "id": 7794,
-        "name": "Golden City Park",
-        "city": "Berekum"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 570,
-      "name": "Premier League",
-      "country": "Ghana",
-      "logo": "https://media.api-sports.io/football/leagues/570.png",
-      "flag": "https://media.api-sports.io/flags/gh.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 21071,
-        "name": "Debibi United",
-        "logo": "https://media.api-sports.io/football/teams/21071.png",
-        "winner": false
-      },
-      "away": {
-        "id": 12255,
-        "name": "Medeama",
-        "logo": "https://media.api-sports.io/football/teams/12255.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

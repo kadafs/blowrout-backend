@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1594668,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T12:00:00+00:00",
+      "timestamp": 1794052800,
+      "periods": {
+        "first": 1794052800,
+        "second": 1794056400
+      },
+      "venue": {
+        "id": 1886,
+        "name": "Promontor utcai Stadion",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 634,
+      "name": "NB III - Southwest",
+      "country": "Hungary",
+      "logo": "https://media.api-sports.io/football/leagues/634.png",
+      "flag": "https://media.api-sports.io/flags/hu.svg",
+      "season": 2026,
+      "round": "Southwest - 15",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2399,
+        "name": "Budafoki LC",
+        "logo": "https://media.api-sports.io/football/teams/2399.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2407,
+        "name": "Kaposvar",
+        "logo": "https://media.api-sports.io/football/teams/2407.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1594662,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 7,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1594637,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T11:00:00+00:00",
-      "timestamp": 1791630000,
-      "periods": {
-        "first": 1791630000,
-        "second": 1791633600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 634,
-      "name": "NB III - Southwest",
-      "country": "Hungary",
-      "logo": "https://media.api-sports.io/football/leagues/634.png",
-      "flag": "https://media.api-sports.io/flags/hu.svg",
-      "season": 2026,
-      "round": "Southwest - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2407,
-        "name": "Kaposvar",
-        "logo": "https://media.api-sports.io/football/teams/2407.png",
-        "winner": true
-      },
-      "away": {
-        "id": 5104,
-        "name": "Iv\u00e1ncsa",
-        "logo": "https://media.api-sports.io/football/teams/5104.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 0
       },
       "extratime": {

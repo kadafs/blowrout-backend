@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1528963,
+      "referee": "Joao Pinheiro",
+      "timezone": "UTC",
+      "date": "2026-11-12T19:45:00+00:00",
+      "timestamp": 1794512700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 0,
+        "name": "Arena Komb\u00ebtare",
+        "city": "Tirana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 5,
+      "name": "UEFA Nations League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/5.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League C - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 778,
+        "name": "Albania",
+        "logo": "https://media.api-sports.io/football/teams/778.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1099,
+        "name": "Finland",
+        "logo": "https://media.api-sports.io/football/teams/1099.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1528955,
       "referee": "Sascha Stegemann",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 7
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1523007,
-      "referee": "Ante \u010culina, Croatia",
-      "timezone": "UTC",
-      "date": "2026-06-05T17:45:00+00:00",
-      "timestamp": 1780681500,
-      "periods": {
-        "first": 1780681500,
-        "second": 1780685100
-      },
-      "venue": {
-        "id": null,
-        "name": "Pusk\u00e1s Ar\u00e9na",
-        "city": "Budapest"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 769,
-        "name": "Hungary",
-        "logo": "https://media.api-sports.io/football/teams/769.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1099,
-        "name": "Finland",
-        "logo": "https://media.api-sports.io/football/teams/1099.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

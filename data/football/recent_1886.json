@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1638311,
+      "referee": "Emanuela Rusta",
+      "timezone": "UTC",
+      "date": "2026-11-11T20:00:00+00:00",
+      "timestamp": 1794427200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22331,
+        "name": "Stadio Pozzi Lamarmora",
+        "city": "Biella"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 525,
+      "name": "UEFA Champions League Women",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/525.png",
+      "flag": null,
+      "season": 2026,
+      "round": "League Stage - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1886,
+        "name": "Juventus W",
+        "logo": "https://media.api-sports.io/football/teams/1886.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1674,
+        "name": "Lyon W",
+        "logo": "https://media.api-sports.io/football/teams/1674.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 6
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 6
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1601280,
       "referee": "R. Dasso",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1601263,
-      "referee": "A. Bortolussi",
-      "timezone": "UTC",
-      "date": "2026-10-18T10:30:00+00:00",
-      "timestamp": 1792319400,
-      "periods": {
-        "first": 1792319400,
-        "second": 1792323000
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Vittorio Pozzo",
-        "city": "Biella"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 139,
-      "name": "Serie A Women",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/139.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Regular Season - 3",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1886,
-        "name": "Juventus W",
-        "logo": "https://media.api-sports.io/football/teams/1886.png",
-        "winner": false
-      },
-      "away": {
-        "id": 27960,
-        "name": "Como 1907 W",
-        "logo": "https://media.api-sports.io/football/teams/27960.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 4
       },
       "extratime": {
         "home": null,

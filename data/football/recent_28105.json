@@ -1,14 +1,14 @@
 [
   {
     "fixture": {
-      "id": 1614563,
+      "id": 1614627,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-20T14:00:00+00:00",
-      "timestamp": 1789912800,
+      "date": "2026-11-08T10:30:00+00:00",
+      "timestamp": 1794133800,
       "periods": {
-        "first": 1789912800,
-        "second": 1789916400
+        "first": 1794133800,
+        "second": 1794137400
       },
       "venue": {
         "id": null,
@@ -19,7 +19,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 6
+        "extra": 5
       }
     },
     "league": {
@@ -29,7 +29,7 @@
       "logo": "https://media.api-sports.io/football/leagues/445.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 7 - 3",
+      "round": "Group 7 - 10",
       "standings": true
     },
     "teams": {
@@ -40,9 +40,9 @@
         "winner": null
       },
       "away": {
-        "id": 15352,
-        "name": "Real Aranjuez",
-        "logo": "https://media.api-sports.io/football/teams/15352.png",
+        "id": 9718,
+        "name": "Trival Valderas",
+        "logo": "https://media.api-sports.io/football/teams/9718.png",
         "winner": null
       }
     },
@@ -71,14 +71,14 @@
   },
   {
     "fixture": {
-      "id": 1614552,
+      "id": 1614612,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-12T16:00:00+00:00",
-      "timestamp": 1789228800,
+      "date": "2026-11-01T10:45:00+00:00",
+      "timestamp": 1793529900,
       "periods": {
-        "first": 1789228800,
-        "second": 1789232400
+        "first": 1793529900,
+        "second": 1793533500
       },
       "venue": {
         "id": null,
@@ -89,7 +89,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 6
+        "extra": 1
       }
     },
     "league": {
@@ -99,34 +99,34 @@
       "logo": "https://media.api-sports.io/football/leagues/445.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 7 - 2",
+      "round": "Group 7 - 9",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 9713,
-        "name": "Pozuelo Alarc\u00f3n",
-        "logo": "https://media.api-sports.io/football/teams/9713.png",
-        "winner": null
+        "id": 9712,
+        "name": "M\u00f3stoles",
+        "logo": "https://media.api-sports.io/football/teams/9712.png",
+        "winner": true
       },
       "away": {
         "id": 28105,
         "name": "RC Alcobendas",
         "logo": "https://media.api-sports.io/football/teams/28105.png",
-        "winner": null
+        "winner": false
       }
     },
     "goals": {
-      "home": 1,
+      "home": 5,
       "away": 1
     },
     "score": {
       "halftime": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "fulltime": {
-        "home": 1,
+        "home": 5,
         "away": 1
       },
       "extratime": {
@@ -141,14 +141,84 @@
   },
   {
     "fixture": {
-      "id": 1614545,
+      "id": 1614604,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-06T09:30:00+00:00",
-      "timestamp": 1788687000,
+      "date": "2026-10-25T10:30:00+00:00",
+      "timestamp": 1792924200,
       "periods": {
-        "first": 1788687000,
-        "second": 1788690600
+        "first": 1792924200,
+        "second": 1792927800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 445,
+      "name": "Tercera Divisi\u00f3n RFEF - Group 7",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/445.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 7 - 8",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17516,
+        "name": "Galapagar",
+        "logo": "https://media.api-sports.io/football/teams/17516.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28105,
+        "name": "RC Alcobendas",
+        "logo": "https://media.api-sports.io/football/teams/28105.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1614598,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-18T09:30:00+00:00",
+      "timestamp": 1792315800,
+      "periods": {
+        "first": 1792315800,
+        "second": 1792319400
       },
       "venue": {
         "id": null,
@@ -169,7 +239,7 @@
       "logo": "https://media.api-sports.io/football/leagues/445.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 7 - 1",
+      "round": "Group 7 - 7",
       "standings": true
     },
     "teams": {
@@ -177,27 +247,97 @@
         "id": 28105,
         "name": "RC Alcobendas",
         "logo": "https://media.api-sports.io/football/teams/28105.png",
-        "winner": true
+        "winner": false
       },
       "away": {
-        "id": 25035,
-        "name": "Parla Escuela",
-        "logo": "https://media.api-sports.io/football/teams/25035.png",
-        "winner": false
+        "id": 9710,
+        "name": "Legan\u00e9s II",
+        "logo": "https://media.api-sports.io/football/teams/9710.png",
+        "winner": true
       }
     },
     "goals": {
-      "home": 5,
+      "home": 1,
       "away": 2
     },
     "score": {
       "halftime": {
-        "home": 2,
-        "away": 1
+        "home": 0,
+        "away": 0
       },
       "fulltime": {
-        "home": 5,
+        "home": 1,
         "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1614584,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-10T17:30:00+00:00",
+      "timestamp": 1791653400,
+      "periods": {
+        "first": 1791653400,
+        "second": 1791657000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 445,
+      "name": "Tercera Divisi\u00f3n RFEF - Group 7",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/445.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 7 - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 24709,
+        "name": "Cala Pozuelo",
+        "logo": "https://media.api-sports.io/football/teams/24709.png",
+        "winner": true
+      },
+      "away": {
+        "id": 28105,
+        "name": "RC Alcobendas",
+        "logo": "https://media.api-sports.io/football/teams/28105.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
       },
       "extratime": {
         "home": null,

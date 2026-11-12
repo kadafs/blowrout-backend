@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1462799,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-03-28T17:30:00+00:00",
+      "timestamp": 1774719000,
+      "periods": {
+        "first": 1774719000,
+        "second": 1774722600
+      },
+      "venue": {
+        "id": 6954,
+        "name": "Estadio El Salvador",
+        "city": "Logro\u00f1o"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 454,
+      "name": "Tercera Divisi\u00f3n RFEF - Group 16",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/454.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2025,
+      "round": "Group 16 - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9863,
+        "name": "Berceo",
+        "logo": "https://media.api-sports.io/football/teams/9863.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9389,
+        "name": "Haro Deportivo",
+        "logo": "https://media.api-sports.io/football/teams/9389.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1462640,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1117562,
-      "referee": "Rodr\u00edgo S\u00e1nchez",
-      "timezone": "UTC",
-      "date": "2023-11-26T11:00:00+00:00",
-      "timestamp": 1700996400,
-      "periods": {
-        "first": 1700996400,
-        "second": 1701000000
-      },
-      "venue": {
-        "id": 22490,
-        "name": "Estadio Municipal Luis De La Fuente",
-        "city": "Haro"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 454,
-      "name": "Tercera Divisi\u00f3n RFEF - Group 16",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/454.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2023,
-      "round": "Group 16 - 12",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9389,
-        "name": "Haro Deportivo",
-        "logo": "https://media.api-sports.io/football/teams/9389.png",
-        "winner": false
-      },
-      "away": {
-        "id": 9863,
-        "name": "Berceo",
-        "logo": "https://media.api-sports.io/football/teams/9863.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 0,
         "away": 2
       },
       "extratime": {

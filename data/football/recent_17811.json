@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1624103,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 426,
+      "name": "Serie D - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/426.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group A - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17811,
+        "name": "Imperia",
+        "logo": "https://media.api-sports.io/football/teams/17811.png",
+        "winner": false
+      },
+      "away": {
+        "id": 17814,
+        "name": "Saluzzo",
+        "logo": "https://media.api-sports.io/football/teams/17814.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1624098,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1624278,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T13:00:00+00:00",
-      "timestamp": 1791118800,
-      "periods": {
-        "first": 1791118800,
-        "second": 1791122400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 426,
-      "name": "Serie D - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/426.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group A - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 28191,
-        "name": "Lascaris",
-        "logo": "https://media.api-sports.io/football/teams/28191.png",
-        "winner": null
-      },
-      "away": {
-        "id": 17811,
-        "name": "Imperia",
-        "logo": "https://media.api-sports.io/football/teams/17811.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
         "away": 1
       },
       "extratime": {

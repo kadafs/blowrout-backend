@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1592566,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 751,
+      "name": "Oberliga - Niederrhein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/751.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Niederrhein - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 12848,
+        "name": "Schonnebeck",
+        "logo": "https://media.api-sports.io/football/teams/12848.png",
+        "winner": true
+      },
+      "away": {
+        "id": 14555,
+        "name": "Sonsbeck",
+        "logo": "https://media.api-sports.io/football/teams/14555.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1592559,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 3,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1592751,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:00:00+00:00",
-      "timestamp": 1790514000,
-      "periods": {
-        "first": 1790514000,
-        "second": 1790517600
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 751,
-      "name": "Oberliga - Niederrhein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/751.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Niederrhein - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14555,
-        "name": "Sonsbeck",
-        "logo": "https://media.api-sports.io/football/teams/14555.png",
-        "winner": true
-      },
-      "away": {
-        "id": 28003,
-        "name": "Solingen-Wald",
-        "logo": "https://media.api-sports.io/football/teams/28003.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 2
       },
       "extratime": {

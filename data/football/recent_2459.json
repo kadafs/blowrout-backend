@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1629111,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T12:00:00+00:00",
+      "timestamp": 1794139200,
+      "periods": {
+        "first": 1794139200,
+        "second": 1794142800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 276,
+      "name": "FKF Premier League",
+      "country": "Kenya",
+      "logo": "https://media.api-sports.io/football/leagues/276.png",
+      "flag": "https://media.api-sports.io/flags/ke.svg",
+      "season": 2026,
+      "round": "Regular Season - 6",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 2463,
+        "name": "Mathare United",
+        "logo": "https://media.api-sports.io/football/teams/2463.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2459,
+        "name": "Posta Rangers FC",
+        "logo": "https://media.api-sports.io/football/teams/2459.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1629101,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 5,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1629067,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-10T13:15:00+00:00",
-      "timestamp": 1791638100,
-      "periods": {
-        "first": 1791638100,
-        "second": 1791641700
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 276,
-      "name": "FKF Premier League",
-      "country": "Kenya",
-      "logo": "https://media.api-sports.io/football/leagues/276.png",
-      "flag": "https://media.api-sports.io/flags/ke.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 2459,
-        "name": "Posta Rangers FC",
-        "logo": "https://media.api-sports.io/football/teams/2459.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19489,
-        "name": "Shabana",
-        "logo": "https://media.api-sports.io/football/teams/19489.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

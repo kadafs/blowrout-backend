@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1632120,
+      "referee": "M. Ryan",
+      "timezone": "UTC",
+      "date": "2026-11-07T06:00:00+00:00",
+      "timestamp": 1794031200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Spencer Park",
+        "city": "Brisbane"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 190,
+      "name": "A-League Women",
+      "country": "Australia",
+      "logo": "https://media.api-sports.io/football/leagues/190.png",
+      "flag": "https://media.api-sports.io/flags/au.svg",
+      "season": 2026,
+      "round": "Regular Season - 4",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1973,
+        "name": "Brisbane Roar FC W",
+        "logo": "https://media.api-sports.io/football/teams/1973.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1976,
+        "name": "Melbourne Victory W",
+        "logo": "https://media.api-sports.io/football/teams/1976.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1632113,
       "referee": "B. Mackie",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1539694,
-      "referee": "L. Lee",
-      "timezone": "UTC",
-      "date": "2026-04-25T07:00:00+00:00",
-      "timestamp": 1777100400,
-      "periods": {
-        "first": 1777100400,
-        "second": 1777104000
-      },
-      "venue": {
-        "id": null,
-        "name": "Spencer Park",
-        "city": "Brisbane"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 190,
-      "name": "A-League Women",
-      "country": "Australia",
-      "logo": "https://media.api-sports.io/football/leagues/190.png",
-      "flag": "https://media.api-sports.io/flags/au.svg",
-      "season": 2025,
-      "round": "Quarter-finals",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1973,
-        "name": "Brisbane Roar FC W",
-        "logo": "https://media.api-sports.io/football/teams/1973.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1972,
-        "name": "Adelaide United W",
-        "logo": "https://media.api-sports.io/football/teams/1972.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 0
       },
       "extratime": {
         "home": null,

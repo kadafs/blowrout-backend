@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648033,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T10:30:00+00:00",
+      "timestamp": 1794393000,
+      "periods": {
+        "first": 1794393000,
+        "second": 1794396600
+      },
+      "venue": {
+        "id": null,
+        "name": "Saitama Stadium",
+        "city": "Saitama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 101,
+      "name": "J-League Cup",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/101.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 287,
+        "name": "Urawa",
+        "logo": "https://media.api-sports.io/football/teams/287.png",
+        "winner": true
+      },
+      "away": {
+        "id": 291,
+        "name": "Cerezo Osaka",
+        "logo": "https://media.api-sports.io/football/teams/291.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1324171,
       "referee": "Shu Kawamata, Japan",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 994798,
-      "referee": "Y. Yamamoto",
-      "timezone": "UTC",
-      "date": "2023-07-16T10:00:00+00:00",
-      "timestamp": 1689501600,
-      "periods": {
-        "first": 1689501600,
-        "second": 1689505200
-      },
-      "venue": {
-        "id": 11583,
-        "name": "Yodoko Sakura Stadium",
-        "city": "Osaka"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2023,
-      "round": "Regular Season - 21",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 291,
-        "name": "Cerezo Osaka",
-        "logo": "https://media.api-sports.io/football/teams/291.png",
-        "winner": true
-      },
-      "away": {
-        "id": 287,
-        "name": "Urawa",
-        "logo": "https://media.api-sports.io/football/teams/287.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

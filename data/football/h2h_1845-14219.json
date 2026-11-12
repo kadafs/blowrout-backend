@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1612664,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-10-28T19:30:00+00:00",
+      "timestamp": 1793215800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Keys Park",
+        "city": "Hednesford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14219,
+        "name": "Aston Villa W",
+        "logo": "https://media.api-sports.io/football/teams/14219.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1845,
+        "name": "Birmingham City W",
+        "logo": "https://media.api-sports.io/football/teams/1845.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": 6,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1470338,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 609124,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2020-11-15T14:00:00+00:00",
-      "timestamp": 1605448800,
-      "periods": {
-        "first": 1605364200,
-        "second": 1605367800
-      },
-      "venue": {
-        "id": 595,
-        "name": "Banks's Stadium",
-        "city": "Walsall, West Midlands"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 44,
-      "name": "FA WSL",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/44.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2020,
-      "round": "Regular Season - 4",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 14219,
-        "name": "Aston Villa W",
-        "logo": "https://media.api-sports.io/football/teams/14219.png",
-        "winner": false
-      },
-      "away": {
-        "id": 1845,
-        "name": "Birmingham City W",
-        "logo": "https://media.api-sports.io/football/teams/1845.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1624104,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": "Giuseppe Sivori",
+        "city": "Sestri Levante"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 426,
+      "name": "Serie D - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/426.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group A - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17815,
+        "name": "Sestri Levante",
+        "logo": "https://media.api-sports.io/football/teams/17815.png",
+        "winner": true
+      },
+      "away": {
+        "id": 9430,
+        "name": "Bra",
+        "logo": "https://media.api-sports.io/football/teams/9430.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1624094,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1624057,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-07T13:00:00+00:00",
-      "timestamp": 1791378000,
-      "periods": {
-        "first": 1791378000,
-        "second": 1791381600
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Attilio Bravi",
-        "city": "Bra"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 4
-      }
-    },
-    "league": {
-      "id": 426,
-      "name": "Serie D - Girone A",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/426.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group A - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9430,
-        "name": "Bra",
-        "logo": "https://media.api-sports.io/football/teams/9430.png",
-        "winner": true
-      },
-      "away": {
-        "id": 26507,
-        "name": "Celle Varazze",
-        "logo": "https://media.api-sports.io/football/teams/26507.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

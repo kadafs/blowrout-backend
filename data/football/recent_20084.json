@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1619186,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-10T13:00:00+00:00",
+      "timestamp": 1794315600,
+      "periods": {
+        "first": 1794315600,
+        "second": 1794319200
+      },
+      "venue": {
+        "id": 12051,
+        "name": "MKM Stadium",
+        "city": "Hull"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 703,
+      "name": "Professional Development League",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/703.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Regular Season",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20084,
+        "name": "Hull City U21",
+        "logo": "https://media.api-sports.io/football/teams/20084.png",
+        "winner": true
+      },
+      "away": {
+        "id": 22173,
+        "name": "Fleetwood Town U21",
+        "logo": "https://media.api-sports.io/football/teams/22173.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1627114,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 2,
-        "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1619153,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-29T12:00:00+00:00",
-      "timestamp": 1790683200,
-      "periods": {
-        "first": 1790683200,
-        "second": 1790686800
-      },
-      "venue": {
-        "id": 12051,
-        "name": "MKM Stadium",
-        "city": "Hull"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 7
-      }
-    },
-    "league": {
-      "id": 703,
-      "name": "Professional Development League",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/703.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 20084,
-        "name": "Hull City U21",
-        "logo": "https://media.api-sports.io/football/teams/20084.png",
-        "winner": false
-      },
-      "away": {
-        "id": 19877,
-        "name": "Bolton Wanderers Res.",
-        "logo": "https://media.api-sports.io/football/teams/19877.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 1,
         "away": 2
       },
       "extratime": {

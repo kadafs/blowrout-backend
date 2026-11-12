@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1609407,
+      "id": 1612674,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T19:00:00+00:00",
+      "timestamp": 1794423600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 8560,
+        "name": "Goodison Park",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1855,
+        "name": "Everton W",
+        "logo": "https://media.api-sports.io/football/teams/1855.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15403,
+        "name": "Durham W",
+        "logo": "https://media.api-sports.io/football/teams/15403.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1609407,
+      "referee": "J. Hunter",
       "timezone": "UTC",
       "date": "2026-11-08T12:00:00+00:00",
       "timestamp": 1794139200,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 5
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612648,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-18T13:00:00+00:00",
-      "timestamp": 1792328400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": 512,
-        "name": "Turf Moor",
-        "city": "Burnley"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 15439,
-        "name": "Burnley W",
-        "logo": "https://media.api-sports.io/football/teams/15439.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15403,
-        "name": "Durham W",
-        "logo": "https://media.api-sports.io/football/teams/15403.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 3,
-        "away": 2
       },
       "extratime": {
         "home": null,

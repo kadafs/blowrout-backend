@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1609407,
+      "id": 1612673,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T19:00:00+00:00",
+      "timestamp": 1794423600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1845,
+        "name": "Birmingham City W",
+        "logo": "https://media.api-sports.io/football/teams/1845.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1848,
+        "name": "Sunderland W",
+        "logo": "https://media.api-sports.io/football/teams/1848.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1609407,
+      "referee": "J. Hunter",
       "timezone": "UTC",
       "date": "2026-11-08T12:00:00+00:00",
       "timestamp": 1794139200,
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1609399,
-      "referee": "J. Kings",
-      "timezone": "UTC",
-      "date": "2026-10-04T13:00:00+00:00",
-      "timestamp": 1791118800,
-      "periods": {
-        "first": 1791118800,
-        "second": 1791122400
-      },
-      "venue": {
-        "id": null,
-        "name": "Eppleton Colliery Welfare Ground",
-        "city": "Sunderland"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 699,
-      "name": "Women's Championship",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/699.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Regular Season - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 1848,
-        "name": "Sunderland W",
-        "logo": "https://media.api-sports.io/football/teams/1848.png",
-        "winner": true
-      },
-      "away": {
-        "id": 15404,
-        "name": "Leicester City FC W",
-        "logo": "https://media.api-sports.io/football/teams/15404.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 3,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 3,
         "away": 1
       },
       "extratime": {

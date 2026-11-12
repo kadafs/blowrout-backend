@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1610354,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T14:00:00+00:00",
+      "timestamp": 1794146400,
+      "periods": {
+        "first": 1794146400,
+        "second": 1794150000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 746,
+      "name": "Oberliga - Mittelrhein",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/746.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2026,
+      "round": "Mittelrhein - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14751,
+        "name": "Porz",
+        "logo": "https://media.api-sports.io/football/teams/14751.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14681,
+        "name": "Fortuna K\u00f6ln II",
+        "logo": "https://media.api-sports.io/football/teams/14681.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1610346,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 0,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1610320,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T13:30:00+00:00",
-      "timestamp": 1790515800,
-      "periods": {
-        "first": 1790515800,
-        "second": 1790519400
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 746,
-      "name": "Oberliga - Mittelrhein",
-      "country": "Germany",
-      "logo": "https://media.api-sports.io/football/leagues/746.png",
-      "flag": "https://media.api-sports.io/flags/de.svg",
-      "season": 2026,
-      "round": "Mittelrhein - 5",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 19465,
-        "name": "Eintracht Hohkeppel",
-        "logo": "https://media.api-sports.io/football/teams/19465.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14751,
-        "name": "Porz",
-        "logo": "https://media.api-sports.io/football/teams/14751.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
         "away": 1
       },
       "extratime": {

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635793,
+      "referee": "F. Lata",
+      "timezone": "UTC",
+      "date": "2026-11-11T14:30:00+00:00",
+      "timestamp": 1794407400,
+      "periods": {
+        "first": 1794407400,
+        "second": 1794411000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio del Conero",
+        "city": "Ancona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 893,
+      "name": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/893.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10338,
+        "name": "Italy U19",
+        "logo": "https://media.api-sports.io/football/teams/10338.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10378,
+        "name": "Romania U19",
+        "logo": "https://media.api-sports.io/football/teams/10378.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1643193,
       "referee": null,
       "timezone": "UTC",
@@ -267,76 +337,6 @@
       },
       "fulltime": {
         "home": 1,
-        "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1543336,
-      "referee": "J. Kooij",
-      "timezone": "UTC",
-      "date": "2026-07-02T13:00:00+00:00",
-      "timestamp": 1782997200,
-      "periods": {
-        "first": 1782997200,
-        "second": 1783000800
-      },
-      "venue": {
-        "id": null,
-        "name": "The Oval",
-        "city": "Caernarfon"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 2
-      }
-    },
-    "league": {
-      "id": 493,
-      "name": "UEFA U19 Championship",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/493.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10329,
-        "name": "Croatia U19",
-        "logo": "https://media.api-sports.io/football/teams/10329.png",
-        "winner": null
-      },
-      "away": {
-        "id": 10338,
-        "name": "Italy U19",
-        "logo": "https://media.api-sports.io/football/teams/10338.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
         "away": 0
       },
       "extratime": {

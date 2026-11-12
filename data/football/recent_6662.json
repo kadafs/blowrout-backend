@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1647662,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T12:00:00+00:00",
+      "timestamp": 1793534400,
+      "periods": {
+        "first": 1793534400,
+        "second": 1793538000
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 1053,
+      "name": "Division 2 - Play-offs",
+      "country": "Sweden",
+      "logo": "https://media.api-sports.io/football/leagues/1053.png",
+      "flag": "https://media.api-sports.io/flags/se.svg",
+      "season": 2026,
+      "round": "Promotion Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6662,
+        "name": "Enskede",
+        "logo": "https://media.api-sports.io/football/teams/6662.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11670,
+        "name": "Sleipner",
+        "logo": "https://media.api-sports.io/football/teams/11670.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1647031,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1510863,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-27T12:00:00+00:00",
-      "timestamp": 1790510400,
-      "periods": {
-        "first": 1790510400,
-        "second": 1790514000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 593,
-      "name": "Division 2 - Norra Svealand",
-      "country": "Sweden",
-      "logo": "https://media.api-sports.io/football/leagues/593.png",
-      "flag": "https://media.api-sports.io/flags/se.svg",
-      "season": 2026,
-      "round": "Norra Svealand - 23",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 25574,
-        "name": "Bollstan\u00e4s",
-        "logo": "https://media.api-sports.io/football/teams/25574.png",
-        "winner": false
-      },
-      "away": {
-        "id": 6662,
-        "name": "Enskede",
-        "logo": "https://media.api-sports.io/football/teams/6662.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 3
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 3
       },
       "extratime": {
         "home": null,

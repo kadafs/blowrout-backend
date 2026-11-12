@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1606755,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T06:00:00+00:00",
+      "timestamp": 1794117600,
+      "periods": {
+        "first": 1794117600,
+        "second": 1794121200
+      },
+      "venue": {
+        "id": 982,
+        "name": "Yurtec Stadium",
+        "city": "Sendai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 99,
+      "name": "J2 League",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/99.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 286,
+        "name": "Vegalta Sendai",
+        "logo": "https://media.api-sports.io/football/teams/286.png",
+        "winner": true
+      },
+      "away": {
+        "id": 308,
+        "name": "Ventforet Kofu",
+        "logo": "https://media.api-sports.io/football/teams/308.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1606736,
       "referee": "F. Nakamura",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1606698,
-      "referee": "K. Fukushima",
-      "timezone": "UTC",
-      "date": "2026-10-17T05:00:00+00:00",
-      "timestamp": 1792213200,
-      "periods": {
-        "first": 1792213200,
-        "second": 1792216800
-      },
-      "venue": {
-        "id": 0,
-        "name": "Yurtec Stadium Sendai",
-        "city": "Sendai"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 6
-      }
-    },
-    "league": {
-      "id": 99,
-      "name": "J2 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/99.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2026,
-      "round": "Regular Season - 11",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 286,
-        "name": "Vegalta Sendai",
-        "logo": "https://media.api-sports.io/football/teams/286.png",
-        "winner": null
-      },
-      "away": {
-        "id": 299,
-        "name": "Tokushima Vortis",
-        "logo": "https://media.api-sports.io/football/teams/299.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 0
       },
       "extratime": {
         "home": null,

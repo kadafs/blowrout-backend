@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1649466,
+      "referee": "F. Lopez",
+      "timezone": "UTC",
+      "date": "2026-11-12T03:00:00+00:00",
+      "timestamp": 1794452400,
+      "periods": {
+        "first": 1794452400,
+        "second": 1794456000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio Miguel Hidalgo",
+        "city": "Pachuca de Soto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 673,
+      "name": "Liga MX Femenil",
+      "country": "Mexico",
+      "logo": "https://media.api-sports.io/football/leagues/673.png",
+      "flag": "https://media.api-sports.io/flags/mx.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 14881,
+        "name": "Pachuca W",
+        "logo": "https://media.api-sports.io/football/teams/14881.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14879,
+        "name": "Monterrey W",
+        "logo": "https://media.api-sports.io/football/teams/14879.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1544222,
       "referee": "A. Lopez",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1373299,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2025-05-06T01:00:00+00:00",
-      "timestamp": 1746493200,
-      "periods": {
-        "first": 1746493200,
-        "second": 1746496800
-      },
-      "venue": {
-        "id": 1081,
-        "name": "Estadio Hidalgo",
-        "city": "Pachuca de Soto"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 673,
-      "name": "Liga MX Femenil",
-      "country": "Mexico",
-      "logo": "https://media.api-sports.io/football/leagues/673.png",
-      "flag": "https://media.api-sports.io/flags/mx.svg",
-      "season": 2024,
-      "round": "Clausura - Semi-finals",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 14881,
-        "name": "Pachuca W",
-        "logo": "https://media.api-sports.io/football/teams/14881.png",
-        "winner": true
-      },
-      "away": {
-        "id": 14879,
-        "name": "Monterrey W",
-        "logo": "https://media.api-sports.io/football/teams/14879.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 4,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 4,
-        "away": 1
       },
       "extratime": {
         "home": null,

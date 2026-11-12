@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1625346,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:30:00+00:00",
+      "timestamp": 1794144600,
+      "periods": {
+        "first": 1794144600,
+        "second": 1794148200
+      },
+      "venue": {
+        "id": 945,
+        "name": "Stadio Ettore Mannucci",
+        "city": "Pontedera"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 429,
+      "name": "Serie D - Girone D",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/429.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group D - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1591,
+        "name": "Pontedera",
+        "logo": "https://media.api-sports.io/football/teams/1591.png",
+        "winner": false
+      },
+      "away": {
+        "id": 28201,
+        "name": "Solbiatese",
+        "logo": "https://media.api-sports.io/football/teams/28201.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1625333,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1625308,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-11T13:00:00+00:00",
-      "timestamp": 1791723600,
-      "periods": {
-        "first": 1791723600,
-        "second": 1791727200
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 429,
-      "name": "Serie D - Girone D",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/429.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group D - 7",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9487,
-        "name": "Lentigione",
-        "logo": "https://media.api-sports.io/football/teams/9487.png",
-        "winner": true
-      },
-      "away": {
-        "id": 1591,
-        "name": "Pontedera",
-        "logo": "https://media.api-sports.io/football/teams/1591.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

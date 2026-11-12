@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1624881,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T15:00:00+00:00",
+      "timestamp": 1794150000,
+      "periods": {
+        "first": 1794150000,
+        "second": 1794153600
+      },
+      "venue": {
+        "id": 944,
+        "name": "Stadio Nereo Rocco",
+        "city": "Trieste"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 428,
+      "name": "Serie D - Girone C",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/428.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2026,
+      "round": "Group C - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 877,
+        "name": "Triestina",
+        "logo": "https://media.api-sports.io/football/teams/877.png",
+        "winner": null
+      },
+      "away": {
+        "id": 28197,
+        "name": "Schio",
+        "logo": "https://media.api-sports.io/football/teams/28197.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1624696,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1624675,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T10:30:00+00:00",
-      "timestamp": 1791109800,
-      "periods": {
-        "first": 1791109800,
-        "second": 1791113400
-      },
-      "venue": {
-        "id": 944,
-        "name": "Stadio Nereo Rocco",
-        "city": "Trieste"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 5
-      }
-    },
-    "league": {
-      "id": 428,
-      "name": "Serie D - Girone C",
-      "country": "Italy",
-      "logo": "https://media.api-sports.io/football/leagues/428.png",
-      "flag": "https://media.api-sports.io/flags/it.svg",
-      "season": 2026,
-      "round": "Group C - 6",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 877,
-        "name": "Triestina",
-        "logo": "https://media.api-sports.io/football/teams/877.png",
-        "winner": true
-      },
-      "away": {
-        "id": 17133,
-        "name": "FC Obermais",
-        "logo": "https://media.api-sports.io/football/teams/17133.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": 2,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

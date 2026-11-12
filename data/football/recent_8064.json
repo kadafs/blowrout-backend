@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1646213,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-12T12:00:00+00:00",
+      "timestamp": 1794484800,
+      "periods": {
+        "first": 1794484800,
+        "second": 1794488400
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 424,
+      "name": "Ligue 1",
+      "country": "Congo-DR",
+      "logo": "https://media.api-sports.io/football/leagues/424.png",
+      "flag": "https://media.api-sports.io/flags/cd.svg",
+      "season": 2026,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 20468,
+        "name": "C\u00e9leste",
+        "logo": "https://media.api-sports.io/football/teams/20468.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8064,
+        "name": "Maniema Union",
+        "logo": "https://media.api-sports.io/football/teams/8064.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1646209,
       "referee": null,
       "timezone": "UTC",
@@ -27,7 +97,7 @@
       "name": "Ligue 1",
       "country": "Congo-DR",
       "logo": "https://media.api-sports.io/football/leagues/424.png",
-      "flag": "https://media.api-sports.io/flags/cg.svg",
+      "flag": "https://media.api-sports.io/flags/cd.svg",
       "season": 2026,
       "round": "Regular Season - 4",
       "standings": true
@@ -52,8 +122,8 @@
     },
     "score": {
       "halftime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "fulltime": {
         "home": 2,
@@ -97,7 +167,7 @@
       "name": "Ligue 1",
       "country": "Congo-DR",
       "logo": "https://media.api-sports.io/football/leagues/424.png",
-      "flag": "https://media.api-sports.io/flags/cg.svg",
+      "flag": "https://media.api-sports.io/flags/cd.svg",
       "season": 2026,
       "round": "Regular Season - 3",
       "standings": true
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 4
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1546789,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-20T11:00:00+00:00",
-      "timestamp": 1781953200,
-      "periods": {
-        "first": 1781953200,
-        "second": 1781956800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 424,
-      "name": "Ligue 1",
-      "country": "Congo-DR",
-      "logo": "https://media.api-sports.io/football/leagues/424.png",
-      "flag": "https://media.api-sports.io/flags/cg.svg",
-      "season": 2025,
-      "round": "Championship Group - 14",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 8572,
-        "name": "Simba",
-        "logo": "https://media.api-sports.io/football/teams/8572.png",
-        "winner": true
-      },
-      "away": {
-        "id": 8064,
-        "name": "Maniema Union",
-        "logo": "https://media.api-sports.io/football/teams/8064.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 1
       },
       "extratime": {
         "home": null,

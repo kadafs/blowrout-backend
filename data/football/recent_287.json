@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1648033,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T10:30:00+00:00",
+      "timestamp": 1794393000,
+      "periods": {
+        "first": 1794393000,
+        "second": 1794396600
+      },
+      "venue": {
+        "id": null,
+        "name": "Saitama Stadium",
+        "city": "Saitama"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 101,
+      "name": "J-League Cup",
+      "country": "Japan",
+      "logo": "https://media.api-sports.io/football/leagues/101.png",
+      "flag": "https://media.api-sports.io/flags/jp.svg",
+      "season": 2026,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 287,
+        "name": "Urawa",
+        "logo": "https://media.api-sports.io/football/teams/287.png",
+        "winner": true
+      },
+      "away": {
+        "id": 291,
+        "name": "Cerezo Osaka",
+        "logo": "https://media.api-sports.io/football/teams/291.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1556140,
       "referee": "Koei Koya",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 3,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1556096,
-      "referee": "Takafumi Mikuriya, Japan",
-      "timezone": "UTC",
-      "date": "2026-10-17T07:00:00+00:00",
-      "timestamp": 1792220400,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": "K's Denki Stadium Mito",
-        "city": "Mito"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 98,
-      "name": "J1 League",
-      "country": "Japan",
-      "logo": "https://media.api-sports.io/football/leagues/98.png",
-      "flag": "https://media.api-sports.io/flags/jp.svg",
-      "season": 2027,
-      "round": "Regular Season - 10",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 305,
-        "name": "Mito Hollyhock",
-        "logo": "https://media.api-sports.io/football/teams/305.png",
-        "winner": false
-      },
-      "away": {
-        "id": 287,
-        "name": "Urawa",
-        "logo": "https://media.api-sports.io/football/teams/287.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

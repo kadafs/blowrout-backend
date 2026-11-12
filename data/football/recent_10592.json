@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1604900,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-07T14:00:00+00:00",
+      "timestamp": 1794060000,
+      "periods": {
+        "first": 1794060000,
+        "second": 1794063600
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "La Chaux de Fonds"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 599,
+      "name": "1. Liga Classic - Group 1",
+      "country": "Switzerland",
+      "logo": "https://media.api-sports.io/football/leagues/599.png",
+      "flag": "https://media.api-sports.io/flags/ch.svg",
+      "season": 2026,
+      "round": "Group 1 - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10592,
+        "name": "La Chaux-de-Fonds",
+        "logo": "https://media.api-sports.io/football/teams/10592.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12697,
+        "name": "Vevey Sports",
+        "logo": "https://media.api-sports.io/football/teams/12697.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1604896,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 5,
         "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1604868,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:00:00+00:00",
-      "timestamp": 1791032400,
-      "periods": {
-        "first": 1791032400,
-        "second": 1791036000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "La Chaux de Fonds"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 599,
-      "name": "1. Liga Classic - Group 1",
-      "country": "Switzerland",
-      "logo": "https://media.api-sports.io/football/leagues/599.png",
-      "flag": "https://media.api-sports.io/flags/ch.svg",
-      "season": 2026,
-      "round": "Group 1 - 9",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 10592,
-        "name": "La Chaux-de-Fonds",
-        "logo": "https://media.api-sports.io/football/teams/10592.png",
-        "winner": false
-      },
-      "away": {
-        "id": 17484,
-        "name": "Prishtina Bern",
-        "logo": "https://media.api-sports.io/football/teams/17484.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

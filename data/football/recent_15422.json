@@ -1,8 +1,78 @@
 [
   {
     "fixture": {
-      "id": 1609408,
+      "id": 1612677,
       "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T19:30:00+00:00",
+      "timestamp": 1794425400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 518,
+        "name": "The Valley",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 697,
+      "name": "WSL Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/697.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2026,
+      "round": "Group Stage",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 15402,
+        "name": "Charlton Athletic W",
+        "logo": "https://media.api-sports.io/football/teams/15402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 15422,
+        "name": "Ipswich Town W",
+        "logo": "https://media.api-sports.io/football/teams/15422.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1609408,
+      "referee": "F. Catchpole",
       "timezone": "UTC",
       "date": "2026-11-08T14:00:00+00:00",
       "timestamp": 1794146400,
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1612645,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-30T18:30:00+00:00",
-      "timestamp": 1790793000,
-      "periods": {
-        "first": null,
-        "second": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Colchester"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 697,
-      "name": "WSL Cup",
-      "country": "England",
-      "logo": "https://media.api-sports.io/football/leagues/697.png",
-      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 15422,
-        "name": "Ipswich Town W",
-        "logo": "https://media.api-sports.io/football/teams/15422.png",
-        "winner": false
-      },
-      "away": {
-        "id": 15406,
-        "name": "London City Lionesses W",
-        "logo": "https://media.api-sports.io/football/teams/15406.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 1
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1635813,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-11T16:00:00+00:00",
+      "timestamp": 1794412800,
+      "periods": {
+        "first": 1794412800,
+        "second": 1794416400
+      },
+      "venue": {
+        "id": null,
+        "name": "Sportsko-Rekreativni Centar Mladost",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 893,
+      "name": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/893.png",
+      "flag": null,
+      "season": 2027,
+      "round": "Group Stage",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 10346,
+        "name": "Serbia U19",
+        "logo": "https://media.api-sports.io/football/teams/10346.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10362,
+        "name": "Faroe Islands U19",
+        "logo": "https://media.api-sports.io/football/teams/10362.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1640508,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 3
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1543337,
-      "referee": "S. Barrott",
-      "timezone": "UTC",
-      "date": "2026-07-02T17:00:00+00:00",
-      "timestamp": 1783011600,
-      "periods": {
-        "first": 1783011600,
-        "second": 1783015200
-      },
-      "venue": {
-        "id": null,
-        "name": "Nantporth Stadium",
-        "city": "Bangor"
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 493,
-      "name": "UEFA U19 Championship",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/493.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Group Stage",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 10346,
-        "name": "Serbia U19",
-        "logo": "https://media.api-sports.io/football/teams/10346.png",
-        "winner": false
-      },
-      "away": {
-        "id": 10352,
-        "name": "Ukraine U19",
-        "logo": "https://media.api-sports.io/football/teams/10352.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 1,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 2
       },
       "extratime": {
         "home": null,

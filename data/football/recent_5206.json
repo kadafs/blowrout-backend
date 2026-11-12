@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1630633,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-05T13:00:00+00:00",
+      "timestamp": 1793883600,
+      "periods": {
+        "first": 1793883600,
+        "second": 1793887200
+      },
+      "venue": {
+        "id": 3935,
+        "name": "Garden Park",
+        "city": "Kitwe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 400,
+      "name": "Super League",
+      "country": "Zambia",
+      "logo": "https://media.api-sports.io/football/leagues/400.png",
+      "flag": "https://media.api-sports.io/flags/zm.svg",
+      "season": 2026,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 21875,
+        "name": "Mutondo Stars",
+        "logo": "https://media.api-sports.io/football/teams/21875.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5206,
+        "name": "Mufulira Wanderers",
+        "logo": "https://media.api-sports.io/football/teams/5206.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1630622,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 0,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1630567,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-03T13:00:00+00:00",
-      "timestamp": 1791032400,
-      "periods": {
-        "first": 1791032400,
-        "second": 1791036000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 400,
-      "name": "Super League",
-      "country": "Zambia",
-      "logo": "https://media.api-sports.io/football/leagues/400.png",
-      "flag": "https://media.api-sports.io/flags/zm.svg",
-      "season": 2026,
-      "round": "Regular Season - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 5206,
-        "name": "Mufulira Wanderers",
-        "logo": "https://media.api-sports.io/football/teams/5206.png",
-        "winner": false
-      },
-      "away": {
-        "id": 5200,
-        "name": "Green Eagles",
-        "logo": "https://media.api-sports.io/football/teams/5200.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 4
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 2
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 4
       },
       "extratime": {
         "home": null,

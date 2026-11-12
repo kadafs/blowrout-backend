@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1640007,
+      "referee": "Jefferson Escobar",
+      "timezone": "UTC",
+      "date": "2026-11-12T20:00:00+00:00",
+      "timestamp": 1794513600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio La Polar",
+        "city": "Havana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 536,
+      "name": "CONCACAF Nations League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/536.png",
+      "flag": null,
+      "season": 2025,
+      "round": "League B - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10982,
+        "name": "Bonaire",
+        "logo": "https://media.api-sports.io/football/teams/10982.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2388,
+        "name": "Cuba",
+        "logo": "https://media.api-sports.io/football/teams/2388.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 7
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 7
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1639996,
       "referee": "J. Leira",
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 1,
         "away": 2
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1550808,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-06-06T17:00:00+00:00",
-      "timestamp": 1780765200,
-      "periods": {
-        "first": 1780765200,
-        "second": 1780768800
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": null
-      }
-    },
-    "league": {
-      "id": 10,
-      "name": "Friendlies",
-      "country": "World",
-      "logo": "https://media.api-sports.io/football/leagues/10.png",
-      "flag": null,
-      "season": 2026,
-      "round": "Friendly International",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 8168,
-        "name": "British Virgin Islands",
-        "logo": "https://media.api-sports.io/football/teams/8168.png",
-        "winner": true
-      },
-      "away": {
-        "id": 10982,
-        "name": "Bonaire",
-        "logo": "https://media.api-sports.io/football/teams/10982.png",
-        "winner": false
-      }
-    },
-    "goals": {
-      "home": 2,
-      "away": 0
-    },
-    "score": {
-      "halftime": {
-        "home": null,
-        "away": null
-      },
-      "fulltime": {
-        "home": 2,
-        "away": 0
       },
       "extratime": {
         "home": null,

@@ -1,6 +1,76 @@
 [
   {
     "fixture": {
+      "id": 1562816,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-08T13:00:00+00:00",
+      "timestamp": 1794142800,
+      "periods": {
+        "first": 1794142800,
+        "second": 1794146400
+      },
+      "venue": {
+        "id": null,
+        "name": "Mestsky stadion v Kotline",
+        "city": "Varnsdorf"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 685,
+      "name": "3. liga - CFL B",
+      "country": "Czech-Republic",
+      "logo": "https://media.api-sports.io/football/leagues/685.png",
+      "flag": "https://media.api-sports.io/flags/cz.svg",
+      "season": 2026,
+      "round": "Group B - 14",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3728,
+        "name": "Varnsdorf",
+        "logo": "https://media.api-sports.io/football/teams/3728.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12877,
+        "name": "Teplice II",
+        "logo": "https://media.api-sports.io/football/teams/12877.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
       "id": 1562810,
       "referee": null,
       "timezone": "UTC",
@@ -268,76 +338,6 @@
       "fulltime": {
         "home": 2,
         "away": 0
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1562777,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-10-04T09:00:00+00:00",
-      "timestamp": 1791104400,
-      "periods": {
-        "first": 1791104400,
-        "second": 1791108000
-      },
-      "venue": {
-        "id": null,
-        "name": "Football pitch Na Stinadlech - Artificial Grass",
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 3
-      }
-    },
-    "league": {
-      "id": 685,
-      "name": "3. liga - CFL B",
-      "country": "Czech-Republic",
-      "logo": "https://media.api-sports.io/football/leagues/685.png",
-      "flag": "https://media.api-sports.io/flags/cz.svg",
-      "season": 2026,
-      "round": "Group B - 9",
-      "standings": false
-    },
-    "teams": {
-      "home": {
-        "id": 12877,
-        "name": "Teplice II",
-        "logo": "https://media.api-sports.io/football/teams/12877.png",
-        "winner": false
-      },
-      "away": {
-        "id": 7320,
-        "name": "Neratovice-By\u0161kovice",
-        "logo": "https://media.api-sports.io/football/teams/7320.png",
-        "winner": true
-      }
-    },
-    "goals": {
-      "home": 0,
-      "away": 2
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 0
-      },
-      "fulltime": {
-        "home": 0,
-        "away": 2
       },
       "extratime": {
         "home": null,

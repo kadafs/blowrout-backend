@@ -1,14 +1,14 @@
 [
   {
     "fixture": {
-      "id": 1614863,
+      "id": 1614926,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-19T16:00:00+00:00",
-      "timestamp": 1789833600,
+      "date": "2026-11-08T15:30:00+00:00",
+      "timestamp": 1794151800,
       "periods": {
-        "first": 1789833600,
-        "second": 1789837200
+        "first": 1794151800,
+        "second": 1794155400
       },
       "venue": {
         "id": null,
@@ -19,7 +19,7 @@
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 10
+        "extra": 9
       }
     },
     "league": {
@@ -29,7 +29,7 @@
       "logo": "https://media.api-sports.io/football/leagues/446.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 8 - 3",
+      "round": "Group 8 - 10",
       "standings": true
     },
     "teams": {
@@ -37,26 +37,96 @@
         "id": 9721,
         "name": "Almaz\u00e1n",
         "logo": "https://media.api-sports.io/football/teams/9721.png",
-        "winner": null
+        "winner": true
       },
       "away": {
-        "id": 22144,
-        "name": "Villaralbo",
-        "logo": "https://media.api-sports.io/football/teams/22144.png",
-        "winner": null
+        "id": 9737,
+        "name": "Salamanca II",
+        "logo": "https://media.api-sports.io/football/teams/9737.png",
+        "winner": false
       }
     },
     "goals": {
-      "home": 2,
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1614922,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2026-11-01T15:00:00+00:00",
+      "timestamp": 1793545200,
+      "periods": {
+        "first": 1793545200,
+        "second": 1793548800
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 446,
+      "name": "Tercera Divisi\u00f3n RFEF - Group 8",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/446.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2026,
+      "round": "Group 8 - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9733,
+        "name": "Mirand\u00e9s II",
+        "logo": "https://media.api-sports.io/football/teams/9733.png",
+        "winner": false
+      },
+      "away": {
+        "id": 9721,
+        "name": "Almaz\u00e1n",
+        "logo": "https://media.api-sports.io/football/teams/9721.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
       "away": 2
     },
     "score": {
       "halftime": {
-        "home": 2,
+        "home": 0,
         "away": 1
       },
       "fulltime": {
-        "home": 2,
+        "home": 0,
         "away": 2
       },
       "extratime": {
@@ -71,14 +141,14 @@
   },
   {
     "fixture": {
-      "id": 1614854,
+      "id": 1614914,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-09-12T15:00:00+00:00",
-      "timestamp": 1789225200,
+      "date": "2026-10-24T15:00:00+00:00",
+      "timestamp": 1792854000,
       "periods": {
-        "first": 1789225200,
-        "second": 1789228800
+        "first": 1792854000,
+        "second": 1792857600
       },
       "venue": {
         "id": null,
@@ -99,90 +169,20 @@
       "logo": "https://media.api-sports.io/football/leagues/446.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
       "season": 2026,
-      "round": "Group 8 - 2",
+      "round": "Group 8 - 8",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 9722,
-        "name": "Arandina",
-        "logo": "https://media.api-sports.io/football/teams/9722.png",
-        "winner": null
-      },
-      "away": {
-        "id": 9721,
-        "name": "Almaz\u00e1n",
-        "logo": "https://media.api-sports.io/football/teams/9721.png",
-        "winner": null
-      }
-    },
-    "goals": {
-      "home": 1,
-      "away": 1
-    },
-    "score": {
-      "halftime": {
-        "home": 0,
-        "away": 1
-      },
-      "fulltime": {
-        "home": 1,
-        "away": 1
-      },
-      "extratime": {
-        "home": null,
-        "away": null
-      },
-      "penalty": {
-        "home": null,
-        "away": null
-      }
-    }
-  },
-  {
-    "fixture": {
-      "id": 1614845,
-      "referee": null,
-      "timezone": "UTC",
-      "date": "2026-09-06T16:00:00+00:00",
-      "timestamp": 1788710400,
-      "periods": {
-        "first": 1788710400,
-        "second": 1788714000
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null
-      },
-      "status": {
-        "long": "Match Finished",
-        "short": "FT",
-        "elapsed": 90,
-        "extra": 12
-      }
-    },
-    "league": {
-      "id": 446,
-      "name": "Tercera Divisi\u00f3n RFEF - Group 8",
-      "country": "Spain",
-      "logo": "https://media.api-sports.io/football/leagues/446.png",
-      "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2026,
-      "round": "Group 8 - 1",
-      "standings": true
-    },
-    "teams": {
-      "home": {
-        "id": 9721,
-        "name": "Almaz\u00e1n",
-        "logo": "https://media.api-sports.io/football/teams/9721.png",
+        "id": 9738,
+        "name": "UD Santa Marta",
+        "logo": "https://media.api-sports.io/football/teams/9738.png",
         "winner": true
       },
       "away": {
-        "id": 26546,
-        "name": "Unionistas II",
-        "logo": "https://media.api-sports.io/football/teams/26546.png",
+        "id": 9721,
+        "name": "Almaz\u00e1n",
+        "logo": "https://media.api-sports.io/football/teams/9721.png",
         "winner": false
       }
     },
@@ -193,7 +193,7 @@
     "score": {
       "halftime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
         "home": 2,
@@ -211,25 +211,25 @@
   },
   {
     "fixture": {
-      "id": 1460408,
+      "id": 1614899,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-05-10T16:00:00+00:00",
-      "timestamp": 1778428800,
+      "date": "2026-10-18T10:00:00+00:00",
+      "timestamp": 1792317600,
       "periods": {
-        "first": 1778428800,
-        "second": 1778432400
+        "first": 1792317600,
+        "second": 1792321200
       },
       "venue": {
         "id": null,
-        "name": "Campo Municipal La Arboleda 2",
-        "city": "Almaz\u00e1n"
+        "name": null,
+        "city": null
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 8
+        "extra": 5
       }
     },
     "league": {
@@ -238,8 +238,8 @@
       "country": "Spain",
       "logo": "https://media.api-sports.io/football/leagues/446.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2025,
-      "round": "Group 8 - 34",
+      "season": 2026,
+      "round": "Group 8 - 7",
       "standings": true
     },
     "teams": {
@@ -247,27 +247,27 @@
         "id": 9721,
         "name": "Almaz\u00e1n",
         "logo": "https://media.api-sports.io/football/teams/9721.png",
-        "winner": null
+        "winner": true
       },
       "away": {
-        "id": 9738,
-        "name": "UD Santa Marta",
-        "logo": "https://media.api-sports.io/football/teams/9738.png",
-        "winner": null
+        "id": 9727,
+        "name": "Burgos Promesas",
+        "logo": "https://media.api-sports.io/football/teams/9727.png",
+        "winner": false
       }
     },
     "goals": {
       "home": 1,
-      "away": 1
+      "away": 0
     },
     "score": {
       "halftime": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
       "fulltime": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
       "extratime": {
         "home": null,
@@ -281,25 +281,25 @@
   },
   {
     "fixture": {
-      "id": 1460399,
+      "id": 1614895,
       "referee": null,
       "timezone": "UTC",
-      "date": "2026-05-01T11:00:00+00:00",
-      "timestamp": 1777633200,
+      "date": "2026-10-10T16:15:00+00:00",
+      "timestamp": 1791648900,
       "periods": {
-        "first": 1777633200,
-        "second": 1777636800
+        "first": 1791648900,
+        "second": 1791652500
       },
       "venue": {
-        "id": 6821,
-        "name": "Campo Los Dominicos",
-        "city": "La Virgen Del Camino"
+        "id": null,
+        "name": null,
+        "city": null
       },
       "status": {
         "long": "Match Finished",
         "short": "FT",
         "elapsed": 90,
-        "extra": 9
+        "extra": 14
       }
     },
     "league": {
@@ -308,35 +308,35 @@
       "country": "Spain",
       "logo": "https://media.api-sports.io/football/leagues/446.png",
       "flag": "https://media.api-sports.io/flags/es.svg",
-      "season": 2025,
-      "round": "Group 8 - 33",
+      "season": 2026,
+      "round": "Group 8 - 6",
       "standings": true
     },
     "teams": {
       "home": {
-        "id": 9732,
-        "name": "La Virgen del Camino",
-        "logo": "https://media.api-sports.io/football/teams/9732.png",
-        "winner": false
+        "id": 9729,
+        "name": "Cultural Leonesa II",
+        "logo": "https://media.api-sports.io/football/teams/9729.png",
+        "winner": true
       },
       "away": {
         "id": 9721,
         "name": "Almaz\u00e1n",
         "logo": "https://media.api-sports.io/football/teams/9721.png",
-        "winner": true
+        "winner": false
       }
     },
     "goals": {
-      "home": 1,
+      "home": 5,
       "away": 2
     },
     "score": {
       "halftime": {
         "home": 1,
-        "away": 2
+        "away": 0
       },
       "fulltime": {
-        "home": 1,
+        "home": 5,
         "away": 2
       },
       "extratime": {

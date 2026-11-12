@@ -635,7 +635,10 @@ def get_or_calibrate_config(league_id, league_name, auto_calibrate=True):
 # ------------------------------------------------------------------
 
 def get_advanced_stats(league_id, season=None):
-    """Load cached [ADVANCED] matrix if available."""
+    """Load cached [ADVANCED] matrix if available.
+    Returns (team_dict, derived_pivots) where derived_pivots is a dict with
+    'pace_pivot' and 'eff_pivot' derived from actual box-score data, or None.
+    """
     from fetch_universal_bball_stats import attach_prior_season_stats
     candidates = []
     try:
@@ -655,18 +658,25 @@ def get_advanced_stats(league_id, season=None):
         f"data/bball_stats_{league_id}_adv.json",
     ])
     merged_teams = {}
+    derived_pivots = None
     for matrix_path in candidates:
         if os.path.exists(matrix_path):
             data = load_json(matrix_path)
             if not data or data.get("note") == "Insufficient box-score coverage; using SRS fallback":
                 continue
+            # Extract derived pivots from the ADV payload (set by generate_advanced_metrics_v2)
+            if derived_pivots is None and data.get("derived_pace_pivot") is not None:
+                derived_pivots = {
+                    "pace_pivot": data["derived_pace_pivot"],
+                    "eff_pivot": data["derived_eff_pivot"],
+                }
             teams_list = data.get("teams", [])
             for t in teams_list:
                 if t.get("team_name") and t["team_name"] not in merged_teams:
                     merged_teams[t["team_name"]] = t
     if merged_teams:
-        return attach_prior_season_stats(merged_teams, league_id, season)
-    return None
+        return attach_prior_season_stats(merged_teams, league_id, season), derived_pivots
+    return None, None
 
 
 def _load_teams_from_file(path):
@@ -960,7 +970,7 @@ def calculate_win_prob(spread, std_dev=12.0):
     # Using a simple approximation if scipy is not available, but norm.cdf is better
     return norm.cdf(spread / std_dev)
 
-def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None, fallback_stats=None, market_total=None):
+def predict_game(away_name, home_name, away_id, home_id, team_stats, config, config_path, mode, trace, yesterday_teams=None, ghost_injuries=None, fallback_stats=None, market_total=None, derived_pivots=None):
     """
     Run the UniversalBasketballEngine for a single matchup.
     Returns engine result dict or None if teams not found.
@@ -1015,7 +1025,14 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
         return None, f"Team stats not found: {', '.join(missing)}"
 
     # Build game_data in the format the engine expects
+    # If derived pivots are available (from ADV model's box-score analysis), use them
+    # instead of config values. This ensures the crossmatch formula uses the same
+    # eff_pivot that the ADV model centered its ratings around.
     config_pace = cfg.get("pace_pivot", 76)
+    eff_pivot = cfg.get("eff_pivot", 108.0)
+    if derived_pivots:
+        config_pace = derived_pivots["pace_pivot"]
+        eff_pivot = derived_pivots["eff_pivot"]
 
     MIN_GAMES_TRUST = 8
     a_tot_gp = sA.get("games_played", sA.get("games", 0))
@@ -1055,8 +1072,6 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
 
     if not a_has_baseline or not h_has_baseline:
         return None, f"Insufficient games played & no prior season baseline. {away_name} (curr={a_curr_gp}, prev={a_prev_gp}), {home_name} (curr={h_curr_gp}, prev={h_prev_gp}). Skipping."
-
-    eff_pivot = cfg.get("eff_pivot", 108.0)
 
     # Dynamic Bayesian & Prior-Season Smoothing
     def smooth_team_ratings(team_s, eff_pivot, config_pace, name):
@@ -1112,7 +1127,8 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
         raw_pace = config_pace
 
     # FIX 2: KenPom-style crossmatch efficiency for ALL leagues
-    lg_avg_eff = cfg.get("eff_pivot", 108.0)
+    # Use eff_pivot (which may be derived from box data for ADV, or from config for SRS)
+    lg_avg_eff = eff_pivot
     a_off = sA.get("adj_off", lg_avg_eff)
     a_def = sA.get("adj_def", lg_avg_eff)
     h_off = sH.get("adj_off", lg_avg_eff)
@@ -1344,7 +1360,7 @@ def main():
 
         # Step 3: team stats
         stats_srs = get_srs_stats(lid, season, refresh=args.refresh)
-        stats_adv = get_advanced_stats(lid)
+        stats_adv, adv_derived_pivots = get_advanced_stats(lid)
         
         ghost_injuries = {}
         try:
@@ -1387,7 +1403,7 @@ def main():
             # PASS 1: Try ADVANCED Model first if matrix exists
             if stats_adv:
                 result_adv, err_adv = predict_game(
-                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs, market_total=live_market
+                    away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs, market_total=live_market, derived_pivots=adv_derived_pivots
                 )
                 if not err_adv:
                     best_pass = (result_adv, "[ADVANCED]", stats_adv)

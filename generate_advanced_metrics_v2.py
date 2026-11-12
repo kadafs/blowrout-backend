@@ -918,10 +918,30 @@ def process_leagues(target_league_id=None):
         # We check more broadly across all filtered games to avoid missing sparse coverage
         advanced_eligible = False
         adv_count = 0
+        box_poss_list = []   # collect real possession counts for pivot derivation
+        box_ppg_list = []    # collect per-team PPG for pivot derivation
         for g in filtered_games:
             stats_val = g.get("advanced_stats") or g.get("stats")
             if stats_val and isinstance(stats_val, dict) and len(stats_val) > 0:
                 adv_count += 1
+                # Collect real possession data for pivot derivation
+                home_s = stats_val.get("home", {})
+                away_s = stats_val.get("away", {})
+                if home_s and away_s:
+                    fga = home_s.get("FGA", 0) + away_s.get("FGA", 0)
+                    fta = home_s.get("FTA", 0) + away_s.get("FTA", 0)
+                    tov = home_s.get("TOV", 0) + away_s.get("TOV", 0)
+                    orb = home_s.get("ORB", 0) + away_s.get("ORB", 0)
+                    if fga > 0:
+                        poss_g = 0.5 * (fga - orb + tov + 0.44 * fta)
+                        if 40 <= poss_g <= 120:
+                            box_poss_list.append(poss_g)
+            hs = g.get("home_score", 0)
+            as_ = g.get("away_score", 0)
+            if hs > 0:
+                box_ppg_list.append(hs)
+            if as_ > 0:
+                box_ppg_list.append(as_)
                 
         # Require at least 5 games with advanced data across the whole dataset
         if adv_count >= 5:
@@ -943,6 +963,19 @@ def process_leagues(target_league_id=None):
                     pace_pivot = cfg_data.get("pace_pivot", 76.0)
                     eff_pivot = cfg_data.get("eff_pivot", 108.0)
             except: pass
+        
+        # --- Derive actual pace/eff pivots from box-score data for ADV model ---
+        # Instead of using config pivots (which may be US-centric defaults),
+        # compute the real average possessions and efficiency from the data.
+        # This ensures the KenPom opponent-adjustment operates in the correct scale.
+        derived_pace_pivot = pace_pivot   # fallback to config
+        derived_eff_pivot = eff_pivot     # fallback to config
+        if advanced_eligible and len(box_poss_list) >= 5 and len(box_ppg_list) >= 10:
+            derived_pace_pivot = round(sum(box_poss_list) / len(box_poss_list), 1)
+            avg_ppg = sum(box_ppg_list) / len(box_ppg_list)
+            derived_eff_pivot = round(avg_ppg / (derived_pace_pivot / 100.0), 1)
+            if abs(derived_pace_pivot - pace_pivot) > 2.0:
+                print(f"    📐 PIVOT DERIVATION: league {league_id} — config pace={pace_pivot}, actual pace={derived_pace_pivot}, derived eff={derived_eff_pivot} (was {eff_pivot})")
                 
         output_stats = []
         for team_name, data in srs_teams.items():
@@ -1018,7 +1051,8 @@ def process_leagues(target_league_id=None):
                 json.dump(payload_srs, f, indent=4)
 
         # Write [ADVANCED] — uses GENUINE KenPom-equivalent opponent-adjusted efficiency ratings
-        adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=pace_pivot, eff_pivot=eff_pivot) if advanced_eligible else []
+        # Uses derived pivots from actual box-score data instead of config defaults
+        adv_stats = calculate_advanced_ratings(filtered_games, pace_pivot=derived_pace_pivot, eff_pivot=derived_eff_pivot) if advanced_eligible else []
         if adv_stats:
             for t in adv_stats:
                 t["current_season_games"] = _resolve_season_games(t["team_name"])
@@ -1026,6 +1060,8 @@ def process_leagues(target_league_id=None):
                 "league_id": league_id,
                 "season": season,
                 "model_architecture": "[ADVANCED]",
+                "derived_pace_pivot": derived_pace_pivot,
+                "derived_eff_pivot": derived_eff_pivot,
                 "calculated_at": datetime.datetime.now().isoformat(),
                 "teams": adv_stats
             }

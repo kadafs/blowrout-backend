@@ -1400,34 +1400,76 @@ def main():
 
             best_pass = None
 
-            # PASS 1: Try ADVANCED Model first if matrix exists
+            # PASS 1: Calculate ADVANCED Model if matrix exists
+            result_adv, err_adv = None, None
             if stats_adv:
                 result_adv, err_adv = predict_game(
                     away, home, away_id, home_id, stats_adv, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, fallback_stats=stats_srs, market_total=live_market, derived_pivots=adv_derived_pivots
                 )
-                if not err_adv:
-                    best_pass = (result_adv, "[ADVANCED]", stats_adv)
 
-            # PASS 2: Fallback to SRS if ADVANCED failed or doesn't exist
-            if not best_pass:
+            # PASS 2: Calculate SRS Model if matrix exists
+            result_srs, err_srs = None, None
+            if stats_srs:
                 result_srs, err_srs = predict_game(
                     away, home, away_id, home_id, stats_srs, config, config_path, args.mode, args.trace, yesterday_fatigued_teams, ghost_injuries, market_total=live_market
                 )
-                if not err_srs:
-                    best_pass = (result_srs, "[  SRS   ]", stats_srs)
+
+            if not result_adv and not result_srs:
+                err_msg = err_adv or err_srs or "No stats available"
+                msg = f"[{lid}] {lname} - {away} @ {home} - SKIP: {err_msg}"
+                print(f"    {away} @ {home}  -- SKIP ({err_msg})")
+                skipped_issues.append(msg)
+                total_skipped += 1
+                continue
+
+            adv_total = round(result_adv.get("final_model_total", 0.0), 2) if result_adv else None
+            srs_total = round(result_srs.get("final_model_total", 0.0), 2) if result_srs else None
+
+            # Model Selection (Conservative True Edge):
+            # When both models are available and live market odds exist, select the model total
+            # closest to the market line (|model - market| is smallest).
+            # This guards against rogue runaway projections and yields a safer true lower-bound edge.
+            if result_adv and result_srs:
+                if live_market is not None:
+                    dist_adv = abs(adv_total - live_market)
+                    dist_srs = abs(srs_total - live_market)
+                    if dist_adv <= dist_srs:
+                        best_pass = (result_adv, "[ADVANCED]", stats_adv)
+                    else:
+                        best_pass = (result_srs, "[  SRS   ]", stats_srs)
                 else:
-                    msg = f"[{lid}] {lname} - {away} @ {home} - SKIP: {err_srs}"
-                    print(f"    {away} @ {home}  -- SKIP ({err_srs})")
-                    skipped_issues.append(msg)
-                    total_skipped += 1
-                    continue
-                    
+                    best_pass = (result_adv, "[ADVANCED]", stats_adv)
+            elif result_adv:
+                best_pass = (result_adv, "[ADVANCED]", stats_adv)
+            else:
+                best_pass = (result_srs, "[  SRS   ]", stats_srs)
+
             passes = [best_pass]
                 
             for res, matrix_type, active_stats in passes:
                 model_total = res.get("final_model_total", 0.0)
                 has_live_odds = odds_info.get("has_live_odds", False) and (live_market is not None)
                 mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 4.0)
+
+                adv_edge = round(adv_total - live_market, 1) if (adv_total is not None and live_market is not None) else None
+                srs_edge = round(srs_total - live_market, 1) if (srs_total is not None and live_market is not None) else None
+
+                # Determine model agreement
+                if adv_edge is not None and srs_edge is not None:
+                    if adv_edge > 0 and srs_edge > 0:
+                        model_agreement = "CONFIRMED_OVER"
+                    elif adv_edge < 0 and srs_edge < 0:
+                        model_agreement = "CONFIRMED_UNDER"
+                    elif (adv_edge > 0 and srs_edge < 0) or (adv_edge < 0 and srs_edge > 0):
+                        model_agreement = "DISCORDANT"
+                    else:
+                        model_agreement = "NEUTRAL"
+                elif adv_total is not None or srs_total is not None:
+                    model_agreement = "SINGLE_MODEL"
+                else:
+                    model_agreement = "NONE"
+
+                model_divergence = round(abs(adv_total - srs_total), 2) if (adv_total is not None and srs_total is not None) else None
 
                 if has_live_odds:
                     market = live_market
@@ -1458,8 +1500,12 @@ def main():
                 if game.get("home_score") is not None:
                     score_str = f"  Final: {game['away_score']}-{game['home_score']}"
 
+                dual_info = ""
+                if adv_total is not None and srs_total is not None:
+                    dual_info = f" [ADV:{adv_total:.1f}|SRS:{srs_total:.1f}|{model_agreement}]"
+
                 print(f"    {matrix_type} {away:24} @ {home:24}")
-                print(f"      Model:{model_total:.1f}  {mkt_str}  {edge_str}{score_str} | MBET: {mbet}")
+                print(f"      Model:{model_total:.1f}{dual_info}  {mkt_str}  {edge_str}{score_str} | MBET: {mbet}")
 
                 if args.trace:
                     for t in res.get("trace", []):
@@ -1616,6 +1662,13 @@ def main():
                     "graded_a": graded_a,
                     "mbet_threshold": mbet,
                     "model_architecture": matrix_type.strip(),
+                    "selected_model": "ADV" if "[ADVANCED]" in matrix_type else "SRS",
+                    "adv_total":    adv_total,
+                    "srs_total":    srs_total,
+                    "adv_edge":     adv_edge,
+                    "srs_edge":     srs_edge,
+                    "model_agreement": model_agreement,
+                    "model_divergence": model_divergence,
                     "mode":         args.mode,
                     "config_source": config.get("_source", "unknown"),
                     "tier":         config.get("_tier", "unknown"),

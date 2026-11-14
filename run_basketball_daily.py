@@ -442,6 +442,7 @@ def fetch_today_fixtures(date_str, refresh=False):
             lid, lname, _ = resolve_ncaa_conference(home_id, home, away_id, away, is_women=True, upstream_lid=423)
 
         by_league[(lid, lname, country, season)].append({
+            "id": game.get("id"),
             "home": home, "away": away,
             "home_id": home_id, "away_id": away_id,
             "home_score": hs, "away_score": as_,
@@ -1113,6 +1114,42 @@ def main():
     
     # Load Global M.B.E.T Array
     mbet_matrix = load_json("configs/league_edge_thresholds.json") or {}
+
+    today_str = datetime.now(ET_TZ).strftime("%Y-%m-%d")
+    is_historical_date = (date_str < today_str)
+
+    # Pre-load existing predictions for the target date to ensure absolute immutability of
+    # already-completed, in-play, or graded games (protects against mid-day runs overwriting historical records).
+    out_path = f"data/basketball/universal_predictions_{date_str}.json"
+    existing_preds_by_key = {}
+    existing_preds_by_gid = {}
+    if os.path.exists(out_path):
+        try:
+            existing_data = load_json(out_path) or {}
+            for p in existing_data.get("predictions", []):
+                h = (p.get("home_team") or "").strip().lower()
+                a = (p.get("away_team") or "").strip().lower()
+                if h and a:
+                    existing_preds_by_key[(h, a)] = p
+                gid = p.get("game_id")
+                if gid:
+                    existing_preds_by_gid[gid] = p
+            if existing_preds_by_key:
+                print(f"  Loaded {len(existing_preds_by_key)} existing prediction(s) from {out_path} for immutability protection.")
+        except Exception as e:
+            print(f"  Warning reading existing predictions: {e}")
+
+    FINISHED_STATUSES = {
+        "Game Finished", "Final", "AOT", "FT", "After Over Time",
+        "Finished", "AWD", "Game Awarded", "Cancelled", "Game Cancelled", "Game Abandoned"
+    }
+    IN_PLAY_STATUSES = {
+        "Half Time", "Halftime", "HT", "Break Time", "Over Time", "OT",
+        "Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4",
+        "1st Quarter", "2nd Quarter", "3rd Quarter", "4th Quarter",
+        "Q1", "Q2", "Q3", "Q4"
+    }
+    NON_UPCOMING_STATUSES = FINISHED_STATUSES | IN_PLAY_STATUSES
     
     # Load Leaderboard for Confidence Scoring snapshot
     print(f"  Loading leaderboard for runtime confidence scoring...")
@@ -1125,18 +1162,47 @@ def main():
         season   = league_entry.get("season")
         games    = league_entry["games"]
 
-        # Separate upcoming (not yet played) from already-finished games.
-        # Finished status strings from api-basketball: "Game Finished", "Final", "AOT"
-        FINISHED_STATUSES = {"Game Finished", "Final", "AOT", "FT", "After Over Time"}
-        upcoming = [g for g in games if g.get("status") not in FINISHED_STATUSES]
-        finished = [g for g in games if g.get("status") in FINISHED_STATUSES]
+        # Categorize games: upcoming vs already completed / in-play
+        upcoming = []
+        skipped_preserved = []
 
-        # For pure backtesting runs (past date where every game is done), predict all.
-        is_backtest = not upcoming and bool(finished)
-        if is_backtest:
-            upcoming = games
+        for g in games:
+            g_status = g.get("status", "")
+            h_norm = (g.get("home") or "").strip().lower()
+            a_norm = (g.get("away") or "").strip().lower()
+            gid = g.get("id")
 
-        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(finished)} finished]")
+            existing_p = (existing_preds_by_gid.get(gid) if gid else None) or existing_preds_by_key.get((h_norm, a_norm))
+
+            # Rule 1: If game was already graded or marked finished in existing file, PRESERVE IT AS-IS!
+            if existing_p and (
+                existing_p.get("actual_result") is not None
+                or existing_p.get("actual_home_score") is not None
+                or existing_p.get("status") in FINISHED_STATUSES
+            ):
+                skipped_preserved.append(existing_p)
+                continue
+
+            # Rule 2: If game is finished or live in-progress:
+            if g_status in NON_UPCOMING_STATUSES:
+                if existing_p:
+                    # Keep original morning prediction
+                    skipped_preserved.append(existing_p)
+                elif is_historical_date:
+                    # Pure backtest run on a historical date where no prior prediction exists
+                    upcoming.append(g)
+                else:
+                    # Game already started or finished on live day without prior prediction
+                    pass
+                continue
+
+            # Rule 3: Truly upcoming, pre-game match
+            upcoming.append(g)
+
+        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(skipped_preserved)} preserved/finished]")
+
+        if not upcoming:
+            continue
 
         # Step 2: config
         config_path, config = get_or_calibrate_config(
@@ -1362,6 +1428,7 @@ def main():
                     "home_season_games": _h_csg,
                     "away_season_games": _a_csg,
                     "league_id":    lid,
+                    "game_id":      game.get("id"),
                     "league":       lname,
                     "country":      country,
                     "date":         date_str,
@@ -1473,39 +1540,75 @@ def main():
                 f.write(f"{issue}\n")
         print(f"\n  Logged {len(skipped_issues)} issue(s) to {error_log_path}")
 
-    # Save — merge-preserve completed games from prior run so we never re-predict
-    # a game that has already finished (which would embed the outcome into accuracy).
+    # Save predictions — merge-preserve completed games from prior run so we never re-predict
+    # a game that has already finished (which would embed the outcome into accuracy or wipe out grades).
     if all_predictions:
         out_path = f"data/basketball/universal_predictions_{date_str}.json"
 
-        # Build a lookup key for new predictions just generated
-        new_pred_keys = {
-            (p.get("home_team", ""), p.get("away_team", ""))
-            for p in all_predictions
-        }
-
-        # Load any existing predictions for this date to rescue already-graded rows
-        preserved = []
+        existing_data = {}
+        existing_preds = []
         if os.path.exists(out_path):
             try:
-                existing = load_json(out_path)
-                for p in existing.get("predictions", []):
-                    key = (p.get("home_team", ""), p.get("away_team", ""))
-                    if key not in new_pred_keys:
-                        preserved.append(p)
-                if preserved:
-                    print(f"\n  Preserving {len(preserved)} already-completed prediction(s) from prior run.")
+                existing_data = load_json(out_path) or {}
+                existing_preds = existing_data.get("predictions", [])
             except Exception:
-                preserved = []
+                existing_preds = []
 
-        merged = preserved + all_predictions
-        save_json(out_path, {
-            "date": date_str,
-            "mode": args.mode,
-            "total_predictions": len(merged),
-            "predictions": merged,
-        })
-        print(f"\n  Saved -> {out_path}")
+        if not existing_preds:
+            # Brand new file: write directly
+            save_json(out_path, {
+                "date": date_str,
+                "mode": args.mode,
+                "total_predictions": len(all_predictions),
+                "predictions": all_predictions,
+            })
+            print(f"\n  Saved -> {out_path} ({len(all_predictions)} predictions)")
+        else:
+            # In-place update preserving exact list order, scores, grades, and top-level summaries
+            new_preds_by_key = {
+                ((p.get("home_team") or "").strip().lower(), (p.get("away_team") or "").strip().lower()): p
+                for p in all_predictions
+            }
+            new_preds_by_gid = {p.get("game_id"): p for p in all_predictions if p.get("game_id")}
+
+            final_preds = []
+            applied_keys = set()
+            applied_gids = set()
+
+            for p in existing_preds:
+                k = ((p.get("home_team") or "").strip().lower(), (p.get("away_team") or "").strip().lower())
+                gid = p.get("game_id")
+
+                # If the existing record is already graded or finished, NEVER overwrite it!
+                if p.get("actual_result") is not None or p.get("actual_home_score") is not None or p.get("status") in FINISHED_STATUSES:
+                    final_preds.append(p)
+                    applied_keys.add(k)
+                    if gid: applied_gids.add(gid)
+                    continue
+
+                # If new prediction exists for this upcoming unstarted game, update it!
+                new_p = (new_preds_by_gid.get(gid) if gid else None) or new_preds_by_key.get(k)
+                if new_p:
+                    final_preds.append(new_p)
+                    applied_keys.add(k)
+                    if gid: applied_gids.add(gid)
+                else:
+                    final_preds.append(p)
+
+            # Append any brand new predictions that were not in existing_preds
+            for p_new in all_predictions:
+                k = ((p_new.get("home_team") or "").strip().lower(), (p_new.get("away_team") or "").strip().lower())
+                gid = p_new.get("game_id")
+                if k not in applied_keys and (not gid or gid not in applied_gids):
+                    final_preds.append(p_new)
+
+            existing_data["predictions"] = final_preds
+            existing_data["total_predictions"] = len(final_preds)
+            existing_data["date"] = date_str
+            existing_data["mode"] = args.mode
+
+            save_json(out_path, existing_data)
+            print(f"\n  Updated -> {out_path} ({len(final_preds)} total predictions)")
 
     print()
 

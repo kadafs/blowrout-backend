@@ -1138,6 +1138,38 @@ def main():
     total_predicted = 0
     total_skipped   = 0
 
+    today_str = datetime.now(ET_TZ).strftime("%Y-%m-%d")
+    is_historical_date = (date_str < today_str)
+
+    # Pre-load existing predictions for the target date to ensure absolute immutability of
+    # already-completed, in-play, or graded games (protects against mid-day runs overwriting historical records).
+    out_path = f"data/football/universal_predictions_{date_str}.json"
+    existing_preds_by_key = {}
+    existing_preds_by_fid = {}
+    if os.path.exists(out_path):
+        try:
+            existing_data = load_json(out_path) or {}
+            for p in existing_data.get("predictions", []):
+                h = (p.get("home_team") or "").strip().lower()
+                a = (p.get("away_team") or "").strip().lower()
+                if h and a:
+                    existing_preds_by_key[(h, a)] = p
+                fid = p.get("fixture_id")
+                if fid:
+                    existing_preds_by_fid[fid] = p
+            if existing_preds_by_key:
+                print(f"  Loaded {len(existing_preds_by_key)} existing prediction(s) from {out_path} for immutability protection.")
+        except Exception as e:
+            print(f"  Warning reading existing predictions: {e}")
+
+    FINISHED_STATUSES = {
+        "FT", "AET", "PEN", "PST", "CANC", "ABD", "AWD", "WO"
+    }
+    IN_PLAY_STATUSES = {
+        "1H", "HT", "2H", "ET", "BT", "P", "INT", "LIVE"
+    }
+    NON_UPCOMING_STATUSES = FINISHED_STATUSES | IN_PLAY_STATUSES
+
     skipped_no_stats = 0
     for entry in leagues:
         lid      = entry["league_id"]
@@ -1150,16 +1182,47 @@ def main():
         if args.all_leagues:
             time.sleep(1.0)
 
-        # Only predict upcoming / not yet finished
-        upcoming = [g for g in games if not g.get("is_completed")]
-        finished = [g for g in games if g.get("is_completed")]
+        # Categorize games: upcoming vs already completed / in-play
+        upcoming = []
+        skipped_preserved = []
 
-        # For pure backtesting runs (past date where every game is done), predict all.
-        is_backtest = not upcoming and bool(finished)
-        if is_backtest:
-            upcoming = games
+        for g in games:
+            g_status = g.get("status", "")
+            h_norm = (g.get("home_team") or "").strip().lower()
+            a_norm = (g.get("away_team") or "").strip().lower()
+            fid = g.get("fixture_id")
 
-        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(finished)} finished]")
+            existing_p = (existing_preds_by_fid.get(fid) if fid else None) or existing_preds_by_key.get((h_norm, a_norm))
+
+            # Rule 1: If game was already graded or marked finished in existing file, PRESERVE IT AS-IS!
+            if existing_p and (
+                existing_p.get("actual_result") is not None
+                or existing_p.get("actual_home_goals") is not None
+                or existing_p.get("status") in FINISHED_STATUSES
+            ):
+                skipped_preserved.append(existing_p)
+                continue
+
+            # Rule 2: If game is finished or live in-progress:
+            if g_status in NON_UPCOMING_STATUSES or g.get("is_completed"):
+                if existing_p:
+                    # Keep original morning prediction
+                    skipped_preserved.append(existing_p)
+                elif is_historical_date:
+                    # Pure backtest run on a historical date where no prior prediction exists
+                    upcoming.append(g)
+                else:
+                    # Game already started or finished on live day without prior prediction
+                    pass
+                continue
+
+            # Rule 3: Truly upcoming, pre-game match
+            upcoming.append(g)
+
+        print(f"  [{lid}] {lname} ({country}) — {len(games)} game(s) [{len(upcoming)} upcoming, {len(skipped_preserved)} preserved/finished]")
+
+        if not upcoming:
+            continue
 
         # Step 2: Team stats (refresh_stats only if explicitly requested)
         teams, league_avgs = get_or_fetch_stats(lid, season, games, refresh=args.refresh, refresh_stats=args.refresh_stats)
@@ -1460,37 +1523,75 @@ def main():
         print(f"  ({skipped_no_stats} leagues had no API stats — typical for obscure/regional competitions)")
     print("=" * 70)
 
-    # Merge-preserve: keep predictions from prior run for already-completed games
-    # so a mid-day re-run never overwrites clean (pre-outcome) predictions.
+    # Save predictions — merge-preserve completed games from prior run so we never re-predict
+    # a game that has already finished (which would embed the outcome into accuracy or wipe out grades).
     if all_predictions:
         out_path = f"data/football/universal_predictions_{date_str}.json"
 
-        new_pred_keys = {
-            (p.get("home_team", ""), p.get("away_team", ""))
-            for p in all_predictions
-        }
-
-        preserved = []
+        existing_data = {}
+        existing_preds = []
         if os.path.exists(out_path):
             try:
-                existing = load_json(out_path)
-                for p in existing.get("predictions", []):
-                    key = (p.get("home_team", ""), p.get("away_team", ""))
-                    if key not in new_pred_keys:
-                        preserved.append(p)
-                if preserved:
-                    print(f"\n  Preserving {len(preserved)} already-completed prediction(s) from prior run.")
+                existing_data = load_json(out_path) or {}
+                existing_preds = existing_data.get("predictions", [])
             except Exception:
-                preserved = []
+                existing_preds = []
 
-        merged = preserved + all_predictions
-        save_json(out_path, {
-            "date":              date_str,
-            "mode":              args.mode,
-            "total_predictions": len(merged),
-            "predictions":       merged,
-        })
-        print(f"\n  Saved -> {out_path}")
+        if not existing_preds:
+            # Brand new file: write directly
+            save_json(out_path, {
+                "date":              date_str,
+                "mode":              args.mode,
+                "total_predictions": len(all_predictions),
+                "predictions":       all_predictions,
+            })
+            print(f"\n  Saved -> {out_path} ({len(all_predictions)} predictions)")
+        else:
+            # In-place update preserving exact list order, scores, grades, and top-level summaries
+            new_preds_by_key = {
+                ((p.get("home_team") or "").strip().lower(), (p.get("away_team") or "").strip().lower()): p
+                for p in all_predictions
+            }
+            new_preds_by_fid = {p.get("fixture_id"): p for p in all_predictions if p.get("fixture_id")}
+
+            final_preds = []
+            applied_keys = set()
+            applied_fids = set()
+
+            for p in existing_preds:
+                k = ((p.get("home_team") or "").strip().lower(), (p.get("away_team") or "").strip().lower())
+                fid = p.get("fixture_id")
+
+                # If the existing record is already graded or finished, NEVER overwrite it!
+                if p.get("actual_result") is not None or p.get("actual_home_goals") is not None or p.get("status") in FINISHED_STATUSES:
+                    final_preds.append(p)
+                    applied_keys.add(k)
+                    if fid: applied_fids.add(fid)
+                    continue
+
+                # If new prediction exists for this upcoming unstarted game, update it!
+                new_p = (new_preds_by_fid.get(fid) if fid else None) or new_preds_by_key.get(k)
+                if new_p:
+                    final_preds.append(new_p)
+                    applied_keys.add(k)
+                    if fid: applied_fids.add(fid)
+                else:
+                    final_preds.append(p)
+
+            # Append any brand new predictions that were not in existing_preds
+            for p_new in all_predictions:
+                k = ((p_new.get("home_team") or "").strip().lower(), (p_new.get("away_team") or "").strip().lower())
+                fid = p_new.get("fixture_id")
+                if k not in applied_keys and (not fid or fid not in applied_fids):
+                    final_preds.append(p_new)
+
+            existing_data["predictions"] = final_preds
+            existing_data["total_predictions"] = len(final_preds)
+            existing_data["date"] = date_str
+            existing_data["mode"] = args.mode
+
+            save_json(out_path, existing_data)
+            print(f"\n  Updated -> {out_path} ({len(final_preds)} total predictions)")
 
     print()
 

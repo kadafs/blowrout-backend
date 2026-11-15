@@ -1670,6 +1670,31 @@ def main():
                     srs_a=sA.get("srs_rating") if sA else None,
                 )
 
+                # Smart Edge Evaluation (Historical Audit Restructure):
+                # 1. Strong+ Buffer + Solid / High / Elite Confidence ==> 📉 BET FULL-TIME UNDER (58% – 64% WR)
+                # 2. Strong+ Buffer + Low / Avoid Confidence          ==> 📈 BET FULL-TIME OVER  (61% – 70% WR)
+                buf_score_val = conf_res.get("hit_rate_score", 0)
+                buf_tier_val = "[ELITE BUFFER]" if buf_score_val >= 40 else ("[STRONG BUFFER]" if buf_score_val >= 28 else ("[NEUTRAL]" if buf_score_val >= 16 else ("[MARGINAL]" if buf_score_val > 0 else "[AVOID]")))
+                conf_band_val = conf_res["band"]["label"].strip()
+                smart_edge = None
+                if buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]"):
+                    if conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]"):
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "58% – 64%",
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                        }
+                    elif conf_band_val in ("[LOW]", "[AVOID]"):
+                        smart_edge = {
+                            "signal": "OVER",
+                            "recommendation": "BET FULL-TIME OVER",
+                            "win_rate": "61% – 70%",
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                        }
+
                 # Build record
                 _h_csg = sH.get("current_season_games", sH.get("played", sH.get("games_played", 0))) if sH else 0
                 _a_csg = sA.get("current_season_games", sA.get("played", sA.get("games_played", 0))) if sA else 0
@@ -1681,6 +1706,7 @@ def main():
                     "clash_trigger":    clash_trigger,
                     "is_shootout":      is_shootout,
                     "shootout_trigger": shootout_trigger,
+                    "smart_edge":       smart_edge,
                     "early_season_flag": (_h_csg < 8 or _a_csg < 8),
                     "home_season_games": _h_csg,
                     "away_season_games": _a_csg,

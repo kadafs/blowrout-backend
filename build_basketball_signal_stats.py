@@ -84,6 +84,22 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             floor_st = str(p.get("floor_status") or "")
             is_dd = bool(p.get("is_drag_down") or (floor_st.startswith("WEAK") and "[AVOID]" in band))
 
+            # Check Smart Edge (Rule 1: Under, Rule 2: Over)
+            se = p.get("smart_edge")
+            se_sig = None
+            if isinstance(se, dict) and se.get("signal"):
+                se_sig = se.get("signal")
+            else:
+                bt = p.get("buffer_tier")
+                bs = p.get("buffer_score")
+                cb = band.strip()
+                is_strong_buf = bt in ("[ELITE BUFFER]", "[STRONG BUFFER]") or (bs is not None and bs >= 28)
+                if is_strong_buf and cb:
+                    if cb in ("[ELITE]", "[HIGH]", "[SOLID]"):
+                        se_sig = "UNDER"
+                    elif cb in ("[LOW]", "[AVOID]"):
+                        se_sig = "OVER"
+
             all_graded.append({
                 "date": date_str,
                 "league": p.get("league", "Unknown"),
@@ -98,6 +114,8 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                 "is_shootout": bool(p.get("is_shootout")),
                 "shootout_trigger": p.get("shootout_trigger", ""),
                 "is_drag_down": is_dd,
+                "is_smart_edge_under": se_sig == "UNDER",
+                "is_smart_edge_over": se_sig == "OVER",
                 "winner_hit": bool(pred_winner and actual_winner and pred_winner == actual_winner),
             })
 
@@ -248,6 +266,69 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             "moneyline_pct": round(dd_ml / dd_n * 100, 1),
         }
 
+    # 5. Smart Edge (🎯)
+    # Rule 1: Strong+ Buffer + Solid / High / Elite Confidence ==> Full-Time UNDER (58% – 64% WR)
+    # Rule 2: Strong+ Buffer + Low / Avoid Confidence          ==> Full-Time OVER  (61% – 70% WR)
+    se_under_games = [r for r in all_graded if r["is_smart_edge_under"]]
+    se_un = len(se_under_games)
+    se_under_stats = {}
+    if se_un > 0:
+        seu_under_mod = sum(1 for r in se_under_games if r["actual_total"] < r["model_total"])
+        seu_over_mod = sum(1 for r in se_under_games if r["actual_total"] > r["model_total"])
+        seu_delta_mod = sum(r["signed_delta"] for r in se_under_games) / se_un
+        seu_ml = sum(1 for r in se_under_games if r["winner_hit"])
+
+        seu_mkt = [r for r in se_under_games if r["market_total"] is not None]
+        seum_n = len(seu_mkt)
+        seum_under = sum(1 for r in seu_mkt if r["actual_total"] < r["market_total"])
+        seum_over = sum(1 for r in seu_mkt if r["actual_total"] > r["market_total"])
+        seum_delta = (sum(r["actual_total"] - r["market_total"] for r in seu_mkt) / seum_n) if seum_n else 0.0
+
+        se_under_stats = {
+            "sample": se_un,
+            "mkt_sample": seum_n,
+            "market_under_pct": round(seum_under / seum_n * 100, 1) if seum_n else 0.0,
+            "market_over_pct": round(seum_over / seum_n * 100, 1) if seum_n else 0.0,
+            "avg_market_delta": round(seum_delta, 1),
+            "under_model_pct": round(seu_under_mod / se_un * 100, 1),
+            "over_model_pct": round(seu_over_mod / se_un * 100, 1),
+            "avg_score_delta": round(seu_delta_mod, 1),
+            "moneyline_pct": round(seu_ml / se_un * 100, 1),
+        }
+
+    se_over_games = [r for r in all_graded if r["is_smart_edge_over"]]
+    se_on = len(se_over_games)
+    se_over_stats = {}
+    if se_on > 0:
+        seo_under_mod = sum(1 for r in se_over_games if r["actual_total"] < r["model_total"])
+        seo_over_mod = sum(1 for r in se_over_games if r["actual_total"] > r["model_total"])
+        seo_delta_mod = sum(r["signed_delta"] for r in se_over_games) / se_on
+        seo_ml = sum(1 for r in se_over_games if r["winner_hit"])
+
+        seo_mkt = [r for r in se_over_games if r["market_total"] is not None]
+        seom_n = len(seo_mkt)
+        seom_under = sum(1 for r in seo_mkt if r["actual_total"] < r["market_total"])
+        seom_over = sum(1 for r in seo_mkt if r["actual_total"] > r["market_total"])
+        seom_delta = (sum(r["actual_total"] - r["market_total"] for r in seo_mkt) / seom_n) if seom_n else 0.0
+
+        se_over_stats = {
+            "sample": se_on,
+            "mkt_sample": seom_n,
+            "market_over_pct": round(seom_over / seom_n * 100, 1) if seom_n else 0.0,
+            "market_under_pct": round(seom_under / seom_n * 100, 1) if seom_n else 0.0,
+            "avg_market_delta": round(seom_delta, 1),
+            "model_over_pct": round(seo_over_mod / se_on * 100, 1),
+            "model_under_pct": round(seo_under_mod / se_on * 100, 1),
+            "avg_score_delta": round(seo_delta_mod, 1),
+            "moneyline_pct": round(seo_ml / se_on * 100, 1),
+        }
+
+    smart_edge_stats = {
+        "sample": se_un + se_on,
+        "under": se_under_stats,
+        "over": se_over_stats,
+    }
+
     payload = {
         "updated_at": datetime.now().isoformat(),
         "total_graded_games": total,
@@ -261,6 +342,7 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         "clash": clash_stats,
         "shootout": shootout_stats,
         "drag_down": drag_down_stats,
+        "smart_edge": smart_edge_stats,
     }
 
     # Save to ncaa-api
@@ -282,9 +364,12 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
     return payload
 
 if __name__ == "__main__":
-    print("\n🏀 Aggregating Basketball Clash & Shootout Signal Statistics...")
+    print("\n🏀 Aggregating Basketball Signal Statistics (Clash, Shootout, Drag-Down, Smart Edge)...")
     stats = build_signal_stats(save_to_dashboard=True)
     print(f"  Total Graded Games: {stats.get('total_graded_games', 0)}")
     print(f"  Clash Sample: {stats.get('clash', {}).get('sample', 0)} | Under Model: {stats.get('clash', {}).get('under_model_pct', 0)}%")
     print(f"  Shootout Sample: {stats.get('shootout', {}).get('sample', 0)} | Over Market: {stats.get('shootout', {}).get('market_over_pct', 0)}%")
+    print(f"  Drag-Down Sample: {stats.get('drag_down', {}).get('sample', 0)} | Under Market: {stats.get('drag_down', {}).get('under_mkt_pct', 0)}%")
+    se = stats.get('smart_edge', {})
+    print(f"  Smart Edge Sample: {se.get('sample', 0)} | Under Mkt: {se.get('under', {}).get('market_under_pct', 0)}% (N={se.get('under', {}).get('mkt_sample', 0)}) | Over Mkt: {se.get('over', {}).get('market_over_pct', 0)}% (N={se.get('over', {}).get('mkt_sample', 0)})")
     print("Done.\n")

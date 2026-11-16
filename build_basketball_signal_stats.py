@@ -34,6 +34,30 @@ DASHBOARD_DIR = ROOT_DIR.parent / "Sports Analytics" / "public" / "data" / "bask
 if not DASHBOARD_DIR.parent.parent.exists() and (ROOT_DIR.parent / "sports-analytics").exists():
     DASHBOARD_DIR = ROOT_DIR.parent / "sports-analytics" / "public" / "data" / "basketball"
 
+ASIAN_COUNTRIES = {
+    "CHINA", "JAPAN", "SOUTH KOREA", "PHILIPPINES", "TAIWAN", 
+    "INDONESIA", "VIETNAM", "MALAYSIA", "THAILAND", "SINGAPORE"
+}
+
+def is_usa_game(p):
+    country = (p.get("country") or "").upper()
+    league = (p.get("league") or "").upper()
+    return country == "USA" or "NBA" in league or "NCAA" in league or "WNBA" in league or "G LEAGUE" in league
+
+def is_asia_game(p):
+    country = (p.get("country") or "").upper()
+    return country in ASIAN_COUNTRIES
+
+def is_women_game(p):
+    league = (p.get("league") or "").upper()
+    home = (p.get("home_team") or "").upper()
+    away = (p.get("away_team") or "").upper()
+    if "(W)" in league or "WOMEN" in league or "FEMENINA" in league or "DAMEN" in league or "FEMININ" in league or "WNBA" in league or "LFB" in league:
+        return True
+    if "(W)" in home or "(W)" in away or "WOMEN" in home or "WOMEN" in away:
+        return True
+    return False
+
 def build_signal_stats(save_to_dashboard: bool = True) -> dict:
     # For each date, prefer _v2.json (which contains dual model ADV + SRS) if available, else use V1
     date_map = {}
@@ -61,6 +85,10 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             a_score = p.get("away_score") if p.get("away_score") is not None else p.get("actual_away_score")
 
             if h_score is None or a_score is None:
+                continue
+
+            # Core FIBA Men's Benchmark Filter: Exclude USA, Asian leagues, and Women's leagues
+            if is_usa_game(p) or is_asia_game(p) or is_women_game(p):
                 continue
 
             actual_total = float(h_score + a_score)
@@ -434,6 +462,8 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
 
     payload = {
         "updated_at": datetime.now().isoformat(),
+        "scope": "CORE_FIBA_MENS",
+        "scope_description": "Excludes USA (NBA/NCAA/WNBA), Asian leagues, and Women's leagues to isolate high-fidelity FIBA Men's club basketball",
         "total_graded_games": total,
         "baseline": {
             "moneyline_pct": round(base_ml_hit / total * 100, 1),

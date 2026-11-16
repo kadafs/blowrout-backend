@@ -1690,8 +1690,15 @@ def main():
                     )
                 )
 
+                is_smart_over = (
+                    buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
+                    and conf_band_val in ("[LOW]", "[AVOID]")
+                )
+
                 is_dual_consensus_under = (
                     model_agreement == "CONFIRMED_UNDER"
+                    and (conf_band_val != "[LOW]")
+                    and not is_smart_over
                     and (
                         conf_band_val in ("[SOLID]", "[MODERATE]")
                         or (model_divergence is not None and 5.0 <= model_divergence <= 10.0)
@@ -1701,11 +1708,6 @@ def main():
                 is_floor_discipline_under = (
                     buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
                     and conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]")
-                )
-
-                is_smart_over = (
-                    buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
-                    and conf_band_val in ("[LOW]", "[AVOID]")
                 )
 
                 if is_discordant_srs_under:
@@ -1722,13 +1724,27 @@ def main():
                         "model_agreement": model_agreement,
                         "model_divergence": model_divergence,
                     }
+                elif is_smart_over:
+                    smart_edge = {
+                        "signal": "OVER",
+                        "tier": "STANDARD",
+                        "recommendation": "BET FULL-TIME OVER",
+                        "win_rate": "61% – 70%",
+                        "tag": "📈 Smart Over (61–70%)",
+                        "trigger": "BUFFER_SCORING_LEAD",
+                        "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
+                        "buffer_tier": buf_tier_val,
+                        "confidence_band": conf_band_val,
+                        "model_agreement": model_agreement,
+                        "model_divergence": model_divergence,
+                    }
                 elif is_dual_consensus_under:
                     smart_edge = {
                         "signal": "UNDER",
                         "tier": "ELITE",
                         "recommendation": "BET FULL-TIME UNDER",
-                        "win_rate": "74% WR",
-                        "tag": "📉 Smart Under (74% Dual Model)",
+                        "win_rate": "76% WR",
+                        "tag": "📉 Smart Under (76% Dual Model)",
                         "trigger": "DUAL_CONSENSUS_UNDER",
                         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
                         "buffer_tier": buf_tier_val,
@@ -1745,20 +1761,6 @@ def main():
                         "tag": "📉 Smart Under (58–64%)",
                         "trigger": "BUFFER_FLOOR_DISCIPLINE",
                         "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
-                        "buffer_tier": buf_tier_val,
-                        "confidence_band": conf_band_val,
-                        "model_agreement": model_agreement,
-                        "model_divergence": model_divergence,
-                    }
-                elif is_smart_over:
-                    smart_edge = {
-                        "signal": "OVER",
-                        "tier": "STANDARD",
-                        "recommendation": "BET FULL-TIME OVER",
-                        "win_rate": "61% – 70%",
-                        "tag": "📈 Smart Over (61–70%)",
-                        "trigger": "BUFFER_SCORING_LEAD",
-                        "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
                         "buffer_tier": buf_tier_val,
                         "confidence_band": conf_band_val,
                         "model_agreement": model_agreement,

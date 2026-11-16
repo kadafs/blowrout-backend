@@ -1,10 +1,12 @@
 """
 build_basketball_signal_stats.py
-───────────────────────────────
+───────────────────────────────────
 Aggregates all graded basketball matches across data/basketball/universal_predictions_*.json
 to compute live, empirical performance benchmarks for:
-  1. Clash of the Inefficient (⚡)
-  2. Shootout / Glass Cannons (🔥)
+  1. Multi-Segment Smart Edge (FIBA Core, NBA Men, NCAA Men, NBA G-League)
+  2. Clash of the Inefficient (⚡)
+  3. Shootout / Glass Cannons (🔥)
+  4. Drag-Down Under (⚓)
 
 Outputs:
   - data/basketball/basketball_signal_stats.json
@@ -34,32 +36,74 @@ DASHBOARD_DIR = ROOT_DIR.parent / "Sports Analytics" / "public" / "data" / "bask
 if not DASHBOARD_DIR.parent.parent.exists() and (ROOT_DIR.parent / "sports-analytics").exists():
     DASHBOARD_DIR = ROOT_DIR.parent / "sports-analytics" / "public" / "data" / "basketball"
 
-ASIAN_COUNTRIES = {
-    "CHINA", "JAPAN", "SOUTH KOREA", "PHILIPPINES", "TAIWAN", 
-    "INDONESIA", "VIETNAM", "MALAYSIA", "THAILAND", "SINGAPORE"
-}
+sys.path.append(str(ROOT_DIR))
+from run_basketball_daily_v2 import classify_basketball_segment
 
-def is_usa_game(p):
-    country = (p.get("country") or "").upper()
-    league = (p.get("league") or "").upper()
-    return country == "USA" or "NBA" in league or "NCAA" in league or "WNBA" in league or "G LEAGUE" in league
+def compute_segment_stats(games, seg_name):
+    total = len(games)
+    if total == 0:
+        return {
+            "name": seg_name,
+            "sample": 0,
+            "market_sample": 0,
+            "under": {"sample": 0, "mkt_sample": 0, "market_under_pct": 0.0, "avg_market_delta": 0.0},
+            "over": {"sample": 0, "mkt_sample": 0, "market_over_pct": 0.0, "avg_market_delta": 0.0}
+        }
 
-def is_asia_game(p):
-    country = (p.get("country") or "").upper()
-    return country in ASIAN_COUNTRIES
+    with_mkt = [g for g in games if g["market_total"] is not None]
+    nm = len(with_mkt)
 
-def is_women_game(p):
-    league = (p.get("league") or "").upper()
-    home = (p.get("home_team") or "").upper()
-    away = (p.get("away_team") or "").upper()
-    if "(W)" in league or "WOMEN" in league or "FEMENINA" in league or "DAMEN" in league or "FEMININ" in league or "WNBA" in league or "LFB" in league:
-        return True
-    if "(W)" in home or "(W)" in away or "WOMEN" in home or "WOMEN" in away:
-        return True
-    return False
+    # Smart Under plays
+    u_plays = [g for g in with_mkt if g["is_smart_edge_under"]]
+    un = len(u_plays)
+    u_hits = sum(1 for g in u_plays if g["actual_total"] < g["market_total"])
+    u_pct = round(u_hits / un * 100, 1) if un else 0.0
+    u_delta = round(sum(g["actual_total"] - g["market_total"] for g in u_plays) / un, 1) if un else 0.0
+
+    ultra_games = [g for g in u_plays if g.get("smart_edge_tier") == "ULTRA"]
+    ultra_hits = sum(1 for g in ultra_games if g["actual_total"] < g["market_total"])
+    ultra_pct = round(ultra_hits / len(ultra_games) * 100, 1) if ultra_games else 0.0
+    ultra_delta = round(sum(g["actual_total"] - g["market_total"] for g in ultra_games) / len(ultra_games), 1) if ultra_games else 0.0
+
+    elite_games = [g for g in u_plays if g.get("smart_edge_tier") == "ELITE"]
+    elite_hits = sum(1 for g in elite_games if g["actual_total"] < g["market_total"])
+    elite_pct = round(elite_hits / len(elite_games) * 100, 1) if elite_games else 0.0
+    elite_delta = round(sum(g["actual_total"] - g["market_total"] for g in elite_games) / len(elite_games), 1) if elite_games else 0.0
+
+    standard_games = [g for g in u_plays if g.get("smart_edge_tier") == "STANDARD"]
+    standard_hits = sum(1 for g in standard_games if g["actual_total"] < g["market_total"])
+    standard_pct = round(standard_hits / len(standard_games) * 100, 1) if standard_games else 0.0
+    standard_delta = round(sum(g["actual_total"] - g["market_total"] for g in standard_games) / len(standard_games), 1) if standard_games else 0.0
+
+    # Smart Over plays
+    o_plays = [g for g in with_mkt if g["is_smart_edge_over"]]
+    on = len(o_plays)
+    o_hits = sum(1 for g in o_plays if g["actual_total"] > g["market_total"])
+    o_pct = round(o_hits / on * 100, 1) if on else 0.0
+    o_delta = round(sum(g["actual_total"] - g["market_total"] for g in o_plays) / on, 1) if on else 0.0
+
+    return {
+        "name": seg_name,
+        "sample": total,
+        "market_sample": nm,
+        "under": {
+            "sample": sum(1 for g in games if g["is_smart_edge_under"]),
+            "mkt_sample": un,
+            "market_under_pct": u_pct,
+            "avg_market_delta": u_delta,
+            "ultra": {"mkt_sample": len(ultra_games), "under_mkt_pct": ultra_pct, "avg_market_delta": ultra_delta},
+            "elite": {"mkt_sample": len(elite_games), "under_mkt_pct": elite_pct, "avg_market_delta": elite_delta},
+            "standard": {"mkt_sample": len(standard_games), "under_mkt_pct": standard_pct, "avg_market_delta": standard_delta},
+        },
+        "over": {
+            "sample": sum(1 for g in games if g["is_smart_edge_over"]),
+            "mkt_sample": on,
+            "market_over_pct": o_pct,
+            "avg_market_delta": o_delta,
+        }
+    }
 
 def build_signal_stats(save_to_dashboard: bool = True) -> dict:
-    # For each date, prefer _v2.json (which contains dual model ADV + SRS) if available, else use V1
     date_map = {}
     for f in sorted(DATA_DIR.glob("universal_predictions_2026-*.json")):
         d = f.stem.replace("universal_predictions_", "").replace("_v2", "")
@@ -87,10 +131,6 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             if h_score is None or a_score is None:
                 continue
 
-            # Core FIBA Men's Benchmark Filter: Exclude USA, Asian leagues, and Women's leagues
-            if is_usa_game(p) or is_asia_game(p) or is_women_game(p):
-                continue
-
             actual_total = float(h_score + a_score)
             mt = p.get("model_total")
             if mt is None and isinstance(p.get("model"), dict):
@@ -113,16 +153,13 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             if not actual_winner:
                 actual_winner = "HOME" if h_score > a_score else ("AWAY" if a_score > h_score else "DRAW")
 
+            # Classify archetype segment
+            seg_code, seg_label = classify_basketball_segment(p.get("country"), p.get("league"), p.get("home_team"), p.get("away_team"))
+
             # Check Drag-Down
-            band = str(p.get("confidence_score_band") or p.get("band") or "")
+            band = str(p.get("confidence_score_band") or p.get("band") or "").strip()
             floor_st = str(p.get("floor_status") or "")
             is_dd = bool(p.get("is_drag_down") or (floor_st.startswith("WEAK") and "[AVOID]" in band))
-
-            # Check Smart Edge (Multi-Engine System: Discordant Under, Dual Consensus Under, Floor Discipline)
-            se = p.get("smart_edge")
-            se_sig = None
-            se_tier = "STANDARD"
-            se_trigger = ""
 
             # Extract dual model metrics
             adv_tot = p.get("adv_total")
@@ -159,7 +196,7 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
 
             bt = p.get("buffer_tier")
             bs = p.get("buffer_score")
-            cb = band.strip()
+            cb = band
             if not bt and bs is not None:
                 bs_val = float(bs)
                 bt = ("[ELITE BUFFER]" if bs_val >= 40 else
@@ -168,50 +205,76 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                       "[MARGINAL]" if bs_val > 0 else "[AVOID]")
             is_strong_buf = bt in ("[ELITE BUFFER]", "[STRONG BUFFER]") or (bs is not None and bs >= 28)
 
-            # Check if already stamped with modern multi-engine payload
-            if isinstance(se, dict) and se.get("trigger"):
+            # Segment-specific Smart Edge evaluation:
+            se_sig = None
+            se_tier = "STANDARD"
+            se_trigger = ""
+
+            # Check if game object was already stamped with valid trigger and matching segment
+            se = p.get("smart_edge")
+            if isinstance(se, dict) and se.get("trigger") and se.get("segment") == seg_code:
                 se_sig = se.get("signal")
                 se_tier = se.get("tier", "STANDARD")
                 se_trigger = se.get("trigger", "")
             else:
-                # Dynamic multi-engine evaluation:
-                is_adv_o_srs_u = (adv_e is not None and srs_e is not None and adv_e > 0 and srs_e < 0)
-                is_discordant_srs_under = (
-                    is_adv_o_srs_u
-                    and (cb != "[MODERATE]")
-                    and ((div is not None and div >= 3.1) or cb == "[SOLID]")
-                )
-                is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
-                is_dual_consensus_under = (
-                    agreement == "CONFIRMED_UNDER"
-                    and (cb != "[LOW]")
-                    and not is_smart_over
-                    and (cb in ("[SOLID]", "[MODERATE]") or (div is not None and 5.0 <= div <= 10.0))
-                )
-                is_floor_discipline_under = is_strong_buf and cb in ("[ELITE]", "[HIGH]", "[SOLID]")
+                # Dynamic multi-engine evaluation per segment:
+                if seg_code == "NBA_MEN":
+                    is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
+                    if is_smart_over or (adv_e is not None and adv_e >= 3.0 and srs_e is not None and srs_e >= 3.0):
+                        se_sig = "OVER"
+                        se_tier = "ELITE"
+                        se_trigger = "NBA_PACE_OVER"
 
-                if is_discordant_srs_under:
-                    se_sig = "UNDER"
-                    se_tier = "ULTRA"
-                    se_trigger = "DISCORDANT_SRS_UNDER"
-                elif is_smart_over:
-                    se_sig = "OVER"
-                    se_tier = "STANDARD"
-                    se_trigger = "BUFFER_SCORING_LEAD"
-                elif is_dual_consensus_under:
-                    se_sig = "UNDER"
-                    se_tier = "ELITE"
-                    se_trigger = "DUAL_CONSENSUS_UNDER"
-                elif is_floor_discipline_under:
-                    se_sig = "UNDER"
-                    se_tier = "STANDARD"
-                    se_trigger = "BUFFER_FLOOR_DISCIPLINE"
+                elif seg_code == "NCAA_MEN":
+                    is_adv_o_srs_u = (adv_e is not None and srs_e is not None and adv_e > 0 and srs_e < 0)
+                    is_discordant = is_adv_o_srs_u and cb != "[MODERATE]" and ((div is not None and div >= 3.1) or cb == "[SOLID]")
+                    is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
+                    if is_discordant:
+                        se_sig = "UNDER"
+                        se_tier = "ULTRA"
+                        se_trigger = "NCAA_DISCORDANT_UNDER"
+                    elif agreement == "CONFIRMED_UNDER" and cb != "[LOW]" and not is_smart_over:
+                        se_sig = "UNDER"
+                        se_tier = "ELITE"
+                        se_trigger = "NCAA_COLLEGE_UNDER"
+
+                elif seg_code == "NBA_GLEAGUE":
+                    if mkt is not None and mkt >= 228.0 and (srs_e is None or srs_e <= 0 or adv_e is None or adv_e <= 0):
+                        se_sig = "UNDER"
+                        se_tier = "ELITE"
+                        se_trigger = "GLEAGUE_INFLATED_UNDER"
+
+                elif seg_code == "FIBA_CORE":
+                    is_adv_o_srs_u = (adv_e is not None and srs_e is not None and adv_e > 0 and srs_e < 0)
+                    is_discordant = is_adv_o_srs_u and cb != "[MODERATE]" and ((div is not None and div >= 3.1) or cb == "[SOLID]")
+                    is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
+                    is_dual_u = agreement == "CONFIRMED_UNDER" and cb != "[LOW]" and not is_smart_over and (cb in ("[SOLID]", "[MODERATE]") or (div is not None and 5.0 <= div <= 10.0))
+                    is_floor_u = is_strong_buf and cb in ("[ELITE]", "[HIGH]", "[SOLID]")
+
+                    if is_discordant:
+                        se_sig = "UNDER"
+                        se_tier = "ULTRA"
+                        se_trigger = "DISCORDANT_SRS_UNDER"
+                    elif is_smart_over:
+                        se_sig = "OVER"
+                        se_tier = "STANDARD"
+                        se_trigger = "BUFFER_SCORING_LEAD"
+                    elif is_dual_u:
+                        se_sig = "UNDER"
+                        se_tier = "ELITE"
+                        se_trigger = "DUAL_CONSENSUS_UNDER"
+                    elif is_floor_u:
+                        se_sig = "UNDER"
+                        se_tier = "STANDARD"
+                        se_trigger = "BUFFER_FLOOR_DISCIPLINE"
 
             all_graded.append({
                 "date": date_str,
                 "league": p.get("league", "Unknown"),
                 "home": p.get("home_team"),
                 "away": p.get("away_team"),
+                "segment": seg_code,
+                "segment_label": seg_label,
                 "actual_total": actual_total,
                 "model_total": mt,
                 "market_total": mkt,
@@ -233,17 +296,25 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         print("  [WARN] No graded basketball games found.")
         return {}
 
-    # 1. Baseline
-    base_under_mod = sum(1 for r in all_graded if r["actual_total"] < r["model_total"])
-    base_delta_mod = sum(r["signed_delta"] for r in all_graded) / total
-    base_ml_hit = sum(1 for r in all_graded if r["winner_hit"])
+    # Partition games by archetype
+    fiba_games = [r for r in all_graded if r["segment"] == "FIBA_CORE"]
+    nba_games = [r for r in all_graded if r["segment"] == "NBA_MEN"]
+    ncaa_games = [r for r in all_graded if r["segment"] == "NCAA_MEN"]
+    gleague_games = [r for r in all_graded if r["segment"] == "NBA_GLEAGUE"]
 
-    with_mkt = [r for r in all_graded if r["market_total"] is not None]
-    base_under_mkt = sum(1 for r in with_mkt if r["actual_total"] < r["market_total"])
-    base_delta_mkt = (sum(r["actual_total"] - r["market_total"] for r in with_mkt) / len(with_mkt)) if with_mkt else 0.0
+    # Top-level baseline & signals (calibrated to FIBA_CORE for backward compatibility)
+    fiba_total = len(fiba_games)
+    fiba_mkt = [r for r in fiba_games if r["market_total"] is not None]
 
-    # 2. Clash of the Inefficient (⚡)
-    clash_games = [r for r in all_graded if r["is_clash"]]
+    base_under_mod = sum(1 for r in fiba_games if r["actual_total"] < r["model_total"])
+    base_delta_mod = sum(r["signed_delta"] for r in fiba_games) / fiba_total if fiba_total else 0.0
+    base_ml_hit = sum(1 for r in fiba_games if r["winner_hit"])
+
+    base_under_mkt = sum(1 for r in fiba_mkt if r["actual_total"] < r["market_total"])
+    base_delta_mkt = (sum(r["actual_total"] - r["market_total"] for r in fiba_mkt) / len(fiba_mkt)) if fiba_mkt else 0.0
+
+    # Clash of the Inefficient (⚡) on FIBA Core
+    clash_games = [r for r in fiba_games if r["is_clash"]]
     c_n = len(clash_games)
     clash_stats = {}
     if c_n > 0:
@@ -306,8 +377,8 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             }
         }
 
-    # 3. Shootout / Glass Cannons (🔥)
-    so_games = [r for r in all_graded if r["is_shootout"]]
+    # Shootout / Glass Cannons (🔥) on FIBA Core
+    so_games = [r for r in fiba_games if r["is_shootout"]]
     so_n = len(so_games)
     shootout_stats = {}
     if so_n > 0:
@@ -322,33 +393,56 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         som_under = sum(1 for r in so_mkt if r["actual_total"] < r["market_total"])
         som_delta = (sum(r["actual_total"] - r["market_total"] for r in so_mkt) / som_n) if som_n else 0.0
 
-        sharp_so = [r for r in so_games if r["shootout_trigger"] == "SHARP SHOOTOUT"]
-        sso_n = len(sharp_so)
-        sso_mkt = [r for r in sharp_so if r["market_total"] is not None]
-        sso_mkt_n = len(sso_mkt)
-        sso_mkt_over = sum(1 for r in sso_mkt if r["actual_total"] > r["market_total"])
-        sso_mkt_delta = (sum(r["actual_total"] - r["market_total"] for r in sso_mkt) / sso_mkt_n) if sso_mkt_n else 0.0
+        sharp_shootout = [r for r in so_games if r["shootout_trigger"] == "SHARP SHOOTOUT"]
+        sso_n = len(sharp_shootout)
+        sso_over = sum(1 for r in sharp_shootout if r["actual_total"] > r["model_total"])
+        sso_delta = (sum(r["signed_delta"] for r in sharp_shootout) / sso_n) if sso_n else 0.0
+
+        sso_mkt = [r for r in sharp_shootout if r["market_total"] is not None]
+        ssom_n = len(sso_mkt)
+        ssom_over = sum(1 for r in sso_mkt if r["actual_total"] > r["market_total"])
+        ssom_delta = (sum(r["actual_total"] - r["market_total"] for r in sso_mkt) / ssom_n) if ssom_n else 0.0
+
+        reg_shootout = [r for r in so_games if r["shootout_trigger"] != "SHARP SHOOTOUT"]
+        rso_n = len(reg_shootout)
+        rso_over = sum(1 for r in reg_shootout if r["actual_total"] > r["model_total"])
+        rso_delta = (sum(r["signed_delta"] for r in reg_shootout) / rso_n) if rso_n else 0.0
+
+        rso_mkt = [r for r in reg_shootout if r["market_total"] is not None]
+        rsom_n = len(rso_mkt)
+        rsom_over = sum(1 for r in rso_mkt if r["actual_total"] > r["market_total"])
+        rsom_delta = (sum(r["actual_total"] - r["market_total"] for r in rso_mkt) / rsom_n) if rsom_n else 0.0
 
         shootout_stats = {
             "sample": so_n,
-            "mkt_sample": som_n,
+            "over_model_pct": round(so_over_mod / so_n * 100, 1),
+            "under_model_pct": round(so_under_mod / so_n * 100, 1),
+            "avg_score_delta": round(so_delta_mod, 1),
+            "moneyline_pct": round(so_ml / so_n * 100, 1),
+            "market_sample": som_n,
             "market_over_pct": round(som_over / som_n * 100, 1) if som_n else 0.0,
             "market_under_pct": round(som_under / som_n * 100, 1) if som_n else 0.0,
             "avg_market_delta": round(som_delta, 1),
-            "model_over_pct": round(so_over_mod / so_n * 100, 1),
-            "model_under_pct": round(so_under_mod / so_n * 100, 1),
-            "avg_score_delta": round(so_delta_mod, 1),
-            "moneyline_pct": round(so_ml / so_n * 100, 1),
             "sharp_shootout": {
                 "sample": sso_n,
-                "mkt_sample": sso_mkt_n,
-                "market_over_pct": round(sso_mkt_over / sso_mkt_n * 100, 1) if sso_mkt_n else 0.0,
-                "avg_market_delta": round(sso_mkt_delta, 1),
+                "over_model_pct": round(sso_over / sso_n * 100, 1) if sso_n else 0.0,
+                "avg_score_delta": round(sso_delta, 1),
+                "mkt_sample": ssom_n,
+                "over_mkt_pct": round(ssom_over / ssom_n * 100, 1) if ssom_n else 0.0,
+                "avg_mkt_delta": round(ssom_delta, 1),
+            },
+            "regular": {
+                "sample": rso_n,
+                "over_model_pct": round(rso_over / rso_n * 100, 1) if rso_n else 0.0,
+                "avg_score_delta": round(rso_delta, 1),
+                "mkt_sample": rsom_n,
+                "over_mkt_pct": round(rsom_over / rsom_n * 100, 1) if rsom_n else 0.0,
+                "avg_mkt_delta": round(rsom_delta, 1),
             }
         }
 
-    # 4. Drag-Down Under (⚓)
-    dd_games = [r for r in all_graded if r["is_drag_down"]]
+    # Drag-Down Under (⚓) on FIBA Core
+    dd_games = [r for r in fiba_games if r["is_drag_down"]]
     dd_n = len(dd_games)
     drag_down_stats = {}
     if dd_n > 0:
@@ -375,107 +469,41 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             "moneyline_pct": round(dd_ml / dd_n * 100, 1),
         }
 
-    # 5. Smart Edge (🎯)
-    # Rule 1: Strong+ Buffer + Solid / High / Elite Confidence ==> Full-Time UNDER (58% – 64% WR)
-    # Rule 2: Strong+ Buffer + Low / Avoid Confidence          ==> Full-Time OVER  (61% – 70% WR)
-    se_under_games = [r for r in all_graded if r["is_smart_edge_under"]]
-    se_un = len(se_under_games)
-    se_under_stats = {}
-    if se_un > 0:
-        seu_under_mod = sum(1 for r in se_under_games if r["actual_total"] < r["model_total"])
-        seu_over_mod = sum(1 for r in se_under_games if r["actual_total"] > r["model_total"])
-        seu_delta_mod = sum(r["signed_delta"] for r in se_under_games) / se_un
-        seu_ml = sum(1 for r in se_under_games if r["winner_hit"])
+    # Segments Breakdown
+    fiba_stats = compute_segment_stats(fiba_games, "FIBA Core (40m)")
+    nba_stats = compute_segment_stats(nba_games, "NBA Men (48m)")
+    ncaa_stats = compute_segment_stats(ncaa_games, "NCAA Men (College)")
+    gleague_stats = compute_segment_stats(gleague_games, "NBA G-League")
 
-        seu_mkt = [r for r in se_under_games if r["market_total"] is not None]
-        seum_n = len(seu_mkt)
-        seum_under = sum(1 for r in seu_mkt if r["actual_total"] < r["market_total"])
-        seum_over = sum(1 for r in seu_mkt if r["actual_total"] > r["market_total"])
-        seum_delta = (sum(r["actual_total"] - r["market_total"] for r in seu_mkt) / seum_n) if seum_n else 0.0
-
-        def get_subtier_stats(t_list):
-            cnt = len(t_list)
-            if cnt == 0:
-                return {"sample": 0, "mkt_sample": 0, "under_mkt_pct": 0.0, "avg_market_delta": 0.0}
-            t_m = [r for r in t_list if r["market_total"] is not None]
-            mn = len(t_m)
-            u_cnt = sum(1 for r in t_m if r["actual_total"] < r["market_total"])
-            avg_d = (sum(r["actual_total"] - r["market_total"] for r in t_m) / mn) if mn else 0.0
-            return {
-                "sample": cnt,
-                "mkt_sample": mn,
-                "under_mkt_pct": round(u_cnt / mn * 100, 1) if mn else 0.0,
-                "avg_market_delta": round(avg_d, 1),
-            }
-
-        ultra_games = [r for r in se_under_games if r.get("smart_edge_tier") == "ULTRA"]
-        elite_games = [r for r in se_under_games if r.get("smart_edge_tier") == "ELITE"]
-        standard_games = [r for r in se_under_games if r.get("smart_edge_tier") == "STANDARD"]
-
-        se_under_stats = {
-            "sample": se_un,
-            "mkt_sample": seum_n,
-            "market_under_pct": round(seum_under / seum_n * 100, 1) if seum_n else 0.0,
-            "market_over_pct": round(seum_over / seum_n * 100, 1) if seum_n else 0.0,
-            "avg_market_delta": round(seum_delta, 1),
-            "under_model_pct": round(seu_under_mod / se_un * 100, 1),
-            "over_model_pct": round(seu_over_mod / se_un * 100, 1),
-            "avg_score_delta": round(seu_delta_mod, 1),
-            "moneyline_pct": round(seu_ml / se_un * 100, 1),
-            "ultra": get_subtier_stats(ultra_games),
-            "elite": get_subtier_stats(elite_games),
-            "standard": get_subtier_stats(standard_games),
-        }
-
-    se_over_games = [r for r in all_graded if r["is_smart_edge_over"]]
-    se_on = len(se_over_games)
-    se_over_stats = {}
-    if se_on > 0:
-        seo_under_mod = sum(1 for r in se_over_games if r["actual_total"] < r["model_total"])
-        seo_over_mod = sum(1 for r in se_over_games if r["actual_total"] > r["model_total"])
-        seo_delta_mod = sum(r["signed_delta"] for r in se_over_games) / se_on
-        seo_ml = sum(1 for r in se_over_games if r["winner_hit"])
-
-        seo_mkt = [r for r in se_over_games if r["market_total"] is not None]
-        seom_n = len(seo_mkt)
-        seom_under = sum(1 for r in seo_mkt if r["actual_total"] < r["market_total"])
-        seom_over = sum(1 for r in seo_mkt if r["actual_total"] > r["market_total"])
-        seom_delta = (sum(r["actual_total"] - r["market_total"] for r in seo_mkt) / seom_n) if seom_n else 0.0
-
-        se_over_stats = {
-            "sample": se_on,
-            "mkt_sample": seom_n,
-            "market_over_pct": round(seom_over / seom_n * 100, 1) if seom_n else 0.0,
-            "market_under_pct": round(seom_under / seom_n * 100, 1) if seom_n else 0.0,
-            "avg_market_delta": round(seom_delta, 1),
-            "model_over_pct": round(seo_over_mod / se_on * 100, 1),
-            "model_under_pct": round(seo_under_mod / se_on * 100, 1),
-            "avg_score_delta": round(seo_delta_mod, 1),
-            "moneyline_pct": round(seo_ml / se_on * 100, 1),
-        }
-
+    # Core FIBA smart edge stats for root backwards compatibility
     smart_edge_stats = {
-        "sample": se_un + se_on,
-        "under": se_under_stats,
-        "over": se_over_stats,
+        "sample": fiba_stats["under"]["sample"] + fiba_stats["over"]["sample"],
+        "under": fiba_stats["under"],
+        "over": fiba_stats["over"],
     }
 
     payload = {
         "updated_at": datetime.now().isoformat(),
-        "scope": "CORE_FIBA_MENS",
-        "scope_description": "Excludes USA (NBA/NCAA/WNBA), Asian leagues, and Women's leagues to isolate high-fidelity FIBA Men's club basketball",
+        "scope": "MULTI_SEGMENT_CALIBRATED",
+        "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
         "total_graded_games": total,
         "baseline": {
-            "moneyline_pct": round(base_ml_hit / total * 100, 1),
-            "under_model_pct": round(base_under_mod / total * 100, 1),
+            "moneyline_pct": round(base_ml_hit / fiba_total * 100, 1) if fiba_total else 0.0,
+            "under_model_pct": round(base_under_mod / fiba_total * 100, 1) if fiba_total else 0.0,
             "avg_signed_delta": round(base_delta_mod, 1),
-            "under_market_pct": round(base_under_mkt / len(with_mkt) * 100, 1) if with_mkt else 0.0,
+            "under_market_pct": round(base_under_mkt / len(fiba_mkt) * 100, 1) if fiba_mkt else 0.0,
             "avg_market_delta": round(base_delta_mkt, 1),
         },
         "clash": clash_stats,
         "shootout": shootout_stats,
         "drag_down": drag_down_stats,
         "smart_edge": smart_edge_stats,
+        "segments": {
+            "FIBA_CORE": fiba_stats,
+            "NBA_MEN": nba_stats,
+            "NCAA_MEN": ncaa_stats,
+            "NBA_GLEAGUE": gleague_stats,
+        }
     }
 
     # Save to ncaa-api
@@ -497,12 +525,12 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
     return payload
 
 if __name__ == "__main__":
-    print("\n🏀 Aggregating Basketball Signal Statistics (Clash, Shootout, Drag-Down, Smart Edge)...")
+    print("\n🏀 Aggregating Basketball Signal Statistics (Multi-Segment Architecture)...")
     stats = build_signal_stats(save_to_dashboard=True)
-    print(f"  Total Graded Games: {stats.get('total_graded_games', 0)}")
-    print(f"  Clash Sample: {stats.get('clash', {}).get('sample', 0)} | Under Model: {stats.get('clash', {}).get('under_model_pct', 0)}%")
-    print(f"  Shootout Sample: {stats.get('shootout', {}).get('sample', 0)} | Over Market: {stats.get('shootout', {}).get('market_over_pct', 0)}%")
-    print(f"  Drag-Down Sample: {stats.get('drag_down', {}).get('sample', 0)} | Under Market: {stats.get('drag_down', {}).get('under_mkt_pct', 0)}%")
-    se = stats.get('smart_edge', {})
-    print(f"  Smart Edge Sample: {se.get('sample', 0)} | Under Mkt: {se.get('under', {}).get('market_under_pct', 0)}% (N={se.get('under', {}).get('mkt_sample', 0)}) | Over Mkt: {se.get('over', {}).get('market_over_pct', 0)}% (N={se.get('over', {}).get('mkt_sample', 0)})")
+    print(f"  Total Graded Games (All): {stats.get('total_graded_games', 0)}")
+    segs = stats.get("segments", {})
+    for k, s in segs.items():
+        u = s.get("under", {})
+        o = s.get("over", {})
+        print(f"  [{k}] {s.get('name')}: Sample={s.get('sample')} (Mkt={s.get('market_sample')}) | Under={u.get('market_under_pct')}% (N={u.get('mkt_sample')}, {u.get('avg_market_delta')}p) | Over={o.get('market_over_pct')}% (N={o.get('mkt_sample')}, +{o.get('avg_market_delta')}p)")
     print("Done.\n")

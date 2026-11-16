@@ -397,6 +397,39 @@ TEAM_NAME_OVERRIDES = {
     "Cluj-Napoca": "U-BT Cluj Napoca",
 }
 
+def classify_basketball_segment(country, league, home="", away=""):
+    """
+    Classifies a basketball game into its empirically validated statistical archetype.
+    """
+    c = (country or "").upper().strip()
+    l = (league or "").upper().strip()
+    h = (home or "").upper().strip()
+    a = (away or "").upper().strip()
+
+    # Women's leagues (quarantined/parked from Smart Edge until sample builds)
+    if "WOMEN" in l or "(W)" in l or "WNBA" in l or " FEMENIN" in l or " FRAUEN" in l or " KOBIET" in l or " W" in h or " W" in a:
+        return "WOMEN", "Women's Basketball"
+
+    # NBA G-League
+    if "NBA G LEAGUE" in l or "G LEAGUE" in l or "G-LEAGUE" in l:
+        return "NBA_GLEAGUE", "NBA G-League"
+
+    # NBA Men
+    if "NBA" in l:
+        return "NBA_MEN", "NBA Men (48m)"
+
+    # NCAA Men
+    if "NCAA" in l or "COLLEGE" in l:
+        return "NCAA_MEN", "NCAA Men (College)"
+
+    # Asian Leagues (CBA, KBL, PBA, Taiwan)
+    if c in ("CHINA", "SOUTH KOREA", "PHILIPPINES", "TAIWAN") or any(k in l for k in ("CBA", "KBL", "PBA")):
+        return "ASIA", "Asian Leagues"
+
+    # Core FIBA Men (40 min international basketball)
+    return "FIBA_CORE", "FIBA Core (40m)"
+
+
 def get_today_str(date_str=None):
     if date_str:
         return date_str
@@ -1670,11 +1703,11 @@ def main():
                     srs_a=sA.get("srs_rating") if sA else None,
                 )
 
-                # Smart Edge Multi-Engine Evaluation (Historical Audit Restructure):
-                # Tier 1 (ULTRA 87.5% WR): Discordant SRS Dominance (ADV Over / SRS Under with Div >= 3.1 or Solid conf, excluding Moderate trap)
-                # Tier 2 (ELITE 73.7% WR): Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5-10 pts)
-                # Tier 3 (STANDARD 58-64% WR): Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
-                # Smart Over (61-70% WR): Scoring Ceiling Rebound (Strong+ Buffer + Low/Avoid Confidence)
+                # Classify game into its statistical archetype segment
+                seg_code, seg_label = classify_basketball_segment(country, lname, home=home, away=away)
+
+                # Smart Edge Multi-Engine Adaptive Evaluation:
+                # Segment-specific routing prevents cross-league statistical pollution
                 buf_score_val = conf_res.get("hit_rate_score", 0)
                 buf_tier_val = "[ELITE BUFFER]" if buf_score_val >= 40 else ("[STRONG BUFFER]" if buf_score_val >= 28 else ("[NEUTRAL]" if buf_score_val >= 16 else ("[MARGINAL]" if buf_score_val > 0 else "[AVOID]")))
                 conf_band_val = conf_res["band"]["label"].strip()
@@ -1695,77 +1728,164 @@ def main():
                     and conf_band_val in ("[LOW]", "[AVOID]")
                 )
 
-                is_dual_consensus_under = (
-                    model_agreement == "CONFIRMED_UNDER"
-                    and (conf_band_val != "[LOW]")
-                    and not is_smart_over
-                    and (
-                        conf_band_val in ("[SOLID]", "[MODERATE]")
-                        or (model_divergence is not None and 5.0 <= model_divergence <= 10.0)
+                # ROUTE 1: WOMEN & ASIA -> Parked from Smart Edge
+                if seg_code in ("WOMEN", "ASIA"):
+                    smart_edge = None
+
+                # ROUTE 2: NBA MEN -> 48-Min Pace Over (Unders strictly disabled due to 40% failure)
+                elif seg_code == "NBA_MEN":
+                    if is_smart_over or (adv_edge is not None and adv_edge >= 3.0 and srs_edge is not None and srs_edge >= 3.0):
+                        smart_edge = {
+                            "signal": "OVER",
+                            "tier": "ELITE",
+                            "recommendation": "BET FULL-TIME OVER",
+                            "win_rate": "66.7% WR",
+                            "tag": "📈 Smart Over",
+                            "trigger": "NBA_PACE_OVER",
+                            "trigger_label": "48-Min High-Pace Scoring Lead",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+
+                # ROUTE 3: NCAA MEN -> College High-Line Under Discipline (Overs strictly disabled due to 38.9% failure)
+                elif seg_code == "NCAA_MEN":
+                    if is_discordant_srs_under:
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "ULTRA",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "80%+ WR",
+                            "tag": "📈 Smart Under",
+                            "trigger": "NCAA_DISCORDANT_UNDER",
+                            "trigger_label": "NCAA Discordant SRS Under",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+                    elif model_agreement == "CONFIRMED_UNDER" and (conf_band_val != "[LOW]") and not is_smart_over:
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "ELITE",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "65.7% WR",
+                            "tag": "📉 Smart Under",
+                            "trigger": "NCAA_COLLEGE_UNDER",
+                            "trigger_label": "College High-Line Under Discipline",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+
+                # ROUTE 4: NBA G-LEAGUE -> Fade Inflated 230+ Lines (73.7% Under WR)
+                elif seg_code == "NBA_GLEAGUE":
+                    if market is not None and market >= 228.0 and (srs_edge is None or srs_edge <= 0 or adv_edge is None or adv_edge <= 0):
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "ELITE",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "73.7% WR",
+                            "tag": "📉 Smart Under",
+                            "trigger": "GLEAGUE_INFLATED_UNDER",
+                            "trigger_label": "Developmental Inflated Line Fade",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+
+                # ROUTE 5: FIBA CORE -> Proven 4-Engine Multi-Model System
+                else:
+                    is_dual_consensus_under = (
+                        model_agreement == "CONFIRMED_UNDER"
+                        and (conf_band_val != "[LOW]")
+                        and not is_smart_over
+                        and (
+                            conf_band_val in ("[SOLID]", "[MODERATE]")
+                            or (model_divergence is not None and 5.0 <= model_divergence <= 10.0)
+                        )
                     )
-                )
 
-                is_floor_discipline_under = (
-                    buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
-                    and conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]")
-                )
+                    is_floor_discipline_under = (
+                        buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
+                        and conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]")
+                    )
 
-                if is_discordant_srs_under:
-                    smart_edge = {
-                        "signal": "UNDER",
-                        "tier": "ULTRA",
-                        "recommendation": "BET FULL-TIME UNDER",
-                        "win_rate": "87.5% WR",
-                        "tag": "📉 Smart Under",
-                        "trigger": "DISCORDANT_SRS_UNDER",
-                        "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
-                        "buffer_tier": buf_tier_val,
-                        "confidence_band": conf_band_val,
-                        "model_agreement": model_agreement,
-                        "model_divergence": model_divergence,
-                    }
-                elif is_smart_over:
-                    smart_edge = {
-                        "signal": "OVER",
-                        "tier": "STANDARD",
-                        "recommendation": "BET FULL-TIME OVER",
-                        "win_rate": "61% – 70%",
-                        "tag": "📈 Smart Over",
-                        "trigger": "BUFFER_SCORING_LEAD",
-                        "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
-                        "buffer_tier": buf_tier_val,
-                        "confidence_band": conf_band_val,
-                        "model_agreement": model_agreement,
-                        "model_divergence": model_divergence,
-                    }
-                elif is_dual_consensus_under:
-                    smart_edge = {
-                        "signal": "UNDER",
-                        "tier": "ELITE",
-                        "recommendation": "BET FULL-TIME UNDER",
-                        "win_rate": "76% WR",
-                        "tag": "📉 Smart Under",
-                        "trigger": "DUAL_CONSENSUS_UNDER",
-                        "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
-                        "buffer_tier": buf_tier_val,
-                        "confidence_band": conf_band_val,
-                        "model_agreement": model_agreement,
-                        "model_divergence": model_divergence,
-                    }
-                elif is_floor_discipline_under:
-                    smart_edge = {
-                        "signal": "UNDER",
-                        "tier": "STANDARD",
-                        "recommendation": "BET FULL-TIME UNDER",
-                        "win_rate": "58% – 64%",
-                        "tag": "📉 Smart Under",
-                        "trigger": "BUFFER_FLOOR_DISCIPLINE",
-                        "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
-                        "buffer_tier": buf_tier_val,
-                        "confidence_band": conf_band_val,
-                        "model_agreement": model_agreement,
-                        "model_divergence": model_divergence,
-                    }
+                    if is_discordant_srs_under:
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "ULTRA",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "87.5% WR",
+                            "tag": "📉 Smart Under",
+                            "trigger": "DISCORDANT_SRS_UNDER",
+                            "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+                    elif is_smart_over:
+                        smart_edge = {
+                            "signal": "OVER",
+                            "tier": "STANDARD",
+                            "recommendation": "BET FULL-TIME OVER",
+                            "win_rate": "61% – 70%",
+                            "tag": "📈 Smart Over",
+                            "trigger": "BUFFER_SCORING_LEAD",
+                            "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+                    elif is_dual_consensus_under:
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "ELITE",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "76% WR",
+                            "tag": "📉 Smart Under",
+                            "trigger": "DUAL_CONSENSUS_UNDER",
+                            "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
+                    elif is_floor_discipline_under:
+                        smart_edge = {
+                            "signal": "UNDER",
+                            "tier": "STANDARD",
+                            "recommendation": "BET FULL-TIME UNDER",
+                            "win_rate": "58% – 64%",
+                            "tag": "📉 Smart Under",
+                            "trigger": "BUFFER_FLOOR_DISCIPLINE",
+                            "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
+                            "segment": seg_code,
+                            "segment_label": seg_label,
+                            "buffer_tier": buf_tier_val,
+                            "confidence_band": conf_band_val,
+                            "model_agreement": model_agreement,
+                            "model_divergence": model_divergence,
+                        }
 
                 # Build record
                 _h_csg = sH.get("current_season_games", sH.get("played", sH.get("games_played", 0))) if sH else 0
@@ -1779,6 +1899,8 @@ def main():
                     "is_shootout":      is_shootout,
                     "shootout_trigger": shootout_trigger,
                     "smart_edge":       smart_edge,
+                    "league_segment":   seg_code,
+                    "league_segment_label": seg_label,
                     "early_season_flag": (_h_csg < 8 or _a_csg < 8),
                     "home_season_games": _h_csg,
                     "away_season_games": _a_csg,

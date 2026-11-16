@@ -1670,30 +1670,100 @@ def main():
                     srs_a=sA.get("srs_rating") if sA else None,
                 )
 
-                # Smart Edge Evaluation (Historical Audit Restructure):
-                # 1. Strong+ Buffer + Solid / High / Elite Confidence ==> 📉 BET FULL-TIME UNDER (58% – 64% WR)
-                # 2. Strong+ Buffer + Low / Avoid Confidence          ==> 📈 BET FULL-TIME OVER  (61% – 70% WR)
+                # Smart Edge Multi-Engine Evaluation (Historical Audit Restructure):
+                # Tier 1 (ULTRA 87.5% WR): Discordant SRS Dominance (ADV Over / SRS Under with Div >= 3.1 or Solid conf, excluding Moderate trap)
+                # Tier 2 (ELITE 73.7% WR): Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5-10 pts)
+                # Tier 3 (STANDARD 58-64% WR): Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
+                # Smart Over (61-70% WR): Scoring Ceiling Rebound (Strong+ Buffer + Low/Avoid Confidence)
                 buf_score_val = conf_res.get("hit_rate_score", 0)
                 buf_tier_val = "[ELITE BUFFER]" if buf_score_val >= 40 else ("[STRONG BUFFER]" if buf_score_val >= 28 else ("[NEUTRAL]" if buf_score_val >= 16 else ("[MARGINAL]" if buf_score_val > 0 else "[AVOID]")))
                 conf_band_val = conf_res["band"]["label"].strip()
                 smart_edge = None
-                if buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]"):
-                    if conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]"):
-                        smart_edge = {
-                            "signal": "UNDER",
-                            "recommendation": "BET FULL-TIME UNDER",
-                            "win_rate": "58% – 64%",
-                            "buffer_tier": buf_tier_val,
-                            "confidence_band": conf_band_val,
-                        }
-                    elif conf_band_val in ("[LOW]", "[AVOID]"):
-                        smart_edge = {
-                            "signal": "OVER",
-                            "recommendation": "BET FULL-TIME OVER",
-                            "win_rate": "61% – 70%",
-                            "buffer_tier": buf_tier_val,
-                            "confidence_band": conf_band_val,
-                        }
+
+                is_adv_o_srs_u = (adv_edge is not None and srs_edge is not None and adv_edge > 0 and srs_edge < 0)
+                is_discordant_srs_under = (
+                    is_adv_o_srs_u
+                    and (conf_band_val != "[MODERATE]")
+                    and (
+                        (model_divergence is not None and model_divergence >= 3.1)
+                        or (conf_band_val == "[SOLID]")
+                    )
+                )
+
+                is_dual_consensus_under = (
+                    model_agreement == "CONFIRMED_UNDER"
+                    and (
+                        conf_band_val in ("[SOLID]", "[MODERATE]")
+                        or (model_divergence is not None and 5.0 <= model_divergence <= 10.0)
+                    )
+                )
+
+                is_floor_discipline_under = (
+                    buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
+                    and conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]")
+                )
+
+                is_smart_over = (
+                    buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
+                    and conf_band_val in ("[LOW]", "[AVOID]")
+                )
+
+                if is_discordant_srs_under:
+                    smart_edge = {
+                        "signal": "UNDER",
+                        "tier": "ULTRA",
+                        "recommendation": "BET FULL-TIME UNDER",
+                        "win_rate": "87.5% WR",
+                        "tag": "📉 Smart Under (88% SRS Lead)",
+                        "trigger": "DISCORDANT_SRS_UNDER",
+                        "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
+                        "buffer_tier": buf_tier_val,
+                        "confidence_band": conf_band_val,
+                        "model_agreement": model_agreement,
+                        "model_divergence": model_divergence,
+                    }
+                elif is_dual_consensus_under:
+                    smart_edge = {
+                        "signal": "UNDER",
+                        "tier": "ELITE",
+                        "recommendation": "BET FULL-TIME UNDER",
+                        "win_rate": "74% WR",
+                        "tag": "📉 Smart Under (74% Dual Model)",
+                        "trigger": "DUAL_CONSENSUS_UNDER",
+                        "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
+                        "buffer_tier": buf_tier_val,
+                        "confidence_band": conf_band_val,
+                        "model_agreement": model_agreement,
+                        "model_divergence": model_divergence,
+                    }
+                elif is_floor_discipline_under:
+                    smart_edge = {
+                        "signal": "UNDER",
+                        "tier": "STANDARD",
+                        "recommendation": "BET FULL-TIME UNDER",
+                        "win_rate": "58% – 64%",
+                        "tag": "📉 Smart Under (58–64%)",
+                        "trigger": "BUFFER_FLOOR_DISCIPLINE",
+                        "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
+                        "buffer_tier": buf_tier_val,
+                        "confidence_band": conf_band_val,
+                        "model_agreement": model_agreement,
+                        "model_divergence": model_divergence,
+                    }
+                elif is_smart_over:
+                    smart_edge = {
+                        "signal": "OVER",
+                        "tier": "STANDARD",
+                        "recommendation": "BET FULL-TIME OVER",
+                        "win_rate": "61% – 70%",
+                        "tag": "📈 Smart Over (61–70%)",
+                        "trigger": "BUFFER_SCORING_LEAD",
+                        "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
+                        "buffer_tier": buf_tier_val,
+                        "confidence_band": conf_band_val,
+                        "model_agreement": model_agreement,
+                        "model_divergence": model_divergence,
+                    }
 
                 # Build record
                 _h_csg = sH.get("current_season_games", sH.get("played", sH.get("games_played", 0))) if sH else 0

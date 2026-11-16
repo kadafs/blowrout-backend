@@ -1424,16 +1424,24 @@ def main():
                     if conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]"):
                         smart_edge = {
                             "signal": "UNDER",
+                            "tier": "STANDARD",
                             "recommendation": "BET FULL-TIME UNDER",
                             "win_rate": "58% – 64%",
+                            "tag": "📉 Smart Under (58–64%)",
+                            "trigger": "BUFFER_FLOOR_DISCIPLINE",
+                            "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
                             "buffer_tier": buf_tier_val,
                             "confidence_band": conf_band_val,
                         }
                     elif conf_band_val in ("[LOW]", "[AVOID]"):
                         smart_edge = {
                             "signal": "OVER",
+                            "tier": "STANDARD",
                             "recommendation": "BET FULL-TIME OVER",
                             "win_rate": "61% – 70%",
+                            "tag": "📈 Smart Over (61–70%)",
+                            "trigger": "BUFFER_SCORING_LEAD",
+                            "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
                             "buffer_tier": buf_tier_val,
                             "confidence_band": conf_band_val,
                         }

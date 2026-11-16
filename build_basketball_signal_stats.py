@@ -35,13 +35,19 @@ if not DASHBOARD_DIR.parent.parent.exists() and (ROOT_DIR.parent / "sports-analy
     DASHBOARD_DIR = ROOT_DIR.parent / "sports-analytics" / "public" / "data" / "basketball"
 
 def build_signal_stats(save_to_dashboard: bool = True) -> dict:
-    files = sorted(DATA_DIR.glob("universal_predictions_2026-*.json"))
-    # Use production V1 files (non-v2) for primary benchmark
-    v1_files = [f for f in files if not f.name.endswith("_v2.json")]
+    # For each date, prefer _v2.json (which contains dual model ADV + SRS) if available, else use V1
+    date_map = {}
+    for f in sorted(DATA_DIR.glob("universal_predictions_2026-*.json")):
+        d = f.stem.replace("universal_predictions_", "").replace("_v2", "")
+        if "_v2" in f.stem:
+            date_map[d] = f
+        elif d not in date_map:
+            date_map[d] = f
+    target_files = [date_map[d] for d in sorted(date_map.keys())]
 
     all_graded = []
 
-    for fpath in v1_files:
+    for fpath in target_files:
         date_str = fpath.stem.replace("universal_predictions_", "")
         try:
             with open(fpath, "r", encoding="utf-8") as fp:
@@ -84,21 +90,92 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             floor_st = str(p.get("floor_status") or "")
             is_dd = bool(p.get("is_drag_down") or (floor_st.startswith("WEAK") and "[AVOID]" in band))
 
-            # Check Smart Edge (Rule 1: Under, Rule 2: Over)
+            # Check Smart Edge (Multi-Engine System: Discordant Under, Dual Consensus Under, Floor Discipline)
             se = p.get("smart_edge")
             se_sig = None
-            if isinstance(se, dict) and se.get("signal"):
+            se_tier = "STANDARD"
+            se_trigger = ""
+
+            # Extract dual model metrics
+            adv_tot = p.get("adv_total")
+            srs_tot = p.get("srs_total")
+            try:
+                adv_tot = float(adv_tot) if adv_tot is not None else None
+            except (ValueError, TypeError):
+                adv_tot = None
+            try:
+                srs_tot = float(srs_tot) if srs_tot is not None else None
+            except (ValueError, TypeError):
+                srs_tot = None
+
+            adv_e = p.get("adv_edge")
+            srs_e = p.get("srs_edge")
+            if mkt is not None:
+                if adv_e is None and adv_tot is not None:
+                    adv_e = round(adv_tot - mkt, 1)
+                if srs_e is None and srs_tot is not None:
+                    srs_e = round(srs_tot - mkt, 1)
+
+            div = p.get("model_divergence")
+            if div is None and adv_tot is not None and srs_tot is not None:
+                div = round(abs(adv_tot - srs_tot), 1)
+
+            agreement = p.get("model_agreement")
+            if not agreement and adv_e is not None and srs_e is not None:
+                if adv_e < 0 and srs_e < 0:
+                    agreement = "CONFIRMED_UNDER"
+                elif adv_e > 0 and srs_e > 0:
+                    agreement = "CONFIRMED_OVER"
+                elif (adv_e > 0 and srs_e < 0) or (adv_e < 0 and srs_e > 0):
+                    agreement = "DISCORDANT"
+
+            bt = p.get("buffer_tier")
+            bs = p.get("buffer_score")
+            cb = band.strip()
+            if not bt and bs is not None:
+                bs_val = float(bs)
+                bt = ("[ELITE BUFFER]" if bs_val >= 40 else
+                      "[STRONG BUFFER]" if bs_val >= 28 else
+                      "[NEUTRAL]" if bs_val >= 16 else
+                      "[MARGINAL]" if bs_val > 0 else "[AVOID]")
+            is_strong_buf = bt in ("[ELITE BUFFER]", "[STRONG BUFFER]") or (bs is not None and bs >= 28)
+
+            # Check if already stamped with modern multi-engine payload
+            if isinstance(se, dict) and se.get("trigger"):
                 se_sig = se.get("signal")
+                se_tier = se.get("tier", "STANDARD")
+                se_trigger = se.get("trigger", "")
             else:
-                bt = p.get("buffer_tier")
-                bs = p.get("buffer_score")
-                cb = band.strip()
-                is_strong_buf = bt in ("[ELITE BUFFER]", "[STRONG BUFFER]") or (bs is not None and bs >= 28)
-                if is_strong_buf and cb:
-                    if cb in ("[ELITE]", "[HIGH]", "[SOLID]"):
-                        se_sig = "UNDER"
-                    elif cb in ("[LOW]", "[AVOID]"):
-                        se_sig = "OVER"
+                # Dynamic multi-engine evaluation:
+                is_adv_o_srs_u = (adv_e is not None and srs_e is not None and adv_e > 0 and srs_e < 0)
+                is_discordant_srs_under = (
+                    is_adv_o_srs_u
+                    and (cb != "[MODERATE]")
+                    and ((div is not None and div >= 3.1) or cb == "[SOLID]")
+                )
+                is_dual_consensus_under = (
+                    agreement == "CONFIRMED_UNDER"
+                    and (cb in ("[SOLID]", "[MODERATE]") or (div is not None and 5.0 <= div <= 10.0))
+                )
+                is_floor_discipline_under = is_strong_buf and cb in ("[ELITE]", "[HIGH]", "[SOLID]")
+                is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
+
+                if is_discordant_srs_under:
+                    se_sig = "UNDER"
+                    se_tier = "ULTRA"
+                    se_trigger = "DISCORDANT_SRS_UNDER"
+                elif is_dual_consensus_under:
+                    se_sig = "UNDER"
+                    se_tier = "ELITE"
+                    se_trigger = "DUAL_CONSENSUS_UNDER"
+                elif is_floor_discipline_under:
+                    se_sig = "UNDER"
+                    se_tier = "STANDARD"
+                    se_trigger = "BUFFER_FLOOR_DISCIPLINE"
+                elif is_smart_over:
+                    se_sig = "OVER"
+                    se_tier = "STANDARD"
+                    se_trigger = "BUFFER_SCORING_LEAD"
 
             all_graded.append({
                 "date": date_str,
@@ -116,6 +193,8 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                 "is_drag_down": is_dd,
                 "is_smart_edge_under": se_sig == "UNDER",
                 "is_smart_edge_over": se_sig == "OVER",
+                "smart_edge_tier": se_tier,
+                "smart_edge_trigger": se_trigger,
                 "winner_hit": bool(pred_winner and actual_winner and pred_winner == actual_winner),
             })
 
@@ -284,6 +363,25 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         seum_over = sum(1 for r in seu_mkt if r["actual_total"] > r["market_total"])
         seum_delta = (sum(r["actual_total"] - r["market_total"] for r in seu_mkt) / seum_n) if seum_n else 0.0
 
+        def get_subtier_stats(t_list):
+            cnt = len(t_list)
+            if cnt == 0:
+                return {"sample": 0, "mkt_sample": 0, "under_mkt_pct": 0.0, "avg_market_delta": 0.0}
+            t_m = [r for r in t_list if r["market_total"] is not None]
+            mn = len(t_m)
+            u_cnt = sum(1 for r in t_m if r["actual_total"] < r["market_total"])
+            avg_d = (sum(r["actual_total"] - r["market_total"] for r in t_m) / mn) if mn else 0.0
+            return {
+                "sample": cnt,
+                "mkt_sample": mn,
+                "under_mkt_pct": round(u_cnt / mn * 100, 1) if mn else 0.0,
+                "avg_market_delta": round(avg_d, 1),
+            }
+
+        ultra_games = [r for r in se_under_games if r.get("smart_edge_tier") == "ULTRA"]
+        elite_games = [r for r in se_under_games if r.get("smart_edge_tier") == "ELITE"]
+        standard_games = [r for r in se_under_games if r.get("smart_edge_tier") == "STANDARD"]
+
         se_under_stats = {
             "sample": se_un,
             "mkt_sample": seum_n,
@@ -294,6 +392,9 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             "over_model_pct": round(seu_over_mod / se_un * 100, 1),
             "avg_score_delta": round(seu_delta_mod, 1),
             "moneyline_pct": round(seu_ml / se_un * 100, 1),
+            "ultra": get_subtier_stats(ultra_games),
+            "elite": get_subtier_stats(elite_games),
+            "standard": get_subtier_stats(standard_games),
         }
 
     se_over_games = [r for r in all_graded if r["is_smart_edge_over"]]

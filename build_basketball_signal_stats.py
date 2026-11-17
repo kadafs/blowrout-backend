@@ -249,7 +249,6 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                     is_discordant = is_adv_o_srs_u and cb != "[MODERATE]" and ((div is not None and div >= 3.1) or cb == "[SOLID]")
                     is_smart_over = is_strong_buf and cb in ("[LOW]", "[AVOID]")
                     is_dual_u = agreement == "CONFIRMED_UNDER" and cb != "[LOW]" and not is_smart_over and (cb in ("[SOLID]", "[MODERATE]") or (div is not None and 5.0 <= div <= 10.0))
-                    is_floor_u = is_strong_buf and cb in ("[ELITE]", "[HIGH]", "[SOLID]")
 
                     if is_discordant:
                         se_sig = "UNDER"
@@ -263,10 +262,6 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
                         se_sig = "UNDER"
                         se_tier = "ELITE"
                         se_trigger = "DUAL_CONSENSUS_UNDER"
-                    elif is_floor_u:
-                        se_sig = "UNDER"
-                        se_tier = "STANDARD"
-                        se_trigger = "BUFFER_FLOOR_DISCIPLINE"
 
             all_graded.append({
                 "date": date_str,

@@ -1817,11 +1817,6 @@ def main():
                         )
                     )
 
-                    is_floor_discipline_under = (
-                        buf_tier_val in ("[ELITE BUFFER]", "[STRONG BUFFER]")
-                        and conf_band_val in ("[ELITE]", "[HIGH]", "[SOLID]")
-                    )
-
                     if is_discordant_srs_under:
                         smart_edge = {
                             "signal": "UNDER",
@@ -1863,22 +1858,6 @@ def main():
                             "tag": "📉 Smart Under",
                             "trigger": "DUAL_CONSENSUS_UNDER",
                             "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
-                            "segment": seg_code,
-                            "segment_label": seg_label,
-                            "buffer_tier": buf_tier_val,
-                            "confidence_band": conf_band_val,
-                            "model_agreement": model_agreement,
-                            "model_divergence": model_divergence,
-                        }
-                    elif is_floor_discipline_under:
-                        smart_edge = {
-                            "signal": "UNDER",
-                            "tier": "STANDARD",
-                            "recommendation": "BET FULL-TIME UNDER",
-                            "win_rate": "58% – 64%",
-                            "tag": "📉 Smart Under",
-                            "trigger": "BUFFER_FLOOR_DISCIPLINE",
-                            "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
                             "segment": seg_code,
                             "segment_label": seg_label,
                             "buffer_tier": buf_tier_val,

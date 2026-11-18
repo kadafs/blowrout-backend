@@ -20,6 +20,7 @@ import json
 import os
 import sys
 import shutil
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -266,6 +267,8 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
             all_graded.append({
                 "date": date_str,
                 "league": p.get("league", "Unknown"),
+                "country": p.get("country", "Other"),
+                "league_id": p.get("league_id"),
                 "home": p.get("home_team"),
                 "away": p.get("away_team"),
                 "segment": seg_code,
@@ -477,6 +480,92 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         "over": fiba_stats["over"],
     }
 
+    # Automated League Warnings (Dynamic Threshold: 55.0% WR with Sample >= 3)
+    league_smart_data = defaultdict(lambda: {
+        "country": "", "league": "", "league_id": None, "segment": "",
+        "total_smart_plays": 0, "total_smart_hits": 0,
+        "under_plays": 0, "under_hits": 0,
+        "over_plays": 0, "over_hits": 0,
+        "net_units": 0.0
+    })
+
+    smart_graded_with_mkt = [r for r in all_graded if r["market_total"] is not None and (r["is_smart_edge_under"] or r["is_smart_edge_over"])]
+    for r in smart_graded_with_mkt:
+        c = r.get("country", "Other")
+        l = r.get("league", "Unknown")
+        key = f"{c} — {l}" if c and c != "Other" else l
+        entry = league_smart_data[key]
+        entry["country"] = c
+        entry["league"] = l
+        entry["league_id"] = r.get("league_id")
+        entry["segment"] = r["segment"]
+        entry["total_smart_plays"] += 1
+
+        hit = False
+        delta = r["actual_total"] - r["market_total"]
+        if r["is_smart_edge_under"]:
+            entry["under_plays"] += 1
+            if delta < 0:
+                hit = True
+                entry["under_hits"] += 1
+                entry["net_units"] += 0.9091
+            elif delta > 0:
+                entry["net_units"] -= 1.0
+        elif r["is_smart_edge_over"]:
+            entry["over_plays"] += 1
+            if delta > 0:
+                hit = True
+                entry["over_hits"] += 1
+                entry["net_units"] += 0.9091
+            elif delta < 0:
+                entry["net_units"] -= 1.0
+
+        if hit:
+            entry["total_smart_hits"] += 1
+
+    WARN_THRESHOLD = 55.0
+    MIN_SAMPLE = 3
+    league_warnings = {}
+
+    for lkey, d in league_smart_data.items():
+        n = d["total_smart_plays"]
+        if n >= MIN_SAMPLE:
+            wr = round(d["total_smart_hits"] / n * 100, 1)
+            u_wr = round(d["under_hits"] / d["under_plays"] * 100, 1) if d["under_plays"] else None
+            o_wr = round(d["over_hits"] / d["over_plays"] * 100, 1) if d["over_plays"] else None
+
+            if wr < WARN_THRESHOLD:
+                if d["over_plays"] >= 2 and o_wr is not None and o_wr < 40.0:
+                    reason = f"Pace Hazard: Smart Over hit rate is only {o_wr}% ({d['over_hits']}/{d['over_plays']}). Tactical half-court tempo limits offensive breakouts."
+                elif d["under_plays"] >= 2 and u_wr is not None and u_wr < 40.0:
+                    reason = f"Volatility Hazard: Smart Under hit rate is only {u_wr}% ({d['under_hits']}/{d['under_plays']}). High second-half pace breaks Under suppression."
+                else:
+                    reason = f"Below Benchmark: Combined Smart Filter hit rate is {wr}% ({d['total_smart_hits']}/{n} hits) vs. {WARN_THRESHOLD}% threshold."
+
+                warn_obj = {
+                    "status": "WARNING",
+                    "threshold_pct": WARN_THRESHOLD,
+                    "min_sample": MIN_SAMPLE,
+                    "sample": n,
+                    "hits": d["total_smart_hits"],
+                    "win_rate": wr,
+                    "under_plays": d["under_plays"],
+                    "under_hits": d["under_hits"],
+                    "under_wr": u_wr,
+                    "over_plays": d["over_plays"],
+                    "over_hits": d["over_hits"],
+                    "over_wr": o_wr,
+                    "net_units": round(d["net_units"], 2),
+                    "reason": reason,
+                    "country": d["country"],
+                    "league": d["league"],
+                    "segment": d["segment"]
+                }
+                league_warnings[lkey] = warn_obj
+                # Also index by pure league name for robust frontend matching
+                if d["league"] and d["league"] != lkey:
+                    league_warnings[d["league"]] = warn_obj
+
     payload = {
         "updated_at": datetime.now().isoformat(),
         "scope": "MULTI_SEGMENT_CALIBRATED",
@@ -493,6 +582,7 @@ def build_signal_stats(save_to_dashboard: bool = True) -> dict:
         "shootout": shootout_stats,
         "drag_down": drag_down_stats,
         "smart_edge": smart_edge_stats,
+        "league_warnings": league_warnings,
         "segments": {
             "FIBA_CORE": fiba_stats,
             "NBA_MEN": nba_stats,
@@ -528,4 +618,10 @@ if __name__ == "__main__":
         u = s.get("under", {})
         o = s.get("over", {})
         print(f"  [{k}] {s.get('name')}: Sample={s.get('sample')} (Mkt={s.get('market_sample')}) | Under={u.get('market_under_pct')}% (N={u.get('mkt_sample')}, {u.get('avg_market_delta')}p) | Over={o.get('market_over_pct')}% (N={o.get('mkt_sample')}, +{o.get('avg_market_delta')}p)")
+    
+    warns = stats.get("league_warnings", {})
+    unique_warns = {v["league"]: v for v in warns.values() if isinstance(v, dict)}
+    print(f"  [AUTOMATED LEAGUE WARNINGS] Flagged Leagues (N >= 3, WR < 55.0%): {len(unique_warns)}")
+    for l, v in sorted(unique_warns.items(), key=lambda x: x[1]["win_rate"]):
+        print(f"    ⚠️  {v['country']} — {v['league']}: {v['win_rate']}% WR ({v['hits']}/{v['sample']}) | {v['reason']}")
     print("Done.\n")

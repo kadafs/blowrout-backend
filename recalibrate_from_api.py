@@ -12,6 +12,7 @@ import sys
 import time
 import json
 import math
+import re
 import glob
 import argparse
 import requests
@@ -219,6 +220,38 @@ def derive_parameters(games, league_id, league_name, tier_name):
         "regression_factor": round(regression_factor, 3),
     }
 
+def update_edge_threshold(league_id, name, std_total, n_games):
+    """Keep configs/league_edge_thresholds.json in sync with latest calibrated variance."""
+    edge_path = "configs/league_edge_thresholds.json"
+    edge_data = {}
+    if os.path.exists(edge_path):
+        try:
+            with open(edge_path, "r", encoding="utf-8") as fp:
+                edge_data = json.load(fp)
+        except Exception:
+            edge_data = {}
+
+    lid_str = str(league_id)
+    slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
+
+    if std_total and std_total > 0:
+        est_mae = round(max(6.5, min(16.0, std_total * 0.62)), 1)
+    else:
+        est_mae = edge_data.get(lid_str, {}).get("mean_absolute_error_pts", 11.5)
+
+    rec_edge = round(est_mae * 1.20, 1)
+
+    edge_data[lid_str] = {
+        "slug": slug,
+        "mean_absolute_error_pts": est_mae,
+        "recommended_minimum_edge": rec_edge,
+        "backtest_sample_size": n_games if n_games else 50
+    }
+
+    os.makedirs(os.path.dirname(edge_path), exist_ok=True)
+    with open(edge_path, "w", encoding="utf-8") as fp:
+        json.dump(edge_data, fp, indent=4)
+
 _NCAA_CALIBRATED_SESSION = False
 
 def calibrate_league(league_id, force_tier=None, verbose=True):
@@ -288,6 +321,18 @@ def calibrate_league(league_id, force_tier=None, verbose=True):
         os.makedirs(os.path.dirname(p), exist_ok=True)
         with open(p, "w", encoding="utf-8") as fp:
             json.dump(cfg, fp, indent=2)
+
+    # Synchronize MBET & MAE thresholds in configs/league_edge_thresholds.json
+    try:
+        update_edge_threshold(
+            league_id=league_id,
+            name=name,
+            std_total=derived.get("std_total") if derived else None,
+            n_games=derived.get("n_games") if derived else len(games)
+        )
+    except Exception as e:
+        if verbose:
+            print(f"  [Warning] Failed to sync edge threshold: {e}")
 
     return True
 

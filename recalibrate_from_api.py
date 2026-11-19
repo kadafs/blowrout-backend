@@ -235,11 +235,11 @@ def update_edge_threshold(league_id, name, std_total, n_games):
     slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
 
     if std_total and std_total > 0:
-        est_mae = round(max(6.5, min(16.0, std_total * 0.62)), 1)
+        rec_edge = round(max(5.0, min(9.5, std_total * 0.36)), 1)
     else:
-        est_mae = edge_data.get(lid_str, {}).get("mean_absolute_error_pts", 11.5)
+        rec_edge = edge_data.get(lid_str, {}).get("recommended_minimum_edge", 6.5)
 
-    rec_edge = round(est_mae * 1.20, 1)
+    est_mae = round(rec_edge / 1.20, 1)
 
     edge_data[lid_str] = {
         "slug": slug,

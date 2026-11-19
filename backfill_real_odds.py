@@ -129,9 +129,12 @@ def backfill_date(target_date="2026-10-31"):
             if not mbet:
                 mbet = mbet_matrix.get(lid, {}).get("recommended_minimum_edge", 4.0)
 
-            if abs_edge >= mbet:
+            if abs_edge >= (mbet + 1.5):
                 decision = f"PLAY {side}"
-                confidence = "HIGH" if abs_edge >= mbet + 1.5 else "SOLID"
+                confidence = "HIGH"
+            elif abs_edge >= mbet:
+                decision = "PASS"
+                confidence = "SOLID"
             else:
                 decision = "PASS"
                 confidence = "MBET FILTER"

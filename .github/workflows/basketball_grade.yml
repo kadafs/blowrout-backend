@@ -50,6 +50,9 @@ jobs:
           echo "--- Running aggregate_basketball_stats_v2.py ---"
           python aggregate_basketball_stats_v2.py $DATE_FLAG
 
+          echo "--- Running build_basketball_signal_stats.py ---"
+          python build_basketball_signal_stats.py
+
       - name: Commit and push graded files
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -80,9 +83,10 @@ jobs:
           ls -t universal_predictions_*.json 2>/dev/null | tail -n +9 | xargs rm -f || true
           cd ../../../..
           
-          # Copy leaderboards
+          # Copy leaderboards and signal stats
           cp data/basketball/*leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp *leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
+          cp data/basketball/basketball_signal_stats.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           
           # Commit and push
           cd sports-analytics

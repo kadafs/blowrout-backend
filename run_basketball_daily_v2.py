@@ -1547,7 +1547,7 @@ def main():
             for res, matrix_type, active_stats in passes:
                 model_total = res.get("final_model_total", 0.0)
                 has_live_odds = odds_info.get("has_live_odds", False) and (live_market is not None)
-                mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 4.0)
+                mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 12.0)
 
                 adv_edge = round(adv_total - live_market, 1) if (adv_total is not None and live_market is not None) else None
                 srs_edge = round(srs_total - live_market, 1) if (srs_total is not None and live_market is not None) else None

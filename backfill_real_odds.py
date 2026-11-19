@@ -127,7 +127,7 @@ def backfill_date(target_date="2026-10-31"):
 
             mbet = p.get("mbet_threshold")
             if not mbet:
-                mbet = mbet_matrix.get(lid, {}).get("recommended_minimum_edge", 4.0)
+                mbet = mbet_matrix.get(lid, {}).get("recommended_minimum_edge", 12.0)
 
             if abs_edge >= (mbet + 1.5):
                 decision = f"PLAY {side}"

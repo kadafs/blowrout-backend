@@ -1288,7 +1288,7 @@ def main():
                 side        = res.get("side", "-")
                 
                 # Post-Engine M.B.E.T Filter Enforcement
-                mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 4.0)
+                mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 12.0)
                 if edge is not None and market not in (145.5, 230.0):
                     abs_edge = abs(edge)
                     # High-Conviction MBET Policy: Only trigger PLAY if edge clears HIGH threshold (mbet + 1.5)

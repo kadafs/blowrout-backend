@@ -81,7 +81,7 @@ def run_backtest():
             lid = str(p.get("league_id", ""))
             mbet = p.get("mbet_threshold")
             if not mbet:
-                mbet = mbet_matrix.get(lid, {}).get("recommended_minimum_edge", 4.0)
+                mbet = mbet_matrix.get(lid, {}).get("recommended_minimum_edge", 12.0)
 
             clears_mbet = (abs_edge >= mbet)
 

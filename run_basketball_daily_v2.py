@@ -1575,9 +1575,14 @@ def main():
                     side = "OVER" if edge > 0 else "UNDER"
                     odds_source = odds_info.get("bookmaker") or "BOOKMAKER"
                     abs_edge = abs(edge)
-                    if abs_edge >= mbet:
+                    # High-Conviction MBET Policy: Only trigger PLAY if edge clears HIGH threshold (mbet + 1.5)
+                    # Borderline SOLID edges (mbet to mbet+1.5) are filtered out as PASS / SOLID
+                    if abs_edge >= (mbet + 1.5):
                         decision = f"PLAY {side}"
-                        confidence = "HIGH" if abs_edge >= mbet + 1.5 else "SOLID"
+                        confidence = "HIGH"
+                    elif abs_edge >= mbet:
+                        decision = "PASS"
+                        confidence = "SOLID"
                     else:
                         decision = "PASS"
                         confidence = "MBET FILTER"

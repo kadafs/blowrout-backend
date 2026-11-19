@@ -1291,9 +1291,14 @@ def main():
                 mbet = mbet_matrix.get(str(lid), {}).get("recommended_minimum_edge", 4.0)
                 if edge is not None and market not in (145.5, 230.0):
                     abs_edge = abs(edge)
-                    if abs_edge >= mbet:
+                    # High-Conviction MBET Policy: Only trigger PLAY if edge clears HIGH threshold (mbet + 1.5)
+                    # Borderline SOLID edges (mbet to mbet+1.5) are filtered out as PASS / SOLID
+                    if abs_edge >= (mbet + 1.5):
                         decision = f"PLAY {side}"
-                        confidence = "HIGH" if abs_edge >= mbet + 1.5 else "SOLID"
+                        confidence = "HIGH"
+                    elif abs_edge >= mbet:
+                        decision = "PASS"
+                        confidence = "SOLID"
                     else:
                         decision = "PASS"
                         confidence = "MBET FILTER"

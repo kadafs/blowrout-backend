@@ -220,6 +220,11 @@ def derive_parameters(games, league_id, league_name, tier_name):
         "regression_factor": round(regression_factor, 3),
     }
 
+VOLATILE_KEYWORDS = [
+    "mpbl", "philippines", "governors_cup", "commissioners_cup",
+    "b_league", "australia_nbl", "paraguay_lnb"
+]
+
 def update_edge_threshold(league_id, name, std_total, n_games):
     """Keep configs/league_edge_thresholds.json in sync with latest calibrated variance."""
     edge_path = "configs/league_edge_thresholds.json"
@@ -234,8 +239,15 @@ def update_edge_threshold(league_id, name, std_total, n_games):
     lid_str = str(league_id)
     slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
 
+    is_volatile = any(k in slug for k in VOLATILE_KEYWORDS)
+
     if std_total and std_total > 0:
-        rec_edge = round(max(5.0, min(9.5, std_total * 0.36)), 1)
+        if is_volatile:
+            # High volatility safeguard: std * 0.62 * 1.20 (min 14.0 pts)
+            rec_edge = round(max(14.0, std_total * 0.62 * 1.20), 1)
+        else:
+            # Sharp / European Pro / NCAA: Market-Scaled MBET (std * 0.36)
+            rec_edge = round(max(5.0, min(9.5, std_total * 0.36)), 1)
     else:
         rec_edge = edge_data.get(lid_str, {}).get("recommended_minimum_edge", 6.5)
 

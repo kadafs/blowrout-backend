@@ -7,12 +7,13 @@ data/basketball/team_sdi.json (and Sports Analytics frontend).
 """
 
 import os
+import glob
 import json
 from collections import defaultdict
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HISTORICAL_FILE = os.path.join(BASE_DIR, "data", "historical", "proballers_ncaa.json")
+HISTORICAL_DIR = os.path.join(BASE_DIR, "data", "historical")
 BACKEND_SDI = os.path.join(BASE_DIR, "data", "basketball", "team_sdi.json")
 FRONTEND_SDI = os.path.join(os.path.dirname(BASE_DIR), "Sports Analytics", "public", "data", "basketball", "team_sdi.json")
 
@@ -25,14 +26,29 @@ def clean_player_name(raw_name):
     return raw_name.strip()
 
 def build_ncaa_sdi():
-    if not os.path.exists(HISTORICAL_FILE):
-        print(f"Error: {HISTORICAL_FILE} not found.")
+    # Scan all Proballers historical files (proballers_ncaa.json and other proballers_*.json)
+    pattern = os.path.join(HISTORICAL_DIR, "proballers_*.json")
+    files = glob.glob(pattern)
+    if not files:
+        print(f"Warning: No proballers_*.json files found in {HISTORICAL_DIR}.")
         return
 
-    with open(HISTORICAL_FILE, "r", encoding="utf-8") as f:
-        games = json.load(f)
+    all_games = []
+    for fpath in files:
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                games = json.load(f)
+                if isinstance(games, list):
+                    all_games.extend(games)
+                    print(f"Loaded {len(games)} games from {os.path.basename(fpath)}.")
+        except Exception as e:
+            print(f"Error reading {fpath}: {e}")
 
-    print(f"Loaded {len(games)} NCAA games from {HISTORICAL_FILE}.")
+    if not all_games:
+        print("No Proballers games found to process.")
+        return
+
+    print(f"Total Proballers games to process: {len(all_games)}")
 
     team_data = defaultdict(lambda: {
         "sdi_samples": [],
@@ -41,7 +57,7 @@ def build_ncaa_sdi():
         "game_count": 0
     })
 
-    for g in games:
+    for g in all_games:
         stats = g.get("stats") or {}
         h_score = g.get("home_score") or 0
         a_score = g.get("away_score") or 0
@@ -88,7 +104,7 @@ def build_ncaa_sdi():
                 for pname, _ in pts_list[:2]:
                     team_data[a_name]["top_scorers"][pname] += 1
 
-    print(f"Processed {len(team_data)} unique NCAA teams.")
+    print(f"Processed {len(team_data)} unique Proballers teams.")
 
     # Load existing team_sdi.json
     existing = {"teams": []}

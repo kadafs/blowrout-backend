@@ -356,6 +356,16 @@ def main():
         stars = ", ".join(p["name"] for p in r.get("top_players", [])[:2])
         print(f"  {r['team']:<35} {r.get('avg_sdi', 0):>5}% {r.get('avg_top1_pct', 0):>4}% {r.get('risk_label', ''):<12} {stars}")
 
+    # Also merge all Proballers NCAA and extra league box scores
+    try:
+        from scripts.build_ncaa_sdi import build_ncaa_sdi
+        print("\n" + "=" * 70)
+        print("  MERGING PROBALLERS (NCAA & OTHER) BOX SCORES INTO SDI DATABASE")
+        print("=" * 70)
+        build_ncaa_sdi()
+    except Exception as e:
+        print(f"  [!] Note: Could not auto-merge Proballers SDI: {e}")
+
 
 if __name__ == "__main__":
     main()

@@ -51,8 +51,8 @@ jobs:
           echo "--- 1. Fetching recent results ---"
           python auto_update_historical.py $DATE_FLAG
           
-          echo "--- 1b. Calculating Star Dependency Index (SDI) ---"
-          python calculate_sdi.py
+          echo "--- 1b. Calculating Star Dependency Index (SDI) & Merging Proballers NCAA ---"
+          python calculate_sdi.py --days 7
           
           DAY_OF_MONTH=$(date +%d)
           FORCE_CALIBRATE="${{ github.event.inputs.force_calibrate }}"

@@ -282,8 +282,8 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             orb = t_s.get("ORB", 0) + o_s.get("ORB", 0)
             poss = 0.5 * (fga - orb + tov + 0.44 * fta)
             if 40 <= poss <= 100:
-                return poss
-        return pace_p
+                return poss, True
+        return pace_p, False
 
     # PASS 1: Build schedules and extract Four Factors
     for g in games:
@@ -307,7 +307,7 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
         st = g.get("stats") or g.get("advanced_stats") or {}
         home_s = st.get("home", {}) if isinstance(st, dict) else {}
         away_s = st.get("away", {}) if isinstance(st, dict) else {}
-        poss = get_poss(home_s, away_s, pace_pivot)
+        poss, has_box_poss = get_poss(home_s, away_s, pace_pivot)
 
         # Raw possession efficiencies (pts per 100 poss)
         h_eff = (hs / poss) * 100.0
@@ -327,6 +327,7 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
                     "games": 0, "curr_games": 0, "weight_sum": 0.0, "wins": 0,
                     "pts_for": 0, "pts_against": 0, "game_totals": [],
                     "schedule": [], "sum_off_eff": 0.0, "sum_def_eff": 0.0,
+                    "poss_sum": 0.0, "poss_weight": 0.0, "poss_games": 0, "poss_schedule": [],
                     # Four Factors accumulators
                     "box_weight": 0.0, "fga": 0, "fta": 0, "tov": 0, "orb": 0, "drb": 0, "trb": 0,
                     "opp_fga": 0, "opp_fta": 0, "opp_pts": 0, "opp_tov": 0, "opp_orb": 0,
@@ -342,6 +343,11 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             td["sum_def_eff"] += (def_eff * weight)
             td["game_totals"].append(pts + opp_pts)
             td["schedule"].append((opp, off_eff, def_eff, weight))
+            if has_box_poss:
+                td["poss_sum"] += (poss * weight)
+                td["poss_weight"] += weight
+                td["poss_games"] += 1
+                td["poss_schedule"].append((opp, poss, weight))
             if pts > opp_pts:
                 td["wins"] += 1
 
@@ -369,7 +375,7 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
     if not teams:
         return []
 
-    # Initialize ratings with raw neutral efficiencies
+    # Initialize ratings with raw neutral efficiencies and box-score tempo
     for td in teams.values():
         if td["weight_sum"] > 0:
             td["raw_off"] = td["sum_off_eff"] / td["weight_sum"]
@@ -379,8 +385,14 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             td["raw_def"] = eff_pivot
         td["adj_off"] = td["raw_off"]
         td["adj_def"] = td["raw_def"]
+        if td["poss_weight"] > 0:
+            td["raw_t"] = (td["poss_sum"] + pace_pivot * 3.0) / (td["poss_weight"] + 3.0)
+        else:
+            td["raw_t"] = pace_pivot
+        td["adj_t"] = td["raw_t"]
 
-    # PASS 2: Gauss-Seidel Iterative Opponent Adjustment Loop (KenPom)
+    # PASS 2: Gauss-Seidel Iterative Opponent Adjustment Loop (KenPom Eff + Tempo)
+    box_teams = [td for td in teams.values() if td["poss_weight"] > 0]
     for iteration in range(30):
         max_delta = 0.0
         for td in teams.values():
@@ -411,19 +423,37 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             new_off = sum_adj_o / tot_w
             new_def = sum_adj_d / tot_w
 
-            delta = max(abs(new_off - td["adj_off"]), abs(new_def - td["adj_def"]))
+            # Opponent-adjusted tempo: game_poss = (team_t + opp_t) / 2 => team_obs = 2*poss - opp_t
+            new_t = td["adj_t"]
+            if td["poss_weight"] > 0:
+                w_prior_t = 4.0
+                sum_adj_t = pace_pivot * w_prior_t
+                tot_wt = w_prior_t
+                for opp, poss, w in td["poss_schedule"]:
+                    opp_t = teams[opp]["adj_t"] if opp in teams else pace_pivot
+                    obs_t = 2.0 * poss - opp_t
+                    sum_adj_t += obs_t * w
+                    tot_wt += w
+                new_t = max(pace_pivot - 12.0, min(pace_pivot + 12.0, sum_adj_t / tot_wt))
+
+            delta = max(abs(new_off - td["adj_off"]), abs(new_def - td["adj_def"]), abs(new_t - td["adj_t"]))
             if delta > max_delta:
                 max_delta = delta
 
             td["adj_off"] = new_off
             td["adj_def"] = new_def
+            td["adj_t"] = new_t
 
-        # Re-center distribution around eff_pivot
+        # Re-center distributions around pivots
         avg_o = sum(td["adj_off"] for td in teams.values()) / len(teams)
         avg_d = sum(td["adj_def"] for td in teams.values()) / len(teams)
         for td in teams.values():
             td["adj_off"] += (eff_pivot - avg_o)
             td["adj_def"] += (eff_pivot - avg_d)
+        if box_teams:
+            avg_t = sum(td["adj_t"] for td in box_teams) / len(box_teams)
+            for td in box_teams:
+                td["adj_t"] += (pace_pivot - avg_t)
 
         if max_delta < 0.005:
             break
@@ -478,7 +508,7 @@ def calculate_advanced_ratings(games, pace_pivot=76.0, eff_pivot=108.0):
             "team_id":     0,
             "adj_off":     round(td["adj_off"], 1),
             "adj_def":     round(td["adj_def"], 1),
-            "adj_t":       round(pace_pivot, 1),
+            "adj_t":       round(td["adj_t"], 1),
             "std_dev_totals": std_dev_totals,
             "games_played": g,
             "wins":        td["wins"],

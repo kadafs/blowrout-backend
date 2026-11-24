@@ -137,10 +137,16 @@ def load_sdi_index(custom_path=None):
 
 def get_sdi_record(team_name, sdi_index):
     """
-    Retrieve SDI record for a team using normalized variants or unique keyword/bigram matching.
+    Retrieve SDI record for a team using normalized variants, aliases, unique bigrams, or unique prefixes.
     """
     if not team_name or not sdi_index:
         return None
+
+    norm = normalize_name(team_name)
+    
+    # 0. Direct match on exact normalized name (resolves all explicit aliases and exact team records directly)
+    if norm in sdi_index:
+        return sdi_index[norm]
         
     for k in generate_team_keys(team_name):
         if k in sdi_index:
@@ -153,12 +159,18 @@ def get_sdi_record(team_name, sdi_index):
             return rec
 
     # Try unique bigram (2-word) matching
-    norm = normalize_name(team_name)
     words = norm.split()
     for i in range(len(words) - 1):
         bg = f"{words[i]} {words[i+1]}"
         if bg in sdi_index:
             return sdi_index[bg]
+
+    # Try unique prefix match (e.g. "Virginia Tech" -> "Virginia Tech Hokies", "Kennesaw State" -> "Kennesaw State Owls")
+    # Only resolves if exactly one team matches this prefix to prevent ambiguous collisions
+    prefix = norm + ' '
+    prefix_matches = {rec.get('team', ''): rec for k, rec in sdi_index.items() if k.startswith(prefix)}
+    if len(prefix_matches) == 1:
+        return list(prefix_matches.values())[0]
 
     # Try unique significant word lookup ONLY if input has multiple words
     # (prevents single-word college/city names like 'Brescia' from grabbing foreign multi-word pro teams like 'Germani Brescia')

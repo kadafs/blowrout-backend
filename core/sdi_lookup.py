@@ -112,6 +112,25 @@ def load_sdi_index(custom_path=None):
                 if w in unique_words and w not in index:
                     index[w] = t
 
+        # Inject alias mappings so short prediction names resolve to correct SDI records
+        alias_path = os.path.join(DATA_DIR, 'team_aliases.json')
+        if os.path.exists(alias_path):
+            try:
+                alias_data = json.load(open(alias_path, 'r', encoding='utf-8'))
+                for short_name, full_name in alias_data.get('aliases', {}).items():
+                    norm_full = normalize_name(full_name)
+                    if norm_full in index:
+                        target_rec = index[norm_full]
+                        # Always force-set the exact normalized short name (overrides ambiguous prior entries)
+                        norm_short = normalize_name(short_name)
+                        index[norm_short] = target_rec
+                        # For non-ambiguous extra keys, only add if not already present
+                        for k in generate_team_keys(short_name):
+                            if k != norm_short and k not in index:
+                                index[k] = target_rec
+            except Exception:
+                pass
+
         return index
     except Exception:
         return {}

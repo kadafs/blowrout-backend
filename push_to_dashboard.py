@@ -107,7 +107,7 @@ def copy_sport_data(sport: str, date_filter: Optional[str] = None, keep_days: in
         copied.append(src_file.name)
 
     # Also copy leaderboard, signal stats, and SDI index files if they exist
-    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json", "team_sdi.json"):
+    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json", "team_sdi.json", "team_aliases.json"):
         for aux_file in src_dir.glob(aux_pattern):
             dest_aux = dest_dir / aux_file.name
             try:

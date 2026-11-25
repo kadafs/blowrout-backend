@@ -87,6 +87,7 @@ jobs:
           cp data/basketball/*leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp *leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp data/basketball/basketball_signal_stats.json sports-analytics/public/data/basketball/ 2>/dev/null || true
+          cp data/basketball/team_sdi.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           
           # Commit and push
           cd sports-analytics

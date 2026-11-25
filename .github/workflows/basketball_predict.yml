@@ -69,6 +69,15 @@ jobs:
           
           echo "--- 4. Running Daily Predictions (V2) ---"
           python run_basketball_daily_v2.py --mode full --refresh $DATE_FLAG
+          
+          echo "--- 4b. Backfilling International Boxscores for Creator Index ---"
+          python scripts/backfill_international_boxscores.py --max_games 300 || true
+
+          echo "--- 4c. Building NCAA SDI & Merging Creator Metrics ---"
+          python scripts/build_ncaa_sdi.py || true
+
+          echo "--- 4d. Enriching Daily Predictions with SDI & Creator Metrics ---"
+          python scripts/enrich_predictions_sdi.py || true
 
       - name: Commit local data changes
         run: |

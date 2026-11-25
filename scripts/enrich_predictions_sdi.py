@@ -18,6 +18,7 @@ if BASE_DIR not in sys.path:
 from core.sdi_lookup import load_sdi_index, get_sdi_record
 BACKEND_DIR = os.path.join(BASE_DIR, "data", "basketball")
 FRONTEND_DIR = os.path.join(os.path.dirname(BASE_DIR), "Sports Analytics", "public", "data", "basketball")
+FRONTEND_DIR_ACTIONS = os.path.join(BASE_DIR, "sports-analytics", "public", "data", "basketball")
 
 def enrich_file(filepath):
     if not os.path.exists(filepath):
@@ -79,6 +80,7 @@ def enrich_file(filepath):
 def main():
     target_files = glob.glob(os.path.join(BACKEND_DIR, "universal_predictions_*_v2.json"))
     target_files += glob.glob(os.path.join(FRONTEND_DIR, "universal_predictions_*_v2.json"))
+    target_files += glob.glob(os.path.join(FRONTEND_DIR_ACTIONS, "universal_predictions_*_v2.json"))
     target_files = sorted(list(set(target_files)))
 
     print(f"Refreshing SDI and Creator Index across {len(target_files)} prediction files...")

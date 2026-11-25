@@ -89,6 +89,14 @@ def parse_boxscore(html):
 
                 active_players = []
                 p_rows = player_table.find_all('tr')
+                ast_col = -1
+                if p_rows:
+                    p_headers = [c.text.strip().upper() for c in p_rows[0].find_all(['td', 'th'])]
+                    for cand in ["AST", "AS", "A"]:
+                        if cand in p_headers:
+                            ast_col = p_headers.index(cand)
+                            break
+
                 for pr in p_rows[1:-1]:
                     p_cells = [c.text.strip() for c in pr.find_all(['td', 'th'])]
                     if len(p_cells) < 5: continue
@@ -101,7 +109,13 @@ def parse_boxscore(html):
                         pts = 0
                     min_str = p_cells[4].upper()
                     if min_str not in ["", "DNP", "00:00", "0", "0:00"] or pts > 0:
-                        active_players.append({"name": p_name, "pts": pts})
+                        ast = 0
+                        if ast_col >= 0 and ast_col < len(p_cells):
+                            try:
+                                ast = int(p_cells[ast_col].replace('%', '').strip())
+                            except (ValueError, TypeError):
+                                ast = 0
+                        active_players.append({"name": p_name, "pts": pts, "ast": ast})
 
                 return {
                     "team_name": team_name,
@@ -147,6 +161,9 @@ def parse_boxscore(html):
         rows = table.find_all('tr')
         if len(rows) < 2: return None
         
+        header_cells = [th.text.strip().upper() for th in rows[0].find_all(['td', 'th'])]
+        ast_col = header_cells.index("AST") if "AST" in header_cells else 13
+
         active_players = []
         for r in rows[1:-1]:
             player_cells = r.find_all('td')
@@ -160,7 +177,8 @@ def parse_boxscore(html):
             
             min_str = player_cells[2].text.strip().upper()
             if min_str not in ["", "DNP", "00:00", "0", "0:00"] or pts > 0:
-                active_players.append({"name": name, "pts": pts})
+                ast = safe_int(player_cells[ast_col].text.strip()) if len(player_cells) > ast_col else 0
+                active_players.append({"name": name, "pts": pts, "ast": ast})
         
         totals_row = rows[-1]
         cells = [td.text.strip() for td in totals_row.find_all('td')]

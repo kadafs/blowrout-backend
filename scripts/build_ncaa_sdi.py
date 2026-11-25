@@ -54,6 +54,8 @@ def build_ncaa_sdi():
         "sdi_samples": [],
         "top1_samples": [],
         "top_scorers": defaultdict(int),
+        "off_share_samples": [],
+        "top_creators": defaultdict(int),
         "game_count": 0
     })
 
@@ -84,6 +86,21 @@ def build_ncaa_sdi():
                 for pname, _ in pts_list[:2]:
                     team_data[h_name]["top_scorers"][pname] += 1
 
+            # Check for assists to calculate Top-1 Playmaker Offensive Share
+            has_ast = any("ast" in p or "assists" in p for p in h_players)
+            if has_ast:
+                creator_list = []
+                for p in h_players:
+                    pts = float(p.get("pts") or 0)
+                    ast = float(p.get("ast", p.get("assists", 0)) or 0)
+                    creator_list.append((clean_player_name(p.get("name")), pts + 2.15 * ast))
+                if creator_list:
+                    creator_list.sort(key=lambda x: x[1], reverse=True)
+                    top_creator_name, top_off_pts = creator_list[0]
+                    off_share = (top_off_pts / h_score) * 100.0
+                    team_data[h_name]["off_share_samples"].append(off_share)
+                    team_data[h_name]["top_creators"][top_creator_name] += 1
+
         # Away team
         a_players = stats.get("away", {}).get("players", [])
         if a_players and a_score > 0 and a_name:
@@ -103,6 +120,21 @@ def build_ncaa_sdi():
                 team_data[a_name]["game_count"] += 1
                 for pname, _ in pts_list[:2]:
                     team_data[a_name]["top_scorers"][pname] += 1
+
+            # Check for assists to calculate Top-1 Playmaker Offensive Share
+            has_ast = any("ast" in p or "assists" in p for p in a_players)
+            if has_ast:
+                creator_list = []
+                for p in a_players:
+                    pts = float(p.get("pts") or 0)
+                    ast = float(p.get("ast", p.get("assists", 0)) or 0)
+                    creator_list.append((clean_player_name(p.get("name")), pts + 2.15 * ast))
+                if creator_list:
+                    creator_list.sort(key=lambda x: x[1], reverse=True)
+                    top_creator_name, top_off_pts = creator_list[0]
+                    off_share = (top_off_pts / a_score) * 100.0
+                    team_data[a_name]["off_share_samples"].append(off_share)
+                    team_data[a_name]["top_creators"][top_creator_name] += 1
 
     print(f"Processed {len(team_data)} unique Proballers teams.")
 
@@ -138,6 +170,20 @@ def build_ncaa_sdi():
         sorted_scorers = sorted(d["top_scorers"].items(), key=lambda x: x[1], reverse=True)[:3]
         top_players = [{"name": p[0], "times_top2": p[1]} for p in sorted_scorers]
 
+        avg_off_share = round(sum(d["off_share_samples"]) / len(d["off_share_samples"]), 1) if d["off_share_samples"] else None
+        if avg_off_share is not None:
+            if avg_off_share >= 38.8:
+                playmaker_risk = "HIGH"
+            elif avg_off_share <= 31.5:
+                playmaker_risk = "LOW"
+            else:
+                playmaker_risk = "MODERATE"
+            top_creator_sorted = sorted(d["top_creators"].items(), key=lambda x: x[1], reverse=True)
+            top_creator_name = top_creator_sorted[0][0] if top_creator_sorted else None
+        else:
+            playmaker_risk = None
+            top_creator_name = None
+
         record = {
             "team": t_name,
             "games_tracked": d["game_count"],
@@ -148,6 +194,9 @@ def build_ncaa_sdi():
             "risk": risk,
             "risk_label": label,
             "top_players": top_players,
+            "avg_top1_off_share": avg_off_share,
+            "playmaker_risk": playmaker_risk,
+            "top_creator": top_creator_name,
             "source": "proballers_ncaa"
         }
 
@@ -165,6 +214,8 @@ def build_ncaa_sdi():
     red_total = sum(1 for t in merged_list if t.get("risk") == "RED")
     amber_total = sum(1 for t in merged_list if t.get("risk") == "AMBER")
     green_total = sum(1 for t in merged_list if t.get("risk") == "GREEN")
+    high_playmaker_total = sum(1 for t in merged_list if t.get("playmaker_risk") == "HIGH")
+    low_playmaker_total = sum(1 for t in merged_list if t.get("playmaker_risk") == "LOW")
 
     merged_output = {
         "generated_at": datetime.now().isoformat(),
@@ -173,7 +224,9 @@ def build_ncaa_sdi():
         "summary": {
             "red_high_dependency": red_total,
             "amber_moderate": amber_total,
-            "green_balanced": green_total
+            "green_balanced": green_total,
+            "high_playmaker_risk": high_playmaker_total,
+            "low_playmaker_risk": low_playmaker_total
         },
         "teams": merged_list
     }

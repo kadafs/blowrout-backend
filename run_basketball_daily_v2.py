@@ -1975,6 +1975,9 @@ def main():
                             "risk": sdi_h.get("risk"),
                             "risk_label": sdi_h.get("risk_label"),
                             "top_players": sdi_h.get("top_players", []),
+                            "avg_off_share": sdi_h.get("avg_top1_off_share"),
+                            "playmaker_risk": sdi_h.get("playmaker_risk"),
+                            "top_creator": sdi_h.get("top_creator"),
                         } if sdi_h else None,
                         "sdiA": {
                             "avg_sdi": sdi_a.get("avg_sdi"),
@@ -1982,6 +1985,9 @@ def main():
                             "risk": sdi_a.get("risk"),
                             "risk_label": sdi_a.get("risk_label"),
                             "top_players": sdi_a.get("top_players", []),
+                            "avg_off_share": sdi_a.get("avg_top1_off_share"),
+                            "playmaker_risk": sdi_a.get("playmaker_risk"),
+                            "top_creator": sdi_a.get("top_creator"),
                         } if sdi_a else None
                     }
                 })

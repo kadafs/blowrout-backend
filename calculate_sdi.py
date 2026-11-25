@@ -155,11 +155,11 @@ def get_all_boxscores(games, cached_scores):
 
 
 def compute_sdi_for_players(players, team_score):
-    """Calculate SDI, top 1 %, and top 2 player names for a single team in a game."""
+    """Calculate SDI, top 1 %, top 2 player names, and Top-1 Playmaker Offensive Share."""
     if not players or not team_score or team_score <= 0:
-        return None, None, []
+        return None, None, [], None, None
     
-    # Sort players by points descending
+    # Sort players by points descending for standard Top-2 SDI
     sorted_players = sorted(players, key=lambda x: x.get("points") or 0, reverse=True)
     top2 = sorted_players[:2]
     top2_pts = sum(p.get("points") or 0 for p in top2)
@@ -169,7 +169,23 @@ def compute_sdi_for_players(players, team_score):
     top1_pct = (top1_pts / team_score) * 100
     top2_names = [p.get("player", {}).get("name", "Unknown") for p in top2]
 
-    return round(sdi_pct, 1), round(top1_pct, 1), top2_names
+    # Calculate Top-1 Playmaker Offensive Share: (pts + 2.15 * ast) / team_score
+    top1_off_share = None
+    top_creator_name = None
+    has_ast = any(p.get("assists") is not None for p in players)
+    if has_ast:
+        creator_list = []
+        for p in players:
+            pts = float(p.get("points") or 0)
+            ast = float(p.get("assists") or 0)
+            p_name = p.get("player", {}).get("name", "Unknown")
+            creator_list.append((p_name, pts + 2.15 * ast))
+        if creator_list:
+            creator_list.sort(key=lambda x: x[1], reverse=True)
+            top_creator_name, top_off_pts = creator_list[0]
+            top1_off_share = round((top_off_pts / team_score) * 100.0, 1)
+
+    return round(sdi_pct, 1), round(top1_pct, 1), top2_names, top1_off_share, top_creator_name
 
 
 def load_previous_sdi():
@@ -221,6 +237,8 @@ def main():
         "sdi_samples": [],
         "top1_samples": [],
         "top_scorers": defaultdict(int),
+        "off_share_samples": [],
+        "top_creators": defaultdict(int),
         "game_count": 0
     })
 
@@ -244,26 +262,32 @@ def main():
         h_name = ginfo["home_name"]
         h_score = ginfo["home_score"]
         if h_id in team_players and h_score > 0:
-            sdi, top1, stars = compute_sdi_for_players(team_players[h_id], h_score)
+            sdi, top1, stars, top1_off, creator = compute_sdi_for_players(team_players[h_id], h_score)
             if sdi is not None:
                 team_data[h_name]["sdi_samples"].append(sdi)
                 team_data[h_name]["top1_samples"].append(top1)
                 team_data[h_name]["game_count"] += 1
                 for star in stars:
                     team_data[h_name]["top_scorers"][star] += 1
+                if top1_off is not None:
+                    team_data[h_name]["off_share_samples"].append(top1_off)
+                    team_data[h_name]["top_creators"][creator] += 1
 
         # For away team
         a_id = ginfo["away_id"]
         a_name = ginfo["away_name"]
         a_score = ginfo["away_score"]
         if a_id in team_players and a_score > 0:
-            sdi, top1, stars = compute_sdi_for_players(team_players[a_id], a_score)
+            sdi, top1, stars, top1_off, creator = compute_sdi_for_players(team_players[a_id], a_score)
             if sdi is not None:
                 team_data[a_name]["sdi_samples"].append(sdi)
                 team_data[a_name]["top1_samples"].append(top1)
                 team_data[a_name]["game_count"] += 1
                 for star in stars:
                     team_data[a_name]["top_scorers"][star] += 1
+                if top1_off is not None:
+                    team_data[a_name]["off_share_samples"].append(top1_off)
+                    team_data[a_name]["top_creators"][creator] += 1
 
         processed_games += 1
 
@@ -294,16 +318,34 @@ def main():
             risk = "GREEN"
             risk_label = "BALANCED"
 
+        # Playmaker Dependency calculation
+        avg_off_share = round(sum(d["off_share_samples"]) / len(d["off_share_samples"]), 1) if d["off_share_samples"] else None
+        if avg_off_share is not None:
+            if avg_off_share >= 38.8:
+                playmaker_risk = "HIGH"
+            elif avg_off_share <= 31.5:
+                playmaker_risk = "LOW"
+            else:
+                playmaker_risk = "MODERATE"
+            top_creator_sorted = sorted(d["top_creators"].items(), key=lambda x: x[1], reverse=True)
+            top_creator_name = top_creator_sorted[0][0] if top_creator_sorted else None
+        else:
+            playmaker_risk = None
+            top_creator_name = None
+
         new_team_records[team_name] = {
-            "team":          team_name,
-            "games_tracked": g,
-            "avg_sdi":       avg_sdi,
-            "avg_top1_pct":  avg_top1,
-            "max_sdi":       max_sdi,
-            "min_sdi":       min_sdi,
-            "risk":          risk,
-            "risk_label":    risk_label,
-            "top_players":   top_players_list,
+            "team":               team_name,
+            "games_tracked":      g,
+            "avg_sdi":            avg_sdi,
+            "avg_top1_pct":       avg_top1,
+            "max_sdi":            max_sdi,
+            "min_sdi":            min_sdi,
+            "risk":               risk,
+            "risk_label":         risk_label,
+            "top_players":        top_players_list,
+            "avg_top1_off_share": avg_off_share,
+            "playmaker_risk":     playmaker_risk,
+            "top_creator":        top_creator_name,
         }
 
     # 7. Merge with existing previous SDI so we don't drop teams that didn't play in this window

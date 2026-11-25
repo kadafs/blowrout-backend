@@ -37,10 +37,45 @@ DATA_DIR       = os.path.join(BASE_DIR, "data")
 BASKETBALL_DIR = os.path.join(DATA_DIR, "basketball")
 CACHE_DIR      = os.path.join(DATA_DIR, "cache", "boxscores")
 OUTPUT_FILE    = os.path.join(BASKETBALL_DIR, "team_sdi.json")
+FRONTEND_SDI   = os.path.join(os.path.dirname(BASE_DIR), "Sports Analytics", "public", "data", "basketball", "team_sdi.json")
 API_KEY        = os.getenv("API_BASKETBALL_KEY", "")
 API_URL        = "https://v1.basketball.api-sports.io"
 
-MIN_GAMES_DEFAULT = 2
+MIN_GAMES_DEFAULT = 1
+
+
+def load_match_center_games():
+    """Load all finished games from local match_center cache."""
+    games = {}
+    mc_dir = os.path.join(DATA_DIR, "cache", "match_center")
+    if not os.path.exists(mc_dir):
+        return games
+    pattern = os.path.join(mc_dir, "games_*.json")
+    for fpath in glob.glob(pattern):
+        try:
+            with open(fpath, "r", encoding="utf-8") as fp:
+                data = json.load(fp)
+                glist = data if isinstance(data, list) else data.get("response", [])
+                for g in glist:
+                    gid = g.get("id")
+                    status = g.get("status", {}).get("short")
+                    h_score = g.get("scores", {}).get("home", {}).get("total")
+                    a_score = g.get("scores", {}).get("away", {}).get("total")
+                    if gid and status in ("FT", "AOT") and h_score is not None and a_score is not None and h_score > 0:
+                        games[gid] = {
+                            "id": gid,
+                            "home_id": g.get("teams", {}).get("home", {}).get("id"),
+                            "home_name": g.get("teams", {}).get("home", {}).get("name"),
+                            "home_score": h_score,
+                            "away_id": g.get("teams", {}).get("away", {}).get("id"),
+                            "away_name": g.get("teams", {}).get("away", {}).get("name"),
+                            "away_score": a_score,
+                            "league_id": g.get("league", {}).get("id"),
+                            "league_name": g.get("league", {}).get("name", "Unknown"),
+                        }
+        except Exception:
+            pass
+    return games
 
 
 def fetch_recent_finished_games(days=7):
@@ -203,6 +238,8 @@ def main():
     parser = argparse.ArgumentParser(description="Calculate Star Dependency Index (SDI) per team via API.")
     parser.add_argument("--days", type=int, default=7, help="Number of past days to fetch (default: 7)")
     parser.add_argument("--min_games", type=int, default=MIN_GAMES_DEFAULT, help="Minimum games required")
+    parser.add_argument("--fetch_missing", action="store_true", help="Batch-fetch missing box scores for match_center finished games")
+    parser.add_argument("--max_fetch", type=int, default=500, help="Max missing games to fetch (default: 500)")
     parser.add_argument("--verbose", action="store_true", help="Print verbose team details")
     args = parser.parse_args()
 
@@ -214,23 +251,45 @@ def main():
     cached_boxscores = load_cached_boxscores()
     print(f"  Loaded {len(cached_boxscores)} previously cached game box scores.")
 
-    # 2. Fetch recent games from API
-    games = fetch_recent_finished_games(days=args.days)
-    
-    # 3. Fetch missing box scores in batches of 20
-    all_boxscores = get_all_boxscores(games, cached_boxscores)
+    # 2. Load finished games from match_center cache
+    mc_games = load_match_center_games()
+    print(f"  Loaded {len(mc_games)} finished games from match_center cache.")
 
-    # 4. Map game details
+    # 3. Fetch recent games from API if requested
+    api_games = []
+    if args.days > 0 and API_KEY:
+        api_games = fetch_recent_finished_games(days=args.days)
+
+    # Merge into game_lookup
     game_lookup = {}
-    for g in games:
+    for g in mc_games.values():
+        game_lookup[g["id"]] = g
+
+    for g in api_games:
         game_lookup[g["id"]] = {
+            "id": g["id"],
             "home_id": g["teams"]["home"]["id"],
             "home_name": g["teams"]["home"]["name"],
             "home_score": g["scores"]["home"]["total"] or 0,
             "away_id": g["teams"]["away"]["id"],
             "away_name": g["teams"]["away"]["name"],
             "away_score": g["scores"]["away"]["total"] or 0,
+            "league_id": g.get("league", {}).get("id"),
+            "league_name": g.get("league", {}).get("name", "Unknown"),
         }
+
+    # 4. Fetch missing box scores in batches of 20 if requested
+    if args.fetch_missing and API_KEY:
+        missing_gids = [gid for gid in game_lookup if gid not in cached_boxscores]
+        if args.max_fetch:
+            missing_gids = missing_gids[:args.max_fetch]
+        if missing_gids:
+            print(f"  Fetching missing boxscores for {len(missing_gids)} games...")
+            get_all_boxscores([{"id": gid} for gid in missing_gids], cached_boxscores)
+    elif api_games:
+        get_all_boxscores(api_games, cached_boxscores)
+
+    all_boxscores = cached_boxscores
 
     # 5. Process player stats by team
     team_data = defaultdict(lambda: {
@@ -359,8 +418,13 @@ def main():
                     p["name"] = re.sub(r"\s+", " ", p["name"]).strip()
             merged_teams[t["team"]] = t
 
-    # Overwrite / update with fresh records
+    # Overwrite / update with fresh records (preserving existing creator metrics if fresh has none)
     for team_name, rec in new_team_records.items():
+        if team_name in merged_teams:
+            if rec.get("avg_top1_off_share") is None and merged_teams[team_name].get("avg_top1_off_share") is not None:
+                rec["avg_top1_off_share"] = merged_teams[team_name]["avg_top1_off_share"]
+                rec["playmaker_risk"] = merged_teams[team_name]["playmaker_risk"]
+                rec["top_creator"] = merged_teams[team_name]["top_creator"]
         merged_teams[team_name] = rec
 
     results = list(merged_teams.values())
@@ -385,6 +449,10 @@ def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
+
+    if os.path.exists(os.path.dirname(FRONTEND_SDI)):
+        with open(FRONTEND_SDI, "w", encoding="utf-8") as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"\n  Results: {len(results)} teams tracked ({len(new_team_records)} updated from fresh API data).")
     print(f"  Risk breakdown: RED={red_count} | AMBER={amber_count} | GREEN={green_count}")

@@ -204,6 +204,11 @@ def build_ncaa_sdi():
         # if the first word/token is distinct
         t_lower = t_name.lower()
         if t_lower in existing_teams:
+            # Preserve existing creator metrics if current proballers record lacks assist data
+            if record.get("avg_top1_off_share") is None and existing_teams[t_lower].get("avg_top1_off_share") is not None:
+                record["avg_top1_off_share"] = existing_teams[t_lower]["avg_top1_off_share"]
+                record["playmaker_risk"] = existing_teams[t_lower]["playmaker_risk"]
+                record["top_creator"] = existing_teams[t_lower]["top_creator"]
             existing_teams[t_lower].update(record)
             updated_count += 1
         else:

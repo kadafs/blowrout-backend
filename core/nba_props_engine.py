@@ -105,9 +105,10 @@ def build_player_profiles(boxscores_cache, max_date=None):
         player_entries = data.get("players", []) if isinstance(data, dict) else data
         gdate = data.get("meta", {}).get("date") if isinstance(data, dict) else None
         
-        # Zero lookahead check
-        if max_date and gdate and gdate >= max_date:
-            continue
+        # Zero lookahead check: strictly enforce that only games with date < max_date are used
+        if max_date:
+            if not gdate or gdate >= max_date:
+                continue
             
         for p in player_entries:
             pinfo = p.get("player", {})

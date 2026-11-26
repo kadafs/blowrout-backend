@@ -53,6 +53,9 @@ jobs:
           echo "--- Running build_basketball_signal_stats.py ---"
           python build_basketball_signal_stats.py
 
+          echo "--- Grading NBA Quantitative Player Props ---"
+          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 0 || true
+
       - name: Commit and push graded files
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -88,6 +91,7 @@ jobs:
           cp *leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp data/basketball/basketball_signal_stats.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp data/basketball/team_sdi.json sports-analytics/public/data/basketball/ 2>/dev/null || true
+          cp data/basketball/nba_player_props*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           
           # Commit and push
           cd sports-analytics

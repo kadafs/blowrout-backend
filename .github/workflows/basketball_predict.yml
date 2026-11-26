@@ -79,6 +79,9 @@ jobs:
           echo "--- 4d. Enriching Daily Predictions with SDI & Creator Metrics ---"
           python scripts/enrich_predictions_sdi.py || true
 
+          echo "--- 4e. Running NBA Quantitative Player Props Engine ---"
+          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 30 || true
+
       - name: Commit local data changes
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -109,10 +112,11 @@ jobs:
           ls -t universal_predictions_*.json 2>/dev/null | tail -n +9 | xargs rm -f || true
           cd ../../../..
           
-          # Copy leaderboards and SDI index
+          # Copy leaderboards, SDI index, and player props
           cp data/basketball/*leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp *leaderboard*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           cp data/basketball/team_sdi.json sports-analytics/public/data/basketball/ 2>/dev/null || true
+          cp data/basketball/nba_player_props*.json sports-analytics/public/data/basketball/ 2>/dev/null || true
           
           # Commit and push
           cd sports-analytics

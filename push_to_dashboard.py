@@ -106,8 +106,8 @@ def copy_sport_data(sport: str, date_filter: Optional[str] = None, keep_days: in
             shutil.copy2(src_file, dest_file)
         copied.append(src_file.name)
 
-    # Also copy leaderboard, signal stats, and SDI index files if they exist
-    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json", "team_sdi.json", "team_aliases.json"):
+    # Also copy leaderboard, signal stats, SDI index, and player props files if they exist
+    for aux_pattern in ("*leaderboard*.json", "*signal_stats*.json", "team_sdi.json", "team_aliases.json", "nba_player_props*.json"):
         for aux_file in src_dir.glob(aux_pattern):
             dest_aux = dest_dir / aux_file.name
             try:
@@ -142,7 +142,8 @@ def cleanup_old_files(sport: str, keep_days: int = 5):
         "football_leaderboard",
         "basketball_signal_stats",
         "signal_stats",
-        "team_sdi"
+        "team_sdi",
+        "nba_player_props"
     )
     removed = []
 

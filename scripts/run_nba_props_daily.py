@@ -231,44 +231,42 @@ def run():
     print(f"  - Standard 2-Way Lines (Odds 1.60-2.30): {len(std_value)} plays")
     print(f"  - Alt / Milestone Plus-Money Lines (Odds > 2.30): {len(alt_value)} plays")
     
-    # Grade if games are finished
-    all_ft = all(g.get("status", {}).get("short") == "FT" for g in games)
-    if all_ft:
-        print("\n" + "=" * 85)
-        print("  ALL GAMES COMPLETED — GRADING MODEL PROPS AGAINST OFFICIAL FINAL BOXSCORES")
-        print("=" * 85)
+    # Grade any finished games with boxscores in cache
+    graded_count = 0
+    for p in (std_value + alt_value):
+        gid = p["game_id"]
+        pid = p["player_id"]
+        game_box = boxscores.get(gid)
+        if not game_box:
+            continue
+        player_entries = game_box.get("players", []) if isinstance(game_box, dict) else game_box
+        actual_entry = next((pe for pe in player_entries if pe.get("player", {}).get("id") == pid), None)
+        if not actual_entry:
+            continue
+            
+        actual_pts = float(actual_entry.get("points") or 0.0)
+        actual_ast = float(actual_entry.get("assists") or 0.0)
+        reb_dict = actual_entry.get("rebounds") or {}
+        actual_reb = float(reb_dict.get("total") if isinstance(reb_dict, dict) else reb_dict or 0.0)
         
-        graded_std = []
-        for p in std_value:
-            gid = p["game_id"]
-            pid = p["player_id"]
-            game_box = boxscores.get(gid)
-            if not game_box:
-                continue
-            player_entries = game_box.get("players", []) if isinstance(game_box, dict) else game_box
-            
-            actual_entry = next((pe for pe in player_entries if pe.get("player", {}).get("id") == pid), None)
-            if not actual_entry:
-                continue
-                
-            actual_pts = float(actual_entry.get("points") or 0.0)
-            actual_ast = float(actual_entry.get("assists") or 0.0)
-            reb_dict = actual_entry.get("rebounds") or {}
-            actual_reb = float(reb_dict.get("total") if isinstance(reb_dict, dict) else reb_dict or 0.0)
-            
-            ptype = p["prop_type"]
-            val = actual_pts if ptype == "POINTS" else (actual_reb if ptype == "REBOUNDS" else (actual_pts + actual_ast))
-            
-            won = (val > p["line"]) if p["direction"] == "OVER" else (val < p["line"])
-            push = (val == p["line"])
-            profit = (p["odds"] - 1.0) if won else (0.0 if push else -1.0)
-            
-            p["actual_value"] = val
-            p["won"] = won
-            p["push"] = push
-            p["profit"] = profit
-            graded_std.append(p)
-            
+        ptype = p["prop_type"]
+        val = actual_pts if ptype == "POINTS" else (actual_reb if ptype == "REBOUNDS" else (actual_pts + actual_ast))
+        
+        won = (val > p["line"]) if p["direction"] == "OVER" else (val < p["line"])
+        push = (val == p["line"])
+        profit = (p["odds"] - 1.0) if won else (0.0 if push else -1.0)
+        
+        p["actual_value"] = val
+        p["won"] = won
+        p["push"] = push
+        p["profit"] = profit
+        graded_count += 1
+
+    graded_std = [p for p in std_value if p.get("won") is not None]
+    if graded_std:
+        print("\n" + "=" * 85)
+        print("  GRADING COMPLETED MODEL PROPS AGAINST OFFICIAL FINAL BOXSCORES")
+        print("=" * 85)
         wins = sum(1 for p in graded_std if p["won"])
         losses = sum(1 for p in graded_std if not p["won"] and not p["push"])
         pushes = sum(1 for p in graded_std if p["push"])
@@ -277,7 +275,7 @@ def run():
         tot_prof = sum(p["profit"] for p in graded_std)
         roi = (tot_prof / len(graded_std) * 100.0) if graded_std else 0.0
         
-        print(f"\n[STANDARD 2-WAY PROPS FINAL SCORECARD]:")
+        print(f"\n[STANDARD 2-WAY PROPS SCORECARD]:")
         print(f"  Bets: {len(graded_std)} | Record: {wins}-{losses}-{pushes} | Win Rate: {wr:.1f}% | Profit: {tot_prof:+.2f}u | ROI: {roi:+.2f}%")
         
     # Print Top Standard Value Plays

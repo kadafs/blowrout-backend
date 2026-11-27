@@ -149,12 +149,16 @@ def fetch_via_standings(league_id, season, pace_pivot, eff_pivot):
                 if isinstance(pts_for, dict):
                     ppg = pts_for.get("average", {})
                     ppg = ppg.get("total", 0) if isinstance(ppg, dict) else ppg
+                elif isinstance(pts_for, (int, float)) and games_played:
+                    ppg = float(pts_for) / float(games_played)
                 else:
                     ppg = 0
 
                 if isinstance(pts_agn, dict):
                     opp_ppg = pts_agn.get("average", {})
                     opp_ppg = opp_ppg.get("total", 0) if isinstance(opp_ppg, dict) else opp_ppg
+                elif isinstance(pts_agn, (int, float)) and games_played:
+                    opp_ppg = float(pts_agn) / float(games_played)
                 else:
                     opp_ppg = 0
 

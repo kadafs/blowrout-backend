@@ -877,13 +877,18 @@ def process_leagues(target_league_id=None):
         cur_month = now.month
         
         summer_league_ids = {"13", "66", "76", "222", "207", "208", "209", "210", "211", "212", "213", "214", "215", "216"}
+        tournament_cycle_leagues = {"281"}
         lid_str = str(league_id)
 
         # Calendar-year summer leagues run within a single calendar year (e.g. WNBA, NBL1, CEBL).
         # Global winter leagues run across calendar year boundaries (e.g. Sept to May).
+        # Multi-year tournament cycles (e.g. World Cup 281) run across 2-3 years.
         is_calendar_year = (lid_str in summer_league_ids)
+        is_tournament_cycle = (lid_str in tournament_cycle_leagues)
 
-        if is_calendar_year:
+        if is_tournament_cycle:
+            cutoff_date = datetime.datetime(cur_year - 2, 1, 1)
+        elif is_calendar_year:
             cutoff_date = datetime.datetime(cur_year, 1, 1)
         else:
             # Global Winter Leagues default
@@ -894,7 +899,7 @@ def process_leagues(target_league_id=None):
                 
         current_season_games = [g for g in merged_games if g["_parsed_date"] >= cutoff_date]
         # In early season (or autumn months for winter leagues), anchor with prior season
-        is_early_season = (len(current_season_games) < 40) or (not is_calendar_year and cur_month in (8, 9, 10, 11)) or (league_id in (116, 423) and len(current_season_games) < 1000)
+        is_early_season = not is_tournament_cycle and ((len(current_season_games) < 40) or (not is_calendar_year and cur_month in (8, 9, 10, 11)) or (league_id in (116, 423) and len(current_season_games) < 1000))
 
         # Build per-team current-season game count for UI display
         from collections import Counter as _Counter

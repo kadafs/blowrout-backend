@@ -1099,9 +1099,12 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
             prev_h = g_team
             h_prev_gp = g_team.get("games_played", g_team.get("games", 0))
 
-    # STRICT GUARD: Require either 2+ current games OR a valid prior season baseline (>= 8 games)
-    a_has_baseline = (a_curr_gp >= 2) or (a_prev_gp >= 8)
-    h_has_baseline = (h_curr_gp >= 2) or (h_prev_gp >= 8)
+    # STRICT GUARD:
+    # NCAA: Require 2+ current games OR valid prior season baseline (>= 8 games)
+    # Non-NCAA / International tournaments: Require 2+ current games OR prior baseline (>= 3 games) OR total games >= 2
+    min_prior = 8 if is_ncaa else 3
+    a_has_baseline = (a_curr_gp >= 2) or (a_prev_gp >= min_prior) or (not is_ncaa and a_tot_gp >= 2)
+    h_has_baseline = (h_curr_gp >= 2) or (h_prev_gp >= min_prior) or (not is_ncaa and h_tot_gp >= 2)
 
     if not a_has_baseline or not h_has_baseline:
         return None, f"Insufficient games played & no prior season baseline. {away_name} (curr={a_curr_gp}, prev={a_prev_gp}), {home_name} (curr={h_curr_gp}, prev={h_prev_gp}). Skipping."
@@ -1113,7 +1116,7 @@ def predict_game(away_name, home_name, away_id, home_id, team_stats, config, con
         prev_s = team_s.get("previous_season")
         prev_gp = prev_s.get("games_played", prev_s.get("games", 0)) if prev_s else max(0, tot_gp - gp)
         
-        if prev_s and prev_gp >= 8 and gp < MIN_GAMES_TRUST:
+        if prev_s and prev_gp >= min_prior and gp < MIN_GAMES_TRUST:
             # Shift smoothly from prior to current over MIN_GAMES_TRUST (8) games
             w_curr = max(0.0, min(1.0, gp / float(MIN_GAMES_TRUST)))
             w_prev = 1.0 - w_curr

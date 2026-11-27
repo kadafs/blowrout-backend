@@ -316,8 +316,8 @@ def main():
         print(f"--- {sport.upper()} ---")
         copied = copy_sport_data(sport, date_filter=args.date)
         all_copied[sport] = copied
-        cleanup_old_files(sport, keep_days=5)
-        update_dates_index(sport, keep_days=5)
+        cleanup_old_files(sport, keep_days=7)
+        update_dates_index(sport, keep_days=7)
         print()
 
     if args.no_push:

@@ -104,12 +104,12 @@ jobs:
           echo "Copying predictions to dashboard..."
           mkdir -p sports-analytics/public/data/basketball
           
-          # Copy up to 8 latest prediction files (up to 5 dates with v1/v2)
-          ls -t data/basketball/universal_predictions_*.json 2>/dev/null | head -8 | xargs -I {} cp {} sports-analytics/public/data/basketball/ || true
+          # Copy up to 14 latest prediction files (up to 7 dates with v1/v2)
+          ls -t data/basketball/universal_predictions_*.json 2>/dev/null | head -14 | xargs -I {} cp {} sports-analytics/public/data/basketball/ || true
           
-          # Clean up prediction files older than 5 days in dashboard
+          # Clean up prediction files older than 7 days in dashboard
           cd sports-analytics/public/data/basketball
-          ls -t universal_predictions_*.json 2>/dev/null | tail -n +9 | xargs rm -f || true
+          ls -t universal_predictions_*.json 2>/dev/null | tail -n +15 | xargs rm -f || true
           cd ../../../..
           
           # Copy leaderboards, SDI index, and player props

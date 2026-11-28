@@ -214,6 +214,10 @@ def run():
     print(f"  TOTAL PLAYER PROP OPPORTUNITIES EVALUATED: {len(all_evaluated_props)}")
     print("=" * 85)
     
+    os.makedirs(PROPS_OUTPUT_DIR, exist_ok=True)
+    out_file = os.path.join(PROPS_OUTPUT_DIR, f"nba_player_props_{args.date}.json")
+    latest_file = os.path.join(PROPS_OUTPUT_DIR, "nba_player_props_latest.json")
+
     # Deduplicate redundant lines for same player & prop type (take best odds)
     best_props_map = {}
     for p in all_evaluated_props:
@@ -227,7 +231,51 @@ def run():
     std_value = [p for p in value_plays if 1.60 <= p["odds"] <= 2.30]
     alt_value = [p for p in value_plays if p["odds"] > 2.30]
     
-    print(f"\nIdentified {len(value_plays)} Total Value Plays:")
+    # Immutability & Offline Grading Guard:
+    # If no live odds were returned (e.g. games already underway or finished, bookmakers pulled odds),
+    # load previously evaluated props from disk so we can grade completed games against boxscores.
+    existing_payload = None
+    if os.path.exists(out_file):
+        try:
+            with open(out_file, "r", encoding="utf-8") as fp:
+                existing_payload = json.load(fp)
+        except Exception as e:
+            print(f"[!] Warning reading existing file {out_file}: {e}")
+
+    if len(all_evaluated_props) == 0 and existing_payload:
+        existing_std = existing_payload.get("standard_value_plays", [])
+        existing_alt = existing_payload.get("alt_value_plays", [])
+        if existing_std or existing_alt:
+            print(f"\n[!] Live pre-game odds unavailable (games already finished or underway).")
+            print(f"[✓] Preserving {len(existing_std)} standard and {len(existing_alt)} alt evaluated props from {out_file} for grading.")
+            std_value = existing_std
+            alt_value = existing_alt
+            total_evaluated_count = existing_payload.get("total_evaluated", len(std_value) + len(alt_value))
+            unique_props_count = existing_payload.get("unique_props_count", len(std_value) + len(alt_value))
+        else:
+            total_evaluated_count = 0
+            unique_props_count = 0
+    elif len(all_evaluated_props) > 0 and existing_payload:
+        # If new odds exist, merge with existing finished game plays so finished games aren't lost while late games are still running
+        existing_std_map = {f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}": p for p in existing_payload.get("standard_value_plays", [])}
+        for p in std_value:
+            key = f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}"
+            existing_std_map[key] = p
+        std_value = list(existing_std_map.values())
+
+        existing_alt_map = {f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}": p for p in existing_payload.get("alt_value_plays", [])}
+        for p in alt_value:
+            key = f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}"
+            existing_alt_map[key] = p
+        alt_value = list(existing_alt_map.values())
+
+        unique_props_count = max(len(unique_props), existing_payload.get("unique_props_count", 0))
+        total_evaluated_count = max(len(all_evaluated_props), existing_payload.get("total_evaluated", 0))
+    else:
+        unique_props_count = len(unique_props)
+        total_evaluated_count = len(all_evaluated_props)
+
+    print(f"\nIdentified {len(std_value) + len(alt_value)} Total Value Plays:")
     print(f"  - Standard 2-Way Lines (Odds 1.60-2.30): {len(std_value)} plays")
     print(f"  - Alt / Milestone Plus-Money Lines (Odds > 2.30): {len(alt_value)} plays")
     
@@ -256,6 +304,7 @@ def run():
         push = (val == p["line"])
         profit = (p["odds"] - 1.0) if won else (0.0 if push else -1.0)
         
+        p["status"] = "FT"
         p["actual_value"] = val
         p["won"] = won
         p["push"] = push
@@ -290,28 +339,41 @@ def run():
         line_str = f"{vp['direction']} {vp['line']}"
         print(f"{idx:<3} {vp['player']:<20} {vp['game']:<26} {vp['prop_type']:<14} {line_str:<12} {vp['projected_value']:>5.1f} {vp['odds']:>5.2f} {vp['win_probability']:>5.1f}% {vp['edge_pct']:>+5.1f}% {vp['ev_pct']:>+5.1f}%")
         
-    # Save output to JSON
-    os.makedirs(PROPS_OUTPUT_DIR, exist_ok=True)
-    out_file = os.path.join(PROPS_OUTPUT_DIR, f"nba_player_props_{args.date}.json")
-    latest_file = os.path.join(PROPS_OUTPUT_DIR, "nba_player_props_latest.json")
-    
     payload = {
         "date": args.date,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "total_evaluated": len(all_evaluated_props),
-        "unique_props_count": len(unique_props),
+        "total_evaluated": total_evaluated_count,
+        "unique_props_count": unique_props_count,
         "standard_value_count": len(std_value),
         "alt_value_count": len(alt_value),
         "standard_value_plays": std_value,
         "alt_value_plays": alt_value
     }
     
-    with open(out_file, "w", encoding="utf-8") as fp:
-        json.dump(payload, fp, indent=2, ensure_ascii=False)
-    with open(latest_file, "w", encoding="utf-8") as fp:
-        json.dump(payload, fp, indent=2, ensure_ascii=False)
+    # Immutability Guard: Never overwrite a file that had plays with an empty payload
+    if len(std_value) == 0 and len(alt_value) == 0 and os.path.exists(out_file) and existing_payload and (existing_payload.get("standard_value_count", 0) > 0 or existing_payload.get("alt_value_count", 0) > 0):
+        print(f"[!] Safety Guard Triggered: Refusing to overwrite populated {out_file} with empty payload.")
+    else:
+        with open(out_file, "w", encoding="utf-8") as fp:
+            json.dump(payload, fp, indent=2, ensure_ascii=False)
+        print(f"\n[✓] Results successfully exported to:\n  - {out_file}")
+            
+    if len(std_value) > 0 or len(alt_value) > 0:
+        with open(latest_file, "w", encoding="utf-8") as fp:
+            json.dump(payload, fp, indent=2, ensure_ascii=False)
+        print(f"  - {latest_file}")
         
-    print(f"\n[✓] Results successfully exported to:\n  - {out_file}\n  - {latest_file}")
+    # Also sync to local Sports Analytics dashboard if present
+    dashboard_props_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "Sports Analytics", "public", "data", "basketball"))
+    if os.path.exists(dashboard_props_dir):
+        dash_out = os.path.join(dashboard_props_dir, f"nba_player_props_{args.date}.json")
+        dash_latest = os.path.join(dashboard_props_dir, "nba_player_props_latest.json")
+        if len(std_value) > 0 or len(alt_value) > 0:
+            with open(dash_out, "w", encoding="utf-8") as fp:
+                json.dump(payload, fp, indent=2, ensure_ascii=False)
+            with open(dash_latest, "w", encoding="utf-8") as fp:
+                json.dump(payload, fp, indent=2, ensure_ascii=False)
+            print(f"  - (Dashboard Synced) {dash_out}")
 
 if __name__ == "__main__":
     run()

@@ -80,7 +80,7 @@ jobs:
           python scripts/enrich_predictions_sdi.py || true
 
           echo "--- 4e. Running NBA Quantitative Player Props Engine ---"
-          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 30 || true
+          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 150 || true
 
       - name: Commit local data changes
         run: |

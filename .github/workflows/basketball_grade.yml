@@ -54,7 +54,7 @@ jobs:
           python build_basketball_signal_stats.py
 
           echo "--- Grading NBA Quantitative Player Props ---"
-          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 0 || true
+          python scripts/run_nba_props_daily.py $DATE_FLAG --backfill 20 || true
 
       - name: Commit and push graded files
         run: |

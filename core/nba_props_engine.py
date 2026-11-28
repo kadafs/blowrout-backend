@@ -94,10 +94,11 @@ def fetch_game_boxscore(game_id, api_key):
         print(f"  [!] Error fetching boxscore {game_id}: {e}")
     return []
 
-def build_player_profiles(boxscores_cache, max_date=None):
+def build_player_profiles(boxscores_cache, max_date=None, min_games=5):
     """
     Builds rolling per-minute and per-game averages for every player.
     If max_date is specified (e.g. '2026-11-26'), strictly excludes games on or after that date.
+    min_games ensures sufficient sample size (defaults to 5 games).
     """
     player_logs = {}
     
@@ -158,7 +159,7 @@ def build_player_profiles(boxscores_cache, max_date=None):
     for pid, data in player_logs.items():
         glist = data["games"]
         n_games = len(glist)
-        if n_games < 2:
+        if n_games < min_games:
             continue
             
         recent = glist[-5:]
@@ -300,6 +301,19 @@ def evaluate_prop_opportunity(player_profile, prop_type, line, odds, direction="
     edge = win_prob - implied_prob
     ev = (win_prob * odds) - 1.0
     
+    # Sanity Guards:
+    # 1. Extreme divergence guard: if projection deviates from market line by >45% and >=5 pts,
+    # it strongly indicates missing context (e.g. returning star taking back usage, blowout script).
+    line_div = abs(proj_val - line) / max(line, 1.0)
+    is_excessive_divergence = (line_div > 0.45 and abs(proj_val - line) >= 5.0 and odds <= 2.30)
+    
+    # 2. Extreme EV trap guard: in standard 2-way props (odds 1.60-2.30), genuine edges rarely exceed 45%.
+    # EV >= 50% on standard lines overwhelmingly indicates model over-fitting or stale minutes.
+    is_extreme_ev_trap = (ev >= 0.50 and odds <= 2.30)
+    
+    is_value = (edge >= 0.05 and ev >= 0.05 and not is_excessive_divergence and not is_extreme_ev_trap)
+    is_high_conviction = (is_value and edge >= 0.08 and 0.10 <= ev <= 0.45)
+    
     return {
         "player_id": player_profile["id"],
         "player": player_profile["name"],
@@ -313,6 +327,6 @@ def evaluate_prop_opportunity(player_profile, prop_type, line, odds, direction="
         "implied_probability": round(implied_prob * 100.0, 1),
         "edge_pct": round(edge * 100.0, 1),
         "ev_pct": round(ev * 100.0, 1),
-        "is_value": (edge >= 0.05 and ev >= 0.05),
-        "is_high_conviction": (edge >= 0.08 and ev >= 0.10)
+        "is_value": is_value,
+        "is_high_conviction": is_high_conviction
     }

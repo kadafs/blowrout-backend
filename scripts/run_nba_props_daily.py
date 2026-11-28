@@ -137,7 +137,7 @@ def run():
     today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     parser = argparse.ArgumentParser(description="NBA Player Props Model Runner")
     parser.add_argument("--date", type=str, default=today_str, help="Target date YYYY-MM-DD")
-    parser.add_argument("--backfill", type=int, default=20, help="Max games to backfill")
+    parser.add_argument("--backfill", type=int, default=150, help="Max games to backfill")
     args = parser.parse_args()
     
     api_key = get_api_key()
@@ -226,8 +226,17 @@ def run():
             best_props_map[bk] = p
     unique_props = list(best_props_map.values())
     
-    # Filter Value Plays
-    value_plays = [p for p in unique_props if p["is_value"]]
+    # Filter Value Plays: Select strictly the SINGLE BEST value play per player per prop type (highest EV)
+    # This prevents correlated line stacking where multiple alternate lines on the same player lose simultaneously.
+    best_value_map = {}
+    for p in unique_props:
+        if not p.get("is_value"):
+            continue
+        key = f"{p['player_id']}_{p['prop_type']}"
+        if key not in best_value_map or p["ev_pct"] > best_value_map[key]["ev_pct"]:
+            best_value_map[key] = p
+            
+    value_plays = list(best_value_map.values())
     std_value = [p for p in value_plays if 1.60 <= p["odds"] <= 2.30]
     alt_value = [p for p in value_plays if p["odds"] > 2.30]
     
@@ -247,27 +256,51 @@ def run():
         existing_alt = existing_payload.get("alt_value_plays", [])
         if existing_std or existing_alt:
             print(f"\n[!] Live pre-game odds unavailable (games already finished or underway).")
-            print(f"[✓] Preserving {len(existing_std)} standard and {len(existing_alt)} alt evaluated props from {out_file} for grading.")
-            std_value = existing_std
-            alt_value = existing_alt
+            # Apply single-best deduplication so multiple alternate lines for the same player are not double-counted
+            dedup_std = {}
+            for p in existing_std:
+                key = f"{p['player_id']}_{p['prop_type']}"
+                if key not in dedup_std or p.get("ev_pct", 0) > dedup_std[key].get("ev_pct", 0):
+                    dedup_std[key] = p
+            dedup_alt = {}
+            for p in existing_alt:
+                key = f"{p['player_id']}_{p['prop_type']}"
+                if key not in dedup_alt or p.get("ev_pct", 0) > dedup_alt[key].get("ev_pct", 0):
+                    dedup_alt[key] = p
+            std_value = list(dedup_std.values())
+            alt_value = list(dedup_alt.values())
+            print(f"[✓] Preserving {len(std_value)} standard and {len(alt_value)} alt evaluated props from {out_file} (single-best per player) for grading.")
             total_evaluated_count = existing_payload.get("total_evaluated", len(std_value) + len(alt_value))
             unique_props_count = existing_payload.get("unique_props_count", len(std_value) + len(alt_value))
         else:
             total_evaluated_count = 0
             unique_props_count = 0
     elif len(all_evaluated_props) > 0 and existing_payload:
-        # If new odds exist, merge with existing finished game plays so finished games aren't lost while late games are still running
-        existing_std_map = {f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}": p for p in existing_payload.get("standard_value_plays", [])}
-        for p in std_value:
-            key = f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}"
-            existing_std_map[key] = p
-        std_value = list(existing_std_map.values())
+        evaluated_game_ids = set(str(p.get("game_id")) for p in all_evaluated_props)
+        # Keep existing plays ONLY for games that were NOT re-evaluated (e.g. finished games where odds were pulled)
+        preserved_std = [
+            p for p in existing_payload.get("standard_value_plays", [])
+            if str(p.get("game_id")) not in evaluated_game_ids
+        ]
+        preserved_alt = [
+            p for p in existing_payload.get("alt_value_plays", [])
+            if str(p.get("game_id")) not in evaluated_game_ids
+        ]
 
-        existing_alt_map = {f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}": p for p in existing_payload.get("alt_value_plays", [])}
-        for p in alt_value:
-            key = f"{p.get('game_id')}_{p.get('player_id')}_{p.get('prop_type')}_{p.get('line')}_{p.get('direction')}"
-            existing_alt_map[key] = p
-        alt_value = list(existing_alt_map.values())
+        # Combine fresh value plays with preserved finished game plays, maintaining single-best line per player
+        merged_std_map = {}
+        for p in (preserved_std + std_value):
+            key = f"{p.get('player_id')}_{p.get('prop_type')}"
+            if key not in merged_std_map or p.get("ev_pct", 0) > merged_std_map[key].get("ev_pct", 0):
+                merged_std_map[key] = p
+        std_value = list(merged_std_map.values())
+
+        merged_alt_map = {}
+        for p in (preserved_alt + alt_value):
+            key = f"{p.get('player_id')}_{p.get('prop_type')}"
+            if key not in merged_alt_map or p.get("ev_pct", 0) > merged_alt_map[key].get("ev_pct", 0):
+                merged_alt_map[key] = p
+        alt_value = list(merged_alt_map.values())
 
         unique_props_count = max(len(unique_props), existing_payload.get("unique_props_count", 0))
         total_evaluated_count = max(len(all_evaluated_props), existing_payload.get("total_evaluated", 0))

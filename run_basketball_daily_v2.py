@@ -407,7 +407,11 @@ def classify_basketball_segment(country, league, home="", away=""):
     a = (away or "").upper().strip()
 
     # Women's leagues (quarantined/parked from Smart Edge until sample builds)
-    if "WOMEN" in l or "(W)" in l or "WNBA" in l or " FEMENIN" in l or " FRAUEN" in l or " KOBIET" in l or " W" in h or " W" in a:
+    is_women = (
+        "WOMEN" in l or "(W)" in l or "WNBA" in l or " FEMENIN" in l or " FRAUEN" in l or " KOBIET" in l
+        or h.endswith(" W") or a.endswith(" W") or h.endswith(" (W)") or a.endswith(" (W)")
+    )
+    if is_women:
         return "WOMEN", "Women's Basketball"
 
     # NBA G-League
